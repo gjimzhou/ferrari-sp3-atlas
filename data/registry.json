@@ -631,8 +631,12 @@
       "May 2026 — Sold at Broad Arrow's Villa d'Este auction."
     ],
     "notes": "The auction source publishes the VIN and build detail. No image is embedded in this package because a clean reusable source file was not obtained.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/sL4X-1-5M3B07/1-CKL499/253_01.jpg?width=880&height=880&resizeinbox=1&backgroundcolor=EEEEEE"
+    ],
+    "credits": [
+      "Broad Arrow Auctions"
+    ],
     "sources": [
       [
         "Broad Arrow auction listing",
@@ -643,12 +647,17 @@
         "https://www.ultimatecarpage.com/chassis/4941/Ferrari-Daytona-SP3-286921.html"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-PIERO-NART",
@@ -746,20 +755,53 @@
       "April 2025 — Delivery highlighted by Ferrari Beverly Hills."
     ],
     "notes": "Dealer-documented configuration; VIN remains private.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/FBV-Daytona-SP3-Main.jpg?crop=center&height=2222&v=1767077662&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/FBV-Daytona-SP3-2-800x593.jpg?v=1766491890",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/FBV-Daytona-SP3-1-800x593.jpg?v=1766491893",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/FBV-Daytona-SP3-4.jpg?v=1766491897",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/FBV-Daytona-SP3-6.jpg?v=1766491900",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/FBV-Daytona-SP3-3.jpg?v=1766491904",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/FBV-Daytona-SP3-5.jpg?v=1766491908"
+    ],
+    "credits": [
+      "Ferrari Beverly Hills / duPont REGISTRY",
+      "Ferrari Beverly Hills / duPont REGISTRY",
+      "Ferrari Beverly Hills / duPont REGISTRY",
+      "Ferrari Beverly Hills / duPont REGISTRY",
+      "Ferrari Beverly Hills / duPont REGISTRY",
+      "Ferrari Beverly Hills / duPont REGISTRY",
+      "Ferrari Beverly Hills / duPont REGISTRY"
+    ],
     "sources": [
       [
         "duPont REGISTRY / Ferrari Beverly Hills",
         "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 90,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/",
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/",
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/",
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/",
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/",
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/",
+      "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5",
+      "公开来源图集 · 6",
+      "公开来源图集 · 7"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-SEATTLE-GARNER",
@@ -792,20 +834,41 @@
       "2025 — Profiled by Ferrari after delivery."
     ],
     "notes": "One of two separately documented Seattle friendship cars.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-desk",
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-gallery3",
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-gallery4",
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-interna"
+    ],
+    "credits": [
+      "Tyler Gourley / Ferrari",
+      "Tyler Gourley / Ferrari",
+      "Tyler Gourley / Ferrari",
+      "Tyler Gourley / Ferrari"
+    ],
     "sources": [
       [
         "Ferrari editorial — Seattle friends",
         "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Ferrari 官方文章与照片复核。",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 93,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s",
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s",
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s",
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s"
+    ],
+    "photo_captions": [
+      "Ferrari 官方车主专题（含双车合影） · 1",
+      "Ferrari 官方车主专题（含双车合影） · 4",
+      "Ferrari 官方车主专题（含双车合影） · 5",
+      "Ferrari 官方车主专题（含双车合影） · 6"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-SEATTLE-BERNIER",
@@ -840,20 +903,41 @@
       "2025 — Profiled by Ferrari after delivery."
     ],
     "notes": "One of two separately documented Seattle friendship cars.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-desk",
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-gallery1",
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-gallery2",
+      "https://ferrari.scene7.com/is/image/ferrari/Seattle-daytona-67-interna"
+    ],
+    "credits": [
+      "Tyler Gourley / Ferrari",
+      "Tyler Gourley / Ferrari",
+      "Tyler Gourley / Ferrari",
+      "Tyler Gourley / Ferrari"
+    ],
     "sources": [
       [
         "Ferrari editorial — Seattle friends",
         "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Ferrari 官方文章与照片复核。",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 93,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s",
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s",
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s",
+      "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s"
+    ],
+    "photo_captions": [
+      "Ferrari 官方车主专题（含双车合影） · 1",
+      "Ferrari 官方车主专题（含双车合影） · 2",
+      "Ferrari 官方车主专题（含双车合影） · 3",
+      "Ferrari 官方车主专题（含双车合影） · 6"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-BP-GREEN",
@@ -885,8 +969,46 @@
       "2025 — Listed by F1rst Motors in Dubai."
     ],
     "notes": "Dealer and press documented, but VIN and full interior specification were not published.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://luxurypulse.com/img/pictures/679df1259b46dcopie.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125a7ef1-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125b1792-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125bb900-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125ca699-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125d40bd-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125ddc75-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125e7b66-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df125f1fbe-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df1260785f-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df12611038-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df1261a7f4-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df12624d74-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df12633d4a-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df1263d673-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df1264842c-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df12659e3e-blob.jpeg",
+      "https://luxurypulse.com/img/pictures/679df12665939-blob.jpeg"
+    ],
+    "credits": [
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse",
+      "F1rst Motors / LuxuryPulse"
+    ],
     "sources": [
       [
         "Luxury Pulse listing summary",
@@ -897,12 +1019,51 @@
         "https://f1rstmotors.com/news/our-daytona-sp3-is-signed-by-leclerc-and-sainz"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 88,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
+      "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5",
+      "公开来源图集 · 6",
+      "公开来源图集 · 7",
+      "公开来源图集 · 8",
+      "公开来源图集 · 9",
+      "公开来源图集 · 10",
+      "公开来源图集 · 11",
+      "公开来源图集 · 12",
+      "公开来源图集 · 13",
+      "公开来源图集 · 14",
+      "公开来源图集 · 15",
+      "公开来源图集 · 16",
+      "公开来源图集 · 17",
+      "公开来源图集 · 18"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-COMMUNITY-284860",
@@ -966,21 +1127,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Palm Beach, Florida, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/950730",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/950731",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/950732",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/950733",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/950734"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-79530",
@@ -1005,21 +1191,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Palm Beach, Florida, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/591169",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/591170",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/591171",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/591172",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/591173"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-75890",
@@ -1044,21 +1255,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Munich, Bavaria, Germany（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/543920",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/543921",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/543922",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/543923",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/543924"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-91676",
@@ -1083,21 +1319,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Jupiter, Florida, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/698394",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/747500",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1299831",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1299838",
+      "https://exclusivecarregistry.com/images/common/standard-blank-image.jpg"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-66577",
@@ -1122,21 +1383,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Moscow, Moscow, Russia（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/937203",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/937204",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/937205",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/937206",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/937207"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-30308",
@@ -1161,21 +1447,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Maranello, Emilia-Romagna, Italy（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/131110",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/131111",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/131112",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/131113",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/131114"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-CHARLES-LECLERC",
@@ -1369,10 +1680,12 @@
     ],
     "notes": "The owner, delivery timing, exterior concept and interior colour are directly described in public coverage.",
     "photos": [
-      "assets/photos/SP3-DAVID-LEE-1.webp"
+      "assets/photos/SP3-DAVID-LEE-1.webp",
+      "https://news.dupontregistry.com/cdn/shop/articles/FCDL.jpg?crop=center&height=2222&v=1767076039&width=3000"
     ],
     "credits": [
-      "Jay Leno's Garage / duPont REGISTRY"
+      "Jay Leno's Garage / duPont REGISTRY",
+      "Ferrari Collector David Lee / duPont REGISTRY"
     ],
     "sources": [
       [
@@ -1382,18 +1695,25 @@
       [
         "RM Sotheby's — owner identified in editorial",
         "https://rmsothebys.com/stories/a-class-of-its-own/"
+      ],
+      [
+        "Ferrari Collector David Lee / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-collector-david-lee-takes-delivery-of-his-green-carbon-daytona-sp3"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 95,
     "photo_sources": [
-      "https://news.dupontregistry.com/blogs/jay-lenos-garage/jay-leno-reviews-david-lees-ferrari-daytona-sp3"
+      "https://news.dupontregistry.com/blogs/jay-lenos-garage/jay-leno-reviews-david-lees-ferrari-daytona-sp3",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-collector-david-lee-takes-delivery-of-his-green-carbon-daytona-sp3"
     ],
     "photo_captions": [
-      "历史图库照片"
-    ]
+      "历史图库照片",
+      "公开来源图集 · 1"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-GORDON-RAMSAY",
@@ -1678,8 +1998,24 @@
       "2026 — Publicly listed by Carrio Motor Cars with 230 miles."
     ],
     "notes": "The number 294531 appears in dealer metadata, but this project does not label it a chassis number without an independently published VIN.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Daytona-SP3-Main_f99f68a4-b07d-4df8-af79-0b2c48b10512.jpg?crop=center&height=2222&v=1784026295&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/2023-ferrari-daytona-sp3-0-1413253024-800x600.webp",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/2023-ferrari-daytona-sp3-0-1059704129-800x600.webp",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/2023-ferrari-daytona-sp3-0-277432917-800x600.webp",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/2023-ferrari-daytona-sp3-0-1542960736-800x600.webp",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/2023-ferrari-daytona-sp3-0-2042042569-800x600.webp",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/2023-ferrari-daytona-sp3-0-1651059040-1-800x600.webp"
+    ],
+    "credits": [
+      "Carrio Motor Cars / duPont REGISTRY",
+      "Carrio Motor Cars / duPont REGISTRY",
+      "Carrio Motor Cars / duPont REGISTRY",
+      "Carrio Motor Cars / duPont REGISTRY",
+      "Carrio Motor Cars / duPont REGISTRY",
+      "Carrio Motor Cars / duPont REGISTRY",
+      "Carrio Motor Cars / duPont REGISTRY"
+    ],
     "sources": [
       [
         "Carrio Motor Cars listing",
@@ -1690,12 +2026,29 @@
         "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 92,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars",
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars",
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars",
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars",
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars",
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars",
+      "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5",
+      "公开来源图集 · 6",
+      "公开来源图集 · 7"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-STRATSTONE-ROSSO-CARBON",
@@ -1726,20 +2079,45 @@
       "December 2024 — Delivery highlighted by Stratstone Ferrari personnel."
     ],
     "notes": "Dealer-originated public record; VIN and complete build sheet are not available.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://media.licdn.com/dms/image/v2/D5622AQElaf6vpA7D7g/feedshare-shrink_800/feedshare-shrink_800/0/1733317276735?e=2147483647&v=beta&t=3S2btm-zp2Pe7lIM5kLx6052IftfwnRcoy6q2ebHbBA",
+      "https://media.licdn.com/dms/image/v2/D5622AQFL1HRljMr5Iw/feedshare-image-high-res/feedshare-image-high-res/0/1733317170136?e=2147483647&v=beta&t=gIlYHlAUorlMB4AJuf3Tjk5mx7ZyLorXIhlVEbxyuVU",
+      "https://media.licdn.com/dms/image/v2/D5622AQHuRPvn-_NHuA/feedshare-shrink_800/feedshare-shrink_800/0/1733317400065?e=2147483647&v=beta&t=3RX0tyJYRaPVohy9NvLVYaUbxNtQdCq48sRxQukZEJI",
+      "https://media.licdn.com/dms/image/v2/D5622AQGE-gFXm2vOew/feedshare-image-high-res/feedshare-image-high-res/0/1733317390412?e=2147483647&v=beta&t=ghqJaammsgf7gwxr1V1RFXRKhbVFSaeannUHDjpKs7U",
+      "https://media.licdn.com/dms/image/v2/D5622AQEblKSwSSjBuQ/feedshare-shrink_800/feedshare-shrink_800/0/1733317447941?e=2147483647&v=beta&t=9_YxwAXYj-EUvmgudoxiheyXC3xwCiLLtunxiNajWGY"
+    ],
+    "credits": [
+      "Rob Cole / Stratstone Ferrari",
+      "Rob Cole / Stratstone Ferrari",
+      "Rob Cole / Stratstone Ferrari",
+      "Rob Cole / Stratstone Ferrari",
+      "Rob Cole / Stratstone Ferrari"
+    ],
     "sources": [
       [
         "Stratstone delivery post",
         "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 82,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p",
+      "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p",
+      "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p",
+      "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p",
+      "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-RUBINO-GREENWICH",
@@ -1912,8 +2290,12 @@
       "2025–2026 — Repeatedly driven and filmed by the owner."
     ],
     "notes": "Public sources describe this as the last completed car in the original 599-customer run. That production-order claim is retained as reported, not as a factory-published plaque number.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://thesupercarblog.com/wp-content/uploads/2025/04/Final-Ferrari-Daytona-SP3-one-off-spec-2.jpg"
+    ],
+    "credits": [
+      "@powerslidelover / The Supercar Blog"
+    ],
     "sources": [
       [
         "The Supercar Blog — final Verde Pallido car",
@@ -1928,12 +2310,17 @@
         "https://supercars.agent4stars.com/property/power-slide-lover-ferrari-porsche-collector-italy/"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 91,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://www.thesupercarblog.com/final-ferrari-daytona-sp3-is-ready-for-delivery-and-its-truly-a-one-off/"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-77928",
@@ -1958,21 +2345,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Brisbane, Queensland, Australia（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/1502582",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1502583",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1502584",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1607695",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1607696"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 87,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-78501",
@@ -1997,21 +2409,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists the car as 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; this database treats that field as an ECR data error rather than a unique mechanical specification. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "ECR publicly lists the car as 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; this database treats that field as an ECR data error rather than a unique mechanical specification. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Swindon, England, United Kingdom（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/575944",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/575945",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/575946",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/575947",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/575948"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 85,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-85856",
@@ -2036,21 +2473,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Herford, North Rhine-Westphalia, Germany（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/645853",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/652151",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/652152",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/652153",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/652154"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 87,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-100373",
@@ -2075,21 +2537,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; it is retained as a separate research/test-vehicle record. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; it is retained as a separate research/test-vehicle record. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Gambara, Lombardy, Italy（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/788481",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/788482",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/788483",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/777827",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/779235"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "prototype",
     "owner_public": false,
     "sort_weight": 82,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-53050",
@@ -2114,21 +2601,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Cannes, Provence-Alpes-Côte d’Azur, France（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/319637",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/319638",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/319639",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/319640",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/334633"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 68,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-75106",
@@ -2153,21 +2665,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Melbourne, Victoria, Australia（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/683123",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/566001",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/683124",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/566002",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/566003"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 72,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-72780",
@@ -2192,21 +2729,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Miami, Florida, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/521252",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/521251",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/521254",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/521250",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/512771"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 72,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-52122",
@@ -2231,21 +2793,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Hengelo, Overijssel, Netherlands（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/788341",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/788342",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/788343",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/788344",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/788345"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 73,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-49186",
@@ -2270,21 +2857,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Colchester, England, United Kingdom（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/1230664",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1230665",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1230666",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1230667",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1230668"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-74185",
@@ -2309,21 +2921,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Tokyo, Tokyo, Japan（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/524863",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/524864",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/524865",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/524866",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/524867"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 73,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-57600",
@@ -2348,21 +2985,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Monaco, Monaco, Monaco（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/362769",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/363246",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/363247",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/363248",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/363249"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 74,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-98115",
@@ -2387,21 +3049,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Berlin, Berlin, Germany（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/760232",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/760233",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/760234",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/760235",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/760236"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 68,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-107197",
@@ -2426,21 +3113,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Dubai, Dubai, United Arab Emirates（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/845750",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/845751",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/845752",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/845753",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/845754"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-101218",
@@ -2465,21 +3177,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Dubai, Dubai, United Arab Emirates（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/785872",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/785873",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/785874",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/785875",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/785876"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 69,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-82192",
@@ -2504,21 +3241,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Dallas, Texas, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/675699",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/675700",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/675701",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/757709",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/757708"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-91942",
@@ -2543,21 +3305,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Orem, Utah, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/701103",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/701104",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/701105",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/701106",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/701107"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-127142",
@@ -2582,21 +3369,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Old Westbury, New York, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/1041156",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1041157",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1041158",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1605626",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/1384835"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "ECR-101864",
@@ -2621,21 +3433,46 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。",
-    "photos": [],
-    "credits": [],
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Danville, California, United States（不代表当前实时位置）。",
+    "photos": [
+      "https://exclusivecarregistry.com/images/gallery/car/full/793434",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/793433",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/793435",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/793440",
+      "https://exclusivecarregistry.com/images/gallery/car/thumb/793436"
+    ],
+    "credits": [
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页",
+      "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+    ],
     "sources": [
       [
         "Exclusive Car Registry public profile",
         "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864",
+      "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864"
+    ],
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "vin": "Unknown",
@@ -2848,5 +3685,954 @@
     "photo_captions": [
       "历史图库照片"
     ]
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Extra-Range Rosso Libano",
+    "interior": "Blu Elettrico Alcantara",
+    "wheels": "Matt Grigio Corsa forged wheels",
+    "calipers": "Black",
+    "mileage": "2,500 miles at listing",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-MACARI-ROSSO-LIBANO",
+    "title": "Rosso Libano / Blu Elettrico — Joe Macari",
+    "tier": "dealer",
+    "year": 2023,
+    "edition": "Original 599 production",
+    "country": "United Kingdom",
+    "city": "London",
+    "color": "Red",
+    "status": "历史经销商记录 — 官网已归入 Previously Sold",
+    "options": [
+      "Airbrushed Scuderia shields",
+      "Front suspension lift and parking cameras",
+      "Nero four-point harnesses",
+      "Gloss Nero hardtop",
+      "Matte carbon interior and exterior trim"
+    ],
+    "timeline": [
+      "June 2023 — HR Owen Ferrari London delivery, according to the dealer-syndicated description.",
+      "2026-09-21 — Joe Macari page says no longer available; no transaction price published."
+    ],
+    "notes": "经销商转刊描述记载一任车主；制造商保修至 2027、保养计划至 2030 为挂牌时陈述，非本站保证。完整 VIN 未公开。",
+    "photos": [
+      "https://www.joemacari.com/blobs/stock/10005173/images/7332535d-1c66-4dae-8e35-a862f03db0ec.jpg?width=1500&height=1000",
+      "https://www.joemacari.com/blobs/stock/10005173/images/7de5e9d0-f8f1-4481-9121-5566ae54e096.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/d8333564-affe-4e41-853a-d7d455842c4f.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/7e49cc30-6d0a-4772-ad00-5cb7feb57f0c.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/f0367221-6851-45e0-86a4-300931538840.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/99b2697b-bef2-4c09-8e18-35d155e23b04.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/6caef2bf-b9c4-45f6-b2a1-ab8699814911.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/45733249-4a30-4401-b1d3-5b0182866901.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/330d96f6-ad98-4f32-b624-3d9224e18683.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/8bd6105c-8225-4a31-ac74-074865eda879.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/03906477-e89c-4fa5-b99a-f3ea1c42d5f3.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/e8cb93a2-d6a9-4a96-9ec3-5d10d40a5a4a.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/2b99b62a-96b7-44c3-a254-317d32b89ffc.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/bad5db64-c1a2-4859-828b-93d8dbe6c618.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/7fa6d6da-6049-4510-9e49-ea669fcc884e.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/6134e16c-651b-448a-aacc-1286d894de6d.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/e02daf7a-dd0c-4667-abf9-8a341870f346.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/ac249e12-5198-4734-be8d-2120a72593eb.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/3a54992a-5449-4c6b-91a7-2aa778b2a3c7.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/3250c141-c7c9-4dd2-bb6d-5c0c61e49ddc.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/c639bc26-5dc3-4781-a8c1-a087966fcc93.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/cabf927d-20c6-4b4b-b369-c18fbd273595.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/badf5156-f171-4c03-a3c2-ec4137133ccd.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/387b2394-5342-435f-9fd4-1f321a240677.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/5242c3fb-2c61-446a-8df7-267f893f4a3d.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/40c46a04-b1c2-4f77-b4d9-2bb86578fca3.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/c1e48eb1-8ea9-4431-a9ab-90529b84cf17.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/884424e0-baee-4f74-893f-566d08d21e12.jpg?width=900&height=600",
+      "https://www.joemacari.com/blobs/stock/10005173/images/bb0262a1-8a64-4d07-89cc-c7189c476df7.jpg?width=900&height=600"
+    ],
+    "credits": [
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari",
+      "Joe Macari"
+    ],
+    "photo_sources": [
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5",
+      "公开来源图集 · 6",
+      "公开来源图集 · 7",
+      "公开来源图集 · 8",
+      "公开来源图集 · 9",
+      "公开来源图集 · 10",
+      "公开来源图集 · 11",
+      "公开来源图集 · 12",
+      "公开来源图集 · 13",
+      "公开来源图集 · 14",
+      "公开来源图集 · 15",
+      "公开来源图集 · 16",
+      "公开来源图集 · 17",
+      "公开来源图集 · 18",
+      "公开来源图集 · 19",
+      "公开来源图集 · 20",
+      "公开来源图集 · 21",
+      "公开来源图集 · 22",
+      "公开来源图集 · 23",
+      "公开来源图集 · 24",
+      "公开来源图集 · 25",
+      "公开来源图集 · 26",
+      "公开来源图集 · 27",
+      "公开来源图集 · 28",
+      "公开来源图集 · 29"
+    ],
+    "sources": [
+      [
+        "Joe Macari",
+        "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173"
+      ],
+      [
+        "Joe Macari syndicated specification",
+        "https://www.supercartrader.com/ferrari-daytona-sp3-3927"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Gloss black with white accents and white engine-cover treatment; exact paint code not stated",
+    "interior": "White quilted leather with exposed carbon trim",
+    "wheels": "Satin-finished wheels",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-BH-BLACK-WHITE",
+    "title": "Black / White — Beverly Hills tuxedo spec",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Beverly Hills, California",
+    "color": "Black",
+    "status": "公开展示记录",
+    "options": [
+      "White door roundels",
+      "White engine-cover surround",
+      "Quilted white seats"
+    ],
+    "timeline": [
+      "25 February 2025 — Published dealer delivery feature."
+    ],
+    "notes": "完整 VIN 未公开；与匿名来源索引的对应关系尚未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Daytona-SP3-Main_297915b1-9454-49bf-8bef-fd0610cb9bb1.jpg?crop=center&height=2222&v=1767077125&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-1.jpg?v=1766485008",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-3.jpg?v=1766485011",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-2.jpg?v=1766485015",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-4.jpg?v=1766485019",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-5.jpg?v=1766485022",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-6.jpg?v=1766485026",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Daytona-SP3-7.jpg?v=1766485029"
+    ],
+    "credits": [
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+      "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5",
+      "公开来源图集 · 6",
+      "公开来源图集 · 7",
+      "公开来源图集 · 8"
+    ],
+    "sources": [
+      [
+        "@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "White with red accents and exposed carbon; exact paint name not stated",
+    "interior": "Black with red accents",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Tailor Made configuration reported",
+    "id": "SP3-ATLANTA-WHITE-RED",
+    "title": "White / Red — Ferrari of Atlanta",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Atlanta, Georgia",
+    "color": "White",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "4 March 2025 — Ferrari of Atlanta public display reported."
+    ],
+    "notes": "完整 VIN 未公开；与匿名来源索引的对应关系尚未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Snapinsta.app_482004787_18483564859051581_3108396482516632278_n_1080.jpg?crop=center&height=2250&v=1767077178&width=3000"
+    ],
+    "credits": [
+      "Ferrari of Atlanta / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-atlanta-displays-daytona-sp3"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1"
+    ],
+    "sources": [
+      [
+        "Ferrari of Atlanta / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-atlanta-displays-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Rosso Corsa; Argento Nürburgring engine cover",
+    "interior": "Blue Alcantara; exact blue code not stated",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-CENTRAL-FLORIDA-ROSSO",
+    "title": "Rosso Corsa / Blue — Central Florida",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Central Florida",
+    "color": "Red",
+    "status": "公开展示记录",
+    "options": [
+      "Hand-painted Scuderia shields",
+      "Argento Nürburgring engine cover"
+    ],
+    "timeline": [
+      "16 July 2026 — Dealer display feature published."
+    ],
+    "notes": "完整 VIN 未公开；与匿名来源索引的对应关系尚未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Ferrari_Daytona_SP3_1_c96fc4bf-4184-4438-abf3-22dfd8250d53.jpg?crop=center&height=2222&v=1784212433&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari_Daytona_SP3_2.jpg?v=1784212265",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari_Daytona_SP3_4.jpg?v=1784212265",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari_Daytona_SP3_3.jpg?v=1784212265",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari_Daytona_SP3_5.jpg?v=1784212265"
+    ],
+    "credits": [
+      "Ferrari of Central Florida / duPont REGISTRY",
+      "Ferrari of Central Florida / duPont REGISTRY",
+      "Ferrari of Central Florida / duPont REGISTRY",
+      "Ferrari of Central Florida / duPont REGISTRY",
+      "Ferrari of Central Florida / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3",
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5"
+    ],
+    "sources": [
+      [
+        "Ferrari of Central Florida / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Red; exact paint name not stated",
+    "interior": "Red; the two-car article mentions leather and Alcantara without assigning each material to a specific car",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-LAKE-FOREST-RED",
+    "title": "Red / Red cabin — Lake Forest",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Lake Bluff, Illinois",
+    "color": "Red",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "6 August 2024 — Red and blue examples shown together by Ferrari Lake Forest."
+    ],
+    "notes": "完整 VIN 未公开；与匿名来源索引的对应关系尚未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Snapinsta.app_453726378_18453502852029131_3545674033347160449_n_1080.jpg?crop=center&height=2000&v=1767075049&width=3000"
+    ],
+    "credits": [
+      "Ferrari Lake Forest / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3"
+    ],
+    "photo_captions": [
+      "双车合影：蓝色在左，红色在右；本条目对应红色车"
+    ],
+    "sources": [
+      [
+        "Ferrari Lake Forest / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Blue; exact paint name not stated",
+    "interior": "Red; the two-car article mentions leather and Alcantara without assigning each material to a specific car",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-LAKE-FOREST-BLUE",
+    "title": "Blue / Red cabin — Lake Forest",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Lake Bluff, Illinois",
+    "color": "Blue",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "6 August 2024 — Red and blue examples shown together by Ferrari Lake Forest."
+    ],
+    "notes": "完整 VIN 未公开；与匿名来源索引的对应关系尚未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Snapinsta.app_453726378_18453502852029131_3545674033347160449_n_1080.jpg?crop=center&height=2000&v=1767075049&width=3000"
+    ],
+    "credits": [
+      "Ferrari Lake Forest / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3"
+    ],
+    "photo_captions": [
+      "双车合影：蓝色在左，红色在右；本条目对应蓝色车"
+    ],
+    "sources": [
+      [
+        "Ferrari Lake Forest / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Blu Lucido Carbon Fiber",
+    "interior": "Transitional Zaffiro carbon trim with bright blue Alcantara",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Ferrari Tailor Made",
+    "id": "SP3-MILLER-BLU-CARBON",
+    "title": "Blu Lucido Carbon / Zaffiro — Miller Motorcars",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Greenwich, Connecticut",
+    "color": "Blue",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "7 May 2024 — Blue exposed-carbon car featured by Miller Motorcars."
+    ],
+    "notes": "完整 VIN 未公开；与匿名来源索引的对应关系尚未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Snapinsta.app_441027470_467850399011249_5343410536831838625_n_1080.jpg?crop=center&height=1688&v=1767073825&width=3000"
+    ],
+    "credits": [
+      "Miller Motorcars / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/daytona-sp3/miller-motorcars-ferrari-daytona-sp3"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1"
+    ],
+    "sources": [
+      [
+        "Miller Motorcars / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/daytona-sp3/miller-motorcars-ferrari-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Rosso Magma multi-layer paint",
+    "interior": "Oro Jeans Aunde",
+    "wheels": "Matte bronze",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-MILLER-ROSSO-MAGMA",
+    "title": "Rosso Magma / Oro Jeans Aunde — Miller Motorcars",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Greenwich, Connecticut",
+    "color": "Red",
+    "status": "公开展示记录",
+    "options": [
+      "Hand-painted Scuderia shields"
+    ],
+    "timeline": [
+      "24 November 2025 — Three distinct client cars photographed together."
+    ],
+    "notes": "报道记载同年 2 月交付；后保险杠带美国旗标。 VIN 未公开，匿名 ECR 档案对应关系未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Ferrari-Daytona-SP3s.jpg?crop=center&height=2222&v=1767080519&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-1-800x593.jpg?v=1766534975",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-2-800x593.jpg?v=1766534979",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-3-800x593.jpg?v=1766534982"
+    ],
+    "credits": [
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
+    ],
+    "photo_captions": [
+      "三车合影 · 1；本条目对应 Red 车",
+      "三车合影 · 2；本条目对应 Red 车",
+      "三车合影 · 3；本条目对应 Red 车",
+      "三车合影 · 4；本条目对应 Red 车"
+    ],
+    "sources": [
+      [
+        "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Nero Daytona",
+    "interior": "Blue; exact material and shade not confirmed",
+    "wheels": "Satin silver",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-MILLER-NERO-DAYTONA",
+    "title": "Nero Daytona / Blue — Miller Motorcars",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Greenwich, Connecticut",
+    "color": "Black",
+    "status": "公开展示记录",
+    "options": [
+      "Hand-painted Scuderia shields"
+    ],
+    "timeline": [
+      "24 November 2025 — Three distinct client cars photographed together."
+    ],
+    "notes": "报道记载同年 3 月交付。 VIN 未公开，匿名 ECR 档案对应关系未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Ferrari-Daytona-SP3s.jpg?crop=center&height=2222&v=1767080519&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-1-800x593.jpg?v=1766534975",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-2-800x593.jpg?v=1766534979",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-3-800x593.jpg?v=1766534982"
+    ],
+    "credits": [
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
+    ],
+    "photo_captions": [
+      "三车合影 · 1；本条目对应 Black 车",
+      "三车合影 · 2；本条目对应 Black 车",
+      "三车合影 · 3；本条目对应 Black 车",
+      "三车合影 · 4；本条目对应 Black 车"
+    ],
+    "sources": [
+      [
+        "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Light purple exposed carbon with silver stripe; exact factory colour not established by this source",
+    "interior": "Grey Alcantara",
+    "wheels": "Gloss silver forged",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-MILLER-PURPLE-CARBON",
+    "title": "Light purple exposed carbon / Silver stripe — Miller Motorcars",
+    "tier": "dealer",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Greenwich, Connecticut",
+    "color": "Purple",
+    "status": "公开展示记录",
+    "options": [
+      "Hand-painted Scuderia shields"
+    ],
+    "timeline": [
+      "24 November 2025 — Three distinct client cars photographed together."
+    ],
+    "notes": "原报道明确不知道精确漆名。没有仅凭颜色就认定为 2026 年活动中的 Transitional Ametista，亦未与本站 Rubino 或新泽西紫色车合并。 VIN 未公开，匿名 ECR 档案对应关系未确认。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Ferrari-Daytona-SP3s.jpg?crop=center&height=2222&v=1767080519&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-1-800x593.jpg?v=1766534975",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-2-800x593.jpg?v=1766534979",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/Ferrari-Daytona-SP3s-3-800x593.jpg?v=1766534982"
+    ],
+    "credits": [
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+      "@carsthatlookneat / Miller Motorcars / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
+    ],
+    "photo_captions": [
+      "三车合影 · 1；本条目对应 Purple 车",
+      "三车合影 · 2；本条目对应 Purple 车",
+      "三车合影 · 3；本条目对应 Purple 车",
+      "三车合影 · 4；本条目对应 Purple 车"
+    ],
+    "sources": [
+      [
+        "@carsthatlookneat / Miller Motorcars / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Swizz Beatz",
+    "exterior": "Gloss black with red pinstriping; exact paint code not stated",
+    "interior": "Not confirmed; source only speculates from a brief video",
+    "wheels": "Black five-spoke wheels with red accents",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-SWIZZ-BEATZ",
+    "title": "Swizz Beatz — Black / Red",
+    "tier": "owner",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Fort Lauderdale delivery",
+    "color": "Black",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "5 April 2024 — Delivery to Swizz Beatz reported."
+    ],
+    "notes": "公开交付报道确认车主关系。原文对内饰使用推测措辞，因此不把黑色皮革／Alcantara写成已确认配置；也不沿用文中错误的 6.2L 排量。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Ferrari-SP3-Main.jpg?crop=center&height=2222&v=1767073442&width=3000"
+    ],
+    "credits": [
+      "Ferrari of Fort Lauderdale / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/articles/ferrari-of-fort-lauderdale-delivers-a-stealthy-daytona-sp3-hypercar-to-swizz-beatz"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1"
+    ],
+    "sources": [
+      [
+        "Ferrari of Fort Lauderdale / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/articles/ferrari-of-fort-lauderdale-delivers-a-stealthy-daytona-sp3-hypercar-to-swizz-beatz"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Selected Car Collection",
+    "exterior": "Rosso Portofino with Bianco Avus stripe",
+    "interior": "Blu Elettrico Alcantara with red embroidery",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-SELECTED-CAR-PORTOFINO",
+    "title": "Rosso Portofino / Bianco Avus — Selected Car Collection",
+    "tier": "owner",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "Denmark",
+    "city": "Denmark — public collection feature",
+    "color": "Red",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "4–5 April 2024 — Collection car featured in Shmee150’s Denmark drive."
+    ],
+    "notes": "Shmee150 为试驾者，不是报道中的车主。所属 Selected Car Collection 由原视频说明确认。保留报道原图作为视频封面，非新增独立车辆照片。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/S7uxr4LWp64-HD.jpg?crop=center&height=1687&v=1767073439&width=3000"
+    ],
+    "credits": [
+      "Shmee150 / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/ferrari-news/shmee150-drive-ferrari-daytona-sp3"
+    ],
+    "photo_captions": [
+      "原试驾视频封面 · Selected Car Collection 的 Rosso Portofino 车"
+    ],
+    "sources": [
+      [
+        "Shmee150 / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/ferrari-news/shmee150-drive-ferrari-daytona-sp3"
+      ],
+      [
+        "Shmee150 original collection video",
+        "https://www.youtube.com/watch?v=S7uxr4LWp64"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Rosso Formula 1 2007",
+    "interior": "Not public",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-PFS-ROSSO-F1-2007",
+    "title": "Rosso Formula 1 2007 — PFS / XPEL",
+    "tier": "press",
+    "year": 2024,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "PFS project feature; exact location not confirmed",
+    "color": "Red",
+    "status": "公开展示记录",
+    "options": [
+      "XPEL Ultimate Plus full-body paint-protection film",
+      "XPEL Fusion Plus ceramic coating"
+    ],
+    "timeline": [],
+    "notes": "施工案例的赞助报道；只采用明确车型、年份、漆名及施工记录，不采用其保值等广告性主张。车主及 VIN 未公开，不能排除与其他匿名红色车档重叠。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/xpel-pfs-11_f3613b42-c963-43b0-b742-d301241f5821.jpg?crop=center&height=1999&v=1769009588&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-10-800x533_b0770bf3-7485-4158-b8dc-6d80c18ec012.jpg?v=1767081292",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-8-800x533_7be93a8d-59f4-4574-98f9-d92df3edfd79.jpg?v=1767081296",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-2_20d12522-1269-4fca-b445-3ff96dfaf9f1.jpg?v=1767081299",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-9_2acfdbd4-570b-43ce-aadc-7f61ea6206e1.jpg?v=1767081302",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-3_dc0672d0-26dc-4418-bd63-69502971bdf1.jpg?v=1767081305",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-1_ecffc764-44f4-4d2a-940b-60b5b833d948.jpg?v=1767081309",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/xpel-pfs-5_693838f9-5969-4ca0-9b2d-dcc749864d20.jpg?v=1767081312"
+    ],
+    "credits": [
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY",
+      "Protective Film Solutions / XPEL / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel",
+      "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "公开来源图集 · 2",
+      "公开来源图集 · 3",
+      "公开来源图集 · 4",
+      "公开来源图集 · 5",
+      "公开来源图集 · 6",
+      "公开来源图集 · 7",
+      "公开来源图集 · 8"
+    ],
+    "sources": [
+      [
+        "Protective Film Solutions / XPEL / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 88,
+    "accessed": "2026-09-21"
+  },
+  {
+    "vin": "Not public",
+    "chassis": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "White; precise shade not reported",
+    "interior": "Not public",
+    "wheels": "Not public",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "sale": "Not public",
+    "program": "Not public",
+    "id": "SP3-DANIA-POINTE-WHITE",
+    "title": "White SP3 — Exotics at Dania Pointe",
+    "tier": "event",
+    "year": null,
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Dania Pointe, Florida",
+    "color": "White",
+    "status": "公开展示记录",
+    "options": [],
+    "timeline": [
+      "15 November 2023 — Ferrari of Fort Lauderdale event appearance reported."
+    ],
+    "notes": "仅按有照片的活动记录收录；无法确认是否与 Carrio 或其他白色车为同一实车，不计作独立已识别 VIN。",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/Snapinsta.app_402601269_419124467303578_780300015411164854_n_1080.jpg?crop=center&height=1813&v=1767071649&width=3000"
+    ],
+    "credits": [
+      "Ferrari of Fort Lauderdale / duPont REGISTRY"
+    ],
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-fort-lauderdale-daytona-sp3"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1"
+    ],
+    "sources": [
+      [
+        "Ferrari of Fort Lauderdale / duPont REGISTRY",
+        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-fort-lauderdale-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 65,
+    "accessed": "2026-09-21"
   }
 ]

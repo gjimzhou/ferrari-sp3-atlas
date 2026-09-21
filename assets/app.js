@@ -57,7 +57,8 @@ function setup(){
  $('sourceKpi').textContent=sourceIndex.length;
  $('vinKpi').textContent=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)).length;
  $('ownerKpi').textContent=records.filter(r=>r.owner_public).length;
- $('photoKpi').textContent=records.filter(r=>r.photos?.length).length;
+ $('photoKpi').textContent=records.reduce((n,r)=>n+(r.photos?.length||0),0);
+ $('photoKpiLabel').textContent=`图库图片引用 · ${records.filter(r=>r.photos?.length).length} 条记录有图`;
  $('storageStatus').textContent=storageNotice;
  for(const [id,key,label] of [['country','country','全部国家'],['color','color','全部颜色']])selectOptions(id,[...new Set(records.map(r=>r[key]).filter(v=>!absent(v)))].sort().map(x=>[x,x]),label);
  selectOptions('tier',Object.entries(tierNames),'全部证据来源');
@@ -69,7 +70,7 @@ function pager(id,total,active,fn){const n=Math.ceil(total/size),box=$(id);box.i
 function bindCards(parent){parent.querySelectorAll('[data-id]').forEach(c=>{c.onclick=()=>openCard(c.dataset.id);c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openCard(c.dataset.id);}};});bindImages(parent);}
 function render(){
  $('count').textContent=`${filtered.length} 条匹配研究记录 · 第 ${page} 页`;
- $('grid').innerHTML=filtered.slice((page-1)*size,page*size).map(r=>`<article class="card" tabindex="0" role="button" data-id="${esc(r.id)}" aria-label="查看 ${esc(r.title)}"><div class="cardphoto">${art(r)}<div class="badges"><span class="badge ${esc(r.tier)}">${esc(tierNames[r.tier])}</span><span class="badge">${kindNames[r.record_kind]}</span></div></div><div class="cardbody"><h3>${esc(r.title)}</h3><div class="sub">${esc(r.id)} · ${esc(display(r.country))}</div><div class="meta">${[['底盘',r.chassis],['外观',r.exterior],['内饰',r.interior],['状态',r.status]].map(([k,v])=>`<div><label>${k}</label><span>${esc(display(v))}</span></div>`).join('')}</div></div></article>`).join('')||'<p class="empty">没有匹配结果。可清除筛选，或切换到「全部研究记录」。</p>';
+ $('grid').innerHTML=filtered.slice((page-1)*size,page*size).map(r=>`<article class="card" tabindex="0" role="button" data-id="${esc(r.id)}" aria-label="查看 ${esc(r.title)}"><div class="cardphoto">${art(r)}<div class="badges"><span class="badge ${esc(r.tier)}">${esc(tierNames[r.tier])}</span><span class="badge">${kindNames[r.record_kind]}</span>${r.photos.length?`<span class="badge">${r.photos.length} 张图</span>`:""}</div></div><div class="cardbody"><h3>${esc(r.title)}</h3><div class="sub">${esc(r.id)} · ${esc(display(r.country))}</div><div class="meta">${[['底盘',r.chassis],['外观',r.exterior],['内饰',r.interior],['状态',r.status]].map(([k,v])=>`<div><label>${k}</label><span>${esc(display(v))}</span></div>`).join('')}</div></div></article>`).join('')||'<p class="empty">没有匹配结果。可清除筛选，或切换到「全部研究记录」。</p>';
  bindCards($('grid'));pager('pages',filtered.length,page,p=>{page=p;render();$('registry').scrollIntoView({block:'start'});});
 }
 function ownerStats(){const owners=records.filter(r=>r.owner_public).sort((a,b)=>b.sort_weight-a.sort_weight);$('ownerGrid').innerHTML=owners.map(r=>`<article class="ownercard" role="button" tabindex="0" data-id="${esc(r.id)}"><div class="ownerthumb cardphoto">${art(r)}</div><div class="ownerinfo"><b>${esc(r.owner)}</b><span>${esc(r.title)}</span><span>${esc(display(r.exterior))}</span><span class="ownerpill">${esc(tierNames[r.tier])}</span></div></article>`).join('');bindCards($('ownerGrid'));}

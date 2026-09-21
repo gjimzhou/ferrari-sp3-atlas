@@ -104,3 +104,18 @@ For externally hosted images:
   ]
 }
 ```
+
+
+## 2026-09-21 第二轮来源
+
+- Rosso Libano / Blu Elettrico — Joe Macari：[Joe Macari](https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173)；[Joe Macari syndicated specification](https://www.supercartrader.com/ferrari-daytona-sp3-3927)
+- Black / White — Beverly Hills tuxedo spec：[@paid2shoot / Ferrari Beverly Hills / duPont REGISTRY](https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec)
+- White / Red — Ferrari of Atlanta：[Ferrari of Atlanta / duPont REGISTRY](https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-atlanta-displays-daytona-sp3)
+- Rosso Corsa / Blue — Central Florida：[Ferrari of Central Florida / duPont REGISTRY](https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3)
+- Red / Red cabin — Lake Forest：[Ferrari Lake Forest / duPont REGISTRY](https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3)
+- Blu Lucido Carbon / Zaffiro — Miller Motorcars：[Miller Motorcars / duPont REGISTRY](https://news.dupontregistry.com/blogs/daytona-sp3/miller-motorcars-ferrari-daytona-sp3)
+- Rosso Magma / Oro Jeans Aunde — Miller Motorcars：[@carsthatlookneat / Miller Motorcars / duPont REGISTRY](https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs)
+- Swizz Beatz — Black / Red：[Ferrari of Fort Lauderdale / duPont REGISTRY](https://news.dupontregistry.com/blogs/articles/ferrari-of-fort-lauderdale-delivers-a-stealthy-daytona-sp3-hypercar-to-swizz-beatz)
+- Rosso Portofino / Bianco Avus — Selected Car Collection：[Shmee150 / duPont REGISTRY](https://news.dupontregistry.com/blogs/ferrari-news/shmee150-drive-ferrari-daytona-sp3)；[Shmee150 original collection video](https://www.youtube.com/watch?v=S7uxr4LWp64)
+- Rosso Formula 1 2007 — PFS / XPEL：[Protective Film Solutions / XPEL / duPont REGISTRY](https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel)
+- White SP3 — Exotics at Dania Pointe：[Ferrari of Fort Lauderdale / duPont REGISTRY](https://news.dupontregistry.com/blogs/ferrari-news/ferrari-fort-lauderdale-daytona-sp3)
