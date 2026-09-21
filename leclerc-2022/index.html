@@ -99,6 +99,30 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
  .lab-controls .btn{width:100%}
 }
 
+
+/* Dense 20-card grid */
+.lab-layout{display:block}
+.lab-summary{position:sticky;top:0;z-index:8;border-right:0;border-bottom:1px solid #d6d0c7;padding:12px 16px;background:rgba(255,255,255,.97);backdrop-filter:blur(8px)}
+.lab-summary>.eyebrow,.lab-summary>h2,.lab-summary>p.lead{display:none}
+.lab-summary .progress{margin-top:0}
+.lab-summary .scoreline{margin-top:5px}
+.lab-scoregrid{display:flex;gap:0;margin:8px 0 0;border-top:1px solid #d6d0c7;border-bottom:1px solid #d6d0c7}
+.lab-scoregrid .metric{flex:1;padding:7px 10px}
+.lab-scoregrid .metric .v{font-size:28px}
+.lab-controls{display:flex;gap:8px;margin:8px 0 0}
+.lab-controls .btn{width:auto;padding:7px 10px;min-height:38px}
+.lab-summary .status{margin-top:8px;padding:8px 10px;font-size:13px}
+.lab-summary .chartwrap{display:none}
+.lab-races{padding:18px 0 24px;background:transparent}
+.lab-races .racelist{grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.lab-races .race{min-height:178px;padding:11px;border-top-width:4px}
+.race .title{font-size:14px}.race .rank{font-size:11px}.race .cred{margin-top:5px}.race .journey{margin-top:9px;padding:9px 0}.race .actual{font-size:10px}.race .arrow{font-size:14px;margin:2px 0}.race .alt{font-size:13px;line-height:1.22}.race .note{font-size:10px;line-height:1.3;margin-top:6px}.race .cardbottom{padding-top:8px}.race .type{font-size:10px}.race .swing b{font-size:22px}.selectmark{width:22px;height:22px;font-size:13px;right:8px;top:7px}
+.maxed-note{margin:10px 0 2px;padding:8px 10px;border-left:4px solid #171717;background:#eee9e1;color:#5c574f;font-size:12px;line-height:1.45}
+@media(max-width:1050px){.lab-races .racelist{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:820px){.lab-summary{position:static}.lab-races .racelist{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:620px){.lab-races .racelist{grid-template-columns:repeat(2,minmax(0,1fr))}.lab-scoregrid .metric .v{font-size:22px}.lab-controls{display:grid;grid-template-columns:1fr 1fr}.lab-controls .btn:first-child{grid-column:1/-1}}
+@media(max-width:390px){.lab-races .racelist{grid-template-columns:1fr}}
+
 </style>
 </head>
 <body>
@@ -138,10 +162,10 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 
 <div class="lab-races">
 <div class="racehead">
-<div><h2>22 个分站完整排序</h2><p class="lead">整张卡都可以点。可信度指数是相对排序工具，不是数学概率：越靠前，越接近“只需要少犯一个错 / 少坏一次车”。</p></div>
+<div><h2>20 个可改善周末</h2><p class="lead">2022 有 22 个 Grand Prix 周末，其中 Bahrain、Australia 已经是 Leclerc 胜利，因此不占选择位。剩余 20 个可改善周末正好排成 5 × 4；Imola、Austria、São Paulo 的 Sprint 直接并入对应周末卡。</p></div>
 <select id="sort"><option value="plausibility">按反事实可信度</option><option value="swing">按净积分 swing</option><option value="calendar">按赛历</option></select>
 </div>
-<div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span></div>
+<div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span><span class="pill">⚡ sprint weekend</span></div><div class="maxed-note"><strong>已最大化：</strong> 🇧🇭 Bahrain P1 · 🇦🇺 Australia P1 — 已包含在现实 308 分基线中，不需要反事实卡。</div>
 <div id="races" class="racelist" aria-label="2022 race counterfactual cards"></div>
 </div>
 </div>
@@ -189,14 +213,14 @@ const races=[
 {r:1,f:'🇧🇭',n:'Bahrain',actual:'P1',alt:'已基本最大化',score:100,lec:0,ver:0,t:'—',note:'Leclerc 已获胜，Verstappen DNF；没有自然的进一步补分空间。',locked:true},
 {r:2,f:'🇸🇦',n:'Saudi Arabia',actual:'P2',alt:'末段 duel 赢 Max → P1',score:64,lec:7,ver:-7,t:'⚔️',note:'真实比赛最后就是两人的直接胜负；合理但不再属于“免费积分”。'},
 {r:3,f:'🇦🇺',n:'Australia',actual:'P1',alt:'已基本最大化',score:100,lec:0,ver:0,t:'—',note:'Leclerc 已经压倒性获胜。',locked:true},
-{r:4,f:'🇮🇹',n:'Imola',actual:'P6',alt:'不在 Variante Alta spin → P3',score:98,lec:7,ver:0,t:'🎯',note:'失误前就在 P3；只要不 spin，P3 是最自然基线。'},
+{r:4,f:'🇮🇹',n:'Imola',actual:'Sprint P2 · Race P6',alt:'Sprint 赢 Max + 正赛不 spin → P3',score:98,lec:8,ver:-1,t:'🎯 ⚡',note:'Sprint 最后被 Max 反超；正赛 spin 前本就在 P3。整张卡按“周末一起正常一点”计算。'},
 {r:5,f:'🇺🇸',n:'Miami',actual:'P2',alt:'在 late-race duel 中击败 Max → P1',score:34,lec:7,ver:-7,t:'⚔️',note:'有机会，但 Red Bull race pace 更强。'},
 {r:6,f:'🇪🇸',n:'Spain',actual:'DNF',alt:'PU 不坏 → P1；Max P2',score:96,lec:25,ver:-7,t:'⚙️',note:'Leclerc 已建立舒适领先，Max 还经历 DRS 问题。'},
 {r:7,f:'🇲🇨',n:'Monaco',actual:'P4',alt:'正常 wet/dry strategy → P1；Max P4',score:87,lec:13,ver:-3,t:'🧠',note:'Pole 出发，关键损失来自 pit timing；Monaco track position 极其重要。'},
 {r:8,f:'🇦🇿',n:'Baku',actual:'DNF',alt:'PU 不坏 → P2（保守）',score:78,lec:18,ver:0,t:'⚙️',note:'爆缸时比赛还很长，所以保守版本不直接判定 Leclerc 必胜。',key:'baku'},
 {r:9,f:'🇨🇦',n:'Canada',actual:'P5',alt:'P4',score:36,lec:2,ver:0,t:'⚔️',note:'从后排追到 P5 已经强，再前进一名需要额外 racecraft/时机。'},
 {r:10,f:'🇬🇧',n:'Silverstone',actual:'P4',alt:'正确 Safety Car tyre call → P1',score:95,lec:13,ver:0,t:'🧠',note:'Leclerc 已经领先；核心反事实是不要让旧 hard 对抗新 soft。'},
-{r:11,f:'🇦🇹',n:'Austria',actual:'Race P1 / Sprint P2',alt:'Sprint 再赢 Max',score:60,lec:1,ver:-1,t:'⚔️',note:'正赛已获胜；自然上升空间主要来自 Sprint。'},
+{r:11,f:'🇦🇹',n:'Austria',actual:'Sprint P2 · Race P1',alt:'Sprint 再赢 Max；正赛保持 P1',score:60,lec:1,ver:-1,t:'⚔️ ⚡',note:'Grand Prix 已经最大化；这个周末唯一可改善项来自 Sprint。'},
 {r:12,f:'🇫🇷',n:'France',actual:'DNF',alt:'不撞墙 → P2（保守）',score:85,lec:18,ver:0,t:'🎯',note:'从 pole 领跑时自己撞墙；默认只恢复到 P2。',key:'france'},
 {r:13,f:'🇭🇺',n:'Hungary',actual:'P6',alt:'不用 hard tyre → P2',score:82,lec:10,ver:0,t:'🧠',note:'Medium stint 已经展示争领奖台/领先的速度；P2 是保守修复。'},
 {r:14,f:'🇧🇪',n:'Belgium',actual:'P6',alt:'不做失败 FL stop / 不吃 pit speeding penalty → P5',score:99,lec:2,ver:0,t:'🧠',note:'几乎不需要额外速度，是全季最小成本的积分修正之一。'},
@@ -206,7 +230,7 @@ const races=[
 {r:18,f:'🇯🇵',n:'Japan',actual:'P3',alt:'末圈不切 chicane → P2',score:92,lec:3,ver:0,t:'🎯',note:'最后一圈错误与 5 秒罚时直接丢掉 P2。'},
 {r:19,f:'🇺🇸',n:'Austin',actual:'P3',alt:'再超过 Hamilton → P2',score:45,lec:3,ver:0,t:'⚔️',note:'从 P12 追到 podium 已经很强，P2 需要进一步兑现速度。'},
 {r:20,f:'🇲🇽',n:'Mexico',actual:'P6',alt:'P5',score:28,lec:2,ver:0,t:'⚔️',note:'Ferrari 整个周末竞争力有限。'},
-{r:21,f:'🇧🇷',n:'São Paulo',actual:'P4',alt:'Ferrari 接受请求，与 Sainz 换位 → P3',score:94,lec:3,ver:0,t:'🤝',note:'Leclerc 现实中明确请求换位；若冠军仍有悬念，执行更合理。'},
+{r:21,f:'🇧🇷',n:'São Paulo',actual:'Sprint P6 · Race P4',alt:'正赛 Ferrari 接受请求，与 Sainz 换位 → P3',score:94,lec:3,ver:0,t:'🤝 ⚡',note:'Sprint 分数已包含在现实基线；这里的可改善项来自正赛末段 team order。'},
 {r:22,f:'🇦🇪',n:'Abu Dhabi',actual:'P2',alt:'击败明显占优的 Max → P1',score:18,lec:7,ver:-7,t:'⚔️',note:'Max 实际优势明显，是列表中最勉强的胜利反事实之一。'}
 ];
 const selected=new Set();
@@ -218,7 +242,7 @@ function live(r){
  x.swing=x.lec-x.ver; return x;
 }
 function ordered(){
- const a=races.map(live),m=$('#sort').value;
+ const a=races.map(live).filter(r=>!r.locked),m=$('#sort').value;
  if(m==='calendar')return a.sort((a,b)=>a.r-b.r);
  if(m==='swing')return a.sort((a,b)=>b.swing-a.swing||b.score-a.score);
  return a.sort((a,b)=>b.score-a.score||b.swing-a.swing);
