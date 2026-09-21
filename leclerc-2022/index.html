@@ -262,7 +262,7 @@ const raceSources={"2":"https://www.formula1.com/en/latest/article/leclerc-says-
 const raceEN={"2":{"n":"Saudi Arabia","actual":"P2","alt":"Win the final duel vs Max → P1","note":"A genuine late-race duel; plausible, but not free points."},"4":{"n":"Imola","actual":"Sprint P2 · Race P6","alt":"Win Sprint + avoid race spin → P3","note":"Max passed late in the Sprint; in the GP Leclerc was P3 before the spin."},"5":{"n":"Miami","actual":"P2","alt":"Win the late-race duel vs Max → P1","note":"Possible after the Safety Car, though Red Bull had stronger race pace."},"6":{"n":"Spain","actual":"DNF while leading","alt":"PU survives → P1; Max P2","note":"Leclerc had a comfortable lead while Max had already suffered DRS trouble."},"7":{"n":"Monaco","actual":"Pole → P4","alt":"Clean wet/dry strategy → P1; Max P4","note":"Track position dominates in Monaco; Ferrari lost it through pit timing."},"8":{"n":"Baku","actual":"DNF","alt":"PU survives → P2 (conservative)","note":"The failure came early enough that a win cannot simply be assumed."},"9":{"n":"Canada","actual":"P5","alt":"One more place → P4","note":"Already a strong recovery from the back; another place needs more."},"10":{"n":"Silverstone","actual":"P4","alt":"Correct Safety Car tyre call → P1","note":"Leclerc was already leading; the key counterfactual is new softs, not more pace."},"11":{"n":"Austria","actual":"Sprint P2 · Race P1","alt":"Win Sprint; keep GP win","note":"The Grand Prix was already maximized; only the Sprint has natural upside."},"12":{"n":"France","actual":"DNF from the lead","alt":"No crash → P2 (conservative)","note":"He crashed from pole/lead; the default model restores only P2."},"13":{"n":"Hungary","actual":"P6","alt":"Avoid hard-tyre call → P2","note":"The medium stint showed podium/lead pace; P2 is a conservative strategy fix."},"14":{"n":"Belgium","actual":"P6","alt":"No failed FL stop / penalty → P5","note":"One of the cheapest points to recover: no extra pace required."},"15":{"n":"Netherlands","actual":"P3","alt":"Gain one more place → P2","note":"Would require beating Russell; not a near-guaranteed recovery."},"16":{"n":"Monza","actual":"Pole → P2","alt":"Beat Max → P1; Max P2","note":"Red Bull's race pace was strong, so this is much harder than Silverstone."},"17":{"n":"Singapore","actual":"Pole → P2","alt":"Convert pole / beat Pérez → P1","note":"Only 2.595s behind, but still requires actually winning the race."},"18":{"n":"Japan","actual":"P2 on road → P3","alt":"No final-lap chicane error → P2","note":"A last-lap mistake and 5-second penalty directly lost P2."},"19":{"n":"Austin","actual":"P12 start → P3","alt":"Also pass Hamilton → P2","note":"Already an excellent recovery; P2 needs another on-track gain."},"20":{"n":"Mexico","actual":"P6","alt":"One better on a weak weekend → P5","note":"Ferrari lacked competitiveness all weekend."},"21":{"n":"São Paulo","actual":"Sprint P6 · Race P4","alt":"Sprint unchanged; team swap in race → P3","note":"Sprint is already in the baseline; the modeled gain is the late-race team order."},"22":{"n":"Abu Dhabi","actual":"P2","alt":"Beat clearly faster Max → P1","note":"One of the least plausible win counterfactuals in the model."}};
 let lang=(function(){try{return localStorage.getItem('lec22-lang')||((navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en')}catch(e){return (navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en'}})();
 const staticOriginal=new Map();
-function rememberStatic(sel){const el=$(sel);if(el&&!staticOriginal.has(sel))staticOriginal.set(sel,el.innerHTML)}
+function rememberStatic(sel){const el=document.querySelector(sel);if(el&&!staticOriginal.has(sel))staticOriginal.set(sel,el.innerHTML)}
 const staticEN={
 '.hero .eyebrow':'Formula 1 · 2022 Counterfactual',
 '.hero h1':'How many moments had to change for Leclerc to <em>win the title?</em>',
@@ -275,10 +275,22 @@ const staticEN={
 '.maxed-note':'<strong>Already maximized:</strong> 🇧🇭 Bahrain P1 · 🇦🇺 Australia P1 — already included in Leclerc’s actual 308-point baseline.',
 '.section:nth-of-type(3) h2':'Why Silverstone belongs near the very top',
 '.section:nth-of-type(3) > p.lead':'This was not a case of “Leclerc suddenly needs more pace.” He was already leading. Under the Safety Car Ferrari left him on old hards while Sainz, Pérez and Hamilton switched to fresh softs.',
+'.story.silver h3':'🇬🇧 Silverstone',
+'.story.silver p':'Actual: P4. Counterfactual: make the correct Safety Car tyre call, put Leclerc on fresh softs, and preserve a genuine chance to win.',
+'.story.silver .tag':'Strategy · net +13',
+'.story.spain h3':'🇪🇸 Barcelona',
+'.story.spain p':'Actual: power-unit retirement from a comfortable lead. Max had already suffered DRS trouble. This is the closest thing to a mechanical failure simply taking away a win.',
+'.story.spain .tag':'Reliability · net +32',
+'.story.monaco h3':'🇲🇨 Monaco',
+'.story.monaco p':'Actual: Pole → P4. On a circuit where passing is extremely difficult, the decisive loss came from wet/dry crossover and pit timing rather than lack of pace.',
+'.story.monaco .tag':'Strategy · net +16',
 '.advanced-panel .eyebrow':'Advanced assumptions',
+'.advanced-panel .scenario label:nth-child(1) span':'🇦🇿 Baku: if the PU survives',
+'.advanced-panel .scenario label:nth-child(2) span':'🇫🇷 France: if Leclerc does not crash',
 '.advanced-panel h2':'Only change these boundary assumptions if you want to debate them',
 '.advanced-panel p.lead':'The main model stays conservative: Baku without the PU failure is P2, and France without the crash is P2. These assumptions are sensitive enough that they live below the main interaction.',
 '.method > div:first-child h2':'Method',
+'.method > div:first-child ul':'<li>Do not invent Verstappen engine failures or crashes.</li><li>Prefer events Ferrari/Leclerc could control: reliability, strategy and clear mistakes.</li><li>Use conservative alternate finishes by default; Baku and France can be switched to aggressive versions.</li><li>Plausibility ranks how naturally the result changes, not how many points the change is worth.</li>',
 '.sourcebox h2':'Data & sources',
 '.sourcebox > p:first-of-type':'Base points and finishing positions use Formula 1’s official 2022 results. Key counterfactuals draw on official F1 race reports and technical recaps; the plausibility scores and alternate finishing positions are editorial judgments, not Formula 1 conclusions.',
 '.footer':'Independent fan-made, non-commercial counterfactual analysis. Not affiliated with Formula 1, Ferrari, Charles Leclerc, Red Bull Racing or Max Verstappen. Plausibility scores are editorial heuristics, not empirical probabilities.'
@@ -336,12 +348,12 @@ function renderList(){
   card.className='race'+(selected.has(r.r)?' active':'')+(r.locked?' locked':'');
   card.disabled=!!r.locked;
   card.setAttribute('aria-pressed',selected.has(r.r)?'true':'false');
-  const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const rt=(lang==='en'&&e)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")');
+  const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const aggressive=r.key&&document.getElementById(r.key)&&document.getElementById(r.key).value==='p1'; const rt=(lang==='en'&&e&&!aggressive)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")');
   card.innerHTML='<span class="selectmark">'+(r.locked?'—':selected.has(r.r)?'✓':'')+'</span>'
    +'<div class="rankline"><span class="rank">'+rank+'</span><span class="title">'+r.f+' '+rn+'</span></div>'
    +'<div class="cred"><div class="credbar"><i style="width:'+r.score+'%"></i></div><small>'+r.score+'</small></div>'
    +'<div class="journey"><div class="actual">'+(lang==='en'?'ACTUAL':'现实')+' · '+ra+'</div><div class="arrow">↓</div><div class="alt">'+rt+'</div></div>'
-   +'<div class="note">'+r.note+'</div>'
+   +'<div class="note">'+rnote+'</div>'
    +'<div class="cardbottom"><div class="type">'+r.t+'</div><div class="swing"><small>'+(lang==='en'?'NET SWING':'净 swing')+'</small><b>'+(r.swing?'+'+r.swing:'0')+'</b></div></div>';
   if(!r.locked) card.addEventListener('click',()=>{selected.has(r.r)?selected.delete(r.r):selected.add(r.r);update()});
   box.appendChild(card);
@@ -356,7 +368,7 @@ function renderChart(){
  let cum=0,pts=[[L,Y(0)]],dots='';
  chosen.forEach((r,i)=>{cum+=r.swing;pts.push([X(i+1),Y(cum)]);dots+='<circle class="dot" cx="'+X(i+1)+'" cy="'+Y(cum)+'" r="5"><title>'+r.n+' · cumulative '+cum+'</title></circle>'});
  const target=Y(147);
- svg.innerHTML='<line class="axis" x1="'+L+'" y1="'+Y(0)+'" x2="'+(W-R)+'" y2="'+Y(0)+'"/><line class="target" x1="'+L+'" y1="'+target+'" x2="'+(W-R)+'" y2="'+target+'"/><text x="'+(L+5)+'" y="'+(target-8)+'" fill="#a8adb8" font-size="12">夺冠阈值 147</text><polyline class="step" points="'+pts.map(p=>p.join(',')).join(' ')+'"/>'+dots+'<text x="8" y="'+(Y(0)+4)+'" fill="#8e95a1" font-size="12">0</text><text x="5" y="'+(target+4)+'" fill="#8e95a1" font-size="12">147</text><text x="'+(W-110)+'" y="24" fill="#a8adb8" font-size="12">累计 '+cum+'</text>';
+ svg.innerHTML='<line class="axis" x1="'+L+'" y1="'+Y(0)+'" x2="'+(W-R)+'" y2="'+Y(0)+'"/><line class="target" x1="'+L+'" y1="'+target+'" x2="'+(W-R)+'" y2="'+target+'"/><text x="'+(L+5)+'" y="'+(target-8)+'" fill="#a8adb8" font-size="12">'+(lang==='en'?'Title threshold 147':'夺冠阈值 147')+'</text><polyline class="step" points="'+pts.map(p=>p.join(',')).join(' ')+'"/>'+dots+'<text x="8" y="'+(Y(0)+4)+'" fill="#8e95a1" font-size="12">0</text><text x="5" y="'+(target+4)+'" fill="#8e95a1" font-size="12">147</text><text x="'+(W-110)+'" y="24" fill="#a8adb8" font-size="12">'+(lang==='en'?'Total ':'累计 ')+cum+'</text>';
 }
 function applyLanguage(){
   document.documentElement.lang=lang==='zh'?'zh-CN':'en';
@@ -390,7 +402,7 @@ function update(){
  if(t.lec>t.ver){s.classList.add('win');s.innerHTML=lang==='en'?'🏆 <b>Leclerc leads by '+(t.lec-t.ver)+'.</b> This combination is enough for the 2022 title.':'🏆 <b>Leclerc 领先 '+(t.lec-t.ver)+' 分。</b> 当前反事实组合足以让他成为 2022 世界冠军。'} else if(t.lec===t.ver){s.classList.add('tie');s.innerHTML=lang==='en'?'⚖️ <b>Level on points.</b> Still not enough: Verstappen wins the countback on race victories.':'⚖️ <b>积分打平。</b> 仍不足以夺冠：Verstappen 在胜场 countback 上占绝对优势。'} else{s.innerHTML=lang==='en'?'Need <b>'+(147-t.swing)+'</b> more net swing to lead on points.':'还差 <b>'+(147-t.swing)+'</b> 净 swing 才能形成积分领先。'}
  renderList();renderChart();
 }
-$('#auto').addEventListener('click',()=>{selected.clear();let c=0;const a=races.map(live).filter(r=>!r.locked&&r.swing>0).sort((a,b)=>b.score-a.score);for(const r of a){selected.add(r.r);c+=r.swing;if(c>=147)break}update();const t=totals();$('#status').className='status win';$('#status').innerHTML='🏁 按当前可信度排序，需要前 <b>'+selected.size+' 个可改善事件</b> 才第一次跨过夺冠线：LEC '+t.lec+' — VER '+t.ver+'（净 swing '+t.swing+'）。'});
+$('#auto').addEventListener('click',()=>{selected.clear();let c=0;const a=races.map(live).filter(r=>!r.locked&&r.swing>0).sort((a,b)=>b.score-a.score);for(const r of a){selected.add(r.r);c+=r.swing;if(c>=147)break}update();const t=totals();$('#status').className='status win';$('#status').innerHTML=lang==='en'?'🏁 In plausibility order, the first <b>'+selected.size+' improved weekends</b> cross the title line: LEC '+t.lec+' — VER '+t.ver+' (net swing '+t.swing+').':'🏁 按当前可信度排序，需要前 <b>'+selected.size+' 个可改善事件</b> 才第一次跨过夺冠线：LEC '+t.lec+' — VER '+t.ver+'（净 swing '+t.swing+'）。'});
 $('#top10').addEventListener('click',()=>{selected.clear();races.map(live).filter(r=>!r.locked&&r.swing>0).sort((a,b)=>b.score-a.score).slice(0,10).forEach(r=>selected.add(r.r));update()});
 $('#clear').addEventListener('click',()=>{selected.clear();update()});
 $('#sort').addEventListener('change',renderList);
