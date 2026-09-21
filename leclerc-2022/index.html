@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Interactive counterfactual analysis of Charles Leclerc's 2022 Formula 1 championship. Toggle race outcomes, compare plausible alternatives, and see how many events had to change for Leclerc to beat Verstappen.">
+<title>Leclerc 2022 — Counterfactual Championship Lab</title>
+<style>
+:root{--bg:#0b0c0f;--panel:#12141a;--card:#171a21;--line:#292d36;--text:#f6f7f9;--muted:#a8adb8;--red:#ef3340;--gold:#ffd166;--green:#4bd38a;--blue:#65a9ff;--orange:#ff9f43}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,#1a1518 0,#0b0c0f 34rem);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}.wrap{width:min(1180px,calc(100% - 28px));margin:auto}.hero{padding:54px 0 26px}.eyebrow{letter-spacing:.17em;text-transform:uppercase;font-size:12px;font-weight:800;color:#e7a4aa}.hero h1{font-size:clamp(36px,7vw,76px);line-height:.96;margin:12px 0 16px;max-width:950px}.hero h1 em{font-style:normal;color:var(--red)}.sub{font-size:clamp(16px,2vw,20px);line-height:1.6;color:var(--muted);max-width:850px}
+.grid{display:grid;gap:16px}.scoregrid{grid-template-columns:repeat(3,1fr);margin:24px 0}.metric{background:linear-gradient(180deg,#181b22,#111319);border:1px solid var(--line);border-radius:20px;padding:18px}.metric .k{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.09em}.metric .v{font-size:clamp(28px,5vw,46px);font-weight:900;margin-top:3px}.metric .v.red{color:#ff6b75}.metric .v.green{color:var(--green)}
+.panel{background:rgba(18,20,26,.92);border:1px solid var(--line);border-radius:24px;padding:20px}.section{padding:18px 0}.section h2{font-size:clamp(24px,4vw,38px);margin:0 0 8px}.section p.lead{color:var(--muted);max-width:840px;line-height:1.65;margin:0 0 18px}
+.progress{height:14px;background:#252933;border-radius:999px;overflow:hidden}.progress>div{height:100%;background:linear-gradient(90deg,var(--red),#ff7b7f);width:0;transition:.25s}.scoreline{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:8px;color:var(--muted);font-size:13px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}.btn,select{appearance:none;border:1px solid var(--line);background:#191c24;color:var(--text);border-radius:12px;padding:10px 13px;font:inherit;min-height:44px}.btn{cursor:pointer;font-weight:800}.btn.primary{background:var(--red);border-color:var(--red)}.btn:hover{filter:brightness(1.08)}.scenario{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:12px}.scenario label{display:block}.scenario span{display:block;font-size:13px;font-weight:800;margin-bottom:8px}.scenario select{width:100%}
+.storygrid{grid-template-columns:repeat(3,1fr)}.story{position:relative;overflow:hidden;min-height:230px;border:1px solid var(--line);border-radius:22px;padding:18px;background:linear-gradient(145deg,#1d2028,#111319)}.story .num{position:absolute;right:-8px;top:-30px;font-size:120px;line-height:1;font-weight:1000;color:#ffffff08}.story .icon{font-size:34px}.story h3{font-size:22px;margin:26px 0 8px}.story p{color:var(--muted);line-height:1.55;margin:0}.story .tag{display:inline-flex;margin-top:14px;border:1px solid #ffffff22;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800}.story.silver{background:linear-gradient(145deg,#4e1117,#171318)}.story.spain{background:linear-gradient(145deg,#3f1613,#171318)}.story.monaco{background:linear-gradient(145deg,#1b2840,#121720)}
+.racehead{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap}.legend{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 4px}.pill{border:1px solid var(--line);border-radius:999px;padding:5px 8px;color:var(--muted);font-size:12px}
+.racelist{display:grid;gap:9px;margin-top:14px}.race{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:13px;background:#13161c;transition:.15s}.race.active{border-color:#79343a;background:#1b1418}.race input{width:20px;height:20px;accent-color:var(--red)}.race .title{font-weight:900}.race .rank{color:#777f8e;font-size:12px;margin-right:7px}.race .meta{font-size:13px;color:var(--muted);margin-top:3px;line-height:1.45}.race .note{font-size:12px;color:#828997;margin-top:5px;line-height:1.45}.race .swing{text-align:right;min-width:68px}.race .swing b{font-size:22px}.race .swing small{display:block;color:var(--muted)}
+.chartwrap{overflow-x:auto}.chart{width:100%;min-width:660px;height:250px;margin-top:12px}.axis{stroke:#333945;stroke-width:1}.target{stroke:#858b96;stroke-width:1.5;stroke-dasharray:7 7}.step{fill:none;stroke:var(--red);stroke-width:5;stroke-linejoin:round;stroke-linecap:round}.dot{fill:var(--gold);stroke:#111;stroke-width:2}
+.status{margin-top:14px;border:1px solid var(--line);border-radius:15px;padding:14px;line-height:1.5}.status.win{border-color:#255e45;background:#102219}.status.tie{border-color:#76652b;background:#251f0d}
+.method{grid-template-columns:1fr 1fr}.method ul{margin:8px 0 0;padding-left:20px;color:var(--muted);line-height:1.65}.sourcebox{font-size:13px;color:var(--muted);line-height:1.6}.sourcebox a{text-decoration-color:#6d7480;text-underline-offset:3px}
+.footer{padding:34px 0 54px;color:#767d89;font-size:12px;line-height:1.6}
+@media(max-width:820px){.scoregrid,.storygrid,.scenario,.method{grid-template-columns:1fr}.hero{padding-top:36px}.race{grid-template-columns:auto 1fr}.race .swing{grid-column:2;text-align:left}.story{min-height:200px}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero">
+<div class="eyebrow">Formula 1 · 2022 Counterfactual</div>
+<h1>Leclerc 到底要改写多少个瞬间，<em>才能夺冠？</em></h1>
+<p class="sub">不是“如果 Ferrari 完美会怎样”的幻想，而是把 22 个分站逐个拆开：从最小、最自然的反事实开始，一件件修正 reliability、strategy、driver error 与接近的赛道胜负，直到 Charles Leclerc 第一次在积分上超过 Max Verstappen。</p>
+<div class="grid scoregrid">
+<div class="metric"><div class="k">现实最终积分 · VER</div><div class="v">454</div></div>
+<div class="metric"><div class="k">现实最终积分 · LEC</div><div class="v red">308</div></div>
+<div class="metric"><div class="k">需要的净 championship swing</div><div class="v green">147</div></div>
+</div>
+</section>
+
+<section class="section panel">
+<div class="racehead"><div><h2>冠军实验台</h2><p class="lead">勾选任意反事实，积分实时重算。点击“按可信度加到夺冠”，页面会从最自然的修正开始累加，直到 Leclerc 严格领先；同分不够，因为 2022 Verstappen 的胜场数远高于 Leclerc。</p></div></div>
+<div class="progress"><div id="gapbar"></div></div>
+<div class="scoreline"><span id="gaptext">已制造 0 / 147 净 swing</span><span id="selectedCount">0 个事件已选</span></div>
+<div class="controls">
+<button class="btn primary" id="auto">按可信度加到夺冠</button>
+<button class="btn" id="top10">只选最可信 10 项</button>
+<button class="btn" id="clear">清空</button>
+</div>
+<div class="grid scenario">
+<label><span>🇦🇿 Baku：如果 PU 不爆</span><select id="baku"><option value="p2">保守：P2（LEC +18）</option><option value="p1">积极：P1，Max P2（净 swing +32）</option></select></label>
+<label><span>🇫🇷 France：如果不撞墙</span><select id="france"><option value="p2">保守：P2（LEC +18）</option><option value="p1">积极：P1，Max P2（净 swing +32）</option></select></label>
+</div>
+<div class="grid scoregrid" style="margin-bottom:0">
+<div class="metric"><div class="k">当前 LEC</div><div class="v red" id="lecPts">308</div></div>
+<div class="metric"><div class="k">当前 VER</div><div class="v" id="verPts">454</div></div>
+<div class="metric"><div class="k">净 swing</div><div class="v green" id="swingPts">0</div></div>
+</div>
+<div id="status" class="status">还差 <b>147</b> 净 swing 才能形成积分领先。</div>
+<div class="chartwrap"><svg id="chart" class="chart" viewBox="0 0 760 250" role="img" aria-label="累计 championship swing 曲线"></svg></div>
+</section>
+
+<section class="section">
+<h2>为什么 Silverstone 应该排得很靠前</h2>
+<p class="lead">它不是“Leclerc 如果突然更快”——他当时已经在领跑。Safety Car 后 Ferrari 把他留在旧 hard 上，而身后的 Sainz、Pérez、Hamilton 换上新 soft。这个反事实只要求 pit wall 做出更合理的轮胎决策。</p>
+<div class="grid storygrid">
+<article class="story silver"><div class="num">10</div><div class="icon">🛞</div><h3>🇬🇧 Silverstone</h3><p>现实：P4。反事实：正确处理 Safety Car tyre call，给 Leclerc 新 soft 并让他拥有争胜条件。</p><span class="tag">Strategy · 净 +13</span></article>
+<article class="story spain"><div class="num">6</div><div class="icon">⚙️</div><h3>🇪🇸 Barcelona</h3><p>现实：舒适领跑中 PU 故障退赛。Max 此前还有 DRS 问题。这里最接近“机械故障直接拿走胜利”。</p><span class="tag">Reliability · 净 +32</span></article>
+<article class="story monaco"><div class="num">7</div><div class="icon">🌧️</div><h3>🇲🇨 Monaco</h3><p>现实：Pole → P4。赛道几乎无法超车，关键损失来自 wet/dry crossover 与 pit timing，而不是缺乏单圈速度。</p><span class="tag">Strategy · 净 +16</span></article>
+</div>
+</section>
+
+<section class="section panel">
+<div class="racehead">
+<div><h2>22 个分站完整排序</h2><p class="lead">“可信度指数”是相对排序工具，不是数学概率。100 代表“几乎不需要额外赛车表现”；越低越接近真正的性能/赛道胜负反事实。</p></div>
+<select id="sort"><option value="plausibility">按反事实可信度</option><option value="swing">按净积分 swing</option><option value="calendar">按赛历</option></select>
+</div>
+<div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span></div>
+<div id="races" class="racelist"></div>
+</section>
+
+<section class="section">
+<div class="grid method">
+<div class="panel"><h2 style="font-size:25px">模型原则</h2><ul><li>不凭空让 Verstappen 爆缸或撞车。</li><li>优先修 Ferrari/Leclerc 自己能控制的 reliability、strategy 与明显失误。</li><li>事件默认使用保守结果；Baku 与 France 可切到更积极版本。</li><li>排序讨论的是“结果改变有多自然”，不是“这场值多少分”。</li></ul></div>
+<div class="panel sourcebox"><h2 style="font-size:25px;color:var(--text)">数据与来源</h2><p>基础积分和逐站成绩依据 Formula 1 官方 2022 results。关键反事实参考 F1 官方赛后报道/技术复盘；本站的“可信度指数”和反事实名次是分析判断，不是 F1 官方结论。</p><p><a href="https://www.formula1.com/en/results/2022/drivers" target="_blank" rel="noopener">F1 2022 Drivers Standings ↗</a><br><a href="https://www.formula1.com/en/results/2022/races" target="_blank" rel="noopener">F1 2022 Race Results ↗</a></p></div>
+</div>
+</section>
+
+<footer class="footer">Independent fan-made counterfactual analysis. Not affiliated with Formula 1, Ferrari, Charles Leclerc, Red Bull Racing, or Max Verstappen. “Plausibility” scores are editorial heuristics for exploring scenarios, not empirical probabilities.</footer>
+</main>
+<script>
+(()=>{
+const base={lec:308,ver:454};
+const races=[
+{r:1,f:'🇧🇭',n:'Bahrain',actual:'P1',alt:'已基本最大化',score:100,lec:0,ver:0,t:'—',note:'Leclerc 已获胜，Verstappen DNF；没有自然的进一步补分空间。',locked:true},
+{r:2,f:'🇸🇦',n:'Saudi Arabia',actual:'P2',alt:'末段 duel 赢 Max → P1',score:64,lec:7,ver:-7,t:'⚔️',note:'真实比赛最后就是两人的直接胜负；合理但不再属于“免费积分”。'},
+{r:3,f:'🇦🇺',n:'Australia',actual:'P1',alt:'已基本最大化',score:100,lec:0,ver:0,t:'—',note:'Leclerc 已经压倒性获胜。',locked:true},
+{r:4,f:'🇮🇹',n:'Imola',actual:'P6',alt:'不在 Variante Alta spin → P3',score:98,lec:7,ver:0,t:'🎯',note:'失误前就在 P3；只要不 spin，P3 是最自然基线。'},
+{r:5,f:'🇺🇸',n:'Miami',actual:'P2',alt:'在 late-race duel 中击败 Max → P1',score:34,lec:7,ver:-7,t:'⚔️',note:'有机会，但 Red Bull race pace 更强。'},
+{r:6,f:'🇪🇸',n:'Spain',actual:'DNF',alt:'PU 不坏 → P1；Max P2',score:96,lec:25,ver:-7,t:'⚙️',note:'Leclerc 已建立舒适领先，Max 还经历 DRS 问题。'},
+{r:7,f:'🇲🇨',n:'Monaco',actual:'P4',alt:'正常 wet/dry strategy → P1；Max P4',score:87,lec:13,ver:-3,t:'🧠',note:'Pole 出发，关键损失来自 pit timing；Monaco track position 极其重要。'},
+{r:8,f:'🇦🇿',n:'Baku',actual:'DNF',alt:'PU 不坏 → P2（保守）',score:78,lec:18,ver:0,t:'⚙️',note:'爆缸时比赛还很长，所以保守版本不直接判定 Leclerc 必胜。',key:'baku'},
+{r:9,f:'🇨🇦',n:'Canada',actual:'P5',alt:'P4',score:36,lec:2,ver:0,t:'⚔️',note:'从后排追到 P5 已经强，再前进一名需要额外 racecraft/时机。'},
+{r:10,f:'🇬🇧',n:'Silverstone',actual:'P4',alt:'正确 Safety Car tyre call → P1',score:95,lec:13,ver:0,t:'🧠',note:'Leclerc 已经领先；核心反事实是不要让旧 hard 对抗新 soft。'},
+{r:11,f:'🇦🇹',n:'Austria',actual:'Race P1 / Sprint P2',alt:'Sprint 再赢 Max',score:60,lec:1,ver:-1,t:'⚔️',note:'正赛已获胜；自然上升空间主要来自 Sprint。'},
+{r:12,f:'🇫🇷',n:'France',actual:'DNF',alt:'不撞墙 → P2（保守）',score:85,lec:18,ver:0,t:'🎯',note:'从 pole 领跑时自己撞墙；默认只恢复到 P2。',key:'france'},
+{r:13,f:'🇭🇺',n:'Hungary',actual:'P6',alt:'不用 hard tyre → P2',score:82,lec:10,ver:0,t:'🧠',note:'Medium stint 已经展示争领奖台/领先的速度；P2 是保守修复。'},
+{r:14,f:'🇧🇪',n:'Belgium',actual:'P6',alt:'不做失败 FL stop / 不吃 pit speeding penalty → P5',score:99,lec:2,ver:0,t:'🧠',note:'几乎不需要额外速度，是全季最小成本的积分修正之一。'},
+{r:15,f:'🇳🇱',n:'Netherlands',actual:'P3',alt:'P2',score:40,lec:3,ver:0,t:'⚔️',note:'需要处理 Russell；不是明显“本来就该拿”的位置。'},
+{r:16,f:'🇮🇹',n:'Monza',actual:'P2',alt:'击败 Max → P1',score:30,lec:7,ver:-7,t:'⚔️',note:'Red Bull race pace 很强，因此比 Silverstone 勉强得多。'},
+{r:17,f:'🇸🇬',n:'Singapore',actual:'P2',alt:'Pole 转化为 P1',score:68,lec:7,ver:0,t:'⚔️',note:'最终只落后 Pérez 2.595 秒，但仍需要真正把比赛赢下来。'},
+{r:18,f:'🇯🇵',n:'Japan',actual:'P3',alt:'末圈不切 chicane → P2',score:92,lec:3,ver:0,t:'🎯',note:'最后一圈错误与 5 秒罚时直接丢掉 P2。'},
+{r:19,f:'🇺🇸',n:'Austin',actual:'P3',alt:'再超过 Hamilton → P2',score:45,lec:3,ver:0,t:'⚔️',note:'从 P12 追到 podium 已经很强，P2 需要进一步兑现速度。'},
+{r:20,f:'🇲🇽',n:'Mexico',actual:'P6',alt:'P5',score:28,lec:2,ver:0,t:'⚔️',note:'Ferrari 整个周末竞争力有限。'},
+{r:21,f:'🇧🇷',n:'São Paulo',actual:'P4',alt:'Ferrari 接受请求，与 Sainz 换位 → P3',score:94,lec:3,ver:0,t:'🤝',note:'Leclerc 现实中明确请求换位；若冠军仍有悬念，执行更合理。'},
+{r:22,f:'🇦🇪',n:'Abu Dhabi',actual:'P2',alt:'击败明显占优的 Max → P1',score:18,lec:7,ver:-7,t:'⚔️',note:'Max 实际优势明显，是列表中最勉强的胜利反事实之一。'}
+];
+const selected=new Set();
+const $=s=>document.querySelector(s);
+function live(r){
+ const x={...r};
+ if(r.key==='baku'&&$('#baku').value==='p1'){x.alt='PU 不坏 → P1；Max P2';x.lec=25;x.ver=-7}
+ if(r.key==='france'&&$('#france').value==='p1'){x.alt='不撞墙 → P1；Max P2';x.lec=25;x.ver=-7}
+ x.swing=x.lec-x.ver; return x;
+}
+function ordered(){
+ const a=races.map(live),m=$('#sort').value;
+ if(m==='calendar')return a.sort((a,b)=>a.r-b.r);
+ if(m==='swing')return a.sort((a,b)=>b.swing-a.swing||b.score-a.score);
+ return a.sort((a,b)=>b.score-a.score||b.swing-a.swing);
+}
+function totals(){
+ let lec=base.lec,ver=base.ver;
+ races.forEach(r=>{if(selected.has(r.r)){const x=live(r);lec+=x.lec;ver+=x.ver}});
+ return {lec,ver,swing:(lec-base.lec)-(ver-base.ver)};
+}
+function renderList(){
+ const box=$('#races');box.innerHTML='';
+ ordered().forEach((r,i)=>{
+  const label=document.createElement('label');label.className='race'+(selected.has(r.r)?' active':'');
+  const input=document.createElement('input');input.type='checkbox';input.checked=selected.has(r.r);input.disabled=!!r.locked;
+  input.addEventListener('change',()=>{input.checked?selected.add(r.r):selected.delete(r.r);update()});
+  const mid=document.createElement('div');
+  const rank=$('#sort').value==='plausibility'&&!r.locked?'<span class="rank">#'+(i+1)+'</span>':'';
+  mid.innerHTML='<div class="title">'+rank+r.f+' '+r.n+' <span style="color:#7f8795;font-weight:700;font-size:12px">'+r.t+' · 指数 '+r.score+'</span></div><div class="meta">'+r.actual+' → <b style="color:#fff">'+r.alt+'</b></div><div class="note">'+r.note+'</div>';
+  const pts=document.createElement('div');pts.className='swing';pts.innerHTML='<small>净 swing</small><b>'+(r.swing?'+'+r.swing:'0')+'</b>';
+  label.append(input,mid,pts);box.appendChild(label);
+ });
+}
+function renderChart(){
+ const svg=$('#chart');
+ const chosen=races.map(live).filter(r=>selected.has(r.r)).sort((a,b)=>b.score-a.score);
+ const W=760,H=250,L=48,R=20,T=18,B=34,maxY=170;
+ const X=i=>L+(W-L-R)*(chosen.length?i/Math.max(1,chosen.length):0);
+ const Y=v=>H-B-(H-T-B)*(Math.min(maxY,Math.max(0,v))/maxY);
+ let cum=0,pts=[[L,Y(0)]],dots='';
+ chosen.forEach((r,i)=>{cum+=r.swing;pts.push([X(i+1),Y(cum)]);dots+='<circle class="dot" cx="'+X(i+1)+'" cy="'+Y(cum)+'" r="5"><title>'+r.n+' · cumulative '+cum+'</title></circle>'});
+ const target=Y(147);
+ svg.innerHTML='<line class="axis" x1="'+L+'" y1="'+Y(0)+'" x2="'+(W-R)+'" y2="'+Y(0)+'"/><line class="target" x1="'+L+'" y1="'+target+'" x2="'+(W-R)+'" y2="'+target+'"/><text x="'+(L+5)+'" y="'+(target-8)+'" fill="#a8adb8" font-size="12">夺冠阈值 147</text><polyline class="step" points="'+pts.map(p=>p.join(',')).join(' ')+'"/>'+dots+'<text x="8" y="'+(Y(0)+4)+'" fill="#8e95a1" font-size="12">0</text><text x="5" y="'+(target+4)+'" fill="#8e95a1" font-size="12">147</text><text x="'+(W-110)+'" y="24" fill="#a8adb8" font-size="12">累计 '+cum+'</text>';
+}
+function update(){
+ const t=totals();$('#lecPts').textContent=t.lec;$('#verPts').textContent=t.ver;$('#swingPts').textContent=t.swing;
+ $('#gapbar').style.width=Math.min(100,t.swing/147*100)+'%';$('#gaptext').textContent='已制造 '+t.swing+' / 147 净 swing';$('#selectedCount').textContent=selected.size+' 个事件已选';
+ const s=$('#status');s.className='status';
+ if(t.lec>t.ver){s.classList.add('win');s.innerHTML='🏆 <b>Leclerc 领先 '+(t.lec-t.ver)+' 分。</b> 当前反事实组合足以让他成为 2022 世界冠军。'}
+ else if(t.lec===t.ver){s.classList.add('tie');s.innerHTML='⚖️ <b>积分打平。</b> 仍不足以夺冠：Verstappen 在胜场 countback 上占绝对优势。'}
+ else{s.innerHTML='还差 <b>'+(147-t.swing)+'</b> 净 swing 才能形成积分领先。'}
+ renderList();renderChart();
+}
+$('#auto').addEventListener('click',()=>{selected.clear();let c=0;const a=races.map(live).filter(r=>!r.locked&&r.swing>0).sort((a,b)=>b.score-a.score);for(const r of a){selected.add(r.r);c+=r.swing;if(c>=147)break}update();const t=totals();$('#status').className='status win';$('#status').innerHTML='🏁 按当前可信度排序，需要前 <b>'+selected.size+' 个可改善事件</b> 才第一次跨过夺冠线：LEC '+t.lec+' — VER '+t.ver+'（净 swing '+t.swing+'）。'});
+$('#top10').addEventListener('click',()=>{selected.clear();races.map(live).filter(r=>!r.locked&&r.swing>0).sort((a,b)=>b.score-a.score).slice(0,10).forEach(r=>selected.add(r.r));update()});
+$('#clear').addEventListener('click',()=>{selected.clear();update()});
+$('#sort').addEventListener('change',renderList);
+$('#baku').addEventListener('change',update);$('#france').addEventListener('change',update);
+update();
+})();
+</script>
+</body>
+</html>
