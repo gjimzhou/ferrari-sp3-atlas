@@ -1,3 +1,17 @@
+# 公开来源与图片目录（Public Sources）
+
+2026-09-21 更新：完整逐车链接见 [registry.json](data/registry.json)，503 个 ECR 公开档案入口见 [source-index.json](data/source-index.json)。索引不代表已完成逐车去重，不能与本站车档相加。
+
+## 本轮扩充的图库
+
+- [Leclerc：Ferrari / Carscoops 配置讲解图](https://www.carscoops.com/2024/09/charles-leclerc-shows-off-his-new-monaco-themed-ferrari-daytona-sp3/)
+- [Leclerc：Ferrari 官方视频](https://www.youtube.com/watch?v=g2FGkhxZd48)
+- [Sainz：交付与 Smooth Operator 细节](https://www.thesupercarblog.com/ex-ferrari-f1-driver-carlos-sainz-takes-delivery-of-a-4-million-daytona-sp3/)
+- RM Sotheby’s 三辆车采用各自 lot 的原始图库（21 / 32 / 47 张），逐张保留原始摄影署名。
+- DK Engineering 2400 的 14 张经销商图库，逐张保留来源页。
+
+以下为历史来源目录，链接不表示本轮已逐项重新核验。
+
 # Public Sources and Image Directory
 
 This page is an intentionally link-heavy research index. Links can go stale; the underlying source and access date should be preserved when a record is promoted into the atlas.
