@@ -82,17 +82,13 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 </section>
 
 <section class="section panel">
-<div class="racehead"><div><h2>冠军实验台</h2><p class="lead">直接点整张比赛卡来激活或取消一个反事实，积分会实时重算。点击“按可信度加到夺冠”，页面会从最自然的修正开始累加，直到 Leclerc 严格领先；同分不够，因为 2022 Verstappen 的胜场数远高于 Leclerc。</p></div></div>
+<div class="racehead"><div><h2>冠军实验台</h2><p class="lead">直接点整张比赛卡来激活或取消一个反事实，积分会实时重算。先看哪些比赛最自然、最可惜；Baku / France 的边界假设被放到页面后方，不会打断主流程。点击“按可信度加到夺冠”，页面会从最自然的修正开始累加，直到 Leclerc 严格领先。</p></div></div>
 <div class="progress"><div id="gapbar"></div></div>
 <div class="scoreline"><span id="gaptext">已制造 0 / 147 净 swing</span><span id="selectedCount">0 个事件已选</span></div>
 <div class="controls">
 <button class="btn primary" id="auto">按可信度加到夺冠</button>
 <button class="btn" id="top10">只选最可信 10 项</button>
 <button class="btn" id="clear">清空</button>
-</div>
-<div class="grid scenario">
-<label><span>🇦🇿 Baku：如果 PU 不爆</span><select id="baku"><option value="p2">保守：P2（LEC +18）</option><option value="p1">积极：P1，Max P2（净 swing +32）</option></select></label>
-<label><span>🇫🇷 France：如果不撞墙</span><select id="france"><option value="p2">保守：P2（LEC +18）</option><option value="p1">积极：P1，Max P2（净 swing +32）</option></select></label>
 </div>
 <div class="grid scoregrid" style="margin-bottom:0">
 <div class="metric"><div class="k">当前 LEC</div><div class="v red" id="lecPts">308</div></div>
@@ -120,6 +116,22 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 </div>
 <div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span></div>
 <div id="races" class="racelist" aria-label="2022 race counterfactual cards"></div>
+</section>
+
+<section class="section">
+<div class="panel advanced-panel">
+<div class="advanced-head">
+<div>
+<div class="eyebrow" style="margin-bottom:8px">Advanced assumptions</div>
+<h2 style="font-size:30px">想进一步争论，再改这两个边界条件</h2>
+<p class="lead" style="margin-bottom:0">主页面默认采用保守版本：Baku 无故障只算 P2，France 不撞墙只算 P2。它们对最终结果很敏感，所以放在这里，而不是让用户一进来先做参数选择。</p>
+</div>
+</div>
+<div class="grid scenario" style="margin-top:18px">
+<label><span>🇦🇿 Baku：如果 PU 不爆</span><select id="baku"><option value="p2">默认 · 保守：P2（LEC +18）</option><option value="p1">积极：P1，Max P2（净 swing +32）</option></select></label>
+<label><span>🇫🇷 France：如果不撞墙</span><select id="france"><option value="p2">默认 · 保守：P2（LEC +18）</option><option value="p1">积极：P1，Max P2（净 swing +32）</option></select></label>
+</div>
+</div>
 </section>
 
 <section class="section">
