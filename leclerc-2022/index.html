@@ -99,6 +99,15 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 <div class="chartwrap"><svg id="chart" class="chart" viewBox="0 0 760 250" role="img" aria-label="累计 championship swing 曲线"></svg></div>
 </section>
 
+<section class="section panel">
+<div class="racehead">
+<div><h2>22 个分站完整排序</h2><p class="lead">“可信度指数”是相对排序工具，不是数学概率。100 代表“几乎不需要额外赛车表现”；越低越接近真正的性能/赛道胜负反事实。</p></div>
+<select id="sort"><option value="plausibility">按反事实可信度</option><option value="swing">按净积分 swing</option><option value="calendar">按赛历</option></select>
+</div>
+<div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span></div>
+<div id="races" class="racelist" aria-label="2022 race counterfactual cards"></div>
+</section>
+
 <section class="section">
 <h2>为什么 Silverstone 应该排得很靠前</h2>
 <p class="lead">它不是“Leclerc 如果突然更快”——他当时已经在领跑。Safety Car 后 Ferrari 把他留在旧 hard 上，而身后的 Sainz、Pérez、Hamilton 换上新 soft。这个反事实只要求 pit wall 做出更合理的轮胎决策。</p>
@@ -107,15 +116,6 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 <article class="story spain"><div class="num">6</div><div class="icon">⚙️</div><h3>🇪🇸 Barcelona</h3><p>现实：舒适领跑中 PU 故障退赛。Max 此前还有 DRS 问题。这里最接近“机械故障直接拿走胜利”。</p><span class="tag">Reliability · 净 +32</span></article>
 <article class="story monaco"><div class="num">7</div><div class="icon">🌧️</div><h3>🇲🇨 Monaco</h3><p>现实：Pole → P4。赛道几乎无法超车，关键损失来自 wet/dry crossover 与 pit timing，而不是缺乏单圈速度。</p><span class="tag">Strategy · 净 +16</span></article>
 </div>
-</section>
-
-<section class="section panel">
-<div class="racehead">
-<div><h2>22 个分站完整排序</h2><p class="lead">“可信度指数”是相对排序工具，不是数学概率。100 代表“几乎不需要额外赛车表现”；越低越接近真正的性能/赛道胜负反事实。</p></div>
-<select id="sort"><option value="plausibility">按反事实可信度</option><option value="swing">按净积分 swing</option><option value="calendar">按赛历</option></select>
-</div>
-<div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span></div>
-<div id="races" class="racelist" aria-label="2022 race counterfactual cards"></div>
 </section>
 
 <section class="section">
