@@ -66,6 +66,39 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 @media(max-width:900px){.racelist{grid-template-columns:repeat(2,minmax(0,1fr))}.story{border-right:0;border-bottom:1px solid #d6d0c7}.story:last-child{border-bottom:0}.method>div:first-child{border-right:0;border-bottom:1px solid #d6d0c7}}
 @media(max-width:620px){.racelist{grid-template-columns:1fr}.scoregrid{border-bottom:0}.metric{border-right:0;border-bottom:1px solid #d6d0c7}.metric:last-child{border-bottom:1px solid #171717}.race{min-height:205px}}
 
+
+/* Unified live lab: race cards and score state share one workspace */
+.lab-workspace{padding:0;background:transparent;border-top:4px solid #171717}
+.lab-layout{display:grid;grid-template-columns:minmax(285px,.68fr) minmax(0,1.65fr);gap:0;align-items:start}
+.lab-summary{position:sticky;top:14px;padding:22px 20px 20px;background:#fff;border-right:1px solid #d6d0c7;min-width:0}
+.lab-summary h2,.lab-races h2{margin-top:0}
+.lab-summary .lead{font-size:15px;margin-bottom:16px}
+.lab-scoregrid{grid-template-columns:repeat(3,minmax(0,1fr));margin:16px 0 0}
+.lab-scoregrid .metric{padding:12px 8px;text-align:center}
+.lab-scoregrid .metric .v{font-size:clamp(26px,3.2vw,38px)}
+.lab-scoregrid .metric .k{font-size:10px}
+.lab-controls{margin:13px 0 2px;display:grid;grid-template-columns:1fr}
+.lab-controls .btn{width:100%;font-size:13px}
+.lab-summary .chartwrap{margin-top:8px}
+.lab-summary .chart{min-width:0;height:auto;max-height:190px;margin-top:0}
+.lab-races{padding:22px 20px 24px;min-width:0;background:#fff}
+.lab-races .racelist{grid-template-columns:repeat(2,minmax(0,1fr))}
+.lab-races .race{min-height:218px}
+@media(max-width:900px){
+ .lab-layout{grid-template-columns:1fr}
+ .lab-summary{position:static;border-right:0;border-bottom:1px solid #d6d0c7}
+ .lab-controls{display:flex}
+ .lab-controls .btn{width:auto}
+ .lab-races .racelist{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:620px){
+ .lab-races .racelist{grid-template-columns:1fr}
+ .lab-summary,.lab-races{padding:18px 14px}
+ .lab-scoregrid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .lab-controls{display:grid}
+ .lab-controls .btn{width:100%}
+}
+
 </style>
 </head>
 <body>
@@ -81,31 +114,37 @@ body{background:#f6f3ed;color:#171717;font-family:Arial,Helvetica,sans-serif}
 </div>
 </section>
 
-<section class="section panel">
-<div class="racehead"><div><h2>冠军实验台</h2><p class="lead">直接点整张比赛卡来激活或取消一个反事实，积分会实时重算。先看哪些比赛最自然、最可惜；Baku / France 的边界假设被放到页面后方，不会打断主流程。点击“按可信度加到夺冠”，页面会从最自然的修正开始累加，直到 Leclerc 严格领先。</p></div></div>
+<section class="section panel lab-workspace">
+<div class="lab-layout">
+<aside class="lab-summary" aria-label="实时冠军实验台">
+<div class="eyebrow" style="margin-bottom:8px">Live championship lab</div>
+<h2>冠军实验台</h2>
+<p class="lead">点右边任意比赛卡，积分和冠军线在这里实时变化。默认按最自然的反事实排序。</p>
 <div class="progress"><div id="gapbar"></div></div>
 <div class="scoreline"><span id="gaptext">已制造 0 / 147 净 swing</span><span id="selectedCount">0 个事件已选</span></div>
-<div class="controls">
+<div class="grid scoregrid lab-scoregrid">
+<div class="metric"><div class="k">LEC</div><div class="v red" id="lecPts">308</div></div>
+<div class="metric"><div class="k">VER</div><div class="v" id="verPts">454</div></div>
+<div class="metric"><div class="k">净 swing</div><div class="v green" id="swingPts">0</div></div>
+</div>
+<div id="status" class="status">还差 <b>147</b> 净 swing 才能形成积分领先。</div>
+<div class="controls lab-controls">
 <button class="btn primary" id="auto">按可信度加到夺冠</button>
 <button class="btn" id="top10">只选最可信 10 项</button>
 <button class="btn" id="clear">清空</button>
 </div>
-<div class="grid scoregrid" style="margin-bottom:0">
-<div class="metric"><div class="k">当前 LEC</div><div class="v red" id="lecPts">308</div></div>
-<div class="metric"><div class="k">当前 VER</div><div class="v" id="verPts">454</div></div>
-<div class="metric"><div class="k">净 swing</div><div class="v green" id="swingPts">0</div></div>
-</div>
-<div id="status" class="status">还差 <b>147</b> 净 swing 才能形成积分领先。</div>
 <div class="chartwrap"><svg id="chart" class="chart" viewBox="0 0 760 250" role="img" aria-label="累计 championship swing 曲线"></svg></div>
-</section>
+</aside>
 
-<section class="section panel">
+<div class="lab-races">
 <div class="racehead">
-<div><h2>22 个分站完整排序</h2><p class="lead">“可信度指数”是相对排序工具，不是数学概率。100 代表“几乎不需要额外赛车表现”；越低越接近真正的性能/赛道胜负反事实。</p></div>
+<div><h2>22 个分站完整排序</h2><p class="lead">整张卡都可以点。可信度指数是相对排序工具，不是数学概率：越靠前，越接近“只需要少犯一个错 / 少坏一次车”。</p></div>
 <select id="sort"><option value="plausibility">按反事实可信度</option><option value="swing">按净积分 swing</option><option value="calendar">按赛历</option></select>
 </div>
 <div class="legend"><span class="pill">⚙️ reliability</span><span class="pill">🧠 strategy</span><span class="pill">🎯 driver error</span><span class="pill">⚔️ racecraft</span><span class="pill">🤝 team order</span></div>
 <div id="races" class="racelist" aria-label="2022 race counterfactual cards"></div>
+</div>
+</div>
 </section>
 
 <section class="section">
