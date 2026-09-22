@@ -984,34 +984,54 @@
   },
   {
     "id": "SP3-BP-GREEN",
-    "title": "BP Green — F1-signed engine cover",
-    "tier": "dealer",
+    "title": "Green Jewel / BP Green — F1-signed — chassis 291269",
+    "tier": "chassis",
     "year": 2023,
-    "vin": "Not public",
-    "chassis": "Not public",
-    "edition": "Original 599 production",
+    "vin": "ZFF05UMB000291269",
+    "chassis": "291269",
+    "edition": "Original 599 production; Ferrari Atelier / Extra-Range specification",
     "country": "United Arab Emirates",
-    "city": "Dubai",
-    "market": "Middle East / export listing",
+    "city": "Delivered via Charles Pozzi Paris; later listed in Dubai",
+    "market": "European specification / later Dubai resale",
     "owner": "Private",
-    "exterior": "One-off BP Green",
+    "exterior": "Four-layer Extra-Range green paint, factory code GREEN JEWEL FYM.181037(X1); Dubai dealer/press described the same car as one-off BP Green",
     "color": "Green",
-    "interior": "Black; full build sheet not public",
-    "wheels": "Dark gold",
-    "calipers": "Not publicly confirmed",
-    "mileage": "Fewer than 400 miles when listed",
-    "status": "Publicly listed for sale",
-    "sale": "AED 21,000,000 asking price reported",
-    "program": "Ferrari personalisation",
+    "interior": "Alcantara Rosso FX 3694; Nero Alcantara steering-wheel grips; Extra-Range cabin details",
+    "wheels": "Gold forged wheels",
+    "calipers": "Glossy black",
+    "mileage": "512 km in the Octane listing; 501 km at 2024 Charles Pozzi service. 2025 Dubai coverage reported roughly 629 km / fewer than 400 miles, creating a public mileage discrepancy.",
+    "status": "Public dealer-market car; previously offered by F1rst Motors Dubai",
+    "sale": "AED 21,000,000 asking price reported during 2025 Dubai listing",
+    "program": "Ferrari Atelier / Extra-Range",
     "options": [
       "Engine cover signed in gold by Charles Leclerc and Carlos Sainz Jr.",
-      "One-off BP Green paint",
-      "Dark-gold wheels"
+      "GREEN JEWEL FYM.181037(X1) four-layer Extra-Range paint",
+      "Historic/vintage livery with three circles",
+      "Three Bianco Cervino 2005001 roundels with No. 16 in Nero DS 205500",
+      "Airbrushed Scuderia Ferrari shields",
+      "Glossy black brake calipers",
+      "Gold forged wheels",
+      "Carbon-fibre hardtop",
+      "Carbon-fibre lower bodywork",
+      "Carbon-fibre lid lip",
+      "Four-point black safety belts",
+      "Apple CarPlay",
+      "Suspension lifter",
+      "Door handles in black Alcantara",
+      "Headrest Cavallino in special 70268 thread",
+      "Alcantara Rosso FX 3694 interior",
+      "Nero Alcantara steering-wheel grips",
+      "Large seat cushions / L32 backrest",
+      "Racing Driver Set",
+      "Extra-Range exterior, interior and mats"
     ],
     "timeline": [
-      "2025 — Listed by F1rst Motors in Dubai."
+      "2023 — Delivered new through Charles Pozzi Paris.",
+      "2024 — Annual maintenance at Charles Pozzi Paris recorded at 501 km.",
+      "February 2025 — F1rst Motors Dubai and international press offered the distinctive green SP3 with Leclerc/Sainz gold signatures; asking price reported at AED 21 million.",
+      "2026 public Octane Marketplace listing — Chassis/VIN ZFF05UMB000291269 published with 512 km and the detailed Ferrari Atelier option sheet."
     ],
-    "notes": "Dealer and press documented, but VIN and full interior specification were not published.",
+    "notes": "The original Atlas entry lacked a VIN. Octane Marketplace now publishes VIN ZFF05UMB000291269 and a detailed factory personalization sheet for a Green Jewel Daytona SP3 with gold forged wheels and Leclerc/Sainz gold signatures on the engine cover. Those highly distinctive features match the F1rst Motors Dubai car independently described by ANSA, Top Gear and other 2025 coverage as the one-off BP Green SP3. The colour naming differs by source: the factory-style Octane sheet says GREEN JEWEL FYM.181037(X1), while the Dubai dealer/press calls it BP Green; both labels are preserved rather than silently collapsed. Public mileage figures also conflict: Octane reports 512 km, while 2025 Dubai coverage described about 629 km / under 400 miles, so the Atlas records the discrepancy instead of treating either as a monotonic odometer timeline.",
     "photos": [
       "https://luxurypulse.com/img/pictures/679df1259b46dcopie.jpeg",
       "https://luxurypulse.com/img/pictures/679df125a7ef1-blob.jpeg",
@@ -1060,12 +1080,24 @@
       [
         "F1rst Motors — dealer’s own article",
         "https://f1rstmotors.com/news/our-daytona-sp3-is-signed-by-leclerc-and-sainz"
+      ],
+      [
+        "Octane Marketplace — chassis 291269 dealer listing",
+        "https://www.octane-magazine.com/cars-for-sale/ferrari-daytona-2023-598964"
+      ],
+      [
+        "ANSA — BP Green F1-signed Dubai listing",
+        "https://www.ansa.it/amp/canale_motori/notizie/mondo_motori/2025/02/12/in-vendita-a-dubai-ferrari-firmata-da-sainz-jr.-e-leclerc_6abb61d3-dd77-4143-8663-5f09c388a721.html"
+      ],
+      [
+        "Top Gear — BP Green F1-signed Dubai listing",
+        "https://www.topgear.com/car-news/used-cars/fancy-a-ferrari-daytona-sp3-heres-one-signed-charles-leclerc-and-carlos-sainz"
       ]
     ],
-    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-09-21 — Full VIN/chassis, factory-style personalization sheet, Charles Pozzi service history and the identity bridge to the F1-signed Dubai BP Green car cross-checked; source colour naming and mileage discrepancies are explicitly retained.",
     "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 88,
+    "sort_weight": 99,
     "photo_sources": [
       "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
       "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale",
