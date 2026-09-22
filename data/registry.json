@@ -5931,7 +5931,8 @@
     "sort_weight": 40,
     "photo_sources": [],
     "photo_captions": [],
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "vin_conflicted": true
   },
   {
     "id": "SP3-STEVEN-VICTOR",
