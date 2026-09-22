@@ -5263,32 +5263,51 @@
   },
   {
     "id": "SP3-277497-FACTORY-DEMO",
-    "title": "Factory Demo — chassis 277497",
+    "title": "Factory Demo — Rosso Magma / Blu — chassis 277497",
     "tier": "chassis",
     "year": 2022,
     "vin": "ZFF05UMB000277497",
     "chassis": "277497",
     "edition": "Factory demo; customer-allocation status not established",
     "country": "Italy",
-    "city": "Italy",
-    "market": "Not public",
+    "city": "Zandvoort, Netherlands",
+    "market": "Factory demo / Italian-plated",
     "owner": "Ferrari factory demo fleet (reported by registry source)",
     "exterior": "Rosso Magma",
     "color": "Red",
     "interior": "Blu",
-    "wheels": "Not publicly documented",
+    "wheels": "Silver five-spoke wheels visible in public photography",
     "calipers": "Not publicly documented",
     "mileage": "Not public",
-    "status": "Factory demo car",
+    "status": "Factory demo / public event car",
     "sale": "Not publicly offered",
     "program": "Unknown",
-    "options": [],
-    "timeline": [
-      "2022 — Dutch Ferrari and Lamborghini Register records the car as an Italian-registered factory demo."
+    "options": [
+      "Rosso Magma exterior",
+      "Blu cabin",
+      "Italian registration GJ-561-FL during the documented demo period"
     ],
-    "notes": "Two public chassis indexes independently list VIN ZFF05UMB000277497. The Dutch register identifies it as a factory demo car and says it never had a Dutch registration. The Atlas does not automatically count it as one of the 599 customer allocations because its allocation status is not established by these sources.",
-    "photos": [],
-    "credits": [],
+    "timeline": [
+      "2022 — Public chassis indexes identify VIN ZFF05UMB000277497 as a Daytona SP3 factory demo.",
+      "July 2022 — VIN-specific registry page documents chassis 277497 at Zandvoort with Italian plate GJ-561-FL and six photos."
+    ],
+    "notes": "Two public chassis indexes identify VIN ZFF05UMB000277497; the Dutch Ferrari and Lamborghini Register classifies it as a factory demo car that never had Dutch registration and records Rosso Magma / Blu specification with Italian plate GJ-561-FL. A VIN-specific July 2022 Zandvoort gallery adds six car-level images. The Atlas keeps the factory-demo classification separate from the 599 customer-allocation count because the sources do not establish whether this chassis was later counted in, converted into, or remained outside that allocation.",
+    "photos": [
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277497-2.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277497-3.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277497-4.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277497-5.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277497-6.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277497-7.jpg"
+    ],
+    "credits": [
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register",
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register",
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register",
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register",
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register",
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register"
+    ],
     "sources": [
       [
         "Dutch Ferrari and Lamborghini Register — registry entry",
@@ -5297,15 +5316,33 @@
       [
         "Made in Maranello — chassis index",
         "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
+      ],
+      [
+        "Dutch Ferrari and Lamborghini Register — chassis 277497 photo record",
+        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/"
       ]
     ],
-    "review_status": "2026-09-21 — VIN cross-checked across two public chassis indexes; factory-demo classification retained from registry source.",
+    "review_status": "2026-09-22 — Full VIN, factory-demo classification, two chassis indexes, Italian plate GJ-561-FL, Rosso Magma / Blu specification and six-photo Zandvoort gallery reviewed; customer-allocation status remains unresolved.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 94,
-    "photo_sources": [],
-    "photo_captions": [],
-    "accessed": "2026-09-21"
+    "photo_sources": [
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/"
+    ],
+    "photo_captions": [
+      "Zandvoort 2022 · Blu interior",
+      "Zandvoort 2022 · rear view · GJ-561-FL",
+      "Zandvoort 2022 · rear three-quarter",
+      "Zandvoort 2022 · doors raised",
+      "Zandvoort 2022 · front three-quarter",
+      "Zandvoort 2022 · front view"
+    ],
+    "accessed": "2026-09-22"
   },
   {
     "id": "SP3-277498-DEMO-LEAD",

@@ -174,6 +174,7 @@
     "AMARI Supercars — dealer listing":"AMARI Supercars — 经销商挂牌",
     "Car & Classic — syndicated dealer listing":"Car & Classic — 经销商挂牌转载",
     "Dutch Ferrari and Lamborghini Register — registry entry":"荷兰 Ferrari / Lamborghini Register — registry 条目",
+    "Dutch Ferrari and Lamborghini Register — chassis 277497 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 277497 逐车图库",
     "Dutch Ferrari and Lamborghini Register — chassis 277498 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 277498 逐车图库",
     "Dutch Ferrari and Lamborghini Register — chassis 277499 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 277499 逐车图库",
     "Dutch Ferrari and Lamborghini Register — chassis 289571 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 289571 逐车图库",
@@ -889,19 +890,22 @@
       review_status:"2026-09-21 — 已复核经销商记录及转刊广告；没有 VIN 证据，因此明确不与底盘 286921 合并。"
     },
     "SP3-277497-FACTORY-DEMO":{
-      title:"Ferrari 工厂 Demo — 底盘 277497",
+      title:"Ferrari 工厂 Demo — Rosso Magma / Blu — 底盘 277497",
       edition:"工厂 Demo；客户配额归属尚未确定",
-      city:"意大利",
+      country:"意大利",
+      city:"荷兰 Zandvoort",
+      market:"工厂 Demo / 意大利车牌",
       owner:"Ferrari 工厂 Demo 车队（registry 来源报告）",
       exterior:"Rosso Magma",
-      interior:"Blu 蓝色",
-      status:"工厂 Demo 车辆",
-      sale:"未公开出售",
-      timeline:["2022 年 — 荷兰 Ferrari / Lamborghini Register 将该车记录为意大利注册的 Ferrari 工厂 Demo。"],
-      notes:"两个公开底盘索引分别列出 VIN ZFF05UMB000277497。荷兰 registry 将其标记为 factory demo car，并说明从未有荷兰注册。由于这些来源并未确认其客户配额身份，本站不自动将其计入 599 辆客户分配。",
-      review_status:"2026-09-21 — 已在两个公开底盘索引中交叉核对 VIN；factory-demo 分类沿用 registry 来源。"
-    }
-,
+      interior:"Blu",
+      wheels:"公开照片可见银色五辐轮毂",
+      status:"工厂 Demo / 公开活动车辆",
+      options:["Rosso Magma 外观","Blu 蓝色座舱","记录中的意大利车牌 GJ-561-FL"],
+      timeline:["2022 年 — 公开底盘索引将 VIN ZFF05UMB000277497 识别为 Daytona SP3 factory demo。","2022 年 7 月 — VIN 逐车页记录底盘 277497 在 Zandvoort，使用意大利车牌 GJ-561-FL，并公开 6 张实车图。"],
+      notes:"两个公开底盘索引识别 VIN ZFF05UMB000277497；Dutch Ferrari and Lamborghini Register 将其归类为从未在荷兰注册的 factory demo car，并记录 Rosso Magma / Blu 配置与意大利车牌 GJ-561-FL。VIN 逐车页另有 2022 年 7 月 Zandvoort 的 6 张逐车图片。由于来源没有说明该底盘后来是否计入、转换为或始终独立于 599 辆客户配额，Atlas 保持 factory-demo 分类与 599 客户配额统计分开。",
+      review_status:"2026-09-22 — 已复核完整 VIN、factory-demo 分类、两个底盘索引、意大利车牌 GJ-561-FL、Rosso Magma / Blu 配置及 6 张 Zandvoort 图；客户配额归属仍未确定。",
+      photo_captions:["2022 Zandvoort · Blu 内饰","2022 Zandvoort · 车尾 · GJ-561-FL","2022 Zandvoort · 后 3/4","2022 Zandvoort · 双门开启","2022 Zandvoort · 前 3/4","2022 Zandvoort · 正前方"]
+    },
     "SP3-277498-DEMO-LEAD":{
       title:"Ferrari 工厂 Demo — Rosso Magma / Blu — 底盘 277498",
       edition:"工厂 Demo；客户配额归属尚未确定",
