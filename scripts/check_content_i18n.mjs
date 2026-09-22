@@ -66,6 +66,19 @@ for (const record of registry) {
       });
     }
   }
+
+  for (const [label] of record.sources || []) {
+    const english = api.text(label, 'en');
+    if (hasCJK(english)) {
+      failures.push(`${record.id} source label: Chinese text leaked into English mode: ${english}`);
+    }
+  }
+
+  for (const credit of api.value(record, 'credits', 'en') || []) {
+    if (hasCJK(credit)) {
+      failures.push(`${record.id} credit: Chinese text leaked into English mode: ${credit}`);
+    }
+  }
 }
 
 if (failures.length) {
