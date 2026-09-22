@@ -7114,5 +7114,47 @@
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-292690-VIN-LEAD",
+    "title": "Chassis 292690 — public VIN lead",
+    "tier": "registry",
+    "year": null,
+    "vin": "ZFF05UMA000292690",
+    "chassis": "292690",
+    "edition": "Public VIN lead; allocation status not independently verified",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "Unknown",
+    "owner": "Unknown",
+    "exterior": "Unknown",
+    "color": "Unknown",
+    "interior": "Unknown",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Unknown",
+    "status": "Public VIN-index lead",
+    "sale": "Unknown",
+    "program": "Unknown",
+    "options": [],
+    "timeline": [
+      "22 December 2025 — AutoRef public search history recorded VIN ZFF05UMA000292690 as a Ferrari Daytona SP3."
+    ],
+    "notes": "AutoRef's public VIN-search history exposes the complete VIN ZFF05UMA000292690 and identifies it as a Ferrari Daytona SP3. No independent per-car configuration, ownership, location or model-year source was found in this pass, so the Atlas preserves it as a single-source VIN lead rather than a detailed profile.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "AutoRef — public VIN search history",
+        "https://autoref.eu/en/public-search-history?page=725&sortDirection=asc&sortField=model"
+      ]
+    ],
+    "review_status": "2026-09-21 — Complete VIN/model identification reviewed; retained as a single-source lead pending an independent per-car source.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 70,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-21"
   }
 ]

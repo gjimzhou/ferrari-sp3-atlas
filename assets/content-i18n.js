@@ -945,6 +945,14 @@
       timeline:["2025 年 12 月 — AutoRef 公开搜索记录将该 VIN 标识为 Ferrari Daytona SP3。","2026-09-21 — Made in Maranello 底盘索引独立列出同一 VIN 与 serial。"],
       notes:"两个公开 VIN／底盘索引分别将 ZFF05UMA000292660 识别为 Daytona SP3。当前都没有可靠的公开逐车配置，因此保留为 VIN lead，而不是详细车档。"
     },
+    "SP3-292690-VIN-LEAD":{
+      title:"底盘 292690 — 公开 VIN 线索",
+      owner:"未公开",
+      status:"公开 VIN 索引线索",
+      timeline:["2025 年 12 月 22 日 — AutoRef 公开搜索记录将 VIN ZFF05UMA000292690 标识为 Ferrari Daytona SP3。"],
+      notes:"AutoRef 的公开 VIN 搜索历史直接展示完整 VIN ZFF05UMA000292690，并将其识别为 Ferrari Daytona SP3。本轮未找到独立的逐车配置、车主、地点或 model year 来源，因此本站只将它作为单来源 VIN lead 保存，不升级为详细车档。",
+      review_status:"2026-09-21 — 已复核完整 VIN 与车型识别；在取得独立逐车来源前保留为 single-source lead。"
+    },
     "SP3-310023-VIN-LEAD":{
       title:"底盘 310023 — 公开 VIN 线索",
       owner:"未公开",
