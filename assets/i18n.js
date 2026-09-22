@@ -23,6 +23,8 @@
     'ECR 公开档案索引': 'ECR public profile index',
     '2026-09-21 检索快照': 'snapshot retrieved 2026-09-21',
     '完整公开 VIN': 'Complete public VINs',
+    '已确认完整公开 VIN': 'Confirmed public VINs',
+    '本站研究记录': 'in Atlas research records',
     '本站车档': 'in Atlas profiles',
     '具名车主／收藏记录': 'Named owner / collection records',
     '包含历史收藏关系': 'including historical collection links',
@@ -168,6 +170,7 @@
     if (exact.has(source)) return exact.get(source);
 
     let m;
+    if ((m = source.match(/^版本：(\d{4}-\d{2}-\d{2})。现有 (\d+) 条有来源研究记录：(\d+) 个详细车档、(\d+) 条待核对线索、(\d+) 辆预生产／研发车；(\d+) 个已确认完整公开 VIN；另有 (\d+) 条来源冲突 VIN 线索；(\d+) 条图库图片引用覆盖 (\d+) 条记录。默认车辆页仍只显示详细车档；单源 VIN 和 source-conflict VIN 保留为待核对 lead。$/))) return `Version: ${m[1]}. The Atlas contains ${m[2]} sourced research records: ${m[3]} detailed profiles, ${m[4]} leads, and ${m[5]} pre-production / development cars; ${m[6]} confirmed complete public VINs plus ${m[7]} source-conflicted VIN lead; and ${m[8]} gallery image references across ${m[9]} records. The default vehicle view still shows detailed profiles only; single-source and source-conflict VINs remain research leads.`;
     if ((m = source.match(/^(\d+) 条匹配研究记录 · 第 (\d+) 页$/))) return `${m[1]} matching research records · page ${m[2]}`;
     if ((m = source.match(/^(\d+) \/ (\d+) 个公开来源档案 · 第 (\d+) 页$/))) return `${m[1]} / ${m[2]} public source profiles · page ${m[3]}`;
     if ((m = source.match(/^图库图片引用 · (\d+) 条记录有图$/))) return `Gallery image references · ${m[1]} records with images`;

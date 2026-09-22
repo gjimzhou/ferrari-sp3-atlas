@@ -57,7 +57,7 @@ function selectOptions(id,values,label){const old=$(id).value;$(id).innerHTML=`<
 function setup(){
  $('profileKpi').textContent=records.filter(r=>r.record_kind==='profile').length;
  $('sourceKpi').textContent=sourceIndex.length;
- $('vinKpi').textContent=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)).length;
+ $('vinKpi').textContent=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&!r.vin_conflicted).length;
  $('ownerKpi').textContent=records.filter(r=>r.owner_public).length;
  $('photoKpi').textContent=records.reduce((n,r)=>n+(r.photos?.length||0),0);
  $('photoKpiLabel').textContent=`图库图片引用 · ${records.filter(r=>r.photos?.length).length} 条记录有图`;
