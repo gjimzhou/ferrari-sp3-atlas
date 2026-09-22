@@ -271,6 +271,77 @@ body{
 .status.tie{background:#2a2410}.status.win{background:#0b3424}
 @media(max-width:620px){.race:before{opacity:.52!important}.race:hover:before{opacity:.58!important}}
 
+
+/* Finish-pass: Leclerc #16 identity, race-poster cards, and tactile feedback */
+:root{--black:#0b0b0b}
+.identity-ribbon{
+  display:flex;align-items:center;gap:12px;min-height:46px;padding:8px 18px;
+  background:#dc0000;color:#fff;border-bottom:4px solid #141414;
+  font-size:12px;font-weight:900;letter-spacing:.09em;text-transform:uppercase;
+}
+.identity-no{
+  display:grid;place-items:center;width:34px;height:30px;background:#ffd21e;color:#111;
+  font:900 21px/1 Georgia,"Times New Roman",serif;letter-spacing:-.05em;
+}
+.identity-name{font-size:13px}.identity-team{color:#ffd8dc}.identity-dot{color:#ffd21e}
+.identity-stripe{margin-left:auto;display:flex;width:54px;height:8px}
+.identity-stripe i{display:block;flex:1}.identity-stripe i:nth-child(1){background:#009246}.identity-stripe i:nth-child(2){background:#fff}.identity-stripe i:nth-child(3){background:#ce2b37}
+
+.race:before{background-position:var(--race-pos,50% 42%)!important}
+.race .rankline{min-height:22px}
+.race .rank{
+  display:inline-flex;align-items:center;justify-content:center;min-width:28px;height:19px;
+  padding:0 5px;border:1px solid #ffffff48;background:#0006;color:#eee!important;
+  font:800 10px/1 Arial,sans-serif;letter-spacing:.04em;
+}
+.race .title{letter-spacing:-.01em}
+.race .cred{gap:6px}
+.race .credlabel{min-width:51px;text-align:left;font-size:8px!important;letter-spacing:.09em;color:#d4cec7!important}
+.race .credbar{height:4px}
+.race .journey{backdrop-filter:blur(1.5px)}
+.race .actual{font-weight:700;letter-spacing:.015em}
+.race .alt{line-height:1.24}
+.race .type{display:flex;align-items:center;min-height:23px;font-size:13px}
+.race .swing b{font-size:24px!important;line-height:.9}
+.race.active .rank{background:#ffd21e;color:#111!important;border-color:#ffd21e}
+.race.active{transform:translateY(-2px)}
+.race.active .selectmark{box-shadow:0 0 0 3px #0005}
+.race:focus-visible{outline:3px solid #ffd21e!important;outline-offset:3px}
+
+.metric-pulse{animation:metricPulse .28s ease-out}
+@keyframes metricPulse{
+  0%{transform:scale(1);filter:brightness(1)}
+  42%{transform:scale(1.12);filter:brightness(1.5)}
+  100%{transform:scale(1);filter:brightness(1)}
+}
+@media(prefers-reduced-motion:reduce){
+  .metric-pulse{animation:none}.race,.race:before{transition:none!important}
+}
+
+.lab-summary .status{font-family:Georgia,"Times New Roman",serif;font-size:14px;line-height:1.35}
+.lab-summary .status b{font-family:Arial,Helvetica,sans-serif}
+.lab-summary .progress{position:relative;overflow:visible}
+.lab-summary .progress:after{
+  content:"147";position:absolute;right:0;top:-15px;color:#8d867e;font-size:9px;font-weight:800;
+}
+.lab-summary .progress>div{box-shadow:0 0 12px #dc000055}
+
+#silverstoneExplainer{position:relative}
+#silverstoneExplainer:before{
+  content:"16";position:absolute;right:0;top:-35px;color:#ffffff08;
+  font:900 150px/1 Georgia,"Times New Roman",serif;pointer-events:none;
+}
+#silverstoneExplainer>h2,#silverstoneExplainer>p{position:relative;z-index:1}
+
+.source-details{border-top:1px solid #333;padding-top:10px}
+.footer{border-top:1px solid #252525;margin-top:14px}
+@media(max-width:620px){
+  .identity-ribbon{gap:8px;padding-inline:12px;letter-spacing:.04em}
+  .identity-team,.identity-dot{display:none}
+  .identity-stripe{width:42px}
+  .race .credlabel{min-width:44px;font-size:7px!important}
+}
+
 </style>
 </head>
 <body>
@@ -286,6 +357,13 @@ body{
 <div class="metric"><div class="k">需要的净 championship swing</div><div class="v green">147</div></div>
 </div>
 </section>
+<div class="identity-ribbon" aria-label="Charles Leclerc 2022">
+  <span class="identity-no">16</span>
+  <span class="identity-name">CHARLES LECLERC</span>
+  <span class="identity-dot">•</span>
+  <span class="identity-team">SCUDERIA FERRARI · 2022</span>
+  <span class="identity-stripe" aria-hidden="true"><i></i><i></i><i></i></span>
+</div>
 
 <section class="section panel lab-workspace">
 <div class="lab-layout">
@@ -300,7 +378,7 @@ body{
 <div class="metric"><div class="k">VER</div><div class="v" id="verPts">454</div></div>
 <div class="metric"><div class="k">净 swing</div><div class="v green" id="swingPts">0</div></div>
 </div>
-<div id="status" class="status">还差 <b>147</b> 净 swing 才能形成积分领先。</div>
+<div id="status" class="status" aria-live="polite">还差 <b>147</b> 净 swing 才能形成积分领先。</div>
 <div class="controls lab-controls">
 <button class="btn primary" id="auto">按可信度加到夺冠</button>
 <button class="btn" id="top10">只选最可信 10 项</button>
@@ -320,7 +398,7 @@ body{
 </div>
 </section>
 
-<section class="section">
+<section class="section" id="silverstoneExplainer">
 <h2>为什么 Silverstone 应该排得很靠前</h2>
 <p class="lead">它不是“Leclerc 如果突然更快”——他当时已经在领跑。Safety Car 后 Ferrari 把他留在旧 hard 上，而身后的 Sainz、Pérez、Hamilton 换上新 soft。这个反事实只要求 pit wall 做出更合理的轮胎决策。</p>
 <div class="grid storygrid">
@@ -360,6 +438,7 @@ body{
 const base={lec:308,ver:454};
 const raceImages={"2":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/manual/Misc/2022manual/2022Races/SaudiArabainGP/Sunday/GettyImages-1388031217.webp","4":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/EmiliaRomagna/Saturday/1393163794.webp","5":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Miami/Sunday/1396130246.webp","6":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/manual/Misc/2022manual/2022Races/SpanishGP/Preview/2200039-scuderia-ferrari-2022-barcelona-test-day-1-gallery.webp","7":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Monaco/Friday/1399562476.webp","8":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Azerbaijan/Saturday/1402322261.webp","9":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Canada/Sunday/1403867759.webp","10":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/GreatBritain/Sunday/1406553562.webp","11":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Austria/Sunday/1407858253.webp","12":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/France/Friday/1410321607.webp","13":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Hungary/Friday/1411617172.webp","14":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/manual/Misc/2022manual/2022Races/BelgianGP/Friday/GettyImages-1242725357.webp","15":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Netherlands/Saturday/1420492699.webp","16":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/manual/Misc/2022manual/2022Races/ItalianGP/Saturday/GettyImages-1243098067.webp","17":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Singapore/Saturday/1429369045.webp","18":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Japan/Sunday/1431899272.webp","19":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/manual/Misc/2022manual/2022Races/USGP/Sunday/GettyImages-1435981836.webp","20":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/manual/Misc/2022manual/2022Races/MexicoCityGP/Friday/GettyImages-1437559461.webp","21":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/Brazil/Friday/1440811830.webp","22":"https://media.formula1.com/image/upload/c_lfill%2Cw_3392/q_auto/v1740000001/content/dam/fom-website/sutton/2022/AbuDhabi/Sunday/1442982947.webp"};
 const raceSources={"2":"https://www.formula1.com/en/latest/article/leclerc-says-every-race-should-be-like-this-despite-losing-stunning-saudi.1QK9e2wO5Z07eV4iDtNUOc","4":"https://www.formula1.com/en/latest/article/if-we-can-fix-it-we-can-fight-for-the-win-leclerc-reveals-key-struggle-after.3AE3d8UHidYeKyzKAE2Knr","5":"https://www.formula1.com/en/latest/article/verstappen-wins-inaugural-miami-grand-prix-over-leclerc-after-late-safety.6zwwHLQ27MENnB4ygoNN1S","6":"https://www.formula1.com/en/latest/article/facts-and-stats-consecutive-poles-for-leclerc-as-ferrari-start-p1-in-spain.3n0JCsBV6tzaEdmkhNx42X","7":"https://www.formula1.com/en/latest/article/leclerc-takes-majestic-pole-on-home-turf-in-monaco-as-bizarre-sainz-perez.4SHlHPEwdQYdt5D4chx9FG","8":"https://www.formula1.com/en/latest/article/leclerc-blazes-to-baku-pole-as-perez-joins-him-on-the-front-row-in.uzcExNN3vcmwe0gyG57iP","9":"https://www.formula1.com/en/latest/article/leclerc-calls-canadian-gp-super-frustrating-despite-recovering-from-back-row.2WE6F7ZVRYRYt5xkY8cXxX","10":"https://www.formula1.com/en/latest/article/it-was-looking-good-for-victory-leclerc-says-he-cannot-hide-disappointment.10hWpp3Po2hRuZgJ707hoN","11":"https://www.formula1.com/en/latest/article/leclerc-shrugs-off-late-reliability-scare-to-overhaul-verstappen-for.15sh3VKHXNeDyFc4FJO65i","12":"https://www.formula1.com/en/latest/article/sainz-tows-leclerc-to-first-french-grand-prix-pole-as-verstappen-qualifies.2Siuhjy4WwL2bH0FMoYDN9","13":"https://www.formula1.com/en/latest/article/fp2-leclerc-heads-impressive-norris-as-ferrari-sweep-friday-sessions-at-the.3XsdpZA9mUGL4d9q6FZOLD","14":"https://www.formula1.com/en/latest/article/fp1-sainz-heads-ferrari-1-2-in-belgium-as-f1-returns-after-summer-break.2lcFarjYXkXAjwUy0Hn520","15":"https://www.formula1.com/en/latest/article/verstappen-beats-leclerc-to-zandvoort-pole-by-0-021s.2QpeEgbq9VbLr2lbK2jFI5","16":"https://www.formula1.com/en/latest/article/leclerc-takes-pole-position-for-the-2022-italian-grand-prix-with-russell-to.6yiWZGMfvHSvrU1FH9w7bU","17":"https://www.formula1.com/en/latest/article/leclerc-claims-pole-position-by-0-022s-from-perez-in-stunning-wet-dry.1VYcL6oJ34e4vHUpdJtDca","18":"https://www.formula1.com/en/latest/article/verstappen-crowned-world-champion-with-japanese-gp-victory-after-late.7g1xgGHHew3f2If32u8U1z","19":"https://www.formula1.com/en/latest/article/leclerc-brands-cota-result-a-little-bit-disappointing-despite-recovery-from.5ZXF5PbUOu2NV0STzpvfXu","20":"https://www.formula1.com/en/latest/article/leclerc-reveals-problem-that-prevented-pole-challenge-in-mexico-city-as.ghRNsTS94V7K0KQZRjpHP","21":"https://www.formula1.com/en/latest/article/theres-always-a-lot-to-learn-ferrari-set-for-detailed-review-after-tricky.77CmDIV535PEJswWatvWdg","22":"https://www.formula1.com/en/latest/article/verstappen-cruises-to-victory-in-abu-dhabi-as-leclerc-seals-p2-in-standings.5XRTCWAEVIywQW8ven8CrH"};
+const raceImagePos={2:'54% 42%',4:'50% 42%',5:'48% 40%',6:'50% 44%',7:'53% 42%',8:'52% 43%',9:'50% 42%',10:'52% 43%',11:'50% 43%',12:'48% 42%',13:'50% 43%',14:'50% 42%',15:'52% 42%',16:'50% 40%',17:'52% 45%',18:'52% 44%',19:'48% 42%',20:'50% 43%',21:'50% 43%',22:'51% 42%'};
 const raceEN={"2":{"n":"Saudi Arabia","actual":"P2","alt":"Win the final duel vs Max → P1","note":"A genuine late-race duel; plausible, but not free points."},"4":{"n":"Imola","actual":"Sprint P2 · Race P6","alt":"Win Sprint + avoid race spin → P3","note":"Max passed late in the Sprint; in the GP Leclerc was P3 before the spin."},"5":{"n":"Miami","actual":"P2","alt":"Win the late-race duel vs Max → P1","note":"Possible after the Safety Car, though Red Bull had stronger race pace."},"6":{"n":"Spain","actual":"DNF while leading","alt":"PU survives → P1; Max P2","note":"Leclerc had a comfortable lead while Max had already suffered DRS trouble."},"7":{"n":"Monaco","actual":"Pole → P4","alt":"Clean wet/dry strategy → P1; Max P4","note":"Track position dominates in Monaco; Ferrari lost it through pit timing."},"8":{"n":"Baku","actual":"DNF","alt":"PU survives → P2 (conservative)","note":"The failure came early enough that a win cannot simply be assumed."},"9":{"n":"Canada","actual":"P5","alt":"One more place → P4","note":"Already a strong recovery from the back; another place needs more."},"10":{"n":"Silverstone","actual":"P4","alt":"Correct Safety Car tyre call → P1","note":"Leclerc was already leading; the key counterfactual is new softs, not more pace."},"11":{"n":"Austria","actual":"Sprint P2 · Race P1","alt":"Win Sprint; keep GP win","note":"The Grand Prix was already maximized; only the Sprint has natural upside."},"12":{"n":"France","actual":"DNF from the lead","alt":"No crash → P2 (conservative)","note":"He crashed from pole/lead; the default model restores only P2."},"13":{"n":"Hungary","actual":"P6","alt":"Avoid hard-tyre call → P2","note":"The medium stint showed podium/lead pace; P2 is a conservative strategy fix."},"14":{"n":"Belgium","actual":"P6","alt":"No failed FL stop / penalty → P5","note":"One of the cheapest points to recover: no extra pace required."},"15":{"n":"Netherlands","actual":"P3","alt":"Gain one more place → P2","note":"Would require beating Russell; not a near-guaranteed recovery."},"16":{"n":"Monza","actual":"Pole → P2","alt":"Beat Max → P1; Max P2","note":"Red Bull's race pace was strong, so this is much harder than Silverstone."},"17":{"n":"Singapore","actual":"Pole → P2","alt":"Convert pole / beat Pérez → P1","note":"Only 2.595s behind, but still requires actually winning the race."},"18":{"n":"Japan","actual":"P2 on road → P3","alt":"No final-lap chicane error → P2","note":"A last-lap mistake and 5-second penalty directly lost P2."},"19":{"n":"Austin","actual":"P12 start → P3","alt":"Also pass Hamilton → P2","note":"Already an excellent recovery; P2 needs another on-track gain."},"20":{"n":"Mexico","actual":"P6","alt":"One better on a weak weekend → P5","note":"Ferrari lacked competitiveness all weekend."},"21":{"n":"São Paulo","actual":"Sprint P6 · Race P4","alt":"Sprint unchanged; team swap in race → P3","note":"Sprint is already in the baseline; the modeled gain is the late-race team order."},"22":{"n":"Abu Dhabi","actual":"P2","alt":"Beat clearly faster Max → P1","note":"One of the least plausible win counterfactuals in the model."}};
 let lang=(function(){try{return localStorage.getItem('lec22-lang')||((navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en')}catch(e){return (navigator.language||'').toLowerCase().startsWith('zh')?'zh':'en'}})();
 const staticOriginal=new Map();
@@ -374,8 +453,8 @@ const staticEN={
 '.lab-races h2':'20 selectable race weekends',
 '.lab-races p.lead':'Click an entire card to turn that counterfactual on or off. Bahrain and Australia were already essentially maximized. Sprint points are folded into Imola, Austria and São Paulo.',
 '.maxed-note':'<strong>Already maximized:</strong> 🇧🇭 Bahrain P1 · 🇦🇺 Australia P1 — already included in Leclerc’s actual 308-point baseline.',
-'.section:nth-of-type(3) h2':'Why Silverstone belongs near the very top',
-'.section:nth-of-type(3) > p.lead':'This was not a case of “Leclerc suddenly needs more pace.” He was already leading. Under the Safety Car Ferrari left him on old hards while Sainz, Pérez and Hamilton switched to fresh softs.',
+'#silverstoneExplainer h2':'Why Silverstone belongs near the very top',
+'#silverstoneExplainer > p.lead':'This was not a case of “Leclerc suddenly needs more pace.” He was already leading. Under the Safety Car Ferrari left him on old hards while Sainz, Pérez and Hamilton switched to fresh softs.',
 '.story.silver h3':'🇬🇧 Silverstone',
 '.story.silver p':'Actual: P4. Counterfactual: make the correct Safety Car tyre call, put Leclerc on fresh softs, and preserve a genuine chance to win.',
 '.story.silver .tag':'Strategy · net +13',
@@ -449,10 +528,10 @@ function renderList(){
   card.className='race'+(selected.has(r.r)?' active':'')+(r.locked?' locked':'');
   card.disabled=!!r.locked;
   card.setAttribute('aria-pressed',selected.has(r.r)?'true':'false');
-  const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const aggressive=r.key&&document.getElementById(r.key)&&document.getElementById(r.key).value==='p1'; const rt=(lang==='en'&&e&&!aggressive)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")');
+  const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const aggressive=r.key&&document.getElementById(r.key)&&document.getElementById(r.key).value==='p1'; const rt=(lang==='en'&&e&&!aggressive)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")'); card.style.setProperty('--race-pos',raceImagePos[r.r]||'50% 42%');
   card.innerHTML='<span class="selectmark">'+(r.locked?'—':selected.has(r.r)?'✓':'')+'</span>'
    +'<div class="rankline"><span class="rank">'+rank+'</span><span class="title">'+r.f+' '+rn+'</span></div>'
-   +'<div class="cred"><div class="credbar"><i style="width:'+r.score+'%"></i></div><small>'+r.score+'</small></div>'
+   +'<div class="cred"><small class="credlabel">'+(lang==='en'?'PLAUSIBILITY':'可信度')+'</small><div class="credbar"><i style="width:'+r.score+'%"></i></div><small>'+r.score+'</small></div>'
    +'<div class="journey"><div class="actual">'+(lang==='en'?'ACTUAL':'现实')+' · '+ra+'</div><div class="arrow">↓</div><div class="alt">'+rt+'</div></div>'
    +'<div class="note">'+rnote+'</div>'
    +'<div class="cardbottom"><div class="type">'+r.t+'</div><div class="swing"><small>'+(lang==='en'?'NET SWING':'净 swing')+'</small><b>'+(r.swing?'+'+r.swing:'0')+'</b></div></div>';
@@ -475,6 +554,7 @@ function applyLanguage(){
   document.documentElement.lang=lang==='zh'?'zh-CN':'en';
   Object.keys(staticEN).forEach(sel=>{const el=$(sel);if(el)el.innerHTML=lang==='en'?staticEN[sel]:staticOriginal.get(sel)});
   $('#langZh')?.classList.toggle('active',lang==='zh'); $('#langEn')?.classList.toggle('active',lang==='en');
+  if($('.identity-team'))$('.identity-team').textContent=lang==='en'?'SCUDERIA FERRARI · 2022':'SCUDERIA FERRARI · 2022 赛季';
   if($('#auto'))$('#auto').textContent=lang==='en'?'Add most plausible until champion':'按可信度加到夺冠';
   if($('#top10'))$('#top10').textContent=lang==='en'?'Select top 10':'只选最可信 10 项';
   if($('#clear'))$('#clear').textContent=lang==='en'?'Clear':'清空';
@@ -496,8 +576,18 @@ function applyLanguage(){
   }
   renderList(); update();
 }
+function pulseMetric(el,value){
+  if(!el)return;
+  const old=el.textContent;
+  el.textContent=value;
+  if(old!==String(value)){
+    el.classList.remove('metric-pulse');
+    void el.offsetWidth;
+    el.classList.add('metric-pulse');
+  }
+}
 function update(){
- const t=totals();$('#lecPts').textContent=t.lec;$('#verPts').textContent=t.ver;$('#swingPts').textContent=t.swing;
+ const t=totals();pulseMetric($('#lecPts'),t.lec);pulseMetric($('#verPts'),t.ver);pulseMetric($('#swingPts'),t.swing);
  $('#gapbar').style.width=Math.min(100,t.swing/147*100)+'%';$('#gaptext').textContent=(lang==='en'?'Net swing ':'已制造 ')+t.swing+' / 147'+(lang==='en'?'':' 净 swing');$('#selectedCount').textContent=selected.size+(lang==='en'?' events selected':' 个事件已选');
  const s=$('#status');s.className='status';
  if(t.lec>t.ver){s.classList.add('win');s.innerHTML=lang==='en'?'🏆 <b>Leclerc leads by '+(t.lec-t.ver)+'.</b> This combination is enough for the 2022 title.':'🏆 <b>Leclerc 领先 '+(t.lec-t.ver)+' 分。</b> 当前反事实组合足以让他成为 2022 世界冠军。'} else if(t.lec===t.ver){s.classList.add('tie');s.innerHTML=lang==='en'?'⚖️ <b>Level on points.</b> Still not enough: Verstappen wins the countback on race victories.':'⚖️ <b>积分打平。</b> 仍不足以夺冠：Verstappen 在胜场 countback 上占绝对优势。'} else{s.innerHTML=lang==='en'?'Need <b>'+(147-t.swing)+'</b> more net swing to lead on points.':'还差 <b>'+(147-t.swing)+'</b> 净 swing 才能形成积分领先。'}
