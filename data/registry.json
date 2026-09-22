@@ -1145,7 +1145,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Palm Beach, Florida, United States（不代表当前实时位置）。",
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/950730",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/950731",
@@ -1209,7 +1209,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Palm Beach, Florida, United States（不代表当前实时位置）。",
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/591169",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/591170",
@@ -1273,7 +1273,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Munich, Bavaria, Germany（不代表当前实时位置）。",
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/543920",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/543921",
@@ -1337,7 +1337,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Jupiter, Florida, United States（不代表当前实时位置）。",
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/698394",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/747500",
@@ -1401,7 +1401,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Moscow, Moscow, Russia（不代表当前实时位置）。",
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/937203",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/937204",
@@ -1465,7 +1465,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Maranello, Emilia-Romagna, Italy（不代表当前实时位置）。",
+    "notes": "Only public location and profile identity are reproduced. Gated build data are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/131110",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/131111",
@@ -2022,6 +2022,69 @@
     ]
   },
   {
+    "id": "SP3-LEONARDO-DEL-VECCHIO",
+    "title": "Leonardo Maria Del Vecchio — Full Black",
+    "tier": "owner",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production",
+    "country": "Monaco",
+    "city": "Monte Carlo",
+    "market": "European specification",
+    "owner": "Leonardo Maria Del Vecchio",
+    "exterior": "Full-black exterior theme with exposed-carbon appearance",
+    "color": "Black",
+    "interior": "Not publicly documented",
+    "wheels": "Black forged wheels visible in public imagery",
+    "calipers": "Not publicly confirmed",
+    "mileage": "Not public",
+    "status": "Personally owned / publicly driven",
+    "sale": "Not publicly offered",
+    "program": "Unknown",
+    "options": [
+      "Full-black exterior theme",
+      "Black forged wheels"
+    ],
+    "timeline": [
+      "June 2024 — Italian automotive coverage listed a Daytona SP3 in Del Vecchio’s Ferrari collection.",
+      "August 2025 — A public Monaco driving video identified Del Vecchio with his full-black Daytona SP3.",
+      "February 2026 — A full-black Daytona SP3 was photographed in Monaco in a public Autogespot sighting."
+    ],
+    "notes": "Ownership is supported by Italian automotive coverage and a public Monaco driving video. VIN and detailed build-sheet fields remain private.",
+    "photos": [
+      "https://spots.ag/2026/02/25/ferrari-daytona-sp3-6cc1c-c580925022026173036_1.jpg?1772037053="
+    ],
+    "credits": [
+      "Damors / Autogespot"
+    ],
+    "sources": [
+      [
+        "Everyeye Auto — Del Vecchio collection profile",
+        "https://auto.everyeye.it/notizie/incredibile-collezione-auto-29enne-leonardo-maria-vecchio-vale-722303.html"
+      ],
+      [
+        "LIKE A G — Monaco driving video",
+        "https://www.youtube.com/watch?v=orsRwI25t-Q"
+      ],
+      [
+        "Autogespot — Monaco full-black SP3 sighting",
+        "https://www.autogespot.com/ferrari-daytona-sp3/2026/02/25"
+      ]
+    ],
+    "review_status": "2026-09-21 — Public ownership reporting and Monaco driving/sighting sources cross-checked; VIN remains private.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 91,
+    "photo_sources": [
+      "https://www.autogespot.com/ferrari-daytona-sp3/2026/02/25"
+    ],
+    "photo_captions": [
+      "Monaco public sighting · full-black Daytona SP3"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "SP3-DUTCH-SOC-BABY-BLUE",
     "title": "Baby-blue Supercar Owners Circle car",
     "tier": "press",
@@ -2439,7 +2502,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Brisbane, Queensland, Australia（不代表当前实时位置）。",
+    "notes": "ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/1502582",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/1502583",
@@ -2503,7 +2566,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists the car as 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; this database treats that field as an ECR data error rather than a unique mechanical specification. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Swindon, England, United Kingdom（不代表当前实时位置）。",
+    "notes": "ECR publicly lists the car as 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; this database treats that field as an ECR data error rather than a unique mechanical specification.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/575944",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/575945",
@@ -2567,7 +2630,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Herford, North Rhine-Westphalia, Germany（不代表当前实时位置）。",
+    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/645853",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/652151",
@@ -2631,7 +2694,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; it is retained as a separate research/test-vehicle record. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Gambara, Lombardy, Italy（不代表当前实时位置）。",
+    "notes": "ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; it is retained as a separate research/test-vehicle record.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/788481",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/788482",
@@ -2695,7 +2758,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Cannes, Provence-Alpes-Côte d’Azur, France（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/319637",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/319638",
@@ -2759,7 +2822,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Melbourne, Victoria, Australia（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/683123",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/566001",
@@ -2823,7 +2886,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Miami, Florida, United States（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/521252",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/521251",
@@ -2887,7 +2950,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Hengelo, Overijssel, Netherlands（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/788341",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/788342",
@@ -2951,7 +3014,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Colchester, England, United Kingdom（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/1230664",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/1230665",
@@ -3015,7 +3078,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Tokyo, Tokyo, Japan（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/524863",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/524864",
@@ -3079,7 +3142,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Monaco, Monaco, Monaco（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/362769",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/363246",
@@ -3143,7 +3206,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Berlin, Berlin, Germany（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/760232",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/760233",
@@ -3207,7 +3270,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Dubai, Dubai, United Arab Emirates（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/845750",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/845751",
@@ -3271,7 +3334,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Dubai, Dubai, United Arab Emirates（不代表当前实时位置）。",
+    "notes": "The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/785872",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/785873",
@@ -3335,7 +3398,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Dallas, Texas, United States（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/675699",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/675700",
@@ -3399,7 +3462,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Orem, Utah, United States（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/701103",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/701104",
@@ -3463,7 +3526,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Old Westbury, New York, United States（不代表当前实时位置）。",
+    "notes": "Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/1041156",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/1041157",
@@ -3527,7 +3590,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied. 跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。 2026-09-21 来源公开地点标签：Danville, California, United States（不代表当前实时位置）。",
+    "notes": "Independent ECR profile. Public fields are reproduced; member-only VIN, plaque and ownership fields are not copied.",
     "photos": [
       "https://exclusivecarregistry.com/images/gallery/car/full/793434",
       "https://exclusivecarregistry.com/images/gallery/car/thumb/793433",

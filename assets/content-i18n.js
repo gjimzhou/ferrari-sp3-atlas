@@ -166,6 +166,9 @@
     "Public registry VIN lead":"公开 registry VIN 线索",
     "Public showroom sighting / VIN lead":"公开展厅目击／VIN 线索",
     "Factory demo car":"工厂 Demo 车辆",
+    "Everyeye Auto — Del Vecchio collection profile":"Everyeye Auto — Del Vecchio 收藏档案",
+    "LIKE A G — Monaco driving video":"LIKE A G — 摩纳哥公开驾驶视频",
+    "Autogespot — Monaco full-black SP3 sighting":"Autogespot — 摩纳哥全黑 SP3 目击",
     "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.":"2026-09-21 — 已复核公开 VIN／底盘来源；在取得更强逐车证据前保留为研究线索。"
   };
 
@@ -421,6 +424,18 @@
       timeline:["2023 年 4 月 — 在米兰公开被拍到驾驶该车。","2023 年 9 月 — 再次在社交媒体发布该车。"],
       notes:"这辆哑光白 SP3 不应与 Gordon Ramsay 的 Bianco Cervino 25 号混淆。",
       review_status:"2026-09-21 — 已重新核验 2023 年 4 月米兰原始街拍及公开车主报道。"
+    },
+    "SP3-LEONARDO-DEL-VECCHIO":{
+      title:"Leonardo Maria Del Vecchio — 全黑 Daytona SP3",
+      owner:"Leonardo Maria Del Vecchio",
+      exterior:"全黑外观主题，公开影像中可见裸露碳纤维质感",
+      wheels:"公开影像可见黑色锻造轮毂",
+      status:"车主本人持有／公开驾驶",
+      options:["全黑外观主题","黑色锻造轮毂"],
+      timeline:["2024 年 6 月 — 意大利汽车媒体将 Daytona SP3 列入 Del Vecchio 的 Ferrari 收藏。","2025 年 8 月 — 摩纳哥公开驾驶视频将全黑 Daytona SP3 与 Del Vecchio 直接关联。","2026 年 2 月 — 一辆全黑 Daytona SP3 在摩纳哥被 Autogespot 公开拍摄。"],
+      notes:"车主关系有意大利汽车媒体报道与摩纳哥公开驾驶视频支持。VIN 与详细 build sheet 仍未公开。",
+      review_status:"2026-09-21 — 已交叉核验公开车主报道及摩纳哥驾驶／目击来源；VIN 仍未公开。",
+      photo_captions:["摩纳哥公开目击 · 全黑 Daytona SP3"]
     },
     "SP3-PER-GESSLE":{
       title:"Per Gessle — Joyride Collection",
@@ -987,7 +1002,7 @@
   for (const [id, location] of Object.entries(genericEcr)) {
     zhRecords[id] = {
       ...(zhRecords[id]||{}),
-      notes:`仅复现公开地点与档案身份，不复制登录后可见的 VIN、铭牌、车主或配置字段。跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。2026-09-21 来源公开地点标签：${location}（不代表当前实时位置）。`,
+      notes:`ECR 公开档案；仅使用公开可见的地点、图片与档案字段。`,
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     };
     enRecords[id] = {
@@ -999,31 +1014,31 @@
 
   Object.assign(zhRecords, {
     "ECR-77928":{
-      notes:"ECR 公开列出：2024 model year、Rosso Magma 外观、Rosso Alcantara 搭配 Bianco 缝线、左舵及 clean-title 状态。跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。2026-09-21 来源公开地点标签：Brisbane, Queensland, Australia（不代表当前实时位置）。",
+      notes:"ECR 公开列出：2024 model year、Rosso Magma 外观、Rosso Alcantara 搭配 Bianco 缝线、左舵及 clean-title 状态。",
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     },
     "ECR-78501":{
-      notes:"ECR 将该车公开列为 2024 Blu Le Mans／Rosso Alcantara。页面将变速箱标注为“Manual”，与 Daytona SP3 的七速 DCT 不符；本站将其视为 ECR 数据错误，而不是独特机械规格。跨来源唯一性尚未核实。2026-09-21 来源公开地点标签：Swindon, England, United Kingdom（不代表当前实时位置）。",
+      notes:"ECR 将该车公开列为 2024 Blu Le Mans／Rosso Alcantara。页面将变速箱标注为“Manual”，与 Daytona SP3 的七速 DCT 不符；本站将其视为 ECR 数据错误，而不是独特机械规格。",
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     },
     "ECR-85856":{
-      notes:"ECR 公开列出：2024 model year、Celeste Metallizzato、Nero Alcantara 搭配 Bianco 缝线、自动变速箱及左舵。跨来源唯一性尚未核实。2026-09-21 来源公开地点标签：Herford, North Rhine-Westphalia, Germany（不代表当前实时位置）。",
+      notes:"ECR 公开列出：2024 model year、Celeste Metallizzato、Nero Alcantara 搭配 Bianco 缝线、自动变速箱及左舵。",
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     },
     "ECR-100373":{
-      notes:"ECR 将该档案标记为 2022 年预生产 Daytona SP3。不应自动计入 599 辆客户配额，因此本站将其作为独立研发／测试车辆记录保留。跨来源唯一性尚未核实。2026-09-21 来源公开地点标签：Gambara, Lombardy, Italy（不代表当前实时位置）。",
+      notes:"ECR 将该档案标记为 2022 年预生产 Daytona SP3。不应自动计入 599 辆客户配额，因此本站将其作为独立研发／测试车辆记录保留。",
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     },
     "ECR-101218":{
       title:"迪拜银色 — 经销商关联档案",
       exterior:"银色（来自经销商 URL 描述；精确 Ferrari 漆名未公开）",
-      notes:"ECR 档案链接至 F1rst Motors 销售页，其 URL 将车辆描述为银色。精确漆色与内饰代码仍不可得。跨来源唯一性尚未核实。2026-09-21 来源公开地点标签：Dubai, United Arab Emirates（不代表当前实时位置）。",
+      notes:"ECR 档案链接至 F1rst Motors 销售页，其 URL 将车辆描述为银色。精确漆色与内饰代码仍不可得。",
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     },
     "ECR-127142":{
       title:"黑色 SP3 — Old Westbury",
       exterior:"黑色",
-      notes:"ECR 搜索可见元数据标识黑色外观及纽约州 Old Westbury 地点。跨来源唯一性尚未核实；独立网页 ID 不代表与其他车档一定是不同实车。2026-09-21 来源公开地点标签：Old Westbury, New York, United States（不代表当前实时位置）。",
+      notes:"ECR 搜索可见元数据标识黑色外观及纽约州 Old Westbury 地点。",
       review_status:"2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
     }
   });
