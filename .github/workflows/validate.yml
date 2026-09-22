@@ -1,0 +1,40 @@
+name: Validate registry
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'index.html'
+      - '.github/workflows/validate.yml'
+  pull_request:
+    paths:
+      - 'data/**'
+      - 'assets/**'
+      - 'scripts/**'
+      - 'index.html'
+      - '.github/workflows/validate.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate research data and generated bundle
+        run: |
+          python3 scripts/build.py
+          git diff --exit-code -- assets/data.js
+
+      - name: Check bilingual content coverage
+        run: node scripts/check_content_i18n.mjs
