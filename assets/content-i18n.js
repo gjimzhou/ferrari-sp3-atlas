@@ -653,6 +653,12 @@
   };
 
   const enRecords = {
+    "SP3-299827":{
+      timeline:["September 2023 — Factory build date.","December 2023 — Delivered through Niki Hasler AG, Basel.","May 2025 — Participated in Cavalcade Siviglia.","October 2025 — Sold by RM Sotheby’s.","2026-09-21 — Auction-house result page rechecked: CHF 5,348,750 — RM Sotheby’s published result."]
+    },
+    "SP3-297567":{
+      timeline:["July 2023 — Completed factory assembly.","January 2024 — Delivered through Wide World of Cars to a Florida owner.","October 2025 — Acquired by the cataloguing collection.","August 2026 — Scheduled for RM Sotheby’s Monterey.","2026-09-21 — Auction-house result page rechecked: US$17,825,000 — RM Sotheby’s published result."]
+    },
     "SP3-DK-2400":{
       exterior:"Bianco Italia (four-layer paint); Blu Tour de France / Giallo Modena livery",
       mileage:"325 miles at listing",
@@ -743,6 +749,27 @@
       notes:"Included only as a photographed event record. It cannot be confirmed whether this is the Carrio car or another white SP3, so it is not counted as a separately identified VIN."
     }
   };
+
+  Object.assign(enRecords, {
+    "ECR-77928":{
+      notes:"ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status. Cross-source uniqueness has not been verified; a separate page ID does not prove this is a different physical car. Public location label retrieved 2026-09-21: Brisbane, Queensland, Australia (not a live location)."
+    },
+    "ECR-78501":{
+      notes:"ECR publicly lists the car as a 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; the Atlas treats that field as an ECR data error rather than a unique mechanical specification. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Swindon, England, United Kingdom (not a live location)."
+    },
+    "ECR-85856":{
+      notes:"ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission, and LHD. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Herford, North Rhine-Westphalia, Germany (not a live location)."
+    },
+    "ECR-100373":{
+      notes:"ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; the Atlas keeps it as a separate research/test-vehicle record. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Gambara, Lombardy, Italy (not a live location)."
+    },
+    "ECR-101218":{
+      notes:"The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Dubai, United Arab Emirates (not a live location)."
+    },
+    "ECR-127142":{
+      notes:"Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location. Cross-source uniqueness has not been verified; a separate page ID does not prove this is a different physical car. Public location label retrieved 2026-09-21: Old Westbury, New York, United States (not a live location)."
+    }
+  });
 
   const genericEcr = {
     "ECR-118417":"Palm Beach, Florida",
