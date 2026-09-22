@@ -5393,45 +5393,108 @@
   },
   {
     "id": "SP3-289571-VIN-LEAD",
-    "title": "Azzurro La Plata — chassis 289571",
-    "tier": "registry",
+    "title": "Azzurro La Plata No. 23 — chassis 289571",
+    "tier": "chassis",
     "year": 2023,
     "vin": "ZFF05UMB000289571",
     "chassis": "289571",
-    "edition": "Public VIN lead; allocation status not independently verified",
-    "country": "Unknown",
-    "city": "Unknown",
-    "market": "Unknown",
-    "owner": "Unknown",
-    "exterior": "Azzurro La Plata",
+    "edition": "Original 599 production; full VIN publicly documented",
+    "country": "Netherlands",
+    "city": "Hengelo / Amsterdam, Netherlands",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Azzurro La Plata with white No. 23 roundels, dark carbon-fibre lower elements and dark roof panel",
     "color": "Blue",
-    "interior": "Blu Elettrico / Nero",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
-    "mileage": "Unknown",
-    "status": "Public registry VIN lead",
-    "sale": "Unknown",
-    "program": "Unknown",
-    "options": [],
-    "timeline": [
-      "2023 — Dutch Ferrari and Lamborghini Register records the VIN and specification; it notes the car never had a Dutch registration."
+    "interior": "Blu Elettrico / Nero; blue seat upholstery visible in VIN-linked showroom photography",
+    "wheels": "Bronze / gold-tone five-spoke wheels visible in public photography",
+    "calipers": "Dark brake calipers visible; exact factory colour not published",
+    "mileage": "Not public",
+    "status": "Publicly documented showroom / event car",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [
+      "White No. 23 roundels",
+      "Dark carbon-fibre lower aero",
+      "Dark roof panel",
+      "Bronze / gold-tone five-spoke wheels",
+      "Blu Elettrico / Nero cabin"
     ],
-    "notes": "Full VIN and color combination are public in the Dutch registry. No second per-car source has been located, so identity is retained as a VIN lead without owner or location inference.",
-    "photos": [],
-    "credits": [],
+    "timeline": [
+      "April 2023 — Photographed at Munsterhuis in Hengelo; the VIN-specific registry page publishes eight showroom images.",
+      "April 2023 — Displayed at Amsterdam RAI IAMS; the same VIN-specific page publishes four event images."
+    ],
+    "notes": "The Dutch Ferrari and Lamborghini Register publishes VIN ZFF05UMB000289571, model year 2023 and an Azzurro La Plata / Blu Elettrico-Nero specification. Its VIN-specific page contains eight Munsterhuis showroom images and four Amsterdam IAMS images, visually documenting the No. 23 roundels, dark roof/lower aero and bronze-tone wheels. These records are all from the same publisher, so they provide detailed car-level documentation but are not counted as independent multi-publisher corroboration.",
+    "photos": [
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-1.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-2.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-3.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-4.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-5.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-6.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-7.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-8.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-9.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-10.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-11.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000289571-12.jpg"
+    ],
+    "credits": [
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Ronald van den Born / Dutch Ferrari and Lamborghini Register",
+      "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register",
+      "Edvar van Daalen / Dutch Ferrari and Lamborghini Register",
+      "Edvar van Daalen / Dutch Ferrari and Lamborghini Register"
+    ],
     "sources": [
       [
         "Dutch Ferrari and Lamborghini Register — registry entry",
         "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
+      ],
+      [
+        "Dutch Ferrari and Lamborghini Register — chassis 289571 photo record",
+        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/"
       ]
     ],
-    "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
-    "record_kind": "lead",
+    "review_status": "2026-09-22 — Full VIN, Azzurro La Plata / Blu Elettrico-Nero specification and 12 VIN-linked Hengelo / Amsterdam images reviewed; same-publisher evidence is not treated as independent corroboration.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 76,
-    "photo_sources": [],
-    "photo_captions": [],
-    "accessed": "2026-09-21"
+    "sort_weight": 93,
+    "photo_sources": [
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/"
+    ],
+    "photo_captions": [
+      "Munsterhuis Hengelo 2023 · engine bay",
+      "Munsterhuis Hengelo 2023 · rear with engine cover raised",
+      "Munsterhuis Hengelo 2023 · Blu Elettrico / Nero cockpit",
+      "Munsterhuis Hengelo 2023 · front view with doors raised",
+      "Munsterhuis Hengelo 2023 · rear three-quarter",
+      "Munsterhuis Hengelo 2023 · rear detail · No. 23",
+      "Munsterhuis Hengelo 2023 · front three-quarter · No. 23",
+      "Munsterhuis Hengelo 2023 · opposite front three-quarter",
+      "Amsterdam IAMS 2023 · front three-quarter",
+      "Amsterdam IAMS 2023 · front view",
+      "Amsterdam IAMS 2023 · side profile",
+      "Amsterdam IAMS 2023 · elevated front three-quarter"
+    ],
+    "accessed": "2026-09-22"
   },
   {
     "id": "SP3-291935-VIN-LEAD",
@@ -5674,44 +5737,90 @@
   {
     "id": "SP3-291270-VIN-LEAD",
     "title": "Verde / Nero — chassis 291270",
-    "tier": "registry",
+    "tier": "chassis",
     "year": 2023,
     "vin": "ZFF05UMB000291270",
     "chassis": "291270",
-    "edition": "Public VIN lead; allocation status not independently verified",
+    "edition": "Original 599 production; full VIN publicly documented",
     "country": "Netherlands",
-    "city": "Hengelo",
-    "market": "Unknown",
-    "owner": "Unknown",
-    "exterior": "Verde",
+    "city": "Enschede / Hengelo, Netherlands",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Verde green with dark carbon-fibre lower aero and dark roof panel; exact Ferrari paint name not published",
     "color": "Green",
-    "interior": "Nero",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
-    "mileage": "Unknown",
-    "status": "Public showroom sighting / VIN lead",
-    "sale": "Unknown",
-    "program": "Unknown",
-    "options": [],
-    "timeline": [
-      "1 February 2026 — Registry note places the car in the Munsterhuis Sportscars showroom in Hengelo."
+    "interior": "Nero according to registry; exact trim materials not published",
+    "wheels": "Bronze / gold-tone five-spoke wheels visible in public photography",
+    "calipers": "Dark brake calipers visible; exact factory colour not published",
+    "mileage": "Not public",
+    "status": "Publicly documented showroom car",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [
+      "Verde exterior",
+      "Dark carbon-fibre lower aero",
+      "Dark roof panel",
+      "Bronze / gold-tone five-spoke wheels"
     ],
-    "notes": "The registry publishes the full VIN and Verde / Nero specification and records a 2026 showroom sighting. The dealer's own VIN-level page was not located, so this remains a lead.",
-    "photos": [],
-    "credits": [],
+    "timeline": [
+      "1 February 2026 — Registry note places VIN ZFF05UMB000291270 in the Munsterhuis Sportscars showroom in Hengelo.",
+      "February 2026 — VIN-specific registry page publishes eight photos labelled Enschede by Niels Schouten."
+    ],
+    "notes": "The Dutch Ferrari and Lamborghini Register publishes complete VIN ZFF05UMB000291270 with a Verde / Nero specification. Its VIN-specific page contains eight February 2026 images labelled Enschede, while the registry row separately notes a 1 February 2026 Munsterhuis Sportscars showroom sighting in Hengelo. The Atlas preserves both source location labels rather than silently collapsing them. All car-level evidence here comes from the same publisher, so it is not described as independent corroboration.",
+    "photos": [
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-1.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-2.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-3.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-4.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-5.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-6.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-7.jpg",
+      "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000291270-8.jpg"
+    ],
+    "credits": [
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register",
+      "Niels Schouten / Dutch Ferrari and Lamborghini Register"
+    ],
     "sources": [
       [
         "Dutch Ferrari and Lamborghini Register — registry entry",
         "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
+      ],
+      [
+        "Dutch Ferrari and Lamborghini Register — chassis 291270 photo record",
+        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/"
       ]
     ],
-    "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
-    "record_kind": "lead",
+    "review_status": "2026-09-22 — Full VIN, Verde / Nero specification, showroom note and eight VIN-linked February 2026 images reviewed; Enschede/Hengelo source labels are preserved separately.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 77,
-    "photo_sources": [],
-    "photo_captions": [],
-    "accessed": "2026-09-21"
+    "sort_weight": 92,
+    "photo_sources": [
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/",
+      "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/"
+    ],
+    "photo_captions": [
+      "Enschede 2026 · elevated front three-quarter",
+      "Enschede 2026 · side three-quarter",
+      "Enschede 2026 · full side profile",
+      "Enschede 2026 · front three-quarter",
+      "Enschede 2026 · alternate front view",
+      "Enschede 2026 · opposite front three-quarter",
+      "Enschede 2026 · rear-side profile",
+      "Enschede 2026 · side profile"
+    ],
+    "accessed": "2026-09-22"
   },
   {
     "id": "SP3-288783-VIN-LEAD",

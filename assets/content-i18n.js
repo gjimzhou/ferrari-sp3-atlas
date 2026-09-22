@@ -174,6 +174,8 @@
     "AMARI Supercars — dealer listing":"AMARI Supercars — 经销商挂牌",
     "Car & Classic — syndicated dealer listing":"Car & Classic — 经销商挂牌转载",
     "Dutch Ferrari and Lamborghini Register — registry entry":"荷兰 Ferrari / Lamborghini Register — registry 条目",
+    "Dutch Ferrari and Lamborghini Register — chassis 289571 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 289571 逐车图库",
+    "Dutch Ferrari and Lamborghini Register — chassis 291270 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 291270 逐车图库",
     "Dutch Ferrari and Lamborghini Register — chassis 308288 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 308288 逐车图库",
     "Dutch Ferrari and Lamborghini Register — Wheels Mariënwaerdt 2026 event list":"荷兰 Ferrari / Lamborghini Register — 2026 Wheels Mariënwaerdt 活动名单",
     "AutoWeek — Dutch plate JKF-62-L vehicle check":"AutoWeek — 荷兰车牌 JKF-62-L 车辆核验",
@@ -915,10 +917,21 @@
       notes:"公开 registry 来源发布完整 VIN、Giallo Triplo Strato / Rosso 配置及 factory-demo 分类。本轮未找到独立第二来源，因此保留为 lead。"
     },
     "SP3-289571-VIN-LEAD":{
-      title:"Azzurro La Plata — 底盘 289571",
+      title:"Azzurro La Plata 23 号 — 底盘 289571",
+      edition:"原始 599 辆量产序列；完整 VIN 已公开",
+      country:"荷兰",
+      city:"荷兰 Hengelo / Amsterdam",
       owner:"未公开",
-      timeline:["2023 年 — 荷兰 Ferrari / Lamborghini Register 记录 VIN 与配置，并注明该车从未有荷兰注册。"],
-      notes:"完整 VIN 与配色组合在荷兰 registry 中公开。尚未找到第二个逐车来源，因此仅保留为 VIN lead，不推断车主或所在地。"
+      exterior:"Azzurro La Plata，白色 23 号圆形号码贴、深色碳纤维下部空气动力学部件与深色车顶",
+      interior:"Blu Elettrico / Nero；VIN-linked 展厅照片可见蓝色座椅",
+      wheels:"公开照片可见金铜色五辐轮毂",
+      calipers:"公开照片可见深色卡钳；精确工厂颜色未公布",
+      status:"有公开展厅／活动记录的实车",
+      options:["白色 23 号圆形号码贴","深色碳纤维下部空气动力学部件","深色车顶","金铜色五辐轮毂","Blu Elettrico / Nero 座舱"],
+      timeline:["2023 年 4 月 — 在 Hengelo 的 Munsterhuis 拍摄；VIN 逐车页公开 8 张展厅照片。","2023 年 4 月 — 在 Amsterdam RAI IAMS 展示；同一 VIN 逐车页公开 4 张活动照片。"],
+      notes:"Dutch Ferrari and Lamborghini Register 公开 VIN ZFF05UMB000289571、2023 年份及 Azzurro La Plata / Blu Elettrico-Nero 配置。VIN 逐车页包含 8 张 Munsterhuis 展厅图与 4 张 Amsterdam IAMS 活动图，可清楚识别 23 号号码贴、深色车顶／下部空气动力学部件与金铜色轮毂。这些证据都来自同一 publisher，因此属于详细逐车记录，而不是独立多来源交叉确认。",
+      review_status:"2026-09-22 — 已复核完整 VIN、Azzurro La Plata / Blu Elettrico-Nero 配置及 12 张 VIN-linked Hengelo / Amsterdam 图片；同一 publisher 的证据不作为独立 corroboration。",
+      photo_captions:["2023 Munsterhuis Hengelo · 发动机舱","2023 Munsterhuis Hengelo · 打开发动机盖后视角","2023 Munsterhuis Hengelo · Blu Elettrico / Nero 驾驶舱","2023 Munsterhuis Hengelo · 双门开启正前方","2023 Munsterhuis Hengelo · 后 3/4","2023 Munsterhuis Hengelo · 车尾细节 · 23 号","2023 Munsterhuis Hengelo · 前 3/4 · 23 号","2023 Munsterhuis Hengelo · 另一侧前 3/4","2023 Amsterdam IAMS · 前 3/4","2023 Amsterdam IAMS · 正前方","2023 Amsterdam IAMS · 侧面","2023 Amsterdam IAMS · 高位前 3/4"]
     },
     "SP3-291935-VIN-LEAD":{
       title:"Bernhard ten Brinke — Giallo Modena — 底盘 291935",
@@ -970,11 +983,20 @@
     },
     "SP3-291270-VIN-LEAD":{
       title:"Verde / Nero — 底盘 291270",
-      city:"亨厄洛",
+      edition:"原始 599 辆量产序列；完整 VIN 已公开",
+      country:"荷兰",
+      city:"荷兰 Enschede / Hengelo",
       owner:"未公开",
-      status:"公开展厅目击／VIN 线索",
-      timeline:["2026 年 2 月 1 日 — registry 备注将该车记录在 Hengelo 的 Munsterhuis Sportscars 展厅。"],
-      notes:"registry 发布完整 VIN 与 Verde / Nero 配置，并记录 2026 年展厅目击。尚未找到经销商自己的 VIN 级页面，因此仍保留为 lead。"
+      exterior:"Verde 绿色，搭配深色碳纤维下部空气动力学部件与深色车顶；公开来源未给出精确 Ferrari 漆名",
+      interior:"Registry 记录为 Nero；精确内饰材料未公开",
+      wheels:"公开照片可见金铜色五辐轮毂",
+      calipers:"公开照片可见深色卡钳；精确工厂颜色未公布",
+      status:"有公开展厅记录的实车",
+      options:["Verde 绿色外观","深色碳纤维下部空气动力学部件","深色车顶","金铜色五辐轮毂"],
+      timeline:["2026 年 2 月 1 日 — Registry 备注将 VIN ZFF05UMB000291270 记录在 Hengelo 的 Munsterhuis Sportscars 展厅。","2026 年 2 月 — VIN 逐车页公开 Niels Schouten 拍摄的 8 张照片，地点标为 Enschede。"],
+      notes:"Dutch Ferrari and Lamborghini Register 公开完整 VIN ZFF05UMB000291270 与 Verde / Nero 配置。VIN 逐车页包含 8 张 2026 年 2 月照片，地点标为 Enschede；registry 主表另将 2026 年 2 月 1 日的展厅目击记为 Hengelo 的 Munsterhuis Sportscars。Atlas 保留这两个来源地点标签，不擅自合并。全部逐车证据来自同一 publisher，因此不描述为独立 corroboration。",
+      review_status:"2026-09-22 — 已复核完整 VIN、Verde / Nero 配置、展厅备注及 8 张 VIN-linked 2026 年 2 月图片；Enschede / Hengelo 来源标签分别保留。",
+      photo_captions:["2026 Enschede · 高位前 3/4","2026 Enschede · 侧前 3/4","2026 Enschede · 完整侧面","2026 Enschede · 前 3/4","2026 Enschede · 另一前视角","2026 Enschede · 另一侧前 3/4","2026 Enschede · 后侧面","2026 Enschede · 侧面"]
     },
     "SP3-288783-VIN-LEAD":{
       title:"底盘 288783 — 公开 VIN 线索",
