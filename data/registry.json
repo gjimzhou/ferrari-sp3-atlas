@@ -2672,6 +2672,87 @@
     "accessed": "2026-09-21"
   },
   {
+    "id": "SP3-MP3-MULOTYPE",
+    "title": "MP3 Mulotype — Daytona SP3 Development Car",
+    "tier": "official",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "MP3 development identifier; road-car VIN not published",
+    "edition": "Pre-production; outside customer allocation count",
+    "country": "Italy",
+    "city": "Maranello",
+    "market": "Factory development vehicle",
+    "owner": "Private collector (unnamed)",
+    "exterior": "Matt black after Ferrari refurbishment; adapted LaFerrari Aperta bodywork",
+    "color": "Black",
+    "interior": "Development cabin with red emergency cut-off controls",
+    "wheels": "Black five-spoke wheels",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Sold by Ferrari Special Sales to a private collector",
+    "sale": "Private sale; amount not public",
+    "program": "Ferrari Special Sales / development prototype",
+    "options": [
+      "Daytona SP3 naturally aspirated V12 powertrain",
+      "Adapted LaFerrari Aperta bodywork",
+      "MP3 development console with emergency cut-off controls",
+      "Twin central prototype exhausts retained alongside LaFerrari quad outlets"
+    ],
+    "timeline": [
+      "Development phase — MP3 served as the third second-stage Daytona SP3 mulotype for systems integration.",
+      "Post-testing — Ferrari’s test department removed the black-and-white camouflage and refurbished the car in matt black while preserving prototype hardware.",
+      "2025 — Ferrari Special Sales documented the car’s transfer to a private collector who also owns a production Daytona SP3."
+    ],
+    "notes": "A factory-development vehicle rather than one of the 599 customer cars. Public evidence does not establish that MP3 is the same vehicle as ECR-100373, so both remain separate records.",
+    "photos": [
+      "https://autoentusiastas.com.br/ae/wp-content/uploads/2025/08/Ferrari-Prototipo-MP3-Autoentusiastas-02.jpg",
+      "https://autoentusiastas.com.br/ae/wp-content/uploads/2025/08/Ferrari-Prototipo-MP3-Autoentusiastas-03.jpg",
+      "https://autoentusiastas.com.br/ae/wp-content/uploads/2025/08/Ferrari-Prototipo-MP3-Autoentusiastas-04.jpg",
+      "https://autoentusiastas.com.br/ae/wp-content/uploads/2025/08/Ferrari-Prototipo-MP3-Autoentusiastas-05.jpg"
+    ],
+    "credits": [
+      "Ferrari publicity via Autoentusiastas",
+      "Ferrari publicity via Autoentusiastas",
+      "Ferrari publicity via Autoentusiastas",
+      "Ferrari publicity via Autoentusiastas"
+    ],
+    "sources": [
+      [
+        "Ferrari Magazine — Daytona SP3 mulotype",
+        "https://www.ferrari.com/en-EN/magazine/articles/daytona-sp3-mulotype"
+      ],
+      [
+        "Collectors Car World — Ferrari report on MP3",
+        "https://collectorscarworld.com/the-daytona-sp3-mulotype/"
+      ],
+      [
+        "BusinessDay — collector sale and MP3 identification",
+        "https://www.businessday.co.za/bd/life/motoring/2025-08-29-ferrari-daytona-sp3-mulotype-one-off-sold-to-collector/"
+      ],
+      [
+        "Autoentusiastas — MP3 gallery and technical details",
+        "https://autoentusiastas.com.br/2025/08/ferrari-e-seus-prototipos/"
+      ]
+    ],
+    "review_status": "2026-09-21 — Ferrari-derived and independent press sources cross-checked; MP3 is kept outside the 599 customer-car count.",
+    "record_kind": "prototype",
+    "owner_public": false,
+    "sort_weight": 99,
+    "photo_sources": [
+      "https://autoentusiastas.com.br/2025/08/ferrari-e-seus-prototipos/",
+      "https://autoentusiastas.com.br/2025/08/ferrari-e-seus-prototipos/",
+      "https://autoentusiastas.com.br/2025/08/ferrari-e-seus-prototipos/",
+      "https://autoentusiastas.com.br/2025/08/ferrari-e-seus-prototipos/"
+    ],
+    "photo_captions": [
+      "Ferrari-refurbished MP3 · matt-black adapted LaFerrari bodywork",
+      "MP3 development console · emergency cut-off controls",
+      "MP3 wheel and brake detail",
+      "Rear three-quarter · prototype exhaust layout"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
     "id": "ECR-100373",
     "title": "Pre-production SP3 — Gambara",
     "tier": "registry",
