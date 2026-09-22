@@ -113,7 +113,7 @@
     "Autoevolution — Ibrahimović and white SP3":"Autoevolution — Ibrahimović 与白色 SP3",
     "Autogespot — Milan sighting":"Autogespot — 米兰目击",
     "Per Gessle — public announcement":"Per Gessle — 公开公告",
-    "Ferrari — Incredible Garages with Per Gessle":"Ferrari — Incredible Garages：Per Gessle",
+    "Ferrari — Incredible Garages with Per Gessle":"Ferrari — Incredible Garages：Per Gessle 收藏专题",
     "Hotel Tylösand — collection description":"Hotel Tylösand — 收藏说明",
     "The New Yorker — SOC event and owner description":"The New Yorker — SOC 活动与车主描述",
     "Carrio Motor Cars — dealer listing":"Carrio Motor Cars — 经销商挂牌",
