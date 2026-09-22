@@ -69,8 +69,12 @@ for (const record of registry) {
 
   for (const [label] of record.sources || []) {
     const english = api.text(label, 'en');
+    const chinese = api.text(label, 'zh');
     if (hasCJK(english)) {
       failures.push(`${record.id} source label: Chinese text leaked into English mode: ${english}`);
+    }
+    if (!hasCJK(chinese)) {
+      failures.push(`${record.id} source label: missing Chinese translation: ${label}`);
     }
   }
 

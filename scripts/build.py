@@ -11,7 +11,12 @@ vins=[]
 for r in registry:
  assert r['tier']!='unknown','Population placeholders are not research records'
  assert r['record_kind'] in ('profile','lead','prototype')
- assert r['sources'] and all(s[1].startswith('https://') for s in r['sources'])
+ assert r['sources']
+ for s in r['sources']:
+  assert len(s)==2 and s[1].startswith('https://'),(r['id'],'Invalid source tuple',s)
+  label=s[0]
+  assert ' — ' in label,(r['id'],'Nonstandard source label',label)
+  assert not re.search(r'[\u3400-\u9fff]',label),(r['id'],'CJK leaked into canonical source label',label)
  assert len(r['photos'])==len(r['photo_sources'])==len(r['photo_captions'])==len(r['credits']),(r['id'],'Missing photo credit')
  for p in r['photos']:
   assert p.startswith('https://') or (p.startswith('assets/photos/') and (ROOT/p).is_file()),p
