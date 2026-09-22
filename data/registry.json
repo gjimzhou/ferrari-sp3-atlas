@@ -6967,5 +6967,67 @@
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-287827-NESSIM",
+    "title": "Nessim Classics — Yellow — chassis 287827",
+    "tier": "chassis",
+    "year": 2022,
+    "vin": "ZFF05UMB000287827",
+    "chassis": "287827",
+    "edition": "Original 599 production",
+    "country": "Sweden",
+    "city": "Skåne County, Sweden",
+    "market": "Swedish-registered European specification",
+    "owner": "Nessim Classics Aktiebolag",
+    "exterior": "Yellow; exact Ferrari factory paint code not publicly established",
+    "color": "Yellow",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "0 km recorded at the March 2023 type-approval inspection; current mileage not public",
+    "status": "Registered in Sweden / Nessim Classics collection",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "December 2022 — Swedish vehicle data records the car as manufactured.",
+      "6 March 2023 — Swedish vehicle record shows first registration/type-approval inspection and 0 km recorded.",
+      "4 April 2023 — Public Swedish vehicle data records ownership registration to Nessim Classics Aktiebolag.",
+      "17 April 2023 — Vehicle entered traffic in Sweden.",
+      "21 April 2023 — Carup reported Nessim Classics had received a bright-yellow Daytona SP3."
+    ],
+    "notes": "Current public company-vehicle records list Nessim Classics Aktiebolag with yellow Daytona SP3 plate MJW01F. A public Swedish company vehicle/VIN table publishes the complete VIN ZFF05UMB000287827. Biluppgifter independently records MJW01F as a yellow 2022 Daytona SP3, while ECR's public collection page lists a Daytona SP3 in the Nessim Classics collection. Carup links the collection to the yellow Swedish SP3. The Atlas records the company as the vehicle owner and does not substitute an individual shareholder as the registered owner.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Carup — Swedish Daytona SP3 owners",
+        "https://carup.se/svenska-miljardarer-fick-kopa-likadan-ferrari-som-zlatan-och-gessle/"
+      ],
+      [
+        "Merinfo — Nessim Classics vehicle list",
+        "https://www.merinfo.se/foretag/Nessim-Classics-Aktiebolag-5563284644/2k08hwk-csos/fordon"
+      ],
+      [
+        "TIC — Nessim Classics vehicle/VIN table",
+        "https://tic.io/sv/foretag/nessim-classics-aktiebolag-3440797"
+      ],
+      [
+        "Biluppgifter — Swedish vehicle record MJW01F",
+        "https://biluppgifter.se/fordon/mjw01f/"
+      ],
+      [
+        "Exclusive Car Registry — Nessim Classics collection",
+        "https://exclusivecarregistry.com/collection/nessim-classics"
+      ]
+    ],
+    "review_status": "2026-09-21 — Company ownership, plate MJW01F, yellow exterior, 2022 model year and full VIN ZFF05UMB000287827 cross-checked across multiple Swedish public vehicle/company sources.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 98,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-21"
   }
 ]
