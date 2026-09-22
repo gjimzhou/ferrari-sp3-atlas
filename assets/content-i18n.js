@@ -1102,7 +1102,7 @@
       title:"Ion Țiriac / Țiriac Collection — 红色 / 米色",
       country:"罗马尼亚",
       city:"Otopeni，罗马尼亚",
-      owner:"Ion Țiriac / Țiriac Collection",
+      owner:"Ion Țiriac / Țiriac Collection 收藏",
       exterior:"红色金属漆；公开收藏页面未注明精确 Ferrari 漆号",
       interior:"Crema / 浅米色内饰，搭配黑色碳纤维座舱部件",
       wheels:"五辐锻造轮毂，钻石切削表面",
