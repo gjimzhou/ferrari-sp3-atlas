@@ -534,8 +534,8 @@
       program:"未公开",
       timeline:["2023 年 1 月 11 日 — 瑞典车辆记录显示 Daytona SP3 车牌 RAF37S 首次注册。","2023 年 3 月 28 日 — 瑞典公开车辆数据记录最新车主变更为 Per Gessle。","2023 年 4 月 4 日 — 瑞典汽车媒体报道 Gessle 新交付的红色 Daytona SP3。","2023 年 4 月 25 日 — Gessle 本人公开发布 Daytona SP3 抵达 Hotel Tylösand 的 Joyride Car Collection。","2023–2026 年 — 作为 Joyride Car Collection 展车。"],
       notes:"本站旧记录曾错误写成白／红配色。车主本人发布的到车影像与瑞典汽车媒体均显示这是一辆红色 Daytona SP3。瑞典公开车辆记录将车牌 RAF37S 识别为红色 2022 Daytona SP3，公开完整 VIN ZFF05UMB000284856，并将登记车辆与 Per Gessle 关联。精确 Ferrari 漆号与座舱内饰仍未确认，因此本站不继续推断。",
-      review_status:"2026-09-21 — 已交叉核验车主本人到车照片、红色外观、瑞典车牌 RAF37S 与完整 VIN ZFF05UMB000284856；删除此前错误的白／红配置。",
-      photo_captions:["Joyride Collection 到车 · Per Gessle 检查其红色 Daytona SP3"]
+      review_status:"2026-09-22 — 已交叉核验车主本人到车照片、Hotel Tylösand 官方展览图、红色外观、瑞典车牌 RAF37S 与完整 VIN ZFF05UMB000284856；此前错误的白／红配置继续保持删除。",
+      photo_captions:["Joyride Collection 到车 · Per Gessle 检查其红色 Daytona SP3","Hotel Tylösand 官方展览图 · 红色 Daytona SP3"]
     },
     "SP3-287827-NESSIM":{
       title:"Nessim Classics — 黄色 — 底盘 287827",
@@ -970,6 +970,7 @@
       owner:"Bernhard ten Brinke",
       exterior:"Giallo Modena，黑色双中央条纹、黑色车顶与深色下部空气动力学部件",
       interior:"黑色皮革，Giallo 黄色对比缝线",
+      wheels:"公开照片可见银色五辐轮毂，带深色饰面",
       status:"私人收藏车辆；荷兰车牌 JKF-62-L 曾被短暂记录，当前车辆核验状态为已出口",
       sale:"2025 年 10 月据报道拍卖出价 €5,750,000；最终成交结果未获独立确认",
       program:"Ferrari 个性化配置；精确项目名称未公开",
