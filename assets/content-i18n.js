@@ -1082,6 +1082,10 @@
     }
   });
 
+  Object.assign(enRecords, {
+    "SP3-JJ-LIN":{owner:"JJ Lin"}
+  });
+
   const captionEn = new Map([
     ["历史图库照片","Historical gallery image"],
     ["公开车档主图","Public profile hero image"],
