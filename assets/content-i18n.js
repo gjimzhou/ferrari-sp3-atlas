@@ -89,6 +89,12 @@
     "Țiriac Collection — official vehicle page":"Țiriac Collection — 官方车辆页面",
     "Țiriac Collection — collection announcement":"Țiriac Collection — 收藏馆新增车辆公告",
     "Țiriac Collection — Ferrari anniversary feature":"Țiriac Collection — Ferrari 50 年专题",
+    "Jeremy Cottingham — dealer listing":"Jeremy Cottingham — 经销商挂牌",
+    "Octane Marketplace — syndicated dealer listing":"Octane Marketplace — 经销商同步挂牌",
+    "Classic Driver — syndicated dealer listing":"Classic Driver — 经销商同步挂牌",
+    "Goodwood — 2022 Festival of Speed entry list":"Goodwood — 2022 Festival of Speed 官方参赛名单",
+    "Goodwood Road & Racing — 2022 supercar debut preview":"Goodwood Road & Racing — 2022 超跑首秀预告",
+    "Ultimatecarpage — Goodwood chassis 276831 image record":"Ultimatecarpage — Goodwood 底盘 276831 图片记录",
     "RM Sotheby's — Monterey 2026 catalogue":"RM Sotheby’s — Monterey 2026 拍卖目录",
     "Exclusive Car Registry — profile 70568 (deduplicated alias)":"Exclusive Car Registry — 档案 70568（去重别名）",
     "Broad Arrow — auction listing":"Broad Arrow — 拍卖目录",
@@ -1098,6 +1104,38 @@
   }
 
   Object.assign(zhRecords, {
+    "SP3-319132-COTTINGHAM":{
+      title:"Bianco King / Blu Elettrico — 底盘 319132",
+      country:"英国",
+      city:"伦敦，英国",
+      market:"英国交付；左舵",
+      exterior:"Bianco King 双层 Extra-Range 白色车漆，搭配 Blu Elettrico 涂装与 Rosso Corsa 外缘",
+      interior:"Blu Elettrico 6479 Alcantara，搭配 Rosso 0504 特殊缝线",
+      wheels:"钻石切削锻造轮毂",
+      mileage:"经销商挂牌时 88 英里",
+      status:"已由 Jeremy Cottingham 售出",
+      sale:"价格未公开 — 挂牌页标记为 SOLD",
+      program:"Extra-Range / 定制配置",
+      options:["Extra-Range Bianco King 特殊双层车漆","Blu Elettrico 涂装，Rosso Corsa 外缘","气刷 Scuderia Ferrari 盾徽","碳纤维硬顶","碳纤维车身下部与后盖唇边","前轴升降","前后泊车摄像头","Apple CarPlay","黑色四点式安全带","Racing Driver Set","大号座垫 / L32 靠背","铝制方向盘饰件","带卡片的 SVR 防盗系统"],
+      timeline:["2025 年 — 英国交付车辆，注册号 LJ25 VJC；经销商及同步挂牌页面公开完整 VIN ZFF05UMB000319132。","截至 2026 年 9 月 — Jeremy Cottingham 公开库存页显示 88 英里，并将车辆标记为 SOLD。"],
+      notes:"Jeremy Cottingham 经销商页面公开完整 VIN、88 英里里程和详细个性化配置单。Octane Marketplace 与 Classic Driver 的同步挂牌再次列出相同底盘、里程与配置。来源正文对部分 Ferrari 色名存在“Blu Electrico” / “Blu Eletrico”等拼写差异；Atlas 统一显示为 Blu Elettrico，同时保留公开的 6479 与 605116 内饰／涂装代码。",
+      review_status:"2026-09-21 — 已交叉核验完整 VIN、里程、配置单及 12 张公开经销商图库。",
+      photo_captions:["Bianco King / Blu Elettrico · 安装硬顶的左前 3/4","左前 3/4 · 拆下车顶面板","左前 3/4 · 开放座舱与 Blu Elettrico 内饰","正前方 · Blu Elettrico 中央涂装与 Rosso Corsa 外缘","正后方 · 碳纤维车身下部","正后方 · 双门开启","侧面 · 拆下车顶面板","侧面 · 驾驶侧车门开启","侧面 · 安装硬顶","后 3/4 · 涂装延续至车尾","俯视 · 开放座舱与四点式安全带","俯视 · 安装硬顶"]
+    },
+    "SP3-276831-GOODWOOD":{
+      title:"Goodwood 2022 — 底盘 276831",
+      edition:"公开活动底盘；客户配额身份尚未确认",
+      country:"英国",
+      city:"Goodwood，West Sussex",
+      market:"英国公开活动 / Festival of Speed",
+      owner:"未公开；Ferrari North Europe Ltd 为 Goodwood 参展方",
+      exterior:"黄色；精确 Ferrari 漆号尚未确认",
+      status:"2022 Goodwood Festival of Speed 公开活动车辆",
+      timeline:["2022 年 6 月 — Goodwood 官方 Festival of Speed 参赛名单记录一辆 2022 Ferrari Daytona SP3，编号 618，参展方为 Ferrari North Europe Ltd。","2022 年 6 月 — Ultimatecarpage 的 Goodwood 图片记录将照片中的 Daytona SP3 标识为底盘 276831。"],
+      notes:"Goodwood 官方活动资料确认 2022 Supercar Run 中存在一辆 Daytona SP3；Ultimatecarpage 的现场图片进一步将照片中的车辆标识为底盘 276831。现有来源并不能确认客户配额身份、完整 VIN 或私人车主，因此 Ferrari North Europe Ltd 仅记录为 Goodwood 参展方，而非车主。",
+      review_status:"2026-09-21 — 已用 2022 Goodwood 图片记录核对底盘身份；Goodwood 官方参赛名单确认活动车辆与参展方。",
+      photo_captions:["2022 Goodwood Festival of Speed · 底盘 276831"]
+    },
     "SP3-TIRIAC-316193":{
       title:"Ion Țiriac / Țiriac Collection — 红色 / 米色",
       country:"罗马尼亚",
