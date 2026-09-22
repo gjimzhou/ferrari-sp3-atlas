@@ -8,14 +8,14 @@
 
 ## 当前覆盖（2026-09-21）
 
-- **109 条有来源的研究记录**：55 个详细车档、52 条待核对线索、2 辆预生产／研发车。近期更新补入 2025 Ferrari Tribute 1000 Miglia 与 Cavalcade Siviglia 的 chassis-specific 活动记录，同时继续将单源 VIN／活动记录与多源详细车档分层。
+- **110 条有来源的研究记录**：56 个详细车档、52 条待核对线索、2 辆预生产／研发车。近期更新补入 2025 Ferrari Tribute 1000 Miglia 与 Cavalcade Siviglia 的 chassis-specific 活动记录，同时继续将单源 VIN／活动记录与多源详细车档分层。
 - **503 个 ECR 公开档案索引**：由公开车型搜索 21 页结果去重所得，保存链接、缩略图引用和国家旗标。没有复制登录后字段。
-- **426 条图库图片引用，覆盖 72 条记录**：新增 Rosso Taormina 10 张 Bernards 原图、AMARI dealer 图与 Miller 14-car gathering 现场图；合影和外部预览仍不等同于独立高清实车数量。
+- **441 条图库图片引用，覆盖 73 条记录**：新增 Rosso Taormina 10 张 Bernards 原图、AMARI dealer 图与 Miller 14-car gathering 现场图；合影和外部预览仍不等同于独立高清实车数量。
 - **28 个完整公开 VIN**：构建时验证格式及唯一性。只有证据较强的 VIN 进入 detailed profiles；其余完整 VIN 在取得更强逐车来源前保持 lead。
 - 已复核 RM Sotheby’s 底盘 **297567：USD 17,825,000**、**299827：CHF 5,348,750** 的公布成交结果。
 - Leclerc、Sainz、Ramsay、Ronaldo、Ibrahimović、Piero Ferrari、David Lee、Swizz Beatz、Selected Car Collection 等已有档案可搜索。历史收藏关系不代表当前持有人。
 
-**109 与 503 不能相加为实车总数。** 不同来源可能指向同一辆车；未匹配 VIN 的网页编号只代表研究记录。历史条目尚未全量重新核验，在详情页保留核对状态。旧版数百条空白总体占位不再出现在新版数据中。
+**110 与 503 不能相加为实车总数。** 不同来源可能指向同一辆车；未匹配 VIN 的网页编号只代表研究记录。历史条目尚未全量重新核验，在详情页保留核对状态。旧版数百条空白总体占位不再出现在新版数据中。
 
 ## 文件结构（Structure）
 
