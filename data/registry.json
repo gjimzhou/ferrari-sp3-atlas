@@ -5426,42 +5426,51 @@
   },
   {
     "id": "SP3-299394-NL-VIN",
-    "title": "Grigio / Nero — chassis 299394",
-    "tier": "registry",
+    "title": "Grigio / Black Stripe — chassis 299394",
+    "tier": "chassis",
     "year": null,
     "vin": "ZFF05UMB000299394",
     "chassis": "299394",
-    "edition": "Public VIN lead; allocation status not independently verified",
+    "edition": "Original-production Daytona SP3; public VIN and event chassis independently documented",
     "country": "Netherlands",
-    "city": "Netherlands",
-    "market": "Unknown",
-    "owner": "Unknown",
-    "exterior": "Grigio",
+    "city": "Netherlands / Ferrari Tribute 1000 Miglia 2025",
+    "market": "European specification",
+    "owner": "Not public; 2025 Ferrari Tribute crew listed as Alexander Tesink / Wouter De Voogt",
+    "exterior": "Grigio / grey with black centre stripe",
     "color": "Silver",
     "interior": "Nero",
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "Unknown",
-    "status": "Public registry VIN lead",
+    "status": "Registered road car / Ferrari Tribute 1000 Miglia 2025 entrant",
     "sale": "Unknown",
     "program": "Unknown",
     "options": [],
     "timeline": [
-      "21 March 2025 — Dutch register begins recording plate HJK-99-H for this VIN."
+      "21 March 2025 — Dutch register begins recording plate HJK-99-H for VIN ZFF05UMB000299394.",
+      "17–21 June 2025 — Entered in Ferrari Tribute 1000 Miglia as no. 627, chassis 299394, grey with black stripe; crew listed as Alexander Tesink / Wouter De Voogt."
     ],
-    "notes": "The Dutch registry publishes the full VIN, Grigio / Nero specification and Netherlands registration. The source does not provide a model year in this row, so the Atlas leaves year blank rather than inferring it.",
+    "notes": "The Dutch Ferrari and Lamborghini Register publishes the complete VIN, Grigio / Nero specification and Netherlands registration. The independently published Ferrari Tribute 1000 Miglia entry list identifies chassis 299394 as car 627 and documents the grey / black-stripe exterior and event crew. Crew names are retained as event metadata rather than treated as title-ownership evidence.",
     "photos": [],
     "credits": [],
     "sources": [
       [
         "Dutch Ferrari and Lamborghini Register — registry entry",
         "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
+      ],
+      [
+        "Ferrari Tribute 1000 Miglia — official 2025 edition",
+        "https://ferraritribute.1000miglia.it/edizione-2025/"
+      ],
+      [
+        "Anamera — Ferrari Tribute 1000 Miglia entry list",
+        "https://www.finecars.cc/en/editorial/article/news/ferrari-tribute-1000-miglia-retracing-one-of-the-greatest-road-races-of-all-time/index.html?tx_ttnews%5BbackPid%5D=301"
       ]
     ],
-    "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
-    "record_kind": "lead",
+    "review_status": "2026-09-21 — Full VIN/registration and independent chassis-specific Ferrari Tribute entry cross-checked; upgraded from VIN lead to detailed profile.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 77,
+    "sort_weight": 96,
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-21"
@@ -6101,6 +6110,141 @@
     ],
     "photo_captions": [
       "2022 Goodwood Festival of Speed · chassis 276831"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-281883-MILLE-MIGLIA",
+    "title": "Matt White / Silver Stripes — chassis 281883",
+    "tier": "chassis",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "281883",
+    "edition": "Public event chassis; customer-allocation status not independently documented",
+    "country": "Italy",
+    "city": "Ferrari Tribute 1000 Miglia 2025",
+    "market": "Not public",
+    "owner": "Not public; 2025 event crew listed as Luigi Telefri / Giorgio Mombelli",
+    "exterior": "Matt white with silver centre stripes",
+    "color": "White",
+    "interior": "Red upholstery visible in event photography; exact factory trim code not public",
+    "wheels": "Dark five-spoke forged wheels",
+    "calipers": "Not publicly documented",
+    "mileage": "Unknown",
+    "status": "Ferrari Tribute 1000 Miglia 2025 entrant",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [
+      "Matt-white exterior",
+      "Silver centre stripes",
+      "Open-roof configuration photographed during the event"
+    ],
+    "timeline": [
+      "17–21 June 2025 — Entered in Ferrari Tribute 1000 Miglia as no. 626, chassis 281883, matt white with silver stripes; crew listed as Luigi Telefri / Giorgio Mombelli.",
+      "17 June 2025 — Olivier Bidaud photographed chassis 281883 on route; Barchetta's image archive publishes the chassis-specific photo metadata."
+    ],
+    "notes": "The Ferrari Tribute entry list identifies chassis 281883, its matt-white / silver-stripe configuration and the event crew. Barchetta independently publishes a chassis-specific event photograph and metadata from 17 June 2025. The crew is recorded only as event metadata; no VIN or private ownership claim is inferred.",
+    "photos": [
+      "https://barchetta.mediacenter.plus/MCSIMG_7d59330a-4f80-446e-8d43-401bdba9ec18.jpg"
+    ],
+    "credits": [
+      "© Olivier Bidaud / barchetta images"
+    ],
+    "sources": [
+      [
+        "Ferrari Tribute 1000 Miglia — official 2025 edition",
+        "https://ferraritribute.1000miglia.it/edizione-2025/"
+      ],
+      [
+        "Anamera — Ferrari Tribute 1000 Miglia entry list",
+        "https://www.finecars.cc/en/editorial/article/news/ferrari-tribute-1000-miglia-retracing-one-of-the-greatest-road-races-of-all-time/index.html?tx_ttnews%5BbackPid%5D=301"
+      ],
+      [
+        "Barchetta — Mille Miglia chassis photo record",
+        "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc/2010-2019/2010/?i=6263729"
+      ]
+    ],
+    "review_status": "2026-09-21 — Chassis, event number, crew and specification cross-checked against the Ferrari Tribute entry list and a chassis-specific Barchetta image record.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 96,
+    "photo_sources": [
+      "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc/2010-2019/2010/?i=6263729"
+    ],
+    "photo_captions": [
+      "Ferrari Tribute 1000 Miglia 2025 · no. 626 · chassis 281883"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-320749-MILLE-MIGLIA",
+    "title": "Matt Grey / Triple Stripe — chassis 320749",
+    "tier": "chassis",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "320749",
+    "edition": "Public event chassis; customer-allocation status not independently documented",
+    "country": "Netherlands",
+    "city": "Ferrari Tribute 1000 Miglia / Cavalcade Siviglia 2025",
+    "market": "Not public",
+    "owner": "Not public; 2025 Ferrari Tribute crew listed as Michael de Ruijter / Gerben Van de Weerd",
+    "exterior": "Matt grey; silver-black-silver centre stripes at Ferrari Tribute 1000 Miglia; Cavalcade list describes white stripes",
+    "color": "Silver",
+    "interior": "Not publicly documented",
+    "wheels": "Dark five-spoke forged wheels",
+    "calipers": "Yellow",
+    "mileage": "Unknown",
+    "status": "Ferrari Tribute 1000 Miglia and Ferrari Cavalcade Siviglia 2025 entrant",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [
+      "Matt-grey exterior",
+      "Centre-stripe livery",
+      "Yellow brake calipers visible in event photography"
+    ],
+    "timeline": [
+      "May 2025 — Listed as Daytona SP3 chassis 320749 in Ferrari Cavalcade Siviglia, matt grey with white stripes and Netherlands entry metadata.",
+      "17–21 June 2025 — Entered in Ferrari Tribute 1000 Miglia as no. 628, chassis 320749, matt grey with silver-black-silver stripes; crew listed as Michael de Ruijter / Gerben Van de Weerd.",
+      "17 June 2025 — Olivier Bidaud photographed chassis 320749 on route; Barchetta publishes the chassis-specific image metadata."
+    ],
+    "notes": "Chassis 320749 appears in two separate 2025 Ferrari owner events: Cavalcade Siviglia and Ferrari Tribute 1000 Miglia. The Tribute entry list and Barchetta image record agree on chassis 320749 and crew; the two event lists describe the stripe colour slightly differently, so both source descriptions are preserved rather than silently choosing one. No VIN or private ownership identity is inferred.",
+    "photos": [
+      "https://barchetta.mediacenter.plus/MCSIMG_7dd34e78-d321-4272-ae4d-303cc5e894a9.jpg"
+    ],
+    "credits": [
+      "© Olivier Bidaud / barchetta images"
+    ],
+    "sources": [
+      [
+        "Ferrari — 2025 Cavalcade Siviglia official feature",
+        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
+      ],
+      [
+        "Anamera — Ferrari Cavalcade Siviglia entry list",
+        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
+      ],
+      [
+        "Ferrari Tribute 1000 Miglia — official 2025 edition",
+        "https://ferraritribute.1000miglia.it/edizione-2025/"
+      ],
+      [
+        "Anamera — Ferrari Tribute 1000 Miglia entry list",
+        "https://www.finecars.cc/en/editorial/article/news/ferrari-tribute-1000-miglia-retracing-one-of-the-greatest-road-races-of-all-time/index.html?tx_ttnews%5BbackPid%5D=301"
+      ],
+      [
+        "Barchetta — Mille Miglia chassis photo record",
+        "https://barchetta.mediacenter.plus/?i=6259312"
+      ]
+    ],
+    "review_status": "2026-09-21 — Chassis identity cross-checked across two 2025 Ferrari events plus a chassis-specific Barchetta image record.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 98,
+    "photo_sources": [
+      "https://barchetta.mediacenter.plus/?i=6259312"
+    ],
+    "photo_captions": [
+      "Ferrari Tribute 1000 Miglia 2025 · no. 628 · chassis 320749"
     ],
     "accessed": "2026-09-21"
   }
