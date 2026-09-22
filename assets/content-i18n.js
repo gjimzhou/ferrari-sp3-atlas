@@ -1050,6 +1050,38 @@
     zhRecords[id] = {...(zhRecords[id]||{}),title};
   }
 
+  Object.assign(zhRecords, {
+    "SP3-STEVEN-VICTOR":{
+      title:"Steven Victor — 银色 / 蓝色",
+      city:"美国 — 公开收藏专题",
+      owner:"Steven Victor",
+      exterior:"银色金属漆；精确 Ferrari 漆号未公开",
+      interior:"Ferrari 官方／公开收藏影像中可见蓝色内饰",
+      wheels:"深色五辐锻造轮毂",
+      status:"车主本人持有／有公开资料确认",
+      options:["银色外观搭配蓝色座舱","属于 Victor 公开记录的 Ferrari V12 收藏"],
+      timeline:["2024 年 9 月 — Ferrari Magazine 专访 Steven Victor，并明确指出其六辆 V12 Ferrari 中包括 Daytona SP3。","2026 年 8 月 — duPont REGISTRY 再次将 Daytona SP3 列入 Victor 的 Ferrari 收藏。"],
+      notes:"Ferrari 官方杂志直接确认 Steven Victor 持有一辆 Daytona SP3。公开收藏照片显示该车为银色外观、蓝色座舱，但精确工厂漆号与内饰代码未公布。本站不推定 VIN 或铭牌编号。",
+      review_status:"2026-09-21 — 已交叉核验 Ferrari 官方车主关系与公开收藏影像；VIN 与精确工厂颜色仍未公开。",
+      photo_captions:["Victor V12 收藏合影 · 银色车阵中可见 Daytona SP3","Steven Victor 与其银色 Daytona SP3","Steven Victor 收藏合影 · 银色 Icona 车辆"]
+    },
+    "SP3-JJ-LIN":{
+      title:"林俊杰 JJ Lin — 白色 / 蓝色",
+      country:"台湾",
+      city:"台北，台湾",
+      owner:"林俊杰（JJ Lin）",
+      exterior:"白色车身，双蓝色中央条纹，亮黑色下部空气动力学部件",
+      interior:"公开车主照片中可见亮蓝色内饰",
+      wheels:"黑色五辐轮毂",
+      status:"车主本人持有／公开驾驶",
+      options:["双蓝色中央条纹","亮黑色下部空气动力学处理","亮蓝色座舱"],
+      timeline:["2025 年 11 月 — 林俊杰公开发布与 Daytona SP3 的照片组；台湾汽车媒体报道该车为其新购藏品。","2026 年 — ECR 公开档案 79098 将该 Daytona SP3 标注为新加坡歌手 JJ Lin 所有，并将公开档案地点标注为台北。"],
+      notes:"车主关系由林俊杰公开社媒照片组（经 TVBS 报道）及 ECR 公开档案 79098 共同支持。白色／蓝色配置有清晰影像记录。VIN、铭牌编号与精确工厂漆色／内饰代码仍未公开；ECR-79098 作为同一实车的来源别名处理，不重复计作另一辆 SP3。",
+      review_status:"2026-09-21 — 已交叉核验公开车主影像与 ECR 车主标注；VIN 与铭牌编号仍未公开。",
+      photo_captions:["林俊杰与白色／蓝色 Daytona SP3","林俊杰照片组中的蓝色座舱细节","正前方 · 双蓝色中央条纹","蓝色内饰细节与 V12 发动机盖"]
+    }
+  });
+
   const captionEn = new Map([
     ["历史图库照片","Historical gallery image"],
     ["公开车档主图","Public profile hero image"],
