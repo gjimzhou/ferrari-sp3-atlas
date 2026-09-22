@@ -156,7 +156,14 @@
     "AMARI Supercars":"AMARI Supercars",
     "Car & Classic syndicated listing":"Car & Classic 转刊挂牌",
     "Dutch Ferrari and Lamborghini Register":"荷兰 Ferrari / Lamborghini Register",
-    "duPont REGISTRY — Miller Motorcars 14-car gathering":"duPont REGISTRY — Miller Motorcars 14 车聚会"
+    "duPont REGISTRY — Miller Motorcars 14-car gathering":"duPont REGISTRY — Miller Motorcars 14 车聚会",
+    "AutoRef public VIN search history":"AutoRef 公开 VIN 搜索记录",
+    "Public VIN lead; allocation status not independently verified":"公开 VIN 线索；客户配额身份尚未独立核实",
+    "Factory demo; customer-allocation status not established":"工厂 Demo；客户配额归属尚未确定",
+    "Public registry VIN lead":"公开 registry VIN 线索",
+    "Public showroom sighting / VIN lead":"公开展厅目击／VIN 线索",
+    "Factory demo car":"工厂 Demo 车辆",
+    "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.":"2026-09-21 — 已复核公开 VIN／底盘来源；在取得更强逐车证据前保留为研究线索。"
   };
 
   const enCommon = {
@@ -227,7 +234,8 @@
     "Fort Lauderdale delivery":"劳德代尔堡交付",
     "Denmark — public collection feature":"丹麦 — 公开收藏专题",
     "PFS project feature; exact location not confirmed":"PFS 项目专题；精确地点未确认",
-    "Dania Pointe, Florida":"佛罗里达州 Dania Pointe"
+    "Dania Pointe, Florida":"佛罗里达州 Dania Pointe",
+    "Hengelo":"亨厄洛"
   };
 
   const zhRecords = {
@@ -744,6 +752,88 @@
       timeline:["2022 年 — 荷兰 Ferrari / Lamborghini Register 将该车记录为意大利注册的 Ferrari 工厂 Demo。"],
       notes:"两个公开底盘索引分别列出 VIN ZFF05UMB000277497。荷兰 registry 将其标记为 factory demo car，并说明从未有荷兰注册。由于这些来源并未确认其客户配额身份，本站不自动将其计入 599 辆客户分配。",
       review_status:"2026-09-21 — 已在两个公开底盘索引中交叉核对 VIN；factory-demo 分类沿用 registry 来源。"
+    }
+,
+    "SP3-277498-DEMO-LEAD":{
+      title:"Ferrari 工厂 Demo — 底盘 277498",
+      edition:"工厂 Demo；客户配额归属尚未确定",
+      owner:"未公开",
+      status:"工厂 Demo 车辆",
+      timeline:["2022 年 — 荷兰 Ferrari / Lamborghini Register 记录意大利车牌 GJ-562-FL，并将其归类为 factory demo。"],
+      notes:"公开 registry 来源发布完整 VIN、Rosso Magma / Blu 配置及 factory-demo 分类。本轮未找到独立第二来源，因此保留为 lead，而不是详细车档。"
+    },
+    "SP3-277499-DEMO-LEAD":{
+      title:"Ferrari 工厂 Demo — 底盘 277499",
+      edition:"工厂 Demo；客户配额归属尚未确定",
+      owner:"未公开",
+      status:"工厂 Demo 车辆",
+      timeline:["2022 年 — 荷兰 Ferrari / Lamborghini Register 记录意大利车牌 GJ-563-FL，并将其归类为 factory demo。"],
+      notes:"公开 registry 来源发布完整 VIN、Giallo Triplo Strato / Rosso 配置及 factory-demo 分类。本轮未找到独立第二来源，因此保留为 lead。"
+    },
+    "SP3-289571-VIN-LEAD":{
+      title:"Azzurro La Plata — 底盘 289571",
+      owner:"未公开",
+      timeline:["2023 年 — 荷兰 Ferrari / Lamborghini Register 记录 VIN 与配置，并注明该车从未有荷兰注册。"],
+      notes:"完整 VIN 与配色组合在荷兰 registry 中公开。尚未找到第二个逐车来源，因此仅保留为 VIN lead，不推断车主或所在地。"
+    },
+    "SP3-291935-VIN-LEAD":{
+      title:"Giallo Modena / Nero — 底盘 291935",
+      city:"荷兰",
+      owner:"未公开",
+      timeline:["2025 年 10 月 27 日 — 荷兰 registry 记录该 VIN 使用车牌 JKF-62-L。"],
+      notes:"公开荷兰 registry 发布完整 VIN 与 Giallo Modena / Nero 配置。尚无独立逐车来源，因此保留为研究线索。"
+    },
+    "SP3-308288-VIN-LEAD":{
+      title:"Carbon / Verde — 底盘 308288",
+      owner:"未公开",
+      exterior:"裸露碳纤维（registry 标记：Carbon）",
+      timeline:["2024 年 — 荷兰 Ferrari / Lamborghini Register 记录该 VIN，外观 Carbon、内饰 Verde。"],
+      notes:"registry 公开完整 VIN 与基础 Carbon / Verde 配置。尚未找到第二个逐车来源，因此保留为 lead，也不推断精确 Tailor Made 色名。"
+    },
+    "SP3-299394-NL-VIN":{
+      title:"Grigio / Nero — 底盘 299394",
+      city:"荷兰",
+      owner:"未公开",
+      timeline:["2025 年 3 月 21 日 — 荷兰 registry 开始记录该 VIN 使用车牌 HJK-99-H。"],
+      notes:"荷兰 registry 发布完整 VIN、Grigio / Nero 配置及荷兰注册记录。该行没有提供 model year，因此本站留空年份，不自行推断。"
+    },
+    "SP3-291270-VIN-LEAD":{
+      title:"Verde / Nero — 底盘 291270",
+      city:"亨厄洛",
+      owner:"未公开",
+      status:"公开展厅目击／VIN 线索",
+      timeline:["2026 年 2 月 1 日 — registry 备注将该车记录在 Hengelo 的 Munsterhuis Sportscars 展厅。"],
+      notes:"registry 发布完整 VIN 与 Verde / Nero 配置，并记录 2026 年展厅目击。尚未找到经销商自己的 VIN 级页面，因此仍保留为 lead。"
+    },
+    "SP3-288783-VIN-LEAD":{
+      title:"底盘 288783 — 公开 VIN 线索",
+      owner:"未公开",
+      timeline:["2026-09-21 — Made in Maranello 公开底盘索引列出 serial 288783 与 VIN ZFF05UMB000288783。"],
+      notes:"Made in Maranello 公开完整 VIN 与 2022 年份。本轮未找到独立逐车配置或车主来源，因此保留为 chassis lead。"
+    },
+    "SP3-291272-VIN-LEAD":{
+      title:"底盘 291272 — 公开 VIN 线索",
+      owner:"未公开",
+      timeline:["2026-09-21 — Made in Maranello 公开底盘索引列出 serial 291272 与 VIN ZFF05UMB000291272。"],
+      notes:"Made in Maranello 公开完整 VIN 与 2023 年份。本轮未找到独立逐车配置或车主来源，因此保留为 chassis lead。"
+    },
+    "SP3-292660-VIN-LEAD":{
+      title:"底盘 292660 — 公开 VIN 线索",
+      owner:"未公开",
+      timeline:["2025 年 12 月 — AutoRef 公开搜索记录将该 VIN 标识为 Ferrari Daytona SP3。","2026-09-21 — Made in Maranello 底盘索引独立列出同一 VIN 与 serial。"],
+      notes:"两个公开 VIN／底盘索引分别将 ZFF05UMA000292660 识别为 Daytona SP3。当前都没有可靠的公开逐车配置，因此保留为 VIN lead，而不是详细车档。"
+    },
+    "SP3-310023-VIN-LEAD":{
+      title:"底盘 310023 — 公开 VIN 线索",
+      owner:"未公开",
+      timeline:["2026-09-21 — Made in Maranello 公开底盘索引列出 serial 310023 与 VIN ZFF05UMA1R0310023。"],
+      notes:"完整 VIN 出现在 Made in Maranello 的公开底盘索引中。本轮未找到第二逐车来源或公开 build specification，因此保留为 lead。"
+    },
+    "SP3-317185-VIN-LEAD":{
+      title:"底盘 317185 — 公开 VIN 线索",
+      owner:"未公开",
+      timeline:["2026-09-21 — Made in Maranello 公开底盘索引列出 serial 317185 与 VIN ZFF05UMB000317185。"],
+      notes:"Made in Maranello 公开完整 VIN 与 2025 年份。本轮未找到独立逐车配置或车主来源，因此保留为 chassis lead。"
     }
   };
 
