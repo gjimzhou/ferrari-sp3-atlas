@@ -61,3 +61,35 @@
 - 构建验证通过：65 个不重复记录 ID、4 个不重复完整 VIN、503 个来源索引；图库来源、说明及署名数组长度一致。
 - DOM 功能检查通过：37 个详细车档、369 条图片引用、新车主搜索、29 图图库切换、分页、导入及本地覆盖合并。JavaScript 语法和 diff 格式检查通过。
 - Ronaldo 与 Ibrahimović 的部分公开页面或图片返回验证页／403；Per Gessle 的官方收藏文字页没有可明确归属的配图，本轮未用未经确认的图片填补这些档案。
+
+
+## 2026-09-21 · 第三轮：VIN / dealer / 去重扩充
+
+### 新增硬身份车档
+
+- 新增 6 条研究记录，数据库由 65 条增至 71 条；完整公开 VIN 由 4 个增至 9 个。
+- **ZFF05UMB000315825 / chassis 315825**：Team Gunston No. 83 Tailor Made。Automotive Masterpieces 公开完整 VIN、技术规格、历史时间线及 AU-34679 声明；涂装致敬 1968 年 Team Gunston Ferrari 350 Can-Am / 330 P4 chassis 0858。
+- **ZFF05UMB000319387 / chassis 319387**：Rosso Taormina / Rosso FX。Bernards Exclusives 当前页面标记 Sold；荷兰 Ferrari / Lamborghini Register 独立提供 VIN、配色与 2025 年挂牌记录。新增 10 张 Bernards 原始图库照片。
+- **ZFF05UMA2R0306496 / chassis 306496**：Hendrick Performance 公开二手挂牌提供完整 VIN；Made in Maranello 底盘索引独立列出同一 VIN。
+- **ZFF05UMA9S0310048 / chassis 310048**：The Collection Miami 白／黑车辆；历史 dealer listing 记录 164 miles 与完整 VIN，另一份 The Collection 库存页抓取可交叉确认。
+- **ZFF05UMB000277497 / chassis 277497**：两个公开 chassis index 均列出 VIN；荷兰 registry 将其标记为 Ferrari factory demo。因来源未说明客户配额归属，本站不自动将其计入 599 辆客户分配。
+- 新增 **AMARI Rosso Magma / Alcantara Blu Elettrico** dealer record：2026 注册、一任车主、20 km，AMARI 当前标记 Sold；无 VIN，故不是“已确认 chassis”记录。
+
+### 已有记录补强
+
+- 599+1 / chassis 319682 新增 2026 年 3 月 Miller Motorcars Greenwich 14-car Daytona SP3 gathering 时间线、来源与现场图。公开报道明确将 Exposed Carbon / Giallo Modena 的 600th car 标为聚会 centerpiece。
+- 图库引用由 369 条增至 381 条。新增图片均保留逐张来源与署名。
+
+### 去重与未合并决定
+
+- 对本轮 5 个新增 VIN 做 exact-VIN + ECR 公开搜索，没有找到可公开确认的 ECR alias；因此不创建猜测性的 ECR 对应。
+- AMARI Rosso Magma / Blu Elettrico **不与 chassis 286921 合并**：AMARI 记录为 2026 注册、20 km；286921 已知 2023 年交付，2026 年拍卖编目时 743 km。没有 VIN 之前把二者视为同车证据不足。
+- Miller 14-car gathering 中出现的 Transitional Ametista、Rosso Magma、Blu Lucido Carbon、Wine Red Carbon、Aluminio Opaco、Rosso Fuoco、Nero DS、Bianco Italia Opaca、Giallo Modena、Bianco Mille Miglia、Rosso Maranello 等车辆，仅凭颜色不足以和本站匿名／dealer 车档合并。
+- Dutch register 还公开了 277498、277499、289571、291935、308288、299394、291270 等 VIN；Made in Maranello 另有 288783、291272、292660、310023、317185。当前缺少足够第二来源或逐车细节，暂作为下一轮 chassis leads，不为了抬高数字直接升级为详细车档。
+- Leonardo Maria Del Vecchio 等名人 SP3 线索目前主要来自 spotter / video / secondary mentions；在可访问的强来源不足时继续留在候选，不进入具名车主列表。
+
+### 本轮口径
+
+- “VIN 已公开”只表示来源公开完整 17 位 VIN；不等于车主身份、交付国家、当前所在地或客户 allocation number 都已确定。
+- dealer listing 的里程、在售状态和价格只代表来源抓取／刊登时点。历史 listing 不被写成当前库存。
+- 继续执行“证据强度优先于条目数量”：完整 VIN + dealer/auction/independent chassis cross-check 优先；颜色、地点和相似配置不能单独作为 merge key。
