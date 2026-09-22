@@ -28,6 +28,7 @@
     '包含历史收藏关系': 'including historical collection links',
     '图库图片引用': 'Gallery image references',
     '资料库栏目': 'Registry sections',
+    '最乐幻想2022': 'Leclerc 2022: The Ultimate What-If',
     '车辆档案': 'Vehicle registry',
     '公开车主': 'Public owners',
     '503 档案索引': '503-profile index',
