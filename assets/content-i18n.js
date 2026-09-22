@@ -976,7 +976,7 @@
       options:["Giallo Modena 外观","黑色外观细节","黑色皮革座舱","Giallo 黄色对比缝线"],
       timeline:["2023 年 7 月 — VIN 逐车页保留两张经 Autoblog.nl 发布的 Hengelo 实车图，可确认 Giallo Modena / 黑色条纹配置。","2023 年 4 月 — 由 Munsterhuis Ferrari 新车交付。","2023–2025 年 — 位于 Bernhard ten Brinke 私人收藏；同期荷兰报道明确将其列为车主。","2025 年 10 月 — Rapid Rides 报道一次拍卖中出现 €5,750,000 出价；本站不将这一二手报道视为确认成交。","2025 年 10 月 27 日 — Dutch Ferrari and Lamborghini Register 将车牌 JKF-62-L 与 VIN ZFF05UMB000291935 对应；该 registry 行显示车牌起止日期均为同一天。","当前 AutoWeek 车辆核验状态 — 已出口；荷兰登记历史中没有记录实际使用车主。"],
       notes:"Dutch Ferrari and Lamborghini Register 公开完整 VIN ZFF05UMB000291935、Giallo Modena / Nero 配置及车牌 JKF-62-L。AutoWeek 独立将 JKF-62-L 识别为黄色 2023 Daytona SP3，当前状态标为已出口。Rapid Rides 报道该车 2023 年 4 月由 Munsterhuis Ferrari 交付，配置为 Giallo Modena 配黑色外观细节、黑色皮革配 Giallo 缝线，并明确将收藏家／拉力车手 Bernhard ten Brinke 列为车主；更早的荷兰媒体也独立报道 ten Brinke 收到一辆黄黑 Daytona SP3。Rapid Rides 另提到 €5.75m 拍卖出价，但缺少拍卖行一手成交结果，因此本站只记录为 reported bid，不写成已成交。",
-      review_status:"2026-09-22 — 已交叉核验完整 VIN、荷兰登记历史、Bernhard ten Brinke 车主报道、Giallo Modena / Nero 配置及两张 VIN-linked Hengelo 实车图。"
+      review_status:"2026-09-22 — 已交叉核验完整 VIN、荷兰登记历史、Bernhard ten Brinke 车主报道、Giallo Modena / Nero 配置及两张 VIN-linked Hengelo 实车图。",
       photo_captions:["2023 Hengelo · 后 3/4 · Giallo Modena / 黑顶","2023 Hengelo · 前 3/4 · 黑色双中央条纹"]
     },
     "SP3-308288-VIN-LEAD":{
