@@ -174,6 +174,8 @@
     "AMARI Supercars — dealer listing":"AMARI Supercars — 经销商挂牌",
     "Car & Classic — syndicated dealer listing":"Car & Classic — 经销商挂牌转载",
     "Dutch Ferrari and Lamborghini Register — registry entry":"荷兰 Ferrari / Lamborghini Register — registry 条目",
+    "Dutch Ferrari and Lamborghini Register — chassis 308288 photo record":"荷兰 Ferrari / Lamborghini Register — 底盘 308288 逐车图库",
+    "Dutch Ferrari and Lamborghini Register — Wheels Mariënwaerdt 2026 event list":"荷兰 Ferrari / Lamborghini Register — 2026 Wheels Mariënwaerdt 活动名单",
     "AutoWeek — Dutch plate JKF-62-L vehicle check":"AutoWeek — 荷兰车牌 JKF-62-L 车辆核验",
     "Rapid Rides NL — Bernhard ten Brinke Daytona SP3 profile":"Rapid Rides NL — Bernhard ten Brinke Daytona SP3 专题",
     "Rapid Rides NL — BP Green Netherlands history":"Rapid Rides NL — BP Green 荷兰流转历史",
@@ -936,11 +938,21 @@
       review_status:"2026-09-21 — 已通过 registry、车辆核验及独立荷兰报道交叉确认完整 VIN／车牌、2023 model year、Giallo Modena 配置、Munsterhuis 交付与 Bernhard ten Brinke 车主关系；拍卖出价不作为成交结果。"
     },
     "SP3-308288-VIN-LEAD":{
-      title:"Carbon / Verde — 底盘 308288",
+      title:"裸露碳纤维 / Verde — 底盘 308288",
+      edition:"原始 599 辆量产序列；完整 VIN 已公开",
+      country:"荷兰",
+      city:"荷兰 Hengelo / Beesd",
       owner:"未公开",
-      exterior:"裸露碳纤维（registry 标记：Carbon）",
-      timeline:["2024 年 — 荷兰 Ferrari / Lamborghini Register 记录该 VIN，外观 Carbon、内饰 Verde。"],
-      notes:"registry 公开完整 VIN 与基础 Carbon / Verde 配置。尚未找到第二个逐车来源，因此保留为 lead，也不推断精确 Tailor Made 色名。"
+      exterior:"裸露碳纤维车身；公开来源未给出精确工厂碳纤维色调名称",
+      interior:"Registry 记录为 Verde；展厅照片可见绿色内饰",
+      wheels:"公开照片可见深色五辐轮毂",
+      calipers:"公开照片可见深色刹车卡钳；精确工厂颜色未公布",
+      status:"有公开展厅及活动记录的实车",
+      options:["裸露碳纤维车身","Verde 绿色座舱","深色五辐轮毂","展厅照片可见四点式安全带"],
+      timeline:["2024 年 8 月 — 在 Hengelo 的 Munsterhuis 拍摄；VIN 逐车页公开 12 张展厅照片。","2026 年 9 月 13 日 — 在 Beesd 的 Wheels Mariënwaerdt Ferrari Collection 展览中展示；活动名单明确列出 Daytona SP3 VIN ZFF05UMB000308288，VIN 逐车页另公开 4 张活动照片。"],
+      notes:"Dutch Ferrari and Lamborghini Register 公开完整 VIN ZFF05UMB000308288 及 Carbon / Verde 配置。VIN 逐车页补充 2024 年 8 月 Munsterhuis 的 12 张展厅图与 2026 Wheels Mariënwaerdt 的 4 张活动图；活动索引也明确列出同一 VIN。这些页面来自同一发布方，因此只能算更强的逐车证据，而不是第二个独立 publisher。由于已有完整 VIN 与大量 VIN-linked 实车图，本站将其由稀疏 lead 升级为详细 profile，但不推断私人车主或精确 Tailor Made 色名。",
+      review_status:"2026-09-22 — 已复核完整 VIN、Carbon / Verde 配置、2024 Hengelo 12 图展厅图库及 2026 Wheels Mariënwaerdt 4 图活动图库；同一发布方的多页记录不作为独立第二来源。",
+      photo_captions:["2026 Wheels Mariënwaerdt · 后侧视角 · Niels Schouten","2026 Wheels Mariënwaerdt · 左前 3/4 · Niels Schouten","2026 Wheels Mariënwaerdt · 前 3/4 细节 · Niels Schouten","2026 Wheels Mariënwaerdt · 另一侧前 3/4 · Niels Schouten","2024 Munsterhuis Hengelo · Verde 座椅与安全带细节","2024 Munsterhuis Hengelo · 驾驶舱与 Verde 座舱","2024 Munsterhuis Hengelo · 开门后视角","2024 Munsterhuis Hengelo · 后 3/4","2024 Munsterhuis Hengelo · 高位后 3/4","2024 Munsterhuis Hengelo · 开门侧视角","2024 Munsterhuis Hengelo · 侧面","2024 Munsterhuis Hengelo · 高位前视角","2024 Munsterhuis Hengelo · 开门前视角","2024 Munsterhuis Hengelo · 前 3/4 近景","2024 Munsterhuis Hengelo · 揭幕侧视角","2024 Munsterhuis Hengelo · 半覆盖后视角"]
     },
     "SP3-299394-NL-VIN":{
       title:"Grigio / 黑色条纹 — 底盘 299394",
