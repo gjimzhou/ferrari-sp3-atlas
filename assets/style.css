@@ -37,3 +37,5 @@ h1{font:500 clamp(43px,8vw,104px)/.92 Georgia,serif;letter-spacing:-.055em;margi
   .lang-switch{order:-1}
   .lang-btn{min-width:37px;padding:6px}
 }
+
+html[lang="en"] .placeholder:after{content:"PHOTO AT SOURCE"}
