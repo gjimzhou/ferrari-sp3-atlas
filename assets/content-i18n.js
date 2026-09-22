@@ -1004,6 +1004,177 @@
     }
   };
 
+  Object.assign(zhRecords, {
+    "SP3-305029-CAVALCADE":{
+      title:"黑色 / 黄色条纹 — 底盘 305029",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"斯洛伐克",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"黑色车身，黄色中央条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 305029，黑色车身，黄色中央条纹，国家元数据为斯洛伐克。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 305029 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-304375-CAVALCADE":{
+      title:"浅蓝色 — 底盘 304375",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"比利时",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"浅蓝色车身",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 304375，浅蓝色车身，国家元数据为比利时。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 304375 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-296011-CAVALCADE":{
+      title:"深绿色 / 白红条纹 — 底盘 296011",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"比利时",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"深绿色车身，白红条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 296011，深绿色车身，白红条纹，国家元数据为比利时。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 296011 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-281882-CAVALCADE":{
+      title:"黄色 / 红色条纹 — 底盘 281882",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"比利时",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"黄色车身，红色条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 281882，黄色车身，红色条纹，国家元数据为比利时。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 281882 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-304679-CAVALCADE":{
+      title:"绿色 / 白色条纹 — 底盘 304679",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"德国",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"绿色车身，白色条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 304679，绿色车身，白色条纹，国家元数据为德国。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 304679 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-319368-CAVALCADE":{
+      title:"深红色 — 底盘 319368",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"德国",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"深红色车身",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 319368，深红色车身，国家元数据为德国。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 319368 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-287825-CAVALCADE":{
+      title:"绿色 / 黑色条纹 — 底盘 287825",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"丹麦",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"绿色车身，黑色条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 287825，绿色车身，黑色条纹，国家元数据为丹麦。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 287825 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-314849-CAVALCADE":{
+      title:"深红色 — 英国参赛记录 — 底盘 314849",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"英国",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"深红色车身",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 314849，深红色车身，国家元数据为英国。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 314849 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-285951-CAVALCADE":{
+      title:"深红色 / 黑色车顶 — 底盘 285951",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"英国",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"深红色车身，黑色车顶",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 285951，深红色车身，黑色车顶，国家元数据为英国。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 285951 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-312255-CAVALCADE":{
+      title:"哑光银 / 黑色车顶 — 底盘 312255",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"意大利",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"哑光银色车身，黑色车顶",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 312255，哑光银色车身，黑色车顶，国家元数据为意大利。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 312255 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-291931-CAVALCADE":{
+      title:"波尔多红 / 黑色车顶 — 底盘 291931",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"阿塞拜疆",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"波尔多红车身，黑色车顶",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 291931，波尔多红车身，黑色车顶，国家元数据为阿塞拜疆。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 291931 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-304114-CAVALCADE":{
+      title:"紫绿碳纤维 / 银色条纹 — 底盘 304114",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"韩国",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"紫绿碳纤维车身，银色条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 304114，紫绿碳纤维车身，银色条纹，国家元数据为韩国。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 304114 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-311579-CAVALCADE":{
+      title:"紫色 / 白色条纹 — 底盘 311579",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"日本",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"紫色车身，白色条纹",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 311579，紫色车身，白色条纹，国家元数据为日本。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 311579 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-302913-CAVALCADE":{
+      title:"全裸露碳纤维 — 底盘 302913",
+      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      country:"澳大利亚",
+      city:"2025 Ferrari Cavalcade Siviglia 活动",
+      owner:"未公开",
+      exterior:"全车裸露碳纤维",
+      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
+      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 302913，全车裸露碳纤维，国家元数据为澳大利亚。"],
+      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 302913 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
+      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    }
+  });
+
   Object.assign(enRecords, {
     "ECR-77928":{
       notes:"ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status."
