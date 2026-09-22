@@ -39,3 +39,11 @@ h1{font:500 clamp(43px,8vw,104px)/.92 Georgia,serif;letter-spacing:-.055em;margi
 }
 
 html[lang="en"] .placeholder:after{content:"PHOTO AT SOURCE"}
+
+.side-projects{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 2px}
+.feature-link{display:inline-grid;grid-template-columns:auto auto;grid-template-areas:"kicker arrow" "title arrow";gap:2px 18px;align-items:center;min-width:min(100%,330px);padding:13px 15px 13px 17px;border:1px solid rgba(227,33,25,.5);border-radius:13px;background:linear-gradient(135deg,rgba(227,33,25,.12),rgba(255,255,255,.025));text-decoration:none;transition:.2s}
+.feature-link:hover{transform:translateY(-2px);border-color:var(--red);box-shadow:0 12px 34px rgba(227,33,25,.12)}
+.feature-kicker{grid-area:kicker;color:#ff817c;font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.feature-link strong{grid-area:title;font:500 20px Georgia,"Songti SC","Noto Serif CJK SC",serif;letter-spacing:-.02em}
+.feature-arrow{grid-area:arrow;color:#ff817c;font-size:21px}
+@media(max-width:520px){.feature-link{width:100%}}
