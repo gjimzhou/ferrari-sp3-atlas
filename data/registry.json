@@ -29,7 +29,8 @@
     ],
     "timeline": [
       "July 2025 — Ferrari announced the additional charity car.",
-      "16 August 2025 — Sold for US$26 million at RM Sotheby's Monterey."
+      "16 August 2025 — Sold for US$26 million at RM Sotheby's Monterey.",
+      "March 2026 — Displayed as the centerpiece of Miller Motorcars' 14-car Daytona SP3 gathering in Greenwich."
     ],
     "notes": "The only officially documented additional SP3 outside the original allocation of 599. The auction buyer was publicly identified after the sale.",
     "photos": [
@@ -53,7 +54,8 @@
       "https://cdn.rmsothebys.com/3/0/5/c/6/b/305c6bea92fd4d0b5baafd843a2bb0d746ff0c61.webp",
       "https://cdn.rmsothebys.com/6/7/4/a/8/c/674a8ce098f344fc1104f3be3a9053c5ae6a354b.webp",
       "https://cdn.rmsothebys.com/a/1/b/c/c/8/a1bcc84b045ff24ad92591f4ba68406b1af0e465.webp",
-      "https://cdn.rmsothebys.com/b/a/4/9/6/a/ba496a8a2c98052bd2969ca60e6f99f973bf06e7.webp"
+      "https://cdn.rmsothebys.com/b/a/4/9/6/a/ba496a8a2c98052bd2969ca60e6f99f973bf06e7.webp",
+      "https://news.dupontregistry.com/cdn/shop/articles/Miller_Motor_Cars_Ferrari_Daytona_SP3_06e051e3-a502-4ece-9da4-510f4eaa6083.jpg?crop=center&height=2000&v=1773070023&width=3000"
     ],
     "credits": [
       "©2025 Courtesy of RM Sotheby's",
@@ -76,7 +78,8 @@
       "©2025 Courtesy of RM Sotheby's",
       "©2025 Courtesy of RM Sotheby's",
       "©2025 Courtesy of RM Sotheby's",
-      ""
+      "",
+      "@millermotorcars / duPont REGISTRY"
     ],
     "sources": [
       [
@@ -94,9 +97,13 @@
       [
         "Public buyer identification — duPont REGISTRY",
         "https://news.dupontregistry.com/blogs/auctions/revealed-the-enigmatic-billionaire-who-bought-one-off-ferrari-daytona-sp3-for-26-million"
+      ],
+      [
+        "duPont REGISTRY — Miller Motorcars 14-car gathering",
+        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-brings-together-14-ferrari-daytona-sp3-hypercars-in-rare-historic-gathering"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Auction record retained; March 2026 Miller Motorcars gathering added from public coverage.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 100,
@@ -121,7 +128,8 @@
       "https://rmsothebys.com/auctions/mo25/lots/r0035-2025-ferrari-daytona-sp3-tailor-made/",
       "https://rmsothebys.com/auctions/mo25/lots/r0035-2025-ferrari-daytona-sp3-tailor-made/",
       "https://rmsothebys.com/auctions/mo25/lots/r0035-2025-ferrari-daytona-sp3-tailor-made/",
-      "https://rmsothebys.com/auctions/mo25/lots/r0035-2025-ferrari-daytona-sp3-tailor-made/"
+      "https://rmsothebys.com/auctions/mo25/lots/r0035-2025-ferrari-daytona-sp3-tailor-made/",
+      "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-brings-together-14-ferrari-daytona-sp3-hypercars-in-rare-historic-gathering"
     ],
     "photo_captions": [
       "拍卖原始图集 · 1",
@@ -144,8 +152,10 @@
       "拍卖原始图集 · 18",
       "拍卖原始图集 · 19",
       "拍卖原始图集 · 20",
-      "拍卖原始图集 · 21"
-    ]
+      "拍卖原始图集 · 21",
+      "Miller Motorcars 14-car gathering · 599+1 foreground"
+    ],
+    "accessed": "2026-09-21"
   },
   {
     "id": "SP3-299827",
@@ -4633,6 +4643,351 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 65,
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-315825-GUNSTON",
+    "title": "Team Gunston No. 83 Tailor Made",
+    "tier": "chassis",
+    "year": 2025,
+    "vin": "ZFF05UMB000315825",
+    "chassis": "315825",
+    "edition": "Tailor Made one-off specification",
+    "country": "Italy",
+    "city": "Maranello",
+    "market": "Not public",
+    "owner": "Private collection",
+    "exterior": "Team Gunston Orange with matte-black stripes and details; No. 83",
+    "color": "Orange",
+    "interior": "Black Alcantara with Super Electric Blue seats",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly confirmed",
+    "mileage": "Not public",
+    "status": "Private collection",
+    "sale": "Not publicly offered",
+    "program": "Ferrari Tailor Made",
+    "options": [
+      "Bespoke Team Gunston orange-and-black livery",
+      "Number 83 roundels on four sides",
+      "Tribute to Ferrari 330 P4 / 350 Can-Am chassis 0858 as raced in Rhodesia",
+      "Super Electric Blue Alcantara seats"
+    ],
+    "timeline": [
+      "26 March 2025 — Displayed at Ferrari Atelier and the Ferrari factory in Maranello.",
+      "8 August 2025 — Automotive Masterpieces declaration AU-34679 issued.",
+      "5 September 2025 — RINA certificate recorded by the research dossier."
+    ],
+    "notes": "Automotive Masterpieces publishes the full VIN and documents this as a one-off Tailor Made specification inspired by Team Gunston's 1968 Ferrari 350 Can-Am / 330 P4 chassis 0858. It is a separate car from Ferrari's later 599+1 charity SP3.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Automotive Masterpieces — chassis dossier",
+        "https://automotivemasterpieces.com/cars/AU-34679"
+      ],
+      [
+        "Automotive Masterpieces — car history",
+        "https://automotivemasterpieces.com/cars/AU-34679/history"
+      ],
+      [
+        "Automotive Masterpieces — technical specifications",
+        "https://automotivemasterpieces.com/cars/AU-34679/technical-specifications"
+      ],
+      [
+        "Automotive Masterpieces — declaration AU-34679",
+        "https://automotivemasterpieces.com/file/2KDYyGzYVn"
+      ]
+    ],
+    "review_status": "2026-09-21 — Full VIN, specification and provenance dossier rechecked from public Automotive Masterpieces pages.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 99,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-319387-ROSSO-TAORMINA",
+    "title": "Rosso Taormina / Rosso FX — Bernards",
+    "tier": "chassis",
+    "year": 2024,
+    "vin": "ZFF05UMB000319387",
+    "chassis": "319387",
+    "edition": "Original 599 production",
+    "country": "Netherlands",
+    "city": "Woerden",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Rosso Taormina",
+    "color": "Red",
+    "interior": "Rosso FX",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "135 km on Bernards listing",
+    "status": "Sold — Bernards Exclusives",
+    "sale": "Price not public",
+    "program": "Ferrari Tailor Made",
+    "options": [],
+    "timeline": [
+      "25 November 2025 — Dutch registry recorded the car for sale at Bernards Exclusives with 125 km.",
+      "2026 — Bernards listing shows 135 km and marks the car sold."
+    ],
+    "notes": "VIN, Rosso Taormina exterior and Rosso FX interior are cross-checked against the Dutch Ferrari and Lamborghini Register. Bernards describes the car as Tailor Made and 1 of 599; its current page marks it sold.",
+    "photos": [
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-1.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-2.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-3.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-4.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-5.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-6.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-7.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-8.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-9.jpg?aspect_ratio=3%3A2&width=2048",
+      "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-10.jpg?aspect_ratio=3%3A2&width=2048"
+    ],
+    "credits": [
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives",
+      "Bernards Exclusives"
+    ],
+    "sources": [
+      [
+        "Bernards Exclusives",
+        "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/"
+      ],
+      [
+        "Dutch Ferrari and Lamborghini Register — VIN cross-check",
+        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
+      ]
+    ],
+    "review_status": "2026-09-21 — Dealer page, ten-image public gallery and VIN registry cross-check reviewed.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 98,
+    "photo_sources": [
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+      "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/"
+    ],
+    "photo_captions": [
+      "Bernards gallery · front three-quarter",
+      "Bernards gallery · rear three-quarter",
+      "Bernards gallery · cockpit",
+      "Bernards gallery · seats and harnesses",
+      "Bernards gallery · passenger-side cockpit",
+      "Bernards gallery · instrument cluster / 135 km",
+      "Bernards gallery · dashboard controls",
+      "Bernards gallery · center controls",
+      "Bernards gallery · Daytona SP3 dashboard detail",
+      "Bernards gallery · cabin overview"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-306496-HENDRICK",
+    "title": "Chassis 306496 — Hendrick Performance",
+    "tier": "chassis",
+    "year": 2024,
+    "vin": "ZFF05UMA2R0306496",
+    "chassis": "306496",
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Concord, North Carolina",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Not public",
+    "color": "Unknown",
+    "interior": "Not public",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public dealer listing",
+    "sale": "Please Call — Hendrick Performance",
+    "program": "Unknown",
+    "options": [],
+    "timeline": [
+      "2026 — Hendrick Performance publicly listed the car and published VIN ZFF05UMA2R0306496."
+    ],
+    "notes": "The Hendrick Performance listing supplies the complete VIN and identifies the car as a used 2024 Daytona SP3 in Concord, North Carolina. Made in Maranello independently indexes the same VIN and chassis number.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Hendrick Performance dealer listing",
+        "https://www.hendrickcars.com/used/Ferrari/2024-Ferrari-SP3-Daytona-47f672b3ac185c30e41528d4e9c75245.htm"
+      ],
+      [
+        "Made in Maranello chassis index",
+        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — Dealer VIN and independent chassis index cross-checked; detailed build specification remains unavailable.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 96,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-310048-MIAMI",
+    "title": "White / Black — The Collection Miami",
+    "tier": "chassis",
+    "year": 2025,
+    "vin": "ZFF05UMA9S0310048",
+    "chassis": "310048",
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "Miami, Florida",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "White",
+    "color": "White",
+    "interior": "Black",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "164 miles at listing",
+    "status": "Historical dealer listing",
+    "sale": "Call for price — The Collection Porsche",
+    "program": "Unknown",
+    "options": [],
+    "timeline": [
+      "2026 — The Collection Porsche public listing identified the car with 164 miles and VIN ZFF05UMA9S0310048."
+    ],
+    "notes": "The dealer listing publishes the full VIN, white exterior, black interior and 164-mile odometer reading. A separately crawled The Collection inventory page also carried the same VIN. Current availability is not inferred from the historical listing snapshot.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "The Collection Porsche dealer listing",
+        "https://www.thecollectionporsche.com/used/Ferrari/2025-Ferrari-Daytona-SP3-06ab21acac18028b91c6a7b6471fdd75.htm"
+      ],
+      [
+        "The Collection Miami inventory — VIN cross-check",
+        "https://www.thecollectionmaseratimiami.com/inventory/used-2024-porsche-718-cayman-gt4-rs-rwd-2d-coupe-wp0ae2a86rk274780/"
+      ]
+    ],
+    "review_status": "2026-09-21 — Dealer VIN and historical inventory cross-check reviewed; current availability not claimed.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 95,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-AMARI-ROSSO-MAGMA",
+    "title": "Rosso Magma / Blu Elettrico — AMARI",
+    "tier": "dealer",
+    "year": 2026,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production; unique identity not yet linked to VIN",
+    "country": "United Kingdom",
+    "city": "Preston, Lancashire",
+    "market": "Not public",
+    "owner": "Single owner before dealer sale",
+    "exterior": "Rosso Magma",
+    "color": "Red",
+    "interior": "Alcantara Blu Elettrico",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "20 km at listing",
+    "status": "Sold — AMARI Supercars",
+    "sale": "Price not public",
+    "program": "Unknown",
+    "options": [],
+    "timeline": [
+      "2026 — AMARI listed the car as registered in 2026 with one owner and 20 km.",
+      "13 August 2026 — Car & Classic syndicated the dealer advert; the advert was later marked removed."
+    ],
+    "notes": "Kept separate from chassis 286921 despite the similar Rosso Magma / Blu Elettrico combination. AMARI reports a 2026 registration and only 20 km, while chassis 286921 was delivered in 2023 and had 743 km at 2026 auction cataloguing. Without a VIN, no merge is made.",
+    "photos": [
+      "https://www.amarisupercars.com/blobs/stock/1241691/images/b51f89ec-ef56-4899-af1e-a272ce4c5bb1.jpg?height=1333&width=2000"
+    ],
+    "credits": [
+      "AMARI Supercars"
+    ],
+    "sources": [
+      [
+        "AMARI Supercars",
+        "https://www.amarisupercars.com/Stock/Details/2026-ferrari-daytona-sp3/1241691"
+      ],
+      [
+        "Car & Classic syndicated listing",
+        "https://www.carandclassic.com/us/car/C2008855"
+      ]
+    ],
+    "review_status": "2026-09-21 — Dealer record and syndication rechecked; deliberately not merged with chassis 286921 without VIN evidence.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 89,
+    "photo_sources": [
+      "https://www.amarisupercars.com/Stock/Details/2026-ferrari-daytona-sp3/1241691"
+    ],
+    "photo_captions": [
+      "AMARI dealer gallery · Rosso Magma exterior"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-277497-FACTORY-DEMO",
+    "title": "Factory Demo — chassis 277497",
+    "tier": "chassis",
+    "year": 2022,
+    "vin": "ZFF05UMB000277497",
+    "chassis": "277497",
+    "edition": "Factory demo; customer-allocation status not established",
+    "country": "Italy",
+    "city": "Italy",
+    "market": "Not public",
+    "owner": "Ferrari factory demo fleet (reported by registry source)",
+    "exterior": "Rosso Magma",
+    "color": "Red",
+    "interior": "Blu",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Factory demo car",
+    "sale": "Not publicly offered",
+    "program": "Unknown",
+    "options": [],
+    "timeline": [
+      "2022 — Dutch Ferrari and Lamborghini Register records the car as an Italian-registered factory demo."
+    ],
+    "notes": "Two public chassis indexes independently list VIN ZFF05UMB000277497. The Dutch register identifies it as a factory demo car and says it never had a Dutch registration. The Atlas does not automatically count it as one of the 599 customer allocations because its allocation status is not established by these sources.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Dutch Ferrari and Lamborghini Register",
+        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
+      ],
+      [
+        "Made in Maranello chassis index",
+        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
+      ]
+    ],
+    "review_status": "2026-09-21 — VIN cross-checked across two public chassis indexes; factory-demo classification retained from registry source.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 94,
+    "photo_sources": [],
+    "photo_captions": [],
     "accessed": "2026-09-21"
   }
 ]
