@@ -2011,33 +2011,33 @@
   {
     "id": "SP3-PER-GESSLE",
     "title": "Per Gessle — Joyride Collection",
-    "tier": "owner",
-    "year": 2023,
-    "vin": "Not public",
-    "chassis": "Not public",
+    "tier": "chassis",
+    "year": 2022,
+    "vin": "ZFF05UMB000284856",
+    "chassis": "284856",
     "edition": "Original 599 production",
     "country": "Sweden",
     "city": "Hotel Tylösand, Halmstad",
-    "market": "European specification",
+    "market": "Swedish-registered European specification",
     "owner": "Per Gessle / Joyride Collection",
-    "exterior": "White with red accents and exposed carbon fibre",
-    "color": "White",
-    "interior": "Black with red accents",
-    "wheels": "Not publicly confirmed",
+    "exterior": "Red; exact Ferrari factory paint code not publicly established",
+    "color": "Red",
+    "interior": "Not publicly documented",
+    "wheels": "Silver five-spoke wheels visible in owner-posted arrival imagery",
     "calipers": "Not publicly confirmed",
     "mileage": "Not public",
-    "status": "Displayed in the Joyride Collection",
+    "status": "Publicly owned / displayed in the Joyride Collection",
     "sale": "Not publicly offered",
-    "program": "Ferrari personalisation",
-    "options": [
-      "White/red/exposed-carbon exterior theme",
-      "Black and red cabin"
-    ],
+    "program": "Not publicly documented",
+    "options": [],
     "timeline": [
-      "April 2023 — Announced as arriving at the Joyride Collection.",
-      "2023–2026 — Displayed at Hotel Tylösand."
+      "11 January 2023 — Swedish vehicle records show first registration for Daytona SP3 plate RAF37S.",
+      "28 March 2023 — Swedish public vehicle data records the latest ownership change to Per Gessle.",
+      "4 April 2023 — Swedish automotive press reported Gessle's newly delivered red Daytona SP3.",
+      "25 April 2023 — Gessle publicly posted the Daytona SP3 arriving at the Joyride Car Collection at Hotel Tylösand.",
+      "2023–2026 — Displayed as part of the Joyride Car Collection."
     ],
-    "notes": "Publicly linked to Gessle's collection; VIN and exact factory paint codes remain private.",
+    "notes": "The previous Atlas entry incorrectly described this car as white/red. Owner-posted arrival imagery and Swedish automotive coverage show a red Daytona SP3. Swedish public vehicle records identify plate RAF37S as a red 2022 Daytona SP3 with complete VIN ZFF05UMB000284856 and publicly associate the registered car with Per Gessle. The exact Ferrari paint code and cabin trim remain unconfirmed, so no finer specification is inferred.",
     "photos": [
       "https://pbs.twimg.com/media/FujdjaKX0AAAc28.jpg"
     ],
@@ -2050,19 +2050,27 @@
         "https://www.facebook.com/RealPerGessle/posts/the-ferrari-daytona-sp3-has-arrived-to-the-joyride-car-collection-at-hoteltyl%C3%B6sa/792236805601826/"
       ],
       [
-        "Ferrari — Incredible Garages with Per Gessle",
-        "https://www.ferrari.com/magazine/articles/incredible-garages-with-per-gessle"
+        "Per Gessle / @PartyPleaser — Joyride arrival photo",
+        "https://x.com/PartyPleaser/status/1650812875638751234"
       ],
       [
         "Hotel Tylösand — collection description",
-        "https://www.tylosand.se/ferrari-exhibition/history-cars-technology"
+        "https://www.tylosand.se/ferrari-exhibition/per-gessles-ferrari-exhibition"
       ],
       [
-        "Per Gessle / @PartyPleaser — Joyride arrival photo",
-        "https://x.com/PartyPleaser/status/1650812875638751234"
+        "Carup — Per Gessle Daytona SP3 acquisition",
+        "https://carup.se/per-gessles-slog-till-pa-ny-super-ferrari-for-22-miljoner-kr/"
+      ],
+      [
+        "Merinfo — Swedish vehicle record",
+        "https://www.merinfo.se/fordon/80apeBk20b8npDNdlxwb"
+      ],
+      [
+        "Fordonskollen — Swedish vehicle identity record",
+        "https://www.fordonskollen.se/fordon/RAF37S"
       ]
     ],
-    "review_status": "2026-09-21 — Owner/collection relationship and owner-posted Joyride arrival image rechecked.",
+    "review_status": "2026-09-21 — Owner-posted arrival image, red exterior, Swedish registration plate RAF37S and full VIN ZFF05UMB000284856 cross-checked; prior erroneous white/red specification removed.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 90,
@@ -2070,7 +2078,7 @@
       "https://x.com/PartyPleaser/status/1650812875638751234"
     ],
     "photo_captions": [
-      "Joyride Collection arrival · Per Gessle inspecting the Daytona SP3"
+      "Joyride Collection arrival · Per Gessle inspecting his red Daytona SP3"
     ]
   },
   {
