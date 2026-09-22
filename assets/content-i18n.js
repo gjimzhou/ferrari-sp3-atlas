@@ -157,6 +157,8 @@
     "Car & Classic syndicated listing":"Car & Classic 转刊挂牌",
     "Dutch Ferrari and Lamborghini Register":"荷兰 Ferrari / Lamborghini Register",
     "duPont REGISTRY — Miller Motorcars 14-car gathering":"duPont REGISTRY — Miller Motorcars 14 车聚会",
+    "duPont REGISTRY — Sainz delivery":"duPont REGISTRY — Sainz 交付报道",
+    "duPont REGISTRY / Ferrari Magazine — Piero Ferrari livery":"duPont REGISTRY／Ferrari Magazine — Piero Ferrari 涂装",
     "AutoRef public VIN search history":"AutoRef 公开 VIN 搜索记录",
     "Public VIN lead; allocation status not independently verified":"公开 VIN 线索；客户配额身份尚未独立核实",
     "Factory demo; customer-allocation status not established":"工厂 Demo；客户配额归属尚未确定",
@@ -300,7 +302,7 @@
       options:["蓝白 NART 风格涂装","红色内饰点缀","配置灵感来自一辆与 Ferrari 家族历史相关的 250 LM"],
       timeline:["Ferrari 官方编辑内容曾公开展示该车。","据 Piero Ferrari 本人所述，该车曾在 Fiorano 完成其“洗礼”驾驶。"],
       notes:"精确漆号与 VIN 尚未公开。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验 Ferrari 官方专题及转载的 Ferrari Magazine 图片；VIN 与精确漆号仍未公开。"
     },
     "SP3-BH-RAME":{
       title:"Rame Scuro Lucido — Beverly Hills",
@@ -362,7 +364,7 @@
       options:["两侧车门均有赛车号码 16","灵感来自摩纳哥的红白中央涂装","座椅之间有 Charles Leclerc 签名","红色车身细线与红色刹车卡钳"],
       timeline:["2024 年 3 月 — 在摩纳哥公开交付并首次被拍到。","2024–2026 年 — 多次在摩纳哥被拍摄并公开驾驶。"],
       notes:"公开交付报道直接确认了车主与车辆关系。VIN 与精确内饰材料代码仍未公开。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验交付／配置来源及 Monaco 公开图库；VIN 仍未公开。"
     },
     "SP3-CARLOS-SAINZ":{
       title:"Carlos Sainz Jr. — 55 号 Smooth Operator",
@@ -373,7 +375,7 @@
       options:["赛车号码 55 融入下部碳纤维车身图形","座舱及碳纤维进气口细节带 Smooth Operator 字样","Rosso Alcantara 座舱","红色中央条纹与外围红色点缀"],
       timeline:["2024 年 12 月 — 在 Sainz 离开 Scuderia Ferrari 前不久完成交付。","2025 年 — Sainz 公开表示这辆 SP3 是其收藏中特别重要的一辆车。"],
       notes:"车主、交付以及关键配置均有交付影像与后续本人采访支持。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验交付来源、Tailor Made 细节及公开交付图；VIN 仍未公开。"
     },
     "SP3-DAVID-LEE":{
       title:"David Lee — 绿色碳纤维“Relish”",
@@ -1063,6 +1065,12 @@
     if (!value) return value;
     if (lang !== "en") {
       if (value === "Miller Motorcars 14-car gathering · 599+1 foreground") return "Miller Motorcars 14 车聚会 · 599+1 前景";
+      if (value === "Monaco delivery gallery · No. 16 side detail") return "Monaco 交付图库 · 16 号侧面细节";
+      if (value === "Monaco delivery gallery · front wheel and stripe detail") return "Monaco 交付图库 · 前轮与条纹细节";
+      if (value === "Monaco delivery gallery · rear stripe and exhaust detail") return "Monaco 交付图库 · 后部条纹与排气细节";
+      if (value === "Monaco delivery gallery · rear three-quarter") return "Monaco 交付图库 · 后 3/4 视角";
+      if (value === "Delivery reveal · Ferrari Scuderia Monte-Carlo") return "交付揭幕 · Ferrari Scuderia Monte-Carlo";
+      if (value === "Piero Ferrari office · painting of the white-and-blue 250 LM inspiration") return "Piero Ferrari 办公室 · 白蓝 250 LM 灵感画作";
       return value;
     }
     if (captionEn.has(value)) return captionEn.get(value);
