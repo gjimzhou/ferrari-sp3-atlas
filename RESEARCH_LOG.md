@@ -93,3 +93,12 @@
 - “VIN 已公开”只表示来源公开完整 17 位 VIN；不等于车主身份、交付国家、当前所在地或客户 allocation number 都已确定。
 - dealer listing 的里程、在售状态和价格只代表来源抓取／刊登时点。历史 listing 不被写成当前库存。
 - 继续执行“证据强度优先于条目数量”：完整 VIN + dealer/auction/independent chassis cross-check 优先；颜色、地点和相似配置不能单独作为 merge key。
+
+
+### VIN lead 扩展
+
+- 在 detailed profiles 之外新增 12 条完整 VIN lead；总记录增至 83 条，完整公开 VIN 增至 21 个。
+- Dutch Ferrari / Lamborghini Register 单源 VIN：277498、277499、289571、291935、308288、299394、291270。除公开配色／登记／展厅备注外，不推断车主和精确 Tailor Made 色名。
+- Made in Maranello chassis-index lead：288783、291272、292660、310023、317185；其中 292660 另有 AutoRef 公开 VIN 搜索记录交叉支持。
+- 277498 / 277499 与 277497 一样被 registry 标记为 factory demo，但没有与 277497 同等级的第二来源，因此保持 lead。
+- 这 12 条均为 `record_kind: lead`，不会进入默认“详细车档”视图；完整 VIN 的公开性与车档完整度分开表达。
