@@ -90,6 +90,7 @@
     '更新与数据': 'Updates & data',
     '版本：2026-09-21。恢复历史 v3 的 48 条有来源记录，新增 3 条经销商车档；复核两辆 RM 拍卖车的公布成交结果。历史继承条目在详情中明确标注，未声称全量重新核验。': 'Version: 2026-09-21. Restores 48 source-backed records from historical v3, adds three dealer profiles, and rechecks the published results of two RM auction cars. Inherited historical records are labeled in their details; no claim is made that every item was fully re-verified.',
     'JSON 导出保留来源、照片引用及核对状态。导入按 ID 合并并只保存在当前浏览器；网站更新仍会载入新增内置资料，本地修改优先。输入错误不会覆盖现有资料。': 'JSON export preserves sources, photo references, and review status. Imports merge by ID and are stored only in the current browser; future site updates still load new bundled records, with local overrides taking precedence. Invalid input does not overwrite existing data.',
+    '双语翻译只作用于展示层。data/registry.json 保留研究时记录的原始字段与来源措辞；切换语言不会改写、复制或推断新的证据。': 'Bilingual translation is display-only. data/registry.json preserves the research fields and source wording as recorded; changing language does not rewrite, duplicate, or infer new evidence.',
     '逐车 JSON': 'Vehicle JSON',
     '索引 JSON': 'Index JSON',
     '来源目录': 'Source directory',
@@ -207,6 +208,11 @@
   const attrState = new WeakMap();
   let language = (() => {
     try {
+      const requested = new URLSearchParams(location.search).get('lang');
+      if (requested === 'en') return EN;
+      if (requested === 'zh' || requested === 'zh-CN') return ZH;
+    } catch (_) {}
+    try {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved === ZH || saved === EN) return saved;
     } catch (_) {}
@@ -286,6 +292,11 @@
     language = next === EN ? EN : ZH;
     if (persist) {
       try { localStorage.setItem(STORAGE_KEY, language); } catch (_) {}
+      try {
+        const url = new URL(location.href);
+        url.searchParams.set('lang', language === EN ? 'en' : 'zh');
+        history.replaceState(null, '', url);
+      } catch (_) {}
     }
     processElement(document.body);
     updateMeta();
