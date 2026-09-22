@@ -703,12 +703,14 @@
     "photos": [
       "assets/photos/SP3-PIERO-NART-1.jpg",
       "assets/photos/SP3-PIERO-NART-2.jpg",
-      "assets/photos/SP3-PIERO-NART-3.jpg"
+      "assets/photos/SP3-PIERO-NART-3.jpg",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/67571b7c4e5f24001074a252-piero_2_1536x.jpg?v=1766527417"
     ],
     "credits": [
       "Ferrari editorial imagery / Driven Car Guide",
       "Ferrari editorial imagery / Driven Car Guide",
-      "Ferrari editorial imagery / Driven Car Guide"
+      "Ferrari editorial imagery / Driven Car Guide",
+      "Ferrari Magazine / duPont REGISTRY"
     ],
     "sources": [
       [
@@ -718,21 +720,27 @@
       [
         "Driven Car Guide report",
         "https://www.drivencarguide.co.nz/news/piero-ferraris-bespoke-daytona-sp3-is-a-tribute-to-enzo/"
+      ],
+      [
+        "duPont REGISTRY / Ferrari Magazine — Piero Ferrari livery",
+        "https://news.dupontregistry.com/blogs/ferrari-news/piero-ferrari-daytona-sp3-livery"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Ferrari editorial story and republished Ferrari Magazine imagery rechecked; VIN and exact paint codes remain private.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 95,
     "photo_sources": [
       "https://www.ferrari.com/en-EN/magazine/articles/inspired-by-the-past-piero-ferrari-sp3",
       "https://www.ferrari.com/en-EN/magazine/articles/inspired-by-the-past-piero-ferrari-sp3",
-      "https://www.ferrari.com/en-EN/magazine/articles/inspired-by-the-past-piero-ferrari-sp3"
+      "https://www.ferrari.com/en-EN/magazine/articles/inspired-by-the-past-piero-ferrari-sp3",
+      "https://news.dupontregistry.com/blogs/ferrari-news/piero-ferrari-daytona-sp3-livery"
     ],
     "photo_captions": [
       "历史图库照片",
       "历史图库照片",
-      "历史图库照片"
+      "历史图库照片",
+      "Piero Ferrari office · painting of the white-and-blue 250 LM inspiration"
     ]
   },
   {
@@ -1535,14 +1543,22 @@
       "assets/photos/SP3-CHARLES-LECLERC-2.jpg",
       "assets/photos/SP3-CHARLES-LECLERC-3.webp",
       "https://www.carscoops.com/wp-content/uploads/2024/09/Charles-Leclerc-Ferrari-SP3-Daytona-3.jpg",
-      "https://www.carscoops.com/wp-content/uploads/2024/09/Charles-Leclerc-Ferrari-SP3-Daytona-1.jpg"
+      "https://www.carscoops.com/wp-content/uploads/2024/09/Charles-Leclerc-Ferrari-SP3-Daytona-1.jpg",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/CL1.jpg?v=1766527966",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/CL6.jpg?v=1766527969",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/CL4.jpg?v=1766527976",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/CL2_3641040c-832a-477a-8b35-df9fc9f432cd.jpg?v=1766527980"
     ],
     "credits": [
       "Ferrari Scuderia Monte-Carlo / duPont REGISTRY",
       "Ferrari Scuderia Monte-Carlo / duPont REGISTRY",
       "Ferrari Scuderia Monte-Carlo / duPont REGISTRY",
       "Ferrari / Carscoops",
-      "Ferrari / Carscoops"
+      "Ferrari / Carscoops",
+      "Ferrari Scuderia Monte-Carlo / duPont REGISTRY",
+      "Ferrari Scuderia Monte-Carlo / duPont REGISTRY",
+      "Ferrari Scuderia Monte-Carlo / duPont REGISTRY",
+      "Ferrari Scuderia Monte-Carlo / duPont REGISTRY"
     ],
     "sources": [
       [
@@ -1558,7 +1574,7 @@
         "https://www.youtube.com/watch?v=g2FGkhxZd48"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Delivery/specification sources and public Monaco gallery rechecked; VIN remains private.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 96,
@@ -1567,14 +1583,22 @@
       "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar",
       "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar",
       "https://www.carscoops.com/2024/09/charles-leclerc-shows-off-his-new-monaco-themed-ferrari-daytona-sp3/",
-      "https://www.carscoops.com/2024/09/charles-leclerc-shows-off-his-new-monaco-themed-ferrari-daytona-sp3/"
+      "https://www.carscoops.com/2024/09/charles-leclerc-shows-off-his-new-monaco-themed-ferrari-daytona-sp3/",
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar",
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar",
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar",
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar"
     ],
     "photo_captions": [
       "历史图库照片",
       "历史图库照片",
       "历史图库照片",
       "Leclerc 本人与定制车 · 左前侧",
-      "车主配置讲解 · 车身全貌"
+      "车主配置讲解 · 车身全貌",
+      "Monaco delivery gallery · No. 16 side detail",
+      "Monaco delivery gallery · front wheel and stripe detail",
+      "Monaco delivery gallery · rear stripe and exhaust detail",
+      "Monaco delivery gallery · rear three-quarter"
     ]
   },
   {
@@ -1614,14 +1638,16 @@
       "assets/photos/SP3-CARLOS-SAINZ-2.webp",
       "assets/photos/SP3-CARLOS-SAINZ-3.webp",
       "https://www.thesupercarblog.com/wp-content/uploads/2024/12/Carlos-Sainz-Ferrari-Daytona-SP3-1.jpg",
-      "https://thesupercarblog.com/wp-content/uploads/2024/12/Carlos-Sainz-Ferrari-Daytona-SP3-2.jpg"
+      "https://thesupercarblog.com/wp-content/uploads/2024/12/Carlos-Sainz-Ferrari-Daytona-SP3-2.jpg",
+      "https://news.dupontregistry.com/cdn/shop/articles/Daytona-SP3-Main_f5aedb0f-f92b-4f93-a350-406f4dc48c42.jpg?crop=center&height=2222&v=1767076519&width=3000"
     ],
     "credits": [
       "Ferrari Scuderia Monte-Carlo / Znews",
       "Ferrari Scuderia Monte-Carlo / Znews",
       "Ferrari Scuderia Monte-Carlo / Znews",
       "The Supercar Blog / 原报道图片",
-      "The Supercar Blog / 原报道图片"
+      "The Supercar Blog / 原报道图片",
+      "Ferrari Scuderia Monte-Carlo / duPont REGISTRY"
     ],
     "sources": [
       [
@@ -1635,9 +1661,13 @@
       [
         "The Supercar Blog / 原报道图片",
         "https://www.thesupercarblog.com/ex-ferrari-f1-driver-carlos-sainz-takes-delivery-of-a-4-million-daytona-sp3/"
+      ],
+      [
+        "duPont REGISTRY — Sainz delivery",
+        "https://news.dupontregistry.com/blogs/ferrari-news/carlos-sainz-jr-delivery-of-his-new-3m-daytona-sp3"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Delivery sources, Tailor Made details and public delivery image rechecked; VIN remains private.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 96,
@@ -1646,14 +1676,16 @@
       "https://znews.vn/carlos-sainz-jr-nhan-sieu-xe-daytona-sp3-truoc-khi-roi-ferrari-post1521065.html",
       "https://znews.vn/carlos-sainz-jr-nhan-sieu-xe-daytona-sp3-truoc-khi-roi-ferrari-post1521065.html",
       "https://www.thesupercarblog.com/ex-ferrari-f1-driver-carlos-sainz-takes-delivery-of-a-4-million-daytona-sp3/",
-      "https://www.thesupercarblog.com/ex-ferrari-f1-driver-carlos-sainz-takes-delivery-of-a-4-million-daytona-sp3/"
+      "https://www.thesupercarblog.com/ex-ferrari-f1-driver-carlos-sainz-takes-delivery-of-a-4-million-daytona-sp3/",
+      "https://news.dupontregistry.com/blogs/ferrari-news/carlos-sainz-jr-delivery-of-his-new-3m-daytona-sp3"
     ],
     "photo_captions": [
       "历史图库照片",
       "历史图库照片",
       "历史图库照片",
       "交付展示 · 正前方",
-      "Smooth Operator 定制细节"
+      "Smooth Operator 定制细节",
+      "Delivery reveal · Ferrari Scuderia Monte-Carlo"
     ]
   },
   {
