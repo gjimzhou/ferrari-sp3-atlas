@@ -159,6 +159,8 @@
     "duPont REGISTRY — Miller Motorcars 14-car gathering":"duPont REGISTRY — Miller Motorcars 14 车聚会",
     "duPont REGISTRY — Sainz delivery":"duPont REGISTRY — Sainz 交付报道",
     "duPont REGISTRY / Ferrari Magazine — Piero Ferrari livery":"duPont REGISTRY／Ferrari Magazine — Piero Ferrari 涂装",
+    "Per Gessle / @PartyPleaser — Joyride arrival photo":"Per Gessle / @PartyPleaser — Joyride 到车照片",
+    "Autogespot original Milan spot — Matte spots":"Autogespot 米兰原始街拍 — Matte spots",
     "AutoRef public VIN search history":"AutoRef 公开 VIN 搜索记录",
     "Public VIN lead; allocation status not independently verified":"公开 VIN 线索；客户配额身份尚未独立核实",
     "Factory demo; customer-allocation status not established":"工厂 Demo；客户配额归属尚未确定",
@@ -416,7 +418,7 @@
       options:["哑光白外观","裸露碳纤维下部车身","银色轮毂"],
       timeline:["2023 年 4 月 — 在米兰公开被拍到驾驶该车。","2023 年 9 月 — 再次在社交媒体发布该车。"],
       notes:"这辆哑光白 SP3 不应与 Gordon Ramsay 的 Bianco Cervino 25 号混淆。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验 2023 年 4 月米兰原始街拍及公开车主报道。"
     },
     "SP3-PER-GESSLE":{
       title:"Per Gessle — Joyride Collection",
@@ -427,7 +429,7 @@
       options:["白／红／裸露碳纤维外观主题","黑红座舱"],
       timeline:["2023 年 4 月 — 宣布加入 Joyride Collection。","2023–2026 年 — 在 Hotel Tylösand 展示。"],
       notes:"公开资料将该车与 Gessle 的收藏直接关联；VIN 与精确工厂漆号仍未公开。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验车主／收藏关系及车主本人发布的 Joyride 到车照片。"
     },
     "SP3-DUTCH-SOC-BABY-BLUE":{
       title:"Baby Blue — Supercar Owners Circle",
@@ -1071,6 +1073,8 @@
       if (value === "Monaco delivery gallery · rear three-quarter") return "Monaco 交付图库 · 后 3/4 视角";
       if (value === "Delivery reveal · Ferrari Scuderia Monte-Carlo") return "交付揭幕 · Ferrari Scuderia Monte-Carlo";
       if (value === "Piero Ferrari office · painting of the white-and-blue 250 LM inspiration") return "Piero Ferrari 办公室 · 白蓝 250 LM 灵感画作";
+      if (value === "Joyride Collection arrival · Per Gessle inspecting the Daytona SP3") return "Joyride Collection 到车 · Per Gessle 检查 Daytona SP3";
+      if (value === "Milan street sighting · Zlatan Ibrahimović in the freshly delivered matte-white SP3") return "米兰街拍 · Zlatan Ibrahimović 驾驶刚交付的哑光白 SP3";
       return value;
     }
     if (captionEn.has(value)) return captionEn.get(value);
