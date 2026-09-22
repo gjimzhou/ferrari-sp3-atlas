@@ -5554,5 +5554,146 @@
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-STEVEN-VICTOR",
+    "title": "Steven Victor — Silver / Blue",
+    "tier": "official",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production",
+    "country": "United States",
+    "city": "United States — public collection feature",
+    "market": "Not public",
+    "owner": "Steven Victor",
+    "exterior": "Silver metallic; exact Ferrari paint code not publicly stated",
+    "color": "Silver",
+    "interior": "Blue upholstery visible in official/public collection imagery",
+    "wheels": "Dark five-spoke forged wheels",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Personally owned / publicly documented",
+    "sale": "Not publicly offered",
+    "program": "Not public",
+    "options": [
+      "Silver exterior with contrasting blue cabin",
+      "Part of Victor's publicly documented V12 Ferrari collection"
+    ],
+    "timeline": [
+      "September 2024 — Ferrari Magazine profiled Steven Victor and explicitly identified a Daytona SP3 among his six V12 Ferraris.",
+      "August 2026 — duPont REGISTRY again listed the Daytona SP3 among Victor's Ferrari collection."
+    ],
+    "notes": "Ferrari's own magazine directly links Steven Victor to a Daytona SP3. Public collection photography shows a silver example with a blue cabin, but the exact factory paint and trim codes have not been published. No VIN or plaque number is assigned here.",
+    "photos": [
+      "https://news.dupontregistry.com/cdn/shop/articles/669f74ce821bb500113d492c-v12-sounds-pt2_20240319_1920x1080_233e765a-45b7-4119-b30e-25a6b255e0ca.jpg?crop=center&height=1687&v=1767075616&width=3000",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/669e2153dedb2b0011951c83-v12ny_20240722_3_1250x700-800x448.jpg?v=1766510787",
+      "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/668d474f97a95a001172b7dc-victor-v12_20240709_2_1250x700-800x448.jpg?v=1766510791"
+    ],
+    "credits": [
+      "Ferrari Magazine / duPont REGISTRY",
+      "Ferrari Magazine / duPont REGISTRY",
+      "Ferrari Magazine / duPont REGISTRY"
+    ],
+    "sources": [
+      [
+        "Ferrari Magazine — Steven Victor V12 collector profile",
+        "https://www.ferrari.com/it-IT/magazine/articles/v12-cliente-steven-victor-new-york"
+      ],
+      [
+        "duPont REGISTRY — Steven Victor V12 collection",
+        "https://news.dupontregistry.com/blogs/ferrari-news/check-out-steven-victors-incredible-collection-of-exclusive-v12-ferrari-supercars-hypercars"
+      ],
+      [
+        "duPont REGISTRY — 2026 Steven Victor collection update",
+        "https://news.dupontregistry.com/blogs/news/steven-victors-love-for-cars-inspires-his-newest-nike-af1-collaboration"
+      ]
+    ],
+    "review_status": "2026-09-21 — Ferrari official owner link and public collection imagery cross-checked; VIN and exact factory color remain private.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 93,
+    "photo_sources": [
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-steven-victors-incredible-collection-of-exclusive-v12-ferrari-supercars-hypercars",
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-steven-victors-incredible-collection-of-exclusive-v12-ferrari-supercars-hypercars",
+      "https://news.dupontregistry.com/blogs/ferrari-news/check-out-steven-victors-incredible-collection-of-exclusive-v12-ferrari-supercars-hypercars"
+    ],
+    "photo_captions": [
+      "Victor V12 collection · Daytona SP3 visible in the silver lineup",
+      "Steven Victor with his silver Daytona SP3",
+      "Steven Victor collection portrait · silver Icona cars"
+    ],
+    "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-JJ-LIN",
+    "title": "JJ Lin — White / Blue",
+    "tier": "owner",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production",
+    "country": "Taiwan",
+    "city": "Taipei, Taiwan",
+    "market": "Not public",
+    "owner": "JJ Lin (林俊杰)",
+    "exterior": "White with twin blue centre stripes and gloss-black lower aero elements",
+    "color": "White",
+    "interior": "Bright blue upholstery visible in public owner imagery",
+    "wheels": "Black five-spoke wheels",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Personally owned / publicly driven",
+    "sale": "Not publicly offered",
+    "program": "Not public",
+    "options": [
+      "Twin blue centre stripes",
+      "Gloss-black lower aero treatment",
+      "Bright blue cabin"
+    ],
+    "timeline": [
+      "November 2025 — JJ Lin published a photo set with the Daytona SP3; Taiwanese automotive media reported the car as his new acquisition.",
+      "2026 — ECR public profile 79098 identifies the Daytona SP3 as owned by Singaporean singer JJ Lin and locates the public profile in Taipei."
+    ],
+    "notes": "Ownership is supported by JJ Lin's public social-media photo set as reported by TVBS and by ECR public profile 79098. The white/blue specification is visually documented. VIN, plaque number and exact factory paint/interior codes remain private; ECR-79098 is treated as the same-car source alias, not another SP3.",
+    "photos": [
+      "https://cars-asset.tvbs.com.tw/uploads/2025/11/19173013/251119_JJ-Ferrari-Daytona-SP3_From-%E6%9E%97%E4%BF%8A%E5%82%91IG_002-1200x675.jpg",
+      "https://cars-asset.tvbs.com.tw/uploads/2025/11/19173003/251119_JJ-Ferrari-Daytona-SP3_From-%E6%9E%97%E4%BF%8A%E5%82%91IG_003-1-1200x675.jpg",
+      "https://cars-asset.tvbs.com.tw/uploads/2025/11/19173008/251119_JJ-Ferrari-Daytona-SP3_From-%E6%9E%97%E4%BF%8A%E5%82%91IG_003-1200x675.jpg",
+      "https://cars-asset.tvbs.com.tw/uploads/2025/11/19173039/251119_JJ-Ferrari-Daytona-SP3_From-%E6%9E%97%E4%BF%8A%E5%82%91IG_010-1200x675.jpg"
+    ],
+    "credits": [
+      "JJ Lin Instagram / TVBS",
+      "JJ Lin Instagram / TVBS",
+      "JJ Lin Instagram / TVBS",
+      "JJ Lin Instagram / TVBS"
+    ],
+    "sources": [
+      [
+        "TVBS — JJ Lin Daytona SP3 owner photo set",
+        "https://cars.tvbs.com.tw/celebrity/289714"
+      ],
+      [
+        "Exclusive Car Registry profile 79098",
+        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098"
+      ]
+    ],
+    "review_status": "2026-09-21 — Public owner imagery and ECR owner attribution cross-checked; VIN and plaque remain private.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 92,
+    "photo_sources": [
+      "https://cars.tvbs.com.tw/celebrity/289714",
+      "https://cars.tvbs.com.tw/celebrity/289714",
+      "https://cars.tvbs.com.tw/celebrity/289714",
+      "https://cars.tvbs.com.tw/celebrity/289714"
+    ],
+    "photo_captions": [
+      "JJ Lin with the white / blue Daytona SP3",
+      "Blue cabin detail from JJ Lin's photo set",
+      "Front view · twin blue centre stripes",
+      "Blue interior detail and V12 engine cover"
+    ],
+    "accessed": "2026-09-21"
   }
 ]
