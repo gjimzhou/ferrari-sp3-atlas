@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Interactive counterfactual analysis of Charles Leclerc's 2022 Formula 1 championship. Toggle race outcomes, compare plausible alternatives, and see how many events had to change for Leclerc to beat Verstappen.">
+<meta name="description" content="Interactive 2022 Leclerc championship counterfactual — 22 GP weekends, 3 Sprints, 25 scoring events. Updated 2026-09-22.">
 <title>Leclerc 2022 — Counterfactual Championship Lab</title>
 <style>
 :root{--bg:#0b0c0f;--panel:#12141a;--card:#171a21;--line:#292d36;--text:#f6f7f9;--muted:#a8adb8;--red:#ef3340;--gold:#ffd166;--green:#4bd38a;--blue:#65a9ff;--orange:#ff9f43}
@@ -471,9 +471,121 @@ body{
 }
 
 
+
+/* Mobile real-device pass — based on iPhone Safari screenshots */
+@media(max-width:620px){
+  .wrap{width:100%}
+  .hero{
+    min-height:0!important;
+    padding:16px 18px 18px!important;
+    background:#0b0b0b;
+  }
+  .hero:before{
+    background-size:auto 560px!important;
+    background-repeat:no-repeat!important;
+    background-position:68% top!important;
+  }
+  .hero:after{
+    font-size:170px!important;
+    right:-12px!important;
+    bottom:40px!important;
+  }
+  .hero-tools{margin-bottom:42px!important}
+  .lang-toggle button{
+    min-width:54px!important;
+    padding:9px 10px!important;
+    font-size:13px!important;
+  }
+  .hero .eyebrow{
+    font-size:10px!important;
+    letter-spacing:.14em!important;
+  }
+  .hero h1{
+    max-width:95%!important;
+    margin:10px 0 12px!important;
+    font-size:clamp(42px,13vw,62px)!important;
+    line-height:.93!important;
+  }
+  .hero .sub{
+    max-width:95%!important;
+    font-size:16px!important;
+    line-height:1.48!important;
+    margin-bottom:18px!important;
+  }
+  .hero .scoregrid{
+    display:grid!important;
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:0!important;
+    margin:14px 0 0!important;
+    border-top:1px solid #ffffff40!important;
+    border-bottom:1px solid #ffffff40!important;
+    background:#050505b5!important;
+    backdrop-filter:blur(6px);
+  }
+  .hero .metric{
+    min-width:0!important;
+    padding:10px 8px!important;
+    border-right:1px solid #ffffff26!important;
+    border-bottom:0!important;
+    text-align:left!important;
+  }
+  .hero .metric:last-child{border-right:0!important}
+  .hero .metric .k{
+    min-height:26px;
+    font-size:8px!important;
+    line-height:1.22!important;
+    letter-spacing:.06em!important;
+  }
+  .hero .metric .v{
+    font-size:30px!important;
+    line-height:1!important;
+    margin-top:4px!important;
+  }
+
+  .identity-ribbon{
+    min-height:39px!important;
+    padding:6px 10px!important;
+  }
+
+  .lab-races{padding:14px 10px 20px!important}
+  .lab-races .racehead{gap:10px!important}
+  .lab-races .racehead h2{font-size:27px!important}
+  .lab-races .racehead .lead{font-size:13px!important;line-height:1.5!important}
+  .legend{gap:5px!important}
+  .legend .pill{font-size:10px!important}
+  .maxed-note{font-size:11px!important}
+
+  .method{
+    grid-template-columns:1fr!important;
+  }
+  .method>div{
+    padding:18px!important;
+  }
+  .method>div:first-child{
+    border-right:0!important;
+    border-bottom:1px solid #333!important;
+  }
+  .sourcebox h2{font-size:28px!important}
+  .sourcebox p,.method li{font-size:14px!important;line-height:1.55!important}
+  .source-links{gap:5px!important}
+  .footer{
+    padding:22px 18px 30px!important;
+    margin-top:0!important;
+    font-size:11px!important;
+    line-height:1.55!important;
+  }
+}
+
+@media(max-width:390px){
+  .hero h1{font-size:40px!important}
+  .hero .sub{font-size:15px!important}
+  .hero .metric .v{font-size:27px!important}
+  .hero .metric .k{font-size:7.5px!important}
+}
+
 </style>
 </head>
-<body>
+<body>\n<!-- LEC22_REV_20260922_MOBILE2 -->
 <main class="wrap">
 <section class="hero">
 <div class="hero-tools"><div class="lang-toggle" role="group" aria-label="Language"><button id="langZh" type="button">中文</button><button id="langEn" type="button">EN</button></div></div>
