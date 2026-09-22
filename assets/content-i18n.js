@@ -142,7 +142,21 @@
     "Ferrari of Fort Lauderdale / duPont REGISTRY":"Ferrari of Fort Lauderdale／duPont REGISTRY",
     "Shmee150 / duPont REGISTRY":"Shmee150／duPont REGISTRY",
     "Shmee150 original collection video":"Shmee150 原始收藏视频",
-    "Protective Film Solutions / XPEL / duPont REGISTRY":"Protective Film Solutions／XPEL／duPont REGISTRY"
+    "Protective Film Solutions / XPEL / duPont REGISTRY":"Protective Film Solutions／XPEL／duPont REGISTRY",
+    "Automotive Masterpieces — chassis dossier":"Automotive Masterpieces — 底盘档案",
+    "Automotive Masterpieces — car history":"Automotive Masterpieces — 车辆历史",
+    "Automotive Masterpieces — technical specifications":"Automotive Masterpieces — 技术规格",
+    "Automotive Masterpieces — declaration AU-34679":"Automotive Masterpieces — AU-34679 声明",
+    "Bernards Exclusives":"Bernards Exclusives",
+    "Dutch Ferrari and Lamborghini Register — VIN cross-check":"荷兰 Ferrari / Lamborghini Register — VIN 交叉核对",
+    "Hendrick Performance dealer listing":"Hendrick Performance 经销商挂牌",
+    "Made in Maranello chassis index":"Made in Maranello 底盘索引",
+    "The Collection Porsche dealer listing":"The Collection Porsche 经销商挂牌",
+    "The Collection Miami inventory — VIN cross-check":"The Collection Miami 库存 — VIN 交叉核对",
+    "AMARI Supercars":"AMARI Supercars",
+    "Car & Classic syndicated listing":"Car & Classic 转刊挂牌",
+    "Dutch Ferrari and Lamborghini Register":"荷兰 Ferrari / Lamborghini Register",
+    "duPont REGISTRY — Miller Motorcars 14-car gathering":"duPont REGISTRY — Miller Motorcars 14 车聚会"
   };
 
   const enCommon = {
@@ -225,9 +239,9 @@
       wheels:"钻石切削锻造轮毂；前 20 英寸／后 21 英寸",
       mileage:"拍卖时为交付里程",
       options:["贯穿车身的 Ferrari 字样外部涂装","亮黑色碳复合材料前分流器、侧裙与扩散器","源自 Formula 1 的棋盘格碳纤维仪表罩","黄色安全带与头枕刺绣 Cavallino 跃马","专属银色 599+1 铭牌"],
-      timeline:["2025 年 7 月 — Ferrari 公布这辆额外制造的慈善车辆。","2025 年 8 月 16 日 — 在 RM Sotheby’s Monterey 以 2,600 万美元成交。"],
+      timeline:["2025 年 7 月 — Ferrari 公布这辆额外制造的慈善车辆。","2025 年 8 月 16 日 — 在 RM Sotheby’s Monterey 以 2,600 万美元成交。","2026 年 3 月 — 作为核心车辆参加 Miller Motorcars 在 Greenwich 举办的 14 辆 Daytona SP3 聚会。"],
       notes:"这是唯一一辆由 Ferrari 官方确认、位于原始 599 辆配额之外的额外 Daytona SP3。拍卖结束后，买家身份被公开报道。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 保留拍卖核验结果，并补入 2026 年 3 月 Miller Motorcars 聚会公开记录。"
     },
     "SP3-299827":{
       title:"Rosso Deborah Tailor Made 定制车",
@@ -656,6 +670,81 @@
       notes:"仅按有照片的活动记录收录；无法确认是否与 Carrio 或其他白色车为同一实车，不计作独立已识别 VIN。",
       review_status:"2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。"
     }
+,
+    "SP3-315825-GUNSTON":{
+      title:"Team Gunston 83 号 Tailor Made",
+      edition:"Tailor Made 一次性定制规格",
+      city:"马拉内罗",
+      owner:"私人收藏",
+      exterior:"Team Gunston 橙色，哑光黑条纹与细节；83 号号码",
+      interior:"黑色 Alcantara，Super Electric Blue 蓝色座椅",
+      status:"私人收藏",
+      sale:"未公开出售",
+      program:"Ferrari Tailor Made 定制",
+      options:["Team Gunston 橙黑一次性定制涂装","车身四面均有 83 号圆形号码","致敬 1968 年 Rhodesia 赛事中的 Ferrari 330 P4 / 350 Can-Am 底盘 0858","Super Electric Blue Alcantara 座椅"],
+      timeline:["2025 年 3 月 26 日 — 在 Ferrari Atelier 及 Maranello Ferrari 工厂展示。","2025 年 8 月 8 日 — Automotive Masterpieces 发布 AU-34679 声明。","2025 年 9 月 5 日 — 研究档案记录 RINA 认证。"],
+      notes:"Automotive Masterpieces 公开完整 VIN，并将其记录为 Ferrari Tailor Made 的一次性定制规格，灵感来自 Team Gunston 的 1968 Ferrari 350 Can-Am / 330 P4 底盘 0858。该车与后来的 599+1 慈善 SP3 是不同实车。",
+      review_status:"2026-09-21 — 已复核 Automotive Masterpieces 公开页面中的完整 VIN、配置及来源历史。"
+    },
+    "SP3-319387-ROSSO-TAORMINA":{
+      title:"Rosso Taormina / Rosso FX — Bernards",
+      city:"Woerden（荷兰）",
+      mileage:"Bernards 挂牌时 135 km",
+      status:"已售 — Bernards Exclusives",
+      sale:"价格未公开",
+      program:"Ferrari Tailor Made 定制",
+      timeline:["2025 年 11 月 25 日 — 荷兰 registry 记录该车在 Bernards Exclusives 挂牌，里程 125 km。","2026 年 — Bernards 页面显示 135 km，并标记为已售。"],
+      notes:"VIN、Rosso Taormina 外观及 Rosso FX 内饰已与荷兰 Ferrari / Lamborghini Register 交叉核对。Bernards 将该车描述为 Tailor Made、1 of 599；当前页面标记为已售。",
+      photo_captions:["Bernards 图库 · 左前 3/4","Bernards 图库 · 右后 3/4","Bernards 图库 · 驾驶舱","Bernards 图库 · 座椅与四点式安全带","Bernards 图库 · 副驾驶侧座舱","Bernards 图库 · 仪表盘 / 135 km","Bernards 图库 · 仪表台控制区","Bernards 图库 · 中央控制区","Bernards 图库 · Daytona SP3 仪表台细节","Bernards 图库 · 座舱全景"],
+      review_status:"2026-09-21 — 已复核经销商页面、10 张公开图库照片及 VIN registry 交叉记录。"
+    },
+    "SP3-306496-HENDRICK":{
+      title:"底盘 306496 — Hendrick Performance",
+      city:"北卡罗来纳州 Concord",
+      status:"公开经销商挂牌",
+      sale:"请询价 — Hendrick Performance",
+      timeline:["2026 年 — Hendrick Performance 公开挂牌，并公布完整 VIN ZFF05UMA2R0306496。"],
+      notes:"Hendrick Performance 挂牌页提供完整 VIN，并将该车列为位于北卡罗来纳州 Concord 的二手 2024 Daytona SP3。Made in Maranello 的独立底盘索引列出同一 VIN 与底盘号。",
+      review_status:"2026-09-21 — 已交叉核对经销商 VIN 与独立底盘索引；详细 build specification 尚未公开。"
+    },
+    "SP3-310048-MIAMI":{
+      title:"White / Black — The Collection Miami",
+      city:"佛罗里达州迈阿密",
+      mileage:"挂牌时 164 miles",
+      status:"历史经销商挂牌",
+      sale:"询价 — The Collection Porsche",
+      timeline:["2026 年 — The Collection Porsche 公开挂牌，记录 164 miles 里程及 VIN ZFF05UMA9S0310048。"],
+      notes:"经销商挂牌公布了完整 VIN、白色外观、黑色内饰与 164 miles 里程。另一份 The Collection 库存抓取也出现相同 VIN。本站不依据历史挂牌快照推断当前仍在售。",
+      review_status:"2026-09-21 — 已复核经销商 VIN 与历史库存交叉记录；不声称当前仍在售。"
+    },
+    "SP3-AMARI-ROSSO-MAGMA":{
+      title:"Rosso Magma / Blu Elettrico — AMARI",
+      edition:"原始 599 辆客户生产序列；尚未以 VIN 建立唯一身份",
+      city:"英格兰 Preston",
+      owner:"经销商出售前为一任车主",
+      exterior:"Rosso Magma",
+      interior:"Alcantara Blu Elettrico",
+      mileage:"挂牌时 20 km",
+      status:"已售 — AMARI Supercars",
+      sale:"价格未公开",
+      timeline:["2026 年 — AMARI 将该车列为 2026 年注册、一任车主、20 km。","2026 年 8 月 13 日 — Car & Classic 转刊该经销商广告；之后广告被标记为已移除。"],
+      notes:"尽管同为 Rosso Magma / Blu Elettrico，本站仍将其与底盘 286921 分开。AMARI 记录该车 2026 年注册且仅 20 km，而 286921 于 2023 年交付，并在 2026 年拍卖编目时已有 743 km。缺少 VIN 前不进行合并。",
+      photo_captions:["AMARI 经销商图库 · Rosso Magma 外观"],
+      review_status:"2026-09-21 — 已复核经销商记录及转刊广告；没有 VIN 证据，因此明确不与底盘 286921 合并。"
+    },
+    "SP3-277497-FACTORY-DEMO":{
+      title:"Ferrari 工厂 Demo — 底盘 277497",
+      edition:"工厂 Demo；客户配额归属尚未确定",
+      city:"意大利",
+      owner:"Ferrari 工厂 Demo 车队（registry 来源报告）",
+      exterior:"Rosso Magma",
+      interior:"Blu 蓝色",
+      status:"工厂 Demo 车辆",
+      sale:"未公开出售",
+      timeline:["2022 年 — 荷兰 Ferrari / Lamborghini Register 将该车记录为意大利注册的 Ferrari 工厂 Demo。"],
+      notes:"两个公开底盘索引分别列出 VIN ZFF05UMB000277497。荷兰 registry 将其标记为 factory demo car，并说明从未有荷兰注册。由于这些来源并未确认其客户配额身份，本站不自动将其计入 599 辆客户分配。",
+      review_status:"2026-09-21 — 已在两个公开底盘索引中交叉核对 VIN；factory-demo 分类沿用 registry 来源。"
+    }
   };
 
   const enRecords = {
@@ -882,7 +971,10 @@
 
   function localCaption(value, lang) {
     if (!value) return value;
-    if (lang !== "en") return value;
+    if (lang !== "en") {
+      if (value === "Miller Motorcars 14-car gathering · 599+1 foreground") return "Miller Motorcars 14 车聚会 · 599+1 前景";
+      return value;
+    }
     if (captionEn.has(value)) return captionEn.get(value);
     let m;
     if ((m=value.match(/^拍卖原始图集 · (\d+)$/))) return `Auction gallery · ${m[1]}`;
