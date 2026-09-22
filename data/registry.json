@@ -1829,22 +1829,36 @@
     "city": "Lisbon",
     "market": "European specification",
     "owner": "Cristiano Ronaldo",
-    "exterior": "Red; exact Ferrari paint code not independently published",
+    "exterior": "Rosso Magma with black roof",
     "color": "Red",
     "interior": "Not publicly documented",
-    "wheels": "Dark forged wheels visible in public footage",
+    "wheels": "Matt Grigio Corsa five-spoke wheels",
     "calipers": "Not publicly confirmed",
     "mileage": "Not public",
     "status": "Personally owned / publicly driven",
     "sale": "Not publicly offered",
     "program": "Unknown",
-    "options": [],
+    "options": [
+      "Rosso Magma exterior",
+      "Black roof",
+      "Matt Grigio Corsa five-spoke wheels"
+    ],
     "timeline": [
       "March 2024 — Ronaldo was filmed arriving at a Lisbon hotel in the car during an international break."
     ],
-    "notes": "Ownership and the red exterior are well documented; detailed build-sheet fields remain unavailable.",
-    "photos": [],
-    "credits": [],
+    "notes": "Ownership and public driving are well documented. Znews published a close-up Lisbon gallery identifying Rosso Magma paint, a black roof and Matt Grigio Corsa five-spoke wheels. VIN, plaque number and detailed interior specification remain private.",
+    "photos": [
+      "https://photo.znews.vn/Uploaded/aobhuua/2024_04_02/Ferrari_Daytona_SP3_Ronaldo_5.jpg",
+      "https://photo.znews.vn/Uploaded/aobhuua/2024_04_02/Ferrari_Daytona_SP3_Ronaldo_3.jpg",
+      "https://photo.znews.vn/Uploaded/aobhuua/2024_04_02/Ferrari_Daytona_SP3_Ronaldo_4.jpg",
+      "https://photo.znews.vn/Uploaded/aobhuua/2024_04_02/Ferrari_Daytona_SP3_Ronaldo_2.jpg"
+    ],
+    "credits": [
+      "Znews / Supercarros / lisbon.cars",
+      "Znews / Supercarros / lisbon.cars",
+      "Znews / Supercarros / lisbon.cars",
+      "Znews / Supercarros / lisbon.cars"
+    ],
     "sources": [
       [
         "AS USA — Lisbon sighting and ownership",
@@ -1857,14 +1871,28 @@
       [
         "autoevolution — ownership report and photo source",
         "https://www.autoevolution.com/news/cristiano-ronaldo-flaunts-his-2-million-ferrari-he-s-making-money-even-in-his-sleep-231409.html"
+      ],
+      [
+        "Znews — Ronaldo close-up specification gallery",
+        "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Ownership, Lisbon sightings and close-up Rosso Magma / wheel specification rechecked; VIN remains private.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 91,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html",
+      "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html",
+      "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html",
+      "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html"
+    ],
+    "photo_captions": [
+      "Lisbon close-up gallery · front three-quarter",
+      "Lisbon close-up gallery · rear three-quarter",
+      "Lisbon close-up gallery · front view",
+      "Lisbon close-up gallery · rear grille detail"
+    ]
   },
   {
     "id": "SP3-ZLATAN-IBRAHIMOVIC",
