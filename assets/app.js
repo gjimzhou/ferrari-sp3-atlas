@@ -55,12 +55,23 @@ function art(r){const src=safeURL(r.photos?.[0],true);const placeholder=`<div cl
 function bindImages(parent){parent.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.parentElement.classList.add('broken');},{once:true}));}
 function selectOptions(id,values,label){const old=$(id).value;$(id).innerHTML=`<option value="">${label}</option>`+values.map(([v,n])=>`<option value="${esc(v)}">${esc(n)}</option>`).join('');$(id).value=values.some(x=>x[0]===old)?old:'';}
 function setup(){
- $('profileKpi').textContent=records.filter(r=>r.record_kind==='profile').length;
+ const profiles=records.filter(r=>r.record_kind==='profile').length;
+ const leads=records.filter(r=>r.record_kind==='lead').length;
+ const prototypes=records.filter(r=>r.record_kind==='prototype').length;
+ const confirmedVins=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&!r.vin_conflicted).length;
+ const conflictedVins=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&r.vin_conflicted).length;
+ const photoCount=records.reduce((n,r)=>n+(r.photos?.length||0),0);
+ const photoRecords=records.filter(r=>r.photos?.length).length;
+ const en=document.documentElement.lang==='en';
+ $('profileKpi').textContent=profiles;
  $('sourceKpi').textContent=sourceIndex.length;
- $('vinKpi').textContent=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&!r.vin_conflicted).length;
+ $('vinKpi').textContent=confirmedVins;
  $('ownerKpi').textContent=records.filter(r=>r.owner_public).length;
- $('photoKpi').textContent=records.reduce((n,r)=>n+(r.photos?.length||0),0);
- $('photoKpiLabel').textContent=`图库图片引用 · ${records.filter(r=>r.photos?.length).length} 条记录有图`;
+ $('photoKpi').textContent=photoCount;
+ $('photoKpiLabel').textContent=en?`Gallery image references · ${photoRecords} records with images`:`图库图片引用 · ${photoRecords} 条记录有图`;
+ if($('coverageSummary')) $('coverageSummary').textContent=en
+  ?`Version: 2026-09-22. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
+  :`版本：2026-09-22。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
  $('storageStatus').textContent=storageNotice;
  for(const [id,key,label] of [['country','country','全部国家'],['color','color','全部颜色']])selectOptions(id,[...new Set(records.map(r=>r[key]).filter(v=>!absent(v)))].sort().map(x=>[x,window.SP3Content?.text(x)??x]),label);
  selectOptions('tier',Object.entries(tierNames),'全部证据来源');
@@ -116,7 +127,7 @@ function gallery(){
  $('gallery').querySelectorAll('[data-image]').forEach(b=>b.onclick=()=>navigate(+b.dataset.image));
  let touchStart=null;$('gallery').querySelector('.gallery-main').ontouchstart=e=>{touchStart=e.changedTouches[0].clientX;};$('gallery').querySelector('.gallery-main').ontouchend=e=>{if(touchStart===null)return;const dx=e.changedTouches[0].clientX-touchStart;if(Math.abs(dx)>50)navigate((gidx+(dx<0?1:-1)+photos.length)%photos.length);touchStart=null;};
 }
-function detail(){const r=current,fields=[['年份','year'],['VIN','vin'],['底盘','chassis'],['生产归类','edition'],['公开国家','country'],['公开地点','city'],['市场规格','market'],['公开车主／收藏','owner'],['外观','exterior'],['内饰','interior'],['轮毂','wheels'],['卡钳','calipers'],['里程（来源时点）','mileage'],['状态（来源时点）','status'],['价格／结果','sale'],['定制项目','program']],options=local(r,'options')||[],timeline=local(r,'timeline')||[];$('detail').innerHTML=`<div class="dhead"><div><h2>${esc(local(r,'title'))}</h2><div class="sub">${esc(tierNames[r.tier])} · ${kindNames[r.record_kind]}</div></div></div><div class="notice">${esc(local(r,'review_status')||'导入资料；未独立核验')}<br>无 VIN 的档案可能与其他来源重复。公开地点不代表当前车主居住地。</div><div class="dgrid">${fields.map(([k,key])=>`<div><label>${k}</label><span>${esc(key==='year'?display(r.year):displayField(r,key))}</span></div>`).join('')}</div><div class="dcols"><div><h3>配置与选装</h3><ul class="clean">${options.length?options.map(x=>`<li>${esc(x)}</li>`).join(''):'<li>尚无公开配置明细。</li>'}</ul></div><div><h3>公开时间线</h3><div class="timeline">${timeline.length?timeline.map(x=>`<p>${esc(x)}</p>`).join(''):'<p>尚无可核验时间线。</p>'}</div></div></div><h3>研究备注</h3><p class="clean">${esc(local(r,'notes')||'暂无补充备注。')}</p><h3>逐车来源</h3><div class="links">${r.sources.map(([label,url])=>`<a href="${esc(safeURL(url))}" target="_blank" rel="noopener noreferrer">${esc(window.SP3Content?.text(label)??label)} ↗</a>`).join('')}</div><p><button class="btn" id="copyLink">复制此车链接</button></p>`;$('copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('链接已复制');}catch{toast('请复制浏览器地址栏中的链接');}};}
+function detail(){const r=current,fields=[['年份','year'],['VIN','vin'],['底盘','chassis'],['生产归类','edition'],['公开国家','country'],['公开地点','city'],['市场规格','market'],['公开车主／收藏','owner'],['外观','exterior'],['内饰','interior'],['轮毂','wheels'],['卡钳','calipers'],['里程（来源时点）','mileage'],['状态（来源时点）','status'],['价格／结果','sale'],['定制项目','program']],options=local(r,'options')||[],timeline=local(r,'timeline')||[];$('detail').innerHTML=`<div class="dhead"><div><h2>${esc(local(r,'title'))}</h2><div class="sub">${esc(tierNames[r.tier])} · ${kindNames[r.record_kind]}</div></div></div><div class="notice">${esc(local(r,'review_status')||(document.documentElement.lang==='en'?'Research record':'研究记录'))}</div><div class="dgrid">${fields.map(([k,key])=>`<div><label>${k}</label><span>${esc(key==='year'?display(r.year):displayField(r,key))}</span></div>`).join('')}</div><div class="dcols"><div><h3>配置与选装</h3><ul class="clean">${options.length?options.map(x=>`<li>${esc(x)}</li>`).join(''):'<li>尚无公开配置明细。</li>'}</ul></div><div><h3>公开时间线</h3><div class="timeline">${timeline.length?timeline.map(x=>`<p>${esc(x)}</p>`).join(''):'<p>尚无可核验时间线。</p>'}</div></div></div><h3>研究备注</h3><p class="clean">${esc(local(r,'notes')||'暂无补充备注。')}</p><h3>逐车来源</h3><div class="links">${r.sources.map(([label,url])=>`<a href="${esc(safeURL(url))}" target="_blank" rel="noopener noreferrer">${esc(window.SP3Content?.text(label)??label)} ↗</a>`).join('')}</div><p><button class="btn" id="copyLink">复制此车链接</button></p>`;$('copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('链接已复制');}catch{toast('请复制浏览器地址栏中的链接');}};}
 function closeModal(){if(!$('modal').classList.contains('open'))return;$('modal').classList.remove('open');document.body.style.overflow='';history.replaceState(null,'','#'+(document.querySelector('.view.active')?.id||'registry'));returnFocus?.focus();}
 function download(name,text,type){const a=document.createElement('a'),url=URL.createObjectURL(new Blob([text],{type}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 $('jsonBtn').onclick=()=>download('sp3-registry.json',JSON.stringify(records,null,2),'application/json');

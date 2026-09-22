@@ -32,6 +32,23 @@ for r in registry:
    confirmed_vins.append(r['vin'])
  if r['record_kind']=='prototype':assert 'Original 599' not in r['edition']
 assert len(vins)==len(set(vins)),'Duplicate VIN'
+profile_count=sum(r['record_kind']=='profile' for r in registry)
+lead_count=sum(r['record_kind']=='lead' for r in registry)
+prototype_count=sum(r['record_kind']=='prototype' for r in registry)
+photo_count=sum(len(r.get('photos',[])) for r in registry)
+photo_records=sum(bool(r.get('photos')) for r in registry)
+readme=(ROOT/'README.md').read_text()
+assert f'**{len(registry)} 条有来源的研究记录**' in readme,'README total record count is stale'
+assert f'{profile_count} 个详细车档、{lead_count} 条待核对线索、{prototype_count} 辆预生产／研发车' in readme,'README record-kind counts are stale'
+assert f'**{photo_count} 条图库图片引用，覆盖 {photo_records} 条记录**' in readme,'README photo counts are stale'
+assert f'**{len(confirmed_vins)} 个已确认完整公开 VIN + {len(conflicted_vins)} 条来源冲突 VIN lead**' in readme,'README VIN counts are stale'
+index_html=(ROOT/'index.html').read_text()
+app_js=(ROOT/'assets/app.js').read_text()
+ui_i18n=(ROOT/'assets/i18n.js').read_text()
+assert '<p id="coverageSummary"></p>' in index_html,'Methods coverage summary must be runtime-generated'
+legacy_surface=index_html+'\n'+app_js+'\n'+ui_i18n
+for phrase in ('无 VIN 的档案可能与其他来源重复','公开地点不代表当前车主居住地','没有 VIN 的车档仍可能与索引重复','Profiles without a VIN may duplicate other sources','A public location does not represent the current owner’s residence'):
+ assert phrase not in legacy_surface,('Legacy disclaimer returned',phrase)
 for r in index:
  assert r['source_url']=='https://exclusivecarregistry.com/details/ferrari/daytona-sp3/'+r['id'].removeprefix('ECR-')
  assert r['thumbnail'].startswith('https://exclusivecarregistry.com/')
