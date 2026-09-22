@@ -1,6 +1,8 @@
 # Ferrari Daytona SP3 公开资料库（SP3 Atlas）
 
-[打开网站](https://gjimzhou.github.io/ferrari-sp3-atlas/)
+[中文网站](https://gjimzhou.github.io/ferrari-sp3-atlas/?lang=zh) · [English site](https://gjimzhou.github.io/ferrari-sp3-atlas/?lang=en)
+
+网站支持中文／English 即时切换，并记住本地语言偏好。双语内容采用独立展示层：`data/registry.json` 继续保存 canonical research data，翻译不会改写原始研究字段、来源措辞或证据。
 
 本站整理 Daytona SP3 的公开配置、具名车主／收藏关系、拍卖结果与来源档案。不是 Ferrari 官方名册，也不宣称掌握完整 599 辆客户车的 VIN 台账。
 
@@ -23,6 +25,8 @@
 | `data/registry.json` | 可编辑的逐车研究数据 |
 | `data/source-index.json` | ECR 公开来源索引快照 |
 | `assets/app.js` / `assets/style.css` | 搜索、图库、导入导出与页面样式 |
+| `assets/i18n.js` | UI 文案、语言状态、可分享的 `?lang=` 链接 |
+| `assets/content-i18n.js` | 逐车研究字段的展示层双语翻译；不改写 canonical JSON |
 | `assets/data.js` | 构建生成的静态数据包，不手动编辑 |
 | `assets/photos/` | 历史版本继承的图片；版权归原权利人 |
 | `scripts/build.py` | 数据完整性验证与静态数据包生成 |
@@ -50,7 +54,7 @@ python3 -m http.server 8000
 5. 不以网页完成度或编辑排序权重作为事实正确概率。
 6. 不收集非公开车主身份、住宅地址、联系方式或私人行踪。
 
-导入 JSON 按 ID 合并，经过结构和 URL 验证后才写入浏览器。新版内置记录会持续载入，本地覆盖项优先；旧版 `sp3Atlas` 原件保留。导出包含来源和照片引用，CSV 会对公式前缀作转义。
+导入 JSON 按 ID 合并，经过结构和 URL 验证后才写入浏览器。新版内置记录会持续载入，本地覆盖项优先；旧版 `sp3Atlas` 原件保留。导出包含来源和照片引用，CSV 会对公式前缀作转义。搜索同时覆盖 canonical 原文和当前语言的展示译文。
 
 ## 图片（Images）
 
