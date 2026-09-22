@@ -1897,8 +1897,12 @@
       "September 2023 — Posted the car again on social media."
     ],
     "notes": "This matte-white car should not be confused with Gordon Ramsay's Bianco Cervino No. 25 car.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://spots.ag/2023/04/20/ferrari-daytona-sp3-c386320042023111651_1.jpg?1681982253="
+    ],
+    "credits": [
+      "Matte spots / Autogespot"
+    ],
     "sources": [
       [
         "Autoevolution — Ibrahimović and white SP3",
@@ -1907,14 +1911,22 @@
       [
         "Autogespot — Milan sighting",
         "https://www.autogespot.com/zlatan-ibrahimovic-shows-his-brand-new-ferrari-daytona-sp3-in-milan"
+      ],
+      [
+        "Autogespot original Milan spot — Matte spots",
+        "https://www.autogespot.com/ferrari-daytona-sp3/2023/04/20"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Original April 2023 Milan spot and public ownership reporting rechecked.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 91,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://www.autogespot.com/ferrari-daytona-sp3/2023/04/20"
+    ],
+    "photo_captions": [
+      "Milan street sighting · Zlatan Ibrahimović in the freshly delivered matte-white SP3"
+    ]
   },
   {
     "id": "SP3-PER-GESSLE",
@@ -1946,8 +1958,12 @@
       "2023–2026 — Displayed at Hotel Tylösand."
     ],
     "notes": "Publicly linked to Gessle's collection; VIN and exact factory paint codes remain private.",
-    "photos": [],
-    "credits": [],
+    "photos": [
+      "https://pbs.twimg.com/media/FujdjaKX0AAAc28.jpg"
+    ],
+    "credits": [
+      "Per Gessle / @PartyPleaser"
+    ],
     "sources": [
       [
         "Per Gessle public announcement",
@@ -1960,14 +1976,22 @@
       [
         "Hotel Tylösand collection description",
         "https://www.tylosand.se/ferrari-exhibition/history-cars-technology"
+      ],
+      [
+        "Per Gessle / @PartyPleaser — Joyride arrival photo",
+        "https://x.com/PartyPleaser/status/1650812875638751234"
       ]
     ],
-    "review_status": "Historical v3; not rechecked in this update",
+    "review_status": "2026-09-21 — Owner/collection relationship and owner-posted Joyride arrival image rechecked.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 90,
-    "photo_sources": [],
-    "photo_captions": []
+    "photo_sources": [
+      "https://x.com/PartyPleaser/status/1650812875638751234"
+    ],
+    "photo_captions": [
+      "Joyride Collection arrival · Per Gessle inspecting the Daytona SP3"
+    ]
   },
   {
     "id": "SP3-DUTCH-SOC-BABY-BLUE",
