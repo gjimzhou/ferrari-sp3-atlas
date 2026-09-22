@@ -7029,5 +7029,58 @@
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-283997-SVEN-OLOF",
+    "title": "Sven-Olof Johansson — Blue — chassis 283997",
+    "tier": "chassis",
+    "year": 2022,
+    "vin": "ZFF05UMB000283997",
+    "chassis": "283997",
+    "edition": "Original 599 production",
+    "country": "Sweden",
+    "city": "Stockholm, Sweden",
+    "market": "Swedish-registered European specification",
+    "owner": "Sven-Olof Johansson",
+    "exterior": "Blue; exact Ferrari factory paint code not independently confirmed",
+    "color": "Blue",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Swedish-registered private collection car",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "11 January 2023 — Swedish vehicle data records first registration for Daytona SP3 plate OWH06S.",
+      "15 April 2023 — Swedish public vehicle data records the latest ownership change to Sven-Olof Johansson.",
+      "21 April 2023 — Carup reported Johansson had received a blue Daytona SP3.",
+      "27 October 2023 — Swedish vehicle record shows the car entered traffic in Sweden."
+    ],
+    "notes": "Merinfo's public vehicle page identifies plate OWH06S as a blue 2022 Ferrari Daytona SP3 with full VIN ZFF05UMB000283997 and publicly names Sven-Olof Johansson as the registered owner. Its owner vehicle list independently shows the same blue Daytona SP3 under Johansson. Carup separately reported that Fastpartner principal Sven-Olof Johansson had received a blue Daytona SP3. The article uses the colour wording “Blu Puzzi”; because that spelling is not independently validated as a Ferrari paint code, the Atlas records only blue and does not silently normalize it to Blu Pozzi.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Merinfo — Sven-Olof Johansson vehicle list",
+        "https://www.merinfo.se/person/Stockholm/Sven-Olof-Johansson-1945/bkwf7-yd8s/fordon"
+      ],
+      [
+        "Merinfo — Swedish vehicle record OWH06S",
+        "https://www.merinfo.se/fordon/7peJyVDXyve6gMEv0KXQ"
+      ],
+      [
+        "Carup — Swedish Daytona SP3 owners",
+        "https://carup.se/svenska-miljardarer-fick-kopa-likadan-ferrari-som-zlatan-och-gessle/"
+      ]
+    ],
+    "review_status": "2026-09-21 — Registered owner, plate OWH06S, blue exterior, 2022 model year and full VIN ZFF05UMB000283997 cross-checked against current Swedish public vehicle records and contemporary ownership reporting.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 98,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-21"
   }
 ]

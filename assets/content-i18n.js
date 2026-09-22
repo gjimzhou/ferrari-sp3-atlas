@@ -178,6 +178,8 @@
     "Fordonskollen — Swedish vehicle identity record":"Fordonskollen — 瑞典车辆身份记录",
     "Carup — Swedish Daytona SP3 owners":"Carup — 瑞典 Daytona SP3 车主报道",
     "Merinfo — Nessim Classics vehicle list":"Merinfo — Nessim Classics 公开车辆清单",
+    "Merinfo — Sven-Olof Johansson vehicle list":"Merinfo — Sven-Olof Johansson 公开车辆清单",
+    "Merinfo — Swedish vehicle record OWH06S":"Merinfo — 瑞典车辆记录 OWH06S",
     "TIC — Nessim Classics vehicle/VIN table":"TIC — Nessim Classics 车辆 / VIN 表",
     "Biluppgifter — Swedish vehicle record MJW01F":"Biluppgifter — 瑞典车辆记录 MJW01F",
     "Exclusive Car Registry — Nessim Classics collection":"Exclusive Car Registry — Nessim Classics 收藏页面",
@@ -508,6 +510,22 @@
       timeline:["2022 年 12 月 — 瑞典车辆数据记录车辆制造。","2023 年 3 月 6 日 — 瑞典车辆记录显示首次注册／型式核验，并记录 0 km。","2023 年 4 月 4 日 — 瑞典公开车辆数据记录 Nessim Classics Aktiebolag 为登记车主。","2023 年 4 月 17 日 — 车辆在瑞典进入道路使用状态。","2023 年 4 月 21 日 — Carup 报道 Nessim Classics 已收到一辆亮黄色 Daytona SP3。"],
       notes:"当前公开公司车辆记录将黄色 Daytona SP3、车牌 MJW01F 列在 Nessim Classics Aktiebolag 名下。公开的瑞典公司车辆 / VIN 表进一步发布完整 VIN ZFF05UMB000287827。Biluppgifter 独立记录 MJW01F 为黄色 2022 Daytona SP3，ECR 的公开收藏页面也列出 Nessim Classics 收藏中的 Daytona SP3；Carup 则明确把该收藏与黄色瑞典 SP3 联系起来。本站将公司记录为车辆 owner，不把公司股东个人替代为登记车主。",
       review_status:"2026-09-21 — 已交叉核验公司持有关系、车牌 MJW01F、黄色外观、2022 model year 与完整 VIN ZFF05UMB000287827。"
+    },
+    "SP3-283997-SVEN-OLOF":{
+      title:"Sven-Olof Johansson — 蓝色 — 底盘 283997",
+      edition:"原始 599 辆量产序列",
+      country:"瑞典",
+      city:"瑞典 Stockholm",
+      market:"瑞典注册欧洲规格",
+      owner:"Sven-Olof Johansson",
+      exterior:"蓝色；精确 Ferrari 工厂漆号尚未独立确认",
+      interior:"未公开确认",
+      wheels:"未公开确认",
+      status:"瑞典注册私人收藏车辆",
+      program:"未公开",
+      timeline:["2023 年 1 月 11 日 — 瑞典车辆数据记录 Daytona SP3 车牌 OWH06S 首次注册。","2023 年 4 月 15 日 — 瑞典公开车辆数据记录最新车主变更为 Sven-Olof Johansson。","2023 年 4 月 21 日 — Carup 报道 Johansson 已收到一辆蓝色 Daytona SP3。","2023 年 10 月 27 日 — 瑞典车辆记录显示该车进入道路使用状态。"],
+      notes:"Merinfo 的公开车辆页面将车牌 OWH06S 识别为蓝色 2022 Ferrari Daytona SP3，公开完整 VIN ZFF05UMB000283997，并直接列 Sven-Olof Johansson 为登记车主。其个人公开车辆清单也独立列出同一辆蓝色 Daytona SP3。Carup 另行报道 Fastpartner 主要股东 Sven-Olof Johansson 收到一辆蓝色 Daytona SP3。报道中的颜色写法为“Blu Puzzi”；由于该拼写未被独立验证为 Ferrari 官方漆号，本站只记录为蓝色，不擅自改写成 Blu Pozzi。",
+      review_status:"2026-09-21 — 已以当前瑞典公开车辆记录及同期车主报道交叉核验登记车主、车牌 OWH06S、蓝色外观、2022 model year 与完整 VIN ZFF05UMB000283997。"
     },
     "SP3-DUTCH-SOC-BABY-BLUE":{
       title:"Baby Blue — Supercar Owners Circle",
