@@ -342,6 +342,34 @@ body{
   .race .credlabel{min-width:44px;font-size:7px!important}
 }
 
+
+/* Micro-interaction + mobile finish pass */
+.race:before{transition:opacity .2s ease,filter .2s ease,transform .28s ease!important}
+.race:hover:before{transform:scale(1.045)!important}
+.race.active:before{transform:scale(1.03)!important}
+.selectmark{transition:background .15s ease,color .15s ease,border-color .15s ease,transform .15s ease}
+.race.active .selectmark{transform:rotate(-3deg) scale(1.06)}
+.lang-toggle button{transition:background .15s ease,color .15s ease}
+.identity-ribbon{position:relative}
+.identity-ribbon:after{
+  content:"";position:absolute;left:0;right:0;bottom:-4px;height:1px;
+  background:linear-gradient(90deg,transparent,#ffd21e 30%,#ffd21e 70%,transparent);opacity:.7
+}
+@media(max-width:820px){
+  .lab-summary{position:sticky!important;top:0!important;z-index:20!important;padding:9px 12px!important}
+  .lab-summary .scoreline{font-size:11px!important}
+  .lab-scoregrid{margin-top:6px!important}
+  .lab-scoregrid .metric{padding:7px 6px!important}
+  .lab-scoregrid .metric .v{font-size:21px!important}
+  .lab-summary .status{padding:9px 10px!important;font-size:12px!important}
+  .lab-summary .chartwrap{display:none}
+}
+@media(max-width:430px){
+  .identity-name{font-size:11px}
+  .identity-no{width:30px;height:27px;font-size:18px}
+  .race{min-height:170px!important}
+}
+
 </style>
 </head>
 <body>
@@ -452,6 +480,12 @@ const staticEN={
 '.hero .scoregrid .metric:nth-child(3) .k':'Net championship swing required',
 '.lab-races h2':'20 selectable race weekends',
 '.lab-races p.lead':'Click an entire card to turn that counterfactual on or off. Bahrain and Australia were already essentially maximized. Sprint points are folded into Imola, Austria and São Paulo.',
+'.legend .pill:nth-child(1)':'⚙️ reliability',
+'.legend .pill:nth-child(2)':'🧠 strategy',
+'.legend .pill:nth-child(3)':'🎯 driver error',
+'.legend .pill:nth-child(4)':'⚔️ racecraft',
+'.legend .pill:nth-child(5)':'🤝 team order',
+'.legend .pill:nth-child(6)':'⚡ sprint weekend',
 '.maxed-note':'<strong>Already maximized:</strong> 🇧🇭 Bahrain P1 · 🇦🇺 Australia P1 — already included in Leclerc’s actual 308-point baseline.',
 '#silverstoneExplainer h2':'Why Silverstone belongs near the very top',
 '#silverstoneExplainer > p.lead':'This was not a case of “Leclerc suddenly needs more pace.” He was already leading. Under the Safety Car Ferrari left him on old hards while Sainz, Pérez and Hamilton switched to fresh softs.',
@@ -527,8 +561,8 @@ function renderList(){
   card.type='button';
   card.className='race'+(selected.has(r.r)?' active':'')+(r.locked?' locked':'');
   card.disabled=!!r.locked;
-  card.setAttribute('aria-pressed',selected.has(r.r)?'true':'false');
-  const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const aggressive=r.key&&document.getElementById(r.key)&&document.getElementById(r.key).value==='p1'; const rt=(lang==='en'&&e&&!aggressive)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")'); card.style.setProperty('--race-pos',raceImagePos[r.r]||'50% 42%');
+  card.setAttribute('aria-pressed',selected.has(r.r)?'true':'false'); card.dataset.round=String(r.r);
+  const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const aggressive=r.key&&document.getElementById(r.key)&&document.getElementById(r.key).value==='p1'; const rt=(lang==='en'&&e&&!aggressive)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")'); card.style.setProperty('--race-pos',raceImagePos[r.r]||'50% 42%'); card.title=rnote; card.setAttribute('aria-label',r.f+' '+rn+'. '+(lang==='en'?'Actual ':'现实 ')+ra+'. '+rt+'. '+(lang==='en'?'Net swing ':'净 swing ')+(r.swing>0?'+':'')+r.swing);
   card.innerHTML='<span class="selectmark">'+(r.locked?'—':selected.has(r.r)?'✓':'')+'</span>'
    +'<div class="rankline"><span class="rank">'+rank+'</span><span class="title">'+r.f+' '+rn+'</span></div>'
    +'<div class="cred"><small class="credlabel">'+(lang==='en'?'PLAUSIBILITY':'可信度')+'</small><div class="credbar"><i style="width:'+r.score+'%"></i></div><small>'+r.score+'</small></div>'
