@@ -102,3 +102,11 @@
 - Made in Maranello chassis-index lead：288783、291272、292660、310023、317185；其中 292660 另有 AutoRef 公开 VIN 搜索记录交叉支持。
 - 277498 / 277499 与 277497 一样被 registry 标记为 factory demo，但没有与 277497 同等级的第二来源，因此保持 lead。
 - 这 12 条均为 `record_kind: lead`，不会进入默认“详细车档”视图；完整 VIN 的公开性与车档完整度分开表达。
+
+
+## 2026-09-22 · Cross-model source-conflict quarantine
+
+- **VIN ZFF05UMB000317185 / serial 317185** is currently listed by Made in Maranello on both its Daytona SP3 chassis index and its 296 Speciale chassis index.
+- Because both claims originate from the same publisher and directly contradict one another at model level, neither listing is treated as independent corroboration of the other.
+- The Atlas retains the record only as a quarantined `record_kind: lead`, lowers its research priority, and does not upgrade it to a detailed Daytona SP3 profile without a second per-car source.
+- New rule: a VIN/chassis entry that is internally cross-listed by one publisher under incompatible models must be treated as source contamination until resolved by an independent source; repeated pages or language variants from the same publisher do not count as separate confirmation.

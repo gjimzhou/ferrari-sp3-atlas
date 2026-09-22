@@ -168,6 +168,8 @@
     "Dutch Ferrari and Lamborghini Register — VIN cross-check":"荷兰 Ferrari / Lamborghini Register — VIN 交叉核对",
     "Hendrick Performance — dealer listing":"Hendrick Performance — 经销商挂牌",
     "Made in Maranello — chassis index":"Made in Maranello — 底盘索引",
+    "Made in Maranello — Daytona SP3 chassis index":"Made in Maranello — Daytona SP3 底盘索引",
+    "Made in Maranello — conflicting 296 Speciale index":"Made in Maranello — 冲突的 296 Speciale 底盘索引",
     "The Collection Porsche — dealer listing":"The Collection Porsche — 经销商挂牌",
     "AMARI Supercars — dealer listing":"AMARI Supercars — 经销商挂牌",
     "Car & Classic — syndicated dealer listing":"Car & Classic — 经销商挂牌转载",
@@ -995,10 +997,13 @@
       notes:"完整 VIN 出现在 Made in Maranello 的公开底盘索引中。本轮未找到第二逐车来源或公开 build specification，因此保留为 lead。"
     },
     "SP3-317185-VIN-LEAD":{
-      title:"底盘 317185 — 公开 VIN 线索",
+      title:"底盘 317185 — 来源冲突 VIN 线索",
+      edition:"第三方底盘索引存在跨车型冲突；Daytona SP3 身份尚未独立确认",
       owner:"未公开",
-      timeline:["2026-09-21 — Made in Maranello 公开底盘索引列出 serial 317185 与 VIN ZFF05UMB000317185。"],
-      notes:"Made in Maranello 公开完整 VIN 与 2025 年份。本轮未找到独立逐车配置或车主来源，因此保留为 chassis lead。"
+      status:"隔离的 source-conflict 线索",
+      timeline:["2026-09-21 — Made in Maranello 的 Daytona SP3 页面将 serial 317185 / VIN ZFF05UMB000317185 列为 2025 Daytona SP3。","2026-09-22 — 发现同一发布方的 296 Speciale 页面又将完全相同的 serial 与 VIN 列为 2025 296 Speciale。"],
+      notes:"Made in Maranello 目前把完全相同的 VIN ZFF05UMB000317185 同时分配到 Daytona SP3 与 296 Speciale 两个车型索引。这种同一来源内部的跨车型矛盾意味着该来源不能继续作为车辆身份的可靠独立确认。本轮未找到第二个逐车来源，因此 Atlas 只把该 VIN 保留为隔离研究线索，不将其视为已确认 Daytona SP3。",
+      review_status:"2026-09-22 — 发现来源冲突：同一发布方将 VIN ZFF05UMB000317185 同时归入 Daytona SP3 与 296 Speciale。取得独立逐车确认前维持隔离状态。"
     },
     "SP3-MP3-MULOTYPE":{
       title:"MP3 Mulotype — Daytona SP3 开发车",

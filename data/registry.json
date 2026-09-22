@@ -5806,12 +5806,12 @@
   },
   {
     "id": "SP3-317185-VIN-LEAD",
-    "title": "Chassis 317185 — public VIN lead",
+    "title": "Chassis 317185 — source-conflicted VIN lead",
     "tier": "registry",
     "year": 2025,
     "vin": "ZFF05UMB000317185",
     "chassis": "317185",
-    "edition": "Public VIN lead; allocation status not independently verified",
+    "edition": "Conflicting third-party chassis-index lead; Daytona SP3 identity not independently verified",
     "country": "Unknown",
     "city": "Unknown",
     "market": "Unknown",
@@ -5822,29 +5822,34 @@
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "Unknown",
-    "status": "Public registry VIN lead",
+    "status": "Quarantined source-conflict lead",
     "sale": "Unknown",
     "program": "Unknown",
     "options": [],
     "timeline": [
-      "2026-09-21 — Made in Maranello public chassis index lists serial 317185 and VIN ZFF05UMB000317185."
+      "2026-09-21 — Made in Maranello's Daytona SP3 page lists serial 317185 and VIN ZFF05UMB000317185 as a 2025 Daytona SP3.",
+      "2026-09-22 — The same publisher's 296 Speciale page was found to list the identical serial and VIN as a 2025 296 Speciale."
     ],
-    "notes": "Made in Maranello publicly indexes the complete VIN and 2025 year. No independent per-car configuration or ownership source was found in this pass, so the entry remains a chassis lead.",
+    "notes": "Made in Maranello currently assigns the identical VIN ZFF05UMB000317185 to both its Daytona SP3 and 296 Speciale model indexes. That internal cross-model contradiction means the publisher cannot serve as independent confirmation of the vehicle identity. No second per-car source was located in this audit, so the Atlas retains the VIN only as a quarantined research lead and does not treat it as a confirmed Daytona SP3.",
     "photos": [],
     "credits": [],
     "sources": [
       [
-        "Made in Maranello — chassis index",
+        "Made in Maranello — Daytona SP3 chassis index",
         "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
+      ],
+      [
+        "Made in Maranello — conflicting 296 Speciale index",
+        "https://made-in-maranello.fr/es/modelo/ferrari-296-speciale"
       ]
     ],
-    "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
+    "review_status": "2026-09-22 — Source conflict discovered: the same publisher assigns VIN ZFF05UMB000317185 to both Daytona SP3 and 296 Speciale. Quarantined pending independent per-car confirmation.",
     "record_kind": "lead",
     "owner_public": false,
-    "sort_weight": 70,
+    "sort_weight": 40,
     "photo_sources": [],
     "photo_captions": [],
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-22"
   },
   {
     "id": "SP3-STEVEN-VICTOR",
