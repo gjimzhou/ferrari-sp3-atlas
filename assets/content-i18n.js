@@ -86,6 +86,9 @@
     "Ferrari — official announcement":"Ferrari — 官方公告",
     "Ferrari — auction result":"Ferrari — 拍卖结果",
     "duPont REGISTRY — public buyer identification":"duPont REGISTRY — 公开买家身份",
+    "Țiriac Collection — official vehicle page":"Țiriac Collection — 官方车辆页面",
+    "Țiriac Collection — collection announcement":"Țiriac Collection — 收藏馆新增车辆公告",
+    "Țiriac Collection — Ferrari anniversary feature":"Țiriac Collection — Ferrari 50 年专题",
     "RM Sotheby's — Monterey 2026 catalogue":"RM Sotheby’s — Monterey 2026 拍卖目录",
     "Exclusive Car Registry — profile 70568 (deduplicated alias)":"Exclusive Car Registry — 档案 70568（去重别名）",
     "Broad Arrow — auction listing":"Broad Arrow — 拍卖目录",
@@ -1095,6 +1098,21 @@
   }
 
   Object.assign(zhRecords, {
+    "SP3-TIRIAC-316193":{
+      title:"Ion Țiriac / Țiriac Collection — 红色 / 米色",
+      country:"罗马尼亚",
+      city:"Otopeni，罗马尼亚",
+      owner:"Ion Țiriac / Țiriac Collection",
+      exterior:"红色金属漆；公开收藏页面未注明精确 Ferrari 漆号",
+      interior:"Crema / 浅米色内饰，搭配黑色碳纤维座舱部件",
+      wheels:"五辐锻造轮毂，钻石切削表面",
+      status:"公开展出的收藏车辆",
+      options:["Crema / 浅米色座舱","碳纤维座舱与车身下部部件","在 Țiriac Collection 公开展出"],
+      timeline:["2025 年 4 月 17 日 — Țiriac Collection 宣布 Daytona SP3 成为收藏馆最新入藏车辆。","2025 年 4 月 18–19 日 — 该车在 Țiriac Collection 首次向公众展出。","2025 年 5 月 16 日 — SP3 成为收藏馆 Ferrari 50 年主题展的重点车辆；Ion Țiriac 称其为自己最新购入的 Ferrari。"],
+      notes:"Țiriac Collection 官方车辆页面公开完整 VIN ZFF05UMB000316193，并将其标注为 2025 Daytona SP3。收藏馆公告及后续 Ferrari 主题展专题均直接将该车与 Ion Țiriac 的私人收藏关联。公开图片可确认红色车身与浅米色座舱，但页面未公布精确工厂漆色与内饰代码。",
+      review_status:"2026-09-21 — 已交叉核验收藏馆官方车辆页面、VIN、收藏关系与公开图库。",
+      photo_captions:["Ion Țiriac 与 Daytona SP3 · Țiriac Collection"]
+    },
     "SP3-STEVEN-VICTOR":{
       title:"Steven Victor — 银色 / 蓝色",
       city:"美国 — 公开收藏专题",
