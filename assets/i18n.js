@@ -6,6 +6,8 @@
 
   const exact = new Map(Object.entries({
     'Ferrari Daytona SP3 · 独立公开资料库': 'Ferrari Daytona SP3 · Independent Public Registry',
+    '599 + 1 为量产基准；ECR 索引与本站车档可能重叠，未建立唯一身份前不相加。': '599 + 1 is the production baseline; ECR index entries may overlap with Atlas profiles and are not added until a unique identity match is established.',
+    'Canonical 数据直接由 GitHub 中的 data/registry.json 与 data/source-index.json 驱动；页面不再提供浏览器本地导入或覆盖。': 'Canonical data is driven directly by data/registry.json and data/source-index.json on GitHub; browser-local imports and overrides are no longer part of the site.',
     '导出 JSON': 'Export JSON',
     '导出 CSV': 'Export CSV',
     '导入更新': 'Import update',

@@ -10,8 +10,7 @@ const display=v=>absent(v)?(document.documentElement.lang==='en'?'Not public':'�
 const local=(r,key)=>window.SP3Content?.value(r,key)??r?.[key];
 const displayField=(r,key)=>absent(r?.[key])?(document.documentElement.lang==='en'?'Not public':'未公开'):String(local(r,key));
 const safeURL=(s,photo=false)=>typeof s==='string'&&(/^https?:\/\//i.test(s)||(photo&&/^assets\/photos\/[\w.-]+\.(jpg|jpeg|png|webp)$/i.test(s)))?s:'';
-const storageKey='sp3Atlas.v4.overrides';
-let overrides=[],storageNotice='',records=[],filtered=[],page=1,indexPage=1,current=null,gidx=0,returnFocus=null;
+let records=[],filtered=[],page=1,indexPage=1,current=null,gidx=0,returnFocus=null;
 const size=24;
 function validate(input){
  if(!Array.isArray(input)||input.length>1000)throw Error('需要不超过 1,000 条的 JSON 数组');
@@ -41,14 +40,8 @@ function validate(input){
   return item;
  });
 }
-function hydrate(){
- const merged=new Map(bundled.map(r=>[r.id,clone(r)]));
- for(const r of overrides){const old=merged.get(r.id);merged.set(r.id,{...old,...r,photos:r.photos.length?r.photos:old?.photos||[],credits:r.credits.length?r.credits:old?.credits||[]});}
- records=[...merged.values()];
-}
-try{const saved=localStorage.getItem(storageKey);if(saved)overrides=validate(JSON.parse(saved));else if(localStorage.getItem('sp3Atlas'))storageNotice='检测到旧版浏览器数据，已保留原件。本页使用新版资料；如需恢复旧版自定义内容，请先在旧版导出再导入。';}catch(e){storageNotice='本地保存不可用或数据格式无效，当前显示内置资料；旧数据未被删除。';}
+function hydrate(){records=bundled.map(r=>clone(r));}
 hydrate();
-function persist(next){try{localStorage.setItem(storageKey,JSON.stringify(next));}catch(e){throw Error('浏览器无法保存，资料未更改。请检查可用空间或隐私设置。');}}
 function toast(s){$('toast').textContent=s;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2800);}
 function countryLabel(code){if(!code)return document.documentElement.lang==='en'?'Not labeled':'未标注';try{const locale=document.documentElement.lang==='en'?'en':'zh-CN';return new Intl.DisplayNames([locale],{type:'region'}).of(code)+' · '+code;}catch{return code;}}
 function art(r){const src=safeURL(r.photos?.[0],true);const placeholder=`<div class="placeholder photo-fallback" style="--swatch:${swatches[r.color]||'#343842'}"></div>`;return src?`<img loading="lazy" src="${esc(src)}" alt="${esc(r.title)}">${placeholder}`:placeholder.replace(' photo-fallback','');}
@@ -64,15 +57,12 @@ function setup(){
  const photoRecords=records.filter(r=>r.photos?.length).length;
  const en=document.documentElement.lang==='en';
  $('profileKpi').textContent=profiles;
- $('sourceKpi').textContent=sourceIndex.length;
  $('vinKpi').textContent=confirmedVins;
- $('ownerKpi').textContent=records.filter(r=>r.owner_public).length;
  $('photoKpi').textContent=photoCount;
  $('photoKpiLabel').textContent=en?`Gallery image references · ${photoRecords} records with images`:`图库图片引用 · ${photoRecords} 条记录有图`;
  if($('coverageSummary')) $('coverageSummary').textContent=en
   ?`Version: 2026-09-22. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
   :`版本：2026-09-22。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
- $('storageStatus').textContent=storageNotice;
  for(const [id,key,label] of [['country','country','全部国家'],['color','color','全部颜色']])selectOptions(id,[...new Set(records.map(r=>r[key]).filter(v=>!absent(v)))].sort().map(x=>[x,window.SP3Content?.text(x)??x]),label);
  selectOptions('tier',Object.entries(tierNames),'全部证据来源');
  selectOptions('indexCountry',[...new Set(sourceIndex.map(r=>r.country_code))].sort().map(c=>[c,countryLabel(c)]),'全部国家旗标');
@@ -129,13 +119,6 @@ function gallery(){
 }
 function detail(){const r=current,fields=[['年份','year'],['VIN','vin'],['底盘','chassis'],['生产归类','edition'],['公开国家','country'],['公开地点','city'],['市场规格','market'],['公开车主／收藏','owner'],['外观','exterior'],['内饰','interior'],['轮毂','wheels'],['卡钳','calipers'],['里程（来源时点）','mileage'],['状态（来源时点）','status'],['价格／结果','sale'],['定制项目','program']],options=local(r,'options')||[],timeline=local(r,'timeline')||[];$('detail').innerHTML=`<div class="dhead"><div><h2>${esc(local(r,'title'))}</h2><div class="sub">${esc(tierNames[r.tier])} · ${kindNames[r.record_kind]}</div></div></div><div class="notice">${esc(local(r,'review_status')||(document.documentElement.lang==='en'?'Research record':'研究记录'))}</div><div class="dgrid">${fields.map(([k,key])=>`<div><label>${k}</label><span>${esc(key==='year'?display(r.year):displayField(r,key))}</span></div>`).join('')}</div><div class="dcols"><div><h3>配置与选装</h3><ul class="clean">${options.length?options.map(x=>`<li>${esc(x)}</li>`).join(''):'<li>尚无公开配置明细。</li>'}</ul></div><div><h3>公开时间线</h3><div class="timeline">${timeline.length?timeline.map(x=>`<p>${esc(x)}</p>`).join(''):'<p>尚无可核验时间线。</p>'}</div></div></div><h3>研究备注</h3><p class="clean">${esc(local(r,'notes')||'暂无补充备注。')}</p><h3>逐车来源</h3><div class="links">${r.sources.map(([label,url])=>`<a href="${esc(safeURL(url))}" target="_blank" rel="noopener noreferrer">${esc(window.SP3Content?.text(label)??label)} ↗</a>`).join('')}</div><p><button class="btn" id="copyLink">复制此车链接</button></p>`;$('copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('链接已复制');}catch{toast('请复制浏览器地址栏中的链接');}};}
 function closeModal(){if(!$('modal').classList.contains('open'))return;$('modal').classList.remove('open');document.body.style.overflow='';history.replaceState(null,'','#'+(document.querySelector('.view.active')?.id||'registry'));returnFocus?.focus();}
-function download(name,text,type){const a=document.createElement('a'),url=URL.createObjectURL(new Blob([text],{type}));a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-$('jsonBtn').onclick=()=>download('sp3-registry.json',JSON.stringify(records,null,2),'application/json');
-$('indexExport').onclick=()=>download('sp3-source-index.json',JSON.stringify(sourceIndex,null,2),'application/json');
-$('csvBtn').onclick=()=>{const cols=['id','title','tier','record_kind','year','vin','chassis','country','owner','exterior','interior','sale','review_status','sources'];const q=v=>'"'+String(v??'').replace(/^[=+@-]/,"'$&").replaceAll('"','""')+'"';download('sp3-registry.csv','\ufeff'+[cols.join(','),...records.map(r=>cols.map(k=>q(k==='sources'?r.sources.map(s=>s[1]).join(' | '):r[k])).join(','))].join('\r\n'),'text/csv;charset=utf-8');};
-$('importBtn').onclick=()=>$('file').click();
-$('file').onchange=async e=>{try{const f=e.target.files[0];if(!f)return;if(f.size>5000000)throw Error('JSON 文件不能超过 5 MB');let input=JSON.parse(await f.text());if(Array.isArray(input))input=input.filter(r=>r?.tier!=='unknown');const incoming=validate(input);const next=new Map(overrides.map(r=>[r.id,r]));incoming.forEach(r=>next.set(r.id,r));const draft=[...next.values()];persist(draft);overrides=draft;hydrate();page=1;setup();toast('已合并 '+incoming.length+' 条记录');}catch(err){alert('导入失败：'+err.message);}finally{e.target.value='';}};
-$('reset').onclick=()=>{if(!confirm('清除本地修改并使用最新内置资料？旧版原件仍保留。'))return;try{localStorage.removeItem(storageKey);overrides=[];hydrate();page=1;setup();toast('已恢复最新内置资料');}catch{toast('浏览器不允许修改本地存储');}};
 function clearFilters(){for(const id of ['search','country','color','tier'])$(id).value='';$('kind').value='profile';page=1;apply();}
 $('clearFilters').onclick=clearFilters;
 for(const id of ['search','country','color','tier','kind','sort'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=1;apply();});

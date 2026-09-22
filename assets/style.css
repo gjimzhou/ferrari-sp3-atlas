@@ -41,3 +41,40 @@ html[lang="en"] .placeholder:after{content:"PHOTO AT SOURCE"}
 
 .project-link{display:inline-flex;align-items:center;gap:7px;margin-top:14px;color:#cfd2d8;text-decoration:none;font-size:12px;font-weight:650;letter-spacing:.02em;border-bottom:1px solid rgba(255,255,255,.22);padding-bottom:2px;transition:.18s}.project-link span:last-child{color:var(--red);font-size:13px}.project-link:hover{color:#fff;border-color:var(--red)}
 
+
+/* 2026-09-22 homepage declutter */
+.top{padding-top:14px;padding-bottom:14px}
+.actions{gap:0}
+.brand-title{font-size:14px;letter-spacing:.2em}
+.brand-title:after{width:14px;margin-left:7px}
+.hero{padding-top:72px;padding-bottom:32px}
+.hero h1{max-width:980px;margin-bottom:18px}
+.hero .lede{max-width:790px;margin-bottom:0;color:#b9bec7;font-size:15px;line-height:1.72}
+.hero-under{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:18px}
+.hero-under .project-link{margin-top:0}
+.hero-note{color:#757c87;font-size:11px;line-height:1.5}
+.hero-rail{display:flex;align-items:flex-start;gap:0;margin-top:34px;border-top:1px solid rgba(255,255,255,.09);border-bottom:1px solid rgba(255,255,255,.09);max-width:900px}
+.hero-metric{display:flex;align-items:baseline;gap:9px;padding:16px 28px 16px 0;margin-right:28px;min-width:0}
+.hero-metric+.hero-metric{border-left:1px solid rgba(255,255,255,.09);padding-left:28px}
+.hero-metric b{font:500 25px Georgia,serif;line-height:1;color:#f3f1ec}
+.hero-metric span{color:#777f8b;font-size:9px;text-transform:uppercase;letter-spacing:.11em;line-height:1.35}
+.index-toolbar{grid-template-columns:2fr 1fr}
+@media(max-width:760px){
+  .top{padding:12px 14px}
+  .brand small{display:none}
+  .hero{padding-top:48px}
+  .hero-under{display:block}
+  .hero-note{display:block;margin-top:13px;max-width:500px}
+  .hero-rail{display:grid;grid-template-columns:repeat(3,1fr);max-width:none}
+  .hero-metric{display:block;padding:14px 10px 14px 0;margin:0}
+  .hero-metric+.hero-metric{padding-left:12px}
+  .hero-metric b{display:block;font-size:22px;margin-bottom:5px}
+  .hero-metric span{font-size:8px}
+  .index-toolbar{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+  .hero-rail{grid-template-columns:1fr}
+  .hero-metric,.hero-metric+.hero-metric{display:flex;align-items:baseline;border-left:0;border-top:1px solid rgba(255,255,255,.07);padding:12px 0}
+  .hero-metric:first-child{border-top:0}
+  .hero-metric b{display:inline;margin:0;min-width:48px}
+}
