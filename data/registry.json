@@ -5863,5 +5863,69 @@
       "Blue interior detail and V12 engine cover"
     ],
     "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-TIRIAC-316193",
+    "title": "Ion Țiriac / Țiriac Collection — Rosso / Crema",
+    "tier": "official",
+    "year": 2025,
+    "vin": "ZFF05UMB000316193",
+    "chassis": "316193",
+    "edition": "Original 599 production",
+    "country": "Romania",
+    "city": "Otopeni, Romania",
+    "market": "European specification",
+    "owner": "Ion Țiriac / Țiriac Collection",
+    "exterior": "Rosso metallic / red; exact Ferrari paint code not stated on the public collection page",
+    "color": "Red",
+    "interior": "Crema / light beige upholstery with black carbon-fibre cabin elements",
+    "wheels": "Five-spoke forged wheels with diamond-finished faces",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Publicly displayed collection car",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [
+      "Crema / light beige cabin",
+      "Carbon-fibre cockpit and lower exterior elements",
+      "Public museum display at Țiriac Collection"
+    ],
+    "timeline": [
+      "17 April 2025 — Țiriac Collection announced the Daytona SP3 as the newest addition to the collection.",
+      "18–19 April 2025 — The car was presented publicly at the Țiriac Collection gallery.",
+      "16 May 2025 — The SP3 headlined the collection's 50-years-of-Ferrari exhibition; Ion Țiriac described it as his latest Ferrari acquisition."
+    ],
+    "notes": "Țiriac Collection's own vehicle page publishes the complete VIN ZFF05UMB000316193 and identifies the car as a 2025 Daytona SP3. The collection's announcement and later Ferrari exhibition feature directly link the car to Ion Țiriac's private collection. Public imagery documents a red exterior and light beige cabin; the exact factory paint and trim codes are not stated.",
+    "photos": [
+      "https://tiriaccollection.ro/storage/app/uploads/public/b1c/3c7/256/thumb__1200_0_0_0_crop.png"
+    ],
+    "credits": [
+      "Țiriac Collection"
+    ],
+    "sources": [
+      [
+        "Țiriac Collection — official vehicle page",
+        "https://tiriaccollection.ro/en/collection/cars/ferrari-daytona-sp3"
+      ],
+      [
+        "Țiriac Collection — collection announcement",
+        "https://tiriaccollection.ro/noutati/articol/iconicul-exemplar-ferrari-daytona-sp3-devine-cel-mai-nou-exponat-al-galeriei-tiriac-collection"
+      ],
+      [
+        "Țiriac Collection — Ferrari anniversary feature",
+        "https://tiriaccollection.ro/en/news/article/peste-50-de-ani-de-istorie-ferrari-ilustrati-prin-21-de-modele-iconice-la-tiriac-collection-cadrul-unui-eveniment-care-adus-spiritul-maranello-inima-uneia-dintre-cele-mai-remarcabile-colectii-auto-private-din-lume"
+      ]
+    ],
+    "review_status": "2026-09-21 — Official collection page, VIN, ownership context and public gallery imagery cross-checked.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 99,
+    "photo_sources": [
+      "https://tiriaccollection.ro/en/news/article/peste-50-de-ani-de-istorie-ferrari-ilustrati-prin-21-de-modele-iconice-la-tiriac-collection-cadrul-unui-eveniment-care-adus-spiritul-maranello-inima-uneia-dintre-cele-mai-remarcabile-colectii-auto-private-din-lume"
+    ],
+    "photo_captions": [
+      "Ion Țiriac with the Daytona SP3 at Țiriac Collection"
+    ],
+    "accessed": "2026-09-21"
   }
 ]
