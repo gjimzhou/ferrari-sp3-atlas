@@ -170,7 +170,7 @@
     "Everyeye Auto — Del Vecchio collection profile":"Everyeye Auto — Del Vecchio 收藏档案",
     "LIKE A G — Monaco driving video":"LIKE A G — 摩纳哥公开驾驶视频",
     "Autogespot — Monaco full-black SP3 sighting":"Autogespot — 摩纳哥全黑 SP3 目击",
-    "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.":"2026-09-21 — 已复核公开 VIN／底盘来源；在取得更强逐车证据前保留为研究线索。"
+    "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.":"2026-09-21 — 已复核公开 VIN／底盘来源；在取得更强逐车证据前保留为研究线索。",
     "Exclusive Car Registry — profile 79098":"Exclusive Car Registry — 档案 79098",
     "Ferrari — Leclerc custom-car video":"Ferrari — Leclerc 定制车官方视频",
     "Ferrari Magazine — Steven Victor V12 collector profile":"Ferrari Magazine — Steven Victor V12 收藏专题",
