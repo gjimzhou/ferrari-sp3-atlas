@@ -864,7 +864,25 @@
       owner:"未公开",
       timeline:["2026-09-21 — Made in Maranello 公开底盘索引列出 serial 317185 与 VIN ZFF05UMB000317185。"],
       notes:"Made in Maranello 公开完整 VIN 与 2025 年份。本轮未找到独立逐车配置或车主来源，因此保留为 chassis lead。"
+    },
+    "SP3-MP3-MULOTYPE":{
+      title:"MP3 Mulotype — Daytona SP3 开发车",
+      owner:"未公开姓名的私人收藏家",
+      chassis:"MP3 开发编号；未公开道路车 VIN",
+      market:"工厂开发车辆",
+      exterior:"Ferrari 翻新后的哑光黑；采用改装 LaFerrari Aperta 车身",
+      interior:"开发车座舱，保留红色紧急断电控制",
+      wheels:"黑色五辐轮毂",
+      status:"由 Ferrari Special Sales 售予私人收藏家",
+      sale:"私人交易；金额未公开",
+      program:"Ferrari Special Sales／开发原型车",
+      options:["Daytona SP3 自然吸气 V12 动力总成","改装 LaFerrari Aperta 车身","带紧急断电控制的 MP3 开发中控","中央双出原型排气与 LaFerrari 四出排气同时保留"],
+      timeline:["开发阶段 — MP3 是 Daytona SP3 第二阶段 mulotype 中的第三辆，用于系统集成。","测试结束后 — Ferrari 测试部门移除黑白伪装，并以哑光黑翻新，同时保留原型车硬件。","2025 年 — Ferrari Special Sales 公开记录该车转售给一位同时拥有量产 Daytona SP3 的私人收藏家。"],
+      notes:"这是工厂开发车辆，不属于 599 辆客户车。现有公开证据不能证明 MP3 与 ECR-100373 是同一辆，因此本站暂时分列。",
+      review_status:"2026-09-21 — 已交叉核验 Ferrari 衍生资料与独立媒体；MP3 不计入 599 辆客户车。",
+      photo_captions:["Ferrari 翻新后的 MP3 · 哑光黑改装 LaFerrari 车身","MP3 开发中控 · 紧急断电控制","MP3 轮毂与刹车细节","后 3/4 视角 · 原型排气布局"]
     }
+
   };
 
   const enRecords = {
@@ -967,39 +985,22 @@
 
   Object.assign(enRecords, {
     "ECR-77928":{
-      notes:"ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status. Cross-source uniqueness has not been verified; a separate page ID does not prove this is a different physical car. Public location label retrieved 2026-09-21: Brisbane, Queensland, Australia (not a live location)."
+      notes:"ECR publicly lists model year 2024, Rosso Magma exterior, Rosso Alcantara with Bianco stitching, LHD and clean-title status."
     },
     "ECR-78501":{
-      notes:"ECR publicly lists the car as a 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; the Atlas treats that field as an ECR data error rather than a unique mechanical specification. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Swindon, England, United Kingdom (not a live location)."
+      notes:"ECR publicly lists the car as a 2024 Blu Le Mans over Rosso Alcantara. Its page labels the transmission 'Manual', which conflicts with the Daytona SP3's seven-speed DCT; the Atlas treats that field as an ECR data error rather than a unique mechanical specification."
     },
     "ECR-85856":{
-      notes:"ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission, and LHD. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Herford, North Rhine-Westphalia, Germany (not a live location)."
-    },
-    "SP3-MP3-MULOTYPE":{
-      title:"MP3 Mulotype — Daytona SP3 开发车",
-      owner:"未公开姓名的私人收藏家",
-      chassis:"MP3 开发编号；未公开道路车 VIN",
-      market:"工厂开发车辆",
-      exterior:"Ferrari 翻新后的哑光黑；采用改装 LaFerrari Aperta 车身",
-      interior:"开发车座舱，保留红色紧急断电控制",
-      wheels:"黑色五辐轮毂",
-      status:"由 Ferrari Special Sales 售予私人收藏家",
-      sale:"私人交易；金额未公开",
-      program:"Ferrari Special Sales／开发原型车",
-      options:["Daytona SP3 自然吸气 V12 动力总成","改装 LaFerrari Aperta 车身","带紧急断电控制的 MP3 开发中控","中央双出原型排气与 LaFerrari 四出排气同时保留"],
-      timeline:["开发阶段 — MP3 是 Daytona SP3 第二阶段 mulotype 中的第三辆，用于系统集成。","测试结束后 — Ferrari 测试部门移除黑白伪装，并以哑光黑翻新，同时保留原型车硬件。","2025 年 — Ferrari Special Sales 公开记录该车转售给一位同时拥有量产 Daytona SP3 的私人收藏家。"],
-      notes:"这是工厂开发车辆，不属于 599 辆客户车。现有公开证据不能证明 MP3 与 ECR-100373 是同一辆，因此本站暂时分列。",
-      review_status:"2026-09-21 — 已交叉核验 Ferrari 衍生资料与独立媒体；MP3 不计入 599 辆客户车。",
-      photo_captions:["Ferrari 翻新后的 MP3 · 哑光黑改装 LaFerrari 车身","MP3 开发中控 · 紧急断电控制","MP3 轮毂与刹车细节","后 3/4 视角 · 原型排气布局"]
+      notes:"ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission, and LHD."
     },
     "ECR-100373":{
-      notes:"ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; the Atlas keeps it as a separate research/test-vehicle record. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Gambara, Lombardy, Italy (not a live location)."
+      notes:"ECR labels this profile as a 2022 pre-production Daytona SP3. It should not automatically be counted among the 599 customer allocations; the Atlas keeps it as a separate research/test-vehicle record."
     },
     "ECR-101218":{
-      notes:"The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable. Cross-source uniqueness has not been verified. Public location label retrieved 2026-09-21: Dubai, United Arab Emirates (not a live location)."
+      notes:"The ECR profile links to a F1rst Motors sale page whose URL identifies the car as silver. Exact paint and interior codes remain unavailable."
     },
     "ECR-127142":{
-      notes:"Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location. Cross-source uniqueness has not been verified; a separate page ID does not prove this is a different physical car. Public location label retrieved 2026-09-21: Old Westbury, New York, United States (not a live location)."
+      notes:"Search-visible ECR metadata identifies a black exterior and an Old Westbury, New York location."
     }
   });
 
@@ -1032,7 +1033,7 @@
     };
     enRecords[id] = {
       ...(enRecords[id]||{}),
-      notes:`Only the public location and profile identity are reproduced. Login-gated VIN, plaque, ownership, and build fields are not copied. Cross-source uniqueness has not been verified; a separate page ID does not prove this is a different physical car. Public location label retrieved 2026-09-21: ${location} (not a live location).`,
+      notes:`Only the public location and profile identity are reproduced. Login-gated VIN, plaque, ownership, and build fields are not copied.`,
       review_status:"2026-09-21 — Public page and preview images rechecked; legacy exact specification was not revalidated and login-gated fields were not accessed."
     };
   }
