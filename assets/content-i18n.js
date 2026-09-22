@@ -402,13 +402,15 @@
       review_status:"历史 v3 条目；本次更新未重新核验"
     },
     "SP3-CRISTIANO-RONALDO":{
-      title:"Cristiano Ronaldo — 红色 SP3",
-      exterior:"红色；精确 Ferrari 漆号未被独立公开",
-      wheels:"公开视频中可见深色锻造轮毂",
+      title:"Cristiano Ronaldo — Rosso Magma",
+      exterior:"Rosso Magma，黑色车顶",
+      wheels:"Matt Grigio Corsa 五辐轮毂",
       status:"车主本人持有／公开驾驶",
+      options:["Rosso Magma 外观","黑色车顶","Matt Grigio Corsa 五辐轮毂"],
       timeline:["2024 年 3 月 — 国家队比赛间歇期间，Ronaldo 被拍到驾驶该车抵达里斯本一家酒店。"],
-      notes:"车主关系与红色外观均有充分公开记录；详细 build sheet 仍不可得。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      notes:"车主关系与公开驾驶记录充分。Znews 的里斯本近距离图集明确标注 Rosso Magma 车漆、黑色车顶与 Matt Grigio Corsa 五辐轮毂。VIN、铭牌编号与详细内饰配置仍未公开。",
+      review_status:"2026-09-21 — 已复核车主关系、里斯本公开目击及 Rosso Magma／轮毂近距离图集；VIN 仍未公开。",
+      photo_captions:["里斯本近距离图集 · 左前 3/4","里斯本近距离图集 · 左后 3/4","里斯本近距离图集 · 正前方","里斯本近距离图集 · 后格栅细节"]
     },
     "SP3-ZLATAN-IBRAHIMOVIC":{
       title:"Zlatan Ibrahimović — 哑光白",
