@@ -370,6 +370,90 @@ body{
   .race{min-height:170px!important}
 }
 
+
+/* Grid rhythm + timing-HUD refinement */
+.identity-season{
+  margin-left:6px;padding-left:12px;border-left:1px solid #ffffff55;
+  color:#ffe9eb;font-size:10px;letter-spacing:.08em;
+}
+.lab-summary{
+  display:grid!important;
+  grid-template-columns:minmax(220px,.8fr) minmax(320px,1.2fr) auto;
+  grid-template-areas:
+    "progress scores controls"
+    "meta status controls";
+  align-items:center;gap:5px 14px!important;
+  padding:9px 14px!important;
+}
+.lab-summary .progress{grid-area:progress;margin:0!important}
+.lab-summary .scoreline{grid-area:meta;margin:0!important}
+.lab-scoregrid{
+  grid-area:scores;margin:0!important;border:0!important;
+  display:grid!important;grid-template-columns:repeat(3,1fr)!important;
+}
+.lab-scoregrid .metric{
+  padding:3px 11px!important;border:0!important;border-left:1px solid #ffffff2c!important;
+  text-align:left!important;
+}
+.lab-scoregrid .metric:first-child{border-left:0!important}
+.lab-scoregrid .metric .k{font-size:9px!important;letter-spacing:.11em}
+.lab-scoregrid .metric .v{font-size:25px!important;line-height:1!important}
+.lab-summary .status{
+  grid-area:status;margin:0!important;padding:6px 9px!important;
+  min-height:0!important;border:0!important;border-left:3px solid #555!important;
+}
+.lab-summary .status.win{border-left-color:#31c77c!important}
+.lab-summary .status.tie{border-left-color:#ffd21e!important}
+.lab-controls{
+  grid-area:controls;margin:0!important;
+  display:grid!important;grid-template-columns:1fr 1fr!important;gap:5px!important;
+}
+.lab-controls .btn{min-height:31px!important;padding:5px 8px!important;font-size:10px!important}
+.lab-controls .btn:first-child{grid-column:1/-1!important}
+
+.lab-races .racelist{align-items:stretch}
+.lab-races .race{
+  height:190px!important;min-height:190px!important;max-height:190px!important;
+  overflow:hidden;
+}
+.race .rankline{min-height:22px}
+.race .title{
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:calc(100% - 26px);
+}
+.race .actual{
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.race .alt{
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+  min-height:32px;max-height:32px;
+}
+.race .journey{min-height:72px!important}
+.race .cardbottom{min-height:31px!important}
+.race .type{white-space:nowrap}
+.race .swing{flex:0 0 auto}
+
+@media(max-width:1080px){
+  .lab-races .race{height:196px!important;min-height:196px!important;max-height:196px!important}
+  .lab-summary{grid-template-columns:1fr 1fr;grid-template-areas:"progress scores" "meta status" "controls controls"}
+  .lab-controls{display:flex!important}.lab-controls .btn:first-child{grid-column:auto!important}
+}
+@media(max-width:820px){
+  .lab-summary{
+    grid-template-columns:1fr auto!important;
+    grid-template-areas:"progress scores" "meta status"!important;
+  }
+  .lab-controls{display:none!important}
+  .lab-summary .status{font-size:11px!important}
+  .identity-season{display:none}
+}
+@media(max-width:620px){
+  .lab-summary{display:block!important}
+  .lab-summary .progress{margin-bottom:5px!important}
+  .lab-summary .scoreline{margin-bottom:5px!important}
+  .lab-scoregrid{margin-bottom:5px!important}
+  .lab-races .race{height:178px!important;min-height:178px!important;max-height:178px!important}
+}
+
 </style>
 </head>
 <body>
@@ -378,7 +462,7 @@ body{
 <div class="hero-tools"><div class="lang-toggle" role="group" aria-label="Language"><button id="langZh" type="button">中文</button><button id="langEn" type="button">EN</button></div></div>
 <div class="eyebrow">Formula 1 · 2022 Counterfactual</div>
 <h1>Leclerc 到底要改写多少个瞬间，<em>才能夺冠？</em></h1>
-<p class="sub">不是“如果 Ferrari 完美会怎样”的幻想，而是把 22 个分站逐个拆开：从最小、最自然的反事实开始，一件件修正 reliability、strategy、driver error 与接近的赛道胜负，直到 Charles Leclerc 第一次在积分上超过 Max Verstappen。</p>
+<p class="sub">不是“如果 Ferrari 完美会怎样”的幻想，而是把 2022 的 22 个 Grand Prix 周末（含 3 场 Sprint，共 25 个积分事件）逐个拆开：从最小、最自然的反事实开始，一件件修正 reliability、strategy、driver error 与接近的赛道胜负，直到 Charles Leclerc 第一次在积分上超过 Max Verstappen。</p>
 <div class="grid scoregrid">
 <div class="metric"><div class="k">现实最终积分 · VER</div><div class="v">454</div></div>
 <div class="metric"><div class="k">现实最终积分 · LEC</div><div class="v red">308</div></div>
@@ -389,7 +473,7 @@ body{
   <span class="identity-no">16</span>
   <span class="identity-name">CHARLES LECLERC</span>
   <span class="identity-dot">•</span>
-  <span class="identity-team">SCUDERIA FERRARI · 2022</span>
+  <span class="identity-team">SCUDERIA FERRARI · 2022</span><span class="identity-season">22 GP WEEKENDS · 3 SPRINTS</span>
   <span class="identity-stripe" aria-hidden="true"><i></i><i></i><i></i></span>
 </div>
 
@@ -474,7 +558,7 @@ function rememberStatic(sel){const el=document.querySelector(sel);if(el&&!static
 const staticEN={
 '.hero .eyebrow':'Formula 1 · 2022 Counterfactual',
 '.hero h1':'How many moments had to change for Leclerc to <em>win the title?</em>',
-'.hero .sub':'Not a fantasy where Ferrari is perfect. Start with the smallest, most plausible changes to reliability, strategy, driver errors and close on-track fights — then keep adding them until Charles Leclerc finally outscores Max Verstappen.',
+'.hero .sub':'Not a fantasy where Ferrari is perfect. Break down all 22 Grand Prix weekends — including 3 Sprints, for 25 points-scoring events — then add the smallest, most plausible changes until Charles Leclerc finally outscores Max Verstappen.',
 '.hero .scoregrid .metric:nth-child(1) .k':'Actual final points · VER',
 '.hero .scoregrid .metric:nth-child(2) .k':'Actual final points · LEC',
 '.hero .scoregrid .metric:nth-child(3) .k':'Net championship swing required',
