@@ -5096,20 +5096,16 @@
     "timeline": [
       "2026 — The Collection Porsche public listing identified the car with 164 miles and VIN ZFF05UMA9S0310048."
     ],
-    "notes": "The dealer listing publishes the full VIN, white exterior, black interior and 164-mile odometer reading. A separately crawled The Collection inventory page also carried the same VIN. Current availability is not inferred from the historical listing snapshot.",
+    "notes": "The Collection Porsche listing publishes the full VIN, white exterior, black interior and 164-mile odometer reading.",
     "photos": [],
     "credits": [],
     "sources": [
       [
         "The Collection Porsche dealer listing",
         "https://www.thecollectionporsche.com/used/Ferrari/2025-Ferrari-Daytona-SP3-06ab21acac18028b91c6a7b6471fdd75.htm"
-      ],
-      [
-        "The Collection Miami inventory — VIN cross-check",
-        "https://www.thecollectionmaseratimiami.com/inventory/used-2024-porsche-718-cayman-gt4-rs-rwd-2d-coupe-wp0ae2a86rk274780/"
       ]
     ],
-    "review_status": "2026-09-21 — Dealer VIN and historical inventory cross-check reviewed; current availability not claimed.",
+    "review_status": "2026-09-21 — The Collection Porsche listing rechecked; erroneous Maserati inventory cross-check removed. VIN, colours and 164-mile odometer are supported by the dealer page.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 95,

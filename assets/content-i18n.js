@@ -151,7 +151,6 @@
     "Hendrick Performance dealer listing":"Hendrick Performance 经销商挂牌",
     "Made in Maranello chassis index":"Made in Maranello 底盘索引",
     "The Collection Porsche dealer listing":"The Collection Porsche 经销商挂牌",
-    "The Collection Miami inventory — VIN cross-check":"The Collection Miami 库存 — VIN 交叉核对",
     "AMARI Supercars":"AMARI Supercars",
     "Car & Classic syndicated listing":"Car & Classic 转刊挂牌",
     "Dutch Ferrari and Lamborghini Register":"荷兰 Ferrari / Lamborghini Register",
@@ -748,8 +747,8 @@
       status:"历史经销商挂牌",
       sale:"询价 — The Collection Porsche",
       timeline:["2026 年 — The Collection Porsche 公开挂牌，记录 164 miles 里程及 VIN ZFF05UMA9S0310048。"],
-      notes:"经销商挂牌公布了完整 VIN、白色外观、黑色内饰与 164 miles 里程。另一份 The Collection 库存抓取也出现相同 VIN。本站不依据历史挂牌快照推断当前仍在售。",
-      review_status:"2026-09-21 — 已复核经销商 VIN 与历史库存交叉记录；不声称当前仍在售。"
+      notes:"The Collection Porsche 挂牌公开完整 VIN、白色外观、黑色内饰及 164 miles 里程。",
+      review_status:"2026-09-21 — 已重新核验 The Collection Porsche 挂牌，并删除错误的 Maserati 库存 cross-check；VIN、配色与 164 miles 里程均由经销商页面支持。"
     },
     "SP3-AMARI-ROSSO-MAGMA":{
       title:"Rosso Magma / Blu Elettrico — AMARI",
