@@ -159,7 +159,8 @@
     "2026-09-21 — Ferrari 官方文章与照片复核。":"2026-09-21 — Ferrari official article and photos rechecked.",
     "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。":"2026-09-21 — Public page and preview images rechecked; legacy exact specification was not revalidated and login-gated fields were not accessed.",
     "Ferrari 官方视频 — Leclerc 介绍本人定制车":"Ferrari official video — Leclerc presents his custom car",
-    "The Supercar Blog / 原报道图片":"The Supercar Blog / original article image"
+    "The Supercar Blog / 原报道图片":"The Supercar Blog / original article image",
+    "ECR 公开预览；版权归原摄影者，摄影署名见来源页":"ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page"
   };
 
   const zhLocations = {
