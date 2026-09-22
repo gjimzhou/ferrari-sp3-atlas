@@ -174,6 +174,9 @@
     "duPont REGISTRY — Piero Ferrari livery feature":"duPont REGISTRY — Piero Ferrari 涂装专题",
     "Per Gessle / @PartyPleaser — Joyride arrival photo":"Per Gessle / @PartyPleaser — Joyride 到车照片",
     "Autogespot — Milan original sighting":"Autogespot — 米兰原始街拍",
+    "Autogespot — Gordon Ramsay London sighting":"Autogespot — Gordon Ramsay 伦敦目击专题",
+    "Znews — Gordon Ramsay London photo gallery":"Znews — Gordon Ramsay 伦敦公开图集",
+    "Znews — Ibrahimović Milan delivery photo gallery":"Znews — Ibrahimović 米兰交付图集",
     "AutoRef — public VIN search history":"AutoRef — 公开 VIN 搜索记录",
     "Public VIN lead; allocation status not independently verified":"公开 VIN 线索；客户配额身份尚未独立核实",
     "Factory demo; customer-allocation status not established":"工厂 Demo；客户配额归属尚未确定",
@@ -421,14 +424,14 @@
     },
     "SP3-GORDON-RAMSAY":{
       title:"Gordon Ramsay — Bianco Cervino 25 号",
-      exterior:"Bianco Cervino 珠光白，灰色细节与 25 号圆形号码贴",
+      exterior:"Bianco Cervino 珠光白，搭配 Argento Nurburgring 银色赛车条纹与 25 号圆形号码贴",
       interior:"Blu Alcantara，Nero 皮革细节",
       wheels:"银色锻造轮毂",
-      options:["25 号赛车圆形号码贴","灰色复古赛车风格细节","据报道为手绘 Cavallino 盾徽","碳纤维车顶","Blu Alcantara 座舱"],
-      timeline:["2023 年 6 月 — 据报道交付至 Ferrari Hatfield。","2025 年 2 月 — 首次被广泛报道在伦敦餐厅外公开驾驶。"],
-      notes:"25 号的确切含义尚未被公开确认。",
-      review_status:"2026-09-21 — 已重新核验车主关系、伦敦公开目击以及 Bianco Cervino／Blu Alcantara 配置报道；VIN 仍未公开。",
-      photo_captions:["伦敦公开驾驶 · Bianco Cervino 配置"]
+      options:["25 号赛车圆形号码贴","Argento Nurburgring 复古赛车风格条纹","据报道为手绘 Cavallino 盾徽","碳纤维车顶","Blu Alcantara 座舱，Nero 皮革细节"],
+      timeline:["2023 年 6 月 — 据报道交付至 Ferrari Hatfield。","2025 年 2 月 — 在伦敦市中心公开驾驶并被拍摄；Autogespot 将该车明确认作 Ramsay 的 Daytona SP3。","2025 年 4 月 — Znews 发布多角度伦敦图集，记录 Bianco Cervino / Argento Nurburgring / 25 号配置。"],
+      notes:"伦敦公开影像持续以 SP03 GRG 车牌、25 号号码贴及 Bianco Cervino / Argento Nurburgring 配置识别同一辆车。Znews 也记录了 Blu Alcantara / Nero 座舱。25 号对 Ramsay 的个人含义尚未被公开确认。",
+      review_status:"2026-09-21 — 已重新核验车主关系、伦敦公开目击、Bianco Cervino / Argento Nurburgring 配置及多角度公开图库；VIN 仍未公开。",
+      photo_captions:["伦敦公开驾驶 · Bianco Cervino 配置","伦敦图集 · 左前 3/4 · SP03 GRG / 25 号","伦敦图集 · 左后 3/4 · Argento Nurburgring 条纹"]
     },
     "SP3-CRISTIANO-RONALDO":{
       title:"Cristiano Ronaldo — Rosso Magma",
@@ -447,9 +450,10 @@
       wheels:"单色银色锻造轮毂",
       status:"车主本人持有／公开驾驶",
       options:["哑光白外观","裸露碳纤维下部车身","银色轮毂"],
-      timeline:["2023 年 4 月 — 在米兰公开被拍到驾驶该车。","2023 年 9 月 — 再次在社交媒体发布该车。"],
-      notes:"这辆哑光白 SP3 不应与 Gordon Ramsay 的 Bianco Cervino 25 号混淆。",
-      review_status:"2026-09-21 — 已重新核验 2023 年 4 月米兰原始街拍及公开车主报道。"
+      timeline:["2022 年 10 月 — Ibrahimović 公开预告 Daytona SP3，作为 41 岁生日自购礼物，并同时展示 812 Competizione A。","2023 年 4 月 20 日 — 在米兰公开被拍到驾驶刚交付的该车。","2023 年 4 月 21 日 — Znews 发布米兰图集，可见 Ibrahimović 本人在驾驶席及车牌 KOX26L。","2023 年 9 月 — 再次在社交媒体发布该车。"],
+      notes:"这辆哑光白 SP3 在米兰被拍到由 Ibrahimović 本人驾驶，车牌为 KOX26L。公开报道确认车主关系，但精确 Ferrari 哑光白漆号尚未确定；来源只讨论 Bianco Italia Opaco / Bianco Fuji Opaco 等可能选项，并未确认其中之一。该车不应与 Gordon Ramsay 的 Bianco Cervino 25 号混淆。",
+      review_status:"2026-09-21 — 已复核 2023 年 4 月米兰交付目击、公开车主报道及可由车牌识别的 Znews 图集；精确哑光白工厂漆号仍未确认。",
+      photo_captions:["米兰街拍 · Zlatan Ibrahimović 驾驶刚交付的哑光白 SP3","米兰交付图集 · 正前方 · KOX26L"]
     },
     "SP3-LEONARDO-DEL-VECCHIO":{
       title:"Leonardo Maria Del Vecchio — 全黑 Daytona SP3",

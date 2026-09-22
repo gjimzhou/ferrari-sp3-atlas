@@ -1794,7 +1794,7 @@
     "city": "London / Ferrari Hatfield",
     "market": "European specification",
     "owner": "Gordon Ramsay",
-    "exterior": "Bianco Cervino pearlescent white with grey detailing and No. 25 roundels",
+    "exterior": "Bianco Cervino pearlescent white with Argento Nurburgring silver racing stripes and No. 25 roundels",
     "color": "White",
     "interior": "Blu Alcantara with Nero leather details",
     "wheels": "Silver forged wheels",
@@ -1805,21 +1805,26 @@
     "program": "Ferrari personalisation",
     "options": [
       "No. 25 racing roundels",
-      "Grey heritage-style detailing",
+      "Argento Nurburgring heritage-style racing stripes",
       "Hand-painted Cavallino shields reported",
       "Carbon-fibre roof",
-      "Blu Alcantara cabin"
+      "Blu Alcantara cabin with Nero leather details"
     ],
     "timeline": [
       "June 2023 — Reported delivered to Ferrari Hatfield.",
-      "February 2025 — First widely reported public drive outside a London restaurant."
+      "February 2025 — Publicly photographed driving and parked in central London; Autogespot identified the car as Ramsay's Daytona SP3.",
+      "April 2025 — Znews published a multi-angle London gallery documenting the Bianco Cervino / Argento Nurburgring / No. 25 specification."
     ],
-    "notes": "The exact significance of No. 25 has not been publicly confirmed.",
+    "notes": "Public London imagery consistently identifies the car by its SP03 GRG plate, No. 25 roundels and Bianco Cervino / Argento Nurburgring specification. Znews also documents the Blu Alcantara / Nero cabin. The exact personal significance of No. 25 has not been publicly confirmed.",
     "photos": [
-      "assets/photos/SP3-GORDON-RAMSAY-1.webp"
+      "assets/photos/SP3-GORDON-RAMSAY-1.webp",
+      "https://photo.znews.vn/Uploaded/aobhuua/2025_04_03/Ferrari_Daytona_SP3_Gordon_Ramsay_8_.jpg",
+      "https://photo.znews.vn/Uploaded/aobhuua/2025_04_03/Ferrari_Daytona_SP3_Gordon_Ramsay_5_.jpg"
     ],
     "credits": [
-      "SWNS / The Scottish Sun"
+      "SWNS / The Scottish Sun",
+      "Rostyslav / Autogespot via Znews",
+      "Rostyslav / Autogespot via Znews"
     ],
     "sources": [
       [
@@ -1829,17 +1834,29 @@
       [
         "The Scottish Sun — delivery timing and public sighting",
         "https://www.thescottishsun.co.uk/tvandshowbiz/14365358/gordon-ramsay-adds-ferrari-to-supercar-collection/"
+      ],
+      [
+        "Autogespot — Gordon Ramsay London sighting",
+        "https://www.autogespot.com/gordon-ramsay-turns-heads-in-london-with-his-ferrari-daytona-sp3"
+      ],
+      [
+        "Znews — Gordon Ramsay London photo gallery",
+        "https://znews.vn/can-canh-sieu-xe-ferrari-daytona-sp3-cua-dau-bep-gordon-ramsay-post1542994.html"
       ]
     ],
-    "review_status": "2026-09-21 — Ownership, London public sighting and published Bianco Cervino / Blu Alcantara specification rechecked; VIN remains private.",
+    "review_status": "2026-09-21 — Ownership, London public sighting, Bianco Cervino / Argento Nurburgring specification and multi-angle public gallery rechecked; VIN remains private.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 93,
     "photo_sources": [
-      "https://luxurylaunches.com/transport/gordon-ramsay-ferrari-daytona-sp3-18022025.php"
+      "https://luxurylaunches.com/transport/gordon-ramsay-ferrari-daytona-sp3-18022025.php",
+      "https://znews.vn/can-canh-sieu-xe-ferrari-daytona-sp3-cua-dau-bep-gordon-ramsay-post1542994.html",
+      "https://znews.vn/can-canh-sieu-xe-ferrari-daytona-sp3-cua-dau-bep-gordon-ramsay-post1542994.html"
     ],
     "photo_captions": [
-      "London public drive · Bianco Cervino specification"
+      "London public drive · Bianco Cervino specification",
+      "London gallery · front three-quarter · SP03 GRG / No. 25",
+      "London gallery · rear three-quarter · Argento Nurburgring stripes"
     ]
   },
   {
@@ -1946,15 +1963,19 @@
       "Silver wheels"
     ],
     "timeline": [
-      "April 2023 — Publicly spotted driving the car in Milan.",
+      "October 2022 — Ibrahimović publicly teased the Daytona SP3 as a 41st-birthday self-gift alongside an 812 Competizione A.",
+      "20 April 2023 — Publicly spotted driving the freshly delivered car in Milan.",
+      "21 April 2023 — Znews published a Milan gallery showing Ibrahimović at the wheel and plate KOX26L.",
       "September 2023 — Posted the car again on social media."
     ],
-    "notes": "This matte-white car should not be confused with Gordon Ramsay's Bianco Cervino No. 25 car.",
+    "notes": "The matte-white car is documented in Milan with Ibrahimović at the wheel and plate KOX26L. Public reporting confirms the ownership link, but the exact Ferrari matte-white paint code has not been established; sources discuss possible Bianco Italia Opaco / Bianco Fuji Opaco choices without confirming one. This car should not be confused with Gordon Ramsay's Bianco Cervino No. 25 example.",
     "photos": [
-      "https://spots.ag/2023/04/20/ferrari-daytona-sp3-c386320042023111651_1.jpg?1681982253="
+      "https://spots.ag/2023/04/20/ferrari-daytona-sp3-c386320042023111651_1.jpg?1681982253=",
+      "https://photo.znews.vn/Uploaded/aobhuua/2023_04_21/Ferrari_Daytona_SP3_Ibrahimovic_10.jpg"
     ],
     "credits": [
-      "Matte spots / Autogespot"
+      "Matte spots / Autogespot",
+      "Matte Spots / Znews"
     ],
     "sources": [
       [
@@ -1968,17 +1989,23 @@
       [
         "Autogespot — Milan original sighting",
         "https://www.autogespot.com/ferrari-daytona-sp3/2023/04/20"
+      ],
+      [
+        "Znews — Ibrahimović Milan delivery photo gallery",
+        "https://znews.vn/zlatan-ibrahimovic-cam-lai-sieu-xe-ferrari-daytona-sp3-post1424153.html"
       ]
     ],
-    "review_status": "2026-09-21 — Original April 2023 Milan spot and public ownership reporting rechecked.",
+    "review_status": "2026-09-21 — April 2023 Milan delivery sighting, ownership reporting and plate-identifiable Znews gallery rechecked; exact matte-white factory paint code remains unconfirmed.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 91,
     "photo_sources": [
-      "https://www.autogespot.com/ferrari-daytona-sp3/2023/04/20"
+      "https://www.autogespot.com/ferrari-daytona-sp3/2023/04/20",
+      "https://znews.vn/zlatan-ibrahimovic-cam-lai-sieu-xe-ferrari-daytona-sp3-post1424153.html"
     ],
     "photo_captions": [
-      "Milan street sighting · Zlatan Ibrahimović in the freshly delivered matte-white SP3"
+      "Milan street sighting · Zlatan Ibrahimović in the freshly delivered matte-white SP3",
+      "Milan delivery gallery · front view · KOX26L"
     ]
   },
   {
