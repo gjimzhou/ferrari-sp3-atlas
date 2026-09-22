@@ -172,6 +172,9 @@
     "AMARI Supercars — dealer listing":"AMARI Supercars — 经销商挂牌",
     "Car & Classic — syndicated dealer listing":"Car & Classic — 经销商挂牌转载",
     "Dutch Ferrari and Lamborghini Register — registry entry":"荷兰 Ferrari / Lamborghini Register — registry 条目",
+    "AutoWeek — Dutch plate JKF-62-L vehicle check":"AutoWeek — 荷兰车牌 JKF-62-L 车辆核验",
+    "Rapid Rides NL — Bernhard ten Brinke Daytona SP3 profile":"Rapid Rides NL — Bernhard ten Brinke Daytona SP3 专题",
+    "Autoblog NL — Bernhard ten Brinke Daytona SP3 ownership report":"Autoblog NL — Bernhard ten Brinke Daytona SP3 车主报道",
     "duPont REGISTRY — Miller Motorcars 14-car gathering":"duPont REGISTRY — Miller Motorcars 14 车聚会",
     "duPont REGISTRY — Sainz delivery":"duPont REGISTRY — Sainz 交付报道",
     "duPont REGISTRY — Piero Ferrari livery feature":"duPont REGISTRY — Piero Ferrari 涂装专题",
@@ -892,11 +895,21 @@
       notes:"完整 VIN 与配色组合在荷兰 registry 中公开。尚未找到第二个逐车来源，因此仅保留为 VIN lead，不推断车主或所在地。"
     },
     "SP3-291935-VIN-LEAD":{
-      title:"Giallo Modena / Nero — 底盘 291935",
-      city:"荷兰",
-      owner:"未公开",
-      timeline:["2025 年 10 月 27 日 — 荷兰 registry 记录该 VIN 使用车牌 JKF-62-L。"],
-      notes:"公开荷兰 registry 发布完整 VIN 与 Giallo Modena / Nero 配置。尚无独立逐车来源，因此保留为研究线索。"
+      title:"Bernhard ten Brinke — Giallo Modena — 底盘 291935",
+      edition:"原始 599 辆量产序列",
+      country:"荷兰",
+      city:"由 Munsterhuis Ferrari 交付；位于荷兰私人收藏",
+      market:"欧洲规格 / 曾短暂登记荷兰车牌",
+      owner:"Bernhard ten Brinke",
+      exterior:"Giallo Modena，搭配黑色外观细节",
+      interior:"黑色皮革，Giallo 黄色对比缝线",
+      status:"私人收藏车辆；荷兰车牌 JKF-62-L 曾被短暂记录，当前车辆核验状态为已出口",
+      sale:"2025 年 10 月据报道拍卖出价 €5,750,000；最终成交结果未获独立确认",
+      program:"Ferrari 个性化配置；精确项目名称未公开",
+      options:["Giallo Modena 外观","黑色外观细节","黑色皮革座舱","Giallo 黄色对比缝线"],
+      timeline:["2023 年 4 月 — 由 Munsterhuis Ferrari 新车交付。","2023–2025 年 — 位于 Bernhard ten Brinke 私人收藏；同期荷兰报道明确将其列为车主。","2025 年 10 月 — Rapid Rides 报道一次拍卖中出现 €5,750,000 出价；本站不将这一二手报道视为确认成交。","2025 年 10 月 27 日 — Dutch Ferrari and Lamborghini Register 将车牌 JKF-62-L 与 VIN ZFF05UMB000291935 对应；该 registry 行显示车牌起止日期均为同一天。","当前 AutoWeek 车辆核验状态 — 已出口；荷兰登记历史中没有记录实际使用车主。"],
+      notes:"Dutch Ferrari and Lamborghini Register 公开完整 VIN ZFF05UMB000291935、Giallo Modena / Nero 配置及车牌 JKF-62-L。AutoWeek 独立将 JKF-62-L 识别为黄色 2023 Daytona SP3，当前状态标为已出口。Rapid Rides 报道该车 2023 年 4 月由 Munsterhuis Ferrari 交付，配置为 Giallo Modena 配黑色外观细节、黑色皮革配 Giallo 缝线，并明确将收藏家／拉力车手 Bernhard ten Brinke 列为车主；更早的荷兰媒体也独立报道 ten Brinke 收到一辆黄黑 Daytona SP3。Rapid Rides 另提到 €5.75m 拍卖出价，但缺少拍卖行一手成交结果，因此本站只记录为 reported bid，不写成已成交。",
+      review_status:"2026-09-21 — 已通过 registry、车辆核验及独立荷兰报道交叉确认完整 VIN／车牌、2023 model year、Giallo Modena 配置、Munsterhuis 交付与 Bernhard ten Brinke 车主关系；拍卖出价不作为成交结果。"
     },
     "SP3-308288-VIN-LEAD":{
       title:"Carbon / Verde — 底盘 308288",

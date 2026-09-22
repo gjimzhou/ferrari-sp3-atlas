@@ -5450,42 +5450,63 @@
   },
   {
     "id": "SP3-291935-VIN-LEAD",
-    "title": "Giallo Modena / Nero — chassis 291935",
-    "tier": "registry",
+    "title": "Bernhard ten Brinke — Giallo Modena — chassis 291935",
+    "tier": "chassis",
     "year": 2023,
     "vin": "ZFF05UMB000291935",
     "chassis": "291935",
-    "edition": "Public VIN lead; allocation status not independently verified",
+    "edition": "Original 599 production",
     "country": "Netherlands",
-    "city": "Netherlands",
-    "market": "Unknown",
-    "owner": "Unknown",
-    "exterior": "Giallo Modena",
+    "city": "Delivered by Munsterhuis Ferrari; private collection in the Netherlands",
+    "market": "European specification / briefly Dutch-registered",
+    "owner": "Bernhard ten Brinke",
+    "exterior": "Giallo Modena with black accents",
     "color": "Yellow",
-    "interior": "Nero",
+    "interior": "Black leather with Giallo stitching",
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "Unknown",
-    "status": "Public registry VIN lead",
-    "sale": "Unknown",
-    "program": "Unknown",
-    "options": [],
-    "timeline": [
-      "27 October 2025 — Dutch register records plate JKF-62-L for this VIN."
+    "status": "Private collection car; Dutch plate JKF-62-L was recorded briefly and current vehicle-check status is exported",
+    "sale": "€5,750,000 auction bid reported in October 2025; final sale result not independently established",
+    "program": "Ferrari personalisation; exact program not published",
+    "options": [
+      "Giallo Modena exterior",
+      "Black exterior accents",
+      "Black leather cabin",
+      "Giallo contrast stitching"
     ],
-    "notes": "The public Dutch registry publishes the complete VIN and Giallo Modena / Nero specification. With no independent per-car source yet, the record remains a research lead.",
+    "timeline": [
+      "April 2023 — Delivered new by Munsterhuis Ferrari.",
+      "2023–2025 — Kept in Bernhard ten Brinke's private collection; contemporary Dutch coverage identified him as the owner.",
+      "October 2025 — Rapid Rides reported a €5,750,000 bid at an auction; the Atlas does not treat that report as a confirmed sale result.",
+      "27 October 2025 — Dutch Ferrari and Lamborghini Register records plate JKF-62-L against VIN ZFF05UMB000291935; the registry row shows the plate beginning and ending the same day.",
+      "Current AutoWeek vehicle-check status — exported; no using owner was ever recorded in the Dutch registration history."
+    ],
+    "notes": "The Dutch Ferrari and Lamborghini Register publishes VIN ZFF05UMB000291935, Giallo Modena / Nero and plate JKF-62-L. AutoWeek independently identifies JKF-62-L as a yellow 2023 Daytona SP3 and currently marks it exported. Rapid Rides reports Munsterhuis Ferrari delivery in April 2023, Giallo Modena with black accents, black leather with Giallo stitching, and identifies collector/rally driver Bernhard ten Brinke as owner; older Dutch coverage independently reported ten Brinke receiving a yellow/black Daytona SP3. Rapid Rides also mentions a €5.75 million auction bid, but without a primary auction result the Atlas records it only as a reported bid, not a completed sale.",
     "photos": [],
     "credits": [],
     "sources": [
       [
         "Dutch Ferrari and Lamborghini Register — registry entry",
         "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
+      ],
+      [
+        "AutoWeek — Dutch plate JKF-62-L vehicle check",
+        "https://www.autoweek.nl/kentekencheck/JKF-62-L/"
+      ],
+      [
+        "Rapid Rides NL — Bernhard ten Brinke Daytona SP3 profile",
+        "https://www.rapidrides.nl/2025/11/nieuwe-ferrari-daytona-sp3-op-nederlands-kenteken.html"
+      ],
+      [
+        "Autoblog NL — Bernhard ten Brinke Daytona SP3 ownership report",
+        "https://www.autoblog.nl/nieuws/nederlander-scoort-ferrari-daytona-sp3-3522012"
       ]
     ],
-    "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
-    "record_kind": "lead",
-    "owner_public": false,
-    "sort_weight": 76,
+    "review_status": "2026-09-21 — Full VIN/plate, 2023 model year, Giallo Modena specification, Munsterhuis delivery and Bernhard ten Brinke ownership cross-checked; reported auction bid is not treated as a sale.",
+    "record_kind": "profile",
+    "owner_public": true,
+    "sort_weight": 98,
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-21"
