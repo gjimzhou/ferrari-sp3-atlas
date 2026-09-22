@@ -104,6 +104,8 @@
     "Exclusive Car Registry — profile 70568 (deduplicated alias)":"Exclusive Car Registry — 档案 70568（去重别名）",
     "Broad Arrow — auction listing":"Broad Arrow — 拍卖目录",
     "Ultimatecarpage — chassis record":"Ultimatecarpage — 底盘记录",
+    "Barchetta — pre-auction chassis photo record":"Barchetta — 拍卖前 chassis-specific 图片记录",
+    "Barchetta — auction-result chassis photo record":"Barchetta — 拍卖成交 chassis-specific 图片记录",
     "Ferrari — editorial":"Ferrari — 官方专题",
     "Driven Car Guide — Piero Ferrari feature":"Driven Car Guide — Piero Ferrari 专题",
     "duPont REGISTRY — Ferrari Beverly Hills feature":"duPont REGISTRY — Ferrari Beverly Hills 专题",
@@ -316,10 +318,11 @@
       wheels:"钻石切削锻造轮毂",
       mileage:"编目时 743 km",
       sale:"€6,250,000 — Broad Arrow Villa d’Este 2026",
-      options:["碳纤维下部车身、硬顶、后视镜与后盖扰流唇","喷绘 Scuderia 盾徽","前后泊车摄像头","前轴抬升","黑色四点式安全带","Racing Driver Set、行李及 Yellow Book"],
-      timeline:["2023 年 — 新车交付安道尔。","2026 年 5 月 — 在 Broad Arrow Villa d’Este 拍卖中售出。"],
-      notes:"拍卖来源公开了 VIN 与配置细节。由于未取得可干净复用的来源图片文件，本资料包没有内嵌该车图片。",
-      review_status:"2026-09-21 — 已复核公开图集；未公开身份字段不作推定。"
+      options:["裸露碳纤维下部车身、硬顶、后视镜与后盖扰流唇","喷绘 Scuderia Ferrari 盾徽","钻石切削锻造轮毂","亮黑色刹车卡钳","大号 Blu Elettrico Alcantara 桶椅","Apple CarPlay","前后泊车摄像头","前轴抬升","黑色四点式安全带","Racing Driver Set：红色皮革背包、旅行袋、两套赛车服及两副手套","碳纤维硬顶及原装收纳袋","原装手册、车罩、工具、充电器及压缩机","Ferrari Classiche Yellow Book"],
+      timeline:["2023 年 — 新车交付安道尔。","2023–2026 年 — 首任车主持续实际使用，拍卖编目时里程达到 743 km。","2026 年 5 月 16 日 — 以 253 号 lot 参加 Broad Arrow Villa d’Este 拍卖，估价 €6.5m–€8.5m。","2026 年 5 月 — 以 €6,250,000 成交。"],
+      notes:"Broad Arrow 与独立底盘记录公开 VIN ZFF05UMB000286921，并确认 Rosso Magma Tri-Coat / Blu Elettrico 配置、裸露碳纤维部件、喷绘盾徽、亮黑卡钳、lift、前后摄像头、Apple CarPlay 与黑色四点式安全带。首任车主在送拍前累计 743 km；车辆保留 Racing Driver Set、硬顶、手册、车罩、工具、充电器、压缩机及 Ferrari Classiche Yellow Book。拍卖时车辆以 temporary import 方式进入意大利，并随车附有安道尔 Certificat de Matriculació。",
+      review_status:"2026-09-21 — 已复核完整 VIN、配置、成交结果、Classiche／注册文件及两条 chassis-specific Barchetta 图片记录。",
+      photo_captions:["Broad Arrow 拍卖目录 · Rosso Magma Tri-Coat / Blu Elettrico","拍卖前 chassis-specific 实车图 · Villa d’Este 2026","成交结果 chassis-specific 实车图 · €6,250,000 成交"]
     },
     "SP3-PIERO-NART":{
       title:"Piero Ferrari — NART 致敬涂装",

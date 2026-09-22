@@ -629,23 +629,36 @@
     "sale": "€6,250,000 — Broad Arrow Villa d'Este 2026",
     "program": "Ferrari personalisation",
     "options": [
-      "Carbon lower bodywork, hardtop, mirrors and lid lip",
-      "Airbrushed Scuderia shields",
+      "Exposed-carbon lower bodywork, hardtop, mirrors and lid lip",
+      "Airbrushed Scuderia Ferrari shields",
+      "Diamond-finished forged wheels",
+      "Gloss-black brake calipers",
+      "Large Blu Elettrico Alcantara bucket seats",
+      "Apple CarPlay",
       "Front and rear parking cameras",
       "Front-axle lift",
-      "Black four-point harnesses",
-      "Racing Driver Set, luggage and Yellow Book"
+      "Black four-point safety harnesses",
+      "Racing Driver Set with red leather backpack, travel bag, two race suits and two pairs of gloves",
+      "Carbon hardtop with original storage bag",
+      "Original manuals, car cover, tools, battery charger and compressor",
+      "Ferrari Classiche Yellow Book"
     ],
     "timeline": [
       "2023 — Delivered new to Andorra.",
-      "May 2026 — Sold at Broad Arrow's Villa d'Este auction."
+      "2023–2026 — The first owner regularly used the car, reaching 743 km by auction cataloguing.",
+      "16 May 2026 — Offered as lot 253 at Broad Arrow's Villa d'Este auction with a €6.5m–€8.5m estimate.",
+      "May 2026 — Sold for €6,250,000."
     ],
-    "notes": "The auction source publishes the VIN and build detail. No image is embedded in this package because a clean reusable source file was not obtained.",
+    "notes": "Broad Arrow and independent chassis records publish VIN ZFF05UMB000286921 and document a Rosso Magma Tri-Coat / Blu Elettrico specification with exposed-carbon components, airbrushed shields, gloss-black calipers, lift, cameras, Apple CarPlay and black four-point harnesses. The first owner accumulated 743 km before consigning the car; it retained its Racing Driver Set, hardtop, manuals, cover, tools, charger, compressor and Ferrari Classiche Yellow Book. The lot was on temporary import in Italy and accompanied by an Andorran Certificat de Matriculació.",
     "photos": [
-      "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/sL4X-1-5M3B07/1-CKL499/253_01.jpg?width=880&height=880&resizeinbox=1&backgroundcolor=EEEEEE"
+      "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/sL4X-1-5M3B07/1-CKL499/253_01.jpg?width=880&height=880&resizeinbox=1&backgroundcolor=EEEEEE",
+      "https://barchetta.mediacenter.plus/MCSIMG_0d65a522-5bb4-4cf4-84df-0e332857533d.jpg",
+      "https://barchetta.mediacenter.plus/MCSIMG_06d794d2-284a-456b-9008-837da246ce2c.jpg"
     ],
     "credits": [
-      "Broad Arrow Auctions"
+      "Broad Arrow Auctions",
+      "barchetta / Broad Arrow Villa d'Este record",
+      "barchetta / Broad Arrow Villa d'Este result record"
     ],
     "sources": [
       [
@@ -655,17 +668,29 @@
       [
         "Ultimatecarpage — chassis record",
         "https://www.ultimatecarpage.com/chassis/4941/Ferrari-Daytona-SP3-286921.html"
+      ],
+      [
+        "Barchetta — pre-auction chassis photo record",
+        "https://barchetta.mediacenter.plus/?i=6381773"
+      ],
+      [
+        "Barchetta — auction-result chassis photo record",
+        "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc?i=6389008"
       ]
     ],
-    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-09-21 — Full VIN, specification, auction result, Classiche/registration documentation and two chassis-specific Barchetta image records rechecked.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
     "photo_sources": [
-      "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3"
+      "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+      "https://barchetta.mediacenter.plus/?i=6381773",
+      "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc?i=6389008"
     ],
     "photo_captions": [
-      "公开来源图集 · 1"
+      "Broad Arrow catalogue · Rosso Magma Tri-Coat / Blu Elettrico",
+      "Pre-auction chassis photo · Villa d'Este 2026",
+      "Auction-result chassis photo · sold €6,250,000"
     ],
     "accessed": "2026-09-21"
   },
