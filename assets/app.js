@@ -65,7 +65,24 @@ function setup(){
  selectOptions('indexCountry',[...new Set(sourceIndex.map(r=>r.country_code))].sort().map(c=>[c,countryLabel(c)]),'全部国家旗标');
  ownerStats();market();countryStats();apply();renderIndex();
 }
-function apply(){const q=$('search').value.trim().toLowerCase();filtered=records.filter(r=>(!q||[r.id,r.title,r.vin,r.chassis,r.country,r.city,r.owner,r.exterior,r.interior,r.program,r.notes,...r.options,...r.sources.flat()].join(' ').toLowerCase().includes(q))&&(!$('country').value||r.country===$('country').value)&&(!$('color').value||r.color===$('color').value)&&(!$('tier').value||r.tier===$('tier').value)&&(!$('kind').value||r.record_kind===$('kind').value));filtered.sort((a,b)=>b.sort_weight-a.sort_weight||a.id.localeCompare(b.id));page=Math.min(page,Math.max(1,Math.ceil(filtered.length/size)));render();}
+function knownText(v){return absent(v)?'':String(v).trim();}
+function compareTextKnown(a,b){if(!a&&!b)return 0;if(!a)return 1;if(!b)return-1;return a.localeCompare(b,'en',{numeric:true,sensitivity:'base'});}
+function compareNumberKnown(a,b,dir=1){const ak=Number.isFinite(a),bk=Number.isFinite(b);if(!ak&&!bk)return 0;if(!ak)return 1;if(!bk)return-1;return dir*(a-b);}
+function sortRecords(items){
+ const mode=$('sort')?.value||'priority';
+ const byId=(a,b)=>a.id.localeCompare(b.id,'en',{numeric:true,sensitivity:'base'});
+ let cmp;
+ if(mode==='year_desc')cmp=(a,b)=>compareNumberKnown(a.year,b.year,-1)||byId(a,b);
+ else if(mode==='year_asc')cmp=(a,b)=>compareNumberKnown(a.year,b.year,1)||byId(a,b);
+ else if(mode==='chassis')cmp=(a,b)=>compareTextKnown(knownText(a.vin)||knownText(a.chassis),knownText(b.vin)||knownText(b.chassis))||byId(a,b);
+ else if(mode==='title')cmp=(a,b)=>compareTextKnown(knownText(a.title),knownText(b.title))||byId(a,b);
+ else if(mode==='owner')cmp=(a,b)=>compareTextKnown(knownText(a.owner),knownText(b.owner))||byId(a,b);
+ else if(mode==='country')cmp=(a,b)=>compareTextKnown(knownText(a.country),knownText(b.country))||byId(a,b);
+ else if(mode==='photos')cmp=(a,b)=>(b.photos?.length||0)-(a.photos?.length||0)||b.sort_weight-a.sort_weight||byId(a,b);
+ else cmp=(a,b)=>b.sort_weight-a.sort_weight||byId(a,b);
+ items.sort(cmp);
+}
+function apply(){const q=$('search').value.trim().toLowerCase();filtered=records.filter(r=>(!q||[r.id,r.title,r.vin,r.chassis,r.country,r.city,r.owner,r.exterior,r.interior,r.program,r.notes,...r.options,...r.sources.flat()].join(' ').toLowerCase().includes(q))&&(!$('country').value||r.country===$('country').value)&&(!$('color').value||r.color===$('color').value)&&(!$('tier').value||r.tier===$('tier').value)&&(!$('kind').value||r.record_kind===$('kind').value));sortRecords(filtered);page=Math.min(page,Math.max(1,Math.ceil(filtered.length/size)));render();}
 function pager(id,total,active,fn){const n=Math.ceil(total/size),box=$(id);box.innerHTML='';if(n<=1)return;const nums=[...new Set([1,n,active-2,active-1,active,active+1,active+2].filter(x=>x>0&&x<=n))].sort((a,b)=>a-b);let last=0;for(const x of nums){if(last&&x-last>1)box.insertAdjacentHTML('beforeend','<span aria-hidden="true">…</span>');const b=document.createElement('button');b.className='page'+(x===active?' active':'');b.textContent=x;b.setAttribute('aria-label','第 '+x+' 页');if(x===active)b.setAttribute('aria-current','page');b.onclick=()=>fn(x);box.append(b);last=x;}}
 function bindCards(parent){parent.querySelectorAll('[data-id]').forEach(c=>{c.onclick=()=>openCard(c.dataset.id);c.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openCard(c.dataset.id);}};});bindImages(parent);}
 function render(){
@@ -108,7 +125,7 @@ $('file').onchange=async e=>{try{const f=e.target.files[0];if(!f)return;if(f.siz
 $('reset').onclick=()=>{if(!confirm('清除本地修改并使用最新内置资料？旧版原件仍保留。'))return;try{localStorage.removeItem(storageKey);overrides=[];hydrate();page=1;setup();toast('已恢复最新内置资料');}catch{toast('浏览器不允许修改本地存储');}};
 function clearFilters(){for(const id of ['search','country','color','tier'])$(id).value='';$('kind').value='profile';page=1;apply();}
 $('clearFilters').onclick=clearFilters;
-for(const id of ['search','country','color','tier','kind'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=1;apply();});
+for(const id of ['search','country','color','tier','kind','sort'])$(id).addEventListener(id==='search'?'input':'change',()=>{page=1;apply();});
 for(const id of ['indexSearch','indexCountry'])$(id).addEventListener(id==='indexSearch'?'input':'change',()=>{indexPage=1;renderIndex();});
 document.querySelectorAll('[data-query]').forEach(b=>b.onclick=()=>{clearFilters();$('search').value=b.dataset.query;apply();});
 function tab(id){if(!document.querySelector(`.tab[data-view="${id}"]`))return;document.querySelectorAll('.tab').forEach(t=>{const on=t.dataset.view===id;t.classList.toggle('active',on);t.setAttribute('aria-pressed',String(on));});document.querySelectorAll('.view').forEach(v=>v.classList.toggle('active',v.id===id));}
