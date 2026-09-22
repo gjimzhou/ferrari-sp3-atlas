@@ -454,6 +454,22 @@ body{
   .lab-races .race{height:178px!important;min-height:178px!important;max-height:178px!important}
 }
 
+
+/* Championship clincher marker */
+.race.clincher{
+  box-shadow:0 0 0 2px #ffd21e,0 14px 34px #000b!important;
+}
+.clincher-badge{
+  position:absolute;left:8px;right:8px;bottom:38px;z-index:3;
+  padding:4px 6px;background:#ffd21e;color:#111;
+  font:900 8px/1.2 Arial,sans-serif;letter-spacing:.08em;text-align:center;
+  text-transform:uppercase;
+}
+.race.clincher .cardbottom{padding-top:25px}
+@media(max-width:620px){
+  .clincher-badge{font-size:7px}
+}
+
 </style>
 </head>
 <body>
@@ -638,12 +654,18 @@ function totals(){
  races.forEach(r=>{if(selected.has(r.r)){const x=live(r);lec+=x.lec;ver+=x.ver}});
  return {lec,ver,swing:(lec-base.lec)-(ver-base.ver)};
 }
+function titleFlipRound(){
+  const chosen=races.map(live).filter(r=>selected.has(r.r)).sort((a,b)=>b.score-a.score||b.swing-a.swing);
+  let cum=0;
+  for(const r of chosen){cum+=r.swing;if(cum>=147)return r.r}
+  return null;
+}
 function renderList(){
- const box=$('#races');box.innerHTML='';
+ const box=$('#races');box.innerHTML=''; const flipRound=titleFlipRound();
  ordered().forEach((r,i)=>{
   const card=document.createElement('button');
   card.type='button';
-  card.className='race'+(selected.has(r.r)?' active':'')+(r.locked?' locked':'');
+  card.className='race'+(selected.has(r.r)?' active':'')+(r.locked?' locked':'')+(flipRound===r.r?' clincher':'');
   card.disabled=!!r.locked;
   card.setAttribute('aria-pressed',selected.has(r.r)?'true':'false'); card.dataset.round=String(r.r);
   const rank=$('#sort').value==='plausibility'&&!r.locked?'#'+(i+1):'R'+r.r; const e=raceEN[r.r]; const rn=(lang==='en'&&e)?e.n:r.n; const ra=(lang==='en'&&e)?e.actual:r.actual; const aggressive=r.key&&document.getElementById(r.key)&&document.getElementById(r.key).value==='p1'; const rt=(lang==='en'&&e&&!aggressive)?e.alt:r.alt; const rnote=(lang==='en'&&e)?e.note:r.note; card.style.setProperty('--race-img','url("'+(raceImages[r.r]||'')+'")'); card.style.setProperty('--race-pos',raceImagePos[r.r]||'50% 42%'); card.title=rnote; card.setAttribute('aria-label',r.f+' '+rn+'. '+(lang==='en'?'Actual ':'现实 ')+ra+'. '+rt+'. '+(lang==='en'?'Net swing ':'净 swing ')+(r.swing>0?'+':'')+r.swing);
@@ -652,6 +674,7 @@ function renderList(){
    +'<div class="cred"><small class="credlabel">'+(lang==='en'?'PLAUSIBILITY':'可信度')+'</small><div class="credbar"><i style="width:'+r.score+'%"></i></div><small>'+r.score+'</small></div>'
    +'<div class="journey"><div class="actual">'+(lang==='en'?'ACTUAL':'现实')+' · '+ra+'</div><div class="arrow">↓</div><div class="alt">'+rt+'</div></div>'
    +'<div class="note">'+rnote+'</div>'
+   +(flipRound===r.r?'<div class="clincher-badge">'+(lang==='en'?'TITLE FLIPS HERE':'冠军在这里翻转')+'</div>':'')
    +'<div class="cardbottom"><div class="type">'+r.t+'</div><div class="swing"><small>'+(lang==='en'?'NET SWING':'净 swing')+'</small><b>'+(r.swing?'+'+r.swing:'0')+'</b></div></div>';
   if(!r.locked) card.addEventListener('click',()=>{selected.has(r.r)?selected.delete(r.r):selected.add(r.r);update()});
   box.appendChild(card);
