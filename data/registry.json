@@ -4885,27 +4885,37 @@
     "city": "Maranello",
     "market": "Not public",
     "owner": "Private collection",
-    "exterior": "Team Gunston Orange with matte-black stripes and details; No. 83",
+    "exterior": "Four-layer deep VC Orange; matte-black carbon centre spine; Nero DS / Light Gold Metallic longitudinal graphics; No. 83 roundels with White King outlines",
     "color": "Orange",
-    "interior": "Black Alcantara with Super Electric Blue seats",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly confirmed",
-    "mileage": "Not public",
-    "status": "Private collection",
+    "interior": "Black Alcantara cockpit; Super Electric Blue Alcantara REVO 7305 seats and four-point belts; technical black Super Fabric Trilobato 800701-835 flooring",
+    "wheels": "Alloy wheels in matte Light Gold Metallic FYM 0357",
+    "calipers": "Carbon-ceramic brakes with alloy calipers; caliper colour not specified by source",
+    "mileage": "Registered April 2025; described as never used in the Automotive Masterpieces dossier",
+    "status": "Private collection; registered April 2025; never used per public dossier",
     "sale": "Not publicly offered",
     "program": "Ferrari Tailor Made",
     "options": [
-      "Bespoke Team Gunston orange-and-black livery",
-      "Number 83 roundels on four sides",
-      "Tribute to Ferrari 330 P4 / 350 Can-Am chassis 0858 as raced in Rhodesia",
-      "Super Electric Blue Alcantara seats"
+      "Four-layer deep VC Orange body finish",
+      "Matte-black carbon centre spine running the full length of the car",
+      "Nero DS / Light Gold Metallic longitudinal graphics",
+      "Four No. 83 roundels with White King outlines",
+      "Matte Light Gold Metallic FYM 0357 alloy wheels",
+      "Black Alcantara dashboard, centre tunnel and side panels",
+      "Super Electric Blue Alcantara REVO 7305 racing seats",
+      "Matching Super Electric Blue four-point harnesses with padded inserts",
+      "Technical black Super Fabric Trilobato 800701-835 flooring and extinguisher cover",
+      "Blue thread 1078 cabin stitching; Black thread 4000 on carpet and extinguisher",
+      "Tailor Made matte-carbon DEDI plaque with 0858 / Paul Hawkins / Team Gunston inscription",
+      "Customization package and Racing Driver Set"
     ],
     "timeline": [
-      "26 March 2025 — Displayed at Ferrari Atelier and the Ferrari factory in Maranello.",
-      "8 August 2025 — Automotive Masterpieces declaration AU-34679 issued.",
-      "5 September 2025 — RINA certificate recorded by the research dossier."
+      "26 March 2025 — Displayed at Ferrari Atelier and at the Ferrari factory in Maranello.",
+      "April 2025 — Registered; the later Automotive Masterpieces dossier describes the car as never used.",
+      "5 August 2025 — Automotive Masterpieces added a dedicated present-day photo set.",
+      "8 August 2025 — Automotive Masterpieces declaration AU-34679 issued, classifying the car as a one-off model.",
+      "5 September 2025 — RINA certificate RAM-31 recorded for the dossier's historical research and provenance validation."
     ],
-    "notes": "Automotive Masterpieces publishes the full VIN and documents this as a one-off Tailor Made specification inspired by Team Gunston's 1968 Ferrari 350 Can-Am / 330 P4 chassis 0858. It is a separate car from Ferrari's later 599+1 charity SP3.",
+    "notes": "Automotive Masterpieces publishes the full VIN and a detailed Tailor Made dossier for this one-off specification, directly inspired by Ferrari 350 Can-Am / 330 P4 chassis 0858 in Team Gunston colours at the 1968 Rhodesian Grand Prix. The dossier documents the four-layer VC Orange paint, Nero DS / Light Gold Metallic graphics, No. 83 roundels, matte-gold wheels, blue Alcantara race-seat treatment and dedicated 0858 / Paul Hawkins / Team Gunston plaque. This is a separate car from Ferrari's later 599+1 charity Daytona SP3.",
     "photos": [],
     "credits": [],
     "sources": [
@@ -4922,11 +4932,15 @@
         "https://automotivemasterpieces.com/cars/AU-34679/technical-specifications"
       ],
       [
+        "Automotive Masterpieces — photo gallery",
+        "https://automotivemasterpieces.com/cars/AU-34679/gallery"
+      ],
+      [
         "Automotive Masterpieces — declaration AU-34679",
         "https://automotivemasterpieces.com/file/2KDYyGzYVn"
       ]
     ],
-    "review_status": "2026-09-21 — Full VIN, specification and provenance dossier rechecked from public Automotive Masterpieces pages.",
+    "review_status": "2026-09-21 — Full VIN, exact Tailor Made colour/trim codes, registration status, provenance documents and the three public gallery groups rechecked from Automotive Masterpieces.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
@@ -5035,22 +5049,23 @@
     "edition": "Original 599 production",
     "country": "United States",
     "city": "Concord, North Carolina",
-    "market": "Not public",
+    "market": "United States dealer listing",
     "owner": "Not public",
     "exterior": "Not public",
     "color": "Unknown",
     "interior": "Not public",
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
-    "mileage": "Not public",
-    "status": "Public dealer listing",
+    "mileage": "Not stated in accessible dealer listing text",
+    "status": "Public Hendrick Performance listing",
     "sale": "Please Call — Hendrick Performance",
     "program": "Unknown",
     "options": [],
     "timeline": [
-      "2026 — Hendrick Performance publicly listed the car and published VIN ZFF05UMA2R0306496."
+      "2026 — Hendrick Performance publicly listed the used 2024 Daytona SP3 in Concord, North Carolina, publishing VIN ZFF05UMA2R0306496 and stock number H607086.",
+      "2026 — Made in Maranello independently indexed serial 306496 with the same complete VIN."
     ],
-    "notes": "The Hendrick Performance listing supplies the complete VIN and identifies the car as a used 2024 Daytona SP3 in Concord, North Carolina. Made in Maranello independently indexes the same VIN and chassis number.",
+    "notes": "Hendrick Performance's public listing identifies this as a used 2024 Ferrari SP3 Daytona in Concord, North Carolina, and publishes VIN ZFF05UMA2R0306496 and stock number H607086. Made in Maranello independently indexes the same VIN and chassis number. The accessible dealer text does not publish a detailed exterior/interior build sheet, so the Atlas leaves those fields unfilled rather than inferring them from generic dealer imagery.",
     "photos": [],
     "credits": [],
     "sources": [
@@ -5063,7 +5078,7 @@
         "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
       ]
     ],
-    "review_status": "2026-09-21 — Dealer VIN and independent chassis index cross-checked; detailed build specification remains unavailable.",
+    "review_status": "2026-09-21 — Dealer VIN, stock number H607086 and independent chassis index cross-checked; no unsupported build colours inferred.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 96,
@@ -5081,7 +5096,7 @@
     "edition": "Original 599 production",
     "country": "United States",
     "city": "Miami, Florida",
-    "market": "Not public",
+    "market": "United States dealer listing",
     "owner": "Not public",
     "exterior": "White",
     "color": "White",
@@ -5089,14 +5104,15 @@
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "164 miles at listing",
-    "status": "Historical dealer listing",
+    "status": "Historical The Collection Porsche dealer listing",
     "sale": "Call for price — The Collection Porsche",
     "program": "Unknown",
     "options": [],
     "timeline": [
-      "2026 — The Collection Porsche public listing identified the car with 164 miles and VIN ZFF05UMA9S0310048."
+      "2026 — The Collection Porsche public listing identified the car as a used 2025 Daytona SP3 with VIN ZFF05UMA9S0310048, stock number S0310048P and 164 miles.",
+      "2026 — Dealer listing specified a white exterior, black interior and call-for-price status."
     ],
-    "notes": "The Collection Porsche listing publishes the full VIN, white exterior, black interior and 164-mile odometer reading.",
+    "notes": "The Collection Porsche listing publishes the complete VIN, stock number S0310048P, white exterior, black interior and 164-mile odometer reading. The listing exposes only one dealer image in the accessible page, so the Atlas does not fabricate a larger gallery or infer an exact Ferrari paint/trim code from generic colour labels.",
     "photos": [],
     "credits": [],
     "sources": [
@@ -5105,7 +5121,7 @@
         "https://www.thecollectionporsche.com/used/Ferrari/2025-Ferrari-Daytona-SP3-06ab21acac18028b91c6a7b6471fdd75.htm"
       ]
     ],
-    "review_status": "2026-09-21 — The Collection Porsche listing rechecked; erroneous Maserati inventory cross-check removed. VIN, colours and 164-mile odometer are supported by the dealer page.",
+    "review_status": "2026-09-21 — The Collection Porsche listing rechecked for VIN, stock S0310048P, colours and 164-mile odometer; unrelated inventory pages are not used as VIN cross-checks.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 95,

@@ -157,6 +157,7 @@
     "Automotive Masterpieces — chassis dossier":"Automotive Masterpieces — 底盘档案",
     "Automotive Masterpieces — car history":"Automotive Masterpieces — 车辆历史",
     "Automotive Masterpieces — technical specifications":"Automotive Masterpieces — 技术规格",
+    "Automotive Masterpieces — photo gallery":"Automotive Masterpieces — 公开图库",
     "Automotive Masterpieces — declaration AU-34679":"Automotive Masterpieces — AU-34679 声明",
     "Bernards Exclusives — dealer listing":"Bernards Exclusives — 经销商挂牌",
     "Dutch Ferrari and Lamborghini Register — VIN cross-check":"荷兰 Ferrari / Lamborghini Register — VIN 交叉核对",
@@ -728,15 +729,18 @@
       edition:"Tailor Made 一次性定制规格",
       city:"马拉内罗",
       owner:"私人收藏",
-      exterior:"Team Gunston 橙色，哑光黑条纹与细节；83 号号码",
-      interior:"黑色 Alcantara，Super Electric Blue 蓝色座椅",
-      status:"私人收藏",
+      exterior:"四层深色 VC Orange；哑光黑碳纤维中央脊线；Nero DS / Light Gold Metallic 纵向图形；White King 外框的 83 号号码圆标",
+      interior:"黑色 Alcantara 座舱；Super Electric Blue Alcantara REVO 7305 座椅与四点式安全带；黑色 Super Fabric Trilobato 800701-835 地板",
+      wheels:"哑光 Light Gold Metallic FYM 0357 合金轮毂",
+      calipers:"碳陶瓷刹车搭配合金卡钳；来源未注明卡钳颜色",
+      mileage:"2025 年 4 月注册；Automotive Masterpieces 档案称车辆从未使用",
+      status:"私人收藏；2025 年 4 月注册；公开档案称从未使用",
       sale:"未公开出售",
       program:"Ferrari Tailor Made 定制",
-      options:["Team Gunston 橙黑一次性定制涂装","车身四面均有 83 号圆形号码","致敬 1968 年 Rhodesia 赛事中的 Ferrari 330 P4 / 350 Can-Am 底盘 0858","Super Electric Blue Alcantara 座椅"],
-      timeline:["2025 年 3 月 26 日 — 在 Ferrari Atelier 及 Maranello Ferrari 工厂展示。","2025 年 8 月 8 日 — Automotive Masterpieces 发布 AU-34679 声明。","2025 年 9 月 5 日 — 研究档案记录 RINA 认证。"],
-      notes:"Automotive Masterpieces 公开完整 VIN，并将其记录为 Ferrari Tailor Made 的一次性定制规格，灵感来自 Team Gunston 的 1968 Ferrari 350 Can-Am / 330 P4 底盘 0858。该车与后来的 599+1 慈善 SP3 是不同实车。",
-      review_status:"2026-09-21 — 已复核 Automotive Masterpieces 公开页面中的完整 VIN、配置及来源历史。"
+      options:["四层深色 VC Orange 车漆","贯穿全车的哑光黑碳纤维中央脊线","Nero DS / Light Gold Metallic 纵向图形","四个带 White King 外框的 83 号号码圆标","哑光 Light Gold Metallic FYM 0357 合金轮毂","黑色 Alcantara 仪表台、中控通道与侧面板","Super Electric Blue Alcantara REVO 7305 赛车座椅","同色 Super Electric Blue 四点式安全带及软垫","黑色 Super Fabric Trilobato 800701-835 地板与灭火器罩","Blue 1078 座舱缝线；地毯与灭火器使用 Black 4000 缝线","专属哑光碳纤维 DEDI 铭牌，刻有 0858 / Paul Hawkins / Team Gunston 致敬文字","Customization package 与 Racing Driver Set"],
+      timeline:["2025 年 3 月 26 日 — 在 Ferrari Atelier 及 Maranello Ferrari 工厂展示。","2025 年 4 月 — 车辆注册；后续 Automotive Masterpieces 档案称其从未使用。","2025 年 8 月 5 日 — Automotive Masterpieces 增加独立现状图库。","2025 年 8 月 8 日 — 发布 AU-34679 声明，并将该车归类为 one-off model。","2025 年 9 月 5 日 — 档案记录 RINA RAM-31 认证，用于历史研究与 provenance 验证。"],
+      notes:"Automotive Masterpieces 公开完整 VIN 及详细 Tailor Made 档案，确认该一次性定制直接致敬 1968 Rhodesian Grand Prix 中 Team Gunston 涂装的 Ferrari 350 Can-Am / 330 P4 底盘 0858。档案明确记录四层 VC Orange、Nero DS / Light Gold Metallic 图形、83 号号码圆标、哑光浅金轮毂、蓝色 Alcantara 赛车座椅以及专属 0858 / Paul Hawkins / Team Gunston 铭牌。该车与后来的 599+1 慈善 Daytona SP3 是不同实车。",
+      review_status:"2026-09-21 — 已复核 Automotive Masterpieces 的完整 VIN、精确 Tailor Made 色彩／内饰代码、注册状态、provenance 文件及三组公开图库。"
     },
     "SP3-319387-ROSSO-TAORMINA":{
       title:"Rosso Taormina / Rosso FX — Bernards",
@@ -753,21 +757,24 @@
     "SP3-306496-HENDRICK":{
       title:"底盘 306496 — Hendrick Performance",
       city:"北卡罗来纳州 Concord",
-      status:"公开经销商挂牌",
+      market:"美国经销商挂牌",
+      mileage:"公开经销商页面正文未注明",
+      status:"Hendrick Performance 公开挂牌",
       sale:"请询价 — Hendrick Performance",
-      timeline:["2026 年 — Hendrick Performance 公开挂牌，并公布完整 VIN ZFF05UMA2R0306496。"],
-      notes:"Hendrick Performance 挂牌页提供完整 VIN，并将该车列为位于北卡罗来纳州 Concord 的二手 2024 Daytona SP3。Made in Maranello 的独立底盘索引列出同一 VIN 与底盘号。",
-      review_status:"2026-09-21 — 已交叉核对经销商 VIN 与独立底盘索引；详细 build specification 尚未公开。"
+      timeline:["2026 年 — Hendrick Performance 在北卡罗来纳州 Concord 公开挂牌这辆二手 2024 Daytona SP3，公布 VIN ZFF05UMA2R0306496 与库存号 H607086。","2026 年 — Made in Maranello 独立底盘索引以相同完整 VIN 记录 serial 306496。"],
+      notes:"Hendrick Performance 公开挂牌将该车列为位于北卡罗来纳州 Concord 的二手 2024 Ferrari SP3 Daytona，并公布 VIN ZFF05UMA2R0306496 与库存号 H607086。Made in Maranello 独立列出同一 VIN 与底盘号。可访问的经销商正文没有公布详细外观／内饰 build sheet，因此本站不根据通用经销商图片推断配色。",
+      review_status:"2026-09-21 — 已交叉核对经销商 VIN、库存号 H607086 与独立底盘索引；不推断未获来源支持的 build colours。"
     },
     "SP3-310048-MIAMI":{
       title:"White / Black — The Collection Miami",
       city:"佛罗里达州迈阿密",
+      market:"美国经销商挂牌",
       mileage:"挂牌时 164 miles",
-      status:"历史经销商挂牌",
+      status:"The Collection Porsche 历史经销商挂牌",
       sale:"询价 — The Collection Porsche",
-      timeline:["2026 年 — The Collection Porsche 公开挂牌，记录 164 miles 里程及 VIN ZFF05UMA9S0310048。"],
-      notes:"The Collection Porsche 挂牌公开完整 VIN、白色外观、黑色内饰及 164 miles 里程。",
-      review_status:"2026-09-21 — 已重新核验 The Collection Porsche 挂牌，并删除错误的 Maserati 库存 cross-check；VIN、配色与 164 miles 里程均由经销商页面支持。"
+      timeline:["2026 年 — The Collection Porsche 公开挂牌将该车列为二手 2025 Daytona SP3，公布 VIN ZFF05UMA9S0310048、库存号 S0310048P 与 164 miles 里程。","2026 年 — 经销商页面注明白色外观、黑色内饰及询价状态。"],
+      notes:"The Collection Porsche 挂牌公开完整 VIN、库存号 S0310048P、白色外观、黑色内饰及 164 miles 里程。可访问页面只暴露一张经销商图片，因此本站不虚构更大的图库，也不从通用颜色标签推断精确 Ferrari 漆色／内饰代码。",
+      review_status:"2026-09-21 — 已重新核验 The Collection Porsche 挂牌中的 VIN、库存号 S0310048P、配色与 164 miles 里程；不再使用无关库存页面作为 VIN cross-check。"
     },
     "SP3-AMARI-ROSSO-MAGMA":{
       title:"Rosso Magma / Blu Elettrico — AMARI",
