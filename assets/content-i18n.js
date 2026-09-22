@@ -67,7 +67,6 @@
     "Not offered publicly":"未公开出售",
     "Not publicly offered":"未公开出售",
     "Delivery mileage":"交付里程",
-    "Historical v3; not rechecked in this update":"历史 v3 条目；本次更新未重新核验",
     "Auction result rechecked 2026-09-21":"2026-09-21 已重新核验拍卖结果",
     "Source rechecked 2026-09-21":"2026-09-21 已重新核验来源",
     "Yellow":"黄色",
@@ -354,7 +353,7 @@
       exterior:"Blu America（社区报告）",
       status:"社区目击记录",
       notes:"仅作为研究线索保留。升级为正式车档前，需要独立 VIN／来源确认。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 来源标签与元数据已标准化；在取得独立 VIN／来源确认前，仍保留为社区研究线索。"
     },
     "SP3-CHARLES-LECLERC":{
       title:"Charles Leclerc — 摩纳哥 16 号",
@@ -399,7 +398,8 @@
       options:["25 号赛车圆形号码贴","灰色复古赛车风格细节","据报道为手绘 Cavallino 盾徽","碳纤维车顶","Blu Alcantara 座舱"],
       timeline:["2023 年 6 月 — 据报道交付至 Ferrari Hatfield。","2025 年 2 月 — 首次被广泛报道在伦敦餐厅外公开驾驶。"],
       notes:"25 号的确切含义尚未被公开确认。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验车主关系、伦敦公开目击以及 Bianco Cervino／Blu Alcantara 配置报道；VIN 仍未公开。",
+      photo_captions:["伦敦公开驾驶 · Bianco Cervino 配置"]
     },
     "SP3-CRISTIANO-RONALDO":{
       title:"Cristiano Ronaldo — Rosso Magma",
@@ -441,7 +441,7 @@
       status:"主流媒体确认私人持有",
       timeline:["2023 年 — 在西班牙南部 Supercar Owners Circle 活动中驾驶。"],
       notes:"《The New Yorker》确认了车主国籍与行业，但有意未公开姓名。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验《The New Yorker》的 SOC 报道；来源有意未公开车主姓名，VIN 亦不可得。"
     },
     "SP3-CARRIO-BIANCO-ITALIA":{
       title:"Bianco Italia / Rosso Ferrari — Carrio",
@@ -477,7 +477,8 @@
       options:["23 号圆形号码贴","浅蓝色车头面板","哑光蓝轮毂","据报道，涂装灵感来自 1967 Le Mans 的 Maranello Concessionaires 412 P"],
       timeline:["2025 年 5 月 31 日 — 在 Greenwich Concours d’Elegance 被拍摄。"],
       notes:"照片作者为 Wikimedia Commons 用户 Mr.choppers，许可为 CC BY-SA 4.0。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验 Wikimedia 活动照片、日期、颜色描述与许可信息；VIN 与车主仍未公开。",
+      photo_captions:["2025 Greenwich Concours · 左前视角"]
     },
     "SP3-HK-GREEN-JEWEL":{
       title:"Green Jewel — 香港展示",
@@ -490,7 +491,7 @@
       options:["Green Jewel 外观","古铜色轮毂","红色内饰"],
       timeline:["2026 年 7 月 — 在湾仔一家咖啡店展示时被拍摄。"],
       notes:"近期社区目击记录。在公开 VIN、车主或交付来源之前，证据等级低于经销商／官方记录。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验 2026 年 7 月香港公开目击；车辆身份仍未与 VIN 或交付文件建立唯一对应。"
     },
     "SP3-BLU-TORRICE-LEAD":{
       title:"Blu Torrice Tailor Made — 公开目击线索",
@@ -502,7 +503,7 @@
       status:"社区目击记录",
       timeline:["2024 年 6 月 — 社区公开照片开始传播。"],
       notes:"公开讨论对漆色识别存在争议，因此本站有意将精确工厂颜色标记为不确定。",
-      review_status:"历史 v3 条目；本次更新未重新核验"
+      review_status:"2026-09-21 — 已重新核验社区目击讨论；漆色识别仍有争议，VIN／车主仍未确认。"
     },
     "SP3-POWERSLIDELOVER":{
       title:"@powerslidelover — Verde Pallido",
