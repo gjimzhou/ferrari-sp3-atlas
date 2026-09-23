@@ -29,7 +29,7 @@
 | `assets/content-i18n.js` | 逐车研究字段的展示层双语翻译；不改写 canonical JSON |
 | `assets/data.js` | 构建生成的静态数据包，不手动编辑 |
 | `assets/photos/` | 历史版本继承的图片；版权归原权利人 |
-| `scripts/validate.py` | 数据契约、VIN、来源、媒体与页面计数验证 |\n| `data/schema/registry.schema.json` | Registry 数据契约；新增字段先进入 schema |\n| `docs/DATA_MODEL.md` | 数据模型、证据层级与演进规则 |
+| `scripts/validate.py` | 数据契约、VIN、来源、媒体与页面计数验证 |\n| `scripts/audit_links.py` | 手动检查 canonical source link health；区分反爬与真实 404/410 |\n| `data/schema/registry.schema.json` | Registry 数据契约；新增字段先进入 schema |\n| `docs/DATA_MODEL.md` | 数据模型、证据层级与演进规则 |
 | `docs/PUBLIC_SOURCES.md` | 来源目录与研究规则 |
 | `docs/RESEARCH_LOG.md` | 本轮更新、去重边界与后续工作 |
 | `sp3_atlas.html` / `sp3_atlas_v2.html` | 保留的历史快照，数据不会自动更新 |
