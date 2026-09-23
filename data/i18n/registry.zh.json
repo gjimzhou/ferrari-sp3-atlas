@@ -3366,5 +3366,30 @@
     ],
     "notes": "Biluppgifter 公开将瑞典车牌 MDD02R 对应到完整 VIN ZFF05UMB000306477，并识别为绿色 2024 Ferrari Daytona SP3。公开车辆记录显示两名瑞典登记持有人、2024 年 8 月 28 日首次登记、8 月 31 日在瑞典上路，以及 2025 年 11 月 11 日最近一次持有人变更。本站不复录私人持有人身份，也不从通用颜色字段推断原厂精确漆色／内饰代码。",
     "review_status": "2026-09-23 — 已从瑞典公开车辆数据复核完整 VIN、MDD02R 车牌、绿色、登记时间线及两名持有人数量。"
+  },
+  "SP3-ANA-LUX-CARBON-BERLIN": {
+    "title": "Full Carbon Fibre／Carbon Gloss — 柏林 off-market 线索",
+    "edition": "原始 599 辆客户生产序列；无唯一 VIN 身份的 off-market 经销／中介线索",
+    "country": "德国",
+    "city": "德国柏林",
+    "market": "私人收藏／off-market 挂牌",
+    "owner": "私人收藏家；身份未公开",
+    "exterior": "Full Carbon Fibre 全碳纤维配置，Carbon Gloss 表面",
+    "interior": "未公开记录",
+    "wheels": "未公开记录",
+    "calipers": "未公开记录",
+    "mileage": "未公开",
+    "status": "2026 年 9 月 4 日发布的 off-market 私人出售挂牌",
+    "sale": "价格面议",
+    "program": "未公开记录",
+    "options": [
+      "Full Carbon Fibre 全碳纤维配置",
+      "Carbon Gloss 表面"
+    ],
+    "timeline": [
+      "2026 年 9 月 4 日 — Dyler 发布 Ana LUX 柏林 off-market 2024 Daytona SP3 挂牌，称车辆由私人收藏家直接出售。"
+    ],
+    "notes": "公开挂牌描述一辆位于柏林的 2024 Daytona SP3，采用 Full Carbon Fibre 全碳纤维配置及 Carbon Gloss 表面，并由私人收藏家直接出售。页面未公开 VIN、底盘、里程、车牌或座舱配置。挂牌营销图不作为实车纪录照片使用；本站也不会仅凭外观或通用配置与任何已有裸碳 SP3 强行合并。",
+    "review_status": "2026-09-23 — 已复核公开 off-market 挂牌中的年份、柏林地点及 Full Carbon Fibre／Carbon Gloss 描述；在获得唯一车辆身份前保留为 market lead。"
   }
 }

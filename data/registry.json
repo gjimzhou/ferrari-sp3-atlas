@@ -6417,8 +6417,8 @@
       "SVR anti-theft system with card"
     ],
     "timeline": [
-      "2025 — UK-supplied example registered LJ25 VJC; dealer and syndicated listings publish VIN ZFF05UMB000319132.",
-      "By September 2026 — Jeremy Cottingham's public stock page showed 88 miles and marked the car SOLD."
+      "2025 — UK-supplied example registered LJ25VJC; Jeremy Cottingham publishes complete VIN ZFF05UMB000319132.",
+      "By September 2026 — Jeremy Cottingham's current public stock page showed 88 miles and marked the car SOLD."
     ],
     "notes": "Jeremy Cottingham's dealer page publishes the complete VIN, 88-mile odometer reading and a detailed personalization sheet. Octane Marketplace and Classic Driver syndicate the same chassis, mileage and specification. The source text inconsistently spells some Ferrari colour labels as “Blu Electrico” / “Blu Eletrico”; the Atlas standardizes the display spelling to Blu Elettrico while retaining the published trim/livery codes 6479 and 605116.",
     "photos": [
@@ -6496,15 +6496,16 @@
       }
     ],
     "sources": [
-      "SRC-988BA3F7",
+      "SRC-D28FE0E0",
       "SRC-ED5D07DE",
       "SRC-5510B3D1"
     ],
-    "review_status": "2026-09-21 — Full VIN, mileage, specification sheet and 12-image public dealer gallery cross-checked across the dealer page and syndicated listings.",
+    "review_status": "2026-09-23 — Current Jeremy Cottingham dealer page rechecked for VIN, UK registration LJ25VJC, 88-mile odometer and personalization specification; syndicated gallery retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-23",
+    "registration": "LJ25VJC"
   },
   {
     "id": "SP3-276831-GOODWOOD",
@@ -8567,6 +8568,45 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 87,
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "SP3-ANA-LUX-CARBON-BERLIN",
+    "title": "Full Carbon Fibre / Carbon Gloss — Berlin off-market lead",
+    "tier": "dealer",
+    "year": 2024,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production; off-market dealer/broker lead without unique VIN identity",
+    "country": "Germany",
+    "city": "Berlin, Germany",
+    "market": "Private collector / off-market listing",
+    "owner": "Private collector; identity not public",
+    "exterior": "Full Carbon Fibre specification with Carbon Gloss finish",
+    "color": "Black",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Off-market private-sale listing published 4 September 2026",
+    "sale": "Price on request",
+    "program": "Not publicly documented",
+    "options": [
+      "Full Carbon Fibre specification",
+      "Carbon Gloss finish"
+    ],
+    "timeline": [
+      "4 September 2026 — Dyler published an Ana LUX off-market Berlin listing for a 2024 Daytona SP3 offered directly from a private collector."
+    ],
+    "notes": "The public listing describes a 2024 Daytona SP3 in Berlin with a Full Carbon Fibre specification and Carbon Gloss finish, offered directly from a private collector. VIN, chassis, mileage, registration and cabin specification are not published. The promotional listing image is not treated as documentary vehicle photography, and the Atlas does not merge this record with any existing exposed-carbon SP3 solely from appearance or generic specification.",
+    "photos": [],
+    "sources": [
+      "SRC-AD36128C"
+    ],
+    "review_status": "2026-09-23 — Public off-market listing reviewed for year, Berlin location and Full Carbon Fibre / Carbon Gloss description; retained as a market lead pending unique vehicle identity.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 66,
     "accessed": "2026-09-23"
   }
 ]

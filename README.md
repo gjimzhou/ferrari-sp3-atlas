@@ -8,7 +8,7 @@
 
 ## 当前覆盖（2026-09-22）
 
-- **138 条有来源的研究记录**：66 个详细车档、70 条待核对线索、2 辆预生产／研发车。近期更新补入 2025 Ferrari Tribute 1000 Miglia、Cavalcade Siviglia，以及 2022–2024 Goodwood、2023 Finali Mondiali、2024–2025 Sport & Collection、2025 Hampton Court，以及 2026 Cavallino Classic 的 chassis-specific 活动记录，同时继续将单源 VIN／活动记录与多源详细车档分层。
+- **139 条有来源的研究记录**：66 个详细车档、71 条待核对线索、2 辆预生产／研发车。近期更新补入 2025 Ferrari Tribute 1000 Miglia、Cavalcade Siviglia，以及 2022–2024 Goodwood、2023 Finali Mondiali、2024–2025 Sport & Collection、2025 Hampton Court，以及 2026 Cavallino Classic 的 chassis-specific 活动记录，同时继续将单源 VIN／活动记录与多源详细车档分层。
 - **503 个 ECR 公开档案索引**：由公开车型搜索 21 页结果去重所得，保存链接、缩略图引用和国家旗标。没有复制登录后字段。
 - **507 条图库图片引用，覆盖 81 条记录**：新增 Rosso Taormina 10 张 Bernards 原图、AMARI dealer 图与 Miller 14-car gathering 现场图；合影和外部预览仍不等同于独立高清实车数量。
 - **42 个已确认完整公开 VIN + 1 条来源冲突 VIN lead**：构建时验证格式及唯一性；source-conflict VIN 不计入首页确认 VIN KPI。只有证据较强的 VIN 进入 detailed profiles，其余保持 lead。

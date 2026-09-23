@@ -171,3 +171,10 @@
 - Added **ZFF05UMB000306477 / plate MDD02R**, a green 2024 Daytona SP3, from public Swedish vehicle records.
 - Public timeline: first registration **28 August 2024**, Swedish traffic entry **31 August 2024**, latest holder change **11 November 2025**, two registered holders total, and in-traffic status in the latest public history.
 - Private holder identities are intentionally not reproduced; no exact Ferrari paint or interior code is inferred from the generic green colour field.
+
+
+## 2026-09-23 · Dealer-source refresh and Berlin carbon lead
+
+- Refreshed **ZFF05UMB000319132** to Jeremy Cottingham's current dealer URL and recorded public UK registration **LJ25VJC**; 88-mile SOLD status and detailed personalization remain unchanged.
+- Added a low-level Berlin market lead for a **2024 Full Carbon Fibre / Carbon Gloss Daytona SP3** offered off-market through Ana LUX / Dyler.
+- The Berlin listing publishes no VIN/chassis/mileage/registration. Its promotional image is not used as documentary car photography, and no merge is attempted with other exposed-carbon SP3s.

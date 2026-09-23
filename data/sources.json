@@ -784,13 +784,6 @@
     "url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218"
   },
   {
-    "id": "SRC-988BA3F7",
-    "label": "Jeremy Cottingham — dealer listing",
-    "publisher": "Jeremy Cottingham",
-    "description": "dealer listing",
-    "url": "https://jeremycottingham20210902-home-slider.azurewebsites.net/stock/2025-ferrari-daytona-sp3/13709"
-  },
-  {
     "id": "SRC-99E5D302",
     "label": "Exclusive Car Registry — public profile",
     "publisher": "Exclusive Car Registry",
@@ -887,6 +880,13 @@
     "publisher": "Cavallino",
     "description": "Palm Beach 2026 official program",
     "url": "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
+  },
+  {
+    "id": "SRC-AD36128C",
+    "label": "Dyler / Ana LUX — Berlin full-carbon Daytona SP3 off-market listing",
+    "publisher": "Dyler / Ana LUX",
+    "description": "Berlin full-carbon Daytona SP3 off-market listing",
+    "url": "https://dyler.com/cars/ferrari/daytona-for-sale/2024/499567/ferrari-daytona-sp3-2024-black-for-sale"
   },
   {
     "id": "SRC-B2C5E2E0",
@@ -1041,6 +1041,13 @@
     "publisher": "Jeremy Cottingham",
     "description": "dealer listing",
     "url": "https://jeremycottingham.com/stock/2023-ferrari-daytona-sp3/13707"
+  },
+  {
+    "id": "SRC-D28FE0E0",
+    "label": "Jeremy Cottingham — dealer listing",
+    "publisher": "Jeremy Cottingham",
+    "description": "dealer listing",
+    "url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709"
   },
   {
     "id": "SRC-D2AD4385",
