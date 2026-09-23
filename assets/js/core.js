@@ -33,7 +33,8 @@ export function validate(input){
   if(!Array.isArray(r.photos))throw Error(r.id+' 的 photos 必须为数组');
   item.photos=r.photos.map((photo,i)=>{
    if(typeof photo==='string'){
-    const source=r.photo_sources?.[i]||r.sources?.[0]?.[1]||'';
+    const firstSource=Array.isArray(r.sources?.[0])?r.sources[0][1]:'';
+    const source=r.photo_sources?.[i]||firstSource||'';
     return {url:photo,source_url:source,caption:r.photo_captions?.[i]||'',credit:r.credits?.[i]||''};
    }
    if(!photo||typeof photo!=='object'||Array.isArray(photo))throw Error(r.id+' 存在无效图片对象');
@@ -41,7 +42,10 @@ export function validate(input){
    if(!safeURL(media.url,true)||!safeURL(media.source_url))throw Error(r.id+' 存在无效图片地址或来源');
    return media;
   });
-  if(!Array.isArray(r.sources)||!r.sources.length||r.sources.some(s=>!Array.isArray(s)||s.length!==2||typeof s[0]!=='string'||!safeURL(s[1])))throw Error(r.id+' 缺少有效来源链接');
+  if(!Array.isArray(r.sources)||!r.sources.length)throw Error(r.id+' 缺少有效来源链接');
+  if(r.sources.some(s=>typeof s!=='string'&&!Array.isArray(s)))throw Error(r.id+' 存在无效来源引用');
+  if(r.sources.some(s=>typeof s==='string'&&!/^SRC-[0-9A-F]{8}$/.test(s)))throw Error(r.id+' 存在无效 source ID');
+  if(r.sources.some(s=>Array.isArray(s)&&(s.length!==2||typeof s[0]!=='string'||!safeURL(s[1]))))throw Error(r.id+' 存在无效旧版来源引用');
   item.sources=r.sources;
   if(r.sale_event){const e=r.sale_event;if(e.type!=='auction_result'||!Number.isFinite(e.amount)||e.amount<=0||!['USD','CHF','EUR','GBP'].includes(e.currency)||!safeURL(e.source_url))throw Error(r.id+' 拍卖结果字段无效');item.sale_event={type:e.type,amount:e.amount,currency:e.currency,event:String(e.event||''),source_url:e.source_url,basis:String(e.basis||'')};}
   item.vin_conflicted=r.vin_conflicted===true;
