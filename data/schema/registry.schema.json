@@ -172,18 +172,8 @@
         "type": "array",
         "minItems": 1,
         "items": {
-          "type": "array",
-          "prefixItems": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "string",
-              "pattern": "^https://"
-            }
-          ],
-          "minItems": 2,
-          "maxItems": 2
+          "type": "string",
+          "pattern": "^SRC-[0-9A-F]{8}$"
         }
       },
       "review_status": {

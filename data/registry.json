@@ -168,26 +168,11 @@
       }
     ],
     "sources": [
-      [
-        "RM Sotheby's — auction catalogue",
-        "https://rmsothebys.com/auctions/mo25/lots/r0035-2025-ferrari-daytona-sp3-tailor-made/"
-      ],
-      [
-        "Ferrari — official announcement",
-        "https://www.ferrari.com/en-EN/corporate/articles/ferrari-unveils-an-exclusive-tailor-made-daytona-sp3"
-      ],
-      [
-        "Ferrari — auction result",
-        "https://www.ferrari.com/en-EN/articles/ferrari-daytona-sp3-auction"
-      ],
-      [
-        "duPont REGISTRY — public buyer identification",
-        "https://news.dupontregistry.com/blogs/auctions/revealed-the-enigmatic-billionaire-who-bought-one-off-ferrari-daytona-sp3-for-26-million"
-      ],
-      [
-        "duPont REGISTRY — Miller Motorcars 14-car gathering",
-        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-brings-together-14-ferrari-daytona-sp3-hypercars-in-rare-historic-gathering"
-      ]
+      "SRC-B95E19B6",
+      "SRC-C24F43EE",
+      "SRC-D3D4AC18",
+      "SRC-542E77C5",
+      "SRC-3A80513F"
     ],
     "review_status": "2026-09-21 — Auction record retained; March 2026 Miller Motorcars gathering added from public coverage.",
     "record_kind": "profile",
@@ -432,10 +417,7 @@
       }
     ],
     "sources": [
-      [
-        "RM Sotheby's — auction catalogue",
-        "https://rmsothebys.com/auctions/id25/lots/r0019-2024-ferrari-daytona-sp3/"
-      ]
+      "SRC-CF039C10"
     ],
     "review_status": "2026-09-22 — RM Sotheby's chassis, engine, gearbox, registration, delivery history, mileage, options and CHF 5,348,750 published result rechecked.",
     "record_kind": "profile",
@@ -784,14 +766,8 @@
       }
     ],
     "sources": [
-      [
-        "RM Sotheby's — Monterey 2026 catalogue",
-        "https://rmsothebys.com/auctions/mo26/lots/v0003-2023-ferrari-daytona-sp3/"
-      ],
-      [
-        "Exclusive Car Registry — profile 70568 (deduplicated alias)",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/70568"
-      ]
+      "SRC-7A3626EE",
+      "SRC-62F7B64B"
     ],
     "review_status": "2026-09-22 — RM Sotheby's chassis, engine number, US title, delivery/service history, mileage, options and US$17,825,000 published result rechecked.",
     "record_kind": "profile",
@@ -873,22 +849,10 @@
       }
     ],
     "sources": [
-      [
-        "Broad Arrow — auction listing",
-        "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3"
-      ],
-      [
-        "Ultimatecarpage — chassis record",
-        "https://www.ultimatecarpage.com/chassis/4941/Ferrari-Daytona-SP3-286921.html"
-      ],
-      [
-        "Barchetta — pre-auction chassis photo record",
-        "https://barchetta.mediacenter.plus/?i=6381773"
-      ],
-      [
-        "Barchetta — auction-result chassis photo record",
-        "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc?i=6389008"
-      ]
+      "SRC-78B126B7",
+      "SRC-250CCA7F",
+      "SRC-2A95F036",
+      "SRC-F5A48801"
     ],
     "review_status": "2026-09-21 — Full VIN, specification, auction result, Classiche/registration documentation and two chassis-specific Barchetta image records rechecked.",
     "record_kind": "profile",
@@ -954,18 +918,9 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari — editorial",
-        "https://www.ferrari.com/en-EN/magazine/articles/inspired-by-the-past-piero-ferrari-sp3"
-      ],
-      [
-        "Driven Car Guide — Piero Ferrari feature",
-        "https://www.drivencarguide.co.nz/news/piero-ferraris-bespoke-daytona-sp3-is-a-tribute-to-enzo/"
-      ],
-      [
-        "duPont REGISTRY — Piero Ferrari livery feature",
-        "https://news.dupontregistry.com/blogs/ferrari-news/piero-ferrari-daytona-sp3-livery"
-      ]
+      "SRC-506B8E7B",
+      "SRC-8094A687",
+      "SRC-05A20C79"
     ],
     "review_status": "2026-09-21 — Ferrari editorial story and republished Ferrari Magazine imagery rechecked; VIN and exact paint codes remain private.",
     "record_kind": "profile",
@@ -1047,10 +1002,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari Beverly Hills feature",
-        "https://news.dupontregistry.com/ferrari/daytona-sp3/ferrari-of-beverly-hills-delivers-an-exclusive-rame-scuro-lucido-daytona-sp3/"
-      ]
+      "SRC-692FEB6A"
     ],
     "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
@@ -1116,10 +1068,7 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari — Seattle friends editorial",
-        "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s"
-      ]
+      "SRC-EC1BCAA5"
     ],
     "review_status": "2026-09-21 — Ferrari 官方文章与照片复核。",
     "record_kind": "profile",
@@ -1187,10 +1136,7 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari — Seattle friends editorial",
-        "https://www.ferrari.com/en-EN/magazine/articles/friends-order-tailor-made-daytona-sp3s"
-      ]
+      "SRC-EC1BCAA5"
     ],
     "review_status": "2026-09-21 — Ferrari 官方文章与照片复核。",
     "record_kind": "profile",
@@ -1344,26 +1290,11 @@
       }
     ],
     "sources": [
-      [
-        "Luxury Pulse — dealer listing summary",
-        "https://luxurypulse.com/sales/show/6078-ferrari-daytona-sp3-for-sale"
-      ],
-      [
-        "F1rst Motors — dealer’s own article",
-        "https://f1rstmotors.com/news/our-daytona-sp3-is-signed-by-leclerc-and-sainz"
-      ],
-      [
-        "ANSA — BP Green F1-signed Dubai listing",
-        "https://www.ansa.it/amp/canale_motori/notizie/mondo_motori/2025/02/12/in-vendita-a-dubai-ferrari-firmata-da-sainz-jr.-e-leclerc_6abb61d3-dd77-4143-8663-5f09c388a721.html"
-      ],
-      [
-        "Top Gear — BP Green F1-signed Dubai listing",
-        "https://www.topgear.com/car-news/used-cars/fancy-a-ferrari-daytona-sp3-heres-one-signed-charles-leclerc-and-carlos-sainz"
-      ],
-      [
-        "Rapid Rides NL — BP Green Netherlands history",
-        "https://www.rapidrides.nl/2025/11/nieuwe-ferrari-daytona-sp3-op-nederlands-kenteken.html"
-      ]
+      "SRC-791F3D59",
+      "SRC-21E1A294",
+      "SRC-5749750C",
+      "SRC-85349BEA",
+      "SRC-E69BEA17"
     ],
     "review_status": "2026-09-21 — Re-separated from chassis 291269 after image/specification reconciliation: black cabin/no No. 16 roundels versus 291269's red cabin/No. 16 roundels. BP Green VIN remains unconfirmed.",
     "record_kind": "profile",
@@ -1397,10 +1328,7 @@
     "notes": "A research lead only. It requires independent VIN/source confirmation before being upgraded.",
     "photos": [],
     "sources": [
-      [
-        "Instagram — Daytona SP3 Registry community lead",
-        "https://www.instagram.com/daytona.sp3_registry/"
-      ]
+      "SRC-C8666804"
     ],
     "review_status": "2026-09-21 — Source label and metadata standardized; retained as a community lead pending independent VIN/source confirmation.",
     "record_kind": "lead",
@@ -1464,10 +1392,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/118417"
-      ]
+      "SRC-51D56A93"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -1532,10 +1457,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79530"
-      ]
+      "SRC-26C6C11B"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -1600,10 +1522,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75890"
-      ]
+      "SRC-F48A63C2"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -1668,10 +1587,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91676"
-      ]
+      "SRC-ED7A954E"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -1736,10 +1652,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/66577"
-      ]
+      "SRC-F0995746"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -1804,10 +1717,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/30308"
-      ]
+      "SRC-BEF46F27"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -1904,18 +1814,9 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Leclerc delivery and specification",
-        "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar"
-      ],
-      [
-        "Carscoops — Leclerc Ferrari feature",
-        "https://www.carscoops.com/2024/09/charles-leclerc-shows-off-his-new-monaco-themed-ferrari-daytona-sp3/"
-      ],
-      [
-        "Ferrari — Leclerc custom-car video",
-        "https://www.youtube.com/watch?v=g2FGkhxZd48"
-      ]
+      "SRC-BB6FB9DE",
+      "SRC-E7E4DB7E",
+      "SRC-727A2990"
     ],
     "review_status": "2026-09-21 — Delivery/specification sources and public Monaco gallery rechecked; VIN remains private.",
     "record_kind": "profile",
@@ -1993,22 +1894,10 @@
       }
     ],
     "sources": [
-      [
-        "Znews — delivery and detailed specification",
-        "https://znews.vn/carlos-sainz-jr-nhan-sieu-xe-daytona-sp3-truoc-khi-roi-ferrari-post1521065.html"
-      ],
-      [
-        "The Times — Sainz discusses his collection",
-        "https://www.thetimes.com/life-style/driving/article/carlos-sainz-jr-formula-one-williams-cars-mp5j6mzss"
-      ],
-      [
-        "The Supercar Blog — owner report and image",
-        "https://www.thesupercarblog.com/ex-ferrari-f1-driver-carlos-sainz-takes-delivery-of-a-4-million-daytona-sp3/"
-      ],
-      [
-        "duPont REGISTRY — Sainz delivery",
-        "https://news.dupontregistry.com/blogs/ferrari-news/carlos-sainz-jr-delivery-of-his-new-3m-daytona-sp3"
-      ]
+      "SRC-ECB24243",
+      "SRC-055BAC0E",
+      "SRC-31445D00",
+      "SRC-25872DB5"
     ],
     "review_status": "2026-09-21 — Delivery sources, Tailor Made details and public delivery image rechecked; VIN remains private.",
     "record_kind": "profile",
@@ -2063,18 +1952,9 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — David Lee and Jay Leno",
-        "https://news.dupontregistry.com/blogs/jay-lenos-garage/jay-leno-reviews-david-lees-ferrari-daytona-sp3"
-      ],
-      [
-        "RM Sotheby's — owner identified in editorial",
-        "https://rmsothebys.com/stories/a-class-of-its-own/"
-      ],
-      [
-        "duPont REGISTRY — David Lee collector profile",
-        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-collector-david-lee-takes-delivery-of-his-green-carbon-daytona-sp3"
-      ]
+      "SRC-CA2899D5",
+      "SRC-2FAB6854",
+      "SRC-0F861831"
     ],
     "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
@@ -2137,22 +2017,10 @@
       }
     ],
     "sources": [
-      [
-        "Luxurylaunches — exterior and interior specification",
-        "https://luxurylaunches.com/transport/gordon-ramsay-ferrari-daytona-sp3-18022025.php"
-      ],
-      [
-        "The Scottish Sun — delivery timing and public sighting",
-        "https://www.thescottishsun.co.uk/tvandshowbiz/14365358/gordon-ramsay-adds-ferrari-to-supercar-collection/"
-      ],
-      [
-        "Autogespot — Gordon Ramsay London sighting",
-        "https://www.autogespot.com/gordon-ramsay-turns-heads-in-london-with-his-ferrari-daytona-sp3"
-      ],
-      [
-        "Znews — Gordon Ramsay London photo gallery",
-        "https://znews.vn/can-canh-sieu-xe-ferrari-daytona-sp3-cua-dau-bep-gordon-ramsay-post1542994.html"
-      ]
+      "SRC-8AA7A1E2",
+      "SRC-2F40E21B",
+      "SRC-C1A89687",
+      "SRC-16E30660"
     ],
     "review_status": "2026-09-21 — Ownership, London public sighting, Bianco Cervino / Argento Nurburgring specification and multi-angle public gallery rechecked; VIN remains private.",
     "record_kind": "profile",
@@ -2216,22 +2084,10 @@
       }
     ],
     "sources": [
-      [
-        "AS USA — Lisbon sighting and ownership",
-        "https://as.com/us/tikitakas/asi-es-el-nuevo-ferrari-de-cristiano-ronaldo-cuanto-cuesta-y-cual-es-el-modelo-del-nuevo-carro-de-cr7-n/"
-      ],
-      [
-        "talkSPORT — red car and public drive",
-        "https://talksport.com/football/1805246/cristiano-ronaldo-car-collection-ferrari-limited-edition/"
-      ],
-      [
-        "Autoevolution — ownership report and photo source",
-        "https://www.autoevolution.com/news/cristiano-ronaldo-flaunts-his-2-million-ferrari-he-s-making-money-even-in-his-sleep-231409.html"
-      ],
-      [
-        "Znews — Ronaldo close-up specification gallery",
-        "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html"
-      ]
+      "SRC-26297BB9",
+      "SRC-8302BCCD",
+      "SRC-E6602781",
+      "SRC-62D56AA8"
     ],
     "review_status": "2026-09-21 — Ownership, Lisbon sightings and close-up Rosso Magma / wheel specification rechecked; VIN remains private.",
     "record_kind": "profile",
@@ -2286,22 +2142,10 @@
       }
     ],
     "sources": [
-      [
-        "Autoevolution — Ibrahimović and white SP3",
-        "https://www.autoevolution.com/news/zlatan-ibrahimovic-brags-about-his-ferrari-is-he-getting-a-new-one-for-his-birthday-221551.html"
-      ],
-      [
-        "Autogespot — Milan sighting",
-        "https://www.autogespot.com/zlatan-ibrahimovic-shows-his-brand-new-ferrari-daytona-sp3-in-milan"
-      ],
-      [
-        "Autogespot — Milan original sighting",
-        "https://www.autogespot.com/ferrari-daytona-sp3/2023/04/20"
-      ],
-      [
-        "Znews — Ibrahimović Milan delivery photo gallery",
-        "https://znews.vn/zlatan-ibrahimovic-cam-lai-sieu-xe-ferrari-daytona-sp3-post1424153.html"
-      ]
+      "SRC-A8D49D0A",
+      "SRC-9E8E48DA",
+      "SRC-54E0C0BF",
+      "SRC-C9422753"
     ],
     "review_status": "2026-09-21 — April 2023 Milan delivery sighting, ownership reporting and plate-identifiable Znews gallery rechecked; exact matte-white factory paint code remains unconfirmed.",
     "record_kind": "profile",
@@ -2353,30 +2197,12 @@
       }
     ],
     "sources": [
-      [
-        "Per Gessle — public announcement",
-        "https://www.facebook.com/RealPerGessle/posts/the-ferrari-daytona-sp3-has-arrived-to-the-joyride-car-collection-at-hoteltyl%C3%B6sa/792236805601826/"
-      ],
-      [
-        "Per Gessle / @PartyPleaser — Joyride arrival photo",
-        "https://x.com/PartyPleaser/status/1650812875638751234"
-      ],
-      [
-        "Hotel Tylösand — collection description",
-        "https://www.tylosand.se/ferrari-exhibition/history-cars-technology"
-      ],
-      [
-        "Carup — Per Gessle Daytona SP3 acquisition",
-        "https://carup.se/per-gessles-slog-till-pa-ny-super-ferrari-for-22-miljoner-kr/"
-      ],
-      [
-        "Merinfo — Swedish vehicle record",
-        "https://www.merinfo.se/fordon/80apeBk20b8npDNdlxwb"
-      ],
-      [
-        "Fordonskollen — Swedish vehicle identity record",
-        "https://www.fordonskollen.se/fordon/RAF37S"
-      ]
+      "SRC-2C95A168",
+      "SRC-E198E6D2",
+      "SRC-22FB310C",
+      "SRC-C6D758C1",
+      "SRC-BE1171CB",
+      "SRC-A61682A9"
     ],
     "review_status": "2026-09-21 — Owner-posted arrival image, red exterior, Swedish registration plate RAF37S and full VIN ZFF05UMB000284856 cross-checked; prior erroneous white/red specification removed.",
     "record_kind": "profile",
@@ -2423,18 +2249,9 @@
       }
     ],
     "sources": [
-      [
-        "Everyeye Auto — Del Vecchio collection profile",
-        "https://auto.everyeye.it/notizie/incredibile-collezione-auto-29enne-leonardo-maria-vecchio-vale-722303.html"
-      ],
-      [
-        "LIKE A G — Monaco driving video",
-        "https://www.youtube.com/watch?v=orsRwI25t-Q"
-      ],
-      [
-        "Autogespot — Monaco full-black SP3 sighting",
-        "https://www.autogespot.com/ferrari-daytona-sp3/2026/02/25"
-      ]
+      "SRC-CCD1B9D5",
+      "SRC-2395212A",
+      "SRC-00E16A77"
     ],
     "review_status": "2026-09-21 — Public ownership reporting and Monaco driving/sighting sources cross-checked; VIN remains private.",
     "record_kind": "profile",
@@ -2470,10 +2287,7 @@
     "notes": "The New Yorker confirmed the owner's nationality and industry but intentionally did not publish the name.",
     "photos": [],
     "sources": [
-      [
-        "The New Yorker — SOC event and owner description",
-        "https://www.newyorker.com/magazine/2023/12/25/the-worlds-fastest-road-cars-and-the-people-who-drive-them"
-      ]
+      "SRC-2F13FE3E"
     ],
     "review_status": "2026-09-21 — The New Yorker SOC reporting rechecked; owner remains intentionally unnamed and VIN unavailable.",
     "record_kind": "profile",
@@ -2555,14 +2369,8 @@
       }
     ],
     "sources": [
-      [
-        "Carrio Motor Cars — dealer listing",
-        "https://www.carriomotorcars.com/2023-ferrari-daytona-sp3-fort-lauderdale-fl?isNew=0"
-      ],
-      [
-        "duPont REGISTRY — dealer listing report",
-        "https://news.dupontregistry.com/blogs/for-sale/230-mile-2023-ferrari-daytona-sp3-for-sale-at-carrior-motor-cars"
-      ]
+      "SRC-0D04C60C",
+      "SRC-A066023E"
     ],
     "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
@@ -2632,10 +2440,7 @@
       }
     ],
     "sources": [
-      [
-        "Stratstone — delivery post",
-        "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p"
-      ]
+      "SRC-8C5758BE"
     ],
     "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
@@ -2683,10 +2488,7 @@
       }
     ],
     "sources": [
-      [
-        "Wikimedia Commons — file and licensing",
-        "https://commons.wikimedia.org/wiki/File:2025_Ferrari_Daytona_SP3_Tailor_Made_in_Rubino_Transitional,_front_left.jpg"
-      ]
+      "SRC-F0FCE298"
     ],
     "review_status": "2026-09-21 — Wikimedia event image, date, colour description and licensing rechecked; VIN and ownership remain private.",
     "record_kind": "profile",
@@ -2725,10 +2527,7 @@
     "notes": "Recent community sighting. Kept below dealer/official confidence until a VIN, owner or delivery source is published.",
     "photos": [],
     "sources": [
-      [
-        "Reddit — public sighting thread",
-        "https://www.reddit.com/r/spotted/comments/1uxuj64/ferrari_daytona_sp3_displayed_in_a_cafe_in_hong/"
-      ]
+      "SRC-F40E95C6"
     ],
     "review_status": "2026-09-21 — July 2026 Hong Kong sighting rechecked; exact identity remains unlinked to VIN or delivery documentation.",
     "record_kind": "lead",
@@ -2763,10 +2562,7 @@
     "notes": "Paint identification is disputed in the public thread, so the exact factory colour is deliberately marked uncertain.",
     "photos": [],
     "sources": [
-      [
-        "Reddit — sighting and colour discussion",
-        "https://www.reddit.com/r/Ferrari/comments/1djsmoi/tailor_made_sp3_daytona_painted_in_blu_torrice/"
-      ]
+      "SRC-4994FC44"
     ],
     "review_status": "2026-09-21 — Community sighting thread rechecked; paint identification remains disputed and VIN/owner remain unverified.",
     "record_kind": "lead",
@@ -2813,18 +2609,9 @@
       }
     ],
     "sources": [
-      [
-        "The Supercar Blog — final Verde Pallido car",
-        "https://www.thesupercarblog.com/final-ferrari-daytona-sp3-is-ready-for-delivery-and-its-truly-a-one-off/"
-      ],
-      [
-        "F1rst Motors — final Daytona SP3 report",
-        "https://f1rstmotors.com/news/the-last-daytona-sp3-is-ready"
-      ],
-      [
-        "Agent4stars — @powerslidelover collection profile",
-        "https://supercars.agent4stars.com/property/power-slide-lover-ferrari-porsche-collector-italy/"
-      ]
+      "SRC-524E01A4",
+      "SRC-AA0A2E7D",
+      "SRC-BDED4D0D"
     ],
     "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
     "record_kind": "profile",
@@ -2889,10 +2676,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/77928"
-      ]
+      "SRC-2BCAFC4C"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -2957,10 +2741,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/78501"
-      ]
+      "SRC-55BB964A"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3025,10 +2806,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856"
-      ]
+      "SRC-EB455039"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3096,22 +2874,10 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari Magazine — Daytona SP3 mulotype",
-        "https://www.ferrari.com/en-EN/magazine/articles/daytona-sp3-mulotype"
-      ],
-      [
-        "Collectors Car World — Ferrari report on MP3",
-        "https://collectorscarworld.com/the-daytona-sp3-mulotype/"
-      ],
-      [
-        "BusinessDay — collector sale and MP3 identification",
-        "https://www.businessday.co.za/bd/life/motoring/2025-08-29-ferrari-daytona-sp3-mulotype-one-off-sold-to-collector/"
-      ],
-      [
-        "Autoentusiastas — MP3 gallery and technical details",
-        "https://autoentusiastas.com.br/2025/08/ferrari-e-seus-prototipos/"
-      ]
+      "SRC-42D8EF48",
+      "SRC-0AC80516",
+      "SRC-90CCDA07",
+      "SRC-8374CD54"
     ],
     "review_status": "2026-09-21 — Ferrari-derived and independent press sources cross-checked; MP3 is kept outside the 599 customer-car count.",
     "record_kind": "prototype",
@@ -3176,10 +2942,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/100373"
-      ]
+      "SRC-258B8C9F"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "prototype",
@@ -3244,10 +3007,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53050"
-      ]
+      "SRC-C77ACDD6"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3312,10 +3072,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/75106"
-      ]
+      "SRC-99E5D302"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3380,10 +3137,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780"
-      ]
+      "SRC-B7279999"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3448,10 +3202,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/52122"
-      ]
+      "SRC-5924924D"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3516,10 +3267,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/49186"
-      ]
+      "SRC-A37DFA53"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3584,10 +3332,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185"
-      ]
+      "SRC-066F35CE"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3652,10 +3397,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/57600"
-      ]
+      "SRC-58575909"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3720,10 +3462,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/98115"
-      ]
+      "SRC-32AED9F5"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3788,10 +3527,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/107197"
-      ]
+      "SRC-5FCAF4D4"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3856,10 +3592,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101218"
-      ]
+      "SRC-961FD6E6"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3924,10 +3657,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82192"
-      ]
+      "SRC-90237B89"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -3992,10 +3722,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942"
-      ]
+      "SRC-F187D558"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -4060,10 +3787,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142"
-      ]
+      "SRC-D94BF598"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -4128,10 +3852,7 @@
       }
     ],
     "sources": [
-      [
-        "Exclusive Car Registry — public profile",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/101864"
-      ]
+      "SRC-5121076F"
     ],
     "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
     "record_kind": "lead",
@@ -4174,10 +3895,7 @@
     ],
     "notes": "公开经销商配置档案；未公布 VIN，因此尚未与 ECR 档案建立唯一对应。挂牌价不等于成交价。",
     "sources": [
-      [
-        "DK Engineering — dealer listing",
-        "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html"
-      ]
+      "SRC-005F5D1A"
     ],
     "photos": [
       {
@@ -4298,10 +4016,7 @@
     ],
     "notes": "报道明确给出双色漆与棕褐色内饰；未公布车主或 VIN。文章日期不当作车辆 model year。",
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari of Central New Jersey feature",
-        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-central-new-jersey-daytona"
-      ]
+      "SRC-597E3BBE"
     ],
     "photos": [
       {
@@ -4346,10 +4061,7 @@
     ],
     "notes": "不能仅凭紫色外观将此车认定为 Transitional Ametista 或其他同色 ECR 档案；车主身份未公开。",
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari of Central New Jersey feature",
-        "https://news.dupontregistry.com/blogs/dealer-news/ferrari-of-central-new-jersey-delivers-tailor-made-daytona-sp3"
-      ]
+      "SRC-8D1DA366"
     ],
     "photos": [
       {
@@ -4575,14 +4287,8 @@
       }
     ],
     "sources": [
-      [
-        "Joe Macari — dealer listing",
-        "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173"
-      ],
-      [
-        "Joe Macari — syndicated specification",
-        "https://www.supercartrader.com/ferrari-daytona-sp3-3927"
-      ]
+      "SRC-D5F36150",
+      "SRC-FF922201"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4671,10 +4377,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari Beverly Hills gallery (@paid2shoot)",
-        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-beverly-hills-shows-off-a-stunning-ferrari-daytona-sp3-spec"
-      ]
+      "SRC-144DC317"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4717,10 +4420,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari of Atlanta feature",
-        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-atlanta-displays-daytona-sp3"
-      ]
+      "SRC-2FCDAB05"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4790,10 +4490,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari of Central Florida feature",
-        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-of-central-florida-shows-off-a-rosso-corsa-daytona-sp3"
-      ]
+      "SRC-5C13D889"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4836,10 +4533,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari Lake Forest two-car feature",
-        "https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3"
-      ]
+      "SRC-E5906022"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4882,10 +4576,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari Lake Forest two-car feature",
-        "https://news.dupontregistry.com/blogs/daytona-sp3/ferrari-lake-forest-daytona-sp3"
-      ]
+      "SRC-E5906022"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4928,10 +4619,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Miller Motorcars feature",
-        "https://news.dupontregistry.com/blogs/daytona-sp3/miller-motorcars-ferrari-daytona-sp3"
-      ]
+      "SRC-0B9A6540"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -4994,10 +4682,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Miller Motorcars gallery (@carsthatlookneat)",
-        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
-      ]
+      "SRC-E1F2D129"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -5060,10 +4745,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Miller Motorcars gallery (@carsthatlookneat)",
-        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
-      ]
+      "SRC-E1F2D129"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -5126,10 +4808,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Miller Motorcars gallery (@carsthatlookneat)",
-        "https://news.dupontregistry.com/blogs/dealer-news/miller-motorcars-shows-off-three-ultra-rare-ferrari-daytona-sp3-specs"
-      ]
+      "SRC-E1F2D129"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -5172,10 +4851,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari of Fort Lauderdale feature",
-        "https://news.dupontregistry.com/blogs/articles/ferrari-of-fort-lauderdale-delivers-a-stealthy-daytona-sp3-hypercar-to-swizz-beatz"
-      ]
+      "SRC-30AEC910"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -5218,14 +4894,8 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Shmee150 collection feature",
-        "https://news.dupontregistry.com/blogs/ferrari-news/shmee150-drive-ferrari-daytona-sp3"
-      ],
-      [
-        "Shmee150 — original collection video",
-        "https://www.youtube.com/watch?v=S7uxr4LWp64"
-      ]
+      "SRC-9C21F734",
+      "SRC-95523CBB"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -5311,10 +4981,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Protective Film Solutions / XPEL feature",
-        "https://news.dupontregistry.com/blogs/sponsored/preserving-a-modern-icon-ferrari-daytona-sp3-protected-by-xpel"
-      ]
+      "SRC-1232FBC2"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "profile",
@@ -5357,10 +5024,7 @@
       }
     ],
     "sources": [
-      [
-        "duPont REGISTRY — Ferrari of Fort Lauderdale feature",
-        "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-fort-lauderdale-daytona-sp3"
-      ]
+      "SRC-8EA22D82"
     ],
     "review_status": "2026-09-21 — 来源正文与公开照片已复核；不将报道日期作为制造年份。",
     "record_kind": "lead",
@@ -5413,26 +5077,11 @@
     "notes": "Automotive Masterpieces publishes the full VIN and a detailed Tailor Made dossier for this one-off specification, directly inspired by Ferrari 350 Can-Am / 330 P4 chassis 0858 in Team Gunston colours at the 1968 Rhodesian Grand Prix. The dossier documents the four-layer VC Orange paint, Nero DS / Light Gold Metallic graphics, No. 83 roundels, matte-gold wheels, blue Alcantara race-seat treatment and dedicated 0858 / Paul Hawkins / Team Gunston plaque. This is a separate car from Ferrari's later 599+1 charity Daytona SP3.",
     "photos": [],
     "sources": [
-      [
-        "Automotive Masterpieces — chassis dossier",
-        "https://automotivemasterpieces.com/cars/AU-34679"
-      ],
-      [
-        "Automotive Masterpieces — car history",
-        "https://automotivemasterpieces.com/cars/AU-34679/history"
-      ],
-      [
-        "Automotive Masterpieces — technical specifications",
-        "https://automotivemasterpieces.com/cars/AU-34679/technical-specifications"
-      ],
-      [
-        "Automotive Masterpieces — photo gallery",
-        "https://automotivemasterpieces.com/cars/AU-34679/gallery"
-      ],
-      [
-        "Automotive Masterpieces — declaration AU-34679",
-        "https://automotivemasterpieces.com/file/2KDYyGzYVn"
-      ]
+      "SRC-6B298231",
+      "SRC-84AAA69F",
+      "SRC-F5E8085E",
+      "SRC-A07C7645",
+      "SRC-2ECF786A"
     ],
     "review_status": "2026-09-21 — Full VIN, exact Tailor Made colour/trim codes, registration status, provenance documents and the three public gallery groups rechecked from Automotive Masterpieces.",
     "record_kind": "profile",
@@ -5530,14 +5179,8 @@
       }
     ],
     "sources": [
-      [
-        "Bernards Exclusives — dealer listing",
-        "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — VIN cross-check",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ]
+      "SRC-FAF6DFE0",
+      "SRC-40909EFE"
     ],
     "review_status": "2026-09-21 — Dealer page, ten-image public gallery and VIN registry cross-check reviewed.",
     "record_kind": "profile",
@@ -5574,14 +5217,8 @@
     "notes": "Hendrick Performance's public listing identifies this as a used 2024 Ferrari SP3 Daytona in Concord, North Carolina, and publishes VIN ZFF05UMA2R0306496 and stock number H607086. Made in Maranello independently indexes the same VIN and chassis number. The accessible dealer text does not publish a detailed exterior/interior build sheet, so the Atlas leaves those fields unfilled rather than inferring them from generic dealer imagery.",
     "photos": [],
     "sources": [
-      [
-        "Hendrick Performance — dealer listing",
-        "https://www.hendrickcars.com/used/Ferrari/2024-Ferrari-SP3-Daytona-47f672b3ac185c30e41528d4e9c75245.htm"
-      ],
-      [
-        "Made in Maranello — chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ]
+      "SRC-0CB7FEB7",
+      "SRC-614D538C"
     ],
     "review_status": "2026-09-21 — Dealer VIN, stock number H607086 and independent chassis index cross-checked; no unsupported build colours inferred.",
     "record_kind": "profile",
@@ -5618,10 +5255,7 @@
     "notes": "The Collection Porsche listing publishes the complete VIN, stock number S0310048P, white exterior, black interior and 164-mile odometer reading. The listing exposes only one dealer image in the accessible page, so the Atlas does not fabricate a larger gallery or infer an exact Ferrari paint/trim code from generic colour labels.",
     "photos": [],
     "sources": [
-      [
-        "The Collection Porsche — dealer listing",
-        "https://www.thecollectionporsche.com/used/Ferrari/2025-Ferrari-Daytona-SP3-06ab21acac18028b91c6a7b6471fdd75.htm"
-      ]
+      "SRC-D2AD4385"
     ],
     "review_status": "2026-09-21 — The Collection Porsche listing rechecked for VIN, stock S0310048P, colours and 164-mile odometer; unrelated inventory pages are not used as VIN cross-checks.",
     "record_kind": "profile",
@@ -5665,14 +5299,8 @@
       }
     ],
     "sources": [
-      [
-        "AMARI Supercars — dealer listing",
-        "https://www.amarisupercars.com/Stock/Details/2026-ferrari-daytona-sp3/1241691"
-      ],
-      [
-        "Car & Classic — syndicated dealer listing",
-        "https://www.carandclassic.com/us/car/C2008855"
-      ]
+      "SRC-9453101D",
+      "SRC-C43F29BA"
     ],
     "review_status": "2026-09-21 — Dealer record and syndication rechecked; deliberately not merged with chassis 286921 without VIN evidence.",
     "record_kind": "profile",
@@ -5750,18 +5378,9 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Made in Maranello — chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 277497 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277497/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-614D538C",
+      "SRC-E4598847"
     ],
     "review_status": "2026-09-22 — Full VIN, factory-demo classification, two chassis indexes, Italian plate GJ-561-FL, Rosso Magma / Blu specification and six-photo Zandvoort gallery reviewed; customer-allocation status remains unresolved.",
     "record_kind": "profile",
@@ -5832,14 +5451,8 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 277498 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277498/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-9E188325"
     ],
     "review_status": "2026-09-22 — Full VIN, factory-demo classification, Italian plate, Rosso Magma / Blu specification and Zandvoort photo record reviewed; customer-allocation status remains unresolved.",
     "record_kind": "profile",
@@ -5916,14 +5529,8 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 277499 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277499/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-F08BE3DB"
     ],
     "review_status": "2026-09-22 — Full VIN, factory-demo classification, Italian plate, Giallo Triplo Strato / Rosso specification and six-photo Zandvoort record reviewed; customer-allocation status remains unresolved.",
     "record_kind": "profile",
@@ -6039,14 +5646,8 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 289571 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000289571/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-8AFB2117"
     ],
     "review_status": "2026-09-22 — Full VIN, Azzurro La Plata / Blu Elettrico-Nero specification and 12 VIN-linked Hengelo / Amsterdam images reviewed; same-publisher evidence is not treated as independent corroboration.",
     "record_kind": "profile",
@@ -6105,26 +5706,11 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "AutoWeek — Dutch plate JKF-62-L vehicle check",
-        "https://www.autoweek.nl/kentekencheck/JKF-62-L/"
-      ],
-      [
-        "Rapid Rides NL — Bernhard ten Brinke Daytona SP3 profile",
-        "https://www.rapidrides.nl/2025/11/nieuwe-ferrari-daytona-sp3-op-nederlands-kenteken.html"
-      ],
-      [
-        "Autoblog NL — Bernhard ten Brinke Daytona SP3 ownership report",
-        "https://www.autoblog.nl/nieuws/nederlander-scoort-ferrari-daytona-sp3-3522012"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 291935 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291935/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-0E4D6FB3",
+      "SRC-6F294873",
+      "SRC-8C2E15AC",
+      "SRC-3C05612D"
     ],
     "review_status": "2026-09-22 — Full VIN, Dutch registration history, Bernhard ten Brinke ownership reporting, Giallo Modena / Nero specification and two VIN-linked Hengelo images cross-checked.",
     "record_kind": "profile",
@@ -6263,18 +5849,9 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 308288 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000308288/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — Wheels Mariënwaerdt 2026 event list",
-        "https://onlybullsandhorses.com/wheels-marienwaerdt/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-3AA0D78D",
+      "SRC-62484296"
     ],
     "review_status": "2026-09-22 — Full VIN, Carbon / Verde specification, 12-image 2024 Hengelo showroom set and four-image 2026 Wheels Mariënwaerdt event set reviewed. Same-publisher corroboration is not counted as an independent second source.",
     "record_kind": "profile",
@@ -6311,18 +5888,9 @@
     "notes": "The Dutch Ferrari and Lamborghini Register publishes the complete VIN, Grigio / Nero specification and Netherlands registration. The independently published Ferrari Tribute 1000 Miglia entry list identifies chassis 299394 as car 627 and documents the grey / black-stripe exterior and event crew. Crew names are retained as event metadata rather than treated as title-ownership evidence.",
     "photos": [],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Ferrari Tribute 1000 Miglia — official 2025 edition",
-        "https://ferraritribute.1000miglia.it/edizione-2025/"
-      ],
-      [
-        "Anamera — Ferrari Tribute 1000 Miglia entry list",
-        "https://www.finecars.cc/en/editorial/article/news/ferrari-tribute-1000-miglia-retracing-one-of-the-greatest-road-races-of-all-time/index.html?tx_ttnews%5BbackPid%5D=301"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-418BEE8A",
+      "SRC-F4B061C3"
     ],
     "review_status": "2026-09-21 — Full VIN/registration and independent chassis-specific Ferrari Tribute entry cross-checked; upgraded from VIN lead to detailed profile.",
     "record_kind": "profile",
@@ -6413,14 +5981,8 @@
       }
     ],
     "sources": [
-      [
-        "Dutch Ferrari and Lamborghini Register — registry entry",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/"
-      ],
-      [
-        "Dutch Ferrari and Lamborghini Register — chassis 291270 photo record",
-        "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291270/"
-      ]
+      "SRC-EC5FA9D7",
+      "SRC-0966E50D"
     ],
     "review_status": "2026-09-22 — Full VIN, Verde / Nero specification, showroom note and eight VIN-linked February 2026 images reviewed; Enschede/Hengelo source labels are preserved separately.",
     "record_kind": "profile",
@@ -6456,10 +6018,7 @@
     "notes": "Made in Maranello publicly indexes the complete VIN and 2022 year. No independent per-car configuration or ownership source was found in this pass, so the entry remains a chassis lead.",
     "photos": [],
     "sources": [
-      [
-        "Made in Maranello — chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ]
+      "SRC-614D538C"
     ],
     "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
     "record_kind": "lead",
@@ -6495,10 +6054,7 @@
     "notes": "Made in Maranello publicly indexes the complete VIN and 2023 year. No independent per-car configuration or ownership source was found in this pass, so the entry remains a chassis lead.",
     "photos": [],
     "sources": [
-      [
-        "Made in Maranello — chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ]
+      "SRC-614D538C"
     ],
     "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
     "record_kind": "lead",
@@ -6535,14 +6091,8 @@
     "notes": "Two public VIN/chassis indexes independently identify ZFF05UMA000292660 as a Daytona SP3. Neither source provides a reliable public build specification here, so the car remains a VIN lead rather than a detailed profile.",
     "photos": [],
     "sources": [
-      [
-        "Made in Maranello — chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ],
-      [
-        "AutoRef — public VIN search history",
-        "https://autoref.eu/en/public-search-history?page=725&sortDirection=asc&sortField=model"
-      ]
+      "SRC-614D538C",
+      "SRC-57027D8A"
     ],
     "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
     "record_kind": "lead",
@@ -6578,10 +6128,7 @@
     "notes": "The full VIN appears in Made in Maranello's public chassis index. No second per-car source or public build specification was located in this pass, so the record remains a lead.",
     "photos": [],
     "sources": [
-      [
-        "Made in Maranello — chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ]
+      "SRC-614D538C"
     ],
     "review_status": "2026-09-21 — Public VIN/chassis source reviewed; retained as a lead pending stronger per-car documentation.",
     "record_kind": "lead",
@@ -6618,14 +6165,8 @@
     "notes": "Made in Maranello currently assigns the identical VIN ZFF05UMB000317185 to both its Daytona SP3 and 296 Speciale model indexes. That internal cross-model contradiction means the publisher cannot serve as independent confirmation of the vehicle identity. No second per-car source was located in this audit, so the Atlas retains the VIN only as a quarantined research lead and does not treat it as a confirmed Daytona SP3.",
     "photos": [],
     "sources": [
-      [
-        "Made in Maranello — Daytona SP3 chassis index",
-        "https://made-in-maranello.fr/en/model/ferrari-daytona-sp3"
-      ],
-      [
-        "Made in Maranello — conflicting 296 Speciale index",
-        "https://made-in-maranello.fr/es/modelo/ferrari-296-speciale"
-      ]
+      "SRC-13F11D8A",
+      "SRC-A168E05C"
     ],
     "review_status": "2026-09-22 — Source conflict discovered: the same publisher assigns VIN ZFF05UMB000317185 to both Daytona SP3 and 296 Speciale. Quarantined pending independent per-car confirmation.",
     "record_kind": "lead",
@@ -6685,18 +6226,9 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari Magazine — Steven Victor V12 collector profile",
-        "https://www.ferrari.com/it-IT/magazine/articles/v12-cliente-steven-victor-new-york"
-      ],
-      [
-        "duPont REGISTRY — Steven Victor V12 collection",
-        "https://news.dupontregistry.com/blogs/ferrari-news/check-out-steven-victors-incredible-collection-of-exclusive-v12-ferrari-supercars-hypercars"
-      ],
-      [
-        "duPont REGISTRY — 2026 Steven Victor collection update",
-        "https://news.dupontregistry.com/blogs/news/steven-victors-love-for-cars-inspires-his-newest-nike-af1-collaboration"
-      ]
+      "SRC-DC6430F6",
+      "SRC-306E5B29",
+      "SRC-1C168574"
     ],
     "review_status": "2026-09-21 — Ferrari official owner link and public collection imagery cross-checked; VIN and exact factory color remain private.",
     "record_kind": "profile",
@@ -6762,14 +6294,8 @@
       }
     ],
     "sources": [
-      [
-        "TVBS — JJ Lin Daytona SP3 owner photo set",
-        "https://cars.tvbs.com.tw/celebrity/289714"
-      ],
-      [
-        "Exclusive Car Registry — profile 79098",
-        "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098"
-      ]
+      "SRC-890BBDC9",
+      "SRC-F2DD904A"
     ],
     "review_status": "2026-09-21 — Public owner imagery and ECR owner attribution cross-checked; VIN and plaque remain private.",
     "record_kind": "profile",
@@ -6818,18 +6344,9 @@
       }
     ],
     "sources": [
-      [
-        "Țiriac Collection — official vehicle page",
-        "https://tiriaccollection.ro/en/collection/cars/ferrari-daytona-sp3"
-      ],
-      [
-        "Țiriac Collection — collection announcement",
-        "https://tiriaccollection.ro/noutati/articol/iconicul-exemplar-ferrari-daytona-sp3-devine-cel-mai-nou-exponat-al-galeriei-tiriac-collection"
-      ],
-      [
-        "Țiriac Collection — Ferrari anniversary feature",
-        "https://tiriaccollection.ro/en/news/article/peste-50-de-ani-de-istorie-ferrari-ilustrati-prin-21-de-modele-iconice-la-tiriac-collection-cadrul-unui-eveniment-care-adus-spiritul-maranello-inima-uneia-dintre-cele-mai-remarcabile-colectii-auto-private-din-lume"
-      ]
+      "SRC-8A0F76A6",
+      "SRC-1D974B7B",
+      "SRC-C1F1C55F"
     ],
     "review_status": "2026-09-21 — Official collection page, VIN, ownership context and public gallery imagery cross-checked.",
     "record_kind": "profile",
@@ -6953,18 +6470,9 @@
       }
     ],
     "sources": [
-      [
-        "Jeremy Cottingham — dealer listing",
-        "https://jeremycottingham20210902-home-slider.azurewebsites.net/stock/2025-ferrari-daytona-sp3/13709"
-      ],
-      [
-        "Octane Marketplace — syndicated dealer listing",
-        "https://www.octane-magazine.com/cars-for-sale/ferrari-daytona-2025-598966"
-      ],
-      [
-        "Classic Driver — syndicated dealer listing",
-        "https://www.classicdriver.com/en/car/ferrari/365/2025/1078720"
-      ]
+      "SRC-988BA3F7",
+      "SRC-ED5D07DE",
+      "SRC-5510B3D1"
     ],
     "review_status": "2026-09-21 — Full VIN, mileage, specification sheet and 12-image public dealer gallery cross-checked across the dealer page and syndicated listings.",
     "record_kind": "profile",
@@ -7008,18 +6516,9 @@
       }
     ],
     "sources": [
-      [
-        "Goodwood — 2022 Festival of Speed entry list",
-        "https://www.goodwood.com/globalassets/.road--racing/event-coverage/fos/2022/6-june/entry-list/public-entry-list-18.6.pdf"
-      ],
-      [
-        "Goodwood Road & Racing — 2022 supercar debut preview",
-        "https://api.goodwood.com/grr/event-coverage/festival-of-speed/supercar-debuts-announced-for-fos-2022/"
-      ],
-      [
-        "Ultimatecarpage — Goodwood chassis 276831 image record",
-        "https://www.ultimatecarpage.com/img/Ferrari-SP3-Daytona-165639.html"
-      ]
+      "SRC-60BE3A18",
+      "SRC-087E0132",
+      "SRC-D8EE4FA7"
     ],
     "review_status": "2026-09-21 — Chassis identity cross-checked against the 2022 Goodwood image record; official Goodwood entry list confirms the event car and entrant.",
     "record_kind": "profile",
@@ -7067,18 +6566,9 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari Tribute 1000 Miglia — official 2025 edition",
-        "https://ferraritribute.1000miglia.it/edizione-2025/"
-      ],
-      [
-        "Anamera — Ferrari Tribute 1000 Miglia entry list",
-        "https://www.finecars.cc/en/editorial/article/news/ferrari-tribute-1000-miglia-retracing-one-of-the-greatest-road-races-of-all-time/index.html?tx_ttnews%5BbackPid%5D=301"
-      ],
-      [
-        "Barchetta — Mille Miglia chassis photo record",
-        "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc/2010-2019/2010/?i=6263729"
-      ]
+      "SRC-418BEE8A",
+      "SRC-F4B061C3",
+      "SRC-C1FFDC5F"
     ],
     "review_status": "2026-09-21 — Chassis, event number, crew and specification cross-checked against the Ferrari Tribute entry list and a chassis-specific Barchetta image record.",
     "record_kind": "profile",
@@ -7127,26 +6617,11 @@
       }
     ],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ],
-      [
-        "Ferrari Tribute 1000 Miglia — official 2025 edition",
-        "https://ferraritribute.1000miglia.it/edizione-2025/"
-      ],
-      [
-        "Anamera — Ferrari Tribute 1000 Miglia entry list",
-        "https://www.finecars.cc/en/editorial/article/news/ferrari-tribute-1000-miglia-retracing-one-of-the-greatest-road-races-of-all-time/index.html?tx_ttnews%5BbackPid%5D=301"
-      ],
-      [
-        "Barchetta — Mille Miglia chassis photo record",
-        "https://barchetta.mediacenter.plus/?i=6259312"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6",
+      "SRC-418BEE8A",
+      "SRC-F4B061C3",
+      "SRC-B2C5E2E0"
     ],
     "review_status": "2026-09-21 — Chassis identity cross-checked across two 2025 Ferrari events plus a chassis-specific Barchetta image record.",
     "record_kind": "profile",
@@ -7182,14 +6657,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 305029 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7225,14 +6694,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 304375 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7268,14 +6731,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 296011 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7311,14 +6768,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 281882 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7354,14 +6805,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 304679 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7397,14 +6842,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 319368 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7440,14 +6879,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 287825 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7483,14 +6916,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 314849 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7528,22 +6955,10 @@
     "notes": "Chassis 285951 is independently repeated across three public Ferrari-event records. Goodwood lists the same Daytona SP3 in both 2023 and 2024 as Red Metallic under Ferrari North Europe Ltd; the 2025 Cavalcade Siviglia list records the same chassis as dark red with a black roof and United Kingdom metadata. Ferrari North Europe is treated only as the Goodwood entrant, not as the private owner. No full VIN is inferred.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Goodwood Festival of Speed 2023 chassis list",
-        "https://www.finecars.cc/en/editorial/article/news/goodwood-festival-of-speed-ferraris-by-chassis-numbers/index.html"
-      ],
-      [
-        "Anamera — Goodwood Festival of Speed 2024 chassis list",
-        "https://www.finecars.cc/en/editorial/article/news/goodwood-festival-of-speed-11-14-july-2024/index.html"
-      ],
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-58414E4A",
+      "SRC-E286FCFF",
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-22 — Chassis 285951 cross-checked across Goodwood 2023, Goodwood 2024 and Cavalcade Siviglia 2025; upgraded from event lead to detailed profile.",
     "record_kind": "profile",
@@ -7579,14 +6994,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 312255 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7622,14 +7031,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 291931 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7665,14 +7068,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 304114 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7708,14 +7105,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 311579 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7751,14 +7142,8 @@
     "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 302913 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
     "photos": [],
     "sources": [
-      [
-        "Ferrari — 2025 Cavalcade Siviglia official feature",
-        "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
-      ],
-      [
-        "Anamera — Ferrari Cavalcade Siviglia entry list",
-        "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
-      ]
+      "SRC-E83271D2",
+      "SRC-E6A07CB6"
     ],
     "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -7798,26 +7183,11 @@
     "notes": "Current public company-vehicle records list Nessim Classics Aktiebolag with yellow Daytona SP3 plate MJW01F. A public Swedish company vehicle/VIN table publishes the complete VIN ZFF05UMB000287827. Biluppgifter independently records MJW01F as a yellow 2022 Daytona SP3, while ECR's public collection page lists a Daytona SP3 in the Nessim Classics collection. Carup links the collection to the yellow Swedish SP3. The Atlas records the company as the vehicle owner and does not substitute an individual shareholder as the registered owner.",
     "photos": [],
     "sources": [
-      [
-        "Carup — Swedish Daytona SP3 owners",
-        "https://carup.se/svenska-miljardarer-fick-kopa-likadan-ferrari-som-zlatan-och-gessle/"
-      ],
-      [
-        "Merinfo — Nessim Classics vehicle list",
-        "https://www.merinfo.se/foretag/Nessim-Classics-Aktiebolag-5563284644/2k08hwk-csos/fordon"
-      ],
-      [
-        "TIC — Nessim Classics vehicle/VIN table",
-        "https://tic.io/sv/foretag/nessim-classics-aktiebolag-3440797"
-      ],
-      [
-        "Biluppgifter — Swedish vehicle record MJW01F",
-        "https://biluppgifter.se/fordon/mjw01f/"
-      ],
-      [
-        "Exclusive Car Registry — Nessim Classics collection",
-        "https://exclusivecarregistry.com/collection/nessim-classics"
-      ]
+      "SRC-1FDC5C1F",
+      "SRC-E45F8D08",
+      "SRC-8904F5FE",
+      "SRC-9F266A7F",
+      "SRC-9DB6ABE8"
     ],
     "review_status": "2026-09-21 — Company ownership, plate MJW01F, yellow exterior, 2022 model year and full VIN ZFF05UMB000287827 cross-checked across multiple Swedish public vehicle/company sources.",
     "record_kind": "profile",
@@ -7856,18 +7226,9 @@
     "notes": "Merinfo's public vehicle page identifies plate OWH06S as a blue 2022 Ferrari Daytona SP3 with full VIN ZFF05UMB000283997 and publicly names Sven-Olof Johansson as the registered owner. Its owner vehicle list independently shows the same blue Daytona SP3 under Johansson. Carup separately reported that Fastpartner principal Sven-Olof Johansson had received a blue Daytona SP3. The article uses the colour wording “Blu Puzzi”; because that spelling is not independently validated as a Ferrari paint code, the Atlas records only blue and does not silently normalize it to Blu Pozzi.",
     "photos": [],
     "sources": [
-      [
-        "Merinfo — Sven-Olof Johansson vehicle list",
-        "https://www.merinfo.se/person/Stockholm/Sven-Olof-Johansson-1945/bkwf7-yd8s/fordon"
-      ],
-      [
-        "Merinfo — Swedish vehicle record OWH06S",
-        "https://www.merinfo.se/fordon/7peJyVDXyve6gMEv0KXQ"
-      ],
-      [
-        "Carup — Swedish Daytona SP3 owners",
-        "https://carup.se/svenska-miljardarer-fick-kopa-likadan-ferrari-som-zlatan-och-gessle/"
-      ]
+      "SRC-36564186",
+      "SRC-5A95CCB0",
+      "SRC-1FDC5C1F"
     ],
     "review_status": "2026-09-21 — Registered owner, plate OWH06S, blue exterior, 2022 model year and full VIN ZFF05UMB000283997 cross-checked against current Swedish public vehicle records and contemporary ownership reporting.",
     "record_kind": "profile",
@@ -7903,10 +7264,7 @@
     "notes": "AutoRef's public VIN-search history exposes the complete VIN ZFF05UMA000292690 and identifies it as a Ferrari Daytona SP3. No independent per-car configuration, ownership, location or model-year source was found in this pass, so the Atlas preserves it as a single-source VIN lead rather than a detailed profile.",
     "photos": [],
     "sources": [
-      [
-        "AutoRef — public VIN search history",
-        "https://autoref.eu/en/public-search-history?page=725&sortDirection=asc&sortField=model"
-      ]
+      "SRC-57027D8A"
     ],
     "review_status": "2026-09-21 — Complete VIN/model identification reviewed; retained as a single-source lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8057,18 +7415,9 @@
       }
     ],
     "sources": [
-      [
-        "Octane Marketplace — chassis 291269 dealer listing",
-        "https://www.octane-magazine.com/cars-for-sale/ferrari-daytona-2023-598964"
-      ],
-      [
-        "Jeremy Cottingham — dealer listing",
-        "https://jeremycottingham.com/stock/2023-ferrari-daytona-sp3/13707"
-      ],
-      [
-        "Classic Driver — syndicated dealer listing",
-        "https://www.classicdriver.com/en/car/ferrari/365/2023/1072012"
-      ]
+      "SRC-DAF8E199",
+      "SRC-CFCC88E4",
+      "SRC-337BF23D"
     ],
     "review_status": "2026-09-21 — Full VIN, 512-km mileage, Charles Pozzi service history, Atelier specification and 15-image dealer gallery cross-checked; explicitly separated from the distinct Dubai BP Green car.",
     "record_kind": "profile",
@@ -8105,14 +7454,8 @@
     "notes": "Two consecutive Sport & Collection research lists identify the same Daytona SP3 chassis 290745 at Val de Vienne. The 2024 list records matt-red exterior, blue interior and France metadata; the 2025 list independently repeats chassis 290745 and matt-red exterior. No full VIN or private owner is inferred.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Sport & Collection 2024 research list",
-        "https://www.finecars.cc/nl/editorial/article/news/30th-sport-collection-brought-over-600-ferrari-against-cancer-to-french-event/index.html?cHash=7f15aebcf2&no_cache=1&tx_ttnews%5BbackPid%5D=226&tx_ttnews%5Bpointer%5D=6"
-      ],
-      [
-        "Anamera — Sport & Collection 2025 research list",
-        "https://www.finecars.cc/nl/editorial/artikel/news/sport-et-collection-500-ferrari-contre-le-cancer-50000-crowd-small-venue/index.html?cHash=99582182f0&no_cache=1&tx_ttnews%5BbackPid%5D=300"
-      ]
+      "SRC-91A402ED",
+      "SRC-8BED6603"
     ],
     "review_status": "2026-09-22 — Chassis 290745, matt-red exterior, blue interior and repeated 2024/2025 event appearances cross-checked across two Sport & Collection reports.",
     "record_kind": "profile",
@@ -8149,14 +7492,8 @@
     "notes": "Two consecutive Sport & Collection research lists identify the same Daytona SP3 chassis 303669 at Val de Vienne. The 2024 list records dark-red exterior, blue interior and France metadata; the 2025 list independently repeats chassis 303669 and dark-red exterior. No full VIN or private owner is inferred.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Sport & Collection 2024 research list",
-        "https://www.finecars.cc/nl/editorial/article/news/30th-sport-collection-brought-over-600-ferrari-against-cancer-to-french-event/index.html?cHash=7f15aebcf2&no_cache=1&tx_ttnews%5BbackPid%5D=226&tx_ttnews%5Bpointer%5D=6"
-      ],
-      [
-        "Anamera — Sport & Collection 2025 research list",
-        "https://www.finecars.cc/nl/editorial/artikel/news/sport-et-collection-500-ferrari-contre-le-cancer-50000-crowd-small-venue/index.html?cHash=99582182f0&no_cache=1&tx_ttnews%5BbackPid%5D=300"
-      ]
+      "SRC-91A402ED",
+      "SRC-8BED6603"
     ],
     "review_status": "2026-09-22 — Chassis 303669, dark-red exterior, blue interior and repeated 2024/2025 event appearances cross-checked across two Sport & Collection reports.",
     "record_kind": "profile",
@@ -8193,14 +7530,8 @@
     "notes": "Two separate Ferrari-event research lists identify Daytona SP3 chassis 270313: a red-metallic static display at Goodwood in 2022 and a dark-red outside-exhibition car at Ferrari Finali Mondiali in Mugello in 2023. The repeated serial strongly establishes the event-car identity, but neither source publishes a full VIN, customer-allocation status or private owner; those fields are therefore not inferred.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Goodwood Festival of Speed 2022 chassis list",
-        "https://www.finecars.cc/en/editorial/article/news/goodwood-festival-of-speed-2/index.html"
-      ],
-      [
-        "Anamera — Ferrari Finali Mondiali 2023 chassis list",
-        "https://www.finecars.cc/en/editorial/article/news/ferrari-finali-mondiali-2023-returns-to-mugello-for-highly-successful-event/index.html"
-      ]
+      "SRC-8938F1B3",
+      "SRC-15067232"
     ],
     "review_status": "2026-09-22 — Chassis 270313 and red/dark-red event identity cross-checked across Goodwood 2022 and Ferrari Finali Mondiali 2023 records.",
     "record_kind": "profile",
@@ -8236,14 +7567,8 @@
     "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 303684 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Palm Beach Cavallino Classic 2026 chassis list",
-        "https://www.finecars.cc/it/editorial/article/news/35-years-of-prancing-horse-passion-celebrated-at-palm-beach-cavallino-classic/index.html?cHash=bfddd5f75e&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Palm Beach 2026 official program",
-        "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
-      ]
+      "SRC-694EFE69",
+      "SRC-AA54D183"
     ],
     "review_status": "2026-09-22 — Chassis 303684 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8279,14 +7604,8 @@
     "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 304110 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Palm Beach Cavallino Classic 2026 chassis list",
-        "https://www.finecars.cc/it/editorial/article/news/35-years-of-prancing-horse-passion-celebrated-at-palm-beach-cavallino-classic/index.html?cHash=bfddd5f75e&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Palm Beach 2026 official program",
-        "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
-      ]
+      "SRC-694EFE69",
+      "SRC-AA54D183"
     ],
     "review_status": "2026-09-22 — Chassis 304110 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8322,14 +7641,8 @@
     "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 311303 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Palm Beach Cavallino Classic 2026 chassis list",
-        "https://www.finecars.cc/it/editorial/article/news/35-years-of-prancing-horse-passion-celebrated-at-palm-beach-cavallino-classic/index.html?cHash=bfddd5f75e&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Palm Beach 2026 official program",
-        "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
-      ]
+      "SRC-694EFE69",
+      "SRC-AA54D183"
     ],
     "review_status": "2026-09-22 — Chassis 311303 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8365,14 +7678,8 @@
     "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 311304 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Palm Beach Cavallino Classic 2026 chassis list",
-        "https://www.finecars.cc/it/editorial/article/news/35-years-of-prancing-horse-passion-celebrated-at-palm-beach-cavallino-classic/index.html?cHash=bfddd5f75e&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Palm Beach 2026 official program",
-        "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
-      ]
+      "SRC-694EFE69",
+      "SRC-AA54D183"
     ],
     "review_status": "2026-09-22 — Chassis 311304 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8408,14 +7715,8 @@
     "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 312263 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Palm Beach Cavallino Classic 2026 chassis list",
-        "https://www.finecars.cc/it/editorial/article/news/35-years-of-prancing-horse-passion-celebrated-at-palm-beach-cavallino-classic/index.html?cHash=bfddd5f75e&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Palm Beach 2026 official program",
-        "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
-      ]
+      "SRC-694EFE69",
+      "SRC-AA54D183"
     ],
     "review_status": "2026-09-22 — Chassis 312263 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8451,14 +7752,8 @@
     "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 316681 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Palm Beach Cavallino Classic 2026 chassis list",
-        "https://www.finecars.cc/it/editorial/article/news/35-years-of-prancing-horse-passion-celebrated-at-palm-beach-cavallino-classic/index.html?cHash=bfddd5f75e&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Palm Beach 2026 official program",
-        "https://cavallino.com/blogs/news/the-35th-palm-beach-cavallino-classic-program"
-      ]
+      "SRC-694EFE69",
+      "SRC-AA54D183"
     ],
     "review_status": "2026-09-22 — Chassis 316681 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8494,14 +7789,8 @@
     "notes": "The Cavallino Classic Modena research list identifies a 2025 Daytona SP3 as chassis 322132. Cavallino's official event report confirms the 2026 Modena concours context. The accessible chassis list does not state a reliable exterior specification, full VIN or private owner, so those fields are left unfilled.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Cavallino Classic Modena 2026 chassis list",
-        "https://www.finecars.cc/de/editorial/article/news/cavallino-classic-modena-featured-40-splendid-ferraris-paid-tribute-to-the-origins-of-the-drake/index.html?cHash=8fe1e685b2&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ],
-      [
-        "Cavallino — Modena 2026 official event report",
-        "https://cavallino.com/blogs/news/cavallino-classic-modena-pays-tribute-to-the-origins-of-the-drake-and-la-dolce-vita-with-a-show-featuring-40-splendid-ferraris"
-      ]
+      "SRC-93591355",
+      "SRC-66C602A8"
     ],
     "review_status": "2026-09-22 — Chassis 322132 and 2025 vehicle year reviewed from the Cavallino Classic Modena list; retained as an event-backed lead pending an independent per-car source.",
     "record_kind": "lead",
@@ -8539,10 +7828,7 @@
     "notes": "The Hampton Court Concours of Elegance research report identifies chassis 315829 as a 2025 Daytona SP3 Carbon with a rich red-carbon finish and lists Fica Frio as the display entrant. The report notes the finish can appear nearly black in cloudy conditions. Entrant metadata is not treated as legal-title ownership, and no full VIN is inferred.",
     "photos": [],
     "sources": [
-      [
-        "Anamera — Concours of Elegance 2025 chassis list",
-        "https://www.finecars.cc/fr/editorial/article/news/81-cars-were-entered-into-concours-of-elegance-drawing-15000-to-hampton-court/index.html?cHash=d47e8c70bb&no_cache=1&tx_ttnews%5BbackPid%5D=226"
-      ]
+      "SRC-2F2E5916"
     ],
     "review_status": "2026-09-22 — Chassis 315829, 2025 year, red-carbon finish and Fica Frio display-entry metadata reviewed; retained as an event-backed lead pending a second per-car source.",
     "record_kind": "lead",
