@@ -2,12 +2,14 @@ name: Validate registry
 
 on:
   push:
+    branches-ignore: ["main"]
     paths:
       - 'data/**'
       - 'assets/**'
       - 'scripts/**'
       - 'index.html'
       - '.github/workflows/validate.yml'
+      - '.github/workflows/pages.yml'
   pull_request:
     paths:
       - 'data/**'
@@ -15,6 +17,7 @@ on:
       - 'scripts/**'
       - 'index.html'
       - '.github/workflows/validate.yml'
+      - '.github/workflows/pages.yml'
 
 permissions:
   contents: read
@@ -26,7 +29,7 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Use Node.js 20
+      - name: Use Node.js 24
         uses: actions/setup-node@v7
         with:
           node-version: '24'
