@@ -1,4 +1,4 @@
-name: Deploy Pages
+name: Validate and deploy Pages
 
 on:
   push:
@@ -14,8 +14,32 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Use Node.js 24
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+
+      - name: Validate research data
+        run: python3 scripts/validate.py
+
+      - name: Check frontend JavaScript syntax
+        run: |
+          node --check assets/content-i18n.js
+          node --check assets/i18n.js
+          for file in assets/js/*.js; do node --check "$file"; done
+
+      - name: Check bilingual content coverage
+        run: node scripts/check_content_i18n.mjs
+
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    needs: validate
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -27,10 +51,16 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Stage public site
+        run: |
+          mkdir -p _site
+          cp index.html .nojekyll _site/
+          cp -R assets data leclerc-2022 docs _site/
+
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: _site
 
       - name: Deploy
         id: deployment

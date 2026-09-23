@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gjimzhou.github.io/ferrari-sp3-atlas/data/schema/sources.schema.json",
+  "title": "SP3 Atlas source catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "label",
+      "publisher",
+      "description",
+      "url"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^SRC-[0-9A-F]{8}$"
+      },
+      "label": {
+        "type": "string",
+        "minLength": 1
+      },
+      "publisher": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string",
+        "pattern": "^https://"
+      }
+    }
+  }
+}

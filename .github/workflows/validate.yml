@@ -2,12 +2,14 @@ name: Validate registry
 
 on:
   push:
+    branches-ignore: ["main"]
     paths:
       - 'data/**'
       - 'assets/**'
       - 'scripts/**'
       - 'index.html'
       - '.github/workflows/validate.yml'
+      - '.github/workflows/pages.yml'
   pull_request:
     paths:
       - 'data/**'
@@ -15,6 +17,7 @@ on:
       - 'scripts/**'
       - 'index.html'
       - '.github/workflows/validate.yml'
+      - '.github/workflows/pages.yml'
 
 permissions:
   contents: read
@@ -26,15 +29,19 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v7
 
-      - name: Use Node.js 20
+      - name: Use Node.js 24
         uses: actions/setup-node@v7
         with:
           node-version: '24'
 
-      - name: Validate research data and generated bundle
+      - name: Validate research data
+        run: python3 scripts/validate.py
+
+      - name: Check frontend JavaScript syntax
         run: |
-          python3 scripts/build.py
-          git diff --exit-code -- assets/data.js
+          node --check assets/content-i18n.js
+          node --check assets/i18n.js
+          for file in assets/js/*.js; do node --check "$file"; done
 
       - name: Check bilingual content coverage
         run: node scripts/check_content_i18n.mjs

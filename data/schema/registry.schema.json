@@ -1,0 +1,245 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gjimzhou.github.io/ferrari-sp3-atlas/data/schema/registry.schema.json",
+  "title": "Ferrari Daytona SP3 Atlas registry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "title",
+      "tier",
+      "year",
+      "vin",
+      "chassis",
+      "edition",
+      "country",
+      "city",
+      "market",
+      "owner",
+      "exterior",
+      "color",
+      "interior",
+      "wheels",
+      "calipers",
+      "mileage",
+      "status",
+      "sale",
+      "program",
+      "options",
+      "timeline",
+      "notes",
+      "photos",
+      "sources",
+      "review_status",
+      "record_kind",
+      "owner_public",
+      "sort_weight"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[-A-Za-z0-9_]+$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "tier": {
+        "type": "string",
+        "enum": [
+          "chassis",
+          "official",
+          "dealer",
+          "owner",
+          "press",
+          "event",
+          "registry",
+          "location",
+          "community"
+        ]
+      },
+      "year": {
+        "type": [
+          "integer",
+          "null"
+        ],
+        "minimum": 1900,
+        "maximum": 2100
+      },
+      "vin": {
+        "type": "string"
+      },
+      "chassis": {
+        "type": "string"
+      },
+      "engine_no": {
+        "type": "string"
+      },
+      "gearbox_no": {
+        "type": "string"
+      },
+      "registration": {
+        "type": "string"
+      },
+      "edition": {
+        "type": "string"
+      },
+      "country": {
+        "type": "string"
+      },
+      "city": {
+        "type": "string"
+      },
+      "market": {
+        "type": "string"
+      },
+      "owner": {
+        "type": "string"
+      },
+      "exterior": {
+        "type": "string"
+      },
+      "color": {
+        "type": "string"
+      },
+      "interior": {
+        "type": "string"
+      },
+      "wheels": {
+        "type": "string"
+      },
+      "calipers": {
+        "type": "string"
+      },
+      "mileage": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "sale": {
+        "type": "string"
+      },
+      "program": {
+        "type": "string"
+      },
+      "options": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "timeline": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "notes": {
+        "type": "string"
+      },
+      "photos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "url",
+            "source_url",
+            "caption",
+            "credit"
+          ],
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "source_url": {
+              "type": "string",
+              "pattern": "^https://"
+            },
+            "caption": {
+              "type": "string"
+            },
+            "credit": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "sources": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string",
+          "pattern": "^SRC-[0-9A-F]{8}$"
+        }
+      },
+      "review_status": {
+        "type": "string"
+      },
+      "record_kind": {
+        "type": "string",
+        "enum": [
+          "profile",
+          "lead",
+          "prototype"
+        ]
+      },
+      "owner_public": {
+        "type": "boolean"
+      },
+      "sort_weight": {
+        "type": "number"
+      },
+      "accessed": {
+        "type": "string"
+      },
+      "vin_conflicted": {
+        "type": "boolean"
+      },
+      "market_events": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": [
+            "type",
+            "amount",
+            "currency",
+            "source_url"
+          ],
+          "properties": {
+            "type": {
+              "const": "auction_result"
+            },
+            "amount": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "currency": {
+              "type": "string",
+              "enum": [
+                "USD",
+                "CHF",
+                "EUR",
+                "GBP"
+              ]
+            },
+            "event": {
+              "type": "string"
+            },
+            "source_url": {
+              "type": "string",
+              "pattern": "^https://"
+            },
+            "basis": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

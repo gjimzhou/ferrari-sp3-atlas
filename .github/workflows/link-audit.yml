@@ -1,0 +1,24 @@
+name: Audit source links
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Audit canonical source URLs
+        run: python3 scripts/audit_links.py --output link-audit.json
+
+      - name: Upload audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-link-audit
+          path: link-audit.json
