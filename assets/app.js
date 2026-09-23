@@ -54,10 +54,11 @@ function hydrate(data){records=validate(data).map(r=>clone(r));}
 function toast(s){$('toast').textContent=s;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2800);}
 function countryLabel(code){if(!code)return document.documentElement.lang==='en'?'Not labeled':'未标注';try{const locale=document.documentElement.lang==='en'?'en':'zh-CN';return new Intl.DisplayNames([locale],{type:'region'}).of(code)+' · '+code;}catch{return code;}}
 function mediaOf(r){
- const localized=window.SP3Content?.value(r,'photo_captions')||[];
+ const localizedCaptions=window.SP3Content?.value(r,'photo_captions')||[];
+ const localizedCredits=window.SP3Content?.value(r,'credits')||[];
  return (r.photos||[]).map((photo,i)=>{
-  if(typeof photo==='string') return {url:photo,source_url:r.photo_sources?.[i]||r.sources?.[0]?.[1]||'',caption:localized[i]??r.photo_captions?.[i]??'',credit:r.credits?.[i]||''};
-  return {url:photo?.url||'',source_url:photo?.source_url||r.sources?.[0]?.[1]||'',caption:localized[i]??photo?.caption??'',credit:photo?.credit||''};
+  if(typeof photo==='string') return {url:photo,source_url:r.photo_sources?.[i]||r.sources?.[0]?.[1]||'',caption:localizedCaptions[i]??r.photo_captions?.[i]??'',credit:localizedCredits[i]??r.credits?.[i]??''};
+  return {url:photo?.url||'',source_url:photo?.source_url||r.sources?.[0]?.[1]||'',caption:localizedCaptions[i]??photo?.caption??'',credit:localizedCredits[i]??photo?.credit??''};
  });
 }
 function art(r){const src=safeURL(mediaOf(r)[0]?.url,true);const placeholder=`<div class="placeholder photo-fallback" style="--swatch:${swatches[r.color]||'#343842'}"></div>`;return src?`<img loading="lazy" src="${esc(src)}" alt="${esc(r.title)}">${placeholder}`:placeholder.replace(' photo-fallback','');}
@@ -153,7 +154,11 @@ async function loadJSON(path){
 }
 async function bootstrap(){
  try{
-  const [registryData,indexData]=await Promise.all([loadJSON('data/registry.json'),loadJSON('data/source-index.json')]);
+  const [registryData,indexData]=await Promise.all([
+   loadJSON('data/registry.json'),
+   loadJSON('data/source-index.json'),
+   window.SP3Content?.load?.()||Promise.resolve()
+  ]);
   if(!Array.isArray(indexData))throw Error('Source index root must be an array');
   hydrate(registryData);sourceIndex=indexData;
   setup();restoreHash();window.addEventListener('hashchange',restoreHash);

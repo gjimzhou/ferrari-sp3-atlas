@@ -1,25 +1,36 @@
 #!/usr/bin/env node
-/**
- * Static bilingual coverage audit for the display-only registry translation layer.
- * No external dependencies.
- */
+/** Static bilingual coverage audit for JSON-backed display translations. */
 import fs from 'node:fs';
 import vm from 'node:vm';
 
-const registry = JSON.parse(fs.readFileSync(new URL('../data/registry.json', import.meta.url), 'utf8'));
+const readJson = relative => JSON.parse(fs.readFileSync(new URL(relative, import.meta.url), 'utf8'));
+const registry = readJson('../data/registry.json');
+const zhRecords = readJson('../data/i18n/registry.zh.json');
+const enRecords = readJson('../data/i18n/registry.en.json');
+const zhText = readJson('../data/i18n/text.zh.json');
+const enText = readJson('../data/i18n/text.en.json');
 const translationSource = fs.readFileSync(new URL('../assets/content-i18n.js', import.meta.url), 'utf8');
 
 const context = {
   window: {},
   document: {documentElement: {lang: 'zh-CN'}},
-  console
+  console,
+  fetch: async () => { throw new Error('Network access is not used by the static audit'); }
 };
 vm.createContext(context);
 vm.runInContext(translationSource, context, {filename: 'assets/content-i18n.js'});
 
 const api = context.window.SP3Content;
-if (!api || typeof api.value !== 'function') {
+if (!api || typeof api.value !== 'function' || typeof api.install !== 'function') {
   throw new Error('SP3Content translation API did not initialize');
+}
+api.install('zh', zhRecords, zhText);
+api.install('en', enRecords, enText);
+
+const ids = new Set(registry.map(record => record.id));
+for (const [label, pack] of [['ZH', zhRecords], ['EN', enRecords]]) {
+  const unknown = Object.keys(pack).filter(id => !ids.has(id));
+  if (unknown.length) throw new Error(`${label} translation pack contains unknown record IDs: ${unknown.join(', ')}`);
 }
 
 const fields = [
@@ -36,11 +47,14 @@ const isWordyEnglish = value => {
   const s = String(value ?? '').trim();
   return !hasCJK(s) && /[A-Za-z]/.test(s) && s.split(/\s+/).length >= 5;
 };
+const rawFor = (record, key) => key === 'photo_captions'
+  ? (record.photos || []).map(photo => typeof photo === 'string' ? '' : photo.caption)
+  : record[key];
 
 const failures = [];
 for (const record of registry) {
   for (const key of fields) {
-    const raw = key === 'photo_captions' ? (record.photos || []).map(photo => typeof photo === 'string' ? '' : photo.caption) : record[key];
+    const raw = rawFor(record, key);
     const english = api.value(record, key, 'en');
     const chinese = api.value(record, key, 'zh');
 
@@ -67,21 +81,16 @@ for (const record of registry) {
     }
   }
 
-  for (const [label] of record.sources || []) {
+  for (const source of record.sources || []) {
+    const label = Array.isArray(source) ? source[0] : source.label;
     const english = api.text(label, 'en');
     const chinese = api.text(label, 'zh');
-    if (hasCJK(english)) {
-      failures.push(`${record.id} source label: Chinese text leaked into English mode: ${english}`);
-    }
-    if (!hasCJK(chinese)) {
-      failures.push(`${record.id} source label: missing Chinese translation: ${label}`);
-    }
+    if (hasCJK(english)) failures.push(`${record.id} source label: Chinese text leaked into English mode: ${english}`);
+    if (!hasCJK(chinese)) failures.push(`${record.id} source label: missing Chinese translation: ${label}`);
   }
 
   for (const credit of api.value(record, 'credits', 'en') || []) {
-    if (hasCJK(credit)) {
-      failures.push(`${record.id} credit: Chinese text leaked into English mode: ${credit}`);
-    }
+    if (hasCJK(credit)) failures.push(`${record.id} credit: Chinese text leaked into English mode: ${credit}`);
   }
 }
 

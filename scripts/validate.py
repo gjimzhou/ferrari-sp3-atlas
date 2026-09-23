@@ -8,6 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 registry = json.loads((ROOT / 'data/registry.json').read_text())
 index = json.loads((ROOT / 'data/source-index.json').read_text())
 schema = json.loads((ROOT / 'data/schema/registry.schema.json').read_text())
+zh_records = json.loads((ROOT / 'data/i18n/registry.zh.json').read_text())
+en_records = json.loads((ROOT / 'data/i18n/registry.en.json').read_text())
+zh_text = json.loads((ROOT / 'data/i18n/text.zh.json').read_text())
+en_text = json.loads((ROOT / 'data/i18n/text.en.json').read_text())
 
 assert isinstance(registry, list), 'Registry root must be an array'
 assert isinstance(index, list), 'Source index root must be an array'
@@ -25,6 +29,11 @@ string_fields -= optional_string_fields
 
 assert len({r['id'] for r in registry}) == len(registry), 'Duplicate record ID'
 assert len({r['id'] for r in index}) == len(index), 'Duplicate source ID'
+registry_ids = {r['id'] for r in registry}
+for label, pack in (('ZH', zh_records), ('EN', en_records)):
+    unknown = sorted(set(pack) - registry_ids)
+    assert not unknown, (label, 'Translation pack contains unknown record IDs', unknown)
+assert isinstance(zh_text, dict) and isinstance(en_text, dict), 'Text translation packs must be objects'
 
 vins = []
 confirmed_vins = []
