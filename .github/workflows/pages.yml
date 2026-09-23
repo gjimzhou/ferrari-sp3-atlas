@@ -52,7 +52,7 @@ jobs:
           mkdir -p _site
           cp index.html .nojekyll _site/
           cp -R assets data leclerc-2022 _site/
-          cp PUBLIC_SOURCES.md _site/
+          cp -R docs _site/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
