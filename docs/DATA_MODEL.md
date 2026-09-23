@@ -21,7 +21,7 @@ A record can have a public VIN and still remain a lead.
 
 ## Provenance fields
 
-Optional `engine_no`, `gearbox_no`, and `registration` fields are displayed independently when published by a source. Structured `sale_event` is used only for a published auction result and does not replace the human-readable `sale` text.
+Optional `engine_no`, `gearbox_no`, and `registration` fields are displayed independently when published by a source. Structured `market_events[]` stores published auction results and does not replace the human-readable `sale` summary.
 
 ## Sources
 
@@ -52,4 +52,4 @@ Structured auction results use `market_events[]` rather than a singular sale obj
 
 ## Changes
 
-Add new research fields to `data/schema/registry.schema.json` and `scripts/build.py` before relying on them in the UI. A field present in canonical data but absent from the schema or presentation is considered schema drift.
+Add new research fields to `data/schema/registry.schema.json` and `scripts/validate.py` before relying on them in the UI. A field present in canonical data but absent from the schema or presentation is considered schema drift.
