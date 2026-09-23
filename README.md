@@ -23,16 +23,18 @@
 | --- | --- |
 | `index.html` | GitHub Pages 首页 |
 | `data/registry.json` | 可编辑的逐车研究数据；来源使用稳定 source ID |
-| `data/sources.json` | 逐车引用的规范化 source catalog |\n| `data/source-index.json` | ECR 公开来源索引快照 |
-| `assets/js/app.js` / `core.js` / `media.js` | 页面编排、纯数据工具与图库 helper |\n| `assets/style.css` | 页面样式 |
+| `data/sources.json` | 逐车引用的规范化 source catalog |
+| `data/source-index.json` | ECR 公开来源索引快照 |
+| `assets/js/app.js` / `core.js` / `media.js` | 页面编排、纯数据工具与图库 helper |
+| `assets/style.css` | 页面样式 |
 | `assets/i18n.js` | UI 文案、语言状态、可分享的 `?lang=` 链接 |
-| `assets/content-i18n.js` | 逐车研究字段的展示层双语翻译；不改写 canonical JSON |
-| `assets/data.js` | 构建生成的静态数据包，不手动编辑 |
+| `assets/content-i18n.js` | 轻量翻译 loader；逐车翻译数据存于 `data/i18n/*.json` |
 | `assets/photos/` | 历史版本继承的图片；版权归原权利人 |
-| `scripts/validate.py` | 数据契约、VIN、来源、媒体与页面计数验证 |\n| `data/schema/registry.schema.json` | Registry 数据契约；新增字段先进入 schema |\n| `docs/DATA_MODEL.md` | 数据模型、证据层级与演进规则 |
+| `scripts/validate.py` | 数据契约、VIN、来源、媒体与页面计数验证 |
+| `data/schema/registry.schema.json` | Registry 数据契约；新增字段先进入 schema |
+| `docs/DATA_MODEL.md` | 数据模型、证据层级与演进规则 |
 | `docs/PUBLIC_SOURCES.md` | 来源目录与研究规则 |
 | `docs/RESEARCH_LOG.md` | 本轮更新、去重边界与后续工作 |
-| `sp3_atlas.html` / `sp3_atlas_v2.html` | 保留的历史快照，数据不会自动更新 |
 
 ## 本地运行与更新（Development）
 
@@ -54,7 +56,7 @@ python3 -m http.server 8000
 5. 不以网页完成度或编辑排序权重作为事实正确概率。
 6. 不收集非公开车主身份、住宅地址、联系方式或私人行踪。
 
-导入 JSON 按 ID 合并，经过结构和 URL 验证后才写入浏览器。新版内置记录会持续载入，本地覆盖项优先；旧版 `sp3Atlas` 原件保留。导出包含来源和照片引用，CSV 会对公式前缀作转义。搜索同时覆盖 canonical 原文和当前语言的展示译文。
+页面直接读取 canonical `data/*.json`。新增或修改研究记录应先通过 schema、来源、媒体、VIN 与双语覆盖验证；搜索同时覆盖 canonical 原文和当前语言的展示译文。
 
 ## 图片（Images）
 
