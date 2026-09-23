@@ -102,6 +102,10 @@
     "Anamera — Ferrari Cavalcade Siviglia entry list":"Anamera — Ferrari Cavalcade Siviglia 参赛车辆名单",
     "Anamera — Sport & Collection 2024 research list":"Anamera — Sport & Collection 2024 研究清单",
     "Anamera — Sport & Collection 2025 research list":"Anamera — Sport & Collection 2025 研究清单",
+    "Anamera — Goodwood Festival of Speed 2022 chassis list":"Anamera — Goodwood Festival of Speed 2022 底盘清单",
+    "Anamera — Goodwood Festival of Speed 2023 chassis list":"Anamera — Goodwood Festival of Speed 2023 底盘清单",
+    "Anamera — Goodwood Festival of Speed 2024 chassis list":"Anamera — Goodwood Festival of Speed 2024 底盘清单",
+    "Anamera — Ferrari Finali Mondiali 2023 chassis list":"Anamera — Ferrari Finali Mondiali 2023 底盘清单",
     "RM Sotheby's — Monterey 2026 catalogue":"RM Sotheby’s — Monterey 2026 拍卖目录",
     "Exclusive Car Registry — profile 70568 (deduplicated alias)":"Exclusive Car Registry — 档案 70568（去重别名）",
     "Broad Arrow — auction listing":"Broad Arrow — 拍卖目录",
@@ -1287,16 +1291,17 @@
       review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
     },
     "SP3-285951-CAVALCADE":{
-      title:"深红色 / 黑色车顶 — 底盘 285951",
-      edition:"Cavalcade Siviglia 底盘线索；客户配额身份未独立确认",
+      title:"红色金属漆 / 黑色车顶 — 底盘 285951",
+      edition:"多次公开活动记录底盘；客户配额身份未独立确认",
       country:"英国",
-      city:"2025 Ferrari Cavalcade Siviglia 活动",
-      owner:"未公开",
-      exterior:"深红色车身，黑色车顶",
-      status:"2025 Ferrari Cavalcade Siviglia 活动车辆线索",
-      timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 285951，深红色车身，黑色车顶，国家元数据为英国。"],
-      notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 285951 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
-      review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+      city:"Goodwood / 2025 Ferrari Cavalcade Siviglia 活动记录",
+      market:"欧洲活动记录",
+      owner:"未公开；Ferrari North Europe Ltd 为 2023 与 2024 Goodwood 参展方",
+      exterior:"红色金属漆；2025 Cavalcade 清单描述为深红色车身、黑色车顶",
+      status:"2023–2024 Goodwood / 2025 Cavalcade Siviglia 活动车辆",
+      timeline:["2023 年 7 月 13–16 日 — Goodwood Festival of Speed Supercar Run 列出 Daytona SP3 底盘 285951，Red Metallic，参展方 Ferrari North Europe Ltd。","2024 年 7 月 11–14 日 — Goodwood 再次列出同一 Daytona SP3 底盘 285951，Red Metallic，参展方仍为 Ferrari North Europe Ltd。","2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录底盘 285951，深红色车身、黑色车顶，国家元数据为英国。"],
+      notes:"底盘 285951 在三条独立公开 Ferrari 活动记录中重复出现。Goodwood 2023 与 2024 均将其列为 Red Metallic Daytona SP3，参展方 Ferrari North Europe Ltd；2025 Cavalcade Siviglia 又记录同一底盘为深红色配黑色车顶，并给出英国元数据。Ferrari North Europe 仅作为 Goodwood 参展方记录，不被视为私人车主。本站不推断完整 VIN。",
+      review_status:"2026-09-22 — 已在 Goodwood 2023、Goodwood 2024 与 Cavalcade Siviglia 2025 三条记录中交叉核验底盘 285951；由 event lead 升级为详细车档。"
     },
     "SP3-312255-CAVALCADE":{
       title:"哑光银 / 黑色车顶 — 底盘 312255",
@@ -1388,6 +1393,21 @@
       timeline:["2024 年 5 月 30 日至 6 月 2 日 — 在 Val de Vienne 举办的第 30 届 Sport & Collection / 500 Ferrari Contre le Cancer 清单中列为 Daytona SP3 底盘 303669，深红 / 蓝色内饰，法国。","2025 年 5 月 29 日至 6 月 1 日 — 再次出现在 Val de Vienne 的 Sport et Collection 清单中，底盘 303669，深红色。"],
       notes:"连续两届 Sport & Collection 研究清单都记录了同一辆 Daytona SP3 底盘 303669。2024 清单给出深红外观、蓝色内饰和法国元数据；2025 清单再次独立列出底盘 303669 与深红外观。本站不据此推断完整 VIN 或私人车主。",
       review_status:"2026-09-22 — 已交叉核验底盘 303669、深红外观、蓝色内饰及 2024/2025 连续两届活动记录。"
+    }
+  });
+
+  Object.assign(zhRecords, {
+    "SP3-270313-EVENT":{
+      title:"红色金属漆 — 底盘 270313",
+      edition:"公开工厂／活动底盘；客户配额身份未独立确认",
+      country:"未公开",
+      city:"Goodwood 2022 / Mugello 2023 活动记录",
+      owner:"未公开；Ferrari North Europe Ltd 为 2022 Goodwood 参展／展示方",
+      exterior:"红色金属漆 / 深红色",
+      status:"2022 与 2023 均有公开展示／活动记录的底盘",
+      timeline:["2022 年 6 月 — Goodwood Festival of Speed 底盘清单将 Daytona SP3 底盘 270313 记录为红色金属漆静态展示车，参展方为 Ferrari North Europe Ltd。","2023 年 10 月 — Mugello 的 Ferrari Finali Mondiali 将 Daytona SP3 底盘 270313 列在 outside exhibition，描述为深红色。"],
+      notes:"两份独立 Ferrari 活动研究清单都识别出 Daytona SP3 底盘 270313：2022 Goodwood 的红色金属漆静态展示车，以及 2023 Ferrari Finali Mondiali Mugello 外场的深红色车辆。重复 serial 足以确认活动车辆身份，但来源均未公开完整 VIN、客户配额身份或私人车主，因此本站不作推断。",
+      review_status:"2026-09-22 — 已在 Goodwood 2022 与 Ferrari Finali Mondiali 2023 两条记录中交叉核验底盘 270313 及红／深红色活动车辆身份。"
     }
   });
 

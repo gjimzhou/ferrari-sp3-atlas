@@ -7056,32 +7056,42 @@
   {
     "id": "SP3-285951-CAVALCADE",
     "title": "Dark Red / Black Roof — chassis 285951",
-    "tier": "event",
+    "tier": "chassis",
     "year": null,
     "vin": "Not public",
     "chassis": "285951",
-    "edition": "Cavalcade Siviglia chassis lead; allocation status not independently verified",
+    "edition": "Public multi-event chassis; customer-allocation status not independently established",
     "country": "United Kingdom",
-    "city": "Ferrari Cavalcade Siviglia 2025",
-    "market": "Not public",
-    "owner": "Not public",
-    "exterior": "dark red with black roof",
+    "city": "Goodwood / Cavalcade Siviglia event records",
+    "market": "European event records",
+    "owner": "Not public; Ferrari North Europe Ltd entered the car at Goodwood in 2023 and 2024",
+    "exterior": "Red metallic; 2025 Cavalcade list describes dark red with black roof",
     "color": "Red",
     "interior": "Not publicly documented",
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "Unknown",
-    "status": "Ferrari Cavalcade Siviglia 2025 event lead",
+    "status": "Goodwood 2023–2024 / Cavalcade Siviglia 2025 event car",
     "sale": "Not publicly offered",
     "program": "Not publicly documented",
     "options": [],
     "timeline": [
+      "13–16 July 2023 — Goodwood Festival of Speed lists Daytona SP3 chassis 285951 in the Supercar Run, Red Metallic, entered by Ferrari North Europe Ltd.",
+      "11–14 July 2024 — Goodwood again lists Daytona SP3 chassis 285951 in the Supercar Run, Red Metallic, entered by Ferrari North Europe Ltd.",
       "2025 — Ferrari Cavalcade Siviglia entry list records Daytona SP3 chassis 285951, dark red with black roof, with United Kingdom entry metadata."
     ],
-    "notes": "The published Cavalcade Siviglia entry list identifies Daytona SP3 chassis 285951 and its exterior configuration. Ferrari's official event feature confirms the 2025 Cavalcade context. No full VIN or private owner is assigned from the event list.",
+    "notes": "Chassis 285951 is independently repeated across three public Ferrari-event records. Goodwood lists the same Daytona SP3 in both 2023 and 2024 as Red Metallic under Ferrari North Europe Ltd; the 2025 Cavalcade Siviglia list records the same chassis as dark red with a black roof and United Kingdom metadata. Ferrari North Europe is treated only as the Goodwood entrant, not as the private owner. No full VIN is inferred.",
     "photos": [],
     "credits": [],
     "sources": [
+      [
+        "Anamera — Goodwood Festival of Speed 2023 chassis list",
+        "https://www.finecars.cc/en/editorial/article/news/goodwood-festival-of-speed-ferraris-by-chassis-numbers/index.html"
+      ],
+      [
+        "Anamera — Goodwood Festival of Speed 2024 chassis list",
+        "https://www.finecars.cc/en/editorial/article/news/goodwood-festival-of-speed-11-14-july-2024/index.html"
+      ],
       [
         "Ferrari — 2025 Cavalcade Siviglia official feature",
         "https://www.ferrari.com/en-US/magazine/articles/2025-cavalcade-siviglia"
@@ -7091,13 +7101,13 @@
         "https://www.finecars.cc/en/editorial/races-rallyes-article/news/cavalcade-siviglia-a-fantastic-andalusian-event-dedicated-to-modern-ferraris/index.html?cHash=eb4963d97f&no_cache=1&tx_ttnews%5Barc%5D=1&tx_ttnews%5BbackPid%5D=301&tx_ttnews%5BpL%5D=2678399&tx_ttnews%5BpS%5D=1146456000&tx_ttnews%5Bpointer%5D=3"
       ]
     ],
-    "review_status": "2026-09-21 — Chassis and exterior specification reviewed against the published Cavalcade Siviglia entry list; retained as an event-backed lead pending an independent per-car source.",
-    "record_kind": "lead",
+    "review_status": "2026-09-22 — Chassis 285951 cross-checked across Goodwood 2023, Goodwood 2024 and Cavalcade Siviglia 2025; upgraded from event lead to detailed profile.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 72,
+    "sort_weight": 97,
     "photo_sources": [],
     "photo_captions": [],
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-22"
   },
   {
     "id": "SP3-312255-CAVALCADE",
@@ -7714,6 +7724,53 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 94,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "SP3-270313-EVENT",
+    "title": "Red Metallic — chassis 270313",
+    "tier": "chassis",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "270313",
+    "edition": "Public factory/event chassis; customer-allocation status not independently established",
+    "country": "Unknown",
+    "city": "Goodwood 2022 / Mugello 2023 event records",
+    "market": "Not public",
+    "owner": "Not public; Ferrari North Europe Ltd was the 2022 Goodwood entrant/displayer",
+    "exterior": "Red metallic / dark red",
+    "color": "Red",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Unknown",
+    "status": "Public display/event chassis documented in 2022 and 2023",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "June 2022 — Goodwood Festival of Speed chassis list records Daytona SP3 chassis 270313 as a red-metallic static display entered by Ferrari North Europe Ltd.",
+      "October 2023 — Ferrari Finali Mondiali at Mugello records Daytona SP3 chassis 270313 in the outside exhibition, described as dark red."
+    ],
+    "notes": "Two separate Ferrari-event research lists identify Daytona SP3 chassis 270313: a red-metallic static display at Goodwood in 2022 and a dark-red outside-exhibition car at Ferrari Finali Mondiali in Mugello in 2023. The repeated serial strongly establishes the event-car identity, but neither source publishes a full VIN, customer-allocation status or private owner; those fields are therefore not inferred.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Anamera — Goodwood Festival of Speed 2022 chassis list",
+        "https://www.finecars.cc/en/editorial/article/news/goodwood-festival-of-speed-2/index.html"
+      ],
+      [
+        "Anamera — Ferrari Finali Mondiali 2023 chassis list",
+        "https://www.finecars.cc/en/editorial/article/news/ferrari-finali-mondiali-2023-returns-to-mugello-for-highly-successful-event/index.html"
+      ]
+    ],
+    "review_status": "2026-09-22 — Chassis 270313 and red/dark-red event identity cross-checked across Goodwood 2022 and Ferrari Finali Mondiali 2023 records.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 96,
     "photo_sources": [],
     "photo_captions": [],
     "accessed": "2026-09-22"
