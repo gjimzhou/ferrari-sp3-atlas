@@ -106,6 +106,11 @@
     "Anamera — Goodwood Festival of Speed 2023 chassis list":"Anamera — Goodwood Festival of Speed 2023 底盘清单",
     "Anamera — Goodwood Festival of Speed 2024 chassis list":"Anamera — Goodwood Festival of Speed 2024 底盘清单",
     "Anamera — Ferrari Finali Mondiali 2023 chassis list":"Anamera — Ferrari Finali Mondiali 2023 底盘清单",
+    "Anamera — Palm Beach Cavallino Classic 2026 chassis list":"Anamera — Palm Beach Cavallino Classic 2026 底盘清单",
+    "Cavallino — Palm Beach 2026 official program":"Cavallino — Palm Beach 2026 官方活动日程",
+    "Anamera — Cavallino Classic Modena 2026 chassis list":"Anamera — Cavallino Classic Modena 2026 底盘清单",
+    "Cavallino — Modena 2026 official event report":"Cavallino — Modena 2026 官方活动报道",
+    "Anamera — Concours of Elegance 2025 chassis list":"Anamera — Concours of Elegance 2025 底盘清单",
     "RM Sotheby's — Monterey 2026 catalogue":"RM Sotheby’s — Monterey 2026 拍卖目录",
     "Exclusive Car Registry — profile 70568 (deduplicated alias)":"Exclusive Car Registry — 档案 70568（去重别名）",
     "Broad Arrow — auction listing":"Broad Arrow — 拍卖目录",
@@ -1408,6 +1413,114 @@
       timeline:["2022 年 6 月 — Goodwood Festival of Speed 底盘清单将 Daytona SP3 底盘 270313 记录为红色金属漆静态展示车，参展方为 Ferrari North Europe Ltd。","2023 年 10 月 — Mugello 的 Ferrari Finali Mondiali 将 Daytona SP3 底盘 270313 列在 outside exhibition，描述为深红色。"],
       notes:"两份独立 Ferrari 活动研究清单都识别出 Daytona SP3 底盘 270313：2022 Goodwood 的红色金属漆静态展示车，以及 2023 Ferrari Finali Mondiali Mugello 外场的深红色车辆。重复 serial 足以确认活动车辆身份，但来源均未公开完整 VIN、客户配额身份或私人车主，因此本站不作推断。",
       review_status:"2026-09-22 — 已在 Goodwood 2022 与 Ferrari Finali Mondiali 2023 两条记录中交叉核验底盘 270313 及红／深红色活动车辆身份。"
+    }
+  });
+
+  Object.assign(zhRecords, {
+    "SP3-303684-CAVALLINO-PB":{
+      title:"浅米色 — 底盘 303684",
+      edition:"Palm Beach Cavallino Classic 底盘线索；客户配额身份未独立确认",
+      country:"美国",
+      city:"佛罗里达州 Boca Raton · The Boca Raton",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"浅米色",
+      status:"Palm Beach Cavallino Classic 2026 Concours 参展车辆",
+      timeline:["2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 303684，浅米色。"],
+      notes:"第 35 届 Palm Beach Cavallino Classic 研究清单明确记录 Daytona SP3 底盘 303684 及其外观展示；Cavallino 官方日程独立确认 2026 年 2 月 13–15 日活动在 The Boca Raton 举行。本站不根据 Concours 参展记录推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 303684 与外观展示；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-304110-CAVALLINO-PB":{
+      title:"黑色 — 底盘 304110",
+      edition:"Palm Beach Cavallino Classic 底盘线索；客户配额身份未独立确认",
+      country:"美国",
+      city:"佛罗里达州 Boca Raton · The Boca Raton",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"黑色",
+      status:"Palm Beach Cavallino Classic 2026 Concours 参展车辆",
+      timeline:["2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 304110，黑色。"],
+      notes:"第 35 届 Palm Beach Cavallino Classic 研究清单明确记录 Daytona SP3 底盘 304110 及其外观展示；Cavallino 官方日程独立确认 2026 年 2 月 13–15 日活动在 The Boca Raton 举行。本站不根据 Concours 参展记录推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 304110 与外观展示；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-311303-CAVALLINO-PB":{
+      title:"深红／黑色；88 号 — 底盘 311303",
+      edition:"Palm Beach Cavallino Classic 底盘线索；客户配额身份未独立确认",
+      country:"美国",
+      city:"佛罗里达州 Boca Raton · The Boca Raton",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"深红／黑色；88 号",
+      status:"Palm Beach Cavallino Classic 2026 Concours 参展车辆",
+      timeline:["2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 311303，深红／黑色；88 号。"],
+      notes:"第 35 届 Palm Beach Cavallino Classic 研究清单明确记录 Daytona SP3 底盘 311303 及其外观展示；Cavallino 官方日程独立确认 2026 年 2 月 13–15 日活动在 The Boca Raton 举行。本站不根据 Concours 参展记录推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 311303 与外观展示；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-311304-CAVALLINO-PB":{
+      title:"深红色 — 底盘 311304",
+      edition:"Palm Beach Cavallino Classic 底盘线索；客户配额身份未独立确认",
+      country:"美国",
+      city:"佛罗里达州 Boca Raton · The Boca Raton",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"深红色",
+      status:"Palm Beach Cavallino Classic 2026 Concours 参展车辆",
+      timeline:["2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 311304，深红色。"],
+      notes:"第 35 届 Palm Beach Cavallino Classic 研究清单明确记录 Daytona SP3 底盘 311304 及其外观展示；Cavallino 官方日程独立确认 2026 年 2 月 13–15 日活动在 The Boca Raton 举行。本站不根据 Concours 参展记录推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 311304 与外观展示；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-312263-CAVALLINO-PB":{
+      title:"绿色 — 底盘 312263",
+      edition:"Palm Beach Cavallino Classic 底盘线索；客户配额身份未独立确认",
+      country:"美国",
+      city:"佛罗里达州 Boca Raton · The Boca Raton",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"绿色",
+      status:"Palm Beach Cavallino Classic 2026 Concours 参展车辆",
+      timeline:["2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 312263，绿色。"],
+      notes:"第 35 届 Palm Beach Cavallino Classic 研究清单明确记录 Daytona SP3 底盘 312263 及其外观展示；Cavallino 官方日程独立确认 2026 年 2 月 13–15 日活动在 The Boca Raton 举行。本站不根据 Concours 参展记录推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 312263 与外观展示；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-316681-CAVALLINO-PB":{
+      title:"绿色；23 号 — 底盘 316681",
+      edition:"Palm Beach Cavallino Classic 底盘线索；客户配额身份未独立确认",
+      country:"美国",
+      city:"佛罗里达州 Boca Raton · The Boca Raton",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"绿色；23 号",
+      status:"Palm Beach Cavallino Classic 2026 Concours 参展车辆",
+      timeline:["2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 316681，绿色；23 号。"],
+      notes:"第 35 届 Palm Beach Cavallino Classic 研究清单明确记录 Daytona SP3 底盘 316681 及其外观展示；Cavallino 官方日程独立确认 2026 年 2 月 13–15 日活动在 The Boca Raton 举行。本站不根据 Concours 参展记录推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 316681 与外观展示；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-322132-CAVALLINO-MODENA":{
+      title:"Cavallino Classic Modena — 底盘 322132",
+      edition:"Cavallino Classic Modena 底盘线索；客户配额身份未独立确认",
+      country:"意大利",
+      city:"意大利 Modena",
+      market:"公开 Concours 参展元数据",
+      owner:"未公开",
+      exterior:"可访问的参展清单未注明可靠外观配置",
+      status:"Cavallino Classic Modena 2026 Concours 参展车辆",
+      timeline:["2026 年 5 月 22–24 日 — Cavallino Classic Modena Concours 清单记录一辆 2025 Ferrari Daytona SP3，底盘 322132。"],
+      notes:"Cavallino Classic Modena 研究清单将一辆 2025 Daytona SP3 明确识别为底盘 322132；Cavallino 官方活动报道确认 2026 Modena Concours 背景。可访问底盘清单没有提供可靠的外观配置、完整 VIN 或私人车主，因此本站不作推断。",
+      review_status:"2026-09-22 — 已核对 Cavallino Classic Modena 清单中的底盘 322132 与 2025 年份；在取得独立逐车来源前保留为 event-backed lead。"
+    },
+    "SP3-315829-HAMPTON":{
+      title:"红色碳纤维 — 底盘 315829",
+      edition:"Concours of Elegance 展示底盘；客户配额身份未独立确认",
+      country:"英国",
+      city:"英国 Hampton Court Palace",
+      market:"公开 Concours／展示元数据",
+      owner:"未公开；Fica Frio 被列为展示参展方",
+      exterior:"红色碳纤维；报道指出阴天下视觉上近乎黑色",
+      status:"2025 Hampton Court Concours of Elegance 展示车辆",
+      options:["红色碳纤维外观展示"],
+      timeline:["2025 年 9 月 5–7 日 — Hampton Court Concours of Elegance 将一辆 2025 Ferrari Daytona SP3 Carbon、底盘 315829 列入 The Collection 展示；Fica Frio 被列为参展方。"],
+      notes:"Hampton Court Concours of Elegance 研究报道将底盘 315829 识别为 2025 Daytona SP3 Carbon，记录其浓郁红色碳纤维外观，并将 Fica Frio 列为展示参展方；报道还指出该涂装在阴天下可能近乎黑色。参展方信息不等同于法律意义上的登记车主，本站也不推断完整 VIN。",
+      review_status:"2026-09-22 — 已核对底盘 315829、2025 年份、红色碳纤维外观与 Fica Frio 展示参展元数据；在取得第二个逐车来源前保留为 event-backed lead。"
     }
   });
 
