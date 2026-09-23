@@ -78,7 +78,7 @@ for (const record of registry) {
     }
   }
 
-  for (const credit of (record.photos || []).map(photo => typeof photo === 'string' ? '' : photo.credit)) {
+  for (const credit of api.value(record, 'credits', 'en') || []) {
     if (hasCJK(credit)) {
       failures.push(`${record.id} credit: Chinese text leaked into English mode: ${credit}`);
     }
