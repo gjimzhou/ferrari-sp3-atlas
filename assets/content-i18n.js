@@ -332,10 +332,10 @@
       mileage:"编目时 2,933 km",
       status:"已售 — Tailored for Speed 2025",
       sale:"CHF 5,348,750 — RM Sotheby’s 公布成交结果",
-      options:["碳纤维车顶面板","碳纤维前分流器、侧裙、后扩散器、后视镜及后盖扰流唇","喷绘 Scuderia 盾徽","红色四点式安全带","Apple CarPlay 与前轴抬升","定制行李及 Serie Speciali Yellow Book"],
-      timeline:["2023 年 9 月 — 工厂生产日期。","2023 年 12 月 — 由巴塞尔 Niki Hasler AG 交付。","2025 年 5 月 — 参加 Cavalcade Siviglia。","2025 年 10 月 — 由 RM Sotheby’s 售出。","2026-09-21 — 拍卖行结果页复核：CHF 5,348,750。"],
-      notes:"瑞士规格 Tailor Made，一任车主持有至拍卖出售。",
-      review_status:"2026-09-21 已重新核验拍卖结果"
+      options:["碳纤维车顶面板","碳纤维前分流器、侧裙、后扩散器、外后视镜及后盖扰流唇","喷绘 Scuderia Ferrari 盾徽","黄色刹车卡钳","钻石抛光锻造轮毂","红色四点式安全带","Apple CarPlay","前轴悬挂抬升","定制行李","Serie Speciali / Ferrari Classiche Yellow Book 随车文件"],
+      timeline:["2023 年 9 月 — 工厂生产日期。","2023 年 12 月 — 经巴塞尔 Ferrari 授权经销商 Niki Hasler AG 交付至 Tailored for Speed Collection。","2024 年 2 月 — 委托定制的首任车主正式提车。","2024–2025 年 — 由 Niki Hasler AG 保养，单一车主持续使用。","2025 年 5 月 — 参加 Ferrari Cavalcade Siviglia。","2025 年 10 月 11 日 — RM Sotheby’s 苏黎世拍卖以 CHF 5,348,750 成交，编目里程 2,933 km。"],
+      notes:"底盘 ZFF05UMB000299827 是瑞士规格 Tailor Made 车辆，在拍卖前保持单一车主持有。RM Sotheby’s 公布 Engine No. 557324、Gearbox No. 128127、Swiss Carte Grise 注册文件、2023 年 9 月生产、2023 年 12 月经 Niki Hasler AG 交付及 2,933 km 编目里程。Rosso Deborah / Blu Elettrico 定制配置还包括大量碳纤维车身部件、黄色卡钳、喷绘盾徽、红色四点式安全带、前轴抬升、定制行李及 Serie Speciali / Classiche Yellow Book。",
+      review_status:"2026-09-22 — 已重新核验 RM Sotheby’s 公布的底盘、发动机号、变速箱号、注册文件、交付历史、里程、配置及 CHF 5,348,750 成交结果。"
     },
     "SP3-297567":{
       title:"Giallo Triplo Strato / Nero",
@@ -346,10 +346,10 @@
       mileage:"编目时 227 miles",
       status:"已售 — Monterey 2026",
       sale:"US$17,825,000 — RM Sotheby’s 公布成交结果",
-      options:["碳纤维硬顶、下部车身与后视镜","喷绘 Scuderia 盾徽","悬挂抬升","Apple CarPlay 与泊车摄像头","Giallo 安全带及头枕刺绣","Dreamline 换挡拨片点缀"],
-      timeline:["2023 年 7 月 — 完成工厂装配。","2024 年 1 月 — 由 Wide World of Cars 向佛罗里达车主交付。","2025 年 10 月 — 被编目时所属收藏购入。","2026 年 8 月 — 安排参加 RM Sotheby’s Monterey。","2026-09-21 — 拍卖行结果页复核：US$17,825,000。"],
-      notes:"底盘已确认的美国规格车辆，公开资料包含较完整配置。ECR 公开档案 70568 很可能是同一实车：2023 年 Giallo Triplo Strato/Nero、美国规格，由纽约 Spring Valley 的 Wide World Ferrari 交付。本站将其作为别名关联，不重复计作另一辆 SP3。",
-      review_status:"2026-09-21 已重新核验拍卖结果"
+      options:["碳纤维硬顶","碳纤维下部车身","碳纤维外后视镜","喷绘 Scuderia Ferrari 盾徽","可调悬挂抬升","哑光黑锻造轮毂","亮黑色刹车卡钳","Apple CarPlay","前后泊车摄像头","方向盘上缘单色涂装","头枕 Giallo Cavallino Rampante 刺绣","换挡拨片单色 Dreamline 点缀","Giallo 安全带","大号座垫与靠背"],
+      timeline:["2023 年 7 月 — 经 Ferrari Atelier 配置后完成工厂装配。","2024 年 1 月 — 由纽约 Spring Valley 的 Wide World of Cars 交付给佛罗里达州首任车主。","2024–2025 年 — 两次返回 Wide World of Cars 保养。","2025 年 10 月 — Driver’s Philosophy Collection 约在 220 miles 时购入。","2026 年 8 月 15 日 — RM Sotheby’s Monterey 以 US$17,825,000 成交，编目里程 227 miles。"],
+      notes:"底盘 ZFF05UMA0P0297567 是持 US Title 的 Ferrari Atelier 定制车，Engine No. 554690。RM Sotheby’s 记录其 2023 年 7 月完工、2024 年 1 月经 Wide World of Cars 交付佛州首任车主、之后两次回店保养、2025 年 10 月约 220 miles 时进入送拍收藏，并在拍卖时仅 227 miles。Giallo Triplo Strato / Nero 配置包含意大利国旗元素、碳纤维硬顶／下部车身／后视镜、哑光黑轮毂、亮黑卡钳、喷绘盾徽、悬挂抬升、摄像头、Apple CarPlay 与多项 Giallo 座舱点缀。ECR 70568 仅作为去重别名保留。",
+      review_status:"2026-09-22 — 已重新核验 RM Sotheby’s 公布的底盘、发动机号、US Title、交付／保养历史、里程、配置及 US$17,825,000 成交结果。"
     },
     "SP3-286921":{
       title:"Rosso Magma Tri-Coat",
@@ -1102,10 +1102,10 @@
 
   const enRecords = {
     "SP3-299827":{
-      timeline:["September 2023 — Factory build date.","December 2023 — Delivered through Niki Hasler AG, Basel.","May 2025 — Participated in Cavalcade Siviglia.","October 2025 — Sold by RM Sotheby’s.","2026-09-21 — Auction-house result page rechecked: CHF 5,348,750 — RM Sotheby’s published result."]
+      timeline:["September 2023 — Factory build date.","December 2023 — Delivered new to The Tailored for Speed Collection through official Ferrari dealer Niki Hasler AG in Basel.","February 2024 — Collected by the commissioning owner.","2024–2025 — Serviced by Niki Hasler AG and used regularly by its single owner.","May 2025 — Participated in Ferrari Cavalcade Siviglia.","11 October 2025 — Sold by RM Sotheby's in Zurich for CHF 5,348,750 with 2,933 km."]
     },
     "SP3-297567":{
-      timeline:["July 2023 — Completed factory assembly.","January 2024 — Delivered through Wide World of Cars to a Florida owner.","October 2025 — Acquired by the cataloguing collection.","August 2026 — Scheduled for RM Sotheby’s Monterey.","2026-09-21 — Auction-house result page rechecked: US$17,825,000 — RM Sotheby’s published result."]
+      timeline:["July 2023 — Completed factory assembly after configuration through Ferrari Atelier.","January 2024 — Delivered through Wide World of Cars in Spring Valley, New York to a Florida-based first owner.","2024–2025 — Returned twice to Wide World of Cars for service.","October 2025 — Acquired by The Driver's Philosophy Collection with approximately 220 miles.","15 August 2026 — Sold by RM Sotheby's at Monterey for US$17,825,000 with 227 miles."]
     },
     "SP3-DK-2400":{
       exterior:"Bianco Italia (four-layer paint); Blu Tour de France / Giallo Modena livery",
