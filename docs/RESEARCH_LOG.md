@@ -156,3 +156,11 @@
 - Added **ZFF05UMB000298816 / chassis 298816** as a government-data-backed registration lead. Czech Ministry-derived public records show a red 2023 Daytona SP3 first registered in Prague on 19 December 2023 and deregistered for export on 15 December 2025.
 - Added **Scuderia Gohm inventory SG0028** as a detailed dealer profile: 2024 Daytona SP3, Nero with Giallo stripe, 4,796 km, Ferrari Approved, Tailor Made, €7,499,000 net asking price. mobile.de independently shows the same dealer/mileage at €8,998,800 including 20% VAT.
 - Added 10 representative images from the listing's 44-photo public gallery. No VIN is published for SG0028, so no chassis/ECR merge is inferred.
+
+
+## 2026-09-23 · Czech and Swedish registration expansion
+
+- Added Czech Ministry-derived VIN lead **ZFF05UMB000272367 / serial 272367**, red, first registered in Prague on 26 June 2025. Because its low serial predates known factory-demo serials and no Ferrari allocation source is available, customer-allocation status is deliberately left unresolved.
+- Added Swedish Transport Agency-derived VIN lead **ZFF05UMB000304109 / plate JPP42H**, red 2024 car, foreign first registration 23 May 2024 and Swedish registration 21 January 2025. Private-holder name is not reproduced in the Atlas.
+- Added Swedish plate-backed lead **JHC00R**, red 2024 Daytona SP3 in a public company vehicle list; VIN remains unavailable.
+- Deepened **ZFF05UMB000299394 / HJK-99-H** with AutoWeek/RDW registration facts. The Dutch registry's 21 March 2025 plate-start date and RDW's 28 March first-registration date are both retained rather than force-reconciled.

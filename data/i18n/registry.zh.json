@@ -1918,12 +1918,14 @@
     "status": "已注册道路车辆 / 2025 Ferrari Tribute 1000 Miglia 参赛车",
     "sale": "未公开",
     "program": "未公开",
-    "notes": "荷兰 Ferrari / Lamborghini Registry 公开完整 VIN、Grigio / Nero 配置及荷兰注册记录。独立发布的 Ferrari Tribute 1000 Miglia 参赛车辆名单将底盘 299394 标为 627 号，并记录灰色／黑条纹外观与活动 crew。crew 姓名仅作为赛事元数据保留，不据此推断法律意义上的车辆所有权。",
-    "review_status": "2026-09-21 — 已交叉核验完整 VIN／注册信息与独立的 chassis-specific Ferrari Tribute 参赛记录；由 VIN lead 升级为详细车档。",
+    "notes": "荷兰 Ferrari / Lamborghini Register 公布完整 VIN ZFF05UMB000299394、Grigio／Nero 配置与车牌 HJK-99-H。AutoWeek 独立将 HJK-99-H 识别为灰色 Daytona SP3，并给出 RDW 首次准入／登记日期 2025 年 3 月 28 日、一名登记持有人、1,605 kg 空车重量及含选装目录价 €2,203,494。Ferrari Tribute 1000 Miglia 参赛名单则独立将底盘 299394 记录为 627 号并给出灰色／黑条纹及车组。荷兰 registry 的车牌起始日 3 月 21 日比 AutoWeek／RDW 首次登记日早 7 天；本站并列保留，不擅自消解。",
+    "review_status": "2026-09-23 — 已交叉核对完整 VIN、HJK-99-H RDW 登记数据及独立 Ferrari Tribute 底盘／活动记录，并明确保留两来源之间的日期差异。",
     "timeline": [
-      "2025 年 3 月 21 日 — 荷兰 registry 开始记录 VIN ZFF05UMB000299394 使用车牌 HJK-99-H。",
-      "2025 年 6 月 17–21 日 — 以 627 号参加 Ferrari Tribute 1000 Miglia；活动名单记录底盘 299394、灰色车身配黑色条纹，crew 为 Alexander Tesink / Wouter De Voogt。"
-    ]
+      "2025 年 3 月 21 日 — 荷兰 Ferrari / Lamborghini Register 开始将车牌 HJK-99-H 记录到 VIN ZFF05UMB000299394。",
+      "2025 年 3 月 28 日 — AutoWeek／RDW 数据记录首次准入、首次荷兰登记及当前唯一登记持有人起始日期。",
+      "2025 年 6 月 17–21 日 — 参加 Ferrari Tribute 1000 Miglia，编号 627、底盘 299394、灰色配黑色条纹；车组为 Alexander Tesink / Wouter De Voogt。"
+    ],
+    "year": 2025
   },
   "SP3-291270-VIN-LEAD": {
     "title": "Verde / Nero — 底盘 291270",
@@ -3272,5 +3274,72 @@
       "LUSSO／Scuderia Gohm 图库 · 40/44",
       "LUSSO／Scuderia Gohm 图库 · 44/44"
     ]
+  },
+  "SP3-272367-CZ": {
+    "title": "红色 — VIN 272367 — 布拉格登记记录",
+    "edition": "公开登记身份；客户配额归属尚未独立确认",
+    "country": "捷克",
+    "city": "布拉格 — 登记记录",
+    "market": "捷克登记；原始配额／交付市场尚未独立确认",
+    "owner": "公开记录存在公司登记持有人；本站不复录其企业识别编号",
+    "exterior": "红色",
+    "interior": "未公开记录",
+    "wheels": "登记记录前 9.5Jx20／后 12.5Jx21 尺寸；表面处理未公开",
+    "calipers": "未公开记录",
+    "mileage": "未公开记录",
+    "status": "捷克在用登记记录",
+    "sale": "未公开记录",
+    "program": "未公开记录",
+    "timeline": [
+      "2025 年 6 月 26 日 — 首次登记及首次捷克登记均记录于布拉格。",
+      "2025 年 7 月 1 日 — 捷克交通部来源快照将车辆记录为新车且在运行。"
+    ],
+    "notes": "YAUTO.cz 公布的捷克交通部衍生数据将 VIN ZFF05UMB000272367 识别为红色 2025 Ferrari Daytona SP3，并记录 2025 年 6 月 26 日在布拉格首次登记、614 kW、6,496 cc、341 km/h 以及 SP3 标准轮胎／轮圈尺寸。由于 serial 272367 早于若干已知 factory-demo 序号，且目前没有 Ferrari 配额来源，本站不假定其属于原始 599 辆客户配额。历史公司登记识别编号不予复录。",
+    "review_status": "2026-09-23 — 已复核捷克交通部衍生公开数据中的完整 VIN／车型、红色、布拉格登记和技术记录；配额身份有意保持未决。"
+  },
+  "SP3-304109-SWEDEN": {
+    "title": "红色 — VIN 304109 — 瑞典登记 JPP42H",
+    "edition": "原始生产序列 Daytona SP3；瑞典公开登记身份",
+    "country": "瑞典",
+    "city": "瑞典 — 车牌 JPP42H",
+    "market": "进口瑞典；记录国外首次登记为 2024 年 5 月 23 日",
+    "owner": "瑞典私人登记持有人；本站不复录私人姓名",
+    "exterior": "红色",
+    "interior": "未公开记录",
+    "wheels": "未公开记录",
+    "calipers": "未公开记录",
+    "mileage": "未公开",
+    "status": "瑞典登记；最新公开状态为停驶",
+    "sale": "未公开出售",
+    "program": "未公开记录",
+    "timeline": [
+      "2024 年 1 月 — 瑞典公开车辆数据记录车辆在意大利制造。",
+      "2024 年 5 月 23 日 — 记录为在国外首次登记。",
+      "2025 年 1 月 21 日 — 进口并以 JPP42H 在瑞典登记上路，记录一名登记持有人。",
+      "2026 年 7 月 11 日 — 最新公开交通状态事件显示车辆停驶。"
+    ],
+    "notes": "Merinfo 公布的 Transportstyrelsen 衍生数据将车牌 JPP42H 对应到完整 VIN ZFF05UMB000304109，为红色 2024 Ferrari Daytona SP3。记录显示 2024 年 5 月 23 日国外首次登记、2025 年 1 月 21 日进入瑞典登记，并有一名登记持有人。本站使用车辆身份和登记时间线，但不复录私人姓名，也不推断精确原厂漆色／内饰配置。",
+    "review_status": "2026-09-23 — 已从瑞典交通管理局衍生公开数据复核完整 VIN、红色、国外／瑞典登记日期及单一登记持有人状态。"
+  },
+  "SP3-JHC00R-SWEDEN": {
+    "title": "红色 — 瑞典车牌 JHC00R",
+    "edition": "原始生产序列 Daytona SP3；仅有公开车牌身份，未公开 VIN",
+    "country": "瑞典",
+    "city": "瑞典 — 公开公司车辆登记",
+    "market": "瑞典登记车辆；原始交付市场尚未独立确认",
+    "owner": "Martin Nelson AB（公开公司车辆清单）",
+    "exterior": "红色",
+    "interior": "未公开记录",
+    "wheels": "未公开记录",
+    "calipers": "未公开记录",
+    "mileage": "未公开",
+    "status": "瑞典公开公司车辆清单记录",
+    "sale": "未公开出售",
+    "program": "未公开记录",
+    "timeline": [
+      "2026-09-23 — 核对 Merinfo 公开公司车辆清单：JHC00R、Ferrari Daytona SP3、红色、cabriolet、2024 model year。"
+    ],
+    "notes": "Merinfo 公开公司车辆清单将 JHC00R 记录为 Martin Nelson AB 持有的红色 2024 Ferrari Daytona SP3。可访问公开结果未给出 VIN 或详细登记时间线，因此本站保留为 plate-backed lead，不凭颜色、公司或地理位置推断底盘身份。",
+    "review_status": "2026-09-23 — 已复核公开瑞典车牌／车型／颜色及公司登记关系；在 VIN 或独立底盘对应公开前保留为 lead。"
   }
 }

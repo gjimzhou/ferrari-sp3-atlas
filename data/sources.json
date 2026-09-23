@@ -42,6 +42,13 @@
     "url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/74185"
   },
   {
+    "id": "SRC-06CEDC07",
+    "label": "AutoWeek — Dutch plate HJK-99-H vehicle check",
+    "publisher": "AutoWeek",
+    "description": "Dutch plate HJK-99-H vehicle check",
+    "url": "https://www.autoweek.nl/kentekencheck/HJK-99-H/"
+  },
+  {
     "id": "SRC-087E0132",
     "label": "Goodwood Road & Racing — 2022 supercar debut preview",
     "publisher": "Goodwood Road & Racing",
@@ -152,6 +159,13 @@
     "publisher": "Țiriac Collection",
     "description": "collection announcement",
     "url": "https://tiriaccollection.ro/noutati/articol/iconicul-exemplar-ferrari-daytona-sp3-devine-cel-mai-nou-exponat-al-galeriei-tiriac-collection"
+  },
+  {
+    "id": "SRC-1EBA6BCB",
+    "label": "YAUTO.cz — Czech Ministry-derived record for VIN ZFF05UMB000272367",
+    "publisher": "YAUTO.cz",
+    "description": "Czech Ministry-derived record for VIN ZFF05UMB000272367",
+    "url": "https://yauto.cz/vin/ZFF05UMB000272367/podrobne/"
   },
   {
     "id": "SRC-1FDC5C1F",
@@ -362,6 +376,13 @@
     "publisher": "Ferrari Magazine",
     "description": "Daytona SP3 mulotype",
     "url": "https://www.ferrari.com/en-EN/magazine/articles/daytona-sp3-mulotype"
+  },
+  {
+    "id": "SRC-44D48163",
+    "label": "Merinfo — Swedish vehicle record JPP42H",
+    "publisher": "Merinfo",
+    "description": "Swedish vehicle record JPP42H",
+    "url": "https://www.merinfo.se/fordon/Eo4LJeklpwrxgAk5Q6y3"
   },
   {
     "id": "SRC-4908FC87",
@@ -1076,6 +1097,13 @@
     "publisher": "Ferrari Magazine",
     "description": "Steven Victor V12 collector profile",
     "url": "https://www.ferrari.com/it-IT/magazine/articles/v12-cliente-steven-victor-new-york"
+  },
+  {
+    "id": "SRC-E184B40C",
+    "label": "Merinfo — Martin Nelson AB vehicle list with JHC00R",
+    "publisher": "Merinfo",
+    "description": "Martin Nelson AB vehicle list with JHC00R",
+    "url": "https://www.merinfo.se/foretag/Martin-Nelson-AB-5568338379/2k38te3-l3b8/fordon"
   },
   {
     "id": "SRC-E198E6D2",
