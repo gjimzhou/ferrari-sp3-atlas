@@ -135,3 +135,10 @@
 - VINs: **ZFF05UMT0P0294637**, **ZFF05UMTXR0302262**, **ZFF05UMA6P0293331**, **ZFF05UMA8S0313507**, and **ZFF05UMA1R0307154**.
 - VINinspect's year-specific pages visibly repeat some Daytona SP3 VINs across year headings. The Atlas therefore derives model year only from the VIN's 10th-character year code and treats the web page as model-identity evidence, not as authoritative delivery-year metadata.
 - These entries remain `record_kind: lead`; no owner, colour, specification, country, title condition, or sale event is inferred.
+
+
+## 2026-09-23 · DK Engineering dossier normalization
+
+- Re-normalized **SP3-DK-2400** to English canonical research fields with Chinese kept in the display overlay.
+- Current DK Engineering listing rechecked: **325 miles**, fresh **September 2026 Ferrari service by Meridien Modena**, Ferrari Classiche Yellow Book, and a recent **two-year Ferrari factory warranty extension**.
+- No VIN is published on the accessible listing, so the car remains a dealer profile without a guessed VIN/ECR merge.
