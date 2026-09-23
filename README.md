@@ -24,7 +24,7 @@
 | `index.html` | GitHub Pages 首页 |
 | `data/registry.json` | 可编辑的逐车研究数据 |
 | `data/source-index.json` | ECR 公开来源索引快照 |
-| `assets/app.js` / `assets/style.css` | 搜索、图库、导入导出与页面样式 |
+| `assets/js/app.js` / `core.js` / `media.js` | 页面编排、纯数据工具与图库 helper |\n| `assets/style.css` | 页面样式 |
 | `assets/i18n.js` | UI 文案、语言状态、可分享的 `?lang=` 链接 |
 | `assets/content-i18n.js` | 逐车研究字段的展示层双语翻译；不改写 canonical JSON |
 | `assets/data.js` | 构建生成的静态数据包，不手动编辑 |

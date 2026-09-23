@@ -138,7 +138,7 @@ assert f'**{len(confirmed_vins)} 个已确认完整公开 VIN + {len(conflicted_
 )
 
 index_html = (ROOT / 'index.html').read_text()
-app_js = (ROOT / 'assets/app.js').read_text()
+app_js = (ROOT / 'assets/js/app.js').read_text()
 ui_i18n = (ROOT / 'assets/i18n.js').read_text()
 assert 'assets/data.js' not in index_html, 'Generated data bundle must not return'
 assert '<p id="coverageSummary"></p>' in index_html, 'Methods coverage summary must be runtime-generated'
