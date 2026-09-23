@@ -3,7 +3,6 @@ name: Validate and deploy Pages
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -39,6 +38,7 @@ jobs:
         run: node scripts/check_content_i18n.mjs
 
   deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     needs: validate
     environment:
       name: github-pages
