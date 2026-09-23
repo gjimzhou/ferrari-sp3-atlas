@@ -1802,7 +1802,8 @@
     const overrides = target === "zh" ? zhRecords : enRecords;
     const override = overrides[record.id]?.[key];
     if (override != null) return override;
-    if (key === "photo_captions") return (record[key]||[]).map(v=>localCaption(v,target));
+    if (key === "photo_captions") return (record.photos||[]).map(v=>localCaption(typeof v === "string" ? v : v?.caption, target));
+    if (key === "credits") return (record.photos||[]).map(v=>typeof v === "string" ? "" : (v?.credit||""));
     const raw = record[key];
     if (Array.isArray(raw)) return raw.map(v=>common(v,target));
     return common(raw,target);

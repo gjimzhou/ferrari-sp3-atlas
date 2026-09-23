@@ -40,7 +40,7 @@ const isWordyEnglish = value => {
 const failures = [];
 for (const record of registry) {
   for (const key of fields) {
-    const raw = record[key];
+    const raw = key === 'photo_captions' ? (record.photos || []).map(photo => typeof photo === 'string' ? '' : photo.caption) : record[key];
     const english = api.value(record, key, 'en');
     const chinese = api.value(record, key, 'zh');
 
@@ -78,7 +78,7 @@ for (const record of registry) {
     }
   }
 
-  for (const credit of api.value(record, 'credits', 'en') || []) {
+  for (const credit of (record.photos || []).map(photo => typeof photo === 'string' ? '' : photo.credit)) {
     if (hasCJK(credit)) {
       failures.push(`${record.id} credit: Chinese text leaked into English mode: ${credit}`);
     }

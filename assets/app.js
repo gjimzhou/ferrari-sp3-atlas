@@ -28,15 +28,25 @@ function validate(input){
   if(!Object.hasOwn(kindNames,item.record_kind))throw Error(r.id+' 记录类型无效');
   item.sort_weight=Number.isFinite(r.sort_weight)?r.sort_weight:(Number.isFinite(r.score)?r.score:50);
   item.owner_public=r.owner_public===true;
-  for(const k of ['options','timeline','photos','credits','photo_sources','photo_captions']){
+  for(const k of ['options','timeline']){
    if(r[k]!=null&&(!Array.isArray(r[k])||r[k].some(v=>typeof v!=='string')))throw Error(r.id+' 的 '+k+' 必须为文本数组');
    item[k]=r[k]||[];
   }
-  if(item.photo_sources.some(x=>!safeURL(x)))throw Error(r.id+' 存在无效图片来源');
-  if(item.photos.some(x=>!safeURL(x,true)))throw Error(r.id+' 存在无效图片地址');
+  if(!Array.isArray(r.photos))throw Error(r.id+' 的 photos 必须为数组');
+  item.photos=r.photos.map((photo,i)=>{
+   if(typeof photo==='string'){
+    const source=r.photo_sources?.[i]||r.sources?.[0]?.[1]||'';
+    return {url:photo,source_url:source,caption:r.photo_captions?.[i]||'',credit:r.credits?.[i]||''};
+   }
+   if(!photo||typeof photo!=='object'||Array.isArray(photo))throw Error(r.id+' 存在无效图片对象');
+   const media={url:String(photo.url||''),source_url:String(photo.source_url||''),caption:String(photo.caption||''),credit:String(photo.credit||'')};
+   if(!safeURL(media.url,true)||!safeURL(media.source_url))throw Error(r.id+' 存在无效图片地址或来源');
+   return media;
+  });
   if(!Array.isArray(r.sources)||!r.sources.length||r.sources.some(s=>!Array.isArray(s)||s.length!==2||typeof s[0]!=='string'||!safeURL(s[1])))throw Error(r.id+' 缺少有效来源链接');
   item.sources=r.sources;
   if(r.sale_event){const e=r.sale_event;if(e.type!=='auction_result'||!Number.isFinite(e.amount)||e.amount<=0||!['USD','CHF','EUR','GBP'].includes(e.currency)||!safeURL(e.source_url))throw Error(r.id+' 拍卖结果字段无效');item.sale_event={type:e.type,amount:e.amount,currency:e.currency,event:String(e.event||''),source_url:e.source_url,basis:String(e.basis||'')};}
+  item.vin_conflicted=r.vin_conflicted===true;
   return item;
  });
 }
@@ -44,7 +54,14 @@ function hydrate(){records=bundled.map(r=>clone(r));}
 hydrate();
 function toast(s){$('toast').textContent=s;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2800);}
 function countryLabel(code){if(!code)return document.documentElement.lang==='en'?'Not labeled':'未标注';try{const locale=document.documentElement.lang==='en'?'en':'zh-CN';return new Intl.DisplayNames([locale],{type:'region'}).of(code)+' · '+code;}catch{return code;}}
-function art(r){const src=safeURL(r.photos?.[0],true);const placeholder=`<div class="placeholder photo-fallback" style="--swatch:${swatches[r.color]||'#343842'}"></div>`;return src?`<img loading="lazy" src="${esc(src)}" alt="${esc(r.title)}">${placeholder}`:placeholder.replace(' photo-fallback','');}
+function mediaOf(r){
+ const localized=window.SP3Content?.value(r,'photo_captions')||[];
+ return (r.photos||[]).map((photo,i)=>{
+  if(typeof photo==='string') return {url:photo,source_url:r.photo_sources?.[i]||r.sources?.[0]?.[1]||'',caption:localized[i]??r.photo_captions?.[i]??'',credit:r.credits?.[i]||''};
+  return {url:photo?.url||'',source_url:photo?.source_url||r.sources?.[0]?.[1]||'',caption:localized[i]??photo?.caption??'',credit:photo?.credit||''};
+ });
+}
+function art(r){const src=safeURL(mediaOf(r)[0]?.url,true);const placeholder=`<div class="placeholder photo-fallback" style="--swatch:${swatches[r.color]||'#343842'}"></div>`;return src?`<img loading="lazy" src="${esc(src)}" alt="${esc(r.title)}">${placeholder}`:placeholder.replace(' photo-fallback','');}
 function bindImages(parent){parent.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.parentElement.classList.add('broken');},{once:true}));}
 function selectOptions(id,values,label){const old=$(id).value;$(id).innerHTML=`<option value="">${label}</option>`+values.map(([v,n])=>`<option value="${esc(v)}">${esc(n)}</option>`).join('');$(id).value=values.some(x=>x[0]===old)?old:'';}
 function setup(){
@@ -107,15 +124,15 @@ function bars(id,labels){const m=new Map();labels.forEach(x=>m.set(x,(m.get(x)||
 function countryStats(){bars('countryBars',records.filter(r=>r.record_kind!=='prototype'&&!absent(r.country)).map(r=>window.SP3Content?.text(r.country)??r.country));bars('indexCountryBars',sourceIndex.map(r=>countryLabel(r.country_code)));}
 function openCard(id){current=records.find(r=>r.id===id);if(!current)return;returnFocus=document.activeElement;gidx=0;$('modalId').textContent=current.id;gallery();detail();$('modal').classList.add('open');document.body.style.overflow='hidden';$('close').focus();history.replaceState(null,'','#car='+encodeURIComponent(id));}
 function gallery(){
- const r=current,photos=r.photos||[],captions=local(r,'photo_captions')||r.photo_captions||[],credits=local(r,'credits')||r.credits||[];
- if(!photos.length){$('gallery').innerHTML=art(r);return;}
- const source=safeURL(r.photo_sources?.[gidx]||r.sources[0]?.[1]);
- $('gallery').innerHTML=`<div class="gallery-main"><img class="gallery-image" src="${esc(safeURL(photos[gidx],true))}" alt="${esc(local(r,'title')+' · '+(captions[gidx]||('照片 '+(gidx+1))))}"><div class="gnav"><button id="prev" aria-label="上一张">‹</button><button id="next" aria-label="下一张">›</button></div></div><div class="gallery-caption"><span>${gidx+1} / ${photos.length} · ${esc(captions[gidx]||'原始图库')}</span><span>${esc(credits[gidx]||'版权归原摄影者')} · <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">本图来源 ↗</a> · <a href="${esc(safeURL(photos[gidx],true))}" target="_blank" rel="noopener noreferrer">打开原图 ↗</a></span></div><div class="filmstrip" aria-label="选择照片">${photos.map((p,i)=>`<button class="film ${i===gidx?'selected':''}" data-image="${i}" aria-label="第 ${i+1} 张照片" aria-pressed="${i===gidx}"><img loading="lazy" src="${esc(safeURL(p,true))}" alt="${i+1}"><span>${i+1}</span></button>`).join('')}</div>`;
+ const r=current,media=mediaOf(r);
+ if(!media.length){$('gallery').innerHTML=art(r);return;}
+ const photo=media[gidx],source=safeURL(photo.source_url||r.sources[0]?.[1]);
+ $('gallery').innerHTML=`<div class="gallery-main"><img class="gallery-image" src="${esc(safeURL(photo.url,true))}" alt="${esc(local(r,'title')+' · '+(photo.caption||('照片 '+(gidx+1))))}"><div class="gnav"><button id="prev" aria-label="上一张">‹</button><button id="next" aria-label="下一张">›</button></div></div><div class="gallery-caption"><span>${gidx+1} / ${media.length} · ${esc(photo.caption||'原始图库')}</span><span>${esc(photo.credit||'版权归原摄影者')} · <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">本图来源 ↗</a> · <a href="${esc(safeURL(photo.url,true))}" target="_blank" rel="noopener noreferrer">打开原图 ↗</a></span></div><div class="filmstrip" aria-label="选择照片">${media.map((p,i)=>`<button class="film ${i===gidx?'selected':''}" data-image="${i}" aria-label="第 ${i+1} 张照片" aria-pressed="${i===gidx}"><img loading="lazy" src="${esc(safeURL(p.url,true))}" alt="${i+1}"><span>${i+1}</span></button>`).join('')}</div>`;
  $('gallery').querySelector('.gallery-image').onerror=()=>{$('gallery').querySelector('.gallery-main').insertAdjacentHTML('beforeend','<p class="image-error">原站图片暂不可用，请打开来源页查看。</p>');};
  const navigate=i=>{gidx=i;gallery();$('gallery').querySelector('.film.selected')?.scrollIntoView({block:'nearest',inline:'nearest'});};
- $('prev').onclick=()=>navigate((gidx-1+photos.length)%photos.length);$('next').onclick=()=>navigate((gidx+1)%photos.length);
+ $('prev').onclick=()=>navigate((gidx-1+media.length)%media.length);$('next').onclick=()=>navigate((gidx+1)%media.length);
  $('gallery').querySelectorAll('[data-image]').forEach(b=>b.onclick=()=>navigate(+b.dataset.image));
- let touchStart=null;$('gallery').querySelector('.gallery-main').ontouchstart=e=>{touchStart=e.changedTouches[0].clientX;};$('gallery').querySelector('.gallery-main').ontouchend=e=>{if(touchStart===null)return;const dx=e.changedTouches[0].clientX-touchStart;if(Math.abs(dx)>50)navigate((gidx+(dx<0?1:-1)+photos.length)%photos.length);touchStart=null;};
+ let touchStart=null;$('gallery').querySelector('.gallery-main').ontouchstart=e=>{touchStart=e.changedTouches[0].clientX;};$('gallery').querySelector('.gallery-main').ontouchend=e=>{if(touchStart===null)return;const dx=e.changedTouches[0].clientX-touchStart;if(Math.abs(dx)>50)navigate((gidx+(dx<0?1:-1)+media.length)%media.length);touchStart=null;};
 }
 function detail(){const r=current,fields=[['年份','year'],['VIN','vin'],['底盘','chassis'],['发动机号','engine_no'],['变速箱号','gearbox_no'],['注册文件','registration'],['生产归类','edition'],['公开国家','country'],['公开地点','city'],['市场规格','market'],['公开车主／收藏','owner'],['外观','exterior'],['内饰','interior'],['轮毂','wheels'],['卡钳','calipers'],['里程（来源时点）','mileage'],['状态（来源时点）','status'],['价格／结果','sale'],['定制项目','program']],options=local(r,'options')||[],timeline=local(r,'timeline')||[];$('detail').innerHTML=`<div class="dhead"><div><h2>${esc(local(r,'title'))}</h2><div class="sub">${esc(tierNames[r.tier])} · ${kindNames[r.record_kind]}</div></div></div><div class="notice">${esc(local(r,'review_status')||(document.documentElement.lang==='en'?'Research record':'研究记录'))}</div><div class="dgrid">${fields.map(([k,key])=>`<div><label>${k}</label><span>${esc(key==='year'?display(r.year):displayField(r,key))}</span></div>`).join('')}</div><div class="dcols"><div><h3>配置与选装</h3><ul class="clean">${options.length?options.map(x=>`<li>${esc(x)}</li>`).join(''):'<li>尚无公开配置明细。</li>'}</ul></div><div><h3>公开时间线</h3><div class="timeline">${timeline.length?timeline.map(x=>`<p>${esc(x)}</p>`).join(''):'<p>尚无可核验时间线。</p>'}</div></div></div><h3>研究备注</h3><p class="clean">${esc(local(r,'notes')||'暂无补充备注。')}</p><h3>逐车来源</h3><div class="links">${r.sources.map(([label,url])=>`<a href="${esc(safeURL(url))}" target="_blank" rel="noopener noreferrer">${esc(window.SP3Content?.text(label)??label)} ↗</a>`).join('')}</div><p><button class="btn" id="copyLink">复制此车链接</button></p>`;$('copyLink').onclick=async()=>{try{await navigator.clipboard.writeText(location.href);toast('链接已复制');}catch{toast('请复制浏览器地址栏中的链接');}};}
 function closeModal(){if(!$('modal').classList.contains('open'))return;$('modal').classList.remove('open');document.body.style.overflow='';history.replaceState(null,'','#'+(document.querySelector('.view.active')?.id||'registry'));returnFocus?.focus();}

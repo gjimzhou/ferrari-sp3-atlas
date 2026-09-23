@@ -31,7 +31,18 @@ Repeated URLs across records are allowed when one publication supports multiple 
 
 ## Photos
 
-The current schema keeps photo URLs, source URLs, captions, and credits as parallel arrays with equal length. This is a transitional representation; the next schema migration converts each image into one atomic media object to eliminate index-alignment risk.
+Each photo is one atomic object:
+
+```json
+{
+  "url": "https://…",
+  "source_url": "https://…",
+  "caption": "Auction gallery · 1",
+  "credit": "© Courtesy of …"
+}
+```
+
+Keeping the URL, evidence page, caption, and credit together prevents index-alignment errors. Legacy browser-import data that still uses parallel photo arrays is normalized at runtime for backward compatibility.
 
 ## Changes
 

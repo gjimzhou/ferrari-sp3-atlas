@@ -12,8 +12,7 @@ REQUIRED_FIELDS = (
     'id', 'title', 'tier', 'year', 'vin', 'chassis', 'edition', 'country', 'city',
     'market', 'owner', 'exterior', 'color', 'interior', 'wheels', 'calipers',
     'mileage', 'status', 'sale', 'program', 'options', 'timeline', 'notes',
-    'photos', 'credits', 'sources', 'review_status', 'record_kind',
-    'owner_public', 'sort_weight', 'photo_sources', 'photo_captions',
+    'photos', 'sources', 'review_status', 'record_kind', 'owner_public', 'sort_weight',
 )
 STRING_FIELDS = (
     'id', 'title', 'tier', 'vin', 'chassis', 'edition', 'country', 'city',
@@ -21,7 +20,7 @@ STRING_FIELDS = (
     'mileage', 'status', 'sale', 'program', 'notes', 'review_status',
 )
 OPTIONAL_STRING_FIELDS = ('accessed', 'engine_no', 'gearbox_no', 'registration')
-TEXT_ARRAY_FIELDS = ('options', 'timeline', 'photos', 'credits', 'photo_sources', 'photo_captions')
+TEXT_ARRAY_FIELDS = ('options', 'timeline')
 
 assert isinstance(registry, list), 'Registry root must be an array'
 assert isinstance(index, list), 'Source index root must be an array'
@@ -50,6 +49,21 @@ for r in registry:
         assert isinstance(r[key], list), (r['id'], key, 'must be an array')
         assert all(isinstance(value, str) for value in r[key]), (r['id'], key, 'must contain strings')
 
+    assert isinstance(r['photos'], list), (r['id'], 'photos must be an array')
+    for photo in r['photos']:
+        assert isinstance(photo, dict), (r['id'], 'Photo must be an object')
+        assert set(photo) == {'url', 'source_url', 'caption', 'credit'}, (
+            r['id'], 'Photo object must have url/source_url/caption/credit'
+        )
+        assert all(isinstance(photo[key], str) for key in ('url', 'source_url', 'caption', 'credit')), (
+            r['id'], 'Photo metadata must be strings'
+        )
+        url = photo['url']
+        assert url.startswith('https://') or (
+            url.startswith('assets/photos/') and (ROOT / url).is_file()
+        ), (r['id'], 'Invalid photo', url)
+        assert photo['source_url'].startswith('https://'), (r['id'], 'Invalid photo source', photo['source_url'])
+
     assert r['sources']
     for source in r['sources']:
         assert isinstance(source, list) and len(source) == 2, (r['id'], 'Invalid source tuple', source)
@@ -61,14 +75,6 @@ for r in registry:
         assert not re.search(r'[\u3400-\u9fff]', label), (
             r['id'], 'CJK leaked into canonical source label', label
         )
-
-    assert len(r['photos']) == len(r['photo_sources']) == len(r['photo_captions']) == len(r['credits']), (
-        r['id'], 'Missing photo metadata'
-    )
-    for photo in r['photos']:
-        assert photo.startswith('https://') or (
-            photo.startswith('assets/photos/') and (ROOT / photo).is_file()
-        ), (r['id'], 'Invalid photo', photo)
 
     if r['vin'].startswith('ZFF'):
         assert re.fullmatch(r'ZFF[A-HJ-NPR-Z0-9]{14}', r['vin']), r['vin']

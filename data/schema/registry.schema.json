@@ -31,14 +31,11 @@
       "timeline",
       "notes",
       "photos",
-      "credits",
       "sources",
       "review_status",
       "record_kind",
       "owner_public",
-      "sort_weight",
-      "photo_sources",
-      "photo_captions"
+      "sort_weight"
     ],
     "properties": {
       "id": {
@@ -146,25 +143,29 @@
       "photos": {
         "type": "array",
         "items": {
-          "type": "string"
-        }
-      },
-      "credits": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "photo_sources": {
-        "type": "array",
-        "items": {
-          "type": "string"
-        }
-      },
-      "photo_captions": {
-        "type": "array",
-        "items": {
-          "type": "string"
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "url",
+            "source_url",
+            "caption",
+            "credit"
+          ],
+          "properties": {
+            "url": {
+              "type": "string"
+            },
+            "source_url": {
+              "type": "string",
+              "pattern": "^https://"
+            },
+            "caption": {
+              "type": "string"
+            },
+            "credit": {
+              "type": "string"
+            }
+          }
         }
       },
       "sources": {
