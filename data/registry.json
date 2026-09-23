@@ -858,11 +858,21 @@
       "SRC-2A95F036",
       "SRC-F5A48801"
     ],
-    "review_status": "2026-09-21 — Full VIN, specification, auction result, Classiche/registration documentation and two chassis-specific Barchetta image records rechecked.",
+    "review_status": "2026-09-23 — Full VIN, specification, Classiche/registration documentation and €6,250,000 completed Villa d'Este result rechecked; structured market event added.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "market_events": [
+      {
+        "type": "auction_result",
+        "amount": 6250000,
+        "currency": "EUR",
+        "event": "Broad Arrow Villa d'Este 2026",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "basis": "Published completed-sale result; not represented as hammer price"
+      }
+    ]
   },
   {
     "id": "SP3-PIERO-NART",
@@ -2303,8 +2313,8 @@
     "title": "Bianco Italia / Rosso Ferrari — Carrio",
     "tier": "dealer",
     "year": 2023,
-    "vin": "Not public in accessible listing text",
-    "chassis": "Listing references 294531; not treated here as confirmed chassis",
+    "vin": "ZFF05UMA8P0294531",
+    "chassis": "294531",
     "edition": "Original 599 production",
     "country": "United States",
     "city": "Fort Lauderdale, Florida",
@@ -2327,7 +2337,7 @@
     "timeline": [
       "2026 — Publicly listed by Carrio Motor Cars with 230 miles."
     ],
-    "notes": "The number 294531 appears in dealer metadata, but this project does not label it a chassis number without an independently published VIN.",
+    "notes": "Carrio Motor Cars publicly lists this 230-mile Bianco Italia / Livrea Bianco Cervino Daytona SP3 as stock/chassis 294531. VINinspect independently exposes the complete VIN ZFF05UMA8P0294531 in a Daytona SP3 historical-sale index with 230 miles, linking the dealer metadata to a full vehicle identity.",
     "photos": [
       {
         "url": "https://news.dupontregistry.com/cdn/shop/articles/Daytona-SP3-Main_f99f68a4-b07d-4df8-af79-0b2c48b10512.jpg?crop=center&height=2222&v=1784026295&width=3000",
@@ -2374,9 +2384,10 @@
     ],
     "sources": [
       "SRC-0D04C60C",
-      "SRC-A066023E"
+      "SRC-A066023E",
+      "SRC-B7F317AE"
     ],
-    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-09-23 — Carrio chassis/stock number 294531 cross-checked against VINinspect complete VIN ZFF05UMA8P0294531 and the matching 230-mile historical sale entry.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 92,
@@ -7696,7 +7707,7 @@
     "title": "Green — chassis 312263",
     "tier": "event",
     "year": null,
-    "vin": "Not public",
+    "vin": "ZFF05UMA1S0312263",
     "chassis": "312263",
     "edition": "Palm Beach Cavallino Classic chassis lead; customer-allocation status not independently verified",
     "country": "United States",
@@ -7716,13 +7727,14 @@
     "timeline": [
       "13–15 February 2026 — Palm Beach Cavallino Classic concours list records Daytona SP3 chassis 312263, Green."
     ],
-    "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 312263 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
+    "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 312263, Green. VINinspect independently lists complete Daytona SP3 VIN ZFF05UMA1S0312263, whose serial portion matches chassis 312263. Cavallino's official program separately confirms the 13–15 February 2026 event at The Boca Raton. No private owner is inferred.",
     "photos": [],
     "sources": [
       "SRC-694EFE69",
-      "SRC-AA54D183"
+      "SRC-AA54D183",
+      "SRC-DC2F04D7"
     ],
-    "review_status": "2026-09-22 — Chassis 312263 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
+    "review_status": "2026-09-23 — Chassis 312263 cross-checked against public complete VIN ZFF05UMA1S0312263; event identity retained as a lead pending richer per-car documentation.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 78,
@@ -7733,7 +7745,7 @@
     "title": "Green — No. 23 — chassis 316681",
     "tier": "event",
     "year": null,
-    "vin": "Not public",
+    "vin": "ZFF05UMA6S0316681",
     "chassis": "316681",
     "edition": "Palm Beach Cavallino Classic chassis lead; customer-allocation status not independently verified",
     "country": "United States",
@@ -7753,13 +7765,14 @@
     "timeline": [
       "13–15 February 2026 — Palm Beach Cavallino Classic concours list records Daytona SP3 chassis 316681, Green; No. 23."
     ],
-    "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 316681 and its exterior presentation. Cavallino's official program independently confirms the 13–15 February 2026 event at The Boca Raton. No full VIN or private owner is inferred from the concours entry.",
+    "notes": "The 35th Palm Beach Cavallino Classic research list identifies Daytona SP3 chassis 316681, Green, No. 23. VINinspect independently lists complete Daytona SP3 VIN ZFF05UMA6S0316681, whose serial portion matches chassis 316681. Cavallino's official program separately confirms the 13–15 February 2026 event at The Boca Raton. No private owner is inferred.",
     "photos": [],
     "sources": [
       "SRC-694EFE69",
-      "SRC-AA54D183"
+      "SRC-AA54D183",
+      "SRC-DC2F04D7"
     ],
-    "review_status": "2026-09-22 — Chassis 316681 and exterior presentation reviewed from the Palm Beach Cavallino Classic concours list; retained as an event-backed lead pending an independent per-car source.",
+    "review_status": "2026-09-23 — Chassis 316681 cross-checked against public complete VIN ZFF05UMA6S0316681; event identity retained as a lead pending richer per-car documentation.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 78,

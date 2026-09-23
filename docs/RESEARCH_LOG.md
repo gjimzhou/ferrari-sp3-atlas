@@ -110,3 +110,12 @@
 - Because both claims originate from the same publisher and directly contradict one another at model level, neither listing is treated as independent corroboration of the other.
 - The Atlas retains the record only as a quarantined `record_kind: lead`, lowers its research priority, and does not upgrade it to a detailed Daytona SP3 profile without a second per-car source.
 - New rule: a VIN/chassis entry that is internally cross-listed by one publisher under incompatible models must be treated as source contamination until resolved by an independent source; repeated pages or language variants from the same publisher do not count as separate confirmation.
+
+
+## 2026-09-23 · VIN cross-check upgrades
+
+- **Chassis 294531**: Carrio Motor Cars' 230-mile Bianco Italia / Rosso Ferrari profile is now linked to complete VIN **ZFF05UMA8P0294531** using an independent VINinspect historical-sale entry that also reports 230 miles.
+- **Chassis 312263**: Palm Beach Cavallino Classic event lead is now linked to complete VIN **ZFF05UMA1S0312263**.
+- **Chassis 316681**: Palm Beach Cavallino Classic No. 23 event lead is now linked to complete VIN **ZFF05UMA6S0316681**.
+- **Chassis 286921**: added structured `market_events[]` for the published **€6,250,000** Broad Arrow Villa d'Este 2026 result.
+- VIN-index sources are used only to establish the published 17-character identity; they do not imply owner, location, title condition, or configuration beyond separately sourced evidence.

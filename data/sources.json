@@ -854,6 +854,13 @@
     "url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/72780"
   },
   {
+    "id": "SRC-B7F317AE",
+    "label": "VINinspect — chassis 294531 historical sale listing",
+    "publisher": "VINinspect",
+    "description": "chassis 294531 historical sale listing",
+    "url": "https://vininspect.com/es/vin/ferrari/daytona-sp3/2023/zff05uma8p0"
+  },
+  {
     "id": "SRC-B95E19B6",
     "label": "RM Sotheby's — auction catalogue",
     "publisher": "RM Sotheby's",
@@ -1020,6 +1027,13 @@
     "publisher": "Octane Marketplace",
     "description": "chassis 291269 dealer listing",
     "url": "https://www.octane-magazine.com/cars-for-sale/ferrari-daytona-2023-598964"
+  },
+  {
+    "id": "SRC-DC2F04D7",
+    "label": "VINinspect — public Daytona SP3 VIN index",
+    "publisher": "VINinspect",
+    "description": "public Daytona SP3 VIN index",
+    "url": "https://vininspect.com/ru/vin/ferrari/daytona-sp3"
   },
   {
     "id": "SRC-DC6430F6",
