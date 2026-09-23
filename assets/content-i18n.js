@@ -100,6 +100,8 @@
     "Barchetta — Mille Miglia chassis photo record":"Barchetta — Mille Miglia 底盘实车图片记录",
     "Ferrari — 2025 Cavalcade Siviglia official feature":"Ferrari — 2025 Cavalcade Siviglia 官方专题",
     "Anamera — Ferrari Cavalcade Siviglia entry list":"Anamera — Ferrari Cavalcade Siviglia 参赛车辆名单",
+    "Anamera — Sport & Collection 2024 research list":"Anamera — Sport & Collection 2024 研究清单",
+    "Anamera — Sport & Collection 2025 research list":"Anamera — Sport & Collection 2025 研究清单",
     "RM Sotheby's — Monterey 2026 catalogue":"RM Sotheby’s — Monterey 2026 拍卖目录",
     "Exclusive Car Registry — profile 70568 (deduplicated alias)":"Exclusive Car Registry — 档案 70568（去重别名）",
     "Broad Arrow — auction listing":"Broad Arrow — 拍卖目录",
@@ -1355,6 +1357,37 @@
       timeline:["2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 302913，全车裸露碳纤维，国家元数据为澳大利亚。"],
       notes:"公开的 Cavalcade Siviglia 参赛车辆名单明确记录 Daytona SP3 底盘 302913 及其外观配置；Ferrari 官方活动专题确认 2025 Cavalcade 的活动背景。本站不根据活动名单推断完整 VIN 或私人车主身份。",
       review_status:"2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。"
+    }
+  });
+
+  Object.assign(zhRecords, {
+    "SP3-290745-SPORT-COLLECTION":{
+      title:"哑光红 / 蓝色内饰 — 底盘 290745",
+      edition:"公开活动底盘；客户配额身份未独立确认",
+      country:"法国",
+      city:"法国 Le Vigeant · Val de Vienne",
+      market:"法国活动记录；道路版车辆规格",
+      owner:"未公开",
+      exterior:"哑光红色",
+      interior:"蓝色",
+      status:"2024 与 2025 Sport & Collection 活动车辆",
+      timeline:["2024 年 5 月 30 日至 6 月 2 日 — 在 Val de Vienne 举办的第 30 届 Sport & Collection / 500 Ferrari Contre le Cancer 清单中列为 Daytona SP3 底盘 290745，哑光红 / 蓝色内饰，法国。","2025 年 5 月 29 日至 6 月 1 日 — 再次出现在 Val de Vienne 的 Sport et Collection 清单中，底盘 290745，哑光红色。"],
+      notes:"连续两届 Sport & Collection 研究清单都记录了同一辆 Daytona SP3 底盘 290745。2024 清单给出哑光红外观、蓝色内饰和法国元数据；2025 清单再次独立列出底盘 290745 与哑光红外观。本站不据此推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已交叉核验底盘 290745、哑光红外观、蓝色内饰及 2024/2025 连续两届活动记录。"
+    },
+    "SP3-303669-SPORT-COLLECTION":{
+      title:"深红 / 蓝色内饰 — 底盘 303669",
+      edition:"公开活动底盘；客户配额身份未独立确认",
+      country:"法国",
+      city:"法国 Le Vigeant · Val de Vienne",
+      market:"法国活动记录；道路版车辆规格",
+      owner:"未公开",
+      exterior:"深红色",
+      interior:"蓝色",
+      status:"2024 与 2025 Sport & Collection 活动车辆",
+      timeline:["2024 年 5 月 30 日至 6 月 2 日 — 在 Val de Vienne 举办的第 30 届 Sport & Collection / 500 Ferrari Contre le Cancer 清单中列为 Daytona SP3 底盘 303669，深红 / 蓝色内饰，法国。","2025 年 5 月 29 日至 6 月 1 日 — 再次出现在 Val de Vienne 的 Sport et Collection 清单中，底盘 303669，深红色。"],
+      notes:"连续两届 Sport & Collection 研究清单都记录了同一辆 Daytona SP3 底盘 303669。2024 清单给出深红外观、蓝色内饰和法国元数据；2025 清单再次独立列出底盘 303669 与深红外观。本站不据此推断完整 VIN 或私人车主。",
+      review_status:"2026-09-22 — 已交叉核验底盘 303669、深红外观、蓝色内饰及 2024/2025 连续两届活动记录。"
     }
   });
 

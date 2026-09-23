@@ -7623,5 +7623,99 @@
       "Top detail · Rosso Alcantara seats and four-point belts"
     ],
     "accessed": "2026-09-21"
+  },
+  {
+    "id": "SP3-290745-SPORT-COLLECTION",
+    "title": "Matt Red / Blue — chassis 290745",
+    "tier": "chassis",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "290745",
+    "edition": "Public event chassis; customer-allocation status not independently documented",
+    "country": "France",
+    "city": "Val de Vienne / Le Vigeant, France",
+    "market": "French event metadata; road-car specification",
+    "owner": "Not public",
+    "exterior": "Matt red",
+    "color": "Red",
+    "interior": "Blue",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Unknown",
+    "status": "Sport & Collection event car documented in 2024 and 2025",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "30 May–2 June 2024 — Listed at the 30th Sport & Collection / 500 Ferrari Contre le Cancer event at Val de Vienne as Daytona SP3 chassis 290745, matt red / blue, France.",
+      "29 May–1 June 2025 — Listed again at Sport et Collection at Val de Vienne as Daytona SP3 chassis 290745, matt red."
+    ],
+    "notes": "Two consecutive Sport & Collection research lists identify the same Daytona SP3 chassis 290745 at Val de Vienne. The 2024 list records matt-red exterior, blue interior and France metadata; the 2025 list independently repeats chassis 290745 and matt-red exterior. No full VIN or private owner is inferred.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Anamera — Sport & Collection 2024 research list",
+        "https://www.finecars.cc/nl/editorial/article/news/30th-sport-collection-brought-over-600-ferrari-against-cancer-to-french-event/index.html?cHash=7f15aebcf2&no_cache=1&tx_ttnews%5BbackPid%5D=226&tx_ttnews%5Bpointer%5D=6"
+      ],
+      [
+        "Anamera — Sport & Collection 2025 research list",
+        "https://www.finecars.cc/nl/editorial/artikel/news/sport-et-collection-500-ferrari-contre-le-cancer-50000-crowd-small-venue/index.html?cHash=99582182f0&no_cache=1&tx_ttnews%5BbackPid%5D=300"
+      ]
+    ],
+    "review_status": "2026-09-22 — Chassis 290745, matt-red exterior, blue interior and repeated 2024/2025 event appearances cross-checked across two Sport & Collection reports.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 94,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-22"
+  },
+  {
+    "id": "SP3-303669-SPORT-COLLECTION",
+    "title": "Dark Red / Blue — chassis 303669",
+    "tier": "chassis",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "303669",
+    "edition": "Public event chassis; customer-allocation status not independently documented",
+    "country": "France",
+    "city": "Val de Vienne / Le Vigeant, France",
+    "market": "French event metadata; road-car specification",
+    "owner": "Not public",
+    "exterior": "Dark red",
+    "color": "Red",
+    "interior": "Blue",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Unknown",
+    "status": "Sport & Collection event car documented in 2024 and 2025",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "30 May–2 June 2024 — Listed at the 30th Sport & Collection / 500 Ferrari Contre le Cancer event at Val de Vienne as Daytona SP3 chassis 303669, dark red / blue, France.",
+      "29 May–1 June 2025 — Listed again at Sport et Collection at Val de Vienne as Daytona SP3 chassis 303669, dark red."
+    ],
+    "notes": "Two consecutive Sport & Collection research lists identify the same Daytona SP3 chassis 303669 at Val de Vienne. The 2024 list records dark-red exterior, blue interior and France metadata; the 2025 list independently repeats chassis 303669 and dark-red exterior. No full VIN or private owner is inferred.",
+    "photos": [],
+    "credits": [],
+    "sources": [
+      [
+        "Anamera — Sport & Collection 2024 research list",
+        "https://www.finecars.cc/nl/editorial/article/news/30th-sport-collection-brought-over-600-ferrari-against-cancer-to-french-event/index.html?cHash=7f15aebcf2&no_cache=1&tx_ttnews%5BbackPid%5D=226&tx_ttnews%5Bpointer%5D=6"
+      ],
+      [
+        "Anamera — Sport & Collection 2025 research list",
+        "https://www.finecars.cc/nl/editorial/artikel/news/sport-et-collection-500-ferrari-contre-le-cancer-50000-crowd-small-venue/index.html?cHash=99582182f0&no_cache=1&tx_ttnews%5BbackPid%5D=300"
+      ]
+    ],
+    "review_status": "2026-09-22 — Chassis 303669, dark-red exterior, blue interior and repeated 2024/2025 event appearances cross-checked across two Sport & Collection reports.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 94,
+    "photo_sources": [],
+    "photo_captions": [],
+    "accessed": "2026-09-22"
   }
 ]
