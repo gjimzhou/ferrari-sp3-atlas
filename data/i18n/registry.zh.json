@@ -3172,5 +3172,29 @@
     "timeline": [
       "2026-09-23 — 核对 VINinspect 公开 Daytona SP3 索引中的完整 VIN ZFF05UMA1R0307154。"
     ]
+  },
+  "SP3-CAVALCADE-2026-CRASH": {
+    "title": "Ferrari Cavalcade 2026 裸露碳纤维 SP3 碰撞线索",
+    "edition": "原始 599 辆客户生产序列；事故车辆尚未通过 VIN 建立唯一身份",
+    "country": "未公开匹配",
+    "city": "Ferrari Cavalcade 2026 路线",
+    "market": "未公开记录",
+    "owner": "未公开",
+    "exterior": "报道为大量裸露碳纤维配置",
+    "interior": "未公开记录",
+    "wheels": "未公开记录",
+    "calipers": "未公开记录",
+    "mileage": "未公开",
+    "status": "报道称 Ferrari Cavalcade 2026 期间发生碰撞",
+    "sale": "未公开出售",
+    "program": "未公开记录",
+    "options": [
+      "报道为大量裸露碳纤维车身部件"
+    ],
+    "timeline": [
+      "2026 年 7 月 6 日 — 公开报道指出一辆 Daytona SP3 在 Ferrari Cavalcade 2026 遭遇强降雨及冰雹天气时发生碰撞；报道称无人受伤。"
+    ],
+    "notes": "Cobra Magazine 报道一辆采用大量裸露碳纤维的 Daytona SP3 在 Ferrari Cavalcade 2026 恶劣天气中与一辆 Audi 发生碰撞。文章未公开 VIN、底盘、车牌、精确配置或车主身份，因此本站将其独立保留为 incident lead，不凭外观与任何已有裸碳 SP3 档案合并。",
+    "review_status": "2026-09-23 — 已复核事故报道；在出现公开 VIN／底盘或其他可唯一识别记录前保留为 event lead。"
   }
 }

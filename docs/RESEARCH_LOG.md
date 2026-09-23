@@ -142,3 +142,10 @@
 - Re-normalized **SP3-DK-2400** to English canonical research fields with Chinese kept in the display overlay.
 - Current DK Engineering listing rechecked: **325 miles**, fresh **September 2026 Ferrari service by Meridien Modena**, Ferrari Classiche Yellow Book, and a recent **two-year Ferrari factory warranty extension**.
 - No VIN is published on the accessible listing, so the car remains a dealer profile without a guessed VIN/ECR merge.
+
+
+## 2026-09-23 · Cavalcade 2026 incident lead
+
+- Added a standalone incident lead for an **exposed-carbon-heavy Daytona SP3 reportedly involved in a collision during Ferrari Cavalcade 2026**.
+- The source reports severe rain/hail conditions and no injuries, but publishes no VIN/chassis/registration or owner identity.
+- No merge is made with chassis 302913, 308288, or any other exposed-carbon record solely from visual similarity.
