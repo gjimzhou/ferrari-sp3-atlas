@@ -149,3 +149,10 @@
 - Added a standalone incident lead for an **exposed-carbon-heavy Daytona SP3 reportedly involved in a collision during Ferrari Cavalcade 2026**.
 - The source reports severe rain/hail conditions and no injuries, but publishes no VIN/chassis/registration or owner identity.
 - No merge is made with chassis 302913, 308288, or any other exposed-carbon record solely from visual similarity.
+
+
+## 2026-09-23 · Czech VIN record and Austrian dealer inventory
+
+- Added **ZFF05UMB000298816 / chassis 298816** as a government-data-backed registration lead. Czech Ministry-derived public records show a red 2023 Daytona SP3 first registered in Prague on 19 December 2023 and deregistered for export on 15 December 2025.
+- Added **Scuderia Gohm inventory SG0028** as a detailed dealer profile: 2024 Daytona SP3, Nero with Giallo stripe, 4,796 km, Ferrari Approved, Tailor Made, €7,499,000 net asking price. mobile.de independently shows the same dealer/mileage at €8,998,800 including 20% VAT.
+- Added 10 representative images from the listing's 44-photo public gallery. No VIN is published for SG0028, so no chassis/ECR merge is inferred.

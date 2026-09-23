@@ -3196,5 +3196,81 @@
     ],
     "notes": "Cobra Magazine 报道一辆采用大量裸露碳纤维的 Daytona SP3 在 Ferrari Cavalcade 2026 恶劣天气中与一辆 Audi 发生碰撞。文章未公开 VIN、底盘、车牌、精确配置或车主身份，因此本站将其独立保留为 incident lead，不凭外观与任何已有裸碳 SP3 档案合并。",
     "review_status": "2026-09-23 — 已复核事故报道；在出现公开 VIN／底盘或其他可唯一识别记录前保留为 event lead。"
+  },
+  "SP3-298816-CZ": {
+    "title": "红色 — 底盘 298816 — 捷克登记历史",
+    "edition": "原始 599 辆客户生产序列；政府公开数据衍生的登记身份",
+    "country": "捷克",
+    "city": "布拉格 — 登记历史",
+    "market": "捷克登记记录；原始交付市场尚未独立确认",
+    "owner": "公开记录存在公司登记持有人；本站不复录其企业识别编号",
+    "exterior": "红色",
+    "interior": "未公开记录",
+    "wheels": "未公开记录",
+    "calipers": "未公开记录",
+    "mileage": "未公开记录",
+    "status": "2025 年 12 月 15 日记录为注销出口",
+    "sale": "未公开记录",
+    "program": "未公开记录",
+    "timeline": [
+      "2023 年 12 月 19 日 — 首次登记及首次捷克登记均记录于布拉格。",
+      "2025 年 12 月 15 日 — 捷克记录显示车辆注销并出口。"
+    ],
+    "notes": "YAUTO.cz 公布的捷克交通部衍生记录将 VIN ZFF05UMB000298816 识别为 2023 Ferrari Daytona SP3，红色，2023 年 12 月 19 日首次在布拉格登记，并于 2025 年 12 月 15 日注销出口。本站不复录历史登记持有人的企业识别编号，也不推断出口目的地、私人车主、精确漆色或配置。",
+    "review_status": "2026-09-23 — 已复核捷克交通部衍生公开记录中的完整 VIN／车型、红色、布拉格首次登记日期及 2025 年 12 月出口注销。"
+  },
+  "SP3-GOHM-SG0028": {
+    "title": "Nero／Giallo 条纹 — Scuderia Gohm SG0028",
+    "edition": "原始 599 辆客户生产序列；当前经销商库存身份 SG0028",
+    "country": "奥地利",
+    "city": "下奥地利州 Vösendorf",
+    "market": "欧洲经销商挂牌；Ferrari Approved",
+    "owner": "未公开",
+    "exterior": "Nero 黑色，车头至前盖带 Giallo 黄色条纹",
+    "interior": "Off-catalogue 特别颜色 Alcantara",
+    "wheels": "前 20 英寸／后 21 英寸锻造轮毂；哑光处理",
+    "calipers": "Giallo Modena",
+    "mileage": "挂牌时 4,796 km",
+    "status": "Scuderia Gohm 经销商挂牌 — Ferrari Approved",
+    "sale": "净价 €7,499,000；mobile.de 交叉核对含 20% VAT 为 €8,998,800",
+    "program": "Ferrari Tailor Made 定制",
+    "options": [
+      "车头及前盖 Giallo 黄色条纹",
+      "喷绘 Scuderia Ferrari 盾徽",
+      "亮黑色硬顶",
+      "Giallo Modena 刹车卡钳",
+      "下部车身外观碳纤维",
+      "前盖上部碳纤维嵌件",
+      "座舱碳纤维哑光处理",
+      "Off-catalogue 特别内饰颜色",
+      "Alcantara 内饰",
+      "哑光黑排气尾嘴",
+      "银色定制 dedication plaque",
+      "单色 Dreamline F1 换挡拨片",
+      "后部饰板及油箱盖特殊漆面",
+      "前后悬挂抬升系统",
+      "前后泊车摄像头",
+      "全车 PPF",
+      "Racing Driver Set",
+      "Tailor Made 个性化定制"
+    ],
+    "timeline": [
+      "2024 年 6 月 — mobile.de 当前库存显示首次登记月份。",
+      "2026 年 8–9 月 — Scuderia Gohm 在 Vösendorf 公开挂牌，里程 4,796 km，并标注 Ferrari Approved。"
+    ],
+    "notes": "LUSSO 展示 Scuderia Gohm 当前 2024 Daytona SP3 库存，包含 44 张公开图片及详细的 34 项选装清单。车辆为 Nero 黑色配 Giallo 条纹、Giallo Modena 卡钳和 Off-catalogue Alcantara 座舱，里程 4,796 km，并标注 Ferrari Approved。LUSSO 报净价 €7,499,000；mobile.de 显示同一经销商、相同里程及 2024 年 6 月首次登记，含 20% VAT 报价 €8,998,800。公开页面均未给出 VIN，因此本站不猜测底盘，也不凭黑色外观与匿名 SP3 合并。",
+    "review_status": "2026-09-23 — 已复核 LUSSO／Scuderia Gohm 当前库存及 mobile.de 交叉记录中的配置、4,796 km、Ferrari Approved 与净价／含税价口径。",
+    "photo_captions": [
+      "LUSSO／Scuderia Gohm 图库 · 1/44",
+      "LUSSO／Scuderia Gohm 图库 · 5/44",
+      "LUSSO／Scuderia Gohm 图库 · 10/44",
+      "LUSSO／Scuderia Gohm 图库 · 15/44",
+      "LUSSO／Scuderia Gohm 图库 · 20/44",
+      "LUSSO／Scuderia Gohm 图库 · 25/44",
+      "LUSSO／Scuderia Gohm 图库 · 30/44",
+      "LUSSO／Scuderia Gohm 图库 · 35/44",
+      "LUSSO／Scuderia Gohm 图库 · 40/44",
+      "LUSSO／Scuderia Gohm 图库 · 44/44"
+    ]
   }
 }

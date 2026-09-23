@@ -8259,5 +8259,160 @@
     "owner_public": false,
     "sort_weight": 62,
     "accessed": "2026-09-23"
+  },
+  {
+    "id": "SP3-298816-CZ",
+    "title": "Red — chassis 298816 — Czech registration history",
+    "tier": "registry",
+    "year": 2023,
+    "vin": "ZFF05UMB000298816",
+    "chassis": "298816",
+    "edition": "Original 599 production; public government-derived registration identity",
+    "country": "Czech Republic",
+    "city": "Prague — registration history",
+    "market": "Czech registration record; original delivery market not independently verified",
+    "owner": "Company registration holder existed in public record; identity not reproduced by Atlas",
+    "exterior": "Red",
+    "color": "Red",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not publicly documented",
+    "status": "Export deregistration recorded 15 December 2025",
+    "sale": "Not publicly documented",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "19 December 2023 — First registration and first Czech registration recorded in Prague.",
+      "15 December 2025 — Czech record shows the car deregistered for export."
+    ],
+    "notes": "YAUTO.cz publishes Czech Ministry of Transport-derived records identifying VIN ZFF05UMB000298816 as a 2023 Ferrari Daytona SP3, red, first registered in Prague on 19 December 2023 and deregistered for export on 15 December 2025. The Atlas does not reproduce the business registration identifier associated with the historical holder and does not infer the export destination, private owner, exact paint code or specification.",
+    "photos": [],
+    "sources": [
+      "SRC-019889B3"
+    ],
+    "review_status": "2026-09-23 — Complete VIN/model, red colour, Prague first-registration dates and December 2025 export deregistration reviewed from Czech Ministry-derived public records.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 84,
+    "accessed": "2026-09-23"
+  },
+  {
+    "id": "SP3-GOHM-SG0028",
+    "title": "Nero / Giallo stripe — Scuderia Gohm SG0028",
+    "tier": "dealer",
+    "year": 2024,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production; current dealer inventory identity SG0028",
+    "country": "Austria",
+    "city": "Vösendorf, Lower Austria",
+    "market": "European dealer listing; Ferrari Approved",
+    "owner": "Not public",
+    "exterior": "Nero with Giallo stripe over the nose and bonnet",
+    "color": "Black",
+    "interior": "Off-catalogue colour Alcantara",
+    "wheels": "20-inch front / 21-inch rear forged wheels; matt finish",
+    "calipers": "Giallo Modena",
+    "mileage": "4,796 km at listing",
+    "status": "Dealer-listed — Scuderia Gohm / Ferrari Approved",
+    "sale": "€7,499,000 net asking price; mobile.de cross-check €8,998,800 incl. 20% VAT",
+    "program": "Ferrari Tailor Made",
+    "options": [
+      "Giallo stripe over nose and bonnet",
+      "Airbrushed Scuderia Ferrari shields",
+      "Gloss-black hard top",
+      "Giallo Modena brake calipers",
+      "Cosmetic carbon-fibre lower body",
+      "Carbon-fibre upper bonnet insert",
+      "Matt-finish carbon-fibre interior",
+      "Off-catalogue interior colour",
+      "Alcantara interior",
+      "Matt-black exhaust tips",
+      "Silver bespoke dedication plaque",
+      "Single-colour Dreamline F1 shift paddles",
+      "Special-painted rear trim and fuel-filler flap",
+      "Front and rear lifting system",
+      "Front and rear parking cameras",
+      "Full paint-protection film",
+      "Racing Driver Set",
+      "Tailor Made personalisation"
+    ],
+    "timeline": [
+      "June 2024 — First registration month shown in current mobile.de dealer inventory.",
+      "August–September 2026 — Current Scuderia Gohm inventory advertised from Vösendorf with 4,796 km and Ferrari Approved status."
+    ],
+    "notes": "LUSSO reproduces Scuderia Gohm's current 2024 Daytona SP3 inventory with 44 public images and a detailed 34-option list. The car is Nero with a Giallo stripe, Giallo Modena calipers and an off-catalogue Alcantara cabin, shows 4,796 km and is advertised as Ferrari Approved. LUSSO quotes €7,499,000 net; mobile.de shows the same dealer, mileage and June 2024 first registration at €8,998,800 including 20% VAT. Neither accessible page publishes a VIN, so the Atlas keeps this as a dealer profile without guessing a chassis or merging it to an anonymous black SP3.",
+    "photos": [
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-01.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 1/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-05.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 5/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-10.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 10/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-15.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 15/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-20.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 20/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-25.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 25/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-30.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 30/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-35.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 35/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-40.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 40/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      },
+      {
+        "url": "https://www.lus.so/images/vehicles/2024-ferrari-daytona-sp3-sg0028-44.webp",
+        "source_url": "https://www.lus.so/en/car/2024-ferrari-daytona-sp3-sg0028/",
+        "caption": "LUSSO / Scuderia Gohm gallery · 44/44",
+        "credit": "Scuderia Gohm / LUSSO"
+      }
+    ],
+    "sources": [
+      "SRC-4908FC87",
+      "SRC-893A2366"
+    ],
+    "review_status": "2026-09-23 — Current LUSSO/Scuderia Gohm inventory and mobile.de cross-check reviewed for specification, 4,796 km, Ferrari Approved status and net/gross asking-price basis.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 94,
+    "accessed": "2026-09-23"
   }
 ]
