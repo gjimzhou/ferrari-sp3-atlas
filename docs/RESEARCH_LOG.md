@@ -164,3 +164,10 @@
 - Added Swedish Transport Agency-derived VIN lead **ZFF05UMB000304109 / plate JPP42H**, red 2024 car, foreign first registration 23 May 2024 and Swedish registration 21 January 2025. Private-holder name is not reproduced in the Atlas.
 - Added Swedish plate-backed lead **JHC00R**, red 2024 Daytona SP3 in a public company vehicle list; VIN remains unavailable.
 - Deepened **ZFF05UMB000299394 / HJK-99-H** with AutoWeek/RDW registration facts. The Dutch registry's 21 March 2025 plate-start date and RDW's 28 March first-registration date are both retained rather than force-reconciled.
+
+
+## 2026-09-23 · Swedish MDD02R VIN lead
+
+- Added **ZFF05UMB000306477 / plate MDD02R**, a green 2024 Daytona SP3, from public Swedish vehicle records.
+- Public timeline: first registration **28 August 2024**, Swedish traffic entry **31 August 2024**, latest holder change **11 November 2025**, two registered holders total, and in-traffic status in the latest public history.
+- Private holder identities are intentionally not reproduced; no exact Ferrari paint or interior code is inferred from the generic green colour field.
