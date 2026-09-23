@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 registry = json.loads((ROOT / 'data/registry.json').read_text())
 index = json.loads((ROOT / 'data/source-index.json').read_text())
+sources = json.loads((ROOT / 'data/sources.json').read_text())
 schema = json.loads((ROOT / 'data/schema/registry.schema.json').read_text())
 zh_records = json.loads((ROOT / 'data/i18n/registry.zh.json').read_text())
 en_records = json.loads((ROOT / 'data/i18n/registry.en.json').read_text())
@@ -28,7 +29,15 @@ optional_string_fields = {'accessed', 'engine_no', 'gearbox_no', 'registration'}
 string_fields -= optional_string_fields
 
 assert len({r['id'] for r in registry}) == len(registry), 'Duplicate record ID'
-assert len({r['id'] for r in index}) == len(index), 'Duplicate source ID'
+assert len({r['id'] for r in index}) == len(index), 'Duplicate ECR source ID'
+assert len({s['id'] for s in sources}) == len(sources), 'Duplicate catalog source ID'
+source_by_id = {s['id']: s for s in sources}
+for source in sources:
+    assert re.fullmatch(r'SRC-[0-9A-F]{8}', source['id']), ('Invalid source ID', source['id'])
+    assert isinstance(source.get('label'), str) and ' — ' in source['label'], ('Invalid source label', source)
+    assert isinstance(source.get('publisher'), str) and source['publisher'], ('Invalid source publisher', source)
+    assert isinstance(source.get('description'), str), ('Invalid source description', source)
+    assert isinstance(source.get('url'), str) and source['url'].startswith('https://'), ('Invalid source URL', source)
 registry_ids = {r['id'] for r in registry}
 for label, pack in (('ZH', zh_records), ('EN', en_records)):
     unknown = sorted(set(pack) - registry_ids)
@@ -78,13 +87,12 @@ for r in registry:
         assert photo['source_url'].startswith('https://'), (record_id, 'Invalid photo source', photo['source_url'])
 
     assert r['sources']
-    for source in r['sources']:
-        assert isinstance(source, list) and len(source) == 2, (record_id, 'Invalid source tuple', source)
-        label, url = source
-        assert isinstance(label, str) and isinstance(url, str) and url.startswith('https://'), (
-            record_id, 'Invalid source tuple', source
+    for source_id in r['sources']:
+        assert isinstance(source_id, str) and re.fullmatch(r'SRC-[0-9A-F]{8}', source_id), (
+            record_id, 'Invalid source reference', source_id
         )
-        assert ' — ' in label, (record_id, 'Nonstandard source label', label)
+        assert source_id in source_by_id, (record_id, 'Missing source catalog entry', source_id)
+        label = source_by_id[source_id]['label']
         assert not re.search(r'[\u3400-\u9fff]', label), (
             record_id, 'CJK leaked into canonical source label', label
         )
@@ -120,6 +128,8 @@ for r in registry:
         assert 'Original 599' not in r['edition']
 
 assert len(vins) == len(set(vins)), 'Duplicate VIN'
+referenced_source_ids = {source_id for record in registry for source_id in record['sources']}
+assert referenced_source_ids == set(source_by_id), 'Source catalog contains missing or orphan entries'
 
 profile_count = sum(r['record_kind'] == 'profile' for r in registry)
 lead_count = sum(r['record_kind'] == 'lead' for r in registry)

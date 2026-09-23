@@ -5,6 +5,8 @@ import vm from 'node:vm';
 
 const readJson = relative => JSON.parse(fs.readFileSync(new URL(relative, import.meta.url), 'utf8'));
 const registry = readJson('../data/registry.json');
+const sources = readJson('../data/sources.json');
+const sourcesById = new Map(sources.map(source => [source.id, source]));
 const zhRecords = readJson('../data/i18n/registry.zh.json');
 const enRecords = readJson('../data/i18n/registry.en.json');
 const zhText = readJson('../data/i18n/text.zh.json');
@@ -81,7 +83,12 @@ for (const record of registry) {
     }
   }
 
-  for (const source of record.sources || []) {
+  for (const sourceRef of record.sources || []) {
+    const source = typeof sourceRef === 'string' ? sourcesById.get(sourceRef) : sourceRef;
+    if (!source) {
+      failures.push(`${record.id} source: missing catalog entry ${sourceRef}`);
+      continue;
+    }
     const label = Array.isArray(source) ? source[0] : source.label;
     const english = api.text(label, 'en');
     const chinese = api.text(label, 'zh');

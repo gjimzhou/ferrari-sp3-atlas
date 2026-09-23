@@ -25,9 +25,11 @@ Optional `engine_no`, `gearbox_no`, and `registration` fields are displayed inde
 
 ## Sources
 
-Every record must contain at least one HTTPS source. Canonical source labels use `Publisher — description` in English; the bilingual display layer may translate labels without changing canonical evidence.
+`data/sources.json` is the canonical source catalog. Each vehicle record stores stable source IDs such as `SRC-1A2B3C4D`; the catalog stores the canonical label, publisher, description, and HTTPS URL.
 
-Repeated URLs across records are allowed when one publication supports multiple cars or facts. Shared URLs are not evidence that two records describe the same physical car.
+Source IDs are deterministic hashes of the exact canonical label + URL pair. Reusing the same citation across several cars therefore reuses one source entry, while the frontend resolves IDs back into human-readable links.
+
+Repeated URLs with different labels remain separate entries because the label carries research context. Shared sources are not evidence that two records describe the same physical car.
 
 ## Photos
 
