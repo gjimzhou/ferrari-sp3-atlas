@@ -980,6 +980,13 @@
     "url": "https://rmsothebys.com/auctions/id25/lots/r0019-2024-ferrari-daytona-sp3/"
   },
   {
+    "id": "SRC-CF3B7B7C",
+    "label": "Zauba — Genoa-to-Newark Ferrari shipment manifest",
+    "publisher": "Zauba",
+    "description": "Genoa-to-Newark Ferrari shipment manifest",
+    "url": "https://www.zauba.com/fcl-shipments-of-ferrari-car-under-hs-code-210690-imsbqrndj68e"
+  },
+  {
     "id": "SRC-CFCC88E4",
     "label": "Jeremy Cottingham — dealer listing",
     "publisher": "Jeremy Cottingham",
@@ -1195,6 +1202,13 @@
     "publisher": "Exclusive Car Registry",
     "description": "profile 79098",
     "url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098"
+  },
+  {
+    "id": "SRC-F2E619FF",
+    "label": "ClearVIN — 2024 Daytona SP3 public VIN index",
+    "publisher": "ClearVIN",
+    "description": "2024 Daytona SP3 public VIN index",
+    "url": "https://www.clearvin.com/en/vin-explorer/ferrari/daytona-sp3/2024"
   },
   {
     "id": "SRC-F40E95C6",

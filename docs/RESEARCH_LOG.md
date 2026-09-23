@@ -119,3 +119,11 @@
 - **Chassis 316681**: Palm Beach Cavallino Classic No. 23 event lead is now linked to complete VIN **ZFF05UMA6S0316681**.
 - **Chassis 286921**: added structured `market_events[]` for the published **€6,250,000** Broad Arrow Villa d'Este 2026 result.
 - VIN-index sources are used only to establish the published 17-character identity; they do not imply owner, location, title condition, or configuration beyond separately sourced evidence.
+
+
+## 2026-09-23 · Public VIN and shipment lead expansion
+
+- Added complete-VIN leads **ZFF05UMAXR0302261 / chassis 302261**, **ZFF05UMAXR0310022 / chassis 310022**, and **ZFF05UMA9R0307726 / chassis 307726** from ClearVIN's public 2024 Daytona SP3 VIN index.
+- Added US-bound shipment chassis leads **294106** and **293330** from a public 1 October 2023 Genoa-to-Newark manifest that explicitly lists two Ferrari Daytona SP3s.
+- ClearVIN leads remain `record_kind: lead`: a public VIN/model match is not treated as evidence for configuration, ownership, delivery location, title status, or sale history.
+- Shipment leads retain chassis-only identity: no 17-character VIN is reconstructed or guessed from a six-digit serial.
