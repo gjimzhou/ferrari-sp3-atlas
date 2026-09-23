@@ -10,7 +10,7 @@ const display=v=>absent(v)?(document.documentElement.lang==='en'?'Not public':'�
 const local=(r,key)=>window.SP3Content?.value(r,key)??r?.[key];
 const displayField=(r,key)=>absent(r?.[key])?(document.documentElement.lang==='en'?'Not public':'未公开'):String(local(r,key));
 const safeURL=(s,photo=false)=>typeof s==='string'&&(/^https?:\/\//i.test(s)||(photo&&/^assets\/photos\/[\w.-]+\.(jpg|jpeg|png|webp)$/i.test(s)))?s:'';
-let records=[],filtered=[],page=1,indexPage=1,current=null,gidx=0,returnFocus=null;
+let records=[],sourceIndex=[],filtered=[],page=1,indexPage=1,current=null,gidx=0,returnFocus=null;
 const size=24;
 function validate(input){
  if(!Array.isArray(input)||input.length>1000)throw Error('需要不超过 1,000 条的 JSON 数组');
@@ -50,8 +50,7 @@ function validate(input){
   return item;
  });
 }
-function hydrate(){records=bundled.map(r=>clone(r));}
-hydrate();
+function hydrate(data){records=validate(data).map(r=>clone(r));}
 function toast(s){$('toast').textContent=s;$('toast').classList.add('show');setTimeout(()=>$('toast').classList.remove('show'),2800);}
 function countryLabel(code){if(!code)return document.documentElement.lang==='en'?'Not labeled':'未标注';try{const locale=document.documentElement.lang==='en'?'en':'zh-CN';return new Intl.DisplayNames([locale],{type:'region'}).of(code)+' · '+code;}catch{return code;}}
 function mediaOf(r){
@@ -145,7 +144,23 @@ function tab(id){if(!document.querySelector(`.tab[data-view="${id}"]`))return;do
 document.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{tab(t.dataset.view);history.replaceState(null,'','#'+t.dataset.view);});
 $('close').onclick=closeModal;$('modal').onclick=e=>{if(e.target.id==='modal')closeModal();};
 document.addEventListener('keydown',e=>{if(!$('modal').classList.contains('open'))return;if(e.key==='Escape')closeModal();if(current?.photos.length&&['ArrowLeft','ArrowRight'].includes(e.key)){gidx=(gidx+(e.key==='ArrowLeft'?-1:1)+current.photos.length)%current.photos.length;gallery();}if(e.key==='Tab'){const list=[...$('modal').querySelectorAll('button,a[href]')],first=list[0],last=list.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus();}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus();}}});
-window.addEventListener('sp3-languagechange',()=>{setup();if(current){gallery();detail();}});
-setup();
+window.addEventListener('sp3-languagechange',()=>{if(records.length)setup();if(current){gallery();detail();}});
 function restoreHash(){const h=location.hash.slice(1);if(h.startsWith('car=')){try{openCard(decodeURIComponent(h.slice(4)));}catch{}}else if(['registry','owners','sourceIndex','market','countries','methods'].includes(h))tab(h);}
-restoreHash();window.addEventListener('hashchange',restoreHash);
+async function loadJSON(path){
+ const response=await fetch(path,{cache:'no-store'});
+ if(!response.ok)throw Error(`Failed to load ${path}: HTTP ${response.status}`);
+ return response.json();
+}
+async function bootstrap(){
+ try{
+  const [registryData,indexData]=await Promise.all([loadJSON('data/registry.json'),loadJSON('data/source-index.json')]);
+  if(!Array.isArray(indexData))throw Error('Source index root must be an array');
+  hydrate(registryData);sourceIndex=indexData;
+  setup();restoreHash();window.addEventListener('hashchange',restoreHash);
+ }catch(error){
+  console.error(error);
+  $('count').textContent=document.documentElement.lang==='en'?'Registry data failed to load.':'车辆数据加载失败。';
+  $('grid').innerHTML=`<p class="empty">${esc(error.message)}</p>`;
+ }
+}
+bootstrap();

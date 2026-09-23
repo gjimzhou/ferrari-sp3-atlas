@@ -29,7 +29,7 @@
 | `assets/content-i18n.js` | 逐车研究字段的展示层双语翻译；不改写 canonical JSON |
 | `assets/data.js` | 构建生成的静态数据包，不手动编辑 |
 | `assets/photos/` | 历史版本继承的图片；版权归原权利人 |
-| `scripts/build.py` | 数据完整性验证与静态数据包生成 |\n| `data/schema/registry.schema.json` | Registry 数据契约；新增字段先进入 schema |\n| `docs/DATA_MODEL.md` | 数据模型、证据层级与演进规则 |
+| `scripts/validate.py` | 数据契约、VIN、来源、媒体与页面计数验证 |\n| `data/schema/registry.schema.json` | Registry 数据契约；新增字段先进入 schema |\n| `docs/DATA_MODEL.md` | 数据模型、证据层级与演进规则 |
 | `docs/PUBLIC_SOURCES.md` | 来源目录与研究规则 |
 | `docs/RESEARCH_LOG.md` | 本轮更新、去重边界与后续工作 |
 | `sp3_atlas.html` / `sp3_atlas_v2.html` | 保留的历史快照，数据不会自动更新 |
@@ -39,11 +39,11 @@
 使用 Python 3；不需要 npm 构建或外部 API key。
 
 ```bash
-python3 scripts/build.py
+python3 scripts/validate.py
 python3 -m http.server 8000
 ```
 
-打开 `http://localhost:8000`。编辑 JSON 后运行构建，再提交源文件与生成的 `assets/data.js`。GitHub Pages 使用 `main` 分支根目录。
+打开 `http://localhost:8000`。编辑 JSON 后运行验证并提交 canonical JSON。浏览器直接读取 `data/*.json`，不再提交重复生成的数据 bundle。GitHub Pages 由 `main` 分支通过 Actions 部署。
 
 ## 数据原则（Research rules）
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate editable research data and build the static browser bundle."""
+"""Validate the canonical SP3 Atlas research datasets without generating duplicate bundles."""
 import json
 import re
 from pathlib import Path
@@ -7,23 +7,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 registry = json.loads((ROOT / 'data/registry.json').read_text())
 index = json.loads((ROOT / 'data/source-index.json').read_text())
-
-REQUIRED_FIELDS = (
-    'id', 'title', 'tier', 'year', 'vin', 'chassis', 'edition', 'country', 'city',
-    'market', 'owner', 'exterior', 'color', 'interior', 'wheels', 'calipers',
-    'mileage', 'status', 'sale', 'program', 'options', 'timeline', 'notes',
-    'photos', 'sources', 'review_status', 'record_kind', 'owner_public', 'sort_weight',
-)
-STRING_FIELDS = (
-    'id', 'title', 'tier', 'vin', 'chassis', 'edition', 'country', 'city',
-    'market', 'owner', 'exterior', 'color', 'interior', 'wheels', 'calipers',
-    'mileage', 'status', 'sale', 'program', 'notes', 'review_status',
-)
-OPTIONAL_STRING_FIELDS = ('accessed', 'engine_no', 'gearbox_no', 'registration')
-TEXT_ARRAY_FIELDS = ('options', 'timeline')
+schema = json.loads((ROOT / 'data/schema/registry.schema.json').read_text())
 
 assert isinstance(registry, list), 'Registry root must be an array'
 assert isinstance(index, list), 'Source index root must be an array'
+assert schema.get('type') == 'array', 'Registry schema root must describe an array'
+
+item_schema = schema['items']
+required_fields = set(item_schema['required'])
+allowed_fields = set(item_schema['properties'])
+string_fields = {
+    key for key, definition in item_schema['properties'].items()
+    if definition.get('type') == 'string'
+}
+optional_string_fields = {'accessed', 'engine_no', 'gearbox_no', 'registration'}
+string_fields -= optional_string_fields
+
 assert len({r['id'] for r in registry}) == len(registry), 'Duplicate record ID'
 assert len({r['id'] for r in index}) == len(index), 'Duplicate source ID'
 
@@ -32,75 +31,80 @@ confirmed_vins = []
 conflicted_vins = []
 
 for r in registry:
-    missing = [key for key in REQUIRED_FIELDS if key not in r]
-    assert not missing, (r.get('id', '<missing id>'), 'Missing required fields', missing)
-    for key in STRING_FIELDS:
-        assert isinstance(r[key], str), (r['id'], key, 'must be string')
-    for key in OPTIONAL_STRING_FIELDS:
+    record_id = r.get('id', '<missing id>')
+    missing = sorted(required_fields - set(r))
+    unknown = sorted(set(r) - allowed_fields)
+    assert not missing, (record_id, 'Missing required fields', missing)
+    assert not unknown, (record_id, 'Fields missing from schema', unknown)
+
+    for key in string_fields:
+        assert isinstance(r[key], str), (record_id, key, 'must be string')
+    for key in optional_string_fields:
         if key in r:
-            assert isinstance(r[key], str), (r['id'], key, 'must be string')
-    assert r['year'] is None or isinstance(r['year'], int), (r['id'], 'Invalid year')
-    assert isinstance(r['owner_public'], bool), (r['id'], 'owner_public must be boolean')
-    assert isinstance(r['sort_weight'], (int, float)), (r['id'], 'sort_weight must be numeric')
+            assert isinstance(r[key], str), (record_id, key, 'must be string')
+
+    assert r['year'] is None or isinstance(r['year'], int), (record_id, 'Invalid year')
+    assert isinstance(r['owner_public'], bool), (record_id, 'owner_public must be boolean')
+    assert isinstance(r['sort_weight'], (int, float)), (record_id, 'sort_weight must be numeric')
     assert r['tier'] != 'unknown', 'Population placeholders are not research records'
     assert r['record_kind'] in ('profile', 'lead', 'prototype')
 
-    for key in TEXT_ARRAY_FIELDS:
-        assert isinstance(r[key], list), (r['id'], key, 'must be an array')
-        assert all(isinstance(value, str) for value in r[key]), (r['id'], key, 'must contain strings')
+    for key in ('options', 'timeline'):
+        assert isinstance(r[key], list), (record_id, key, 'must be an array')
+        assert all(isinstance(value, str) for value in r[key]), (record_id, key, 'must contain strings')
 
-    assert isinstance(r['photos'], list), (r['id'], 'photos must be an array')
+    assert isinstance(r['photos'], list), (record_id, 'photos must be an array')
     for photo in r['photos']:
-        assert isinstance(photo, dict), (r['id'], 'Photo must be an object')
+        assert isinstance(photo, dict), (record_id, 'Photo must be an object')
         assert set(photo) == {'url', 'source_url', 'caption', 'credit'}, (
-            r['id'], 'Photo object must have url/source_url/caption/credit'
+            record_id, 'Photo object must have url/source_url/caption/credit'
         )
         assert all(isinstance(photo[key], str) for key in ('url', 'source_url', 'caption', 'credit')), (
-            r['id'], 'Photo metadata must be strings'
+            record_id, 'Photo metadata must be strings'
         )
         url = photo['url']
         assert url.startswith('https://') or (
             url.startswith('assets/photos/') and (ROOT / url).is_file()
-        ), (r['id'], 'Invalid photo', url)
-        assert photo['source_url'].startswith('https://'), (r['id'], 'Invalid photo source', photo['source_url'])
+        ), (record_id, 'Invalid photo', url)
+        assert photo['source_url'].startswith('https://'), (record_id, 'Invalid photo source', photo['source_url'])
 
     assert r['sources']
     for source in r['sources']:
-        assert isinstance(source, list) and len(source) == 2, (r['id'], 'Invalid source tuple', source)
+        assert isinstance(source, list) and len(source) == 2, (record_id, 'Invalid source tuple', source)
         label, url = source
         assert isinstance(label, str) and isinstance(url, str) and url.startswith('https://'), (
-            r['id'], 'Invalid source tuple', source
+            record_id, 'Invalid source tuple', source
         )
-        assert ' — ' in label, (r['id'], 'Nonstandard source label', label)
+        assert ' — ' in label, (record_id, 'Nonstandard source label', label)
         assert not re.search(r'[\u3400-\u9fff]', label), (
-            r['id'], 'CJK leaked into canonical source label', label
+            record_id, 'CJK leaked into canonical source label', label
         )
 
     if r['vin'].startswith('ZFF'):
         assert re.fullmatch(r'ZFF[A-HJ-NPR-Z0-9]{14}', r['vin']), r['vin']
         vins.append(r['vin'])
         if r.get('vin_conflicted'):
-            assert isinstance(r['vin_conflicted'], bool), (r['id'], 'vin_conflicted must be boolean')
-            assert r['record_kind'] == 'lead', (r['id'], 'Conflicted VIN must remain a lead')
+            assert isinstance(r['vin_conflicted'], bool), (record_id, 'vin_conflicted must be boolean')
+            assert r['record_kind'] == 'lead', (record_id, 'Conflicted VIN must remain a lead')
             conflicted_vins.append(r['vin'])
         else:
             confirmed_vins.append(r['vin'])
 
     if 'vin_conflicted' in r:
-        assert isinstance(r['vin_conflicted'], bool), (r['id'], 'vin_conflicted must be boolean')
+        assert isinstance(r['vin_conflicted'], bool), (record_id, 'vin_conflicted must be boolean')
 
     if 'sale_event' in r:
         event = r['sale_event']
-        assert isinstance(event, dict), (r['id'], 'sale_event must be an object')
-        assert event.get('type') == 'auction_result', (r['id'], 'Unsupported sale_event type')
+        assert isinstance(event, dict), (record_id, 'sale_event must be an object')
+        assert event.get('type') == 'auction_result', (record_id, 'Unsupported sale_event type')
         assert isinstance(event.get('amount'), (int, float)) and event['amount'] > 0, (
-            r['id'], 'Invalid sale_event amount'
+            record_id, 'Invalid sale_event amount'
         )
         assert event.get('currency') in ('USD', 'CHF', 'EUR', 'GBP'), (
-            r['id'], 'Invalid sale_event currency'
+            record_id, 'Invalid sale_event currency'
         )
         assert isinstance(event.get('source_url'), str) and event['source_url'].startswith('https://'), (
-            r['id'], 'Invalid sale_event source'
+            record_id, 'Invalid sale_event source'
         )
 
     if r['record_kind'] == 'prototype':
@@ -127,6 +131,7 @@ assert f'**{len(confirmed_vins)} 个已确认完整公开 VIN + {len(conflicted_
 index_html = (ROOT / 'index.html').read_text()
 app_js = (ROOT / 'assets/app.js').read_text()
 ui_i18n = (ROOT / 'assets/i18n.js').read_text()
+assert 'assets/data.js' not in index_html, 'Generated data bundle must not return'
 assert '<p id="coverageSummary"></p>' in index_html, 'Methods coverage summary must be runtime-generated'
 legacy_surface = index_html + '\n' + app_js + '\n' + ui_i18n
 for phrase in (
@@ -145,13 +150,8 @@ for r in index:
     assert r['thumbnail'].startswith('https://exclusivecarregistry.com/')
 assert len(index) == 503, 'Update snapshot count and page copy when refreshing index'
 
-serialize = lambda value: json.dumps(value, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
-(ROOT / 'assets/data.js').write_text(
-    '// Generated by scripts/build.py; edit data/*.json instead.\n'
-    + 'const bundled=' + serialize(registry) + ';\n'
-    + 'const sourceIndex=' + serialize(index) + ';\n'
-)
 print(
     f'Validated: {len(registry)} research records, {len(confirmed_vins)} confirmed VINs, '
-    f'{len(conflicted_vins)} conflicted VIN leads, {len(index)} public source links.'
+    f'{len(conflicted_vins)} conflicted VIN leads, {photo_count} photo references, '
+    f'{len(index)} public source links.'
 )
