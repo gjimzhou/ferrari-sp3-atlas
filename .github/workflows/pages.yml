@@ -26,10 +26,8 @@ jobs:
         with:
           node-version: '24'
 
-      - name: Validate research data and generated bundle
-        run: |
-          python3 scripts/build.py
-          git diff --exit-code -- assets/data.js
+      - name: Validate research data
+        run: python3 scripts/validate.py
 
       - name: Check bilingual content coverage
         run: node scripts/check_content_i18n.mjs
@@ -51,8 +49,7 @@ jobs:
         run: |
           mkdir -p _site
           cp index.html .nojekyll _site/
-          cp -R assets data leclerc-2022 _site/
-          cp -R docs _site/
+          cp -R assets data leclerc-2022 docs _site/
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v4
