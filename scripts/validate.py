@@ -110,19 +110,20 @@ for r in registry:
     if 'vin_conflicted' in r:
         assert isinstance(r['vin_conflicted'], bool), (record_id, 'vin_conflicted must be boolean')
 
-    if 'sale_event' in r:
-        event = r['sale_event']
-        assert isinstance(event, dict), (record_id, 'sale_event must be an object')
-        assert event.get('type') == 'auction_result', (record_id, 'Unsupported sale_event type')
-        assert isinstance(event.get('amount'), (int, float)) and event['amount'] > 0, (
-            record_id, 'Invalid sale_event amount'
-        )
-        assert event.get('currency') in ('USD', 'CHF', 'EUR', 'GBP'), (
-            record_id, 'Invalid sale_event currency'
-        )
-        assert isinstance(event.get('source_url'), str) and event['source_url'].startswith('https://'), (
-            record_id, 'Invalid sale_event source'
-        )
+    if 'market_events' in r:
+        assert isinstance(r['market_events'], list), (record_id, 'market_events must be an array')
+        for event in r['market_events']:
+            assert isinstance(event, dict), (record_id, 'market event must be an object')
+            assert event.get('type') == 'auction_result', (record_id, 'Unsupported market event type')
+            assert isinstance(event.get('amount'), (int, float)) and event['amount'] > 0, (
+                record_id, 'Invalid market event amount'
+            )
+            assert event.get('currency') in ('USD', 'CHF', 'EUR', 'GBP'), (
+                record_id, 'Invalid market event currency'
+            )
+            assert isinstance(event.get('source_url'), str) and event['source_url'].startswith('https://'), (
+                record_id, 'Invalid market event source'
+            )
 
     if r['record_kind'] == 'prototype':
         assert 'Original 599' not in r['edition']

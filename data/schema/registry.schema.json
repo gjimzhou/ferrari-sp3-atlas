@@ -199,41 +199,44 @@
       "vin_conflicted": {
         "type": "boolean"
       },
-      "sale_event": {
-        "type": "object",
-        "additionalProperties": true,
-        "required": [
-          "type",
-          "amount",
-          "currency",
-          "source_url"
-        ],
-        "properties": {
-          "type": {
-            "const": "auction_result"
-          },
-          "amount": {
-            "type": "number",
-            "exclusiveMinimum": 0
-          },
-          "currency": {
-            "type": "string",
-            "enum": [
-              "USD",
-              "CHF",
-              "EUR",
-              "GBP"
-            ]
-          },
-          "event": {
-            "type": "string"
-          },
-          "source_url": {
-            "type": "string",
-            "pattern": "^https://"
-          },
-          "basis": {
-            "type": "string"
+      "market_events": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": true,
+          "required": [
+            "type",
+            "amount",
+            "currency",
+            "source_url"
+          ],
+          "properties": {
+            "type": {
+              "const": "auction_result"
+            },
+            "amount": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "currency": {
+              "type": "string",
+              "enum": [
+                "USD",
+                "CHF",
+                "EUR",
+                "GBP"
+              ]
+            },
+            "event": {
+              "type": "string"
+            },
+            "source_url": {
+              "type": "string",
+              "pattern": "^https://"
+            },
+            "basis": {
+              "type": "string"
+            }
           }
         }
       }

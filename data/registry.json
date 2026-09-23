@@ -423,18 +423,20 @@
     "record_kind": "profile",
     "owner_public": true,
     "accessed": "2026-09-21",
-    "sale_event": {
-      "type": "auction_result",
-      "amount": 5348750,
-      "currency": "CHF",
-      "event": "The Tailored for Speed Collection 2025",
-      "source_url": "https://rmsothebys.com/auctions/id25/lots/r0019-2024-ferrari-daytona-sp3/",
-      "basis": "Auction house published result; not represented as hammer price"
-    },
     "sort_weight": 100,
     "engine_no": "557324",
     "gearbox_no": "128127",
-    "registration": "Swiss Carte Grise"
+    "registration": "Swiss Carte Grise",
+    "market_events": [
+      {
+        "type": "auction_result",
+        "amount": 5348750,
+        "currency": "CHF",
+        "event": "The Tailored for Speed Collection 2025",
+        "source_url": "https://rmsothebys.com/auctions/id25/lots/r0019-2024-ferrari-daytona-sp3/",
+        "basis": "Auction house published result; not represented as hammer price"
+      }
+    ]
   },
   {
     "id": "SP3-297567",
@@ -773,17 +775,19 @@
     "record_kind": "profile",
     "owner_public": true,
     "accessed": "2026-09-21",
-    "sale_event": {
-      "type": "auction_result",
-      "amount": 17825000,
-      "currency": "USD",
-      "event": "Monterey 2026",
-      "source_url": "https://rmsothebys.com/auctions/mo26/lots/v0003-2023-ferrari-daytona-sp3/",
-      "basis": "Auction house published result; not represented as hammer price"
-    },
     "sort_weight": 100,
     "engine_no": "554690",
-    "registration": "US Title"
+    "registration": "US Title",
+    "market_events": [
+      {
+        "type": "auction_result",
+        "amount": 17825000,
+        "currency": "USD",
+        "event": "Monterey 2026",
+        "source_url": "https://rmsothebys.com/auctions/mo26/lots/v0003-2023-ferrari-daytona-sp3/",
+        "basis": "Auction house published result; not represented as hammer price"
+      }
+    ]
   },
   {
     "id": "SP3-286921",
