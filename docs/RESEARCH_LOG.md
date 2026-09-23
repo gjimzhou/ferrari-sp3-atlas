@@ -127,3 +127,11 @@
 - Added US-bound shipment chassis leads **294106** and **293330** from a public 1 October 2023 Genoa-to-Newark manifest that explicitly lists two Ferrari Daytona SP3s.
 - ClearVIN leads remain `record_kind: lead`: a public VIN/model match is not treated as evidence for configuration, ownership, delivery location, title status, or sale history.
 - Shipment leads retain chassis-only identity: no 17-character VIN is reconstructed or guessed from a six-digit serial.
+
+
+## 2026-09-23 · VINinspect identity-lead expansion
+
+- Added low-level complete-VIN leads for chassis **294637**, **302262**, **293331**, **313507**, and **307154**.
+- VINs: **ZFF05UMT0P0294637**, **ZFF05UMTXR0302262**, **ZFF05UMA6P0293331**, **ZFF05UMA8S0313507**, and **ZFF05UMA1R0307154**.
+- VINinspect's year-specific pages visibly repeat some Daytona SP3 VINs across year headings. The Atlas therefore derives model year only from the VIN's 10th-character year code and treats the web page as model-identity evidence, not as authoritative delivery-year metadata.
+- These entries remain `record_kind: lead`; no owner, colour, specification, country, title condition, or sale event is inferred.
