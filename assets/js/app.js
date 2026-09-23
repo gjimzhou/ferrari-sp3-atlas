@@ -70,7 +70,7 @@ function openCard(id){current=records.find(r=>r.id===id);if(!current)return;retu
 function gallery(){
  const r=current,media=mediaOf(r);
  if(!media.length){$('gallery').innerHTML=art(r);return;}
- const photo=media[gidx],source=safeURL(photo.source_url||r.sources[0]?.[1]);
+ const photo=media[gidx],source=safeURL(photo.source_url||recordSources(r)[0]?.url);
  $('gallery').innerHTML=`<div class="gallery-main"><img class="gallery-image" src="${esc(safeURL(photo.url,true))}" alt="${esc(local(r,'title')+' · '+(photo.caption||('照片 '+(gidx+1))))}"><div class="gnav"><button id="prev" aria-label="上一张">‹</button><button id="next" aria-label="下一张">›</button></div></div><div class="gallery-caption"><span>${gidx+1} / ${media.length} · ${esc(photo.caption||'原始图库')}</span><span>${esc(photo.credit||'版权归原摄影者')} · <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">本图来源 ↗</a> · <a href="${esc(safeURL(photo.url,true))}" target="_blank" rel="noopener noreferrer">打开原图 ↗</a></span></div><div class="filmstrip" aria-label="选择照片">${media.map((p,i)=>`<button class="film ${i===gidx?'selected':''}" data-image="${i}" aria-label="第 ${i+1} 张照片" aria-pressed="${i===gidx}"><img loading="lazy" src="${esc(safeURL(p.url,true))}" alt="${i+1}"><span>${i+1}</span></button>`).join('')}</div>`;
  $('gallery').querySelector('.gallery-image').onerror=()=>{$('gallery').querySelector('.gallery-main').insertAdjacentHTML('beforeend','<p class="image-error">原站图片暂不可用，请打开来源页查看。</p>');};
  const navigate=i=>{gidx=i;gallery();$('gallery').querySelector('.film.selected')?.scrollIntoView({block:'nearest',inline:'nearest'});};
