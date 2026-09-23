@@ -46,6 +46,10 @@ Each photo is one atomic object:
 
 Keeping the URL, evidence page, caption, and credit together prevents index-alignment errors. Legacy browser-import data that still uses parallel photo arrays is normalized at runtime for backward compatibility.
 
+## Market events
+
+Structured auction results use `market_events[]` rather than a singular sale object. This allows one chassis to accumulate multiple public auction or market events over time without overwriting history. The human-readable `sale` field remains a presentation summary.
+
 ## Changes
 
 Add new research fields to `data/schema/registry.schema.json` and `scripts/build.py` before relying on them in the UI. A field present in canonical data but absent from the schema or presentation is considered schema drift.

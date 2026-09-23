@@ -37,5 +37,11 @@ jobs:
       - name: Validate research data
         run: python3 scripts/validate.py
 
+      - name: Check frontend JavaScript syntax
+        run: |
+          node --check assets/content-i18n.js
+          node --check assets/i18n.js
+          for file in assets/js/*.js; do node --check "$file"; done
+
       - name: Check bilingual content coverage
         run: node scripts/check_content_i18n.mjs
