@@ -39,7 +39,7 @@ export function validate(input){
    }
    if(!photo||typeof photo!=='object'||Array.isArray(photo))throw Error(r.id+' 存在无效图片对象');
    const media={url:String(photo.url||''),source_url:String(photo.source_url||''),caption:String(photo.caption||''),credit:String(photo.credit||'')};
-   if(!safeURL(media.url,true)||!safeURL(media.source_url))throw Error(r.id+' 存在无效图片地址或来源');
+   if((media.url!==''&&!safeURL(media.url,true))||!safeURL(media.source_url))throw Error(r.id+' 存在无效图片地址或来源');
    return media;
   });
   if(!Array.isArray(r.sources)||!r.sources.length)throw Error(r.id+' 缺少有效来源链接');

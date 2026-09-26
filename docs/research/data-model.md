@@ -53,3 +53,10 @@ Structured auction results use `market_events[]` rather than a singular sale obj
 ## Changes
 
 Add new research fields to `data/schema/registry.schema.json` and `scripts/validate.py` before relying on them in the UI. A field present in canonical data but absent from the schema or presentation is considered schema drift.
+
+### Photo rights and source-only slots
+
+A photo with an empty `url` is a source-page-only reference, not a broken image.
+Its `source_url`, `caption` and `credit` remain populated. Local copies require
+evidence in `data/photo-rights.json`; see `PHOTO-RIGHTS.md`. The 507 gallery
+references include these source-only slots and do not imply 507 licensed images.

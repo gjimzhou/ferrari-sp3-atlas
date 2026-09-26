@@ -68,7 +68,7 @@ For externally hosted images:
 
 - retain the original publisher's page URL next to the image URL;
 - never remove attribution;
-- prefer hotlinks or source-page links over re-uploading copyrighted photography;
+- prefer source-page links when reuse permission is unverified; hotlinking alone is not permission;
 - do not infer an owner or identity from an image alone;
 - record a confidence tier and source type separately from descriptive notes.
 

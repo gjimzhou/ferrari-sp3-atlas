@@ -42,3 +42,7 @@ python3 -m http.server 8000
 本站不是 Ferrari 官方名册，不宣称掌握完整客户车辆台账。图片版权归原权利人；公开可见不等于允许再次使用。外部图片失效时仍可查来源页。
 
 [访问统计说明](docs/maintenance/analytics.md) · [反馈问题](https://github.com/gjimzhou/ferrari-sp3-atlas/issues)
+
+## 版权与使用 / Rights
+
+原创编排、数据库结构表达与编辑内容在可受保护范围内 © 2026 Junliang Zhou，保留版权；不主张对公开事实的专有权。功能代码单独适用 [MIT](LICENSE-CODE)。照片及商标归各自权利人，来源署名不等于使用许可。详见 [版权边界](COPYRIGHT.md) 与 [逐项图片权利记录](PHOTO-RIGHTS.md)。11 条图库位置已改为来源页链接，研究记录与引用计数保持不变。

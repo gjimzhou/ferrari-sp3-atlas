@@ -81,7 +81,7 @@ for r in registry:
             record_id, 'Photo metadata must be strings'
         )
         url = photo['url']
-        assert url.startswith('https://') or (
+        assert url == '' or url.startswith('https://') or (
             url.startswith('assets/photos/') and (ROOT / url).is_file()
         ), (record_id, 'Invalid photo', url)
         assert photo['source_url'].startswith('https://'), (record_id, 'Invalid photo source', photo['source_url'])
@@ -175,3 +175,22 @@ print(
     f'{len(conflicted_vins)} conflicted VIN leads, {photo_count} photo references, '
     f'{len(index)} public source links.'
 )
+
+# A source-only gallery slot must remain useful without a local copy.
+rights = json.loads((ROOT / 'data/photo-rights.json').read_text())
+assert len({entry['filename'] for entry in rights}) == len(rights)
+registered_local = {entry['filename'] for entry in rights if entry['status'] == 'licensed'}
+actual_local = {str(path.relative_to(ROOT)) for path in (ROOT / 'assets/photos').glob('*') if path.is_file()}
+assert actual_local == registered_local, 'Every local photo requires documented license evidence'
+for entry in rights:
+    assert entry['source_page'].startswith('https://') and entry['recorded_credit']
+    if entry['status'] == 'licensed':
+        assert entry['license_url'] and entry['permission_record']
+    elif entry['status'] == 'external-link-only':
+        assert not (ROOT / entry['filename']).exists()
+    else:
+        raise AssertionError('Unreviewed local photo state')
+source_only = [photo for record in registry for photo in record['photos'] if not photo['url']]
+assert len(source_only) == sum(entry['status'] == 'external-link-only' for entry in rights)
+assert all(photo['source_url'] and photo['credit'] for photo in source_only)
+print('Photo provenance and source-only fallback checks passed.')
