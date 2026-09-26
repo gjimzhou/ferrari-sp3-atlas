@@ -31,6 +31,7 @@
     '具名车主／收藏记录': 'Named owner / collection records',
     '包含历史收藏关系': 'including historical collection links',
     '图库图片引用': 'Gallery image references',
+    '浏览路线': 'Explore the atlas', '探索车辆': 'Explore cars', '查看市场记录': 'Market records', '理解证据': 'Understand evidence', '阅读指南': 'Reader guide', '项目文档': 'Project documentation',
     '资料库栏目': 'Registry sections',
     '最乐幻想2022': 'Leclerc 2022: The Ultimate What-If',
     '车辆档案': 'Vehicle registry',

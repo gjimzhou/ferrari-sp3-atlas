@@ -103,3 +103,5 @@ html[lang="en"] .placeholder:after{content:"PHOTO AT SOURCE"}
   .toolbar{grid-template-columns:1fr}
   .toolbar .field:first-child{grid-column:auto}
 }
+
+.explore-paths{display:flex;flex-wrap:wrap;gap:10px 24px;margin:0 0 20px;padding:16px 0;border-bottom:1px solid var(--line,#d8d5cf);font-size:14px}.explore-paths a{text-underline-offset:4px}
