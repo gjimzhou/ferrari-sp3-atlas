@@ -47,6 +47,7 @@ assert isinstance(zh_text, dict) and isinstance(en_text, dict), 'Text translatio
 vins = []
 confirmed_vins = []
 conflicted_vins = []
+unverified_vins = []
 
 for r in registry:
     record_id = r.get('id', '<missing id>')
@@ -104,8 +105,16 @@ for r in registry:
             assert isinstance(r['vin_conflicted'], bool), (record_id, 'vin_conflicted must be boolean')
             assert r['record_kind'] == 'lead', (record_id, 'Conflicted VIN must remain a lead')
             conflicted_vins.append(r['vin'])
+        elif r.get('vin_unverified'):
+            unverified_vins.append(r['vin'])
         else:
             confirmed_vins.append(r['vin'])
+
+    if 'vin_unverified' in r:
+        assert isinstance(r['vin_unverified'], bool), (record_id, 'vin_unverified must be boolean')
+        if r['vin_unverified']:
+            assert r['record_kind'] == 'lead' and r['vin'].startswith('ZFF'), (record_id, 'Unverified VIN must remain a full-VIN lead')
+            assert not r.get('vin_conflicted'), (record_id, 'VIN flags are mutually exclusive')
 
     if 'vin_conflicted' in r:
         assert isinstance(r['vin_conflicted'], bool), (record_id, 'vin_conflicted must be boolean')
@@ -147,6 +156,8 @@ assert f'**{photo_count} 条图库图片引用，覆盖 {photo_records} 条记�
 assert f'**{len(confirmed_vins)} 个已确认完整公开 VIN + {len(conflicted_vins)} 条来源冲突 VIN lead**' in readme, (
     'README VIN counts are stale'
 )
+
+assert f'**{len(unverified_vins)} 条待核实索引 VIN lead**' in readme, 'README unverified VIN count is stale'
 
 index_html = (ROOT / 'index.html').read_text()
 app_js = (ROOT / 'assets/js/app.js').read_text()

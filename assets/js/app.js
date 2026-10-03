@@ -13,8 +13,9 @@ function setup(){
  const profiles=records.filter(r=>r.record_kind==='profile').length;
  const leads=records.filter(r=>r.record_kind==='lead').length;
  const prototypes=records.filter(r=>r.record_kind==='prototype').length;
- const confirmedVins=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&!r.vin_conflicted).length;
+ const confirmedVins=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&!r.vin_conflicted&&!r.vin_unverified).length;
  const conflictedVins=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&r.vin_conflicted).length;
+ const unverifiedVins=records.filter(r=>r.vin_unverified).length;
  const photoCount=records.reduce((n,r)=>n+(r.photos?.length||0),0);
  const photoRecords=records.filter(r=>r.photos?.length).length;
  const version=records.map(r=>r.accessed||'').filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort().at(-1)||'2026-09-23';
@@ -24,8 +25,8 @@ function setup(){
  $('photoKpi').textContent=photoCount;
  $('photoKpiLabel').textContent=en?`Gallery image references · ${photoRecords} records with images`:`图库图片引用 · ${photoRecords} 条记录有图`;
  if($('coverageSummary')) $('coverageSummary').textContent=en
-  ?`Version: ${version}. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
-  :`版本：${version}。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
+  ?`Version: ${version}. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}${unverifiedVins?` plus ${unverifiedVins} unverified indexed VIN leads`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
+  :`版本：${version}。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}${unverifiedVins?`；另有 ${unverifiedVins} 条待核实索引 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
  for(const [id,key,label] of [['country','country','全部国家'],['color','color','全部颜色']])selectOptions(id,[...new Set(records.map(r=>r[key]).filter(v=>!absent(v)))].sort().map(x=>[x,window.SP3Content?.text(x)??x]),label);
  selectOptions('tier',Object.entries(tierNames),'全部证据来源');
  selectOptions('indexCountry',[...new Set(sourceIndex.map(r=>r.country_code))].sort().map(c=>[c,countryLabel(c)]),'全部国家旗标');

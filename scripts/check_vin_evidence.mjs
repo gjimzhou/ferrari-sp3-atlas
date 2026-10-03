@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {validate} from '../assets/js/core.js';
+const raw=JSON.parse(readFileSync(new URL('../data/registry.json',import.meta.url)));
+const records=validate(raw);
+const indexed=records.filter(r=>r.vin_unverified);
+assert.equal(indexed.length,3);
+assert.ok(indexed.every(r=>r.record_kind==='lead'&&!r.vin_conflicted));
+const confirmed=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&!r.vin_conflicted&&!r.vin_unverified);
+assert.equal(confirmed.length,43,'Indexed evidence must not inflate confirmed coverage');
+const sample=indexed[0];
+assert.throws(()=>validate([{...sample,record_kind:'profile'}]));
+assert.throws(()=>validate([{...sample,vin_unverified:'true'}]));
+assert.throws(()=>validate([{...sample,vin:'Not public'}]));
+assert.throws(()=>validate([{...sample,vin_conflicted:true}]));
+assert.equal(validate([{...sample,vin_unverified:false}])[0].vin_unverified,false);
+console.log('VIN evidence checks passed: three indexed leads remain outside 43 confirmed VINs.');

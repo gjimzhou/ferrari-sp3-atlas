@@ -239,6 +239,10 @@
             }
           }
         }
+      },
+      "vin_unverified": {
+        "type": "boolean",
+        "description": "Public index VIN not verified against direct vehicle evidence; excluded from confirmed VIN counts."
       }
     }
   }
