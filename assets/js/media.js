@@ -10,5 +10,5 @@ export function mediaOf(r){
   return{url:photo?.url||'',source_url:photo?.source_url||fallbackSource,caption:localizedCaptions[i]??photo?.caption??'',credit:localizedCredits[i]??photo?.credit??''};
  });
 }
-export function art(r){const src=safeURL(mediaOf(r)[0]?.url,true);const placeholder=`<div class="placeholder photo-fallback" style="--swatch:${swatches[r.color]||'#343842'}"></div>`;return src?`<img loading="lazy" src="${esc(src)}" alt="${esc(r.title)}">${placeholder}`:placeholder.replace(' photo-fallback','');}
+export function art(r){const src=mediaOf(r).map(photo=>safeURL(photo.url,true)).find(Boolean)||'';const placeholder=`<div class="placeholder photo-fallback" style="--swatch:${swatches[r.color]||'#343842'}"></div>`;return src?`<img loading="lazy" src="${esc(src)}" alt="${esc(r.title)}">${placeholder}`:placeholder.replace(' photo-fallback','');}
 export function bindImages(parent){parent.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>{img.parentElement.classList.add('broken');},{once:true}));}

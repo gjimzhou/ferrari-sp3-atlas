@@ -17,9 +17,12 @@
 ```sh
 python3 scripts/validate.py
 node scripts/check_content_i18n.mjs
+node scripts/check_photo_rights.mjs
 node --check assets/js/app.js
 python3 -m http.server 8000
 ```
+
+Use Python 3.9 or newer and Node.js 24 (matching CI). The photo check covers source-only galleries, mixed-gallery thumbnails, and URL validation for both current and legacy photo entries.
 
 打开 `http://localhost:8000`。`main` 通过 `.github/workflows/pages.yml` 发布；无需外部 API key 或前端构建。新增字段先更新 schema；新增事实同时补来源、译文并通过验证。记录 ID、`#car=`、现有栏目 hash 和专题 URL 保持稳定。
 
