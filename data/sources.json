@@ -336,6 +336,13 @@
     "url": "https://www.merinfo.se/person/Stockholm/Sven-Olof-Johansson-1945/bkwf7-yd8s/fordon"
   },
   {
+    "id": "SRC-36AAF12A",
+    "label": "Drive Vintage — 291934 vehicle profile",
+    "publisher": "Drive Vintage",
+    "description": "291934 vehicle profile",
+    "url": "https://drivevintage.ch/car/daytona-sp3/"
+  },
+  {
     "id": "SRC-3A80513F",
     "label": "duPont REGISTRY — Miller Motorcars 14-car gathering",
     "publisher": "duPont REGISTRY",
@@ -355,6 +362,13 @@
     "publisher": "Dutch Ferrari and Lamborghini Register",
     "description": "chassis 291935 photo record",
     "url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000291935/"
+  },
+  {
+    "id": "SRC-3DED78D6",
+    "label": "Classic Driver — 991804 archived listing",
+    "publisher": "Classic Driver",
+    "description": "991804 archived listing",
+    "url": "https://www.classicdriver.com/en/car/ferrari/2023/991804"
   },
   {
     "id": "SRC-40909EFE",
@@ -721,6 +735,13 @@
     "url": "https://www.linkedin.com/posts/rob-cole-b0b6857b_this-one-is-very-special-tailor-made-carbonio-activity-7270060544684888064-u7-p"
   },
   {
+    "id": "SRC-8CFE89E4",
+    "label": "Classic Driver — 1080987 archived listing",
+    "publisher": "Classic Driver",
+    "description": "1080987 archived listing",
+    "url": "https://www.classicdriver.com/en/car/ferrari/daytona-sp3/2024/1080987"
+  },
+  {
     "id": "SRC-8D1DA366",
     "label": "duPont REGISTRY — Ferrari of Central New Jersey feature",
     "publisher": "duPont REGISTRY",
@@ -796,6 +817,13 @@
     "publisher": "duPont REGISTRY",
     "description": "Shmee150 collection feature",
     "url": "https://news.dupontregistry.com/blogs/ferrari-news/shmee150-drive-ferrari-daytona-sp3"
+  },
+  {
+    "id": "SRC-9D5A55E3",
+    "label": "Classic Driver — Drive Vintage sponsored showroom feature",
+    "publisher": "Classic Driver",
+    "description": "Drive Vintage sponsored showroom feature",
+    "url": "https://www.classicdriver.com/en/article/sponsored-content/its-official-ferrari-daytona-sp3-looks-even-better-real-life"
   },
   {
     "id": "SRC-9DB6ABE8",

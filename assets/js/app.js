@@ -1,5 +1,6 @@
 import {$,tierNames,kindNames,clone,esc,absent,display,local,displayField,safeURL,validate} from './core.js';
 import {mediaOf,art,bindImages} from './media.js';
+import {hasMarketEvidence} from './market.js';
 import {installSources,recordSources} from './sources.js';
 
 let records=[],sourceIndex=[],filtered=[],page=1,indexPage=1,current=null,gidx=0,returnFocus=null;
@@ -16,14 +17,15 @@ function setup(){
  const conflictedVins=records.filter(r=>/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)&&r.vin_conflicted).length;
  const photoCount=records.reduce((n,r)=>n+(r.photos?.length||0),0);
  const photoRecords=records.filter(r=>r.photos?.length).length;
+ const version=records.map(r=>r.accessed||'').filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort().at(-1)||'2026-09-23';
  const en=document.documentElement.lang==='en';
  $('profileKpi').textContent=profiles;
  $('vinKpi').textContent=confirmedVins;
  $('photoKpi').textContent=photoCount;
  $('photoKpiLabel').textContent=en?`Gallery image references · ${photoRecords} records with images`:`图库图片引用 · ${photoRecords} 条记录有图`;
  if($('coverageSummary')) $('coverageSummary').textContent=en
-  ?`Version: 2026-09-23. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
-  :`版本：2026-09-23。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
+  ?`Version: ${version}. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
+  :`版本：${version}。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
  for(const [id,key,label] of [['country','country','全部国家'],['color','color','全部颜色']])selectOptions(id,[...new Set(records.map(r=>r[key]).filter(v=>!absent(v)))].sort().map(x=>[x,window.SP3Content?.text(x)??x]),label);
  selectOptions('tier',Object.entries(tierNames),'全部证据来源');
  selectOptions('indexCountry',[...new Set(sourceIndex.map(r=>r.country_code))].sort().map(c=>[c,countryLabel(c)]),'全部国家旗标');
@@ -63,7 +65,7 @@ function renderIndex(){
  $('indexGrid').innerHTML=items.slice((indexPage-1)*size,indexPage*size).map(r=>`<article class="card"><a class="index-card" href="${esc(safeURL(r.source_url))}" target="_blank" rel="noopener noreferrer"><div class="cardphoto">${art({title:r.id+' · ECR',photos:[r.thumbnail]})}</div><div class="cardbody"><h3>${esc(r.id)} ↗</h3><div class="sub">${esc(countryLabel(r.country_code))}</div><div class="sub">ECR 公开页面 · 唯一实车身份待核对</div></div></a>${matches.has(r.id)?`<div class="cardbody"><button class="btn" data-id="${esc(matches.get(r.id))}">查看本站关联记录</button></div>`:''}</article>`).join('')||'<p class="empty">没有匹配的来源档案。</p>';
  bindCards($('indexGrid'));pager('indexPages',items.length,indexPage,p=>{indexPage=p;renderIndex();$('sourceIndex').scrollIntoView({block:'start'});});
 }
-function market(){const items=records.filter(r=>r.tier==='chassis'||r.id==='SP3-DK-2400'||r.id==='SP3-CARRIO-BIANCO-ITALIA'||r.id==='SP3-BP-GREEN');$('marketRows').innerHTML=items.map(r=>`<tr><td><button data-id="${esc(r.id)}">${esc(local(r,'title'))}</button><br><small>${esc(r.id)}</small></td><td>${esc(displayField(r,'status'))}</td><td>${esc(displayField(r,'sale'))}</td><td><a href="${esc(safeURL(recordSources(r)[0]?.url))}" target="_blank" rel="noopener noreferrer">原始来源 ↗</a><br><small>${esc(displayField(r,'review_status'))}</small></td></tr>`).join('');bindCards($('marketRows'));}
+function market(){const items=records.filter(hasMarketEvidence);$('marketRows').innerHTML=items.map(r=>`<tr><td><button data-id="${esc(r.id)}">${esc(local(r,'title'))}</button><br><small>${esc(r.id)}</small></td><td>${esc(displayField(r,'status'))}</td><td>${esc(displayField(r,'sale'))}</td><td><a href="${esc(safeURL(recordSources(r)[0]?.url))}" target="_blank" rel="noopener noreferrer">原始来源 ↗</a><br><small>${esc(displayField(r,'review_status'))}</small></td></tr>`).join('');bindCards($('marketRows'));}
 function bars(id,labels){const m=new Map();labels.forEach(x=>m.set(x,(m.get(x)||0)+1));const sorted=[...m].sort((a,b)=>b[1]-a[1]);const max=sorted[0]?.[1]||1;$(id).innerHTML=sorted.map(([k,n])=>`<div class="crow"><span>${esc(k)}</span><div class="bar"><i style="width:${n/max*100}%"></i></div><b>${n}</b></div>`).join('');}
 function countryStats(){bars('countryBars',records.filter(r=>r.record_kind!=='prototype'&&!absent(r.country)).map(r=>window.SP3Content?.text(r.country)??r.country));bars('indexCountryBars',sourceIndex.map(r=>countryLabel(r.country_code)));}
 function openCard(id){current=records.find(r=>r.id===id);if(!current)return;returnFocus=document.activeElement;gidx=0;$('modalId').textContent=current.id;gallery();detail();$('modal').classList.add('open');document.body.style.overflow='hidden';$('close').focus();history.replaceState(null,'','#car='+encodeURIComponent(id));window.SiteAnalytics?.view('/car/'+current.id,'Car '+current.id);}

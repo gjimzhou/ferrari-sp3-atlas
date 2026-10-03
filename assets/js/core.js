@@ -35,7 +35,7 @@ export function validate(input){
    if(typeof photo==='string'){
     const firstSource=Array.isArray(r.sources?.[0])?r.sources[0][1]:'';
     const source=r.photo_sources?.[i]||firstSource||'';
-    return {url:photo,source_url:source,caption:r.photo_captions?.[i]||'',credit:r.credits?.[i]||''};
+    photo={url:photo,source_url:source,caption:r.photo_captions?.[i]||'',credit:r.credits?.[i]||''};
    }
    if(!photo||typeof photo!=='object'||Array.isArray(photo))throw Error(r.id+' 存在无效图片对象');
    const media={url:String(photo.url||''),source_url:String(photo.source_url||''),caption:String(photo.caption||''),credit:String(photo.credit||'')};

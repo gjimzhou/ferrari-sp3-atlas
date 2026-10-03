@@ -8608,5 +8608,138 @@
     "owner_public": false,
     "sort_weight": 66,
     "accessed": "2026-09-23"
+  },
+  {
+    "id": "SP3-291934-DRIVE-VINTAGE",
+    "title": "291934 — Drive Vintage Rosso Magma",
+    "tier": "dealer",
+    "year": 2023,
+    "vin": "ZFF05UMB000291934",
+    "chassis": "291934",
+    "edition": "Original 599 production",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "Unknown",
+    "owner": "Not public",
+    "exterior": "Rosso Magma four-layer paint (showroom feature)",
+    "color": "Red",
+    "interior": "Blu Elettrico Alcantara (showroom feature)",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Drive Vintage showroom feature; current availability unconfirmed",
+    "sale": "Not offered publicly",
+    "program": "Ferrari Tailor Made (showroom feature)",
+    "options": [
+      "Historical livery described in the sponsored showroom feature"
+    ],
+    "timeline": [
+      "2023 — Delivery year published by Drive Vintage.",
+      "2026-10-02 — Public VIN and delivery year reviewed; the sponsored showroom feature supplies configuration context."
+    ],
+    "notes": "Drive Vintage publishes the full VIN and 2023 delivery year. Its Classic Driver sponsored showroom feature describes Rosso Magma paint, Blu Elettrico Alcantara and a historical livery, but does not print a VIN; that configuration association remains provisional. The feature states the car was not for sale at publication, which does not establish current availability. No owner, location or exact production date is inferred.",
+    "photos": [
+      {
+        "url": "",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Drive Vintage source gallery",
+        "credit": "Drive Vintage; see source page"
+      }
+    ],
+    "sources": [
+      "SRC-36AAF12A",
+      "SRC-9D5A55E3"
+    ],
+    "review_status": "2026-10-02 — Public source reviewed; unknown fields remain unfilled.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 87,
+    "accessed": "2026-10-02"
+  },
+  {
+    "id": "SP3-CD-991804",
+    "title": "Belgium black / red — archived listing lead",
+    "tier": "dealer",
+    "year": 2023,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production",
+    "country": "Belgium",
+    "city": "Unknown",
+    "market": "Left-hand drive; market specification not public",
+    "owner": "Not public",
+    "exterior": "Black; factory paint name not published",
+    "color": "Black",
+    "interior": "Red",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "99 km at listing",
+    "status": "Archived listing; no longer available, sale outcome unconfirmed",
+    "sale": "Historical listing; price not public",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2026-10-02 — Archived Classic Driver listing reviewed; publication date not stated."
+    ],
+    "notes": "Listing reference 636324. The manufacture field reads May 2023; the chassis field contains only the placeholder XX, not an identifier. No VIN is published. Retained as a listing lead, not a confirmed additional unique vehicle. Archive status does not prove a sale. No match to another Atlas record is asserted from colour alone.",
+    "photos": [
+      {
+        "url": "",
+        "source_url": "https://www.classicdriver.com/en/car/ferrari/2023/991804",
+        "caption": "Archived listing source image",
+        "credit": "Classic Driver listing; see source page"
+      }
+    ],
+    "sources": [
+      "SRC-3DED78D6"
+    ],
+    "review_status": "2026-10-02 — Public source reviewed; unknown fields remain unfilled.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 65,
+    "accessed": "2026-10-02"
+  },
+  {
+    "id": "SP3-CD-1080987",
+    "title": "UAE matte silver / blue — archived listing lead",
+    "tier": "dealer",
+    "year": 2024,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Original 599 production",
+    "country": "United Arab Emirates",
+    "city": "Unknown",
+    "market": "Left-hand drive; GCC specification claimed by seller",
+    "owner": "Not public",
+    "exterior": "Silver, described as Matt; factory paint name not published",
+    "color": "Silver",
+    "interior": "Blue leather",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "1,000 km at listing",
+    "status": "Archived listing; no longer available, sale outcome unconfirmed",
+    "sale": "EUR 6,200,000 net asking price in archived listing; not a sale result",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2026-10-02 — Archived Classic Driver listing reviewed; publication date not stated."
+    ],
+    "notes": "Listing reference 1080987. The seller describes a GCC car and a net asking price. No VIN is published. Retained as a listing lead, not a confirmed additional unique vehicle. Archive status does not prove a sale. No match to another Atlas record is asserted from colour alone.",
+    "photos": [
+      {
+        "url": "",
+        "source_url": "https://www.classicdriver.com/en/car/ferrari/daytona-sp3/2024/1080987",
+        "caption": "Archived listing source image",
+        "credit": "Classic Driver listing; see source page"
+      }
+    ],
+    "sources": [
+      "SRC-8CFE89E4"
+    ],
+    "review_status": "2026-10-02 — Public source reviewed; unknown fields remain unfilled.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 65,
+    "accessed": "2026-10-02"
   }
 ]
