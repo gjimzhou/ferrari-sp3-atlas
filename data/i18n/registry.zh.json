@@ -3447,5 +3447,67 @@
     "photo_captions": [
       "历史挂牌原始图片来源"
     ]
+  },
+  "SP3-291933-CAVALLINO": {
+    "title": "291933 — Cavallino 试驾车",
+    "status": "杂志试驾车辆；当前所在地未公开",
+    "notes": "出版方在 2024 年 6／7 月刊中明确列出 2023 年款 Daytona SP3、序列号 291933。公开目录支持底盘号与年款，不提供完整 VIN 或配置；未将其与现有仅有颜色线索的记录强行匹配。",
+    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "timeline": [
+      "2024 年 6／7 月 — 列入 Cavallino 第 261 期试驾栏目。"
+    ]
+  },
+  "SP3-310369-INDEXED-VIN": {
+    "title": "310369 — 待核实索引 VIN",
+    "status": "待核实 VIN 索引线索；不计入已确认 VIN 数",
+    "notes": "2026-10-02 审阅的 VINinspect Daytona SP3 公开搜索索引列出此完整 VIN，但直接打开的页面快照未显示该条目。仅保留为待核实索引证据，不计入已确认 VIN 覆盖率。底盘字段取自 VIN 末六位，并非另有底盘铭牌证据。多语言页面属于同一出版方，不能算独立佐证。不推断年款、配置、所在地或车主。",
+    "review_status": "2026-10-02 — 仅搜索索引证据；直接页面快照内容不同。"
+  },
+  "SP3-314122-INDEXED-VIN": {
+    "title": "314122 — 待核实索引 VIN",
+    "status": "待核实 VIN 索引线索；不计入已确认 VIN 数",
+    "notes": "2026-10-02 审阅的 VINinspect Daytona SP3 公开搜索索引列出此完整 VIN，但直接打开的页面快照未显示该条目。仅保留为待核实索引证据，不计入已确认 VIN 覆盖率。底盘字段取自 VIN 末六位，并非另有底盘铭牌证据。多语言页面属于同一出版方，不能算独立佐证。不推断年款、配置、所在地或车主。",
+    "review_status": "2026-10-02 — 仅搜索索引证据；直接页面快照内容不同。"
+  },
+  "SP3-305017-INDEXED-VIN": {
+    "title": "305017 — 待核实索引 VIN",
+    "status": "待核实 VIN 索引线索；不计入已确认 VIN 数",
+    "notes": "2026-10-02 审阅的 VINinspect Daytona SP3 公开搜索索引列出此完整 VIN，但直接打开的页面快照未显示该条目。仅保留为待核实索引证据，不计入已确认 VIN 覆盖率。底盘字段取自 VIN 末六位，并非另有底盘铭牌证据。多语言页面属于同一出版方，不能算独立佐证。不推断年款、配置、所在地或车主。",
+    "review_status": "2026-10-02 — 仅搜索索引证据；直接页面快照内容不同。"
+  },
+  "SP3-VERDE-BOTTIGLIA-BIANCO-KING": {
+    "title": "Verde Bottiglia／Bianco King — Tailor Made",
+    "status": "已有来源记录，车辆身份资料尚不完整",
+    "notes": "ClubAlfa 报道 Verde Bottiglia 车漆、Bianco King 圆形赛车涂装，以及方格绗缝绿色 Connolly 真皮，并将照片署名为 Ferrari 社交媒体。未公开 VIN、底盘、车主或生产年份。报道日期不是年款；与其他绿色车辆的身份对应关系仍待核对。",
+    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "exterior": "Verde Bottiglia 车漆，Bianco King 圆形涂装",
+    "interior": "绿色 Connolly 真皮，方格绗缝",
+    "program": "Ferrari Tailor Made 定制"
+  },
+  "SP3-ECR-82743": {
+    "title": "Azzurro Iridescente — 安纳西 Registry 线索",
+    "status": "已有来源记录，车辆身份资料尚不完整",
+    "notes": "ECR 公开索引文字描述 Azzurro Iridescente 配色的 Tailor Made 车辆，地点标注法国安纳西。审阅时直接访问返回 HTTP 403，未访问受限字段。来源的唯一性说法未经独立核实；没有完整 VIN，也未确认与本站其他车辆的身份关联。",
+    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "city": "安纳西",
+    "exterior": "Azzurro Iridescente（公开 Registry 文字）",
+    "program": "Tailor Made（公开 Registry 文字）"
+  },
+  "SP3-ARANCIO-3-STRATI-GALLERY": {
+    "title": "Arancio 3 Strati — 配置图库线索",
+    "status": "已有来源记录，车辆身份资料尚不完整",
+    "notes": "carpaints.co 车辆图库标注此车漆与 Tailor Made 配置，图片署名 Ferrari Québec，并明确显示尚无已记录 VIN。 报道另描述蓝色裸露碳纤维部件。 摄影署名不能确定车辆所在地或车主；未推断生产年份或身份关联。",
+    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "program": "Tailor Made（图库标注）",
+    "options": [
+      "图库文字描述的蓝色裸露碳纤维部件"
+    ]
+  },
+  "SP3-VIOLETTO-DINO-GALLERY": {
+    "title": "Violetto Dino — 配置图库线索",
+    "status": "已有来源记录，车辆身份资料尚不完整",
+    "notes": "carpaints.co 车辆图库标注此车漆与 Tailor Made 配置，图片署名 Wrapsign，并明确显示尚无已记录 VIN。 摄影署名不能确定车辆所在地或车主；未推断生产年份或身份关联。",
+    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "program": "Tailor Made（图库标注）"
   }
 }

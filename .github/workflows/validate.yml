@@ -46,6 +46,9 @@ jobs:
       - name: Check bilingual content coverage
         run: node scripts/check_content_i18n.mjs
 
+      - name: Check VIN evidence classification
+        run: node scripts/check_vin_evidence.mjs
+
       - name: Check market evidence selection
         run: node scripts/check_market.mjs
 

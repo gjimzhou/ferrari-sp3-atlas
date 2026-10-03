@@ -1,5 +1,15 @@
 # 研究更新记录（Research log）
 
+## 2026-10-03 — 150 条记录与 VIN 证据分层
+
+- 新增 Cavallino 第 261 期明确列出的 2023 SP3 底盘 291933。公开目录未披露配置，保留为底盘已记载、详情待补的线索。
+- 新增 Verde Bottiglia / Bianco King、Azzurro Iridescente（ECR 82743）、Arancio 3 Strati 蓝碳纤维、Violetto Dino 四条配置记录，保留原始图片来源入口。没有 VIN 的配置记录不能当作新增独立实车计数。
+- 将此前暂缓的 310369、314122、305017 以明确的待核实索引 VIN 线索收录。VINinspect 近期公开搜索索引包含完整 VIN，但直接页面快照不一致，因此设置 `vin_unverified`，不提升为已确认 VIN。多语言索引不是独立佐证，不从索引推测年款或所在地。
+- 合计 150 条研究记录：67 详细车档、81 线索、2 预生产／研发车；仍为 43 个已确认完整 VIN，另有 1 条来源冲突、3 条待核实索引 VIN。514 条图库引用覆盖 88 条记录。
+- 排重：Anamera Cavalcade Siviglia 2025 的 16 个底盘、Palm Beach 2026 的 7 个底盘均已存在，未重复添加。F1rst Motors 银色刊登仍可能关联 ECR 101218，不拆成新车。carpaints.co 的 Rosso Libano / Rosso Taormina 对应既有配置线索，未重复收录。
+- 配置相似不足以确认车辆身份；新配置线索与既有未识别车辆的关联仍开放核对。没有访问登录／付费字段，没有复制未授权图片。
+
+
 ## 2026-10-02 — 新增车档与历史挂牌
 
 - 新增 `SP3-291934-DRIVE-VINTAGE`：Drive Vintage 原页公布完整 VIN `ZFF05UMB000291934` 及 2023 交付年份。Classic Driver 赞助展厅报道提供 Rosso Magma 四层漆、Blu Elettrico Alcantara 及历史赛车涂装背景；该报道未印 VIN，因此配置关联标为暂定，不冒充独立底盘核验。报道时不出售，不推断当前状态或车主。

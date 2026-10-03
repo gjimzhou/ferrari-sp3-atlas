@@ -51,7 +51,12 @@ export function validate(input){
    if(!Array.isArray(r.market_events))throw Error(r.id+' 的 market_events 必须为数组');
    item.market_events=r.market_events.map(e=>{if(!e||e.type!=='auction_result'||!Number.isFinite(e.amount)||e.amount<=0||!['USD','CHF','EUR','GBP'].includes(e.currency)||!safeURL(e.source_url))throw Error(r.id+' 拍卖结果字段无效');return{type:e.type,amount:e.amount,currency:e.currency,event:String(e.event||''),source_url:e.source_url,basis:String(e.basis||'')};});
   }
-  item.vin_conflicted=r.vin_conflicted===true;
+  for(const flag of ['vin_conflicted','vin_unverified']){
+   if(r[flag]!=null&&typeof r[flag]!=='boolean')throw Error(r.id+' 的 '+flag+' 必须为布尔值');
+   item[flag]=r[flag]===true;
+  }
+  if(item.vin_conflicted&&item.vin_unverified)throw Error(r.id+' VIN 状态冲突');
+  if(item.vin_unverified&&(item.record_kind!=='lead'||!/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(item.vin)))throw Error(r.id+' 待核实 VIN 必须为完整 VIN 线索');
   return item;
  });
 }

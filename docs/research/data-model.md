@@ -58,5 +58,7 @@ Add new research fields to `data/schema/registry.schema.json` and `scripts/valid
 
 A photo with an empty `url` is a source-page-only reference, not a broken image.
 Its `source_url`, `caption` and `credit` remain populated. Local copies require
-evidence in `data/photo-rights.json`; see `PHOTO-RIGHTS.md`. The 510 gallery
-references include these source-only slots and do not imply 510 licensed images.
+evidence in `data/photo-rights.json`; see `PHOTO-RIGHTS.md`. The 514 gallery
+references include these source-only slots and do not imply 514 licensed images.
+
+`vin_unverified: true` marks a VIN present only in public index evidence. It must remain a lead and is excluded from confirmed VIN coverage. Missing flags retain existing behavior; `vin_conflicted` and `vin_unverified` cannot both be true.
