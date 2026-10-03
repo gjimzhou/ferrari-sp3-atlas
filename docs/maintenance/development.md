@@ -18,6 +18,7 @@
 python3 scripts/validate.py
 node scripts/check_content_i18n.mjs
 node scripts/check_photo_rights.mjs
+node scripts/check_market.mjs
 node --check assets/js/app.js
 python3 -m http.server 8000
 ```

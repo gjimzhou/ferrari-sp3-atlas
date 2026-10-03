@@ -191,6 +191,12 @@ for entry in rights:
     else:
         raise AssertionError('Unreviewed local photo state')
 source_only = [photo for record in registry for photo in record['photos'] if not photo['url']]
-assert len(source_only) == sum(entry['status'] == 'external-link-only' for entry in rights)
+from collections import Counter
+retained_sources = Counter((photo['source_url'], photo['credit']) for photo in source_only)
+removed_sources = Counter(
+    (entry['source_page'], entry['recorded_credit'])
+    for entry in rights if entry['status'] == 'external-link-only'
+)
+assert not (removed_sources - retained_sources), 'Removed local photos must retain source and credit'
 assert all(photo['source_url'] and photo['credit'] for photo in source_only)
 print('Photo provenance and source-only fallback checks passed.')

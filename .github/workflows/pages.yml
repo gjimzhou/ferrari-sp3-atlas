@@ -37,6 +37,9 @@ jobs:
       - name: Check bilingual content coverage
         run: node scripts/check_content_i18n.mjs
 
+      - name: Check market evidence selection
+        run: node scripts/check_market.mjs
+
       - name: Check source-only photo behavior
         run: node scripts/check_photo_rights.mjs
 

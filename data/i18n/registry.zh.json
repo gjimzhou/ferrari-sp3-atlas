@@ -3391,5 +3391,61 @@
     ],
     "notes": "公开挂牌描述一辆位于柏林的 2024 Daytona SP3，采用 Full Carbon Fibre 全碳纤维配置及 Carbon Gloss 表面，并由私人收藏家直接出售。页面未公开 VIN、底盘、里程、车牌或座舱配置。挂牌营销图不作为实车纪录照片使用；本站也不会仅凭外观或通用配置与任何已有裸碳 SP3 强行合并。",
     "review_status": "2026-09-23 — 已复核公开 off-market 挂牌中的年份、柏林地点及 Full Carbon Fibre／Carbon Gloss 描述；在获得唯一车辆身份前保留为 market lead。"
+  },
+  "SP3-291934-DRIVE-VINTAGE": {
+    "title": "291934 — Drive Vintage Rosso Magma 展厅车",
+    "exterior": "Rosso Magma 四层漆（展厅报道）",
+    "interior": "Blu Elettrico Alcantara（展厅报道）",
+    "status": "Drive Vintage 展厅报道；当前是否出售未确认",
+    "sale": "报道时未公开出售",
+    "program": "Ferrari Tailor Made 定制（展厅报道）",
+    "options": [
+      "赞助展厅报道中描述的历史赛车涂装"
+    ],
+    "timeline": [
+      "2023 年 — Drive Vintage 公布的交付年份。",
+      "2026-10-02 — 核对完整公开 VIN 与交付年份；配置背景来自赞助展厅报道。"
+    ],
+    "notes": "Drive Vintage 公布了完整 VIN 及 2023 年交付年份。Classic Driver 的 Drive Vintage 赞助展厅报道描述了 Rosso Magma、Blu Elettrico Alcantara 与历史赛车涂装，但未刊登 VIN，因此配置与该底盘的关联仍属暂定。报道时车辆不出售，不代表当前状态；不推断车主、所在地或精确生产日期。",
+    "review_status": "2026-10-02 — 已核对公开来源；未公开字段保持空缺。",
+    "photo_captions": [
+      "Drive Vintage 原始图库"
+    ]
+  },
+  "SP3-CD-991804": {
+    "title": "比利时黑外红内挂牌线索",
+    "country": "比利时",
+    "exterior": "黑色；未公布原厂漆名",
+    "interior": "红色",
+    "mileage": "挂牌时 99 km",
+    "sale": "历史挂牌；价格未公开",
+    "status": "历史挂牌已下架；成交情况未确认",
+    "market": "左舵；未公开市场规格",
+    "timeline": [
+      "2026-10-02 — 核对 Classic Driver 历史挂牌；页面未注明刊登日期。"
+    ],
+    "notes": "挂牌参考号 636324。制造日期栏为 2023 年 5 月；底盘栏只有占位符 XX，不能作为身份编号。未公布 VIN，因此保留为挂牌线索，不计作已确认新增独立实车。下架不等于成交，也不凭颜色与其他 Atlas 记录合并。",
+    "review_status": "2026-10-02 — 已核对公开来源；未公开字段保持空缺。",
+    "photo_captions": [
+      "历史挂牌原始图片来源"
+    ]
+  },
+  "SP3-CD-1080987": {
+    "title": "阿联酋哑光银外蓝内挂牌线索",
+    "country": "阿联酋",
+    "exterior": "银色，挂牌标注哑光；未公布原厂漆名",
+    "interior": "蓝色皮革",
+    "mileage": "挂牌时 1,000 km",
+    "sale": "历史挂牌净要价 EUR 6,200,000；非成交价",
+    "status": "历史挂牌已下架；成交情况未确认",
+    "market": "左舵；卖方标注 GCC 规格",
+    "timeline": [
+      "2026-10-02 — 核对 Classic Driver 历史挂牌；页面未注明刊登日期。"
+    ],
+    "notes": "挂牌参考号 1080987。卖方描述为 GCC 规格，并给出净要价。未公布 VIN，因此保留为挂牌线索，不计作已确认新增独立实车。下架不等于成交，也不凭颜色与其他 Atlas 记录合并。",
+    "review_status": "2026-10-02 — 已核对公开来源；未公开字段保持空缺。",
+    "photo_captions": [
+      "历史挂牌原始图片来源"
+    ]
   }
 }
