@@ -8800,17 +8800,20 @@
     "sale": "Not public",
     "program": "Not publicly documented",
     "options": [],
-    "timeline": [],
-    "notes": "The full VIN appears in the publicly searchable VINinspect Daytona SP3 model index reviewed on 2026-10-02. The directly opened page snapshot omitted this entry. Retained as unverified index evidence, excluded from confirmed VIN coverage. The chassis field is the VIN suffix, not a separately documented chassis plate. Language variants are one publisher, not independent corroboration. No model year, specification, location or ownership is inferred.",
+    "timeline": [
+      "2026-10-02 — Recorded as a search-index lead because the fetched page snapshot omitted the VIN.",
+      "2026-10-03 — Full VIN directly observed in the live index; public report preview contains no history records."
+    ],
+    "notes": "The live VINinspect Daytona SP3 index directly displayed this full VIN in a normal browser on 2026-10-03, resolving the earlier search-versus-page snapshot discrepancy. Its public VIN-specific preview labels the vehicle 2024 Ferrari Daytona SP3 but reports zero history records, with no mileage or price. This is decoder/index evidence, not an independently documented vehicle history, so the unverified flag remains and confirmed VIN coverage is unchanged. The chassis field is the VIN suffix, not a separately documented plate. No specification, location, ownership or production year is inferred.",
     "photos": [],
     "sources": [
       "SRC-099BEEBE"
     ],
-    "review_status": "2026-10-02 — Search-index evidence only; direct-page snapshot differs.",
+    "review_status": "2026-10-03 — VIN directly visible in live public index; independent vehicle evidence still missing.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 35,
-    "accessed": "2026-10-02",
+    "accessed": "2026-10-03",
     "vin_unverified": true
   },
   {
@@ -8835,17 +8838,20 @@
     "sale": "Not public",
     "program": "Not publicly documented",
     "options": [],
-    "timeline": [],
-    "notes": "The full VIN appears in the publicly searchable VINinspect Daytona SP3 model index reviewed on 2026-10-02. The directly opened page snapshot omitted this entry. Retained as unverified index evidence, excluded from confirmed VIN coverage. The chassis field is the VIN suffix, not a separately documented chassis plate. Language variants are one publisher, not independent corroboration. No model year, specification, location or ownership is inferred.",
+    "timeline": [
+      "2026-10-02 — Recorded as a search-index lead because the fetched page snapshot omitted the VIN.",
+      "2026-10-03 — Full VIN directly observed in the live index; public report preview contains no history records."
+    ],
+    "notes": "The live VINinspect Daytona SP3 index directly displayed this full VIN in a normal browser on 2026-10-03, resolving the earlier search-versus-page snapshot discrepancy. Its public VIN-specific preview labels the vehicle 2025 Ferrari Daytona SP3 but reports zero history records, with no mileage or price. This is decoder/index evidence, not an independently documented vehicle history, so the unverified flag remains and confirmed VIN coverage is unchanged. The chassis field is the VIN suffix, not a separately documented plate. No specification, location, ownership or production year is inferred.",
     "photos": [],
     "sources": [
       "SRC-099BEEBE"
     ],
-    "review_status": "2026-10-02 — Search-index evidence only; direct-page snapshot differs.",
+    "review_status": "2026-10-03 — VIN directly visible in live public index; independent vehicle evidence still missing.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 35,
-    "accessed": "2026-10-02",
+    "accessed": "2026-10-03",
     "vin_unverified": true
   },
   {
@@ -8870,17 +8876,20 @@
     "sale": "Not public",
     "program": "Not publicly documented",
     "options": [],
-    "timeline": [],
-    "notes": "The full VIN appears in the publicly searchable VINinspect Daytona SP3 model index reviewed on 2026-10-02. The directly opened page snapshot omitted this entry. Retained as unverified index evidence, excluded from confirmed VIN coverage. The chassis field is the VIN suffix, not a separately documented chassis plate. Language variants are one publisher, not independent corroboration. No model year, specification, location or ownership is inferred.",
+    "timeline": [
+      "2026-10-02 — Recorded as a search-index lead because the fetched page snapshot omitted the VIN.",
+      "2026-10-03 — Full VIN directly observed in the live index; public report preview contains no history records."
+    ],
+    "notes": "The live VINinspect Daytona SP3 index directly displayed this full VIN in a normal browser on 2026-10-03, resolving the earlier search-versus-page snapshot discrepancy. Its public VIN-specific preview labels the vehicle 2024 Ferrari Daytona SP3 but reports zero history records, with no mileage or price. This is decoder/index evidence, not an independently documented vehicle history, so the unverified flag remains and confirmed VIN coverage is unchanged. The chassis field is the VIN suffix, not a separately documented plate. No specification, location, ownership or production year is inferred.",
     "photos": [],
     "sources": [
       "SRC-099BEEBE"
     ],
-    "review_status": "2026-10-02 — Search-index evidence only; direct-page snapshot differs.",
+    "review_status": "2026-10-03 — VIN directly visible in live public index; independent vehicle evidence still missing.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 35,
-    "accessed": "2026-10-02",
+    "accessed": "2026-10-03",
     "vin_unverified": true
   },
   {
