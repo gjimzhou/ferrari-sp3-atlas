@@ -8140,18 +8140,20 @@
     "program": "Not publicly documented",
     "options": [],
     "timeline": [
-      "2026-09-23 — VINinspect public Daytona SP3 index reviewed for complete VIN ZFF05UMA6P0293331."
+      "2026-09-23 — VINinspect public Daytona SP3 index reviewed for complete VIN ZFF05UMA6P0293331.",
+      "2023-08-12 / 2023-08-14 — Volza repeats an Italy-to-US shipment description naming Daytona SP3 MY2023 chassis 293331; treated as one chassis, not two cars."
     ],
-    "notes": "VINinspect publicly lists complete VIN ZFF05UMA6P0293331 under Ferrari Daytona SP3. Its year-specific pages repeat some VINs across model-year headings, so the Atlas uses the VIN's 10th-character model-year code (P) rather than the page heading. No configuration, owner, location, title status, or transaction history is inferred.",
+    "notes": "VINinspect publicly lists complete VIN ZFF05UMA6P0293331 under Ferrari Daytona SP3. Its year-specific pages repeat some VINs across model-year headings, so the Atlas uses the VIN's 10th-character model-year code (P) rather than the page heading. No configuration, owner, location, title status, or transaction history is inferred. A separately reviewed Volza shipment excerpt names physical chassis 293331 and model year 2023. It corroborates the chassis/model, but does not independently print the complete VIN or establish current location.",
     "photos": [],
     "sources": [
-      "SRC-DC2F04D7"
+      "SRC-DC2F04D7",
+      "SRC-C7F3C7C9"
     ],
     "review_status": "2026-09-23 — Complete VIN/model identity captured from VINinspect public index; retained as a lead pending an independent per-car source.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "accessed": "2026-09-23"
+    "accessed": "2026-10-03"
   },
   {
     "id": "SP3-313507-VIN-LEAD",
@@ -9057,5 +9059,114 @@
     "owner_public": false,
     "sort_weight": 64,
     "accessed": "2026-10-02"
+  },
+  {
+    "id": "SP3-288789-SHIPMENT",
+    "title": "Chassis 288789 — Brazil-bound shipment",
+    "tier": "registry",
+    "year": 2023,
+    "vin": "ZFF05UML4P0288789",
+    "chassis": "288789",
+    "edition": "Original 599 production",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "Brazil-bound shipment; current market unknown",
+    "owner": "Not public",
+    "exterior": "Not publicly documented",
+    "color": "Unknown",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public shipment record; current whereabouts unknown",
+    "sale": "Not public",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2023-04-29 — Volza shipment row identifies model-year 2023 Daytona SP3 chassis 288789, Italy to Brazil."
+    ],
+    "notes": "Volza publicly reproduces a shipping description naming a model-year 2023 Ferrari Daytona SP3 and chassis 288789, with Italy as origin and Brazil as destination. The same description also prints complete VIN ZFF05UML4P0288789. This is a secondary trade-data transcription, not an inspected original bill of lading. Shipment dates and destinations do not establish delivery to an owner, current whereabouts, configuration, or sale. No match to existing unidentified configuration leads is asserted.",
+    "photos": [],
+    "sources": [
+      "SRC-6701F903"
+    ],
+    "review_status": "2026-10-03 — Public shipment excerpt read directly; identity checked against the registry; configuration remains unknown.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 76,
+    "accessed": "2026-10-03"
+  },
+  {
+    "id": "SP3-288431-SHIPMENT",
+    "title": "Chassis 288431 — United States-bound shipment",
+    "tier": "registry",
+    "year": 2023,
+    "vin": "Not public",
+    "chassis": "288431",
+    "edition": "Original 599 production",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "United States-bound shipment; current market unknown",
+    "owner": "Not public",
+    "exterior": "Not publicly documented",
+    "color": "Unknown",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public shipment record; current whereabouts unknown",
+    "sale": "Not public",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2023-07-12 — Volza shipment row identifies model-year 2023 Daytona SP3 chassis 288431, Italy to United States.",
+      "2023-07-13 — Volza shipment row identifies model-year 2023 Daytona SP3 chassis 288431, Italy to United States."
+    ],
+    "notes": "Volza publicly reproduces a shipping description naming a model-year 2023 Ferrari Daytona SP3 and chassis 288431, with Italy as origin and United States as destination. The compact text joins the six-digit chassis to the following one-unit quantity; no full VIN is published in the visible excerpt. Two adjacent dated rows repeat the same chassis and container, so they are retained as one vehicle record. This is a secondary trade-data transcription, not an inspected original bill of lading. Shipment dates and destinations do not establish delivery to an owner, current whereabouts, configuration, or sale. No match to existing unidentified configuration leads is asserted.",
+    "photos": [],
+    "sources": [
+      "SRC-C7F3C7C9"
+    ],
+    "review_status": "2026-10-03 — Public shipment excerpt read directly; identity checked against the registry; configuration remains unknown.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 76,
+    "accessed": "2026-10-03"
+  },
+  {
+    "id": "SP3-294530-SHIPMENT",
+    "title": "Chassis 294530 — United States-bound shipment",
+    "tier": "registry",
+    "year": 2023,
+    "vin": "Not public",
+    "chassis": "294530",
+    "edition": "Original 599 production",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "United States-bound shipment; current market unknown",
+    "owner": "Not public",
+    "exterior": "Not publicly documented",
+    "color": "Unknown",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public shipment record; current whereabouts unknown",
+    "sale": "Not public",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2024-01-08 — Volza shipment row identifies model-year 2023 Daytona SP3 chassis 294530, Italy to United States."
+    ],
+    "notes": "Volza publicly reproduces a shipping description naming a model-year 2023 Ferrari Daytona SP3 and chassis 294530, with Italy as origin and United States as destination. The compact text joins the six-digit chassis to the following one-unit quantity; no full VIN is published in the visible excerpt. This is a secondary trade-data transcription, not an inspected original bill of lading. Shipment dates and destinations do not establish delivery to an owner, current whereabouts, configuration, or sale. No match to existing unidentified configuration leads is asserted.",
+    "photos": [],
+    "sources": [
+      "SRC-C7F3C7C9"
+    ],
+    "review_status": "2026-10-03 — Public shipment excerpt read directly; identity checked against the registry; configuration remains unknown.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 76,
+    "accessed": "2026-10-03"
   }
 ]
