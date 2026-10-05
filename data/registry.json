@@ -9168,5 +9168,41 @@
     "owner_public": false,
     "sort_weight": 76,
     "accessed": "2026-10-03"
+  },
+  {
+    "id": "SP3-305023-SHIPMENT",
+    "title": "Chassis 305023 — US-bound shipment",
+    "tier": "registry",
+    "year": 2024,
+    "vin": "Not public",
+    "chassis": "305023",
+    "edition": "Original 599 production",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "US specification stated in shipment description; current market unknown",
+    "owner": "Not public",
+    "exterior": "Not publicly documented",
+    "color": "Unknown",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public shipment record; current whereabouts unknown",
+    "sale": "Not public",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2024-05-24 — TradeImeX lists a model-year 2024 Daytona SP3, chassis 305023, in an Italy-to-New York/Newark shipment."
+    ],
+    "notes": "The public TradeImeX shipping table identifies a Daytona SP3 USA MY2024 with chassis 305023. The printed chassis is split by whitespace and followed immediately by the next one-unit vehicle entry. The shipment contains several Ferrari models; its total quantity and weight are not SP3-specific. This secondary transcription does not publish a complete VIN, specification details, owner or current location. No match to an existing unidentified configuration record is asserted.",
+    "photos": [],
+    "sources": [
+      "SRC-A18BC23B"
+    ],
+    "review_status": "2026-10-04 — Public shipment description reviewed and chassis checked against existing records; original bill of lading not inspected.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 76,
+    "accessed": "2026-10-04"
   }
 ]

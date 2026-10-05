@@ -5,6 +5,9 @@
   const EN = 'en';
 
   const exact = new Map(Object.entries({
+    '发动机号': 'Engine number',
+    '变速箱号': 'Gearbox number',
+    '注册文件': 'Registration documents',
     'Ferrari Daytona SP3 · 独立公开资料库': 'Ferrari Daytona SP3 · Independent Public Registry',
     '599 + 1 为量产基准；ECR 索引与本站车档可能重叠，未建立唯一身份前不相加。': '599 + 1 is the production baseline; ECR index entries may overlap with Atlas profiles and are not added until a unique identity match is established.',
     'Canonical 数据直接由 GitHub 中的 data/registry.json 与 data/source-index.json 驱动；页面不再提供浏览器本地导入或覆盖。': 'Canonical data is driven directly by data/registry.json and data/source-index.json on GitHub; browser-local imports and overrides are no longer part of the site.',
@@ -168,6 +171,11 @@
   function englishFor(source) {
     if (!source) return source;
     if (exact.has(source)) return exact.get(source);
+
+    const badgeParts = source.split(' · ');
+    if (badgeParts.length === 2 && badgeParts.every(part => exact.has(part))) {
+      return badgeParts.map(part => exact.get(part)).join(' · ');
+    }
 
     let m;
     if ((m = source.match(/^版本：(\d{4}-\d{2}-\d{2})。现有 (\d+) 条有来源研究记录：(\d+) 个详细车档、(\d+) 条待核对线索、(\d+) 辆预生产／研发车；(\d+) 个已确认完整公开 VIN；另有 (\d+) 条来源冲突 VIN 线索；(\d+) 条图库图片引用覆盖 (\d+) 条记录。默认车辆页仍只显示详细车档；单源 VIN 和 source-conflict VIN 保留为待核对 lead。$/))) return `Version: ${m[1]}. The Atlas contains ${m[2]} sourced research records: ${m[3]} detailed profiles, ${m[4]} leads, and ${m[5]} pre-production / development cars; ${m[6]} confirmed complete public VINs plus ${m[7]} source-conflicted VIN lead; and ${m[8]} gallery image references across ${m[9]} records. The default vehicle view still shows detailed profiles only; single-source and source-conflict VINs remain research leads.`;

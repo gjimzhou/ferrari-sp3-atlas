@@ -910,6 +910,13 @@
     "url": "https://made-in-maranello.fr/es/modelo/ferrari-296-speciale"
   },
   {
+    "id": "SRC-A18BC23B",
+    "label": "TradeImeX — public shipment description for SP3 chassis 305023",
+    "publisher": "TradeImeX",
+    "description": "public shipment description for SP3 chassis 305023",
+    "url": "https://www.tradeimex.in/data/bl-data/us-870324-ferrari-import-data"
+  },
+  {
     "id": "SRC-A3304F00",
     "label": "Exclusive Car Registry — 82743 public configuration lead",
     "publisher": "Exclusive Car Registry",
