@@ -1162,6 +1162,13 @@
     "url": "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173"
   },
   {
+    "id": "SRC-D82FEB53",
+    "label": "Enigma Technologies — Ferrari imports methodology",
+    "publisher": "Enigma Technologies",
+    "description": "Ferrari imports methodology",
+    "url": "https://ferrari-imports.enigmatechnologies.dev/"
+  },
+  {
     "id": "SRC-D8EE4FA7",
     "label": "Ultimatecarpage — Goodwood chassis 276831 image record",
     "publisher": "Ultimatecarpage",
@@ -1356,6 +1363,13 @@
     "publisher": "Exclusive Car Registry",
     "description": "public profile",
     "url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/91942"
+  },
+  {
+    "id": "SRC-F1904B94",
+    "label": "Enigma Technologies — public shipment dataset",
+    "publisher": "Enigma Technologies",
+    "description": "public shipment dataset",
+    "url": "https://ferrari-imports.enigmatechnologies.dev/assets/index-BliLyrjA.js"
   },
   {
     "id": "SRC-F2DD904A",
