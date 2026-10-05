@@ -450,7 +450,7 @@
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made 定制",
     "notes": "公开交付报道直接确认了车主与车辆关系。VIN 与精确内饰材料代码仍未公开。",
-    "review_status": "2026-09-21 — 已重新核验交付／配置来源及 Monaco 公开图库；VIN 仍未公开。",
+    "review_status": "2026-10-05 — 已逐张核对新增公开图库角度与既有车辆特征；VIN 仍未公开。",
     "options": [
       "两侧车门均有赛车号码 16",
       "灵感来自摩纳哥的红白中央涂装",
@@ -472,7 +472,8 @@
       "Monaco 交付图库 · 16 号侧面细节",
       "Monaco 交付图库 · 前轮与条纹细节",
       "Monaco 交付图库 · 后部条纹与排气细节",
-      "Monaco 交付图库 · 后 3/4 视角"
+      "Monaco 交付图库 · 后 3/4 视角",
+      "摩纳哥街拍 · 哑光黑车身与摩纳哥条纹"
     ]
   },
   "SP3-CARLOS-SAINZ": {
@@ -490,7 +491,7 @@
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made 定制",
     "notes": "车主、交付以及关键配置均有交付影像与后续本人采访支持。",
-    "review_status": "2026-09-21 — 已重新核验交付来源、Tailor Made 细节及公开交付图；VIN 仍未公开。",
+    "review_status": "2026-10-05 — 已逐张核对新增公开图库角度与既有车辆特征；VIN 仍未公开。",
     "options": [
       "赛车号码 55 融入下部碳纤维车身图形",
       "座舱及碳纤维进气口细节带 Smooth Operator 字样",
@@ -507,7 +508,9 @@
       "历史图库照片",
       "交付展示 · 正前方",
       "Smooth Operator 定制细节",
-      "交付揭幕 · Ferrari Scuderia Monte-Carlo"
+      "交付揭幕 · Ferrari Scuderia Monte-Carlo",
+      "交付细节 · 碳纤维侧裙 55 号图案",
+      "座舱细节 · 55 号定制铭牌"
     ]
   },
   "SP3-DAVID-LEE": {
@@ -553,7 +556,7 @@
     "sale": "未公开出售",
     "program": "Ferrari 个性化定制",
     "notes": "伦敦公开影像持续以 SP03 GRG 车牌、25 号号码贴及 Bianco Cervino / Argento Nurburgring 配置识别同一辆车。Znews 也记录了 Blu Alcantara / Nero 座舱。25 号对 Ramsay 的个人含义尚未被公开确认。",
-    "review_status": "2026-09-21 — 已重新核验车主关系、伦敦公开目击、Bianco Cervino / Argento Nurburgring 配置及多角度公开图库；VIN 仍未公开。",
+    "review_status": "2026-10-05 — 已逐张核对新增公开图库角度与既有车辆特征；VIN 仍未公开。",
     "options": [
       "25 号赛车圆形号码贴",
       "Argento Nurburgring 复古赛车风格条纹",
@@ -569,7 +572,10 @@
     "photo_captions": [
       "伦敦公开驾驶 · Bianco Cervino 配置",
       "伦敦图集 · 左前 3/4 · SP03 GRG / 25 号",
-      "伦敦图集 · 左后 3/4 · Argento Nurburgring 条纹"
+      "伦敦图集 · 左后 3/4 · Argento Nurburgring 条纹",
+      "伦敦夜景 · 驾驶侧车门开启正面",
+      "伦敦夜景 · 低角度车头与车门 25 号图案",
+      "伦敦夜景 · 后舱盖与 25 号圆形号码贴"
     ]
   },
   "SP3-CRISTIANO-RONALDO": {
