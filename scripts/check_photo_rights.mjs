@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {validate} from '../assets/js/core.js';
-import {mediaOf,art} from '../assets/js/media.js';
+import {mediaOf,art,firstPhotoIndex} from '../assets/js/media.js';
 
 globalThis.window={};
 const registry=JSON.parse(readFileSync(new URL('../data/registry.json',import.meta.url)));
@@ -30,3 +30,8 @@ for(const url of ['javascript:alert(1)','data:image/png;base64,AA','']){
 }
 assert.throws(()=>validate([{...legacy,photo_sources:['javascript:alert(1)']}]));
 console.log('Frontend photo rights checks passed: source-only links retained; unsafe images rejected.');
+
+assert.equal(firstPhotoIndex(mixed),1,'Open the first image while retaining source-only history');
+assert.equal(firstPhotoIndex({...record,photos:[photo]}),0,'Source-only gallery still opens its source');
+assert.equal(firstPhotoIndex({...record,photos:[]}),0,'Empty gallery has a safe initial index');
+assert.equal(firstPhotoIndex({...record,photos:[image,photo]}),0,'Image-first gallery remains unchanged');

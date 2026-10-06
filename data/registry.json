@@ -907,6 +907,30 @@
     "notes": "Exact paint codes and VIN have not been published.",
     "photos": [
       {
+        "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_01_08/Ferrari_Daytona_SP3_Piero_Ferrari_2.png",
+        "source_url": "https://znews.vn/sieu-xe-ferrari-daytona-sp3-cua-con-trai-ong-enzo-ferrari-post1523502.html",
+        "caption": "Piero Ferrari with his white-and-blue SP3 · front three-quarter",
+        "credit": "Ferrari editorial imagery / Znews"
+      },
+      {
+        "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_01_08/Ferrari_Daytona_SP3_Piero_Ferrari_10.png",
+        "source_url": "https://znews.vn/sieu-xe-ferrari-daytona-sp3-cua-con-trai-ong-enzo-ferrari-post1523502.html",
+        "caption": "Piero Ferrari at the wheel · red seat and open door",
+        "credit": "Ferrari editorial imagery / Znews"
+      },
+      {
+        "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_01_08/Ferrari_Daytona_SP3_Piero_Ferrari_9.png",
+        "source_url": "https://znews.vn/sieu-xe-ferrari-daytona-sp3-cua-con-trai-ong-enzo-ferrari-post1523502.html",
+        "caption": "White-and-blue livery · front stripe and badge detail",
+        "credit": "Ferrari editorial imagery / Znews"
+      },
+      {
+        "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_01_08/Ferrari_Daytona_SP3_Piero_Ferrari_7.png",
+        "source_url": "https://znews.vn/sieu-xe-ferrari-daytona-sp3-cua-con-trai-ong-enzo-ferrari-post1523502.html",
+        "caption": "Red cabin · centre console and Ferrari badge",
+        "credit": "Ferrari editorial imagery / Znews"
+      },
+      {
         "url": "",
         "source_url": "https://www.ferrari.com/en-EN/magazine/articles/inspired-by-the-past-piero-ferrari-sp3",
         "caption": "历史图库照片",
@@ -934,9 +958,10 @@
     "sources": [
       "SRC-506B8E7B",
       "SRC-8094A687",
-      "SRC-05A20C79"
+      "SRC-05A20C79",
+      "SRC-2E5E3002"
     ],
-    "review_status": "2026-09-21 — Ferrari editorial story and republished Ferrari Magazine imagery rechecked; VIN and exact paint codes remain private.",
+    "review_status": "2026-10-06 — Additional owner-specific public photographs visually checked; unpublished identity fields remain unconfirmed.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 95
@@ -1994,14 +2019,21 @@
         "source_url": "https://news.dupontregistry.com/blogs/ferrari-news/ferrari-collector-david-lee-takes-delivery-of-his-green-carbon-daytona-sp3",
         "caption": "公开来源图集 · 1",
         "credit": "Ferrari Collector David Lee / duPont REGISTRY"
+      },
+      {
+        "url": "https://thesupercarblog.com/wp-content/uploads/2024/10/Ferrari-Daytona-SP3-David-Lee-1.jpg",
+        "source_url": "https://www.thesupercarblog.com/david-lee-adds-a-green-carbon-ferrari-daytona-sp3-to-his-garage/",
+        "caption": "Delivery gallery · doors and rear clamshell open",
+        "credit": "Ferrari Collector David Lee / The Supercar Blog"
       }
     ],
     "sources": [
       "SRC-CA2899D5",
       "SRC-2FAB6854",
-      "SRC-0F861831"
+      "SRC-0F861831",
+      "SRC-71484EBB"
     ],
-    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-10-06 — Additional owner-specific public photographs visually checked; unpublished identity fields remain unconfirmed.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 95,

@@ -1,5 +1,5 @@
 import {$,tierNames,kindNames,clone,esc,absent,display,local,displayField,safeURL,validate} from './core.js';
-import {mediaOf,art,bindImages} from './media.js';
+import {mediaOf,art,bindImages,firstPhotoIndex,bindGalleryImages} from './media.js';
 import {hasMarketEvidence} from './market.js';
 import {installSources,recordSources} from './sources.js';
 
@@ -69,13 +69,13 @@ function renderIndex(){
 function market(){const items=records.filter(hasMarketEvidence);$('marketRows').innerHTML=items.map(r=>`<tr><td><button data-id="${esc(r.id)}">${esc(local(r,'title'))}</button><br><small>${esc(r.id)}</small></td><td>${esc(displayField(r,'status'))}</td><td>${esc(displayField(r,'sale'))}</td><td><a href="${esc(safeURL(recordSources(r)[0]?.url))}" target="_blank" rel="noopener noreferrer">原始来源 ↗</a><br><small>${esc(displayField(r,'review_status'))}</small></td></tr>`).join('');bindCards($('marketRows'));}
 function bars(id,labels){const m=new Map();labels.forEach(x=>m.set(x,(m.get(x)||0)+1));const sorted=[...m].sort((a,b)=>b[1]-a[1]);const max=sorted[0]?.[1]||1;$(id).innerHTML=sorted.map(([k,n])=>`<div class="crow"><span>${esc(k)}</span><div class="bar"><i style="width:${n/max*100}%"></i></div><b>${n}</b></div>`).join('');}
 function countryStats(){bars('countryBars',records.filter(r=>r.record_kind!=='prototype'&&!absent(r.country)).map(r=>window.SP3Content?.text(r.country)??r.country));bars('indexCountryBars',sourceIndex.map(r=>countryLabel(r.country_code)));}
-function openCard(id){current=records.find(r=>r.id===id);if(!current)return;returnFocus=document.activeElement;gidx=0;$('modalId').textContent=current.id;gallery();detail();$('modal').classList.add('open');document.body.style.overflow='hidden';$('close').focus();history.replaceState(null,'','#car='+encodeURIComponent(id));window.SiteAnalytics?.view('/car/'+current.id,'Car '+current.id);}
+function openCard(id){current=records.find(r=>r.id===id);if(!current)return;returnFocus=document.activeElement;gidx=firstPhotoIndex(current);$('modalId').textContent=current.id;gallery();detail();$('modal').classList.add('open');document.body.style.overflow='hidden';$('close').focus();history.replaceState(null,'','#car='+encodeURIComponent(id));window.SiteAnalytics?.view('/car/'+current.id,'Car '+current.id);}
 function gallery(){
  const r=current,media=mediaOf(r);
  if(!media.length){$('gallery').innerHTML=art(r);return;}
  const photo=media[gidx],source=safeURL(photo.source_url||recordSources(r)[0]?.url);
  $('gallery').innerHTML=`<div class="gallery-main">${photo.url?`<img class="gallery-image" src="${esc(safeURL(photo.url,true))}" alt="${esc(local(r,'title')+' · '+(photo.caption||('照片 '+(gidx+1))))}">`:`<p style="padding:3rem"><a href="${esc(source)}" target="_blank" rel="noopener noreferrer">查看来源照片 / View photograph at source ↗</a></p>`}<div class="gnav"><button id="prev" aria-label="上一张">‹</button><button id="next" aria-label="下一张">›</button></div></div><div class="gallery-caption"><span>${gidx+1} / ${media.length} · ${esc(photo.caption||'原始图库')}</span><span>${esc(photo.credit||'版权归原摄影者')} · <a href="${esc(source)}" target="_blank" rel="noopener noreferrer">本图来源 ↗</a> · ${photo.url?`<a href="${esc(safeURL(photo.url,true))}" target="_blank" rel="noopener noreferrer">打开原图 ↗</a>`:'仅来源链接 / Source link only'}${photo.url.includes('RUBINO-GREENWICH')?' · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · Display scaled/cropped':''}</span></div><div class="filmstrip" aria-label="选择照片">${media.map((p,i)=>`<button class="film ${i===gidx?'selected':''}" data-image="${i}" aria-label="第 ${i+1} 张照片" aria-pressed="${i===gidx}">${p.url?`<img loading="lazy" src="${esc(safeURL(p.url,true))}" alt="${i+1}">`:'↗'}<span>${i+1}</span></button>`).join('')}</div>`;
- if(photo.url)$('gallery').querySelector('.gallery-image').onerror=()=>{$('gallery').querySelector('.gallery-main').insertAdjacentHTML('beforeend','<p class="image-error">原站图片暂不可用，请打开来源页查看。</p>');};
+ bindGalleryImages($('gallery'),source);
  const navigate=i=>{gidx=i;gallery();$('gallery').querySelector('.film.selected')?.scrollIntoView({block:'nearest',inline:'nearest'});};
  $('prev').onclick=()=>navigate((gidx-1+media.length)%media.length);$('next').onclick=()=>navigate((gidx+1)%media.length);
  $('gallery').querySelectorAll('[data-image]').forEach(b=>b.onclick=()=>navigate(+b.dataset.image));
