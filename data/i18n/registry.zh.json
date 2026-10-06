@@ -184,7 +184,7 @@
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made 定制",
     "notes": "精确漆号与 VIN 尚未公开。",
-    "review_status": "2026-09-21 — 已重新核验 Ferrari 官方专题及转载的 Ferrari Magazine 图片；VIN 与精确漆号仍未公开。",
+    "review_status": "2026-10-06 — 已逐张核对新增车主专属公开照片；未公开身份字段仍不作推定。",
     "options": [
       "蓝白 NART 风格涂装",
       "红色内饰点缀",
@@ -195,6 +195,10 @@
       "据 Piero Ferrari 本人所述，该车曾在 Fiorano 完成其“洗礼”驾驶。"
     ],
     "photo_captions": [
+      "Piero Ferrari 与白蓝 SP3 · 前 3/4 全景",
+      "Piero Ferrari 驾驶座 · 红色座椅与开启车门",
+      "白蓝涂装 · 车头条纹与徽标细节",
+      "红色座舱 · 中央通道与 Ferrari 徽标",
       "历史图库照片",
       "历史图库照片",
       "历史图库照片",
@@ -528,7 +532,7 @@
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made — Carbonio a Vista 裸露碳纤维项目",
     "notes": "公开报道直接描述了车主、交付时间、外观主题及内饰颜色。",
-    "review_status": "2026-09-21 — 已复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-10-06 — 已逐张核对新增车主专属公开照片；未公开身份字段仍不作推定。",
     "options": [
       "绿色调裸露碳纤维车身",
       "金色中央条纹",
@@ -539,6 +543,11 @@
     "timeline": [
       "2024 年 10 月 — 在 David Lee 生日当天交付。",
       "2025 年 6 月 — 登上 Jay Leno’s Garage 并实际驾驶。"
+    ],
+    "photo_captions": [
+      "历史图库照片",
+      "公开来源图集 · 1",
+      "交付图库 · 车门与后舱盖开启"
     ]
   },
   "SP3-GORDON-RAMSAY": {
