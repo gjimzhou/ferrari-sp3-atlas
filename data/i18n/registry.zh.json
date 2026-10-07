@@ -3739,5 +3739,61 @@
       "摄影棚图集 · 移除车顶后的正侧面",
       "摄影棚图集 · 后格栅、排气口与 NOVITEC 展示牌"
     ]
+  },
+  "SP3-TRANSITIONAL-ORO-MUSCHIO": {
+    "edition": "未公开对应生产配额",
+    "country": "未知",
+    "city": "未公开",
+    "market": "未公开",
+    "owner": "未公开",
+    "mileage": "未公开",
+    "status": "公开 Tailor Made 定制展示",
+    "sale": "未公开出售",
+    "program": "Ferrari Tailor Made 定制",
+    "options": [],
+    "review_status": "2026-10-07 — 已逐张核对四张公开照片并去重；VIN、车主与车型年份均未公开。",
+    "title": "Transitional Oro／Muschio — Tailor Made",
+    "exterior": "Transitional Oro 裸露碳纤维车身",
+    "interior": "Muschio 皮革与黑色 Alcantara",
+    "wheels": "官方照片可见深灰色五辐轮毂",
+    "calipers": "照片可见深色卡钳；精确原厂饰面未确认",
+    "timeline": [
+      "2024 年 3 月 28 日 — ClubAlfa 发布 Ferrari 的 Transitional Oro／Muschio 图集。"
+    ],
+    "notes": "Ferrari 官方明确公布车身饰面及内饰材料名称。四张照片对应同一展厅实车及其细节；报道转载 Ferrari 图片，不作为独立目击证据。尚无公开 VIN、车主或配额编号将该展示车对应至具体底盘，不仅凭颜色将其归入其他金色、绿色或裸碳车档。",
+    "photo_captions": [
+      "Ferrari 展示图 · Transitional Oro 前 3/4 全景",
+      "Ferrari 展示图 · 后轮与裸露碳纤维车身",
+      "Ferrari 展示图 · Muschio 皮革座椅与中央通道",
+      "Ferrari 展示图 · 前灯、碳纤维纹理及前格栅"
+    ]
+  },
+  "SP3-BLUE-CARBON-MASCARA": {
+    "edition": "未公开对应生产配额",
+    "country": "未知",
+    "city": "未公开",
+    "market": "未公开",
+    "owner": "未公开",
+    "mileage": "未公开",
+    "status": "公开 Tailor Made 定制展示",
+    "sale": "未公开出售",
+    "program": "Ferrari Tailor Made 定制",
+    "options": [],
+    "review_status": "2026-10-07 — 已逐张核对四张公开照片并去重；VIN、车主与车型年份均未公开。",
+    "title": "亮面蓝碳纤维／Blu Mascara — Tailor Made",
+    "exterior": "亮面蓝色裸露碳纤维车身与深色碳纤维下部部件",
+    "interior": "Ferrari 图集报道标注 Blu Mascara 皮革",
+    "wheels": "图集中可见银色五辐轮毂",
+    "calipers": "图集中可见黄色卡钳",
+    "timeline": [
+      "2025 年 2 月 10 日 — ClubAlfa 发布 Ferrari 的亮面蓝碳纤维／Blu Mascara 图集。"
+    ],
+    "notes": "ClubAlfa 将图片及配置说明归于 Ferrari。浅蓝皮革座舱与现有 Miller Motorcars 蓝碳车档所记载的亮蓝 Alcantara 不同，不能仅凭蓝色外观合并。VIN 与车主尚未公开，与其他匿名登记档案的关联仍待核实。",
+    "photo_captions": [
+      "Ferrari 展示图 · 蓝碳纤维前 3/4 全景",
+      "Ferrari 展示图 · 前灯与蓝碳纤维纹理",
+      "Ferrari 展示图 · 方向盘与 Blu Mascara 皮革座舱",
+      "Ferrari 展示图 · 前轮、黄色卡钳与盾标"
+    ]
   }
 }
