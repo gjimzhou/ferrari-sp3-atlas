@@ -9775,5 +9775,69 @@
     "owner_public": false,
     "sort_weight": 76,
     "accessed": "2026-10-04"
+  },
+  {
+    "id": "SP3-NOVITEC-NF10",
+    "title": "NOVITEC — Satin Grey / NF10",
+    "tier": "press",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "Unknown",
+    "city": "Studio location not disclosed",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Satin dark grey with twin light-coloured centre stripes; exact paint code unconfirmed",
+    "color": "Grey",
+    "interior": "Light-coloured seats visible; upholstery code not public",
+    "wheels": "Black NOVITEC NF10 forged wheels by Vossen; 20-inch front / 21-inch rear",
+    "calipers": "Not publicly confirmed",
+    "mileage": "Not public",
+    "status": "NOVITEC publicity vehicle",
+    "sale": "Not publicly offered",
+    "program": "NOVITEC aftermarket refinement",
+    "options": [
+      "NF10 wheels explicitly identified in the official release",
+      "Twin light-coloured centre stripes visible in studio photographs"
+    ],
+    "timeline": [
+      "16 February 2026 — Top Gear Spain published the NOVITEC studio gallery."
+    ],
+    "notes": "This record describes the satin-grey car pictured in NOVITEC’s release, not every SP3 fitted with NOVITEC parts. The advertised exhaust upgrade is rated by NOVITEC at 868 hp; gold plating and bespoke cabin trim are options, not confirmed equipment on this car. No VIN or owner is disclosed, so identity against other unlinked sightings remains unresolved.",
+    "photos": [
+      {
+        "url": "https://www.novitecgroup.com/assets/images/news/ferrari/daytona-sp3/Header1__FocusFillWyIwLjAwIiwiMC4wMCIsMTkyMCw2MDBd.jpg",
+        "source_url": "https://www.novitecgroup.com/en/news/novitec-ferrari-daytona-sp3/",
+        "caption": "Official studio image · front three-quarter and twin light stripes",
+        "credit": "NOVITEC / Philipp Rupprecht"
+      },
+      {
+        "url": "https://imagenes.topgear.es/files/image_640_auto/uploads/imagenes/2026/02/16/6993338b818fc1-86622388.jpeg",
+        "source_url": "https://www.topgear.es/deportivos/galeria-ferrari-daytona-sp3-novitec_6934766_1.html",
+        "caption": "Studio gallery · rear three-quarter and NF10 wheels",
+        "credit": "philipprupprecht / Top Gear Spain"
+      },
+      {
+        "url": "https://imagenes.topgear.es/files/image_640_auto/uploads/imagenes/2026/02/16/6993338c23b2e5-82903299.jpeg",
+        "source_url": "https://www.topgear.es/deportivos/galeria-ferrari-daytona-sp3-novitec_6934766_1.html",
+        "caption": "Studio gallery · side profile with roof removed",
+        "credit": "philipprupprecht / Top Gear Spain"
+      },
+      {
+        "url": "https://imagenes.topgear.es/files/image_640_auto/uploads/imagenes/2026/02/16/6993338d8b88c8-88666773.jpeg",
+        "source_url": "https://www.topgear.es/deportivos/galeria-ferrari-daytona-sp3-novitec_6934766_1.html",
+        "caption": "Studio gallery · rear grille, tailpipes and NOVITEC display plate",
+        "credit": "philipprupprecht / Top Gear Spain"
+      }
+    ],
+    "sources": [
+      "SRC-26A907B3",
+      "SRC-1558DB85"
+    ],
+    "review_status": "2026-10-07 — Official release and four photographs checked; identity and factory paint code remain unconfirmed.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 79
   }
 ]
