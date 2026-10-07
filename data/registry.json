@@ -2176,6 +2176,12 @@
         "source_url": "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html",
         "caption": "Lisbon close-up gallery · rear grille detail",
         "credit": "Znews / Supercarros / lisbon.cars"
+      },
+      {
+        "url": "https://photo.znews.vn/Uploaded/aobhuua/2024_04_02/Ferrari_Daytona_SP3_Ronaldo_1.jpg",
+        "source_url": "https://tech.zingnews.vn/can-canh-sieu-pham-ferrari-daytona-sp3-moi-tau-cua-cristiano-ronaldo-post1468052.html",
+        "caption": "Lisbon gallery · low front angle and BH38ZX registration",
+        "credit": "Znews / Supercarros / lisbon.cars"
       }
     ],
     "sources": [
@@ -2184,7 +2190,7 @@
       "SRC-E6602781",
       "SRC-62D56AA8"
     ],
-    "review_status": "2026-09-21 — Ownership, Lisbon sightings and close-up Rosso Magma / wheel specification rechecked; VIN remains private.",
+    "review_status": "2026-10-06 — Additional public photographs visually matched and deduplicated; unpublished identity and specification fields remain unconfirmed.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 91
@@ -6419,13 +6425,32 @@
         "source_url": "https://cars.tvbs.com.tw/celebrity/289714",
         "caption": "Blue interior detail and V12 engine cover",
         "credit": "JJ Lin Instagram / TVBS"
+      },
+      {
+        "url": "https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-be3bc3762d01d5289f7e375aa7cb3035.png",
+        "source_url": "https://www.eet-china.com/mp/a455980.html",
+        "caption": "Owner photo set · SP3 on a bend with a Porsche 911 behind",
+        "credit": "JJ Lin public photo set / MyDrivers via EE Times China"
+      },
+      {
+        "url": "https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-14a6c36b1e30533a6ddff1dfee14047a.png",
+        "source_url": "https://www.eet-china.com/mp/a455980.html",
+        "caption": "Owner photo set · rear three-quarter on a coastal road",
+        "credit": "JJ Lin public photo set / MyDrivers via EE Times China"
+      },
+      {
+        "url": "https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-b65c78b2d62c6fc8f82c30d7331913ce.png",
+        "source_url": "https://www.eet-china.com/mp/a455980.html",
+        "caption": "Owner photo set · headlight and front aero detail",
+        "credit": "JJ Lin public photo set / MyDrivers via EE Times China"
       }
     ],
     "sources": [
       "SRC-890BBDC9",
-      "SRC-F2DD904A"
+      "SRC-F2DD904A",
+      "SRC-E8263F90"
     ],
-    "review_status": "2026-09-21 — Public owner imagery and ECR owner attribution cross-checked; VIN and plaque remain private.",
+    "review_status": "2026-10-06 — Additional public photographs visually matched and deduplicated; unpublished identity and specification fields remain unconfirmed.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 92,
