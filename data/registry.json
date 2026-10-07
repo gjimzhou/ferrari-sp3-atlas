@@ -9839,5 +9839,126 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 79
+  },
+  {
+    "id": "SP3-TRANSITIONAL-ORO-MUSCHIO",
+    "title": "Transitional Oro / Muschio — Tailor Made",
+    "tier": "official",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "Unknown",
+    "city": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Exposed carbon fibre in Transitional Oro",
+    "color": "Gold",
+    "interior": "Muschio leather and black Alcantara",
+    "wheels": "Dark grey five-spoke wheels visible in official photographs",
+    "calipers": "Dark brake calipers visible; exact factory finish unconfirmed",
+    "mileage": "Not public",
+    "status": "Public Tailor Made showcase",
+    "sale": "Not publicly offered",
+    "program": "Ferrari Tailor Made",
+    "options": [],
+    "timeline": [
+      "28 March 2024 — ClubAlfa published Ferrari’s Transitional Oro / Muschio photo set."
+    ],
+    "notes": "Ferrari explicitly names the exterior finish and cabin materials. The four photographs show the same showroom car and details; the article republishes Ferrari images, so it is not an independent sighting. No public VIN, owner or allocation number links this showcase to a chassis. It is not assigned to another gold, green or exposed-carbon record based on colour alone.",
+    "photos": [
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/03/ferrari-daytona-sp3-tailor-made-1.jpg",
+        "source_url": "https://www.clubalfa.it/490610-ferrari-daytona-sp3-tailor-made-dagli-effetti-speciali",
+        "caption": "Ferrari showcase · front three-quarter in Transitional Oro",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/03/ferrari-daytona-sp3-tailor-made-2-1300x1300.jpg",
+        "source_url": "https://www.clubalfa.it/490610-ferrari-daytona-sp3-tailor-made-dagli-effetti-speciali",
+        "caption": "Ferrari showcase · rear wheel and exposed-carbon bodywork",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/03/ferrari-daytona-sp3-tailor-made-3-1300x1300.jpg",
+        "source_url": "https://www.clubalfa.it/490610-ferrari-daytona-sp3-tailor-made-dagli-effetti-speciali",
+        "caption": "Ferrari showcase · Muschio leather seats and centre console",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/03/ferrari-daytona-sp3-tailor-made-4-1300x1300.jpg",
+        "source_url": "https://www.clubalfa.it/490610-ferrari-daytona-sp3-tailor-made-dagli-effetti-speciali",
+        "caption": "Ferrari showcase · headlight, carbon weave and front grille",
+        "credit": "Ferrari / ClubAlfa"
+      }
+    ],
+    "sources": [
+      "SRC-4D82F0DF",
+      "SRC-A1809770"
+    ],
+    "review_status": "2026-10-07 — Four public photographs visually checked and deduplicated; VIN, owner and model year remain undisclosed.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 78
+  },
+  {
+    "id": "SP3-BLUE-CARBON-MASCARA",
+    "title": "Gloss Blue Carbon / Blu Mascara — Tailor Made",
+    "tier": "press",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "Unknown",
+    "city": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Gloss-finish blue exposed carbon fibre with dark carbon lower bodywork",
+    "color": "Blue",
+    "interior": "Blu Mascara leather as reported in the Ferrari photo feature",
+    "wheels": "Silver-coloured five-spoke wheels visible in the photo set",
+    "calipers": "Yellow calipers visible in the photo set",
+    "mileage": "Not public",
+    "status": "Public Tailor Made showcase",
+    "sale": "Not publicly offered",
+    "program": "Ferrari Tailor Made",
+    "options": [],
+    "timeline": [
+      "10 February 2025 — ClubAlfa published Ferrari’s gloss blue carbon / Blu Mascara photo set."
+    ],
+    "notes": "ClubAlfa attributes these images and the configuration description to Ferrari. The pale-blue leather cabin differs from the bright-blue Alcantara described for the existing Miller Motorcars blue-carbon record. These records are not merged on exterior colour alone; no VIN or owner is published, and linkage to other unidentified registry profiles remains unresolved.",
+    "photos": [
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2025/02/ferrari-daytona-sp3-1.jpg",
+        "source_url": "https://www.clubalfa.it/526705-ferrari-daytona-sp3-la-tailor-made-regina-della-notte",
+        "caption": "Ferrari showcase · blue-carbon front three-quarter",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2025/02/ferrari-daytona-sp3-2-1300x1300.jpg",
+        "source_url": "https://www.clubalfa.it/526705-ferrari-daytona-sp3-la-tailor-made-regina-della-notte",
+        "caption": "Ferrari showcase · headlight and blue carbon weave",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2025/02/ferrari-daytona-sp3-3-1300x1300.jpg",
+        "source_url": "https://www.clubalfa.it/526705-ferrari-daytona-sp3-la-tailor-made-regina-della-notte",
+        "caption": "Ferrari showcase · steering wheel and Blu Mascara leather cabin",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2025/02/ferrari-daytona-sp3-4-1300x1300.jpg",
+        "source_url": "https://www.clubalfa.it/526705-ferrari-daytona-sp3-la-tailor-made-regina-della-notte",
+        "caption": "Ferrari showcase · front wheel, yellow caliper and shield",
+        "credit": "Ferrari / ClubAlfa"
+      }
+    ],
+    "sources": [
+      "SRC-77DB03B1"
+    ],
+    "review_status": "2026-10-07 — Four public photographs visually checked and deduplicated; VIN, owner and model year remain undisclosed.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 78
   }
 ]
