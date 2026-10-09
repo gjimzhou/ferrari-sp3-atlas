@@ -9105,46 +9105,94 @@
   },
   {
     "id": "SP3-ARANCIO-3-STRATI-GALLERY",
-    "title": "Arancio 3 Strati — configuration gallery lead",
+    "title": "Arancio 3 Strati / Blue Carbon — Tailor Made",
     "tier": "community",
     "year": null,
     "vin": "Not public",
     "chassis": "Not public",
-    "edition": "Original 599 production",
+    "edition": "Production allocation not publicly linked",
     "country": "Unknown",
     "city": "Unknown",
     "market": "Unknown",
     "owner": "Not public",
-    "exterior": "Arancio 3 Strati",
+    "exterior": "Arancio 3 Strati with blue-tinted exposed carbon and narrow SP3 bonnet graphic",
     "color": "Orange",
-    "interior": "Unknown",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
+    "interior": "Blue seats visible in photographs; exact material and colour name unconfirmed",
+    "wheels": "Dark five-spoke wheels visible in photographs",
+    "calipers": "Yellow calipers visible in photographs",
     "mileage": "Not public",
-    "status": "Source documented; vehicle identity remains incomplete",
+    "status": "Public configuration gallery",
     "sale": "Not public",
     "program": "Tailor Made (gallery attribution)",
     "options": [
       "Blue-tinted exposed carbon fibre, described by gallery"
     ],
     "timeline": [],
-    "notes": "The carpaints.co vehicle gallery identifies this paint and labels the specification Tailor Made. It credits Ferrari Québec and explicitly reports zero documented VINs. The feature also describes blue-tinted exposed carbon fibre. The credit does not establish the vehicle location or owner. No build year or identity match is inferred.",
+    "notes": "carpaints.co names the paint and Tailor Made programme and credits Ferrari Québec. Eight matching photographs document the exterior, blue seats, wheels and details. No VIN, owner or build year is established; the photo credit does not prove location. Expanded from the existing gallery lead, with identity links to other anonymous records unresolved.",
     "photos": [
       {
         "url": "",
         "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
         "caption": "Configuration source gallery",
         "credit": "Ferrari Québec via carpaints.co; see source"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/06/541588846-18520847461014308-7027577110322840365-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Front three-quarter · doors closed",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/08/540699882-18520847452014308-5077476878395957112-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Side profile · doors and engine cover raised",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/12/542994474-18520847389014308-9081228106024917316-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Rear three-quarter · blue carbon and open doors",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/10/540676178-18520847407014308-6443105730154307954-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Front detail · illuminated headlight and blue seats",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/08/540336422-18520847443014308-2533579089169668815-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Rear detail · light bar, slats and exhaust outlets",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/13/540760246-18520847380014308-9021951148753058721-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Front three-quarter · doors raised",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/08/542013100-18520847434014308-1243141316392299038-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Bonnet detail · narrow SP3 graphic",
+        "credit": "Ferrari Québec via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/05/543807054-18520847425014308-2713714003488504194-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/arancio-3-strati-ferrari-daytona-sp3",
+        "caption": "Front wheel · yellow caliper and blue mirror",
+        "credit": "Ferrari Québec via carpaints.co"
       }
     ],
     "sources": [
       "SRC-C6DCEC0E"
     ],
-    "review_status": "2026-10-02 — Source reviewed; identity and configuration limits recorded below.",
-    "record_kind": "lead",
+    "review_status": "2026-10-08 — Eight public photographs visually checked; expanded existing lead without creating a duplicate record. VIN and owner remain undisclosed.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 64,
-    "accessed": "2026-10-02"
+    "sort_weight": 78,
+    "accessed": "2026-10-08"
   },
   {
     "id": "SP3-VIOLETTO-DINO-GALLERY",
