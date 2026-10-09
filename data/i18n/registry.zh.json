@@ -3532,13 +3532,28 @@
     "program": "Tailor Made（公开 Registry 文字）"
   },
   "SP3-ARANCIO-3-STRATI-GALLERY": {
-    "title": "Arancio 3 Strati — 配置图库线索",
-    "status": "已有来源记录，车辆身份资料尚不完整",
-    "notes": "carpaints.co 车辆图库标注此车漆与 Tailor Made 配置，图片署名 Ferrari Québec，并明确显示尚无已记录 VIN。 报道另描述蓝色裸露碳纤维部件。 摄影署名不能确定车辆所在地或车主；未推断生产年份或身份关联。",
-    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "title": "Arancio 3 Strati／蓝碳纤维 — Tailor Made",
+    "status": "公开配置图库",
+    "notes": "carpaints.co 标注车漆与 Tailor Made 定制项目，并将照片署名 Ferrari Québec。八张相符实拍展示车身、蓝色座椅、轮毂及细节。VIN、车主和生产年份未确认，摄影署名不能证明所在地。本次完善原有图库线索，不重复建档；与其他匿名记录的身份关联仍未解决。",
+    "review_status": "2026-10-08 — 已逐张核对八张公开照片，完善原有线索而不重复建档；VIN 与车主仍未公开。",
     "program": "Tailor Made（图库标注）",
     "options": [
       "图库文字描述的蓝色裸露碳纤维部件"
+    ],
+    "exterior": "Arancio 3 Strati 车漆、蓝色裸露碳纤维及前盖细条纹 SP3 图案",
+    "interior": "照片可见蓝色座椅；精确材料与色名未确认",
+    "wheels": "照片可见深色五辐轮毂",
+    "calipers": "照片可见黄色卡钳",
+    "photo_captions": [
+      "配置来源图库",
+      "前 3/4 全景 · 车门关闭",
+      "侧面全景 · 车门及发动机盖开启",
+      "后 3/4 全景 · 蓝碳纤维与开启的车门",
+      "车头细节 · 点亮的前灯与蓝色座椅",
+      "车尾细节 · 灯带、横向格栅与排气口",
+      "前 3/4 全景 · 车门开启",
+      "前盖细节 · 细条纹 SP3 图案",
+      "前轮细节 · 黄色卡钳与蓝色后视镜"
     ]
   },
   "SP3-VIOLETTO-DINO-GALLERY": {
