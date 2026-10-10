@@ -3558,11 +3558,22 @@
     "edition": "未公开对应生产配额"
   },
   "SP3-VIOLETTO-DINO-GALLERY": {
-    "title": "Violetto Dino — 配置图库线索",
-    "status": "已有来源记录，车辆身份资料尚不完整",
-    "notes": "carpaints.co 车辆图库标注此车漆与 Tailor Made 配置，图片署名 Wrapsign，并明确显示尚无已记录 VIN。 摄影署名不能确定车辆所在地或车主；未推断生产年份或身份关联。",
-    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
-    "program": "Tailor Made（图库标注）"
+    "title": "Violetto Dino — Wrapsign 实拍图集",
+    "status": "公开配置图库",
+    "notes": "carpaints.co 标注 Violetto Dino 车漆及 Tailor Made 配置，照片署名 Wrapsign。五张不同构图展示同一工坊中的紫色车身与银色轮毂。车漆与定制项目名称仍属图库标注；VIN、车主、生产年份、所在地及与其他匿名记录的关联尚未确认。漆面特写依据来源图库归入，不作为独立身份凭证。",
+    "review_status": "2026-10-09 — 已逐张核对五张公开照片，完善原有图库线索，不重复建档。",
+    "program": "Tailor Made（图库标注）",
+    "edition": "未公开对应生产配额",
+    "wheels": "照片可见银色五辐轮毂",
+    "calipers": "照片可见深色卡钳；精确饰面未确认",
+    "photo_captions": [
+      "配置来源图库",
+      "工坊内前 3/4 全景",
+      "后 3/4 全景与银色轮毂",
+      "正面全景 · 车门及发动机盖开启",
+      "紫色漆面与车身接缝细节",
+      "后轮、深色卡钳与紫色车身"
+    ]
   },
   "SP3-288789-SHIPMENT": {
     "title": "底盘 288789 — 运往巴西的运输记录",
