@@ -925,8 +925,19 @@
     "status": "Clean title；左舵",
     "sale": "未公开",
     "program": "未公开",
-    "notes": "ECR 公开列出：2024 model year、Celeste Metallizzato、Nero Alcantara 搭配 Bianco 缝线、自动变速箱及左舵。",
-    "review_status": "2026-09-21 — 已复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。"
+    "notes": "ECR 公开列出：2024 model year、Celeste Metallizzato、Nero Alcantara 搭配 Bianco 缝线、自动变速箱及左舵。 carpaints.co 的 Celeste 图集与本档正面及开门工坊照为相同照片，署名 Wrapsign。本次仅补四张不同细节图，排除四个已有构图；相同照片支持图库关联，不等于新确认 VIN 或车主。",
+    "review_status": "2026-10-09 — 新增 4 张公开照片，已逐张目视核验并去重；未公开身份字段仍待核实。 旧版精确配置未重新验证，未读取登录后字段。",
+    "photo_captions": [
+      "公开车档主图",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "公开预览缩略图（低分辨率）",
+      "Wrapsign 图集 · 车尾跃马与排气口",
+      "Wrapsign 图集 · 后盖 Ferrari 字标",
+      "Wrapsign 图集 · 翼子板盾标与漆面细节",
+      "Wrapsign 图集 · 油箱盖与侧面进气口"
+    ]
   },
   "SP3-MP3-MULOTYPE": {
     "title": "MP3 Mulotype — Daytona SP3 开发车",
@@ -1303,7 +1314,12 @@
     "status": "2025 年 2 月公开交付报道",
     "sale": "未公开",
     "program": "Ferrari Tailor Made 定制",
-    "review_status": "2026-09-21 已重新核验来源"
+    "review_status": "2026-10-09 — 新增 2 张公开照片，已逐张目视核验并去重；未公开身份字段仍待核实。",
+    "photo_captions": [
+      "历史图库照片",
+      "交付图集 · 车门开启的正面全景",
+      "交付图集 · 后 3/4 全景"
+    ]
   },
   "SP3-MACARI-ROSSO-LIBANO": {
     "edition": "原始 599 辆客户生产序列",
@@ -1697,13 +1713,14 @@
     "sale": "价格未公开",
     "program": "未公开",
     "notes": "尽管同为 Rosso Magma / Blu Elettrico，本站仍将其与底盘 286921 分开。AMARI 记录该车 2026 年注册且仅 20 km，而 286921 于 2023 年交付，并在 2026 年拍卖编目时已有 743 km。缺少 VIN 前不进行合并。",
-    "review_status": "2026-09-21 — 已复核经销商记录及转刊广告；没有 VIN 证据，因此明确不与底盘 286921 合并。",
+    "review_status": "2026-10-09 — 新增 1 张公开照片，已逐张目视核验并去重；未公开身份字段仍待核实。",
     "timeline": [
       "2026 年 — AMARI 将该车列为 2026 年注册、一任车主、20 km。",
       "2026 年 8 月 13 日 — Car & Classic 转刊该经销商广告；之后广告被标记为已移除。"
     ],
     "photo_captions": [
-      "AMARI 经销商图库 · Rosso Magma 外观"
+      "AMARI 经销商图库 · Rosso Magma 外观",
+      "AMARI 前 3/4 全景与蓝色座舱"
     ]
   },
   "SP3-277497-FACTORY-DEMO": {
@@ -3432,11 +3449,27 @@
       "2023 年 — Drive Vintage 公布的交付年份。",
       "2026-10-02 — 核对完整公开 VIN 与交付年份；配置背景来自赞助展厅报道。"
     ],
-    "notes": "Drive Vintage 公布了完整 VIN 及 2023 年交付年份。Classic Driver 的 Drive Vintage 赞助展厅报道描述了 Rosso Magma、Blu Elettrico Alcantara 与历史赛车涂装，但未刊登 VIN，因此配置与该底盘的关联仍属暂定。报道时车辆不出售，不代表当前状态；不推断车主、所在地或精确生产日期。",
-    "review_status": "2026-10-02 — 已核对公开来源；未公开字段保持空缺。",
+    "notes": "Drive Vintage 公布了完整 VIN 及 2023 年交付年份。Classic Driver 的 Drive Vintage 赞助展厅报道描述了 Rosso Magma、Blu Elettrico Alcantara 与历史赛车涂装，但未刊登 VIN，因此配置与该底盘的关联仍属暂定。报道时车辆不出售，不代表当前状态；不推断车主、所在地或精确生产日期。 本次新增图片直接来自列出 VIN 的 Drive Vintage 页面，可见白色圆形涂装、金色轮毂与蓝色座舱；照片本身不独立确认另篇报道的精确车漆或内饰色名。",
+    "review_status": "2026-10-09 — 新增 14 张公开照片，已逐张目视核验并去重；未公开身份字段仍待核实。",
     "photo_captions": [
-      "Drive Vintage 原始图库"
-    ]
+      "Drive Vintage 原始图库",
+      "正侧面、白色圆形涂装与金色轮毂",
+      "点亮前灯的前 3/4 全景",
+      "低角度车尾标志与排气口",
+      "车尾横向格栅与碳纤维扩散器细节",
+      "从车窗看蓝色饰面方向盘",
+      "翼子板盾标与前轮",
+      "金色后轮与深色卡钳",
+      "正后方与白色圆形涂装",
+      "低角度后 3/4 全景",
+      "正视排气口与车尾格栅细节",
+      "蓝色座椅、方向盘与踏板",
+      "开启的车门与座舱侧面",
+      "高角度车头与单侧开启的车门",
+      "后盖圆形涂装与 Ferrari 字标"
+    ],
+    "wheels": "来源图库可见金色五辐轮毂",
+    "calipers": "来源图库可见深色卡钳"
   },
   "SP3-CD-991804": {
     "title": "比利时黑外红内挂牌线索",
@@ -3515,12 +3548,20 @@
   },
   "SP3-VERDE-BOTTIGLIA-BIANCO-KING": {
     "title": "Verde Bottiglia／Bianco King — Tailor Made",
-    "status": "已有来源记录，车辆身份资料尚不完整",
+    "status": "公开 Tailor Made 定制图集",
     "notes": "ClubAlfa 报道 Verde Bottiglia 车漆、Bianco King 圆形赛车涂装，以及方格绗缝绿色 Connolly 真皮，并将照片署名为 Ferrari 社交媒体。未公开 VIN、底盘、车主或生产年份。报道日期不是年款；与其他绿色车辆的身份对应关系仍待核对。",
-    "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
+    "review_status": "2026-10-09 — 新增 4 张公开照片，已逐张目视核验并去重；未公开身份字段仍待核实。",
     "exterior": "Verde Bottiglia 车漆，Bianco King 圆形涂装",
     "interior": "绿色 Connolly 真皮，方格绗缝",
-    "program": "Ferrari Tailor Made 定制"
+    "program": "Ferrari Tailor Made 定制",
+    "photo_captions": [
+      "Published configuration gallery",
+      "前 3/4 全景与 4 号圆形涂装",
+      "尾灯灯带、格栅与排气口",
+      "前轮与翼子板盾标",
+      "绿色 Connolly 座椅与方格绗缝"
+    ],
+    "edition": "未公开对应生产配额"
   },
   "SP3-ECR-82743": {
     "title": "Azzurro Iridescente — 安纳西 Registry 线索",
