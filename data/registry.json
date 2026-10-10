@@ -9196,12 +9196,12 @@
   },
   {
     "id": "SP3-VIOLETTO-DINO-GALLERY",
-    "title": "Violetto Dino — configuration gallery lead",
+    "title": "Violetto Dino — Wrapsign photo gallery",
     "tier": "community",
     "year": null,
     "vin": "Not public",
     "chassis": "Not public",
-    "edition": "Original 599 production",
+    "edition": "Production allocation not publicly linked",
     "country": "Unknown",
     "city": "Unknown",
     "market": "Unknown",
@@ -9209,31 +9209,61 @@
     "exterior": "Violetto Dino",
     "color": "Purple",
     "interior": "Unknown",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
+    "wheels": "Silver-coloured five-spoke wheels visible in photographs",
+    "calipers": "Dark calipers visible in photographs; exact finish unconfirmed",
     "mileage": "Not public",
-    "status": "Source documented; vehicle identity remains incomplete",
+    "status": "Public configuration gallery",
     "sale": "Not public",
     "program": "Tailor Made (gallery attribution)",
     "options": [],
     "timeline": [],
-    "notes": "The carpaints.co vehicle gallery identifies this paint and labels the specification Tailor Made. It credits Wrapsign and explicitly reports zero documented VINs. The credit does not establish the vehicle location or owner. No build year or identity match is inferred.",
+    "notes": "carpaints.co attributes the Violetto Dino colour and Tailor Made specification and credits Wrapsign. Five distinct photographs show matching purple bodywork and silver-coloured wheels in the same workshop. Paint and programme names remain gallery attributions. VIN, owner, build year, location and links to other anonymous records remain unconfirmed; the paint close-up is associated by the source gallery, not independent identity evidence.",
     "photos": [
       {
         "url": "",
         "source_url": "https://www.carpaints.co/uploads/detail/violetto-dino-ferrari-daytona-sp3",
         "caption": "Configuration source gallery",
         "credit": "Wrapsign via carpaints.co; see source"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/07/475082894-18265967650248779-8330381742047918670-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/violetto-dino-ferrari-daytona-sp3",
+        "caption": "Front three-quarter in the workshop",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/10/475197829-18265967674248779-5072281303981614469-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/violetto-dino-ferrari-daytona-sp3",
+        "caption": "Rear three-quarter and silver-coloured wheels",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/09/475104504-18265967662248779-6673034719668269238-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/violetto-dino-ferrari-daytona-sp3",
+        "caption": "Front view with doors and engine cover raised",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/03/474563584-18265967719248779-1505444551078299785-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/violetto-dino-ferrari-daytona-sp3",
+        "caption": "Purple paint and panel-gap detail",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/08/475179354-18265967683248779-3525531920174026576-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/violetto-dino-ferrari-daytona-sp3",
+        "caption": "Rear wheel, dark caliper and purple bodywork",
+        "credit": "Wrapsign via carpaints.co"
       }
     ],
     "sources": [
       "SRC-6664D3B5"
     ],
-    "review_status": "2026-10-02 — Source reviewed; identity and configuration limits recorded below.",
-    "record_kind": "lead",
+    "review_status": "2026-10-09 — Five public photographs visually checked; existing gallery lead expanded without a duplicate record.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 64,
-    "accessed": "2026-10-02"
+    "sort_weight": 78,
+    "accessed": "2026-10-09"
   },
   {
     "id": "SP3-288789-SHIPMENT",
