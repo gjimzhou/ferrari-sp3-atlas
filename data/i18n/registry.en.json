@@ -384,21 +384,29 @@
     ]
   },
   "ECR-85856": {
-    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission, and LHD.",
-    "review_status": "2026-09-21 — Public page and preview images rechecked; legacy exact specification was not revalidated and login-gated fields were not accessed.",
+    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD. The carpaints.co Celeste gallery reproduces the same front and open-door workshop photographs as this record, crediting Wrapsign. Four different detail views are added; four already represented compositions are excluded. The shared photographs support gallery association, not a newly verified VIN or owner.",
+    "review_status": "2026-10-09 — 4 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved. Legacy exact specifications were not revalidated; login-gated fields were not accessed.",
     "photo_captions": [
       "Public profile hero image",
       "Public preview thumbnail (low resolution)",
       "Public preview thumbnail (low resolution)",
       "Public preview thumbnail (low resolution)",
-      "Public preview thumbnail (low resolution)"
+      "Public preview thumbnail (low resolution)",
+      "Wrapsign gallery · rear Prancing Horse and exhaust",
+      "Wrapsign gallery · Ferrari script on the rear deck",
+      "Wrapsign gallery · fender shield and paint detail",
+      "Wrapsign gallery · fuel cap and side air intake"
     ],
     "credits": [
       "ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page",
       "ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page",
       "ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page",
       "ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page",
-      "ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page"
+      "ECR public preview; rights belong to the original photographer; photographer credit is listed on the source page",
+      "Wrapsign via carpaints.co",
+      "Wrapsign via carpaints.co",
+      "Wrapsign via carpaints.co",
+      "Wrapsign via carpaints.co"
     ]
   },
   "ECR-100373": {
@@ -709,8 +717,11 @@
       "11 February 2025 — Dealer delivery feature published."
     ],
     "photo_captions": [
-      "Historical gallery image"
-    ]
+      "Historical gallery image",
+      "Delivery gallery · front view with doors raised",
+      "Delivery gallery · rear three-quarter"
+    ],
+    "review_status": "2026-10-09 — 2 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved."
   },
   "SP3-MACARI-ROSSO-LIBANO": {
     "status": "Historical dealer record — now marked Previously Sold",

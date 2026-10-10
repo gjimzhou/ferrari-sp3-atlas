@@ -2892,7 +2892,7 @@
     "program": "Unknown",
     "options": [],
     "timeline": [],
-    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD.",
+    "notes": "ECR publicly lists model year 2024, Celeste Metallizzato, Nero Alcantara with Bianco stitching, automatic transmission and LHD. The carpaints.co Celeste gallery reproduces the same front and open-door workshop photographs as this record, crediting Wrapsign. Four different detail views are added; four already represented compositions are excluded. The shared photographs support gallery association, not a newly verified VIN or owner.",
     "photos": [
       {
         "url": "https://exclusivecarregistry.com/images/gallery/car/full/645853",
@@ -2923,16 +2923,41 @@
         "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/85856",
         "caption": "公开预览缩略图（低分辨率）",
         "credit": "ECR 公开预览；版权归原摄影者，摄影署名见来源页"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/03/469358984-18259907938248779-1290398167852988158-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/celeste-ferrari-daytona-sp3",
+        "caption": "Wrapsign gallery · rear Prancing Horse and exhaust",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/02/469344884-18259907899248779-5447382818410674812-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/celeste-ferrari-daytona-sp3",
+        "caption": "Wrapsign gallery · Ferrari script on the rear deck",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/02/469161736-18259907737248779-7064615262395690554-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/celeste-ferrari-daytona-sp3",
+        "caption": "Wrapsign gallery · fender shield and paint detail",
+        "credit": "Wrapsign via carpaints.co"
+      },
+      {
+        "url": "https://media.carpaints.co/photoswipe_max_size/src/Frontend/Files/MediaLibrary/06/469346590-18259907917248779-1236937350280724762-n.webp",
+        "source_url": "https://www.carpaints.co/uploads/detail/celeste-ferrari-daytona-sp3",
+        "caption": "Wrapsign gallery · fuel cap and side air intake",
+        "credit": "Wrapsign via carpaints.co"
       }
     ],
     "sources": [
-      "SRC-EB455039"
+      "SRC-EB455039",
+      "SRC-C0ACBD3C"
     ],
-    "review_status": "2026-09-21 — 复核公开页面与预览照片；旧版精确配置未重新验证，登录后字段未读取。",
+    "review_status": "2026-10-09 — 4 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved. Legacy exact specifications were not revalidated; login-gated fields were not accessed.",
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 87,
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-09"
   },
   {
     "id": "SP3-MP3-MULOTYPE",
@@ -4198,12 +4223,24 @@
         "source_url": "https://news.dupontregistry.com/blogs/dealer-news/ferrari-of-central-new-jersey-delivers-tailor-made-daytona-sp3",
         "caption": "历史图库照片",
         "credit": "duPont REGISTRY / Ferrari of Central New Jersey · externally hosted; source linked below"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/476447838_18487079113058853_3460828638730421713_n-800x534.jpg?v=1766483194",
+        "source_url": "https://news.dupontregistry.com/blogs/dealer-news/ferrari-of-central-new-jersey-delivers-tailor-made-daytona-sp3",
+        "caption": "Delivery gallery · front view with doors raised",
+        "credit": "Ferrari of Central New Jersey / duPont REGISTRY"
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/476465953_18487079215058853_2769375925217970403_n-800x534.jpg?v=1766483197",
+        "source_url": "https://news.dupontregistry.com/blogs/dealer-news/ferrari-of-central-new-jersey-delivers-tailor-made-daytona-sp3",
+        "caption": "Delivery gallery · rear three-quarter",
+        "credit": "Ferrari of Central New Jersey / duPont REGISTRY"
       }
     ],
     "record_kind": "profile",
     "owner_public": false,
-    "accessed": "2026-09-21",
-    "review_status": "Source rechecked 2026-09-21",
+    "accessed": "2026-10-09",
+    "review_status": "2026-10-09 — 2 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved.",
     "sort_weight": 90
   },
   {
@@ -5428,17 +5465,23 @@
         "source_url": "https://www.amarisupercars.com/Stock/Details/2026-ferrari-daytona-sp3/1241691",
         "caption": "AMARI dealer gallery · Rosso Magma exterior",
         "credit": "AMARI Supercars"
+      },
+      {
+        "url": "https://www.amarisupercars.com/blobs/stock/1241691/images/3a306344-41f7-439a-891a-a5e927df2a14.jpg?width=2000&height=1333",
+        "source_url": "https://www.amarisupercars.com/Stock/Details/2026-ferrari-daytona-sp3/1241691",
+        "caption": "AMARI front three-quarter with blue cabin",
+        "credit": "AMARI Supercars"
       }
     ],
     "sources": [
       "SRC-9453101D",
       "SRC-C43F29BA"
     ],
-    "review_status": "2026-09-21 — Dealer record and syndication rechecked; deliberately not merged with chassis 286921 without VIN evidence.",
+    "review_status": "2026-10-09 — 1 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 89,
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-09"
   },
   {
     "id": "SP3-277497-FACTORY-DEMO",
@@ -8753,8 +8796,8 @@
     "exterior": "Rosso Magma four-layer paint (showroom feature)",
     "color": "Red",
     "interior": "Blu Elettrico Alcantara (showroom feature)",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
+    "wheels": "Gold-coloured five-spoke wheels visible in the source gallery",
+    "calipers": "Dark calipers visible in the source gallery",
     "mileage": "Not public",
     "status": "Drive Vintage showroom feature; current availability unconfirmed",
     "sale": "Not offered publicly",
@@ -8766,24 +8809,108 @@
       "2023 — Delivery year published by Drive Vintage.",
       "2026-10-02 — Public VIN and delivery year reviewed; the sponsored showroom feature supplies configuration context."
     ],
-    "notes": "Drive Vintage publishes the full VIN and 2023 delivery year. Its Classic Driver sponsored showroom feature describes Rosso Magma paint, Blu Elettrico Alcantara and a historical livery, but does not print a VIN; that configuration association remains provisional. The feature states the car was not for sale at publication, which does not establish current availability. No owner, location or exact production date is inferred.",
+    "notes": "Drive Vintage publishes the full VIN and 2023 delivery year. Its Classic Driver sponsored showroom feature describes Rosso Magma paint, Blu Elettrico Alcantara and a historical livery, but does not print a VIN; that configuration association remains provisional. The feature states the car was not for sale at publication, which does not establish current availability. No owner, location or exact production date is inferred. The VIN-bearing Drive Vintage page supplies the added photographs; these show white roundels, gold wheels and a blue cabin. They do not independently confirm the exact paint or trim names from the separate feature.",
     "photos": [
       {
         "url": "",
         "source_url": "https://drivevintage.ch/car/daytona-sp3/",
         "caption": "Drive Vintage source gallery",
         "credit": "Drive Vintage; see source page"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-81-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Side profile, white roundel and gold wheels",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-125-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Front three-quarter with headlights on",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-23-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Low-angle rear badge and exhaust outlets",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-42-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Rear slats and carbon diffuser detail",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-24-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Blue-trimmed steering wheel through the window",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-38-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Fender shield and front wheel",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-40-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Gold rear wheel and dark caliper",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-35-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Rear view and white roundel",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-33-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Low rear three-quarter",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-9-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Straight-on exhaust and rear grille detail",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-10-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Blue seat, steering wheel and pedals",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-11-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Raised door and side of the cabin",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-16-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Elevated front view with one door raised",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-19-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Rear deck roundel and Ferrari script",
+        "credit": "Drive Vintage"
       }
     ],
     "sources": [
       "SRC-36AAF12A",
       "SRC-9D5A55E3"
     ],
-    "review_status": "2026-10-02 — Public source reviewed; unknown fields remain unfilled.",
+    "review_status": "2026-10-09 — 14 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 87,
-    "accessed": "2026-10-02"
+    "accessed": "2026-10-09"
   },
   {
     "id": "SP3-CD-991804",
@@ -9028,7 +9155,7 @@
     "year": null,
     "vin": "Not public",
     "chassis": "Not public",
-    "edition": "Original 599 production",
+    "edition": "Production allocation not publicly linked",
     "country": "Unknown",
     "city": "Unknown",
     "market": "Unknown",
@@ -9039,7 +9166,7 @@
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "Not public",
-    "status": "Source documented; vehicle identity remains incomplete",
+    "status": "Public Tailor Made photo feature",
     "sale": "Not public",
     "program": "Ferrari Tailor Made",
     "options": [],
@@ -9051,16 +9178,40 @@
         "source_url": "https://www.clubalfa.it/505785-ferrari-daytona-sp3-esemplare-green-tailor-made",
         "caption": "Published configuration gallery",
         "credit": "Ferrari via ClubAlfa; see source"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/08/ferrari-daytona-sp3-tailor-made-1.jpg",
+        "source_url": "https://www.clubalfa.it/505785-ferrari-daytona-sp3-esemplare-green-tailor-made",
+        "caption": "Front three-quarter with No. 4 roundels",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/08/ferrari-daytona-sp3-tailor-made-2.jpg",
+        "source_url": "https://www.clubalfa.it/505785-ferrari-daytona-sp3-esemplare-green-tailor-made",
+        "caption": "Rear light bar, grille and exhaust outlets",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/08/ferrari-daytona-sp3-tailor-made-3.jpg",
+        "source_url": "https://www.clubalfa.it/505785-ferrari-daytona-sp3-esemplare-green-tailor-made",
+        "caption": "Front wheel and fender shield",
+        "credit": "Ferrari / ClubAlfa"
+      },
+      {
+        "url": "https://www.clubalfa.it/wp-content/uploads/2024/08/ferrari-daytona-sp3-tailor-made-4.jpg",
+        "source_url": "https://www.clubalfa.it/505785-ferrari-daytona-sp3-esemplare-green-tailor-made",
+        "caption": "Green Connolly seat with square quilting",
+        "credit": "Ferrari / ClubAlfa"
       }
     ],
     "sources": [
       "SRC-77F23875"
     ],
-    "review_status": "2026-10-02 — Source reviewed; identity and configuration limits recorded below.",
-    "record_kind": "lead",
+    "review_status": "2026-10-09 — 4 additional public photographs visually checked and deduplicated; unpublished identity fields remain unresolved.",
+    "record_kind": "profile",
     "owner_public": false,
-    "sort_weight": 64,
-    "accessed": "2026-10-02"
+    "sort_weight": 78,
+    "accessed": "2026-10-09"
   },
   {
     "id": "SP3-ECR-82743",
