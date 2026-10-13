@@ -850,6 +850,42 @@
         "source_url": "https://barchetta.mediacenter.plus/-/Events-by-Year-Auction-Concours-News-Race-Rally-etc?i=6389008",
         "caption": "Auction-result chassis photo · sold €6,250,000",
         "credit": "barchetta / Broad Arrow Villa d'Este result record"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/J9Nh-1-5M3B07/1-CKL499/253_05.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Elevated rear view · engine cover and rear bodywork",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/9Exh-1-5M3B07/1-CKL499/253_06.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Driver-side cockpit view · blue seats and steering wheel",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/jKCz-1-5M3B07/1-CKL499/253_07.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Engine bay · carbon intake components",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/keDW-1-5M3B07/1-CKL499/253_08.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Daytona SP3 Limited Edition cockpit plaque",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/jyz8-1-5M3B07/1-CKL499/253_09.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Passenger-side view · blue seats and four-point harnesses",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/wXLZ-1-5M3B07/1-CKL499/253_10.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Overhead view · open cockpit and sculpted bodywork",
+        "credit": "Broad Arrow Auctions"
       }
     ],
     "sources": [
@@ -2313,6 +2349,12 @@
         "source_url": "https://www.tylosand.se/ferrari-exhibition/history-cars-technology",
         "caption": "Hotel Tylösand official exhibition image · red Daytona SP3",
         "credit": "Hotel Tylösand"
+      },
+      {
+        "url": "https://carup.se/wp-content/uploads/2023/04/ferrari_sp3_gessle-jpg.webp",
+        "source_url": "https://carup.se/svenska-miljardarer-fick-kopa-likadan-ferrari-som-zlatan-och-gessle/",
+        "caption": "Hotel Tylösand press photograph via Carup · showroom rear three-quarter",
+        "credit": "Hotel Tylösand / Carup"
       }
     ],
     "sources": [
@@ -2321,7 +2363,8 @@
       "SRC-22FB310C",
       "SRC-C6D758C1",
       "SRC-BE1171CB",
-      "SRC-A61682A9"
+      "SRC-A61682A9",
+      "SRC-1FDC5C1F"
     ],
     "review_status": "2026-09-21 — Owner-posted arrival image, red exterior, Swedish registration plate RAF37S and full VIN ZFF05UMB000284856 cross-checked; prior erroneous white/red specification removed.",
     "record_kind": "profile",
@@ -2605,10 +2648,17 @@
         "source_url": "https://commons.wikimedia.org/wiki/File:2025_Ferrari_Daytona_SP3_Tailor_Made_in_Rubino_Transitional,_front_left.jpg",
         "caption": "2025 Greenwich Concours · front-left view",
         "credit": "Mr.choppers / Wikimedia Commons — CC BY-SA 4.0"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/2025_Ferrari_Daytona_SP3_Tailor_Made_in_Rubino_Transitional%2C_rear_right.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+        "source_url": "https://commons.wikimedia.org/wiki/File:2025_Ferrari_Daytona_SP3_Tailor_Made_in_Rubino_Transitional,_rear_right.jpg",
+        "caption": "2025 Greenwich Concours · rear-right view, No. 23 and blue wheels",
+        "credit": "Mr.choppers / Wikimedia Commons — CC BY-SA 4.0"
       }
     ],
     "sources": [
-      "SRC-F0FCE298"
+      "SRC-F0FCE298",
+      "SRC-466A6175"
     ],
     "review_status": "2026-09-21 — Wikimedia event image, date, colour description and licensing rechecked; VIN and ownership remain private.",
     "record_kind": "profile",
@@ -5241,7 +5291,68 @@
       "5 September 2025 — RINA certificate RAM-31 recorded for the dossier's historical research and provenance validation."
     ],
     "notes": "Automotive Masterpieces publishes the full VIN and a detailed Tailor Made dossier for this one-off specification, directly inspired by Ferrari 350 Can-Am / 330 P4 chassis 0858 in Team Gunston colours at the 1968 Rhodesian Grand Prix. The dossier documents the four-layer VC Orange paint, Nero DS / Light Gold Metallic graphics, No. 83 roundels, matte-gold wheels, blue Alcantara race-seat treatment and dedicated 0858 / Paul Hawkins / Team Gunston plaque. This is a separate car from Ferrari's later 599+1 charity Daytona SP3.",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://automotivemasterpieces.com/image/a3f8271a8826879e3b39a30e9b69ca58db9b8e4b",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Atelier display · rear three-quarter",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/b3c29e394561b6f7baca8847fea099fad9451394",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Elevated side view · roof fitted and No. 83 graphics",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/2bc52012fb6c6760cd983ab23763162dea614e89",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Atelier display · straight-on front",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/dddb5ed82607c595058d7c35bfede91749be9713",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Open cockpit · blue seats and harnesses",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/fa5d9ea003b60d6726e19592eb9b33e1440789e2",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Raised door · No. 83 and mirror detail",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/1d6d59d999d7e9bd9038e20d4af156a27a01f40c",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Passenger-side cockpit view · seats and centre tunnel",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/e17dceacaefa273f244024cd1ba0951d0ce72cdf",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Elevated rear three-quarter · roof removed",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/e0a34d47e52d6fafff88644a99470239105ce3c1",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "Open-top side view · gold wheels and centre stripe",
+        "credit": "Private Collection / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/4c9d66baf54a6e175aa5e7108f1ab9fe00a15714",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "August 2025 studio set · straight-on front",
+        "credit": "Jacopo Pieretti / Automotive Masterpieces"
+      },
+      {
+        "url": "https://automotivemasterpieces.com/image/d40d576132bb5b7c3a585eafaa202c3b46596ffd",
+        "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+        "caption": "August 2025 studio set · headlight and front fender",
+        "credit": "Jacopo Pieretti / Automotive Masterpieces"
+      }
+    ],
     "sources": [
       "SRC-6B298231",
       "SRC-84AAA69F",
@@ -8899,6 +9010,54 @@
         "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-19-sur-180-scaled.jpg",
         "source_url": "https://drivevintage.ch/car/daytona-sp3/",
         "caption": "Rear deck roundel and Ferrari script",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-25-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Mirror reflection · Scuderia shield",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-26-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Rear deck vents viewed toward the open cockpit",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-27-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Fuel-filler cap and rear bodywork",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-28-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Low side view · raised door and gold rear wheel",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-36-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Ground-level rear view · diffuser and rear tyres",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-43-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Front corner · layered intake and headlight",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-44-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Low front grille view · badge and carbon splitter",
+        "credit": "Drive Vintage"
+      },
+      {
+        "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-46-sur-180-scaled.jpg",
+        "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+        "caption": "Instrument binnacle · Daytona SP3 start-up display",
         "credit": "Drive Vintage"
       }
     ],
