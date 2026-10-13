@@ -166,7 +166,13 @@
     "photo_captions": [
       "Broad Arrow 拍卖目录 · Rosso Magma Tri-Coat / Blu Elettrico",
       "拍卖前 chassis-specific 实车图 · Villa d’Este 2026",
-      "成交结果 chassis-specific 实车图 · €6,250,000 成交"
+      "成交结果 chassis-specific 实车图 · €6,250,000 成交",
+      "高角度后视 · 发动机盖与车尾",
+      "驾驶侧座舱 · 蓝色座椅与方向盘",
+      "发动机舱 · 碳纤维进气部件",
+      "座舱 Daytona SP3 Limited Edition 铭牌",
+      "副驾侧视角 · 蓝色座椅与四点式安全带",
+      "垂直俯视 · 敞开座舱与车身线条"
     ]
   },
   "SP3-PIERO-NART": {
@@ -679,7 +685,8 @@
     ],
     "photo_captions": [
       "Joyride Collection 到车 · Per Gessle 检查其红色 Daytona SP3",
-      "Hotel Tylösand 官方展览图 · 红色 Daytona SP3"
+      "Hotel Tylösand 官方展览图 · 红色 Daytona SP3",
+      "Carup 刊载 Hotel Tylösand 新闻照片 · 展厅后侧全景"
     ]
   },
   "SP3-LEONARDO-DEL-VECCHIO": {
@@ -807,7 +814,8 @@
       "2025 年 5 月 31 日 — 在 Greenwich Concours d’Elegance 被拍摄。"
     ],
     "photo_captions": [
-      "2025 Greenwich Concours · 左前视角"
+      "2025 Greenwich Concours · 左前视角",
+      "2025 Greenwich Concours · 右后侧、23 号与蓝色轮毂"
     ]
   },
   "SP3-HK-GREEN-JEWEL": {
@@ -1623,6 +1631,18 @@
       "2025 年 8 月 5 日 — Automotive Masterpieces 增加独立现状图库。",
       "2025 年 8 月 8 日 — 发布 AU-34679 声明，并将该车归类为 one-off model。",
       "2025 年 9 月 5 日 — 档案记录 RINA RAM-31 认证，用于历史研究与 provenance 验证。"
+    ],
+    "photo_captions": [
+      "Atelier 展示 · 后侧全景",
+      "俯视侧面 · 安装车顶与 83 号涂装",
+      "Atelier 展示 · 正面全景",
+      "敞开座舱 · 蓝色座椅与安全带",
+      "开启车门 · 83 号与后视镜细节",
+      "副驾侧座舱视角 · 座椅与中央通道",
+      "俯视后侧 · 拆下车顶",
+      "敞篷侧面 · 金色轮毂与中央条纹",
+      "2025 年 8 月棚拍 · 正面",
+      "2025 年 8 月棚拍 · 前灯与翼子板"
     ]
   },
   "SP3-319387-ROSSO-TAORMINA": {
@@ -3466,7 +3486,15 @@
       "蓝色座椅、方向盘与踏板",
       "开启的车门与座舱侧面",
       "高角度车头与单侧开启的车门",
-      "后盖圆形涂装与 Ferrari 字标"
+      "后盖圆形涂装与 Ferrari 字标",
+      "后视镜倒影 · Scuderia 盾标",
+      "朝向敞开座舱的后盖散热口",
+      "油箱盖与后侧车身",
+      "低角度侧面 · 开启车门与金色后轮",
+      "贴地后视 · 扩散器与后轮胎",
+      "车头一角 · 层叠进气口与前灯",
+      "低角度前格栅 · 跃马标与碳纤维前唇",
+      "仪表罩 · Daytona SP3 启动画面"
     ],
     "wheels": "来源图库可见金色五辐轮毂",
     "calipers": "来源图库可见深色卡钳"
