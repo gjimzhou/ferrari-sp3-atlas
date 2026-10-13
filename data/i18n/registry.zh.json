@@ -1808,27 +1808,29 @@
     ]
   },
   "SP3-277499-DEMO-LEAD": {
-    "title": "Ferrari 工厂 Demo — Giallo Triplo Strato / Rosso — 底盘 277499",
-    "edition": "工厂 Demo；客户配额归属尚未确定",
-    "country": "意大利",
-    "city": "荷兰 Zandvoort",
-    "market": "工厂 Demo / 意大利车牌",
-    "owner": "Ferrari 工厂 Demo 车队（registry 来源报告）",
-    "wheels": "公开照片可见银灰色五辐轮毂",
+    "title": "原厂研发车 — Giallo Triplo Strato／Rosso — 底盘 277499",
+    "edition": "原厂研发车；生产配额归属未确认",
+    "country": "英国",
+    "city": "伦敦（拍卖地点）",
+    "market": "左舵；图录记载已在英国登记",
+    "owner": "图录中的私人委托卖家；此前由 Ferrari 持有",
+    "wheels": "图录列明钻石切削锻造轮毂",
     "calipers": "公开照片可见红色刹车卡钳",
-    "mileage": "未公开",
-    "status": "工厂 Demo / 公开活动车辆",
-    "sale": "未公开出售",
-    "program": "工厂 Demo",
-    "notes": "Dutch Ferrari and Lamborghini Register 公开完整 VIN ZFF05UMB000277499、2022 年份、Giallo Triplo Strato / Rosso 配置及意大利车牌 GJ-563-FL，并将其描述为从未在荷兰注册的 factory demo car。Zandvoort 图集中既有 VIN 标记，也有外观与座舱视角。与 277497、277498 一样，客户配额归属不作推断。",
-    "review_status": "2026-09-22 — 已复核完整 VIN、factory-demo 分类、意大利车牌、Giallo Triplo Strato / Rosso 配置及 6 张 Zandvoort 图片；客户配额归属仍未确定。",
+    "mileage": "2026 伦敦拍卖编目时为 2,948 英里",
+    "status": "已列入 RM Sotheby’s 2026 年 10 月 31 日伦敦拍卖",
+    "sale": "估价 750 万–950 万英镑；拍卖定于 2026 年 10 月 31 日，截至 10 月 13 日尚无结果",
+    "program": "Ferrari 原厂研发／媒体试驾车",
+    "notes": "RM 将既有 VIN 对应至 2022 年 6 月制造的研发车，称 Ferrari 持有至 2025 年 3 月，随后首位私人车主经 H.R. Owen Ferrari Hatfield 购入。Vettura Di Sviluppo 铭牌不等于客户配额编号。保留早期挂意大利牌照的赞德沃特照片作为历史证据。",
+    "review_status": "2026-10-13 — RM 图录 VIN 与既有车档一致；补入 20 张不同实拍及未来拍卖估价，未记为成交。",
     "options": [
       "Giallo Triplo Strato 外观",
       "Rosso 红色座舱",
       "记录中的意大利车牌 GJ-563-FL"
     ],
     "timeline": [
-      "2022 年 7 月 — VIN 逐车页记录底盘 277499 在 Zandvoort，使用意大利车牌 GJ-563-FL，并公开 6 张照片，其中一张直接可见 VIN 标记。"
+      "2022 年 7 月 — VIN 逐车页记录底盘 277499 在 Zandvoort，使用意大利车牌 GJ-563-FL，并公开 6 张照片，其中一张直接可见 VIN 标记。",
+      "2025 年 3 月 — 据 RM，首位私人车主经 H.R. Owen Ferrari Hatfield 购入。",
+      "2026 年 10 月 31 日 — 计划参加 RM Sotheby’s 伦敦拍卖；截至 10 月 13 日结果未定。"
     ],
     "photo_captions": [
       "2022 Zandvoort · 可见 VIN ZFF05UMB000277499",
@@ -1836,8 +1838,29 @@
       "2022 Zandvoort · 车尾 · GJ-563-FL",
       "2022 Zandvoort · 前 3/4",
       "2022 Zandvoort · 另一前 3/4",
-      "2022 Zandvoort · 外观；背景可见底盘 277498"
-    ]
+      "2022 Zandvoort · 外观；背景可见底盘 277498",
+      "RM 2026 伦敦图集 — 夜间前侧全景",
+      "RM 2026 伦敦图集 — 街道后侧全景",
+      "RM 2026 伦敦图集 — 开启的发动机舱与碳纤维进气部件",
+      "RM 2026 伦敦图集 — 驾驶侧座舱与红色仪表台",
+      "RM 2026 伦敦图集 — 移除车顶后的正侧面",
+      "RM 2026 伦敦图集 — 夜间正前方视角",
+      "RM 2026 伦敦图集 — 夜间正后方视角",
+      "RM 2026 伦敦图集 — 行驶中的前侧视角",
+      "RM 2026 伦敦图集 — 红色座椅与头枕俯视",
+      "RM 2026 伦敦图集 — 副驾驶座椅与安全带",
+      "RM 2026 伦敦图集 — 伦敦河畔正侧全景",
+      "RM 2026 伦敦图集 — 双门升起的前侧全景",
+      "RM 2026 伦敦图集 — 隧道中行驶的正前方视角",
+      "RM 2026 伦敦图集 — 喷绘盾标、前轮与红色卡钳",
+      "RM 2026 伦敦图集 — 碳纤维前灯盖细节",
+      "RM 2026 伦敦图集 — 碳纤维车顶板细节",
+      "RM 2026 伦敦图集 — 后盖字标与贯穿灯带",
+      "RM 2026 伦敦图集 — 车尾横条、排气与碳纤维扩散器",
+      "RM 2026 伦敦图集 — VIN 铭牌：ZFF05UMB000277499",
+      "RM 2026 伦敦图集 — 发动机盖升起后的后侧舱内视角"
+    ],
+    "interior": "Rosso Ferrari 红色皮革，搭配 Alcantara 饰面"
   },
   "SP3-289571-VIN-LEAD": {
     "title": "Azzurro La Plata 23 号 — 底盘 289571",
@@ -3890,6 +3913,33 @@
       "Ferrari 展示图 · 前灯与蓝碳纤维纹理",
       "Ferrari 展示图 · 方向盘与 Blu Mascara 皮革座舱",
       "Ferrari 展示图 · 前轮、黄色卡钳与盾标"
+    ]
+  },
+  "SP3-WESTLAKE-BLU-LE-MANS": {
+    "title": "Blu Le Mans／Argento Nurburgring — Westlake 交付车",
+    "edition": "未公开对应生产配额",
+    "country": "美国",
+    "city": "加利福尼亚州 Westlake（经销商交付地点）",
+    "market": "美国经销商交付；详细市场规格未公开",
+    "exterior": "Blu Le Mans 蓝色车漆，搭配 Argento Nurburgring 赛车条纹",
+    "wheels": "经销商照片可见银色与深色五辐轮毂",
+    "calipers": "浅色；精确饰面未确认",
+    "status": "经销商记录的交付车；现况未公开",
+    "options": [
+      "Argento Nurburgring 中央赛车条纹",
+      "经销商称配备全套碳纤维选装"
+    ],
+    "timeline": [
+      "Ferrari Beverly Hills 记录了 Ferrari Westlake 的交付，并称其为美国首辆 Daytona SP3 交付；本档未确认具体交付日期。"
+    ],
+    "notes": "经销商明确列出车漆与条纹名称。“美国首辆交付”保留为经销商的表述。本来源未确认公开 VIN、车主、车型年份或配额编号；不因其他蓝色车辆外观相似而合并身份。",
+    "review_status": "2026-10-13 — 已核对经销商文章及五张不同图库照片；不凭车漆推断车辆身份。",
+    "photo_captions": [
+      "Westlake 交付图集 — 车门关闭的前侧全景",
+      "Westlake 交付图集 — 双门升起的前侧全景",
+      "Westlake 交付图集 — 正前方全景",
+      "Westlake 交付图集 — 双门升起的正前方全景",
+      "Westlake 交付图集 — 车顶与中央条纹俯视"
     ]
   }
 }
