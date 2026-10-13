@@ -5748,34 +5748,36 @@
   },
   {
     "id": "SP3-277499-DEMO-LEAD",
-    "title": "Factory Demo — Giallo Triplo Strato / Rosso — chassis 277499",
+    "title": "Factory Development Car — Giallo Triplo Strato / Rosso — chassis 277499",
     "tier": "chassis",
     "year": 2022,
     "vin": "ZFF05UMB000277499",
     "chassis": "277499",
-    "edition": "Factory demo; customer allocation status not established",
-    "country": "Italy",
-    "city": "Zandvoort, Netherlands",
-    "market": "Factory demo / Italian-plated",
-    "owner": "Ferrari factory demo fleet (reported by registry source)",
+    "edition": "Factory development car; production allocation not established",
+    "country": "United Kingdom",
+    "city": "London (auction location)",
+    "market": "Left-hand drive; UK registered at cataloguing",
+    "owner": "Private vendor at cataloguing; formerly retained by Ferrari",
     "exterior": "Giallo Triplo Strato",
     "color": "Yellow",
-    "interior": "Rosso",
-    "wheels": "Silver / grey five-spoke wheels visible in public photography",
+    "interior": "Rosso Ferrari leather with Alcantara accents",
+    "wheels": "Forged diamond wheels, as catalogued",
     "calipers": "Red brake calipers visible in public photography",
-    "mileage": "Not public",
-    "status": "Factory demo / public event car",
-    "sale": "Not publicly offered",
-    "program": "Factory demo",
+    "mileage": "2,948 miles at London 2026 cataloguing",
+    "status": "Catalogued for RM Sotheby’s London, 31 October 2026",
+    "sale": "Estimate GBP 7,500,000–9,500,000; auction scheduled 31 October 2026; no result as of 13 October",
+    "program": "Ferrari factory development / press car",
     "options": [
       "Giallo Triplo Strato exterior",
       "Rosso cabin",
       "Italian registration GJ-563-FL during the documented demo period"
     ],
     "timeline": [
-      "July 2022 — VIN-specific registry page documents chassis 277499 at Zandvoort with Italian plate GJ-563-FL and six photos, including a visible VIN marking."
+      "July 2022 — VIN-specific registry page documents chassis 277499 at Zandvoort with Italian plate GJ-563-FL and six photos, including a visible VIN marking.",
+      "March 2025 — First private acquisition through H.R. Owen Ferrari Hatfield, according to RM.",
+      "31 October 2026 — Scheduled RM Sotheby’s London auction; outcome pending as of 13 October."
     ],
-    "notes": "The Dutch Ferrari and Lamborghini Register publishes full VIN ZFF05UMB000277499, 2022 model year, Giallo Triplo Strato / Rosso specification and Italian plate GJ-563-FL, describing it as a factory demo car that never had Dutch registration. The Zandvoort photo set includes the VIN marking itself as well as exterior and cabin views. As with 277497 and 277498, customer-allocation status is left unresolved rather than inferred.",
+    "notes": "RM identifies the existing VIN as a June 2022 development car, retained by Ferrari until March 2025 and then acquired by its first private owner through H.R. Owen Ferrari Hatfield. Its Vettura Di Sviluppo plaque does not establish a numbered customer allocation. The earlier Italian-plated Zandvoort photographs remain as historical evidence.",
     "photos": [
       {
         "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000277499-1.jpg",
@@ -5812,17 +5814,139 @@
         "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000277499/",
         "caption": "Zandvoort 2022 · exterior view with chassis 277498 in background",
         "credit": "Marcel van Haasteren / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/4/a/7/9/c/a/4a79ca64fff38acf5d083cf7f386d305c4c95577.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Front three-quarter view at night",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/3/1/9/f/d/a/319fda0e6382394384554e942cd151dfa2edbaa4.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Rear three-quarter street view",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/4/1/e/6/b/9/41e6b989ad0a3a69098bb4fe7bd79b92028baee4.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Open engine bay and carbon intake",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/d/b/7/e/8/1/db7e81dc2432be86a36e54670cc0c544a8aca487.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Driver-side cockpit and red dashboard",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/c/0/3/e/6/5/c03e65450dd82fe6096f71fc844de9e824bb7e53.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Side profile with roof removed",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/4/9/4/2/2/c/49422cd3f1437333163946d55a392a3f86baef7a.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Straight-on front view at night",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/e/d/2/0/e/9/ed20e9993b8f08ba0b35c96e5217e2e3cbfb7906.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Straight-on rear view at night",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/a/d/3/a/8/7/ad3a87e3c4ef5c172bcb7f9620977c7143ba22b8.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Rolling front three-quarter view",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/e/c/1/b/e/e/ec1bee71241448b5491d9dfb5f8382929e72ddf1.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Overhead red seats and headrests",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/6/7/d/3/e/0/67d3e017b7d9ebb2899d14dd63d18bb057965ebb.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Passenger seat and belts",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/7/1/f/b/6/7/71fb67e18d422726e097cd790f1074026a42a83e.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Riverside side profile in London",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/0/4/0/2/c/a/0402ca5a66acf2719bb8dc95b07e040ef4197e32.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Front three-quarter view with both doors raised",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/4/c/9/c/d/c/4c9cdc0dc451297bd95f52c309d0501289b0aeaf.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Rolling front view in a tunnel",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/a/9/a/c/e/2/a9ace2e8159c867a03fc3a00555dbae3a9cc4eb8.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Airbrushed shield, front wheel and red caliper",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/c/9/d/a/0/f/c9da0f3f5a29c653c79d752040823026f5539263.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Carbon headlight cover detail",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/4/6/c/8/d/f/46c8dff8c86b9de22afa267e013fd77e763d0659.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Carbon roof panel detail",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/f/0/d/a/b/0/f0dab0a466d6ce868132a57605ee52f17c042410.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Rear deck lettering and light strip",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/2/6/6/0/4/e/26604e65e202cf2add8d493e1fcf7726c2cc0960.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Rear slats, exhausts and carbon diffuser",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/1/e/1/b/f/1/1e1bf12787feba039cb0404ab2aca6145304ba3b.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — VIN plate confirming ZFF05UMB000277499",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
+      },
+      {
+        "url": "https://cdn.rmsothebys.com/5/d/f/3/f/b/5df3fb227f8b745b433a4c9744567c67b3613842.webp",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "caption": "RM London 2026 — Raised engine cover and rear engine-bay view",
+        "credit": "Alex Penfold ©2026 Courtesy of RM Sotheby's"
       }
     ],
     "sources": [
       "SRC-EC5FA9D7",
-      "SRC-F08BE3DB"
+      "SRC-F08BE3DB",
+      "SRC-17A29963"
     ],
-    "review_status": "2026-09-22 — Full VIN, factory-demo classification, Italian plate, Giallo Triplo Strato / Rosso specification and six-photo Zandvoort record reviewed; customer-allocation status remains unresolved.",
+    "review_status": "2026-10-13 — Matched RM catalogue VIN to the existing record; added 20 distinct photographs and a future auction estimate, not a sale result.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 92,
-    "accessed": "2026-09-22"
+    "accessed": "2026-10-13",
+    "registration": "UK V5C"
   },
   {
     "id": "SP3-289571-VIN-LEAD",
@@ -10348,5 +10472,75 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 78
+  },
+  {
+    "id": "SP3-WESTLAKE-BLU-LE-MANS",
+    "title": "Blu Le Mans / Argento Nurburgring — Westlake delivery",
+    "tier": "dealer",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "United States",
+    "city": "Westlake, California (dealer delivery)",
+    "market": "US dealer delivery; detailed specification not public",
+    "owner": "Not public",
+    "exterior": "Blu Le Mans with Argento Nurburgring racing stripe",
+    "color": "Blue",
+    "interior": "Not public",
+    "wheels": "Silver and dark five-spoke wheels visible in dealer photographs",
+    "calipers": "Light-colored; exact finish not established",
+    "mileage": "Not public",
+    "status": "Dealer-documented delivery; current status not public",
+    "sale": "Not publicly offered",
+    "program": "Not public",
+    "options": [
+      "Argento Nurburgring central racing stripe",
+      "Full carbon-fiber options, as described by the dealer"
+    ],
+    "timeline": [
+      "Ferrari Beverly Hills documented delivery through Ferrari Westlake and described it as the first U.S. Daytona SP3 delivery; exact delivery date not established here."
+    ],
+    "notes": "The dealer explicitly names the paint and stripe. Its first-U.S.-delivery claim is attributed to the dealer. No public VIN, owner, model year or allocation number is established by this source; visually similar blue cars are not merged without identity evidence.",
+    "photos": [
+      {
+        "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Ferrari_Daytona_SP_3_10_cropped_2k_f78c7551d2.jpg",
+        "source_url": "https://ferraribeverlyhills.com/articles/first-ferrari-daytona-sp-3/gallery",
+        "caption": "Westlake delivery gallery — Front three-quarter view with doors closed",
+        "credit": "Ferrari Beverly Hills / Ferrari Westlake"
+      },
+      {
+        "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Ferrari_Daytona_SP_3_15_cropped_2k_dcc36683a3.jpg",
+        "source_url": "https://ferraribeverlyhills.com/articles/first-ferrari-daytona-sp-3/gallery",
+        "caption": "Westlake delivery gallery — Front three-quarter view with both doors raised",
+        "credit": "Ferrari Beverly Hills / Ferrari Westlake"
+      },
+      {
+        "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Ferrari_Daytona_SP_3_8_cropped_2k_d8ff098e40.jpg",
+        "source_url": "https://ferraribeverlyhills.com/articles/first-ferrari-daytona-sp-3/gallery",
+        "caption": "Westlake delivery gallery — Straight-on front view",
+        "credit": "Ferrari Beverly Hills / Ferrari Westlake"
+      },
+      {
+        "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Ferrari_Daytona_SP_3_14_cropped_2k_722d4c8ba5.jpg",
+        "source_url": "https://ferraribeverlyhills.com/articles/first-ferrari-daytona-sp-3/gallery",
+        "caption": "Westlake delivery gallery — Straight-on front view with both doors raised",
+        "credit": "Ferrari Beverly Hills / Ferrari Westlake"
+      },
+      {
+        "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Ferrari_Daytona_SP_3_34_953fc86fc3.jpg",
+        "source_url": "https://ferraribeverlyhills.com/articles/first-ferrari-daytona-sp-3/gallery",
+        "caption": "Westlake delivery gallery — Overhead view of the roof and central stripe",
+        "credit": "Ferrari Beverly Hills / Ferrari Westlake"
+      }
+    ],
+    "sources": [
+      "SRC-C7BCBFD1"
+    ],
+    "review_status": "2026-10-13 — Dealer article and five distinct gallery images checked; no identity inferred from paint alone.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 85,
+    "accessed": "2026-10-13"
   }
 ]
