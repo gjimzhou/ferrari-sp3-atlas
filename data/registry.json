@@ -2775,7 +2775,13 @@
         "url": "https://thesupercarblog.com/wp-content/uploads/2025/04/Final-Ferrari-Daytona-SP3-one-off-spec-2.jpg",
         "source_url": "https://www.thesupercarblog.com/final-ferrari-daytona-sp3-is-ready-for-delivery-and-its-truly-a-one-off/",
         "caption": "公开来源图集 · 1",
-        "credit": "@powerslidelover / The Supercar Blog"
+        "credit": "Varryx / The Supercar Blog"
+      },
+      {
+        "url": "https://f1rst-motors.s3.me-central-1.amazonaws.com/blog/1745671078538-blob",
+        "source_url": "https://f1rstmotors.com/news/the-last-daytona-sp3-is-ready",
+        "caption": "Pre-delivery road-test front view with protective tape — published video still",
+        "credit": "Varryx / F1rst Motors"
       }
     ],
     "sources": [
@@ -2783,11 +2789,11 @@
       "SRC-AA0A2E7D",
       "SRC-BDED4D0D"
     ],
-    "review_status": "2026-09-21 — 复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-10-14 — Added one distinct published front-view video still; excluded a crop and a repeated rear view. Original footage credit corrected to Varryx.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 91,
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-14"
   },
   {
     "id": "ECR-77928",
@@ -5381,8 +5387,8 @@
     "exterior": "Rosso Taormina",
     "color": "Red",
     "interior": "Rosso FX",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
+    "wheels": "Dark grey five-spoke wheels visible in dealer photography",
+    "calipers": "Black calipers visible in dealer photography",
     "mileage": "135 km on Bernards listing",
     "status": "Sold — Bernards Exclusives",
     "sale": "Price not public",
@@ -5453,17 +5459,89 @@
         "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
         "caption": "Bernards gallery · cabin overview",
         "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-11.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Embroidered headrest and carbon surround",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-12.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Ferrari harness labels and seat stitching",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-13.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Red seat cushion detail",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-14.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Raised passenger door and cabin access",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-15.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Inner door panel and carbon structure",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-16.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Driver-side steering wheel and dashboard view",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-17.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Seats and harnesses from the opposite side",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-18.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Head-on view with both doors raised",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-19.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Elevated front three-quarter view with roof removed",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-20.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Elevated front three-quarter view with roof fitted",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-21.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Front three-quarter view with both doors raised",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-22.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Front three-quarter view of the open cabin",
+        "credit": "Bernards Exclusives"
       }
     ],
     "sources": [
       "SRC-FAF6DFE0",
       "SRC-40909EFE"
     ],
-    "review_status": "2026-09-21 — Dealer page, ten-image public gallery and VIN registry cross-check reviewed.",
+    "review_status": "2026-10-14 — Dealer page still marked sold at 135 km; added 12 distinct gallery views while retaining the original ten photographs.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-14"
   },
   {
     "id": "SP3-306496-HENDRICK",
@@ -6284,8 +6362,8 @@
     "exterior": "Grigio / grey with black centre stripe",
     "color": "Silver",
     "interior": "Nero",
-    "wheels": "Not publicly documented",
-    "calipers": "Not publicly documented",
+    "wheels": "Silver and dark five-spoke wheels visible in event photographs",
+    "calipers": "Yellow calipers visible in event photographs",
     "mileage": "Unknown",
     "status": "Registered road car / Ferrari Tribute 1000 Miglia 2025 entrant",
     "sale": "Unknown",
@@ -6297,18 +6375,122 @@
       "17–21 June 2025 — Entered in Ferrari Tribute 1000 Miglia as no. 627, chassis 299394, grey with black stripe; crew listed as Alexander Tesink / Wouter De Voogt."
     ],
     "notes": "The Dutch Ferrari and Lamborghini Register publishes complete VIN ZFF05UMB000299394, Grigio / Nero and plate HJK-99-H. AutoWeek independently identifies HJK-99-H as a grey Daytona SP3 and reports RDW first admission/registration on 28 March 2025, one registered holder, 1,605 kg empty weight and a €2,203,494 catalogue price including options. The Ferrari Tribute 1000 Miglia entry list independently identifies chassis 299394 as car 627 and documents the grey / black-stripe exterior and event crew. The Dutch registry's plate-start date of 21 March precedes AutoWeek's RDW first-registration date by seven days; both dates are preserved rather than silently reconciled.",
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-1.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Side profile in the event line-up",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-2.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Right-front rolling view in Sirmione",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-3.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Left-front rolling view in Sirmione",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-4.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Left-rear rolling view in Sirmione",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-5.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Wide right-front road view in Sirmione",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-6.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Low left-front view in Desenzano",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-7.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Close left-rear view in Desenzano",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-8.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Rear view with plate HJK-99-H",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-9.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Approaching the junction in Desenzano",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-10.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Right-front view entering the junction",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-11.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Front three-quarter view with wheels turned",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-12.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Near-frontal view with car number 627",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-13.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Left-side three-quarter view in the line-up",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-14.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Low left-front view in the line-up",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-15.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Right-rear rolling view",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-16.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Elevated left-front view",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      },
+      {
+        "url": "https://onlybullsandhorses.com/wp-content/uploads/ZFF05UMB000299394-17.jpg",
+        "source_url": "https://onlybullsandhorses.com/welcome/ferrari/stradali-moderni/monza-daytona/daytona-sp3/zff05umb000299394/",
+        "caption": "17 June 2025 — Elevated right-front view",
+        "credit": "Bert de Boer / Dutch Ferrari and Lamborghini Register"
+      }
+    ],
     "sources": [
       "SRC-EC5FA9D7",
       "SRC-418BEE8A",
       "SRC-F4B061C3",
-      "SRC-06CEDC07"
+      "SRC-06CEDC07",
+      "SRC-3AB966E1"
     ],
-    "review_status": "2026-09-23 — Full VIN, HJK-99-H RDW registration data and independent Ferrari Tribute chassis/event record cross-checked; date discrepancy between registry sources explicitly preserved.",
+    "review_status": "2026-10-14 — Added 17 VIN-linked event photographs; plate HJK-99-H and event number 627 visually matched. Existing registration-date discrepancy retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 96,
-    "accessed": "2026-09-21"
+    "accessed": "2026-10-14"
   },
   {
     "id": "SP3-291270-VIN-LEAD",

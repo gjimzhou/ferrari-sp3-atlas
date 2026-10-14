@@ -878,7 +878,7 @@
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made 定制",
     "notes": "公开来源称这是原始 599 辆客户生产序列中最后完成的一辆。本站保留该生产顺序说法为“媒体报道”，不将其视为 Ferrari 工厂公布的铭牌编号。",
-    "review_status": "2026-09-21 — 已复核公开图集；未公开身份字段不作推定。",
+    "review_status": "2026-10-14 — 补入一张报道刊载的前侧路试画面，排除裁剪图与重复后视图；原始影像署名更正为 Varryx。",
     "options": [
       "一次性 Verde Pallido 车漆",
       "后部饰板为黑色，而非车身同色",
@@ -887,6 +887,10 @@
     "timeline": [
       "2025 年 4 月 — 公开报道称车辆已准备交付。",
       "2025–2026 年 — 车主持续公开驾驶并拍摄视频。"
+    ],
+    "photo_captions": [
+      "既有公开路试后侧画面",
+      "交付前路试前侧视角，可见保护胶带 — 报道刊载的视频画面"
     ]
   },
   "ECR-77928": {
@@ -1651,14 +1655,14 @@
     "city": "Woerden（荷兰）",
     "market": "未公开",
     "owner": "未公开",
-    "wheels": "未公开记录",
-    "calipers": "未公开记录",
+    "wheels": "经销商照片可见深灰色五辐轮毂",
+    "calipers": "经销商照片可见黑色刹车卡钳",
     "mileage": "Bernards 挂牌时 135 km",
     "status": "已售 — Bernards Exclusives",
     "sale": "价格未公开",
     "program": "Ferrari Tailor Made 定制",
     "notes": "VIN、Rosso Taormina 外观及 Rosso FX 内饰已与荷兰 Ferrari / Lamborghini Register 交叉核对。Bernards 将该车描述为 Tailor Made、1 of 599；当前页面标记为已售。",
-    "review_status": "2026-09-21 — 已复核经销商页面、10 张公开图库照片及 VIN registry 交叉记录。",
+    "review_status": "2026-10-14 — 经销商页面仍标记已售及 135 km；新增 12 张不同图库照片，保留原有十张。",
     "timeline": [
       "2025 年 11 月 25 日 — 荷兰 registry 记录该车在 Bernards Exclusives 挂牌，里程 125 km。",
       "2026 年 — Bernards 页面显示 135 km，并标记为已售。"
@@ -1673,7 +1677,19 @@
       "Bernards 图库 · 仪表台控制区",
       "Bernards 图库 · 中央控制区",
       "Bernards 图库 · Daytona SP3 仪表台细节",
-      "Bernards 图库 · 座舱全景"
+      "Bernards 图库 · 座舱全景",
+      "Bernards 图库 — 头枕刺绣与碳纤维边框",
+      "Bernards 图库 — Ferrari 安全带标签与座椅缝线",
+      "Bernards 图库 — 红色座垫细节",
+      "Bernards 图库 — 升起的副驾驶车门与座舱入口",
+      "Bernards 图库 — 车门内饰板与碳纤维结构",
+      "Bernards 图库 — 驾驶侧方向盘与仪表台视角",
+      "Bernards 图库 — 另一侧的座椅与安全带",
+      "Bernards 图库 — 双门升起的正前方全景",
+      "Bernards 图库 — 移除车顶的较高机位前侧全景",
+      "Bernards 图库 — 安装车顶的较高机位前侧全景",
+      "Bernards 图库 — 双门升起的前侧全景",
+      "Bernards 图库 — 敞开座舱的前侧全景"
     ]
   },
   "SP3-306496-HENDRICK": {
@@ -1994,20 +2010,39 @@
     "owner": "未公开；2025 Ferrari Tribute 参赛 crew 为 Alexander Tesink / Wouter De Voogt",
     "exterior": "Grigio / 灰色车身，黑色中央条纹",
     "interior": "Nero 黑色内饰",
-    "wheels": "未公开记录",
-    "calipers": "未公开记录",
+    "wheels": "赛事照片可见银色与深色五辐轮毂",
+    "calipers": "赛事照片可见黄色刹车卡钳",
     "mileage": "未公开",
     "status": "已注册道路车辆 / 2025 Ferrari Tribute 1000 Miglia 参赛车",
     "sale": "未公开",
     "program": "未公开",
     "notes": "荷兰 Ferrari / Lamborghini Register 公布完整 VIN ZFF05UMB000299394、Grigio／Nero 配置与车牌 HJK-99-H。AutoWeek 独立将 HJK-99-H 识别为灰色 Daytona SP3，并给出 RDW 首次准入／登记日期 2025 年 3 月 28 日、一名登记持有人、1,605 kg 空车重量及含选装目录价 €2,203,494。Ferrari Tribute 1000 Miglia 参赛名单则独立将底盘 299394 记录为 627 号并给出灰色／黑条纹及车组。荷兰 registry 的车牌起始日 3 月 21 日比 AutoWeek／RDW 首次登记日早 7 天；本站并列保留，不擅自消解。",
-    "review_status": "2026-09-23 — 已交叉核对完整 VIN、HJK-99-H RDW 登记数据及独立 Ferrari Tribute 底盘／活动记录，并明确保留两来源之间的日期差异。",
+    "review_status": "2026-10-14 — 补入 17 张 VIN 专属赛事照片，目视核对 HJK-99-H 车牌与 627 号；保留原有登记日期差异。",
     "timeline": [
       "2025 年 3 月 21 日 — 荷兰 Ferrari / Lamborghini Register 开始将车牌 HJK-99-H 记录到 VIN ZFF05UMB000299394。",
       "2025 年 3 月 28 日 — AutoWeek／RDW 数据记录首次准入、首次荷兰登记及当前唯一登记持有人起始日期。",
       "2025 年 6 月 17–21 日 — 参加 Ferrari Tribute 1000 Miglia，编号 627、底盘 299394、灰色配黑色条纹；车组为 Alexander Tesink / Wouter De Voogt。"
     ],
-    "year": 2025
+    "year": 2025,
+    "photo_captions": [
+      "2025 年 6 月 17 日 — 赛事队列中的正侧面",
+      "2025 年 6 月 17 日 — Sirmione 行驶中的右前视角",
+      "2025 年 6 月 17 日 — Sirmione 行驶中的左前视角",
+      "2025 年 6 月 17 日 — Sirmione 行驶中的左后视角",
+      "2025 年 6 月 17 日 — Sirmione 道路右前全景",
+      "2025 年 6 月 17 日 — Desenzano 低角度左前视角",
+      "2025 年 6 月 17 日 — Desenzano 左后近景",
+      "2025 年 6 月 17 日 — 后方视角与 HJK-99-H 车牌",
+      "2025 年 6 月 17 日 — 驶近 Desenzano 路口",
+      "2025 年 6 月 17 日 — 进入路口的右前视角",
+      "2025 年 6 月 17 日 — 车轮转向时的前侧视角",
+      "2025 年 6 月 17 日 — 正前方视角与 627 号赛事贴纸",
+      "2025 年 6 月 17 日 — 队列中的左侧全景",
+      "2025 年 6 月 17 日 — 队列中的低角度左前视角",
+      "2025 年 6 月 17 日 — 行驶中的右后视角",
+      "2025 年 6 月 17 日 — 较高机位左前全景",
+      "2025 年 6 月 17 日 — 较高机位右前全景"
+    ]
   },
   "SP3-291270-VIN-LEAD": {
     "title": "Verde / Nero — 底盘 291270",
