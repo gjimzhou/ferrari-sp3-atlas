@@ -5387,18 +5387,26 @@
     "exterior": "Rosso Taormina",
     "color": "Red",
     "interior": "Rosso FX",
-    "wheels": "Dark grey five-spoke wheels visible in dealer photography",
-    "calipers": "Black calipers visible in dealer photography",
+    "wheels": "Matte Canna di Fucile wheels, listed on the personalization plate",
+    "calipers": "Glossy black brake calipers, listed on the personalization plate",
     "mileage": "135 km on Bernards listing",
     "status": "Sold — Bernards Exclusives",
     "sale": "Price not public",
     "program": "Ferrari Tailor Made",
-    "options": [],
+    "options": [
+      "Apple CarPlay",
+      "Four-point black safety belts",
+      "Airbrushed Scuderia shields",
+      "Front and rear parking cameras",
+      "Carbon-fiber outer mirrors",
+      "Front lift",
+      "Matte Canna di Fucile fuel cap"
+    ],
     "timeline": [
       "25 November 2025 — Dutch registry recorded the car for sale at Bernards Exclusives with 125 km.",
       "2026 — Bernards listing shows 135 km and marks the car sold."
     ],
-    "notes": "VIN, Rosso Taormina exterior and Rosso FX interior are cross-checked against the Dutch Ferrari and Lamborghini Register. Bernards describes the car as Tailor Made and 1 of 599; its current page marks it sold.",
+    "notes": "VIN, Rosso Taormina exterior and Rosso FX interior are cross-checked against the Dutch Ferrari and Lamborghini Register. Bernards describes the car as Tailor Made and 1 of 599; its current page marks it sold. The dealer gallery now also supplies a readable personalization plate and original Rosso Taormina paint label; options and wheel/caliper finishes are transcribed from that plate.",
     "photos": [
       {
         "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-1.jpg?aspect_ratio=3%3A2&width=2048",
@@ -5531,17 +5539,119 @@
         "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
         "caption": "Bernards gallery — Front three-quarter view of the open cabin",
         "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-23.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Roof-off front three-quarter view",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-24.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — High-angle nose and cockpit",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-25.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Front grille and lighting detail",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-26.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Carbon bonnet vent",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-27.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Headlight and daytime running light",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-28.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Front luggage compartment and accessories",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-29.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Personalization specification plate",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-30.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Original Rosso Taormina paint label",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-31.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Full side profile",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-32.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Front wheel and fender shield",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-33.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Wheel hub and black brake caliper",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-34.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Carbon-fiber mirror housing",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-35.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Tricolour fender shield close-up",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-36.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — High-angle rear deck",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-37.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Sculpted side intake",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-38.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Matte fuel cap",
+        "credit": "Bernards Exclusives"
+      },
+      {
+        "url": "https://a-cdn.autopromotive.nl/bne2xtvrafrz/50084521/1765911837/50084521-39.jpg?width=2048&aspect_ratio=3:2",
+        "source_url": "https://bernardsexclusives.nl/collection/50084521-ferrari-daytona-sp3---tailor-made---rosso-taormina---1-of-599/",
+        "caption": "Bernards gallery — Straight-on rear view",
+        "credit": "Bernards Exclusives"
       }
     ],
     "sources": [
       "SRC-FAF6DFE0",
       "SRC-40909EFE"
     ],
-    "review_status": "2026-10-14 — Dealer page still marked sold at 135 km; added 12 distinct gallery views while retaining the original ten photographs.",
+    "review_status": "2026-10-15 — Seventeen additional distinct photos checked, including paint and personalization labels; 39 images total.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
-    "accessed": "2026-10-14"
+    "accessed": "2026-10-15"
   },
   {
     "id": "SP3-306496-HENDRICK",
@@ -10724,5 +10834,90 @@
     "owner_public": false,
     "sort_weight": 85,
     "accessed": "2026-10-13"
+  },
+  {
+    "id": "SP3-GFWILLIAMS-UK-MAGMA",
+    "title": "Rosso Magma / gold wheels — GFWilliams UK collection",
+    "tier": "press",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "United Kingdom",
+    "city": "Not public",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Rosso Magma, as identified by the photographer",
+    "color": "Red",
+    "interior": "Blue upholstery visible; factory trim code not established",
+    "wheels": "Gold-colored five-spoke wheels visible in photographs",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Photographer-documented collection car; current status not public",
+    "sale": "Not publicly offered",
+    "program": "Not public",
+    "options": [],
+    "timeline": [
+      "April 2026 — GFWilliams published a UK private-collection shoot featuring a Rosso Magma Daytona SP3 alongside an F80."
+    ],
+    "notes": "The photographer identifies the UK setting and Rosso Magma paint. Gold-colored wheels and blue upholstery are visible. No VIN, owner, build year or allocation is disclosed. Possible overlap with existing Rosso Magma records, including AMARI and chassis 286921, remains unresolved; this source-specific profile is not proof of an additional unique chassis.",
+    "photos": [
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF8_4921.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — Side and front three-quarter SP3 diptych",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_8888-V2.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3 rear views following the F80",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_8884-V2.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3 rear three-quarter diptych",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF8_4958.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3 behind the F80 on the collection drive",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF8_4944.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3 in the background of an F80 diptych",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_9064-V2.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3 and F80 at dusk",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_9046-V2.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3, F50 and F80 rear lineup",
+        "credit": "George F. Williams / GFWilliams"
+      },
+      {
+        "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF8_5042.jpg",
+        "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+        "caption": "GFWilliams — SP3 rear detail paired with an F50 side view",
+        "credit": "George F. Williams / GFWilliams"
+      }
+    ],
+    "sources": [
+      "SRC-2D24130C"
+    ],
+    "review_status": "2026-10-15 — Eight distinct SP3-containing images checked; F80-only images excluded. Identity overlap remains unresolved.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 84,
+    "accessed": "2026-10-15"
   }
 ]
