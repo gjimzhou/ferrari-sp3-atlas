@@ -1655,14 +1655,14 @@
     "city": "Woerden（荷兰）",
     "market": "未公开",
     "owner": "未公开",
-    "wheels": "经销商照片可见深灰色五辐轮毂",
-    "calipers": "经销商照片可见黑色刹车卡钳",
+    "wheels": "个性化铭牌注明哑光 Canna di Fucile 轮圈",
+    "calipers": "个性化铭牌注明亮黑色制动卡钳",
     "mileage": "Bernards 挂牌时 135 km",
     "status": "已售 — Bernards Exclusives",
     "sale": "价格未公开",
     "program": "Ferrari Tailor Made 定制",
-    "notes": "VIN、Rosso Taormina 外观及 Rosso FX 内饰已与荷兰 Ferrari / Lamborghini Register 交叉核对。Bernards 将该车描述为 Tailor Made、1 of 599；当前页面标记为已售。",
-    "review_status": "2026-10-14 — 经销商页面仍标记已售及 135 km；新增 12 张不同图库照片，保留原有十张。",
+    "notes": "VIN、Rosso Taormina 外观及 Rosso FX 内饰已与荷兰 Ferrari / Lamborghini Register 交叉核对。Bernards 将该车描述为 Tailor Made、1 of 599；当前页面标记为已售。 经销商图库另有清晰的个性化配置铭牌及 Rosso Taormina 原厂漆色标签；选装及轮圈／卡钳表面处理依据铭牌补充。",
+    "review_status": "2026-10-15 — 新增核验十七张不同照片，包括漆色及配置铭牌；图库共三十九张。",
     "timeline": [
       "2025 年 11 月 25 日 — 荷兰 registry 记录该车在 Bernards Exclusives 挂牌，里程 125 km。",
       "2026 年 — Bernards 页面显示 135 km，并标记为已售。"
@@ -1689,7 +1689,33 @@
       "Bernards 图库 — 移除车顶的较高机位前侧全景",
       "Bernards 图库 — 安装车顶的较高机位前侧全景",
       "Bernards 图库 — 双门升起的前侧全景",
-      "Bernards 图库 — 敞开座舱的前侧全景"
+      "Bernards 图库 — 敞开座舱的前侧全景",
+      "Bernards 图库 — 敞篷状态前侧全景",
+      "Bernards 图库 — 高机位车头与座舱",
+      "Bernards 图库 — 前格栅与灯组细节",
+      "Bernards 图库 — 碳纤维前盖通风口",
+      "Bernards 图库 — 头灯与日行灯",
+      "Bernards 图库 — 前行李舱与随车附件",
+      "Bernards 图库 — 个性化配置铭牌",
+      "Bernards 图库 — Rosso Taormina 原厂漆色标签",
+      "Bernards 图库 — 完整侧面轮廓",
+      "Bernards 图库 — 前轮与翼子板盾徽",
+      "Bernards 图库 — 轮圈中心与黑色卡钳",
+      "Bernards 图库 — 碳纤维后视镜外壳",
+      "Bernards 图库 — 三色翼子板盾徽特写",
+      "Bernards 图库 — 高机位后盖",
+      "Bernards 图库 — 车侧雕塑式进气口",
+      "Bernards 图库 — 哑光油箱盖",
+      "Bernards 图库 — 正后方全景"
+    ],
+    "options": [
+      "Apple CarPlay",
+      "黑色四点式安全带",
+      "喷绘 Scuderia 盾徽",
+      "前后泊车摄像头",
+      "碳纤维外后视镜",
+      "前轴升降",
+      "哑光 Canna di Fucile 油箱盖"
     ]
   },
   "SP3-306496-HENDRICK": {
@@ -3975,6 +4001,38 @@
       "Westlake 交付图集 — 正前方全景",
       "Westlake 交付图集 — 双门升起的正前方全景",
       "Westlake 交付图集 — 车顶与中央条纹俯视"
+    ]
+  },
+  "SP3-GFWILLIAMS-UK-MAGMA": {
+    "title": "Rosso Magma／金色轮圈 — GFWilliams 英国收藏摄影",
+    "edition": "未公开对应生产配额",
+    "country": "英国",
+    "city": "未公开",
+    "market": "未公开",
+    "owner": "未公开",
+    "exterior": "Rosso Magma（摄影师明确描述）",
+    "interior": "照片可见蓝色座椅；原厂内饰色号未确认",
+    "wheels": "照片可见金色五辐轮圈",
+    "calipers": "未公开记录",
+    "mileage": "未公开",
+    "status": "摄影师记录的收藏车辆；现状未公开",
+    "sale": "未公开出售",
+    "program": "未公开",
+    "options": [],
+    "timeline": [
+      "2026 年 4 月 — GFWilliams 发布英国私人收藏摄影，Rosso Magma Daytona SP3 与 F80 同场。"
+    ],
+    "notes": "摄影师明确描述英国场景及 Rosso Magma 漆色；照片可见金色轮圈和蓝色座椅。VIN、车主、生产年份与配额均未公开。与 AMARI、底盘 286921 等既有 Rosso Magma 记录是否重叠仍待确认；此来源专属车档不代表已确认新增独立底盘。",
+    "review_status": "2026-10-15 — 核验八张包含 SP3 的不同照片，排除仅有 F80 的画面；身份重叠仍待确认。",
+    "photo_captions": [
+      "GFWilliams — SP3 侧面与前侧双联摄影",
+      "GFWilliams — SP3 跟随 F80 的后视双联摄影",
+      "GFWilliams — SP3 后侧双联摄影",
+      "GFWilliams — 收藏场地车道上位于 F80 后方的 SP3",
+      "GFWilliams — F80 双联摄影背景中的 SP3",
+      "GFWilliams — 暮色中的 SP3 与 F80",
+      "GFWilliams — SP3、F50 与 F80 后部合影",
+      "GFWilliams — SP3 后部细节与 F50 侧面双联摄影"
     ]
   }
 }
