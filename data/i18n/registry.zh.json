@@ -1662,7 +1662,7 @@
     "sale": "价格未公开",
     "program": "Ferrari Tailor Made 定制",
     "notes": "VIN、Rosso Taormina 外观及 Rosso FX 内饰已与荷兰 Ferrari / Lamborghini Register 交叉核对。Bernards 将该车描述为 Tailor Made、1 of 599；当前页面标记为已售。 经销商图库另有清晰的个性化配置铭牌及 Rosso Taormina 原厂漆色标签；选装及轮圈／卡钳表面处理依据铭牌补充。",
-    "review_status": "2026-10-15 — 新增核验十七张不同照片，包括漆色及配置铭牌；图库共三十九张。",
+    "review_status": "2026-10-16 — 新增核验 12 张不同照片；图库共 51 条引用。",
     "timeline": [
       "2025 年 11 月 25 日 — 荷兰 registry 记录该车在 Bernards Exclusives 挂牌，里程 125 km。",
       "2026 年 — Bernards 页面显示 135 km，并标记为已售。"
@@ -1706,7 +1706,19 @@
       "Bernards 图库 — 高机位后盖",
       "Bernards 图库 — 车侧雕塑式进气口",
       "Bernards 图库 — 哑光油箱盖",
-      "Bernards 图库 — 正后方全景"
+      "Bernards 图库 — 正后方全景",
+      "Bernards 图库 — 高机位正后方全景",
+      "Bernards 图库 — 移除车顶的后侧全景",
+      "Bernards 图库 — 安装车顶的后侧全景",
+      "Bernards 图库 — 较近机位敞篷后侧全景",
+      "Bernards 图库 — 俯视后盖与排气",
+      "Bernards 图库 — 尾灯与横向格栅",
+      "Bernards 图库 — Ferrari 字标与尾部跃马",
+      "Bernards 图库 — 碳纤维扩散器与后反光片",
+      "Bernards 图库 — 尾部横条与轮拱",
+      "Bernards 图库 — 开启的 V12 发动机舱",
+      "Bernards 图库 — 后方视角的升起发动机盖",
+      "Bernards 图库 — 另一侧前轮与翼子板盾徽"
     ],
     "options": [
       "Apple CarPlay",
@@ -1862,8 +1874,8 @@
     "status": "已列入 RM Sotheby’s 2026 年 10 月 31 日伦敦拍卖",
     "sale": "估价 750 万–950 万英镑；拍卖定于 2026 年 10 月 31 日，截至 10 月 13 日尚无结果",
     "program": "Ferrari 原厂研发／媒体试驾车",
-    "notes": "RM 将既有 VIN 对应至 2022 年 6 月制造的研发车，称 Ferrari 持有至 2025 年 3 月，随后首位私人车主经 H.R. Owen Ferrari Hatfield 购入。Vettura Di Sviluppo 铭牌不等于客户配额编号。保留早期挂意大利牌照的赞德沃特照片作为历史证据。",
-    "review_status": "2026-10-13 — RM 图录 VIN 与既有车档一致；补入 20 张不同实拍及未来拍卖估价，未记为成交。",
+    "notes": "RM 将既有 VIN 对应至 2022 年 6 月制造的研发车，称 Ferrari 持有至 2025 年 3 月，随后首位私人车主经 H.R. Owen Ferrari Hatfield 购入。Vettura Di Sviluppo 铭牌不等于客户配额编号。保留早期挂意大利牌照的赞德沃特照片作为历史证据。 新增图库标签可见总装编号 199702、2022 年 6 月制造日期及配置铭牌序列号 277499。总装编号不等于限量编号。",
+    "review_status": "2026-10-16 — 新增核验 22 张不同照片；图库共 48 条引用。",
     "options": [
       "Giallo Triplo Strato 外观",
       "Rosso 红色座舱",
@@ -1900,7 +1912,29 @@
       "RM 2026 伦敦图集 — 后盖字标与贯穿灯带",
       "RM 2026 伦敦图集 — 车尾横条、排气与碳纤维扩散器",
       "RM 2026 伦敦图集 — VIN 铭牌：ZFF05UMB000277499",
-      "RM 2026 伦敦图集 — 发动机盖升起后的后侧舱内视角"
+      "RM 2026 伦敦图集 — 发动机盖升起后的后侧舱内视角",
+      "RM 2026 伦敦图集 — 隧道中行驶的后视画面",
+      "RM 2026 伦敦图集 — 另一侧前方街景",
+      "RM 2026 伦敦图集 — 低机位后侧街景",
+      "RM 2026 伦敦图集 — 从副驾驶侧看座舱",
+      "RM 2026 伦敦图集 — 高机位方向盘与仪表台",
+      "RM 2026 伦敦图集 — 显示 2,948 英里的里程表特写",
+      "RM 2026 伦敦图集 — My Drive 显示屏与车辆侧面示意",
+      "RM 2026 伦敦图集 — My Drive 显示屏与车辆前侧示意",
+      "RM 2026 伦敦图集 — 中央控制台与红色座垫",
+      "RM 2026 伦敦图集 — Daytona SP3 仪表台徽标",
+      "RM 2026 伦敦图集 — Vettura di Sviluppo 研发车辆铭牌",
+      "RM 2026 伦敦图集 — 驾驶座椅与头枕特写",
+      "RM 2026 伦敦图集 — 尾部徽标与排气特写",
+      "RM 2026 伦敦图集 — 前轮与红色卡钳",
+      "RM 2026 伦敦图集 — 银色油箱盖",
+      "RM 2026 伦敦图集 — 前行李舱与配套收纳包",
+      "RM 2026 伦敦图集 — Giallo Triplo Strato 原厂漆色标签",
+      "RM 2026 伦敦图集 — 总装编号标签：199702",
+      "RM 2026 伦敦图集 — 个性化配置铭牌：序列号 277499",
+      "RM 2026 伦敦图集 — 制造铭牌：2022 年 6 月制造",
+      "RM 2026 伦敦图集 — 发动机盖观察窗与通风口",
+      "RM 2026 伦敦图集 — 发动机进气与加注口细节"
     ],
     "interior": "Rosso Ferrari 红色皮革，搭配 Alcantara 饰面"
   },
@@ -2291,17 +2325,18 @@
     "exterior": "红色金属漆；公开收藏页面未注明精确 Ferrari 漆号",
     "interior": "Crema / 浅米色内饰，搭配黑色碳纤维座舱部件",
     "wheels": "五辐锻造轮毂，钻石切削表面",
-    "calipers": "未公开记录",
+    "calipers": "官方收藏照片可见浅色卡钳；原厂表面处理代码未确认",
     "mileage": "未公开",
     "status": "公开展出的收藏车辆",
     "sale": "未公开出售",
     "program": "未公开记录",
     "notes": "Țiriac Collection 官方车辆页面公开完整 VIN ZFF05UMB000316193，并将其标注为 2025 Daytona SP3。收藏馆公告及后续 Ferrari 主题展专题均直接将该车与 Ion Țiriac 的私人收藏关联。公开图片可确认红色车身与浅米色座舱，但页面未公布精确工厂漆色与内饰代码。",
-    "review_status": "2026-09-21 — 已交叉核验收藏馆官方车辆页面、VIN、收藏关系与公开图库。",
+    "review_status": "2026-10-16 — 新增核验 2 张不同照片；图库共 3 条引用。",
     "options": [
       "Crema / 浅米色座舱",
       "碳纤维座舱与车身下部部件",
-      "在 Țiriac Collection 公开展出"
+      "在 Țiriac Collection 公开展出",
+      "官方收藏照片可见黑色多点式安全带"
     ],
     "timeline": [
       "2025 年 4 月 17 日 — Țiriac Collection 宣布 Daytona SP3 成为收藏馆最新入藏车辆。",
@@ -2309,7 +2344,9 @@
       "2025 年 5 月 16 日 — SP3 成为收藏馆 Ferrari 50 年主题展的重点车辆；Ion Țiriac 称其为自己最新购入的 Ferrari。"
     ],
     "photo_captions": [
-      "Ion Țiriac 与 Daytona SP3 · Țiriac Collection"
+      "Ion Țiriac 与 Daytona SP3 · Țiriac Collection",
+      "Țiriac Collection — 浅色座椅、黑色安全带与碳纤维座舱",
+      "Țiriac Collection — 前轮、浅色卡钳与车头"
     ]
   },
   "SP3-319132-COTTINGHAM": {
