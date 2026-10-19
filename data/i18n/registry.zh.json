@@ -1608,13 +1608,13 @@
     "exterior": "四层深色 VC Orange；哑光黑碳纤维中央脊线；Nero DS / Light Gold Metallic 纵向图形；White King 外框的 83 号号码圆标",
     "interior": "黑色 Alcantara 座舱；Super Electric Blue Alcantara REVO 7305 座椅与四点式安全带；黑色 Super Fabric Trilobato 800701-835 地板",
     "wheels": "哑光 Light Gold Metallic FYM 0357 合金轮毂",
-    "calipers": "碳陶瓷刹车搭配合金卡钳；来源未注明卡钳颜色",
+    "calipers": "棚拍可见带白色 Ferrari 字样的黑色卡钳；原厂表面处理代码未确认",
     "mileage": "2025 年 4 月注册；Automotive Masterpieces 档案称车辆从未使用",
     "status": "私人收藏；2025 年 4 月注册；公开档案称从未使用",
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made 定制",
-    "notes": "Automotive Masterpieces 公开完整 VIN 及详细 Tailor Made 档案，确认该一次性定制直接致敬 1968 Rhodesian Grand Prix 中 Team Gunston 涂装的 Ferrari 350 Can-Am / 330 P4 底盘 0858。档案明确记录四层 VC Orange、Nero DS / Light Gold Metallic 图形、83 号号码圆标、哑光浅金轮毂、蓝色 Alcantara 赛车座椅以及专属 0858 / Paul Hawkins / Team Gunston 铭牌。该车与后来的 599+1 慈善 Daytona SP3 是不同实车。",
-    "review_status": "2026-09-21 — 已复核 Automotive Masterpieces 的完整 VIN、精确 Tailor Made 色彩／内饰代码、注册状态、provenance 文件及三组公开图库。",
+    "notes": "Automotive Masterpieces 公开完整 VIN 及详细 Tailor Made 档案，确认该一次性定制直接致敬 1968 Rhodesian Grand Prix 中 Team Gunston 涂装的 Ferrari 350 Can-Am / 330 P4 底盘 0858。档案明确记录四层 VC Orange、Nero DS / Light Gold Metallic 图形、83 号号码圆标、哑光浅金轮毂、蓝色 Alcantara 赛车座椅以及专属 0858 / Paul Hawkins / Team Gunston 铭牌。该车与后来的 599+1 慈善 Daytona SP3 是不同实车。 棚拍中的风挡 VIN ZFF05UMB000315825 与公开档案一致。保留原摄影师水印。",
+    "review_status": "2026-10-19 — 新增核验二十四张不同棚拍照片，包含可见 VIN；图库共三十四张。",
     "options": [
       "四层深色 VC Orange 车漆",
       "贯穿全车的哑光黑碳纤维中央脊线",
@@ -1646,7 +1646,31 @@
       "俯视后侧 · 拆下车顶",
       "敞篷侧面 · 金色轮毂与中央条纹",
       "2025 年 8 月棚拍 · 正面",
-      "2025 年 8 月棚拍 · 前灯与翼子板"
+      "2025 年 8 月棚拍 · 前灯与翼子板",
+      "2025 年 8 月棚拍 — 蓝色安全带与 Ferrari 标签",
+      "2025 年 8 月棚拍 — 低机位前侧全景",
+      "2025 年 8 月棚拍 — 安装车顶的正侧面",
+      "2025 年 8 月棚拍 — 碳纤维侧裙与下部涂装",
+      "2025 年 8 月棚拍 — 升起车门上的 83 号图案",
+      "2025 年 8 月棚拍 — 轮胎气压与规格标签",
+      "2025 年 8 月棚拍 — 高机位车头与前盖 83 号图案",
+      "2025 年 8 月棚拍 — 前盖碳纤维通风口特写",
+      "2025 年 8 月棚拍 — 风挡 VIN：ZFF05UMB000315825",
+      "2025 年 8 月棚拍 — 金色轮圈内的黑色制动卡钳",
+      "2025 年 8 月棚拍 — 后轮与翼子板曲面",
+      "2025 年 8 月棚拍 — 前灯与车头横向导流片",
+      "2025 年 8 月棚拍 — 低机位后侧全景",
+      "2025 年 8 月棚拍 — 竖幅后侧构图",
+      "2025 年 8 月棚拍 — 高机位后侧与油箱盖",
+      "2025 年 8 月棚拍 — 后翼子板与进气口",
+      "2025 年 8 月棚拍 — 发动机盖观察窗与黑色中央脊线",
+      "2025 年 8 月棚拍 — 沿碳纤维侧裙的低机位视角",
+      "2025 年 8 月棚拍 — Ferrari 字标与尾部跃马",
+      "2025 年 8 月棚拍 — 尾部徽标与双排气特写",
+      "2025 年 8 月棚拍 — 竖幅正后方构图",
+      "2025 年 8 月棚拍 — 开启发动机舱的横幅全景",
+      "2025 年 8 月棚拍 — 发动机进气与加注口特写",
+      "2025 年 8 月棚拍 — 俯视开启的发动机舱"
     ]
   },
   "SP3-319387-ROSSO-TAORMINA": {
@@ -3943,18 +3967,27 @@
     "program": "NOVITEC 后市场改装",
     "options": [
       "官方发布明确指出照片中使用 NF10 轮毂",
-      "摄影棚实拍可见浅色双中央条纹"
+      "摄影棚实拍可见浅色双中央条纹",
+      "官方照片可见黑色多点式安全带与座椅三色装饰"
     ],
     "timeline": [
       "2026 年 2 月 16 日 — Top Gear 西班牙发布 NOVITEC 摄影棚实拍图集。"
     ],
     "notes": "本车档对应 NOVITEC 发布照片中的哑光深灰实车，并非所有安装 NOVITEC 部件的 SP3。厂商宣称排气升级方案达到 868 hp；镀金排气与定制座舱是可选服务，未确认本车已安装。VIN 与车主均未公开，与其他未关联目击记录的身份关系仍待核实。",
-    "review_status": "2026-10-07 — 已核对官方发布与四张照片；车辆身份及原厂漆号仍未确认。",
+    "review_status": "2026-10-19 — 新增八张不同照片；四张既有照片替换为官方完整版本，图库共十二张。",
     "photo_captions": [
       "官方摄影棚实拍 · 前 3/4 与浅色双条纹",
       "摄影棚图集 · 后 3/4 与 NF10 轮毂",
       "摄影棚图集 · 移除车顶后的正侧面",
-      "摄影棚图集 · 后格栅、排气口与 NOVITEC 展示牌"
+      "摄影棚图集 · 后格栅、排气口与 NOVITEC 展示牌",
+      "NOVITEC 官方图库 — 移除车顶的高机位前侧全景",
+      "NOVITEC 官方图库 — NF10 前轮、卡钳与翼子板盾徽",
+      "NOVITEC 官方图库 — 另一侧低机位前侧全景",
+      "NOVITEC 官方图库 — 升起的后盖与发动机舱",
+      "NOVITEC 官方图库 — 另一侧后侧全景",
+      "NOVITEC 官方图库 — 浅色双条纹正面全景",
+      "NOVITEC 官方图库 — 高机位后侧全景",
+      "NOVITEC 官方图库 — 浅色座椅、黑色安全带与三色座椅装饰"
     ]
   },
   "SP3-TRANSITIONAL-ORO-MUSCHIO": {
