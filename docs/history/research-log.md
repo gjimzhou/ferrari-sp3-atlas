@@ -1,3 +1,9 @@
+# 2026-10-20 — Verde Francesca chassis 314846
+
+Added one verified 2025 model-year US-specification profile with full public VIN ZFF05UMA2S0314846 and 31 individually inspected Broad Arrow catalogue photographs. Coverage includes exterior angles, carbon details, Mustard upholstery, 81-mile instrument display, engine bay, accessories and the matching Amalgam model. October 2024 manufacture is distinguished from model year. The 31 October 2026 Las Vegas auction is upcoming: $16m–$18m is an estimate, not a completed sale. No private owner identity or colour-only identity match is inferred.
+
+Totals: 172 records (76 profiles, 94 leads, 2 prototypes), 789 photo references across 96 records, 45 confirmed public VINs. Source: https://www.broadarrowauctions.com/vehicles/lv26_r0073/2025-ferrari-daytona-sp3
+
 # 研究更新记录（Research log）
 
 ## 2026-10-19 — NOVITEC 与 Gunston 图库新增三十二张照片
