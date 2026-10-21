@@ -1,3 +1,10 @@
+# 2026-10-21 — Leclerc、Ramsay 图库与底盘 302914
+
+- 新增底盘 302914：2024 车型年、完整公开 VIN ZFF05UMA7R0302914、Nero DS Opaco 哑黑与 Nero / Blu Elettrico Alcantara。Broad Arrow 官方目录标记已售，未公开成交价与成交日期；不使用异常结构化价格字段。24 张照片覆盖外观、座舱、202 英里仪表、VIN、发动机舱与行李。
+- Leclerc 新增八张不同画面：16 号雨滴细节、加油站前后视角、红色座舱、徽标条纹及三个公开街拍角度。图库现有 17 张真实图片，并保留三条历史来源记录。保留原始署名与出处，不将图库发布日期当作拍摄日期。
+- Ramsay 新增五张伦敦照片，以 25 号涂装和 SP03 GRG 车牌核对，图库现有十张图片及一条历史来源占位。
+- 本轮新增 37 张可展示照片，保留历史来源记录，图片引用净增 37。总计 173 条研究记录（77 车档、94 线索、2 原型车），826 条图片引用覆盖 97 条记录，46 个已确认完整公开 VIN。
+
 # 2026-10-20 — Verde Francesca chassis 314846
 
 Added one verified 2025 model-year US-specification profile with full public VIN ZFF05UMA2S0314846 and 31 individually inspected Broad Arrow catalogue photographs. Coverage includes exterior angles, carbon details, Mustard upholstery, 81-mile instrument display, engine bay, accessories and the matching Amalgam model. October 2024 manufacture is distinguished from model year. The 31 October 2026 Las Vegas auction is upcoming: $16m–$18m is an estimate, not a completed sale. No private owner identity or colour-only identity match is inferred.
