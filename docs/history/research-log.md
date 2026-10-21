@@ -1,3 +1,11 @@
+# 2026-10-21 — 扩大批次：底盘 288430、Verde Aurora 与八十九张照片
+
+- 新增 Tom Hartley Jnr 底盘 288430 详细车档：2023 年、Rosso Corsa／Blu Tour de France／Giallo Modena 涂装、Rosso Ferrari 红色皮革及黄色饰边。官方目录公开底盘号和 185 英里，仪表照片显示 298 公里；未公开完整 VIN。52 张不同照片涵盖车身、座舱、仪表、发动机舱、前行李厢和配置细节。
+- 新增 Verde Aurora 照片配置车档，采用 ROSSOautomobili 发布并署名 Al Tayer Motors Ferrari UAE 的一张展厅照片。生产年份、车主、VIN 和具体地点未公开，不将经销商署名当作车辆所在地，也不把该车档计作确认新增的独立底盘。Ferrari Colors 转载同一图片，不重复计数。
+- Gohm SG0028 增加 33 张不同画面，图库由 10 张增至 43 张；排除第 3 张带广告文字的既有第 20 张重复画面。新增内容包括座舱、软顶、Tailor Made 铭牌、门板、黄色拨片、前行李厢及车身角度。
+- Zlatan Ibrahimović 增加三张米兰公开街拍，由 KOX26L 车牌、哑白车身与红色座舱核对，保留 Matte Spots／Znews 署名。David Lee 官网图片与既有交付图重复，不计新增。
+- 合计新增两份车档、89 张照片（上批为 37 张）；目前 175 条研究记录：79 详细车档、94 线索、2 原型车；915 条图片引用覆盖 99 条记录，完整确认 VIN 仍为 46。
+
 # 2026-10-21 — Leclerc、Ramsay 图库与底盘 302914
 
 - 新增底盘 302914：2024 车型年、完整公开 VIN ZFF05UMA7R0302914、Nero DS Opaco 哑黑与 Nero / Blu Elettrico Alcantara。Broad Arrow 官方目录标记已售，未公开成交价与成交日期；不使用异常结构化价格字段。24 张照片覆盖外观、座舱、202 英里仪表、VIN、发动机舱与行李。
