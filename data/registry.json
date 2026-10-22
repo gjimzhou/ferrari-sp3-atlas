@@ -886,6 +886,24 @@
         "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
         "caption": "Overhead view · open cockpit and sculpted bodywork",
         "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/2SIt-1-5M3B07/1-CKL499/253_02.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Rear three-quarter at sunset",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/8CzC-1-5M3B07/1-CKL499/253_03.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Side profile in courtyard",
+        "credit": "Broad Arrow Auctions"
+      },
+      {
+        "url": "https://images-cdn.auctionmobility.com/is3/auctionmobility-static/KUur-1-5M3B07/1-CKL499/253_04.jpg",
+        "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
+        "caption": "Elevated front view",
+        "credit": "Broad Arrow Auctions"
       }
     ],
     "sources": [
@@ -894,7 +912,7 @@
       "SRC-2A95F036",
       "SRC-F5A48801"
     ],
-    "review_status": "2026-09-23 — Full VIN, specification, Classiche/registration documentation and €6,250,000 completed Villa d'Este result rechecked; structured market event added.",
+    "review_status": "2026-10-22 — 3 additional distinct public photographs visually checked; original credits and source links retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
@@ -1952,6 +1970,12 @@
         "source_url": "https://news.dupontregistry.com/blogs/ferrari-news/check-out-charles-leclercs-new-3m-tailor-made-ferrari-daytona-sp3-hypercar",
         "caption": "历史图库照片",
         "credit": "Ferrari Scuderia Monte-Carlo / duPont REGISTRY"
+      },
+      {
+        "url": "https://spots.ag/2026/10/21/ferrari-daytona-sp3-0afab-c187321102026183943_1.jpg?1792600792",
+        "source_url": "https://www.autogespot.com/ferrari-daytona-sp3/2026/10/21",
+        "caption": "Monaco street front three-quarter — gallery published 21 October 2026",
+        "credit": "RvdS-Photography / Autogespot"
       }
     ],
     "sources": [
@@ -1961,9 +1985,10 @@
       "SRC-CF85F9CB",
       "SRC-2B480725",
       "SRC-791C7B1A",
-      "SRC-22386542"
+      "SRC-22386542",
+      "SRC-7642A990"
     ],
-    "review_status": "2026-10-21 — Eight additional public photographs visually checked; historical source-only provenance retained. VIN is not publicly documented.",
+    "review_status": "2026-10-22 — 1 additional distinct public photographs visually checked; original credits and source links retained.",
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 96
@@ -4174,8 +4199,8 @@
     "wheels": "Diamond-polished forged wheels",
     "calipers": "Giallo",
     "mileage": "325 miles at listing",
-    "status": "Dealer-listed — current page rechecked 2026-09-23",
-    "sale": "POA — asking price undisclosed",
+    "status": "Sold — DK Engineering page rechecked 2026-10-22",
+    "sale": "Sold; price and sale date not publicly disclosed",
     "program": "Ferrari personalisation",
     "id": "SP3-DK-2400",
     "title": "Bianco Italia / Blu Tour de France / Giallo Modena",
@@ -4200,9 +4225,10 @@
       "September 2023 — Supplied new to its first keeper.",
       "September 2024 / October 2025 — Ferrari servicing recorded by the dealer.",
       "September 2026 — Fresh Ferrari service completed by Meridien Modena.",
-      "September 2026 — Dealer states a recent two-year Ferrari factory warranty extension; car presented with 325 miles."
+      "September 2026 — Dealer states a recent two-year Ferrari factory warranty extension; car presented with 325 miles.",
+      "22 October 2026 — Public dealer page rechecked: gallery marked Sold; sale date and price undisclosed."
     ],
-    "notes": "DK Engineering's current public listing documents a four-layer Bianco Italia Daytona SP3 with Blu Tour de France / Giallo Modena livery, Nero leather with Giallo detailing, extensive carbon-fibre options, Classiche Yellow Book, 325 miles, a fresh September 2026 Ferrari service by Meridien Modena, and a recent two-year Ferrari factory warranty extension. No VIN is published, so the Atlas does not merge it with any VIN-based profile.",
+    "notes": "DK Engineering's current public listing documents a four-layer Bianco Italia Daytona SP3 with Blu Tour de France / Giallo Modena livery, Nero leather with Giallo detailing, extensive carbon-fibre options, Classiche Yellow Book, 325 miles, a fresh September 2026 Ferrari service by Meridien Modena, and a recent two-year Ferrari factory warranty extension. No VIN is published, so the Atlas does not merge it with any VIN-based profile. On 22 October 2026 the dealer gallery is explicitly marked Sold; older availability wording in the description is not treated as a current offer.",
     "sources": [
       "SRC-005F5D1A"
     ],
@@ -4295,7 +4321,7 @@
     "record_kind": "profile",
     "owner_public": false,
     "accessed": "2026-09-21",
-    "review_status": "2026-09-23 — Current DK Engineering listing rechecked for specification, 325-mile odometer, September 2026 Ferrari service and two-year factory warranty extension.",
+    "review_status": "2026-10-22 — Dealer gallery explicitly marked Sold; no transaction price or sale date published.",
     "sort_weight": 90
   },
   {
@@ -7577,7 +7603,7 @@
       "2025 — UK-supplied example registered LJ25VJC; Jeremy Cottingham publishes complete VIN ZFF05UMB000319132.",
       "By September 2026 — Jeremy Cottingham's current public stock page showed 88 miles and marked the car SOLD."
     ],
-    "notes": "Jeremy Cottingham's dealer page publishes the complete VIN, 88-mile odometer reading and a detailed personalization sheet. Octane Marketplace and Classic Driver syndicate the same chassis, mileage and specification. The source text inconsistently spells some Ferrari colour labels as “Blu Electrico” / “Blu Eletrico”; the Atlas standardizes the display spelling to Blu Elettrico while retaining the published trim/livery codes 6479 and 605116.",
+    "notes": "Jeremy Cottingham's dealer page publishes the complete VIN, 88-mile odometer reading and a detailed personalization sheet. Octane Marketplace and Classic Driver syndicate the same chassis, mileage and specification. The source text inconsistently spells some Ferrari colour labels as “Blu Electrico” / “Blu Eletrico”; the Atlas standardizes the display spelling to Blu Elettrico while retaining the published trim/livery codes 6479 and 605116. The dealer gallery also shows the VIN plate and factory paint label, independently supporting the published chassis and colour specification.",
     "photos": [
       {
         "url": "https://media.prestigedriver.app/assets/advert/598966/images/d226da57-93ea-489a-b83b-71cb06ef5e86/racecar-advert-598966-primary.jpg?v=1762854647",
@@ -7650,6 +7676,180 @@
         "source_url": "https://www.octane-magazine.com/cars-for-sale/ferrari-daytona-2025-598966",
         "caption": "Top view · hardtop installed",
         "credit": "Jeremy Cottingham / Octane Marketplace"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/980b9346-56c9-4b63-9ffd-103de83e7ed2.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Open cockpit and airbrushed shield",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/f9a3d928-e3f6-46d1-a99a-c1d697f3e135.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Rear wheel and silver brake caliper",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/5717b20e-1079-4d52-adbd-b94ed46bb012.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Front bumper vanes and blue accent",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/f894e9ae-760b-4328-a591-5aee1776b660.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Engine cover and rear livery",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/11277a4e-8d53-4960-b325-63ea9799432f.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Bonnet stripe and Ferrari badge",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/f213d37f-5186-4895-b055-42ef455e34b8.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Headlight and carbon front splitter",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/336bc919-09ec-4387-97f6-35d7b6ba007d.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Mirror and front wing shield",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/546a11ea-98b1-47f4-ac4e-5c11d670fc91.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Rear stripe and twin exhausts",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/ex/4ccf5731-a4ec-4e31-b1a1-87fd66a5ef04.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Rear grille and exhaust detail",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/b1cf0db4-8f10-4aa2-9779-caa1f7488b46.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Steering wheel and carbon dashboard",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/c067cd6a-135d-43aa-b25e-019f1d8c5c86.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Driver controls viewed from above",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/40277816-0a8e-4bab-b233-7fd273d702bd.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Blue Alcantara seats and centre console",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/80fdf722-5270-4ebb-8e3b-4babe771ed9c.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Digital instrument cluster",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/aec373c9-5647-4e5e-b696-effacd6af0e7.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Blue seats and red harnesses",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/a7271638-0f5b-4348-b666-e9724995dbe9.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Open door and passenger seat",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/af0ad29a-1d17-4651-8c3d-573a2250bf5e.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Driver seat and footwell",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/dc16f059-e378-45da-94f0-bde4309abb75.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Cabin viewed from passenger side",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/c899de6a-e5c4-4f4d-b9a4-376a5cce3479.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Seats and harnesses through the windscreen",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/in/048a4f94-7b5d-4919-979d-748d596da967.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Daytona SP3 dashboard embroidery",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/mu/71f45458-76d7-4cf6-9197-c58ec1ec8d75.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "V12 engine bay with rear cover open",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/mu/7b693e08-e17e-4096-b1b9-e8a200a39b3d.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Engine and intake detail",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/mu/1e762aec-dda5-49b7-b150-a00eeded246b.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Engine bay viewed from the rear",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/64a0d440-6d4d-40b9-a969-661d9fa93f12.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Limited Edition plaque",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/8e817ba5-97d1-4eaa-938d-756e637bb403.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Factory VIN plate — chassis 319132",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/20c3e10d-7ec6-42bf-9b3d-a1f3336ee915.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Factory paint label — Bianco King / Blu Elettrico / Rosso Corsa",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/62ebd518-854e-4a4a-abe9-72035d3e1536.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Homologation label",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/92da3edf-4a75-4387-932e-cad79a793fdc.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Front luggage compartment open",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/fe8657c0-9499-448c-abc7-478d30a4dbb9.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Tools and luggage compartment contents",
+        "credit": "Jeremy Cottingham"
+      },
+      {
+        "url": "https://jeremycottingham.com/files/stock/13709/images/de/7d221abb-eb8e-4d59-9b40-32ce8f2b87e8.jpg?width=2000&height=1333",
+        "source_url": "https://jeremycottingham.com/stock/2025-ferrari-daytona-sp3/13709",
+        "caption": "Handbooks and accompanying bags",
+        "credit": "Jeremy Cottingham"
       }
     ],
     "sources": [
@@ -7657,7 +7857,7 @@
       "SRC-ED5D07DE",
       "SRC-5510B3D1"
     ],
-    "review_status": "2026-09-23 — Current Jeremy Cottingham dealer page rechecked for VIN, UK registration LJ25VJC, 88-mile odometer and personalization specification; syndicated gallery retained.",
+    "review_status": "2026-10-22 — 29 additional distinct public photographs visually checked; original credits and source links retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
@@ -12043,12 +12243,282 @@
         "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
         "caption": "Red backpack and two duffel bags",
         "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34608/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Left-side profile",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34610/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Front three-quarter beside warehouse",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34609/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Low front three-quarter in courtyard",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34615/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Airbrushed shield close-up",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34611/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Rear wheel and sculpted flank",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34613/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Headlight and front grille",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34612/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Bonnet badge and matte paint",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34621/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Front fascia and splitter",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34619/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Elevated front corner",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34627/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Rear shoulder and filler cap",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34616/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Carbon side sill",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34617/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Blue door insert and pull strap",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34618/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Door speaker and blue trim",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34628/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Atelier plaque behind seats",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34620/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Open passenger doorway",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34623/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Blue headrests and Cavallino embroidery",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34622/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Seat cushions and belts",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34625/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Centre console and transmission controls",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34626/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Perforated dashboard speaker cover",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34629/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Passenger dashboard and air vent",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34635/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Carbon steering wheel lower spoke",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34637/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Manettino and textured steering-wheel grip",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34639/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Driver cockpit with roof removed",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34631/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Passenger-side cabin with roof removed",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34630/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Daytona SP3 dashboard marking through glass",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34632/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Seats and open cockpit from above",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34633/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Digital instrument cluster overview",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34638/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "V12 engine and intake manifolds",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34636/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Engine bay with cover raised",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34640/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Ferrari oil cap close-up",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34641/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Carbon engine-bay panels",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34642/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Engine bay from the rear centre",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34648/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Engine bay from left rear",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34645/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Engine bay from right rear",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34646/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Door-jamb VIN barcode label",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34644/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "US certification label",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34647/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Front luggage compartment and accessories",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34659/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Daytona SP3 bag in front compartment",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34652/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Factory paint label",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34649/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Personalisation specifications plaque",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34650/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Personalisation plaque — alternate angle",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34656/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Personalisation plaque — wider view",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34654/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Tyre-pressure label",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34653/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Red quilted luggage close-up",
+        "credit": "Broad Arrow Private Sales"
+      },
+      {
+        "url": "https://cdn.dealeraccelerate.com/collectorsgarage/3/764/34657/1920x1440/w/2024-ferrari-daytona-sp3",
+        "source_url": "https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3",
+        "caption": "Red luggage and accessory pouch",
+        "credit": "Broad Arrow Private Sales"
       }
     ],
     "sources": [
       "SRC-88087DDC"
     ],
-    "review_status": "2026-10-21 — Official catalogue and 24 photographs checked, including VIN and odometer.",
+    "review_status": "2026-10-22 — 45 additional distinct public photographs visually checked; original credits and source links retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,

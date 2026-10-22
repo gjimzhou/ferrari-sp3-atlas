@@ -141,7 +141,7 @@
     "sale": "€6,250,000 — Broad Arrow Villa d’Este 2026",
     "program": "Ferrari 个性化定制",
     "notes": "Broad Arrow 与独立底盘记录公开 VIN ZFF05UMB000286921，并确认 Rosso Magma Tri-Coat / Blu Elettrico 配置、裸露碳纤维部件、喷绘盾徽、亮黑卡钳、lift、前后摄像头、Apple CarPlay 与黑色四点式安全带。首任车主在送拍前累计 743 km；车辆保留 Racing Driver Set、硬顶、手册、车罩、工具、充电器、压缩机及 Ferrari Classiche Yellow Book。拍卖时车辆以 temporary import 方式进入意大利，并随车附有安道尔 Certificat de Matriculació。",
-    "review_status": "2026-09-21 — 已复核完整 VIN、配置、成交结果、Classiche／注册文件及两条 chassis-specific Barchetta 图片记录。",
+    "review_status": "2026-10-22 — 核对 3 张新增的不同公开照片，保留原始署名与来源链接。",
     "options": [
       "裸露碳纤维下部车身、硬顶、后视镜与后盖扰流唇",
       "喷绘 Scuderia Ferrari 盾徽",
@@ -172,7 +172,10 @@
       "发动机舱 · 碳纤维进气部件",
       "座舱 Daytona SP3 Limited Edition 铭牌",
       "副驾侧视角 · 蓝色座椅与四点式安全带",
-      "垂直俯视 · 敞开座舱与车身线条"
+      "垂直俯视 · 敞开座舱与车身线条",
+      "日落时的后侧视角",
+      "庭院内侧面轮廓",
+      "俯视车头"
     ]
   },
   "SP3-PIERO-NART": {
@@ -460,7 +463,7 @@
     "sale": "未公开出售",
     "program": "Ferrari Tailor Made 定制",
     "notes": "公开交付报道直接确认了车主与车辆关系。VIN 与精确内饰材料代码仍未公开。",
-    "review_status": "2026-10-21 — 逐张核对八张新增公开照片，保留历史图库来源；VIN 未公开。",
+    "review_status": "2026-10-22 — 核对 1 张新增的不同公开照片，保留原始署名与来源链接。",
     "options": [
       "两侧车门均有赛车号码 16",
       "灵感来自摩纳哥的红白中央涂装",
@@ -491,7 +494,8 @@
       "2025 年 5 月摩纳哥街拍 · 前侧视角",
       "历史图库来源",
       "历史图库来源",
-      "历史图库来源"
+      "历史图库来源",
+      "摩纳哥街头前侧视角 — 图库发布于 2026 年 10 月 21 日"
     ]
   },
   "SP3-CARLOS-SAINZ": {
@@ -1283,8 +1287,8 @@
     "wheels": "钻石切削锻造轮毂",
     "calipers": "Giallo 黄色",
     "mileage": "挂牌时 325 miles",
-    "status": "经销商挂牌 — 2026-09-23 复核当前页面",
-    "sale": "POA — 要价未公开",
+    "status": "已售 — 2026 年 10 月 22 日复核 DK Engineering 页面",
+    "sale": "已售；成交价与成交日期未公开",
     "program": "Ferrari 个性化定制",
     "options": [
       "Extra-range 四层 Bianco Italia 漆面",
@@ -1305,10 +1309,11 @@
       "2023 年 9 月 — 新车交付首任车主。",
       "2024 年 9 月／2025 年 10 月 — 经销商记录 Ferrari 保养。",
       "2026 年 9 月 — 由 Meridien Modena 完成最新 Ferrari 保养。",
-      "2026 年 9 月 — 经销商称近期办理两年 Ferrari 原厂延长保修；车辆里程 325 miles。"
+      "2026 年 9 月 — 经销商称近期办理两年 Ferrari 原厂延长保修；车辆里程 325 miles。",
+      "2026 年 10 月 22 日 — 复核公开经销商页面：图库标记已售；成交日期与价格未公开。"
     ],
-    "notes": "DK Engineering 当前公开挂牌记录一辆四层 Bianco Italia Daytona SP3，搭配 Blu Tour de France / Giallo Modena 涂装、Nero 皮革与 Giallo 细节、大量碳纤维选装、Classiche Yellow Book、325 miles 里程、Meridien Modena 于 2026 年 9 月完成的新一轮 Ferrari 保养，以及近期两年 Ferrari 原厂延长保修。页面未公开 VIN，因此本站不将其与任何 VIN 车档合并。",
-    "review_status": "2026-09-23 — 已复核 DK Engineering 当前页面的配置、325 miles、2026 年 9 月 Ferrari 保养及两年原厂延长保修。"
+    "notes": "DK Engineering 当前公开挂牌记录一辆四层 Bianco Italia Daytona SP3，搭配 Blu Tour de France / Giallo Modena 涂装、Nero 皮革与 Giallo 细节、大量碳纤维选装、Classiche Yellow Book、325 miles 里程、Meridien Modena 于 2026 年 9 月完成的新一轮 Ferrari 保养，以及近期两年 Ferrari 原厂延长保修。页面未公开 VIN，因此本站不将其与任何 VIN 车档合并。 2026 年 10 月 22 日经销商图库明确标记 Sold；说明正文中较早的可售措辞不视作当前报价。",
+    "review_status": "2026-10-22 — 经销商图库明确标记 Sold；未公开成交价或成交日期。"
   },
   "SP3-CNJ-BLU-LAGUNA": {
     "edition": "原始 599 辆客户生产序列",
@@ -2403,8 +2408,8 @@
     "status": "已由 Jeremy Cottingham 售出",
     "sale": "价格未公开 — 挂牌页标记为 SOLD",
     "program": "Extra-Range / 定制配置",
-    "notes": "Jeremy Cottingham 经销商页面公开完整 VIN、88 英里里程和详细个性化配置单。Octane Marketplace 与 Classic Driver 的同步挂牌再次列出相同底盘、里程与配置。来源正文对部分 Ferrari 色名存在“Blu Electrico” / “Blu Eletrico”等拼写差异；Atlas 统一显示为 Blu Elettrico，同时保留公开的 6479 与 605116 内饰／涂装代码。",
-    "review_status": "2026-09-21 — 已交叉核验完整 VIN、里程、配置单及 12 张公开经销商图库。",
+    "notes": "Jeremy Cottingham 经销商页面公开完整 VIN、88 英里里程和详细个性化配置单。Octane Marketplace 与 Classic Driver 的同步挂牌再次列出相同底盘、里程与配置。来源正文对部分 Ferrari 色名存在“Blu Electrico” / “Blu Eletrico”等拼写差异；Atlas 统一显示为 Blu Elettrico，同时保留公开的 6479 与 605116 内饰／涂装代码。 经销商图库中的 VIN 铭牌和原厂车漆标签亦支持目录公开的底盘与配色信息。",
+    "review_status": "2026-10-22 — 核对 29 张新增的不同公开照片，保留原始署名与来源链接。",
     "options": [
       "Extra-Range Bianco King 特殊双层车漆",
       "Blu Elettrico 涂装，Rosso Corsa 外缘",
@@ -2436,7 +2441,36 @@
       "侧面 · 安装硬顶",
       "后 3/4 · 涂装延续至车尾",
       "俯视 · 开放座舱与四点式安全带",
-      "俯视 · 安装硬顶"
+      "俯视 · 安装硬顶",
+      "敞开座舱与喷绘盾徽",
+      "后轮与银色制动卡钳",
+      "前保险杠导流片与蓝色饰线",
+      "发动机盖与尾部涂装",
+      "前盖条纹与 Ferrari 徽标",
+      "前灯与碳纤维前分流器",
+      "后视镜与前翼子板盾徽",
+      "尾部条纹与双排气口",
+      "尾部格栅与排气细节",
+      "方向盘与碳纤维仪表台",
+      "俯视驾驶操控区",
+      "蓝色 Alcantara 座椅与中控台",
+      "数字仪表",
+      "蓝色座椅与红色多点式安全带",
+      "开启的车门与乘客座椅",
+      "驾驶座与脚部空间",
+      "乘客侧座舱视角",
+      "透过风挡查看座椅与安全带",
+      "仪表台 Daytona SP3 刺绣",
+      "后盖开启的 V12 发动机舱",
+      "发动机与进气细节",
+      "从车尾查看发动机舱",
+      "Limited Edition 限量版铭牌",
+      "原厂 VIN 铭牌 — 底盘 319132",
+      "原厂车漆标签 — Bianco King／Blu Elettrico／Rosso Corsa",
+      "认证标签",
+      "开启的前行李厢",
+      "工具与行李厢附件",
+      "手册与随车包"
     ]
   },
   "SP3-276831-GOODWOOD": {
@@ -4249,7 +4283,7 @@
       "2026 年 10 月 21 日 — 查阅 Broad Arrow 目录：标记已售，公开完整 VIN 与 202 英里里程。"
     ],
     "notes": "官方目录公开完整 VIN，风挡照片亦可辨认，并描述目录编制时为单一车主持有。仪表照片显示 202 英里。已售标记不代表成交价格或现任车主公开；不凭黑蓝配色与匿名 SP3 记录合并。",
-    "review_status": "2026-10-21 — 核对官方目录与 24 张照片，包括 VIN 与里程表。",
+    "review_status": "2026-10-22 — 核对 45 张新增的不同公开照片，保留原始署名与来源链接。",
     "photo_captions": [
       "安装硬顶的前侧视角",
       "前轮与黑色卡钳",
@@ -4274,7 +4308,52 @@
       "碳纤维进气与机油盖",
       "风挡 VIN：ZFF05UMA7R0302914",
       "带防护套的行李与驾驶装备",
-      "红色背包与两个旅行包"
+      "红色背包与两个旅行包",
+      "左侧车身轮廓",
+      "仓库旁前侧视角",
+      "庭院内低角度前侧视角",
+      "喷绘盾徽特写",
+      "后轮与车侧曲面",
+      "前灯与前格栅",
+      "前盖徽标与哑光车漆",
+      "车头与前分流器",
+      "俯视车头一角",
+      "后肩线与加油盖",
+      "碳纤维侧裙",
+      "蓝色门板软垫与拉带",
+      "车门扬声器与蓝色饰面",
+      "座椅后方 Atelier 铭牌",
+      "开启的乘客侧车门",
+      "蓝色头枕与跃马刺绣",
+      "座垫与安全带",
+      "中控台与变速箱控制区",
+      "仪表台穿孔扬声器盖",
+      "乘客侧仪表台与出风口",
+      "方向盘下部碳纤维辐条",
+      "Manettino 旋钮与方向盘握把纹理",
+      "拆除车顶后的驾驶区",
+      "拆除车顶后的乘客侧座舱",
+      "透过玻璃查看仪表台车型标识",
+      "俯视敞开座舱与座椅",
+      "数字仪表全景",
+      "V12 发动机与进气歧管",
+      "后盖开启的发动机舱",
+      "Ferrari 机油盖特写",
+      "发动机舱碳纤维面板",
+      "正后方发动机舱视角",
+      "左后方发动机舱视角",
+      "右后方发动机舱视角",
+      "门框 VIN 条形码标签",
+      "美国认证标签",
+      "前行李厢与附件",
+      "前行李厢内 Daytona SP3 包袋",
+      "原厂车漆标签",
+      "个性化配置铭牌",
+      "个性化配置铭牌另一视角",
+      "个性化配置铭牌全景",
+      "胎压标签",
+      "红色绗缝行李特写",
+      "红色行李与附件袋"
     ]
   },
   "SP3-288430": {
