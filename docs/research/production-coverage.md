@@ -55,5 +55,4 @@ The numerator is an explicit editorial cohort, not a factory allocation register
 | SP3-302914 | ZFF05UMA7R0302914 | [Broad Arrow Private Sales](https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3) |
 | SP3-303674-SWEDEN | ZFF05UMB000303674 | [TIC](https://tic.io/foretag/cars-without-concern-ab-2946050) |
 | SP3-299402-MARIANETTI | ZFF05UMA0P0299402 | [Marianetti Motors](https://www.marianettimotors.com/used/vehicle/2023-ferrari-daytona-sp3-id14853362.htm) |
-
 | SP3-289569 | ZFF05UMA8P0289569 | [Motor1 原厂窗贴](https://www.motor1.com/news/677809/ferrari-daytona-sp3-window-sticker/), [Doug DeMuro 评测](https://www.youtube.com/watch?v=xoyPbAz2P8E) |
