@@ -57,6 +57,13 @@ export function validate(input){
   }
   if(item.vin_conflicted&&item.vin_unverified)throw Error(r.id+' VIN 状态冲突');
   if(item.vin_unverified&&(item.record_kind!=='lead'||!/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(item.vin)))throw Error(r.id+' 待核实 VIN 必须为完整 VIN 线索');
+  if(r.production_allocation!=null){
+   if(r.production_allocation!=='original-599'||item.record_kind==='prototype'||item.vin_conflicted||item.vin_unverified||!/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(item.vin))throw Error(r.id+' 原版量产分类需要已确认完整 VIN，且不得为研发车');
+   item.production_allocation=r.production_allocation;
+  }
   return item;
  });
+}
+export function originalProductionCount(records){
+ return new Set(records.filter(r=>r.production_allocation==='original-599'&&r.record_kind!=='prototype'&&!r.vin_conflicted&&!r.vin_unverified&&/^ZFF[A-HJ-NPR-Z0-9]{14}$/.test(r.vin)).map(r=>r.vin)).size;
 }

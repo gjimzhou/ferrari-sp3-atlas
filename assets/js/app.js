@@ -1,4 +1,4 @@
-import {$,tierNames,kindNames,clone,esc,absent,display,local,displayField,safeURL,validate} from './core.js';
+import {$,tierNames,kindNames,clone,esc,absent,display,local,displayField,safeURL,validate,originalProductionCount} from './core.js';
 import {mediaOf,art,bindImages,firstPhotoIndex,bindGalleryImages} from './media.js';
 import {hasMarketEvidence} from './market.js';
 import {installSources,recordSources} from './sources.js';
@@ -22,11 +22,13 @@ function setup(){
  const en=document.documentElement.lang==='en';
  $('profileKpi').textContent=profiles;
  $('vinKpi').textContent=confirmedVins;
+ const productionCount=originalProductionCount(records);
+ $('productionCoverage').textContent=en?`${productionCount}/599 original-production cars with confirmed VINs (${(productionCount/599*100).toFixed(1)}%)`:`${productionCount}/599 原版量产 VIN 覆盖（${(productionCount/599*100).toFixed(1)}%）`;
  $('photoKpi').textContent=photoCount;
  $('photoKpiLabel').textContent=en?`Gallery image references · ${photoRecords} records with images`:`图库图片引用 · ${photoRecords} 条记录有图`;
  if($('coverageSummary')) $('coverageSummary').textContent=en
-  ?`Version: ${version}. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}${unverifiedVins?` plus ${unverifiedVins} unverified indexed VIN leads`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
-  :`版本：${version}。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}${unverifiedVins?`；另有 ${unverifiedVins} 条待核实索引 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
+  ?`Version: ${version}. ${records.length} sourced research records: ${profiles} detailed profiles, ${leads} leads, and ${prototypes} pre-production / development cars; ${productionCount}/599 original-production VIN coverage; ${confirmedVins} confirmed complete public VINs${conflictedVins?` plus ${conflictedVins} source-conflicted VIN lead${conflictedVins===1?'':'s'}`:''}${unverifiedVins?` plus ${unverifiedVins} unverified indexed VIN leads`:''}; ${photoCount} gallery image references across ${photoRecords} records.`
+  :`版本：${version}。现有 ${records.length} 条有来源研究记录：${profiles} 个详细车档、${leads} 条待核对线索、${prototypes} 辆预生产／研发车；原版量产 VIN 覆盖 ${productionCount}/599；${confirmedVins} 个已确认完整公开 VIN${conflictedVins?`；另有 ${conflictedVins} 条来源冲突 VIN 线索`:''}${unverifiedVins?`；另有 ${unverifiedVins} 条待核实索引 VIN 线索`:''}；${photoCount} 条图库图片引用覆盖 ${photoRecords} 条记录。`;
  for(const [id,key,label] of [['country','country','全部国家'],['color','color','全部颜色']])selectOptions(id,[...new Set(records.map(r=>r[key]).filter(v=>!absent(v)))].sort().map(x=>[x,window.SP3Content?.text(x)??x]),label);
  selectOptions('tier',Object.entries(tierNames),'全部证据来源');
  selectOptions('indexCountry',[...new Set(sourceIndex.map(r=>r.country_code))].sort().map(c=>[c,countryLabel(c)]),'全部国家旗标');

@@ -62,3 +62,7 @@ evidence in `data/photo-rights.json`; see `PHOTO-RIGHTS.md`. The 514 gallery
 references include these source-only slots and do not imply 514 licensed images.
 
 `vin_unverified: true` marks a VIN present only in public index evidence. It must remain a lead and is excluded from confirmed VIN coverage. Missing flags retain existing behavior; `vin_conflicted` and `vin_unverified` cannot both be true.
+
+## Original-production coverage
+
+Optional `production_allocation: "original-599"` is an explicit reviewed classification, only valid for a confirmed full-VIN record outside the prototype category. Omission means unclassified or excluded; it does not mean the car is outside the production run. See [production coverage](production-coverage.md).
