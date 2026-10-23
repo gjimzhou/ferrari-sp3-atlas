@@ -25,7 +25,7 @@ string_fields = {
     key for key, definition in item_schema['properties'].items()
     if definition.get('type') == 'string'
 }
-optional_string_fields = {'accessed', 'engine_no', 'gearbox_no', 'registration'}
+optional_string_fields = {'accessed', 'engine_no', 'gearbox_no', 'registration', 'production_allocation'}
 string_fields -= optional_string_fields
 
 assert len({r['id'] for r in registry}) == len(registry), 'Duplicate record ID'
@@ -119,6 +119,10 @@ for r in registry:
     if 'vin_conflicted' in r:
         assert isinstance(r['vin_conflicted'], bool), (record_id, 'vin_conflicted must be boolean')
 
+    if 'production_allocation' in r:
+        assert r['production_allocation'] == 'original-599', (record_id, 'Unknown production allocation')
+        assert r['vin'] in confirmed_vins and r['record_kind'] != 'prototype', (record_id, 'Original allocation requires a confirmed VIN and non-prototype record')
+
     if 'market_events' in r:
         assert isinstance(r['market_events'], list), (record_id, 'market_events must be an array')
         for event in r['market_events']:
@@ -148,6 +152,8 @@ photo_count = sum(len(r.get('photos', [])) for r in registry)
 photo_records = sum(bool(r.get('photos')) for r in registry)
 
 readme = (ROOT / 'README.md').read_text()
+production_count = len({r['vin'] for r in registry if r.get('production_allocation') == 'original-599'})
+assert f'**{production_count}/599 原版量产 VIN 覆盖**' in readme, 'README production coverage is stale'
 assert f'**{len(registry)} 条有来源的研究记录**' in readme, 'README total record count is stale'
 assert f'{profile_count} 个详细车档、{lead_count} 条待核对线索、{prototype_count} 辆预生产／研发车' in readme, (
     'README record-kind counts are stale'

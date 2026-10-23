@@ -436,7 +436,8 @@
         "source_url": "https://rmsothebys.com/auctions/id25/lots/r0019-2024-ferrari-daytona-sp3/",
         "basis": "Auction house published result; not represented as hammer price"
       }
-    ]
+    ],
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-297567",
@@ -787,7 +788,8 @@
         "source_url": "https://rmsothebys.com/auctions/mo26/lots/v0003-2023-ferrari-daytona-sp3/",
         "basis": "Auction house published result; not represented as hammer price"
       }
-    ]
+    ],
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-286921",
@@ -926,7 +928,8 @@
         "source_url": "https://bid.broadarrowauctions.com/lots/view/1-CKL499/2023-ferrari-daytona-sp3",
         "basis": "Published completed-sale result; not represented as hammer price"
       }
-    ]
+    ],
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-PIERO-NART",
@@ -1976,6 +1979,24 @@
         "source_url": "https://www.autogespot.com/ferrari-daytona-sp3/2026/10/21",
         "caption": "Monaco street front three-quarter — gallery published 21 October 2026",
         "credit": "RvdS-Photography / Autogespot"
+      },
+      {
+        "url": "https://spots.ag/2025/12/24/ferrari-daytona-sp3-25205-c338524122025212812_1.jpg?1766608103",
+        "source_url": "https://www.autogespot.com/ferrari-daytona-sp3/2025/12/24",
+        "caption": "Monaco X016 public preview — 2025-12-24",
+        "credit": "adam1992 / Autogespot"
+      },
+      {
+        "url": "https://spots.ag/2025/07/21/ferrari-daytona-sp3-414e8-c164921072025193302_1.jpg?1753119227",
+        "source_url": "https://www.autogespot.com/ferrari-daytona-sp3/2025/07/21",
+        "caption": "Monaco X016 public preview — 2025-07-21",
+        "credit": "Lorenzo_MD / Autogespot"
+      },
+      {
+        "url": "https://spots.ag/2024/08/07/ferrari-daytona-sp3-9fac9-c167407082024182012_1.jpg?1723047629",
+        "source_url": "https://www.autogespot.com/ferrari-daytona-sp3-2/2024/08/07",
+        "caption": "Monaco X016 public preview — 2024-08-07",
+        "credit": "lx_carspotting / Autogespot"
       }
     ],
     "sources": [
@@ -1986,12 +2007,16 @@
       "SRC-2B480725",
       "SRC-791C7B1A",
       "SRC-22386542",
-      "SRC-7642A990"
+      "SRC-7642A990",
+      "SRC-5BB048FA",
+      "SRC-25ED773D",
+      "SRC-FF76BB49"
     ],
-    "review_status": "2026-10-22 — 1 additional distinct public photographs visually checked; original credits and source links retained.",
+    "review_status": "2026-10-23 — Added three distinct public X016 previews; source publication dates do not establish capture dates. No gated gallery accessed.",
     "record_kind": "profile",
     "owner_public": true,
-    "sort_weight": 96
+    "sort_weight": 96,
+    "accessed": "2026-10-23"
   },
   {
     "id": "SP3-CARLOS-SAINZ",
@@ -2493,7 +2518,8 @@
     "review_status": "2026-09-21 — Owner-posted arrival image, red exterior, Swedish registration plate RAF37S and full VIN ZFF05UMB000284856 cross-checked; prior erroneous white/red specification removed.",
     "record_kind": "profile",
     "owner_public": true,
-    "sort_weight": 90
+    "sort_weight": 90,
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-LEONARDO-DEL-VECCHIO",
@@ -2663,7 +2689,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 92,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-STRATSTONE-ROSSO-CARBON",
@@ -4316,12 +4343,126 @@
         "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
         "caption": "经销商原始图集 · 14",
         "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788255177_sp3_august26_pf_56.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Seat and Cavallino headrest",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788255332_sp33_august26_pf_94.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Driver cockpit from above",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788255293_sp33_august26_pf_85.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Open cockpit and harnesses",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788255178_sp3_august26_pf_47.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Harness badge detail",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254749_sp3_august26_pf_61.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "My Drive instrument screen",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254855_sp32_august26_pf_7.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Elevated front three-quarter",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254768_sp3_august26_pf_4.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Side and rear in dealer courtyard",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254767_sp3_august26_pf_18.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Rear three-quarter in sunlight",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254769_sp3_august26_pf_33.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Blue and yellow roof livery",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254769_sp3_august26_pf_19.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Rear grille and twin exhausts",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254763_sp3_august26_pf_3.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Filler cap and rear shoulder",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254766_sp3_august26_pf_21.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Rear deck livery and Ferrari script",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254765_sp3_august26_pf_11.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Headlight and front grille detail",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254748_sp3_august26_pf_55.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Front bonnet livery",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254764_sp3_august26_pf_9.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Front wheel, yellow caliper and shield",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254770_sp3_august26_pf_28.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "V12 engine bay",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254766_sp3_august26_pf_26.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Engine bay from side",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254770_sp3_august26_pf_14.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Factory paint label",
+        "credit": "DK Engineering"
+      },
+      {
+        "url": "https://www.dkeng.co.uk/sales_images/1788217200/large_1788254771_sp3_august26_pf_30.jpg",
+        "source_url": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+        "caption": "Raised rear cover underside",
+        "credit": "DK Engineering"
       }
     ],
     "record_kind": "profile",
     "owner_public": false,
-    "accessed": "2026-09-21",
-    "review_status": "2026-10-22 — Dealer gallery explicitly marked Sold; no transaction price or sale date published.",
+    "accessed": "2026-10-23",
+    "review_status": "2026-10-23 — Gallery expanded with 19 distinct dealer photographs; no complete VIN visible in the added images.",
     "sort_weight": 90
   },
   {
@@ -5386,7 +5527,7 @@
     "year": 2025,
     "vin": "ZFF05UMB000315825",
     "chassis": "315825",
-    "edition": "Tailor Made one-off specification",
+    "edition": "Original 599 production; Tailor Made one-off specification",
     "country": "Italy",
     "city": "Maranello",
     "market": "Not public",
@@ -5635,11 +5776,12 @@
       "SRC-A07C7645",
       "SRC-2ECF786A"
     ],
-    "review_status": "2026-10-19 — Twenty-four additional distinct studio photographs checked, including the visible VIN; 34 images total.",
+    "review_status": "2026-10-23 — Original-production classification corrected: bespoke Gunston livery is not an extra-production 599+1 car; existing VIN retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-10-19"
+    "accessed": "2026-10-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-319387-ROSSO-TAORMINA",
@@ -5992,7 +6134,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 98,
-    "accessed": "2026-10-16"
+    "accessed": "2026-10-16",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-306496-HENDRICK",
@@ -6012,8 +6155,8 @@
     "wheels": "Not publicly documented",
     "calipers": "Not publicly documented",
     "mileage": "Not stated in accessible dealer listing text",
-    "status": "Public Hendrick Performance listing",
-    "sale": "Please Call — Hendrick Performance",
+    "status": "Historical Hendrick Performance listing; original page unavailable",
+    "sale": "Historical call-for-price listing; current availability unknown",
     "program": "Unknown",
     "options": [],
     "timeline": [
@@ -6021,7 +6164,7 @@
       "2026 — Hendrick Performance publicly listed the used 2024 Daytona SP3 in Concord, North Carolina, publishing VIN ZFF05UMA2R0306496 and stock number H607086.",
       "2026 — Made in Maranello independently indexed serial 306496 with the same complete VIN."
     ],
-    "notes": "Hendrick Performance's public listing identifies this as a used 2024 Ferrari SP3 Daytona in Concord, North Carolina, and publishes VIN ZFF05UMA2R0306496 and stock number H607086. Made in Maranello independently indexes the same VIN and chassis number. The accessible dealer text does not publish a detailed exterior/interior build sheet, so the Atlas leaves those fields unfilled rather than inferring them from generic dealer imagery. A separate customs-data source, Enigma row shipment-3158-0, corroborates the chassis and model year and adds a historical US-bound shipment. It does not independently publish the complete VIN or establish direct delivery to Hendrick.",
+    "notes": "Hendrick Performance's public listing identifies this as a used 2024 Ferrari SP3 Daytona in Concord, North Carolina, and publishes VIN ZFF05UMA2R0306496 and stock number H607086. Made in Maranello independently indexes the same VIN and chassis number. The accessible dealer text does not publish a detailed exterior/interior build sheet, so the Atlas leaves those fields unfilled rather than inferring them from generic dealer imagery. A separate customs-data source, Enigma row shipment-3158-0, corroborates the chassis and model year and adds a historical US-bound shipment. It does not independently publish the complete VIN or establish direct delivery to Hendrick. On 23 October 2026 the original dealer URL returned an unavailable-page message; the cited listing is retained as historical evidence and not a current offer.",
     "photos": [],
     "sources": [
       "SRC-0CB7FEB7",
@@ -6033,7 +6176,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 96,
-    "accessed": "2026-10-04"
+    "accessed": "2026-10-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-310048-MIAMI",
@@ -6070,7 +6214,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 95,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-AMARI-ROSSO-MAGMA",
@@ -6724,7 +6869,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 93,
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-291935-VIN-LEAD",
@@ -6787,7 +6933,8 @@
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 98,
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-308288-VIN-LEAD",
@@ -6928,7 +7075,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 94,
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-299394-NL-VIN",
@@ -7073,7 +7221,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 96,
-    "accessed": "2026-10-14"
+    "accessed": "2026-10-14",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-291270-VIN-LEAD",
@@ -7165,7 +7314,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 92,
-    "accessed": "2026-09-22"
+    "accessed": "2026-09-22",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-288783-VIN-LEAD",
@@ -7561,7 +7711,8 @@
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 99,
-    "accessed": "2026-10-16"
+    "accessed": "2026-10-16",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-319132-COTTINGHAM",
@@ -7862,7 +8013,8 @@
     "owner_public": false,
     "sort_weight": 99,
     "accessed": "2026-09-23",
-    "registration": "LJ25VJC"
+    "registration": "LJ25VJC",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-276831-GOODWOOD",
@@ -8577,7 +8729,8 @@
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 98,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-283997-SVEN-OLOF",
@@ -8618,7 +8771,8 @@
     "record_kind": "profile",
     "owner_public": true,
     "sort_weight": 98,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-292690-VIN-LEAD",
@@ -9089,7 +9243,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-09-21"
+    "accessed": "2026-09-21",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-290745-SPORT-COLLECTION",
@@ -9538,7 +9693,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 72,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-310022-CLEARVIN",
@@ -9574,7 +9730,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 72,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-307726-CLEARVIN",
@@ -9610,7 +9767,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 72,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-294106-US-SHIPMENT",
@@ -9718,7 +9876,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-302262-VIN-LEAD",
@@ -9754,7 +9913,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-293331-VIN-LEAD",
@@ -9792,7 +9952,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "accessed": "2026-10-03"
+    "accessed": "2026-10-03",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-313507-VIN-LEAD",
@@ -9828,7 +9989,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-307154-VIN-LEAD",
@@ -9864,7 +10026,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 70,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-CAVALCADE-2026-CRASH",
@@ -9939,7 +10102,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 84,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-GOHM-SG0028",
@@ -10331,7 +10495,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 86,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-JHC00R-SWEDEN",
@@ -10344,7 +10509,7 @@
     "country": "Sweden",
     "city": "Sweden — public company vehicle register",
     "market": "Swedish-registered vehicle; original delivery market not independently established",
-    "owner": "Martin Nelson AB (public company vehicle register)",
+    "owner": "Martin Nelson AB (historical public company vehicle register)",
     "exterior": "Red",
     "color": "Red",
     "interior": "Not publicly documented",
@@ -10358,7 +10523,7 @@
     "timeline": [
       "2026-09-23 — Merinfo public company-vehicle list reviewed: plate JHC00R, Ferrari Daytona SP3, red, cabriolet, model year 2024."
     ],
-    "notes": "Merinfo's public company vehicle list records JHC00R as a red 2024 Ferrari Daytona SP3 held by Martin Nelson AB. The accessible public result does not expose a VIN or detailed registration timeline, so the Atlas retains this as a plate-backed lead and does not attempt to infer chassis identity from colour, company or geography.",
+    "notes": "Merinfo's public company vehicle list records JHC00R as a red 2024 Ferrari Daytona SP3 held by Martin Nelson AB. The accessible public result does not expose a VIN or detailed registration timeline, so the Atlas retains this as a plate-backed lead and does not attempt to infer chassis identity from colour, company or geography. On 23 October 2026 the live company fleet page no longer displayed this SP3; the earlier record is retained as historical evidence, not current company ownership.",
     "photos": [],
     "sources": [
       "SRC-E184B40C"
@@ -10367,7 +10532,7 @@
     "record_kind": "lead",
     "owner_public": true,
     "sort_weight": 76,
-    "accessed": "2026-09-23"
+    "accessed": "2026-10-23"
   },
   {
     "id": "SP3-306477-SWEDEN",
@@ -10407,7 +10572,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 87,
-    "accessed": "2026-09-23"
+    "accessed": "2026-09-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-ANA-LUX-CARBON-BERLIN",
@@ -10625,7 +10791,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 87,
-    "accessed": "2026-10-09"
+    "accessed": "2026-10-09",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-CD-991804",
@@ -11165,7 +11332,8 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 76,
-    "accessed": "2026-10-03"
+    "accessed": "2026-10-03",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-288431-SHIPMENT",
@@ -12704,7 +12872,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-10-23"
+    "accessed": "2026-10-23",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-302914",
@@ -13164,7 +13333,8 @@
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-10-21"
+    "accessed": "2026-10-21",
+    "production_allocation": "original-599"
   },
   {
     "id": "SP3-288430",
@@ -14074,6 +14244,208 @@
     "record_kind": "lead",
     "owner_public": false,
     "sort_weight": 69,
+    "accessed": "2026-10-23"
+  },
+  {
+    "id": "SP3-303674-SWEDEN",
+    "title": "Chassis 303674 — Swedish plate EGY45C",
+    "tier": "chassis",
+    "year": null,
+    "vin": "ZFF05UMB000303674",
+    "chassis": "303674",
+    "edition": "Original-production Daytona SP3; public Swedish registration identity",
+    "country": "Sweden",
+    "city": "Historical source location; current location unknown",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Not publicly documented",
+    "color": "Unknown",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public vehicle-specific record",
+    "sale": "Not publicly offered",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [],
+    "notes": "TIC’s public company fleet table pairs EGY45C with Ferrari Daytona SP3 and VIN ZFF05UMB000303674. This is a new VIN-backed registration record. Model year, paint, interior and photographs remain undocumented. Original-production classification follows the public registered road-car identity; no individual allocation number is asserted. The company fleet relationship does not identify a private driver or establish current whereabouts.",
+    "photos": [],
+    "sources": [
+      "SRC-B11E504C"
+    ],
+    "review_status": "2026-10-23 — Complete VIN, model and plate directly checked in public fleet table; configuration remains unknown.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 69,
+    "accessed": "2026-10-23",
+    "registration": "EGY45C",
+    "production_allocation": "original-599"
+  },
+  {
+    "id": "SP3-299402-MARIANETTI",
+    "title": "Grey / Black — Marianetti chassis 299402",
+    "tier": "chassis",
+    "year": 2023,
+    "vin": "ZFF05UMA0P0299402",
+    "chassis": "299402",
+    "edition": "Original 599 production",
+    "country": "Canada",
+    "city": "Woodbridge, Ontario — historical dealer listing",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Grey; dealer colour label",
+    "color": "Grey",
+    "interior": "Black; dealer trim label",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "154 km at listing",
+    "status": "Sold through Marianetti Motors, according to dealer",
+    "sale": "Sold; transaction price not published",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [],
+    "notes": "Marianetti Motors publishes VIN ZFF05UMA0P0299402 for this 2023 Daytona SP3, with grey exterior, black interior and 154 km. The description states that it was sold through the dealership. Exact factory paint and trim codes, the buyer and current location are not published. The page’s image slot is a placeholder, so no stock photograph is assigned to this VIN.",
+    "photos": [],
+    "sources": [
+      "SRC-E4B8848F"
+    ],
+    "review_status": "2026-10-23 — Complete VIN and specification checked in vehicle-specific dealer listing; no usable vehicle photo published.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 78,
+    "accessed": "2026-10-23",
+    "production_allocation": "original-599"
+  },
+  {
+    "id": "SP3-F1RST-ALUMINIUM",
+    "title": "Glossy Aluminium / Nero — F1rst Motors",
+    "tier": "dealer",
+    "year": 2023,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "United Arab Emirates",
+    "city": "Dubai — dealer listing location",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Glossy Aluminium two-layer special paint, as listed",
+    "color": "Silver",
+    "interior": "Nero Alcantara with yellow stitching and Cavallino embroidery",
+    "wheels": "Diamond-polished forged wheels",
+    "calipers": "Yellow",
+    "mileage": "30 km / 19 miles at listing",
+    "status": "Public F1rst Motors dealer-supplied listing",
+    "sale": "Listed via LuxuryPulse; availability requires dealer confirmation",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [],
+    "notes": "Dealer-supplied listing describes a 2023 Glossy Aluminium Daytona SP3 with Nero Alcantara, yellow stitching and calipers, black harnesses and diamond-polished wheels. Its public gallery supports these visible details. The listing reports 30 km (19 miles). No complete VIN is published, so this specification profile does not increase verified original-production coverage and is not merged with other silver cars. One repeated front photograph was excluded from the 17-image source gallery.",
+    "photos": [
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115592.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Front three-quarter with open doors",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115593.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Rear three-quarter with open doors",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115594.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Driver controls and carbon steering wheel",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115595.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Black seats and four-point harnesses",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115596.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Yellow brake caliper detail",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115597.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Diamond-polished wheel and brake disc",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115598.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Open door inner carbon panel",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115599.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Centre console gear selector",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115600.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Yellow contrast stitching",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115601.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Daytona SP3 dashboard embroidery",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115602.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Cavallino headrest embroidery",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115603.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Digital instrument display",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115604.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Steering wheel controls",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115605.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Passenger dashboard and footwell",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115606.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Rear view and horizontal grille",
+        "credit": "F1rst Motors / LuxuryPulse"
+      },
+      {
+        "url": "https://luxurypulse.com/images/vehicles/lp-vehicles-115608.webp",
+        "source_url": "https://luxurypulse.com/en/car/2023-ferrari-daytona-sp3-fm0178/",
+        "caption": "Front view with headlights illuminated",
+        "credit": "F1rst Motors / LuxuryPulse"
+      }
+    ],
+    "sources": [
+      "SRC-E396139D"
+    ],
+    "review_status": "2026-10-23 — Specification and 16 distinct photographs reviewed; VIN remains unpublished.",
+    "record_kind": "profile",
+    "owner_public": false,
+    "sort_weight": 78,
     "accessed": "2026-10-23"
   }
 ]

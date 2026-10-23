@@ -243,6 +243,13 @@
       "vin_unverified": {
         "type": "boolean",
         "description": "Public index VIN not verified against direct vehicle evidence; excluded from confirmed VIN counts."
+      },
+      "production_allocation": {
+        "type": "string",
+        "enum": [
+          "original-599"
+        ],
+        "description": "Explicit editorial classification of a confirmed full-VIN record within the original 599 road cars. Omit when unknown or excluded; see production-coverage.md."
       }
     }
   }
