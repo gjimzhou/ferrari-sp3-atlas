@@ -1,6 +1,6 @@
 # 原版量产 VIN 覆盖 / Original-production VIN coverage
 
-当前为 **36/599（6.0%）**。这是 Atlas 基于公开证据的分类覆盖，不是 Ferrari 官方配额台账或完整存世数量。33 的旧口径按 edition 文字筛选，现改为逐车明确标记，避免文案变化导致数字漂移。
+当前为 **37/599（6.2%）**。这是 Atlas 基于公开证据的分类覆盖，不是 Ferrari 官方配额台账或完整存世数量。33 的旧口径按 edition 文字筛选，现改为逐车明确标记，避免文案变化导致数字漂移。
 
 - 2026-10-23 新发现两条完整 VIN：瑞典车牌 EGY45C／303674（TIC 车型—车牌—VIN 对照）和加拿大 Marianetti 已售车辆 299402（逐车经销商页面）。道路登记及客户经销商记录支持原版量产分类；未取得单车配额序号。
 - 已有 Gunston 315825 的独一 Tailor Made 涂装属于配置描述。Automotive Masterpieces 将其列为客户定制道路车；将它归入原版范围是分类修正，**不是第三辆新发现 VIN**。
@@ -10,6 +10,8 @@
 - 无 VIN 的车牌、经销商配置和名人车档仍有研究价值，但不增加分子。照片不是新增车辆。
 
 The numerator is an explicit editorial cohort, not a factory allocation register. It counts distinct confirmed complete VINs classified as original-production road cars. Unknown allocation, extra-production and prototype records remain excluded. The 33→36 change consists of two newly documented VINs and one correction to an existing record.
+
+2026-10-23 本轮新增 289569：Motor1 所刊原厂窗贴直接显示完整 VIN、车型年及 Ferrari Westlake 交付商，支持美国客户道路车分类。与既有无 VIN 的 Westlake 蓝色配置档关系未确认；该配置档不增加分子。
 
 ## 可复核名单
 
@@ -53,3 +55,4 @@ The numerator is an explicit editorial cohort, not a factory allocation register
 | SP3-302914 | ZFF05UMA7R0302914 | [Broad Arrow Private Sales](https://www.broadarrowprivatesales.com/vehicles/2600097/2024-ferrari-daytona-sp3) |
 | SP3-303674-SWEDEN | ZFF05UMB000303674 | [TIC](https://tic.io/foretag/cars-without-concern-ab-2946050) |
 | SP3-299402-MARIANETTI | ZFF05UMA0P0299402 | [Marianetti Motors](https://www.marianettimotors.com/used/vehicle/2023-ferrari-daytona-sp3-id14853362.htm) |
+| SP3-289569 | ZFF05UMA8P0289569 | [Motor1 原厂窗贴](https://www.motor1.com/news/677809/ferrari-daytona-sp3-window-sticker/), [Doug DeMuro 评测](https://www.youtube.com/watch?v=xoyPbAz2P8E) |
