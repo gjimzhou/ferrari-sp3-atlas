@@ -15126,5 +15126,42 @@
     "owner_public": true,
     "sort_weight": 85,
     "accessed": "2026-11-01"
+  },
+  {
+    "id": "SP3-294110-SHIPMENT",
+    "title": "Chassis 294110 — United States shipment",
+    "tier": "registry",
+    "year": 2023,
+    "vin": "ZFF05UMA6P0294110",
+    "chassis": "294110",
+    "edition": "Original 599 production",
+    "country": "Unknown",
+    "city": "Unknown",
+    "market": "United States-bound shipment; current market unknown",
+    "owner": "Not public",
+    "exterior": "Not publicly documented",
+    "color": "Unknown",
+    "interior": "Not publicly documented",
+    "wheels": "Not publicly documented",
+    "calipers": "Not publicly documented",
+    "mileage": "Not public",
+    "status": "Public shipment record; current whereabouts unknown",
+    "sale": "Not public",
+    "program": "Not publicly documented",
+    "options": [],
+    "timeline": [
+      "2024-08-20 — Published shipment data identifies a 2023 Ferrari Daytona SP3 with complete VIN ZFF05UMA6P0294110, Genoa to New York/Newark."
+    ],
+    "notes": "Enigma publishes U.S. Customs AMS-derived data. In record shipment-3820-0, the cargo description itself names a 2023 Ferrari Daytona SP3 and prints complete VIN ZFF05UMA6P0294110; it is not reconstructed from a chassis suffix or decoder. The stored trade date is 2024-08-20; browser-local display can shift the date by one day. This is a trade-data transcription, not an inspected original bill of lading or Ferrari allocation ledger. The documented 2023 production-model shipment supports the Atlas original-production classification, consistent with its existing shipment-record standard. Owner, specification, mileage, sale and current location are unconfirmed. Generic model illustrations in the source are not photographs of this car.",
+    "photos": [],
+    "sources": [
+      "SRC-B9D48C99"
+    ],
+    "review_status": "2026-11-01 — Complete VIN read directly from the published cargo description; no duplicate in the registry. Original document and configuration remain unavailable.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 77,
+    "accessed": "2026-11-01",
+    "production_allocation": "original-599"
   }
 ]

@@ -1799,5 +1799,12 @@
     "publisher": "The Supercar Blog",
     "description": "Verstappen SP3 Monaco report, 28 October 2026",
     "url": "https://www.thesupercarblog.com/max-verstappens-ferrari-daytona-sp3-spotted-in-monaco/"
+  },
+  {
+    "id": "SRC-B9D48C99",
+    "label": "Enigma Technologies — Daytona SP3 customs-manifest transcription, chassis 294110",
+    "publisher": "Enigma Technologies",
+    "description": "Public U.S. Customs AMS-derived shipment data; the published cargo description directly names model-year 2023 Daytona SP3 and complete VIN 294110. Original bill of lading not inspected.",
+    "url": "https://ferrari-imports.enigmatechnologies.dev/"
   }
 ]
