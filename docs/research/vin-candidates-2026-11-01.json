@@ -212,7 +212,16 @@
     {
       "vin": "ZFF05UMB000303673",
       "source_url": "https://made-in-maranello.fr/en/chassis/vin/ZFF05UMB000303673",
-      "status": "Needs primary evidence"
+      "status": "Needs primary evidence",
+      "corroborating_chassis_evidence": {
+        "source_url": "https://www.finecars.cc/de/editorial/article/news/inaugural-royal-automobile-club-concours-opened-to-public-at-stately-clubhouse-in-surrey/index.html?cHash=ce78c434e8&no_cache=1&tx_ttnews%5BbackPid%5D=300",
+        "accessed": "2026-11-01",
+        "event": "Royal Automobile Club Concours 2025, RM Sotheby’s Supercar Boulevard",
+        "reported_chassis": "303673",
+        "reported_specification": "Red metallic with silver stripes",
+        "limitation": "Search-indexed event table identifies only the six-digit chassis. Direct page fetch returned 502. Does not independently verify the complete VIN or qualify for the confirmed production count.",
+        "next_evidence": "Readable VIN plate or an original vehicle document identifying all 17 characters."
+      }
     },
     {
       "vin": "ZFF05UMB000303688",
