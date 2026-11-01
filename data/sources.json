@@ -1771,5 +1771,33 @@
     "publisher": "Joe Macari",
     "description": "syndicated specification",
     "url": "https://www.supercartrader.com/ferrari-daytona-sp3-3927"
+  },
+  {
+    "id": "SRC-DA6D8EEC",
+    "label": "Sport Auto — Leclerc delivery and Monaco video stills",
+    "publisher": "Sport Auto",
+    "description": "Leclerc delivery and Monaco video stills",
+    "url": "https://www.sportauto.fr/actu/insolites-actu/charles-leclerc-f1-exhibe-nouvelle-ferrari-sp3-daytona-monaco-video-412258.html"
+  },
+  {
+    "id": "SRC-AA18D2B9",
+    "label": "Sport Auto — Leclerc explains his Daytona SP3 configuration",
+    "publisher": "Sport Auto",
+    "description": "Leclerc explains his Daytona SP3 configuration",
+    "url": "https://www.sportauto.fr/actu/insolites-actu/charles-leclerc-presente-nouvelle-ferrari-daytona-sp3-customisee-2024-video-420538.html"
+  },
+  {
+    "id": "SRC-BF0BE722",
+    "label": "ItalPassion — Red / silver SP3 attributed to Max Verstappen",
+    "publisher": "ItalPassion",
+    "description": "Red / silver SP3 attributed to Max Verstappen",
+    "url": "https://www.italpassion.fr/en/ferrari/nine-months-after-delivery-max-verstappens-new-16-million-euro-ferrari-v12-was-spotted-in-monaco/"
+  },
+  {
+    "id": "SRC-B93C0B34",
+    "label": "The Supercar Blog — Verstappen SP3 Monaco report, 28 October 2026",
+    "publisher": "The Supercar Blog",
+    "description": "Verstappen SP3 Monaco report, 28 October 2026",
+    "url": "https://www.thesupercarblog.com/max-verstappens-ferrari-daytona-sp3-spotted-in-monaco/"
   }
 ]
