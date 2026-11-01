@@ -1,0 +1,178 @@
+{
+  "reviewed": "2026-11-01",
+  "source_url": "https://ferrari-imports.enigmatechnologies.dev/",
+  "source_asset_url": "https://ferrari-imports.enigmatechnologies.dev/assets/index-BliLyrjA.js",
+  "source_asset_sha256": "555e9ba0979d6721e50dba86d99cb937c986f2aadd07225af906d68372382233",
+  "scope": "Public secondary AMS cargo transcription, original bills not reviewed. These are research candidates, not confirmed VINs or additions to 38/599. Model linkage reviewed within each individual cargo unit; other models in shared manifests excluded. No private shipper or consignee data reproduced.",
+  "candidates": [
+    {
+      "chassis": "299325",
+      "vin": null,
+      "shipment_row_id": "shipment-1950-0",
+      "shipment_date": "2023-11-24",
+      "reported_model_year": "2023",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "299807",
+      "vin": null,
+      "shipment_row_id": "shipment-2173-0",
+      "shipment_date": "2024-01-04",
+      "reported_model_year": "2023",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "304048",
+      "vin": null,
+      "shipment_row_id": "shipment-2197-0",
+      "shipment_date": "2024-01-10",
+      "reported_model_year": "2024",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "303523",
+      "vin": null,
+      "shipment_row_id": "shipment-2873-0",
+      "shipment_date": "2024-04-15",
+      "reported_model_year": null,
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix.",
+      "source_warning": "Cargo text says MY204; not silently corrected to a four-digit model year."
+    },
+    {
+      "chassis": "308923",
+      "vin": null,
+      "shipment_row_id": "shipment-3440-0",
+      "shipment_date": "2024-06-20",
+      "reported_model_year": "2024",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "307722",
+      "vin": null,
+      "shipment_row_id": "shipment-4007-0",
+      "shipment_date": "2024-08-24",
+      "reported_model_year": "2024",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "309499",
+      "vin": null,
+      "shipment_row_id": "shipment-4371-0",
+      "shipment_date": "2024-10-10",
+      "reported_model_year": "2024",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "309512",
+      "vin": null,
+      "shipment_row_id": "shipment-4413-0",
+      "shipment_date": "2024-10-15",
+      "reported_model_year": "2024",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "314121",
+      "vin": null,
+      "shipment_row_id": "shipment-4658-0",
+      "shipment_date": "2024-11-22",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "313859",
+      "vin": null,
+      "shipment_row_id": "shipment-4659-0",
+      "shipment_date": "2024-11-22",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "314102",
+      "vin": null,
+      "shipment_row_id": "shipment-4743-0",
+      "shipment_date": "2024-12-02",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "312426",
+      "vin": null,
+      "shipment_row_id": "shipment-4984-0",
+      "shipment_date": "2024-12-17",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "314845",
+      "vin": null,
+      "shipment_row_id": "shipment-5192-0",
+      "shipment_date": "2025-01-24",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "314847",
+      "vin": null,
+      "shipment_row_id": "shipment-5221-0",
+      "shipment_date": "2025-01-28",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "316252",
+      "vin": null,
+      "shipment_row_id": "shipment-5268-0",
+      "shipment_date": "2025-02-25",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    },
+    {
+      "chassis": "319134",
+      "vin": null,
+      "shipment_row_id": "shipment-5692-0",
+      "shipment_date": "2025-04-08",
+      "reported_model_year": "2025",
+      "model": "Daytona SP3",
+      "status": "Chassis-only shipment candidate; complete VIN not established",
+      "next_evidence_needed": "Public dealer/registration/vehicle-label source showing the complete 17-character VIN; do not calculate or infer the missing prefix."
+    }
+  ],
+  "other_leads": [
+    {
+      "source_url": "https://www.reddit.com/r/Ferrari/comments/1h6qhtz/couple_of_daytonas_and_more/",
+      "reported_date": "2024-12-04",
+      "description": "Original poster states a window sticker belongs to the exposed-carbon SP3 at Ferrari Silicon Valley. Search-readable comments mention only 306xxx.",
+      "status": "Original sticker image not accessible during review; VIN not established. Do not equate with 306496 or other carbon cars."
+    }
+  ]
+}
