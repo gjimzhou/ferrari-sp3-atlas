@@ -10,7 +10,7 @@ The source has extraction errors elsewhere, including a supposed VIN made from a
 
 ## Unresolved: 312304
 
-[Eximpedia's public search result](https://www.eximpedia.app/hs-code/571292) associates `ZFF05UML9S0312304` with a 2025 Daytona SP3 and engine 571292. A direct web fetch returned HTTP 402; no access restriction was bypassed. The page also treats the engine number as a commodity heading, indicating an extraction problem. Without a directly reviewed vehicle document or corroborating manifest, this remains a research candidate and is not added to the registry or numerator.
+[Eximpedia's public cargo excerpt](https://www.eximpedia.app/hs-code/571292) associates `ZFF05UML9S0312304` with a 2025 Daytona SP3 and engine 571292. Although a web fetch returned HTTP 402, the ordinary public browser page displayed the vehicle description without authentication; no access restriction was bypassed. Two identical displayed rows are one candidate, not two cars. The page treats the engine number as a commodity heading, indicating an extraction problem, and exposes neither a shipment date nor a bill identifier. Its linked Ferrari company sample also contains unrelated commodity classifications. Without a dated vehicle document or corroborating manifest, this remains a research candidate and is not added to the registry or numerator. Adjacent supplier/competitor links do not establish an importer or owner.
 
 ## Other exclusions
 
