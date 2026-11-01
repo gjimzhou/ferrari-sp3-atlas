@@ -1,0 +1,14 @@
+{
+  "accessed": "2026-11-01",
+  "source_url": "https://ferrari-imports.enigmatechnologies.dev/",
+  "published_asset_url": "https://ferrari-imports.enigmatechnologies.dev/assets/index-BliLyrjA.js",
+  "asset_sha256": "555e9ba0979d6721e50dba86d99cb937c986f2aadd07225af906d68372382233",
+  "source_record_id": "shipment-3820-0",
+  "trade_date": "20240820",
+  "vehicle_excerpt": "1 UNIT 2023 FERRARI DAYTONA SP3 ZFF05UMA6P0294110",
+  "vin": "ZFF05UMA6P0294110",
+  "origin_port": "Genoa",
+  "destination_port": "New York/Newark",
+  "evidence_type": "Published AMS cargo-description transcription; original bill of lading not inspected",
+  "excluded": "Private shipper/consignee names and generic model images are not reproduced"
+}

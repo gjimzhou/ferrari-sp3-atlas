@@ -1,6 +1,6 @@
 # 原版量产 VIN 覆盖 / Original-production VIN coverage
 
-当前为 **37/599（6.2%）**。这是 Atlas 基于公开证据的分类覆盖，不是 Ferrari 官方配额台账或完整存世数量。33 的旧口径按 edition 文字筛选，现改为逐车明确标记，避免文案变化导致数字漂移。
+当前为 **38/599（6.3%）**。这是 Atlas 基于公开证据的分类覆盖，不是 Ferrari 官方配额台账或完整存世数量。33 的旧口径按 edition 文字筛选，现改为逐车明确标记，避免文案变化导致数字漂移。
 
 - 2026-10-23 新发现两条完整 VIN：瑞典车牌 EGY45C／303674（TIC 车型—车牌—VIN 对照）和加拿大 Marianetti 已售车辆 299402（逐车经销商页面）。道路登记及客户经销商记录支持原版量产分类；未取得单车配额序号。
 - 已有 Gunston 315825 的独一 Tailor Made 涂装属于配置描述。Automotive Masterpieces 将其列为客户定制道路车；将它归入原版范围是分类修正，**不是第三辆新发现 VIN**。
@@ -56,3 +56,6 @@ The numerator is an explicit editorial cohort, not a factory allocation register
 | SP3-303674-SWEDEN | ZFF05UMB000303674 | [TIC](https://tic.io/foretag/cars-without-concern-ab-2946050) |
 | SP3-299402-MARIANETTI | ZFF05UMA0P0299402 | [Marianetti Motors](https://www.marianettimotors.com/used/vehicle/2023-ferrari-daytona-sp3-id14853362.htm) |
 | SP3-289569 | ZFF05UMA8P0289569 | [Motor1 原厂窗贴](https://www.motor1.com/news/677809/ferrari-daytona-sp3-window-sticker/), [Doug DeMuro 评测](https://www.youtube.com/watch?v=xoyPbAz2P8E) |
+| SP3-294110-SHIPMENT | ZFF05UMA6P0294110 | [Enigma Technologies](https://ferrari-imports.enigmatechnologies.dev/) |
+
+2026-11-01 新增 294110：Enigma 发布的 AMS 海关货物描述直接给出 2023 年款 Daytona SP3 与完整 VIN；按既有公开货运转录标准归入原版量产。未查验原始提单或单车配额台账，具体配置及车主未知。详见 [核验记录](2026-11-01-shipment-vin.md)。
