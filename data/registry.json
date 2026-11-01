@@ -6752,8 +6752,8 @@
     "wheels": "Forged diamond wheels, as catalogued",
     "calipers": "Red brake calipers visible in public photography",
     "mileage": "2,948 miles at London 2026 cataloguing",
-    "status": "Catalogued for RM Sotheby’s London, 31 October 2026",
-    "sale": "Estimate GBP 7,500,000–9,500,000; auction scheduled 31 October 2026; no result as of 13 October",
+    "status": "Sold — RM Sotheby’s London 2026",
+    "sale": "GBP 8,161,250 — published RM Sotheby’s London result, 31 October 2026",
     "program": "Ferrari factory development / press car",
     "options": [
       "Giallo Triplo Strato exterior",
@@ -6763,7 +6763,7 @@
     "timeline": [
       "July 2022 — VIN-specific registry page documents chassis 277499 at Zandvoort with Italian plate GJ-563-FL and six photos, including a visible VIN marking.",
       "March 2025 — First private acquisition through H.R. Owen Ferrari Hatfield, according to RM.",
-      "31 October 2026 — Scheduled RM Sotheby’s London auction; outcome pending as of 13 October."
+      "31 October 2026 — Sold at RM Sotheby’s London for GBP 8,161,250, as published by the auction house."
     ],
     "notes": "RM identifies the existing VIN as a June 2022 development car, retained by Ferrari until March 2025 and then acquired by its first private owner through H.R. Owen Ferrari Hatfield. Its Vettura Di Sviluppo plaque does not establish a numbered customer allocation. The earlier Italian-plated Zandvoort photographs remain as historical evidence. Additional gallery labels show assembly number 199702 and a June 2022 build date; the personalization plate carries serial 277499. Assembly number is not an edition number.",
     "photos": [
@@ -7061,12 +7061,22 @@
       "SRC-F08BE3DB",
       "SRC-17A29963"
     ],
-    "review_status": "2026-10-16 — 22 additional distinct photographs visually checked; 48 gallery references total.",
+    "review_status": "2026-11-01 — Official auction page confirms sold result of GBP 8,161,250; development-car classification retained.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 92,
-    "accessed": "2026-10-16",
-    "registration": "UK V5C"
+    "accessed": "2026-11-01",
+    "registration": "UK V5C",
+    "market_events": [
+      {
+        "type": "auction_result",
+        "amount": 8161250,
+        "currency": "GBP",
+        "event": "RM Sotheby’s London 2026",
+        "source_url": "https://rmsothebys.com/auctions/lf26/lots/r0063-2022-ferrari-daytona-sp3/",
+        "basis": "Published completed-sale result; not represented as hammer price"
+      }
+    ]
   },
   {
     "id": "SP3-289571-VIN-LEAD",
@@ -12610,8 +12620,8 @@
     "wheels": "Silver/grey five-spoke wheels visible in catalogue photographs; factory finish code not published",
     "calipers": "Gloss black",
     "mileage": "81 miles at cataloguing",
-    "status": "Upcoming auction",
-    "sale": "Estimate $16,000,000–$18,000,000 — Broad Arrow Las Vegas, 31 October 2026; no sale result yet",
+    "status": "Auction date passed; official result pending verification",
+    "sale": "Pre-sale estimate $16,000,000–$18,000,000 — Broad Arrow Las Vegas, 31 October 2026; official result not yet verified",
     "program": "Ferrari Tailor Made",
     "options": [
       "Extra-range Verde Francesca paint",
@@ -12628,9 +12638,9 @@
       "October 2024 — Manufactured as a 2025 model-year car.",
       "Delivered new through Ferrari Long Island to its original owner.",
       "October 2026 — Broad Arrow published VIN, specification and 81-mile catalogue mileage.",
-      "31 October 2026 — Scheduled for Broad Arrow Las Vegas; estimate $16m–$18m, not a completed sale."
+      "31 October 2026 — Scheduled auction date; as of 1 November the official vehicle page still displays the pre-sale estimate, with result unverified."
     ],
-    "notes": "Broad Arrow publishes the full VIN and describes an original-owner US-specification car. Catalogue photos show the Mustard fabric cabin, Tailor Made plaque and 81-mile odometer. The manufacture date precedes the 2025 model year. Auction estimates are prospective, not transaction prices; no owner identity or connection to another green SP3 is inferred.",
+    "notes": "Broad Arrow publishes the full VIN and describes an original-owner US-specification car. Catalogue photos show the Mustard fabric cabin, Tailor Made plaque and 81-mile odometer. The manufacture date precedes the 2025 model year. The scheduled auction date has passed. The official vehicle page checked on 1 November still shows the estimate, which is not a confirmed transaction price; no owner identity or connection to another green SP3 is inferred.",
     "photos": [
       {
         "url": "https://cdn.dealeraccelerate.com/bagauction/44/6851/330048/1920x1440/2025-ferrari-daytona-sp3.webp",
@@ -13182,11 +13192,11 @@
     "sources": [
       "SRC-89271EA8"
     ],
-    "review_status": "2026-10-23 — All 91 official catalogue images checked; 60 distinct detail photographs added. Auction remains prospective.",
+    "review_status": "2026-11-01 — Auction date has passed; official vehicle page still displays the estimate. Conflicting secondary prices not adopted.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-10-23",
+    "accessed": "2026-11-01",
     "production_allocation": "original-599"
   },
   {
@@ -14821,5 +14831,139 @@
     "sort_weight": 97,
     "accessed": "2026-10-23",
     "production_allocation": "original-599"
+  },
+  {
+    "id": "SP3-DUBAI-290MM-TRIBUTE",
+    "title": "Blue / red 290 MM tribute — Dubai",
+    "tier": "registry",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "United Arab Emirates",
+    "city": "Dubai (public sighting)",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Blue front bodywork and red rear bodywork with yellow dividing accents; factory paint names unconfirmed",
+    "color": "Blue",
+    "interior": "Not public",
+    "wheels": "Silver and dark five-spoke wheels visible in public photographs",
+    "calipers": "Not public",
+    "mileage": "Not public",
+    "status": "Public configuration record; current status unconfirmed",
+    "sale": "Not publicly offered",
+    "program": "Not public",
+    "options": [],
+    "timeline": [
+      "1 November 2026 — Public source description and five visible gallery images reviewed."
+    ],
+    "notes": "ECR explicitly describes a livery inspired by Ferrari 290 MM chassis 0626. That is the historic inspiration, not this SP3 chassis number. Five public photographs show the configuration in Dubai. No complete VIN, model year, owner, exact paint code or numbered allocation is established; this configuration lead does not increase confirmed VIN coverage.",
+    "photos": [
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/full/1234145",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/136713",
+        "caption": "Front three-quarter outside showroom",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1136371",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/136713",
+        "caption": "Front three-quarter at night",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1136070",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/136713",
+        "caption": "Rear three-quarter at night",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1136372",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/136713",
+        "caption": "Yellow divider and Scuderia shield",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1136061",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/136713",
+        "caption": "Night street side view",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      }
+    ],
+    "sources": [
+      "SRC-4D912AB3"
+    ],
+    "review_status": "2026-11-01 — Public images visually checked; restricted identity fields were not accessed.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 75,
+    "accessed": "2026-11-01"
+  },
+  {
+    "id": "SP3-MICHIGAN-RED-DELIVERY",
+    "title": "Red SP3 — Michigan delivery record",
+    "tier": "registry",
+    "year": null,
+    "vin": "Not public",
+    "chassis": "Not public",
+    "edition": "Production allocation not publicly linked",
+    "country": "United States",
+    "city": "West Bloomfield Township, Michigan (source location)",
+    "market": "Not public",
+    "owner": "Not public",
+    "exterior": "Red bodywork with dark roof; exact factory paint unconfirmed",
+    "color": "Red",
+    "interior": "Not public",
+    "wheels": "Silver and dark five-spoke wheels visible in public photographs",
+    "calipers": "Yellow, visible in public photographs",
+    "mileage": "Not public",
+    "status": "Public configuration record; current status unconfirmed",
+    "sale": "Not publicly offered",
+    "program": "Not public",
+    "options": [],
+    "timeline": [
+      "1 November 2026 — Public source description and five visible gallery images reviewed."
+    ],
+    "notes": "ECR describes this as the first Daytona SP3 delivered to Michigan; that claim is attributed to ECR and not independently established here. Public photographs show a red car, silver/dark five-spoke wheels and yellow brake calipers. Source location is not a current owner address. No VIN, model year or owner is inferred from the photographs, and no identity match with other red SP3 records is asserted.",
+    "photos": [
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/full/378513",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/59704",
+        "caption": "Front three-quarter in parking area",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/381277",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/59704",
+        "caption": "Rear three-quarter near delivery truck",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/393672",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/59704",
+        "caption": "Showroom service-lift view",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/393673",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/59704",
+        "caption": "Closer service-lift view",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      },
+      {
+        "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/418605",
+        "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/59704",
+        "caption": "Front view with doors raised",
+        "credit": "Exclusive Car Registry / contributing photographers"
+      }
+    ],
+    "sources": [
+      "SRC-5EE66602"
+    ],
+    "review_status": "2026-11-01 — Public images visually checked; restricted identity fields were not accessed.",
+    "record_kind": "lead",
+    "owner_public": false,
+    "sort_weight": 75,
+    "accessed": "2026-11-01"
   }
 ]
