@@ -1806,5 +1806,12 @@
     "publisher": "Enigma Technologies",
     "description": "Public U.S. Customs AMS-derived shipment data; the published cargo description directly names model-year 2023 Daytona SP3 and complete VIN 294110. Original bill of lading not inspected.",
     "url": "https://ferrari-imports.enigmatechnologies.dev/"
+  },
+  {
+    "id": "SRC-EB17B3CB",
+    "label": "Broad Arrow — official Las Vegas 2026 results",
+    "publisher": "Broad Arrow Auctions / GlobeNewswire",
+    "description": "Auction-house release dated 2 November 2026: Lot 186 Daytona SP3 sold for USD 18,540,000 including buyer’s premium.",
+    "url": "https://www.globenewswire.com/news-release/2026/11/02/3393628/0/en/ferrari-supercars-dominate-broad-arrow-s-record-setting-92-8-million-auction-in-partnership-with-concours-at-wynn-las-vegas.html"
   }
 ]

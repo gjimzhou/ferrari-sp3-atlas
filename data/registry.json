@@ -12699,15 +12699,15 @@
     "country": "United States",
     "city": "Delivered through Ferrari Long Island; catalogued for Las Vegas",
     "market": "US specification",
-    "owner": "Original owner; identity not publicly disclosed",
+    "owner": "Original consignor and subsequent buyer identities not publicly disclosed",
     "exterior": "Verde Francesca with glossy exposed-carbon details",
     "color": "Green",
     "interior": "Nero Alcantara with Mustard Aunde Jeans seats and door padding",
     "wheels": "Silver/grey five-spoke wheels visible in catalogue photographs; factory finish code not published",
     "calipers": "Gloss black",
     "mileage": "81 miles at cataloguing",
-    "status": "Auction date passed; official result pending verification",
-    "sale": "Pre-sale estimate $16,000,000–$18,000,000 — Broad Arrow Las Vegas, 31 October 2026; official result not yet verified",
+    "status": "Sold — Broad Arrow Las Vegas 2026",
+    "sale": "USD 18,540,000 including buyer’s premium — Broad Arrow Las Vegas, 31 October 2026",
     "program": "Ferrari Tailor Made",
     "options": [
       "Extra-range Verde Francesca paint",
@@ -12724,9 +12724,9 @@
       "October 2024 — Manufactured as a 2025 model-year car.",
       "Delivered new through Ferrari Long Island to its original owner.",
       "October 2026 — Broad Arrow published VIN, specification and 81-mile catalogue mileage.",
-      "31 October 2026 — Scheduled auction date; as of 1 November the official vehicle page still displays the pre-sale estimate, with result unverified."
+      "31 October 2026 — Sold at Broad Arrow Las Vegas for USD 18,540,000 including buyer’s premium; official result published 2 November 2026."
     ],
-    "notes": "Broad Arrow publishes the full VIN and describes an original-owner US-specification car. Catalogue photos show the Mustard fabric cabin, Tailor Made plaque and 81-mile odometer. The manufacture date precedes the 2025 model year. The scheduled auction date has passed. The official vehicle page checked on 1 November still shows the estimate, which is not a confirmed transaction price; no owner identity or connection to another green SP3 is inferred.",
+    "notes": "Broad Arrow publishes the full VIN and describes an original-owner US-specification consignment. Catalogue photos show the Mustard fabric cabin, Tailor Made plaque and 81-mile odometer. The manufacture date precedes the 2025 model year. The auction house’s 2 November results release identifies Lot 186 and the same Verde Francesca/Mustard specification, confirming USD 18,540,000 including buyer’s premium. Buyer identity is not disclosed.",
     "photos": [
       {
         "url": "https://cdn.dealeraccelerate.com/bagauction/44/6851/330048/1920x1440/2025-ferrari-daytona-sp3.webp",
@@ -13276,13 +13276,14 @@
       }
     ],
     "sources": [
-      "SRC-89271EA8"
+      "SRC-89271EA8",
+      "SRC-EB17B3CB"
     ],
-    "review_status": "2026-11-01 — Auction date has passed; official vehicle page still displays the estimate. Conflicting secondary prices not adopted.",
+    "review_status": "2026-11-03 — Official Broad Arrow results release confirms Lot 186 sold for USD 18,540,000 including buyer’s premium.",
     "record_kind": "profile",
     "owner_public": false,
     "sort_weight": 99,
-    "accessed": "2026-11-01",
+    "accessed": "2026-11-03",
     "production_allocation": "original-599"
   },
   {
