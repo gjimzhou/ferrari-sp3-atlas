@@ -1,0 +1,383 @@
+{
+  "date": "2026-11-03",
+  "objective": "Replace VIN-dependent work with at least 50 distinct, attributed photo additions to existing cars; prioritize Leclerc and validate bilingual captions before publication.",
+  "reason": "User explicitly requested photos first if full VINs cannot be confirmed. The goal API cannot replace its blocked unfinished VIN goal; this records the new authorized scope without falsely completing it.",
+  "added": 51,
+  "records": {
+    "SP3-291934-DRIVE-VINTAGE": 40,
+    "SP3-CHARLES-LECLERC": 10,
+    "SP3-TIRIAC-316193": 1
+  },
+  "verification": [
+    "All selected published image URLs downloaded successfully and visually inspected in contact sheets alongside existing galleries.",
+    "Drive Vintage gallery: omitted six near-identical views/crops in addition to existing images.",
+    "Leclerc: omitted composite image and near-identical frames; selected ten distinct handover, presentation, interior and waterfront images.",
+    "Tiriac: new hero selected; two changed gallery URLs show existing cockpit/wheel photos and were excluded.",
+    "No generated images, inferred VINs, new ownership assertions or copied local media assets. Existing source-only fallback retained."
+  ],
+  "rejected_sources": [
+    "Carrio old listing now resolves to general inventory; unrelated vehicle pictures excluded.",
+    "Classic Driver withdrawn listings expose only the existing cover photo.",
+    "Autogespot Premium-only images excluded.",
+    "Autosprint 2023 Leclerc configurator renders excluded."
+  ],
+  "photos": [
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-22-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear grille and twin exhaust outlets",
+      "caption_zh": "Drive Vintage — 尾部格栅与双排气出口"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-29-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Low rear quarter beside the white facade",
+      "caption_zh": "Drive Vintage — 白色建筑旁的低角度后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-30-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear wheel, diffuser and rear quarter",
+      "caption_zh": "Drive Vintage — 后轮、扩散器与后翼子板"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-31-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Ground-level rear quarter along the rails",
+      "caption_zh": "Drive Vintage — 沿铁轨拍摄的贴地后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-32-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear fascia beneath the concrete overhang",
+      "caption_zh": "Drive Vintage — 混凝土雨棚下的车尾"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-56-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Head-on view beneath the overhang",
+      "caption_zh": "Drive Vintage — 雨棚下的正面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-60-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front quarter beside the railway platform",
+      "caption_zh": "Drive Vintage — 铁路站台旁的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-62-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Wide front quarter against the white facade",
+      "caption_zh": "Drive Vintage — 白色建筑前的宽幅前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-64-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Tilted front quarter along the rails",
+      "caption_zh": "Drive Vintage — 沿铁轨拍摄的倾斜前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-73-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Elevated head-on view with both doors open",
+      "caption_zh": "Drive Vintage — 双门开启的高角度正面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-76-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Open-door front quarter on the railway tracks",
+      "caption_zh": "Drive Vintage — 铁轨上双门开启的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-79-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Side profile with the near door raised",
+      "caption_zh": "Drive Vintage — 近侧车门升起的侧面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-84-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Distant side profile through the trackside foreground",
+      "caption_zh": "Drive Vintage — 透过铁轨前景拍摄的远景侧面"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-86-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Raised door framed by the building entrance",
+      "caption_zh": "Drive Vintage — 建筑入口前升起的车门"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-89-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — High front quarter with doors raised",
+      "caption_zh": "Drive Vintage — 双门升起的高角度前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-94-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Side profile behind trackside gravel",
+      "caption_zh": "Drive Vintage — 铁轨碎石后的侧面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-97-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear view aligned with the railway tracks",
+      "caption_zh": "Drive Vintage — 沿铁轨轴线拍摄的车尾"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-98-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Low rear quarter against the sky",
+      "caption_zh": "Drive Vintage — 以天空为背景的低角度后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-99-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear quarter on the railway tracks",
+      "caption_zh": "Drive Vintage — 铁轨上的后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-100-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front quarter framed by the white facade",
+      "caption_zh": "Drive Vintage — 白色建筑前的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-108-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front quarter seen past a concrete pillar",
+      "caption_zh": "Drive Vintage — 从混凝土柱后拍摄的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-110-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — High close-up of the nose and white roundel",
+      "caption_zh": "Drive Vintage — 车头与白色圆形涂装的高角度特写"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-111-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front quarter showing the gold wheels",
+      "caption_zh": "Drive Vintage — 展示金色轮毂的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-112-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Wide rear quarter across the railway line",
+      "caption_zh": "Drive Vintage — 横跨铁轨拍摄的宽幅后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-113-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear quarter against the geometric facade",
+      "caption_zh": "Drive Vintage — 几何外墙前的后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-115-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear quarter above the gravel foreground",
+      "caption_zh": "Drive Vintage — 碎石前景上方的后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-117-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Distant head-on view along the tracks",
+      "caption_zh": "Drive Vintage — 沿铁轨拍摄的远景正面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-120-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front quarter through an industrial foreground",
+      "caption_zh": "Drive Vintage — 透过工业场景前景拍摄的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-123-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front corner in the shadow of the building",
+      "caption_zh": "Drive Vintage — 建筑阴影中的车头一角"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-127-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Low side view beneath the green building",
+      "caption_zh": "Drive Vintage — 绿色建筑下的低角度侧面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-138-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Side view through a blurred foreground",
+      "caption_zh": "Drive Vintage — 透过虚化前景拍摄的侧面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-155-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Wide front view beneath the exterior staircase",
+      "caption_zh": "Drive Vintage — 室外楼梯下的宽幅正面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-156-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Rear quarter under the staircase",
+      "caption_zh": "Drive Vintage — 楼梯下的后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-157-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Portrait rear quarter under the staircase",
+      "caption_zh": "Drive Vintage — 楼梯下的竖幅后侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-161-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Front quarter beside the exterior staircase",
+      "caption_zh": "Drive Vintage — 室外楼梯旁的前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-168-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Illuminated rear light strip and diffuser",
+      "caption_zh": "Drive Vintage — 点亮的尾灯灯带与扩散器"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-172-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Head-on portrait in the industrial passage",
+      "caption_zh": "Drive Vintage — 工业通道内的竖幅正面视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-174-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Elevated front quarter beside the corrugated wall",
+      "caption_zh": "Drive Vintage — 波纹墙旁的高角度前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-176-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Low front quarter with headlights illuminated",
+      "caption_zh": "Drive Vintage — 前灯点亮的低角度前侧视图"
+    },
+    {
+      "record_id": "SP3-291934-DRIVE-VINTAGE",
+      "url": "https://drivevintage.ch/wp-content/uploads/2023/07/2023-Ferrari-SP3-180-sur-180-scaled.jpg",
+      "source_url": "https://drivevintage.ch/car/daytona-sp3/",
+      "caption": "Drive Vintage — Side profile through a blurred barrier",
+      "caption_zh": "Drive Vintage — 透过虚化护栏拍摄的侧面视图"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.wp.com/cdn.tuttosport.com/images/2024/03/13/113245557-463f3fa4-0774-4e92-966d-22685e9dc7b2.png?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/photos-and-video-charles-leclerc-expands-his-garage-with-swanky-ferrari-sp3-daytona-spider/",
+      "caption": "Leclerc beside the open driver door at handover",
+      "caption_zh": "交付时 Leclerc 站在开启的驾驶侧车门旁"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.wp.com/cdn.tuttosport.com/images/2024/03/13/113246196-ab8c43a3-577b-4373-a520-767666ff881f.png?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/photos-and-video-charles-leclerc-expands-his-garage-with-swanky-ferrari-sp3-daytona-spider/",
+      "caption": "Illuminated rear at the handover entrance",
+      "caption_zh": "交付地点入口处点亮的车尾"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.wp.com/cdn.tuttosport.com/images/2024/03/13/113246781-a6c6de33-edb0-46e2-b064-58343e619d3f.png?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/photos-and-video-charles-leclerc-expands-his-garage-with-swanky-ferrari-sp3-daytona-spider/",
+      "caption": "Leclerc and the raised door, front quarter",
+      "caption_zh": "Leclerc 与升起车门的前侧视图"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.wp.com/cdn.tuttosport.com/images/2024/03/13/113247372-5dd71cf6-3375-4f59-8fff-f6c3ae9290d3.png?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/photos-and-video-charles-leclerc-expands-his-garage-with-swanky-ferrari-sp3-daytona-spider/",
+      "caption": "Leclerc reaching toward the open door",
+      "caption_zh": "Leclerc 伸手接触开启的车门"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.wp.com/cdn.tuttosport.com/images/2024/03/13/113247572-be18b469-b6a8-41dd-86e6-177cf6bf98c2.png?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/photos-and-video-charles-leclerc-expands-his-garage-with-swanky-ferrari-sp3-daytona-spider/",
+      "caption": "Front stripe and both raised doors at handover",
+      "caption_zh": "交付时的车头条纹与升起的双门"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.wp.com/cdn.tuttosport.com/images/2024/03/13/113247976-ab500b10-ddb2-49d5-9469-3786cb414786.png?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/photos-and-video-charles-leclerc-expands-his-garage-with-swanky-ferrari-sp3-daytona-spider/",
+      "caption": "Cockpit viewed through the raised door at handover",
+      "caption_zh": "交付时透过升起车门拍摄的座舱"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://supercarblondie.com/wp-content/uploads/Featured-Image-2025-09-26T151819840.webp",
+      "source_url": "https://supercarblondie.com/charles-leclerc-shows-off-what-makes-his-ferrari-daytona-sp3-truly-1-of-1/",
+      "caption": "Leclerc presenting the car beside the raised door",
+      "caption_zh": "Leclerc 在升起的车门旁介绍车辆"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://supercarblondie.com/wp-content/uploads/outside-leclerc-ferrari.webp",
+      "source_url": "https://supercarblondie.com/charles-leclerc-shows-off-what-makes-his-ferrari-daytona-sp3-truly-1-of-1/",
+      "caption": "Rear deck stripe and crossed-flags emblem",
+      "caption_zh": "后甲板条纹与交叉旗帜徽标"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://supercarblondie.com/wp-content/uploads/ferrari-seats-.webp",
+      "source_url": "https://supercarblondie.com/charles-leclerc-shows-off-what-makes-his-ferrari-daytona-sp3-truly-1-of-1/",
+      "caption": "Personalized red seats and harness details",
+      "caption_zh": "定制红色座椅与安全带细节"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://www.thesupercarblog.com/wp-content/uploads/2024/03/Charles-Leclerc-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.thesupercarblog.com/charles-leclerc-spotted-in-his-newest-toy-a-ferrari-daytona-sp3/",
+      "caption": "Monaco waterfront front quarter with both doors raised",
+      "caption_zh": "摩纳哥海滨双门升起的前侧视图"
+    },
+    {
+      "record_id": "SP3-TIRIAC-316193",
+      "url": "https://tiriaccollection.ro/storage/app/uploads/public/681/cb5/3da/681cb53da3b22899381106.jpg",
+      "source_url": "https://tiriaccollection.ro/en/collection/cars/ferrari-daytona-sp3",
+      "caption": "Țiriac Collection — Full front three-quarter studio portrait",
+      "caption_zh": "Țiriac Collection — 影棚内的完整前侧视图"
+    }
+  ]
+}
