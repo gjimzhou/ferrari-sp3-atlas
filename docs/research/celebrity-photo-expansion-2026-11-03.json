@@ -1,0 +1,163 @@
+{
+  "objective": "Add at least 30 distinct verified photographs across at least six existing cars; prioritize celebrity cars; no VIN research.",
+  "status": "In progress: 21 verified additions across six celebrity cars; at least nine more required before goal completion.",
+  "date": "2026-11-03",
+  "verification": [
+    "Selected images fetched successfully and visually compared with current galleries.",
+    "Sainz source-only historical images retrieved from existing Git history solely for duplicate comparison; three matching views rejected and fallback entries preserved.",
+    "David Lee historical Jay Leno cover rejected as duplicate; distinct side profile selected.",
+    "Gessle candidate gallery used generic factory press imagery: not attributed to his individual car.",
+    "Leclerc existing waterfront and cathedral close-ups rejected as duplicates; two distinct contextual group views selected. White-car ownership not inferred.",
+    "Zlatan: SF90 photo, configurator render, portraits and advertisement excluded.",
+    "No local image assets, inferred VINs or new ownership claims added."
+  ],
+  "photos": [
+    {
+      "record_id": "SP3-CARLOS-SAINZ",
+      "url": "https://i0.wp.com/paddocknews24.com/wp-content/uploads/2024/12/Ferrari_Daytona_SP3_Sainz_1200px-e1734688267334.webp?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/heres-carlos-sainzs-new-ferrari-a-personalized-farewell-gift-photos/",
+      "caption": "Front view with both doors raised at the showroom",
+      "caption_zh": "展厅内双门升起的正面视图"
+    },
+    {
+      "record_id": "SP3-CARLOS-SAINZ",
+      "url": "https://i0.wp.com/paddocknews24.com/wp-content/uploads/2024/12/Ferrari_Daytona_SP3_Sainz_1200px_6.webp?w=679&ssl=1",
+      "source_url": "https://scuderiafans.com/heres-carlos-sainzs-new-ferrari-a-personalized-farewell-gift-photos/",
+      "caption": "Engine bay with Smooth Operator lettering",
+      "caption_zh": "带 Smooth Operator 字样的发动机舱"
+    },
+    {
+      "record_id": "SP3-CARLOS-SAINZ",
+      "url": "https://i0.wp.com/paddocknews24.com/wp-content/uploads/2024/12/Ferrari_Daytona_SP3_Sainz_1200px_8-819x1024.webp?resize=679%2C849&ssl=1",
+      "source_url": "https://scuderiafans.com/heres-carlos-sainzs-new-ferrari-a-personalized-farewell-gift-photos/",
+      "caption": "Rear deck stripe, Ferrari lettering and light strip",
+      "caption_zh": "后甲板条纹、Ferrari 字样与尾灯灯带"
+    },
+    {
+      "record_id": "SP3-DAVID-LEE",
+      "url": "https://www.supercars.net/blog/wp-content/uploads/2025/06/Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.supercars.net/blog/jay-leno-drives-a-custom-green-ferrari-daytona-sp3/",
+      "caption": "Green-carbon body and gold wheels in side profile",
+      "caption_zh": "绿色碳纤维车身与金色轮毂的侧面视图"
+    },
+    {
+      "record_id": "SP3-CRISTIANO-RONALDO",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2024/06/cristiano-ronaldo-football-ferrari-sp3-daytona-supercar-nouveau-pur-sang-cr7-video.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/cristiano-ronaldo-portugal-football-euro-2024-voitures-supercars-reve-ajout-achat-collection-416448.html",
+      "caption": "Front quarter in the parking garage",
+      "caption_zh": "停车库内的前侧视图"
+    },
+    {
+      "record_id": "SP3-CRISTIANO-RONALDO",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2024/06/cristiano-ronaldo-football-ferrari-sp3-daytona-supercar-nouveau-pur-sang-cr7-video-3.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/cristiano-ronaldo-portugal-football-euro-2024-voitures-supercars-reve-ajout-achat-collection-416448.html",
+      "caption": "Front quarter outside the hotel with headlights on",
+      "caption_zh": "酒店外前灯点亮的前侧视图"
+    },
+    {
+      "record_id": "SP3-CRISTIANO-RONALDO",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2024/06/cristiano-ronaldo-football-ferrari-sp3-daytona-supercar-nouveau-pur-sang-cr7-video-2.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/cristiano-ronaldo-portugal-football-euro-2024-voitures-supercars-reve-ajout-achat-collection-416448.html",
+      "caption": "Ronaldo beside the open door outside the hotel",
+      "caption_zh": "Ronaldo 在酒店外开启的车门旁"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2025/02/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-6.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html",
+      "caption": "Daytime front quarter parked at the London kerb",
+      "caption_zh": "伦敦路边停放的日间前侧视图"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2025/02/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-7.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html",
+      "caption": "Side profile showing the number 25 livery",
+      "caption_zh": "展示 25 号涂装的侧面视图"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2025/02/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-3.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html",
+      "caption": "Daytime rear quarter and horizontal rear grille",
+      "caption_zh": "日间后侧视图与横向尾部格栅"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2025/02/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-5.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html",
+      "caption": "Head-on street view with the number 25 on the bonnet",
+      "caption_zh": "展示发动机盖 25 号涂装的街头正面视图"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2025/02/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html",
+      "caption": "Ramsay in the blue cockpit, viewed through the windscreen",
+      "caption_zh": "透过风挡拍摄蓝色座舱内的 Ramsay"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://sf.sportauto.fr/wp-content/uploads/sportauto/2025/02/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-4.jpg",
+      "source_url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html",
+      "caption": "Front wheel, shield and number 25 detail",
+      "caption_zh": "前轮、盾形徽标与 25 号细节"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.statig.com.br/bancodeimagens/imgalta/d2/lq/kn/d2lqkn8sed848uc2sisaxflez.jpg",
+      "source_url": "https://esporte.ig.com.br/maisesportes/2024-03-15/leclerc-exibe-ferrari-rara-r--11-milhoes-durante-passeio-em-monaco.html",
+      "caption": "Black SP3 at left beside a white SP3 on the Monaco waterfront",
+      "caption_zh": "摩纳哥海滨，黑色 SP3 位于左侧，旁边为白色 SP3"
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://i0.statig.com.br/bancodeimagens/imgalta/el/7y/4n/el7y4n9uixnrk3ujbjyctk9lq.jpg",
+      "source_url": "https://esporte.ig.com.br/maisesportes/2024-03-15/leclerc-exibe-ferrari-rara-r--11-milhoes-durante-passeio-em-monaco.html",
+      "caption": "Black SP3 behind a white SP3 outside Monaco Cathedral",
+      "caption_zh": "摩纳哥大教堂外，黑色 SP3 位于白色 SP3 后方"
+    },
+    {
+      "record_id": "SP3-CARLOS-SAINZ",
+      "url": "https://photo.znews.vn/Uploaded/aobhuua/2024_12_29/Ferrari_Daytona_SP3_Carlos_Sainz_9.png",
+      "source_url": "https://znews.vn/carlos-sainz-jr-nhan-sieu-xe-daytona-sp3-truoc-khi-roi-ferrari-post1521065.html",
+      "caption": "Rear quarter in the showroom with the tail lamps illuminated",
+      "caption_zh": "展厅内尾灯点亮的后侧视图"
+    },
+    {
+      "record_id": "SP3-ZLATAN-IBRAHIMOVIC",
+      "url": "https://akamai.vgc.no/v2/images/aa971f11-a5b8-4491-a83a-ce7ffad21692?format=auto&w=480&s=bbb5c77196e5b430e6adb8a070b0d86d68018eb9",
+      "source_url": "https://www.aftonbladet.se/sportbladet/fotboll/a/RGqqy8/har-hamtar-zlatan-sin-ferrari-daytona-sp3",
+      "caption": "Factory collection: front view of the white SP3",
+      "caption_zh": "工厂提车：白色 SP3 的正面视图"
+    },
+    {
+      "record_id": "SP3-ZLATAN-IBRAHIMOVIC",
+      "url": "https://akamai.vgc.no/v2/images/20d50d44-360a-4338-89da-bfa2f3da8a04?format=auto&w=480&s=d0619932e3c3b6a757e8f5e1dc0cf641b067be26",
+      "source_url": "https://www.aftonbladet.se/sportbladet/fotboll/a/RGqqy8/har-hamtar-zlatan-sin-ferrari-daytona-sp3",
+      "caption": "Factory collection: side profile leaving Maranello",
+      "caption_zh": "工厂提车：驶离马拉内罗的侧面视图"
+    },
+    {
+      "record_id": "SP3-ZLATAN-IBRAHIMOVIC",
+      "url": "https://akamai.vgc.no/v2/images/716a8b15-b5c1-4d8c-8284-776e478590b6?format=auto&w=480&s=e1195ea232d0b53bfd221a0c36374802809cb6a3",
+      "source_url": "https://www.aftonbladet.se/sportbladet/fotboll/a/RGqqy8/har-hamtar-zlatan-sin-ferrari-daytona-sp3",
+      "caption": "Ibrahimović at the wheel, red seat detail",
+      "caption_zh": "Ibrahimović 驾车与红色座椅细节"
+    },
+    {
+      "record_id": "SP3-ZLATAN-IBRAHIMOVIC",
+      "url": "https://image.hant.se/image-9498020?imageId=9498020&width=1320&height=1515&format=webp&compression=90&cropw=99.85&croph=86.01&x=0&y=0",
+      "source_url": "https://www.hant.se/noje/zlatan-och-helena-visar-upp-lyxbilen-nya-kopet-forvanar-bilexperten/9497934",
+      "caption": "Open-cockpit close-up during the Milan drive",
+      "caption_zh": "米兰行驶时的敞篷座舱特写"
+    },
+    {
+      "record_id": "SP3-ZLATAN-IBRAHIMOVIC",
+      "url": "https://image.hant.se/image-9498035?imageId=9498035&width=1320&height=1628&format=webp&compression=90&cropw=100&croph=92.48&x=0&y=7.52",
+      "source_url": "https://www.hant.se/noje/zlatan-och-helena-visar-upp-lyxbilen-nya-kopet-forvanar-bilexperten/9497934",
+      "caption": "Street-side front quarter during the Milan drive",
+      "caption_zh": "米兰行驶时从街边拍摄的前侧视图"
+    }
+  ]
+}

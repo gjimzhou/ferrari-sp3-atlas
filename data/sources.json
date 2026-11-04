@@ -1834,5 +1834,54 @@
     "publisher": "The Supercar Blog",
     "description": "March 2024 report with a front three-quarter photograph of Leclerc’s SP3 with both doors raised.",
     "url": "https://www.thesupercarblog.com/charles-leclerc-spotted-in-his-newest-toy-a-ferrari-daytona-sp3/"
+  },
+  {
+    "id": "SRC-C21DF4C7",
+    "label": "ScuderiaFans — Carlos Sainz SP3 delivery details",
+    "publisher": "ScuderiaFans",
+    "description": "Published photographs of Sainz’s SP3 at Ferrari Scuderia Monte-Carlo.",
+    "url": "https://scuderiafans.com/heres-carlos-sainzs-new-ferrari-a-personalized-farewell-gift-photos/"
+  },
+  {
+    "id": "SRC-240C089E",
+    "label": "Supercars.net — David Lee green-carbon SP3",
+    "publisher": "Supercars.net",
+    "description": "Published side-profile photograph accompanying the Jay Leno feature on David Lee’s car.",
+    "url": "https://www.supercars.net/blog/jay-leno-drives-a-custom-green-ferrari-daytona-sp3/"
+  },
+  {
+    "id": "SRC-F2E7C62F",
+    "label": "Sport Auto — Ronaldo SP3 street photographs",
+    "publisher": "Sport Auto",
+    "description": "Published images show Ronaldo’s red Daytona SP3 in a garage and outside a hotel.",
+    "url": "https://www.sportauto.fr/actu/insolites-actu/cristiano-ronaldo-portugal-football-euro-2024-voitures-supercars-reve-ajout-achat-collection-416448.html"
+  },
+  {
+    "id": "SRC-32A3DF63",
+    "label": "Sport Auto — Gordon Ramsay SP3 in London",
+    "publisher": "Sport Auto",
+    "description": "Published daytime video stills show Ramsay’s white Daytona SP3, number 25 and blue cockpit.",
+    "url": "https://www.sportauto.fr/actu/insolites-actu/gordon-ramsay-chef-ferrari-daytona-sp3-londres-video-f1-75-live-02-arena-428248.html"
+  },
+  {
+    "id": "SRC-F95CA3D5",
+    "label": "iG Esporte — Leclerc SP3 in Monaco",
+    "publisher": "iG Esporte",
+    "description": "Public Monaco photographs include Leclerc’s black SP3 alongside a white SP3; no ownership is inferred for the white car.",
+    "url": "https://esporte.ig.com.br/maisesportes/2024-03-15/leclerc-exibe-ferrari-rara-r--11-milhoes-durante-passeio-em-monaco.html"
+  },
+  {
+    "id": "SRC-65C63704",
+    "label": "Aftonbladet — Ibrahimović SP3 factory collection",
+    "publisher": "Aftonbladet",
+    "description": "Published photographs show Ibrahimović collecting his white Daytona SP3 at Maranello.",
+    "url": "https://www.aftonbladet.se/sportbladet/fotboll/a/RGqqy8/har-hamtar-zlatan-sin-ferrari-daytona-sp3"
+  },
+  {
+    "id": "SRC-182C843A",
+    "label": "Hänt — Ibrahimović SP3 in Milan",
+    "publisher": "Hänt",
+    "description": "Reader photographs show Ibrahimović driving the white SP3 in Milan.",
+    "url": "https://www.hant.se/noje/zlatan-och-helena-visar-upp-lyxbilen-nya-kopet-forvanar-bilexperten/9497934"
   }
 ]
