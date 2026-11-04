@@ -1,6 +1,6 @@
 {
   "objective": "Add at least 30 distinct verified photographs across at least six existing cars; prioritize celebrity cars; no VIN research.",
-  "status": "In progress: 21 verified additions across six celebrity cars; at least nine more required before goal completion.",
+  "status": "Photo research complete: 31 verified additions across eight existing cars. Publication and live deployment verification pending.",
   "date": "2026-11-03",
   "verification": [
     "Selected images fetched successfully and visually compared with current galleries.",
@@ -9,7 +9,12 @@
     "Gessle candidate gallery used generic factory press imagery: not attributed to his individual car.",
     "Leclerc existing waterfront and cathedral close-ups rejected as duplicates; two distinct contextual group views selected. White-car ownership not inferred.",
     "Zlatan: SF90 photo, configurator render, portraits and advertisement excluded.",
-    "No local image assets, inferred VINs or new ownership claims added."
+    "No local image assets, inferred VINs or new ownership claims added.",
+    "Second batch: two Ramsay crowd/cockpit images compared with all 17 existing images; portraits excluded.",
+    "Four GFWilliams images compared with all eight existing gallery entries. Each published diptych counts as one entry; F80-only images excluded.",
+    "BP Green old LuxuryPulse image URLs returned HTTP 404 during review; Top Gear alternatives are not counted as new photographs without duplicate verification.",
+    "Powerslidelover: three distinct road-test stills and one later cockpit driving still added. Existing front/rear images, a near-duplicate head-on frame, configurator images and unrelated cars excluded.",
+    "David Lee owner-site image duplicates the current delivery photograph; Berlin off-market image is a promotional graphic. Neither counted as a new photo."
   ],
   "photos": [
     {
@@ -158,6 +163,76 @@
       "source_url": "https://www.hant.se/noje/zlatan-och-helena-visar-upp-lyxbilen-nya-kopet-forvanar-bilexperten/9497934",
       "caption": "Street-side front quarter during the Milan drive",
       "caption_zh": "米兰行驶时从街边拍摄的前侧视图"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://d17-a.sdn.cz/d_17/c_img_oW_A/kObgaqJNMnB0yvGzYCZ8TSH/9e58/gordon-ramsay-ferrari-londyn.jpeg",
+      "source_url": "https://www.super.cz/clanek/celebrity-gordon-ramsay-vyjel-do-ulic-s-ferrari-za-94-milionu-korun-fanouskum-dovolil-nahlednout-i-nastartovat-1512580",
+      "caption": "Ramsay beside the raised door, showing the cockpit to fans",
+      "caption_zh": "Ramsay 在升起的车门旁向车迷展示座舱"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://d17-a.sdn.cz/d_17/c_img_oW_A/nO1SBfAluiUs1X7WCZ8TaX/f756/gordon-ramsay-ferrari-londyn.png",
+      "source_url": "https://www.super.cz/clanek/celebrity-gordon-ramsay-vyjel-do-ulic-s-ferrari-za-94-milionu-korun-fanouskum-dovolil-nahlednout-i-nastartovat-1512580",
+      "caption": "Fans beside the rear deck outside the London restaurant",
+      "caption_zh": "伦敦餐厅外，车迷围在车辆后甲板旁"
+    },
+    {
+      "record_id": "SP3-GFWILLIAMS-UK-MAGMA",
+      "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_9031-V4.jpg",
+      "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+      "caption": "Dusk group portrait: SP3 at the back left, F80 in the foreground",
+      "caption_zh": "黄昏合影：SP3 位于左后方，前景为 F80"
+    },
+    {
+      "record_id": "SP3-GFWILLIAMS-UK-MAGMA",
+      "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_8932.jpg",
+      "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+      "caption": "Published diptych: SP3 driving away at left, F80 at right",
+      "caption_zh": "原文双联图：左侧为驶离的 SP3，右侧为 F80"
+    },
+    {
+      "record_id": "SP3-GFWILLIAMS-UK-MAGMA",
+      "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF9_8980-1.jpg",
+      "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+      "caption": "Published diptych of the SP3 V12 engine bay",
+      "caption_zh": "原文双联图：SP3 V12 发动机舱细节"
+    },
+    {
+      "record_id": "SP3-GFWILLIAMS-UK-MAGMA",
+      "url": "https://gfwilliams.net/wp-content/uploads/2026/04/GF8_4968.jpg",
+      "source_url": "https://gfwilliams.net/blog/ferrari-f80-sp3-daytona/",
+      "caption": "Published diptych: F80 front wing at left, SP3 rear at right",
+      "caption_zh": "原文双联图：左侧为 F80 前翼子板，右侧为 SP3 尾部"
+    },
+    {
+      "record_id": "SP3-POWERSLIDELOVER",
+      "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_04_25/Last_Ferrari_Daytona_SP3_5.png",
+      "source_url": "https://tech.zingnews.vn/sieu-xe-ferrari-daytona-sp3-cuoi-cung-dang-duoc-thu-nghiem-post1548675.html",
+      "caption": "Road test: front quarter approaching the junction with protective tape",
+      "caption_zh": "路试：贴有保护胶带，驶近路口的前侧视图"
+    },
+    {
+      "record_id": "SP3-POWERSLIDELOVER",
+      "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_04_25/Last_Ferrari_Daytona_SP3_4.png",
+      "source_url": "https://tech.zingnews.vn/sieu-xe-ferrari-daytona-sp3-cuoi-cung-dang-duoc-thu-nghiem-post1548675.html",
+      "caption": "Road test: black rear fascia and twin exhaust outlets",
+      "caption_zh": "路试：黑色尾部与双排气口"
+    },
+    {
+      "record_id": "SP3-POWERSLIDELOVER",
+      "url": "https://photo.znews.vn/Uploaded/aobhuua/2025_04_25/Last_Ferrari_Daytona_SP3_6.png",
+      "source_url": "https://tech.zingnews.vn/sieu-xe-ferrari-daytona-sp3-cuoi-cung-dang-duoc-thu-nghiem-post1548675.html",
+      "caption": "Road test: side profile turning beside the factory",
+      "caption_zh": "路试：工厂旁转弯时的侧面视图"
+    },
+    {
+      "record_id": "SP3-POWERSLIDELOVER",
+      "url": "https://www.clubalfa.it/wp-content/uploads/2025/10/ferrari-daytona-sp3-1-e1761403912248.jpg",
+      "source_url": "https://www.clubalfa.it/561244-ferrari-daytona-sp3-show-adrenalinico-con-la-fantastica-supercar-video",
+      "caption": "Mountain drive: steering wheel, dashboard and road ahead",
+      "caption_zh": "山路行驶：方向盘、仪表台与前方道路"
     }
   ]
 }
