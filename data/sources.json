@@ -1932,5 +1932,75 @@
     "publisher": "Ferrari Beverly Hills / Westlake",
     "description": "Dealership article identifies the Blu Le Mans car with Argento Nurburgring stripe and publishes a side-profile photograph.",
     "url": "https://ferraribeverlyhills.com/articles/first-ferrari-daytona-sp-3"
+  },
+  {
+    "id": "SRC-0581F3BD",
+    "label": "GQ Hong Kong — David Lee SP3 at San Marino",
+    "publisher": "GQ Hong Kong",
+    "description": "Carson Chan’s original photographs of David Lee’s green-carbon SP3 at the 2025 San Marino Motor Classic.",
+    "url": "https://gqhongkong.com/lifestyle/car-tech/david-lee-ferrari-daytona-sp3"
+  },
+  {
+    "id": "SRC-DC776B34",
+    "label": "Ferrari Beverly Hills — Rame Scuro Lucido SP3 photographs",
+    "publisher": "Ferrari Beverly Hills",
+    "description": "Official dealer article publishes additional full-car, overhead and rear views of its Rame Scuro Lucido delivery.",
+    "url": "https://www.ferraribeverlyhills.com/articles/exclusive-rame-scuro-lucido-sp3"
+  },
+  {
+    "id": "SRC-49405EB9",
+    "label": "Top Gear — Daytona SP3 first-drive photo gallery",
+    "publisher": "Top Gear",
+    "description": "Road and Spa-Francorchamps photographs show the existing GJ 562 FL demonstrator, including cockpit and exterior details.",
+    "url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12"
+  },
+  {
+    "id": "SRC-BA9BA419",
+    "label": "Autogespot — GZ 926 LW Monaco sighting 2026/01/13",
+    "publisher": "Autogespot",
+    "description": "Public first-image preview of the same GZ 926 LW car linked from the existing Monaco sighting; other gallery photos require login and are excluded.",
+    "url": "https://www.autogespot.com/ferrari-daytona-sp3/2026/01/13"
+  },
+  {
+    "id": "SRC-CC083AD8",
+    "label": "Autogespot — GZ 926 LW Monaco sighting 2025/08/24",
+    "publisher": "Autogespot",
+    "description": "Public first-image preview of the same GZ 926 LW car linked from the existing Monaco sighting; other gallery photos require login and are excluded.",
+    "url": "https://www.autogespot.com/ferrari-daytona-sp3/2025/08/24"
+  },
+  {
+    "id": "SRC-42A247CD",
+    "label": "Car and Driver — GJ 563 FL circuit photo gallery",
+    "publisher": "Car and Driver",
+    "description": "Ferrari-supplied photography of the yellow development car at Zandvoort; GJ 563 FL matches the existing record.",
+    "url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/"
+  },
+  {
+    "id": "SRC-F4C47170",
+    "label": "Wikimedia Commons — Greenwich No. 23 photo 13",
+    "publisher": "Wikimedia Commons",
+    "description": "Charles photographed the distinctive No. 23 Rubino car at Greenwich on 31 May 2025; licensed CC BY 2.0.",
+    "url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854559855846%29.jpg"
+  },
+  {
+    "id": "SRC-B93229AC",
+    "label": "Wikimedia Commons — Greenwich No. 23 photo 14",
+    "publisher": "Wikimedia Commons",
+    "description": "Charles photographed the distinctive No. 23 Rubino car at Greenwich on 31 May 2025; licensed CC BY 2.0.",
+    "url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560091008%29.jpg"
+  },
+  {
+    "id": "SRC-7D4ECC71",
+    "label": "Wikimedia Commons — Greenwich No. 23 photo 15",
+    "publisher": "Wikimedia Commons",
+    "description": "Charles photographed the distinctive No. 23 Rubino car at Greenwich on 31 May 2025; licensed CC BY 2.0.",
+    "url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560185470%29.jpg"
+  },
+  {
+    "id": "SRC-D3098E89",
+    "label": "Wikimedia Commons — Greenwich No. 23 photo 16",
+    "publisher": "Wikimedia Commons",
+    "description": "Charles photographed the distinctive No. 23 Rubino car at Greenwich on 31 May 2025; licensed CC BY 2.0.",
+    "url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560185490%29.jpg"
   }
 ]

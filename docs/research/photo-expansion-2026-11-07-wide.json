@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-07",
+  "objective": "Add at least 24 distinct real photographs across at least six existing cars; no VIN research.",
+  "baseline_commit": "569ff849420cecf7cdbe2f1b26c67d0d40d27ed7",
+  "baseline_photo_references": 1354,
+  "status": "30 verified additions across six existing cars; local validation passed; prepared for publication.",
+  "verification": [
+    "Two GQ original San Marino photographs downloaded and visually inspected; event setting and open rear cover distinguish them from the existing delivery and studio images.",
+    "Image captions and owner attribution supported by the GQ article; original photographer Carson Chan credited.",
+    "Rame dealer photos compared visually with all seven existing gallery images. Three distinct views selected; head-on candidate excluded as potentially overlapping an existing crop.",
+    "Seattle friends article repeats existing group views; four migrated Shopify images return 404 and are excluded.",
+    "Blu Laguna candidate retained for further identity verification, not added solely on matching paint.",
+    "Top Gear gallery visually compared with existing Zandvoort images. Plate GJ 562 FL matches the existing demonstrator record. Fourteen distinct views selected; red-seat comparison car and near-overlapping tracking frame excluded. No identity classifications changed.",
+    "Del Vecchio public first-photo previews matched by GZ 926 LW and the source same-car index; new waterfront front and rear views compared with the existing February photograph. Restricted gallery images were not accessed.",
+    "Yellow development car matched by visible GJ 563 FL. New Ferrari/Car and Driver circuit images compared with the six existing Zandvoort images and later RM gallery; five distinct views selected.",
+    "Greenwich photos matched by No. 23 pale-blue livery, blue wheels, carbon exterior and blue cockpit at the same event as existing photos. Four new views by Charles; public file pages confirm CC BY 2.0.",
+    "Leclerc October 2026, May 2025 and other inspected first-photo previews already exist in the registry and are excluded from this batch.",
+    "Sven-Olof candidate was a configurator rendering, excluded; Gessle dealer rear photo duplicates the existing gallery.",
+    "Registry validator, EN/ZH coverage, VIN evidence, market evidence and frontend photo-rights checks passed; git diff --check passed.",
+    "Baseline audit confirms all prior photos preserved and all fields other than photos and source references unchanged. 30 new image URLs across six existing records; original-production coverage remains 38/599."
+  ],
+  "photos": [
+    {
+      "record_id": "SP3-DAVID-LEE",
+      "url": "https://gqhongkong.com/wp-content/uploads/2025/09/IMG_9139-1-scaled.jpg",
+      "source_url": "https://gqhongkong.com/lifestyle/car-tech/david-lee-ferrari-daytona-sp3",
+      "caption": "San Marino Motor Classic: front view with doors and rear cover raised",
+      "caption_zh": "San Marino Motor Classic：双门及后盖升起的正面视图"
+    },
+    {
+      "record_id": "SP3-DAVID-LEE",
+      "url": "https://gqhongkong.com/wp-content/uploads/2025/09/IMG_9142-2-scaled.jpg",
+      "source_url": "https://gqhongkong.com/lifestyle/car-tech/david-lee-ferrari-daytona-sp3",
+      "caption": "David Lee beside the SP3 with the rear cover raised at San Marino",
+      "caption_zh": "San Marino 车展，David Lee 站在后盖升起的 SP3 旁"
+    },
+    {
+      "record_id": "SP3-BH-RAME",
+      "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Y4_A1244_crop_2e7ac7473d.jpg",
+      "source_url": "https://www.ferraribeverlyhills.com/articles/exclusive-rame-scuro-lucido-sp3",
+      "caption": "Front three-quarter portrait on light-coloured paving",
+      "caption_zh": "浅色铺装地面上的前侧全车视图"
+    },
+    {
+      "record_id": "SP3-BH-RAME",
+      "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Y4_A1408_a881679e1f.jpg",
+      "source_url": "https://www.ferraribeverlyhills.com/articles/exclusive-rame-scuro-lucido-sp3",
+      "caption": "Overhead view with both doors raised, showing the blue cockpit",
+      "caption_zh": "双门升起的俯视图，展示蓝色座舱"
+    },
+    {
+      "record_id": "SP3-BH-RAME",
+      "url": "https://vrrb-prod-s3.s3.us-west-1.amazonaws.com/strapi/Y4_A0778_d27ab03238.JPG",
+      "source_url": "https://www.ferraribeverlyhills.com/articles/exclusive-rame-scuro-lucido-sp3",
+      "caption": "Straight rear view on the dealership driveway",
+      "caption_zh": "经销店车道上的正后方视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/1-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Front tracking view at Spa-Francorchamps",
+      "caption_zh": "斯帕赛道前侧动态视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/2-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Rear tracking view at Spa-Francorchamps",
+      "caption_zh": "斯帕赛道后侧动态视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/20-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Front three-quarter view on a wooded road",
+      "caption_zh": "林间道路上的前侧动态视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/3-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Overhead view of the open blue cockpit",
+      "caption_zh": "敞篷蓝色座舱的俯视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/6-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Straight rear tracking view showing GJ 562 FL",
+      "caption_zh": "展示 GJ 562 FL 车牌的正后方动态视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/7-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Close-up of the front lighting and nose",
+      "caption_zh": "前灯与车头细节"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/8-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Front wheel and Scuderia shield detail",
+      "caption_zh": "前轮与法拉利盾徽细节"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/9-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Exhaust outlets and rear grille detail",
+      "caption_zh": "排气口与后格栅细节"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/10-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Close-up of the sculpted side air intake",
+      "caption_zh": "侧面进气口的曲面细节"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/11-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Refuelling stop with the rear plate visible",
+      "caption_zh": "加油站停车，后车牌清晰可见"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/12-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Head-on portrait on a wooden bridge",
+      "caption_zh": "木桥上的正面视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/13-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Side profile with both doors raised",
+      "caption_zh": "双门升起的侧面视图"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/14-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Blue seat and cockpit detail",
+      "caption_zh": "蓝色座椅与座舱细节"
+    },
+    {
+      "record_id": "SP3-277498-DEMO-LEAD",
+      "url": "https://www.topgear.com/sites/default/files/2022/07/15-Ferrari-Daytona-SP3.jpg",
+      "source_url": "https://www.topgear.com/car-reviews/ferrari/first-drive-12",
+      "caption": "Digital instrument cluster in the road-test car",
+      "caption_zh": "试驾车辆的数字仪表盘"
+    },
+    {
+      "record_id": "SP3-LEONARDO-DEL-VECCHIO",
+      "url": "https://spots.ag/2026/01/13/ferrari-daytona-sp3-953c5-c311713012026071640_1.jpg?1768285009=",
+      "source_url": "https://www.autogespot.com/ferrari-daytona-sp3/2026/01/13",
+      "caption": "Rear view beside a McLaren at the Monaco waterfront",
+      "caption_zh": "摩纳哥海滨与迈凯伦并排停放的后方视图"
+    },
+    {
+      "record_id": "SP3-LEONARDO-DEL-VECCHIO",
+      "url": "https://spots.ag/2025/08/24/ferrari-daytona-sp3-9e136-c783124082025131001_1.jpg?1756033824=",
+      "source_url": "https://www.autogespot.com/ferrari-daytona-sp3/2025/08/24",
+      "caption": "Front view of the carbon-bodied SP3 at Port Hercule",
+      "caption_zh": "赫尔克里港碳纤维 SP3 的正面视图"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-102-1659298018.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Yellow demonstrator at sunset on the circuit",
+      "caption_zh": "夕阳下赛道上的黄色示范车"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-117-1659298025.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Pit-lane side view with both doors raised",
+      "caption_zh": "维修区双门升起的侧面视图"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-118-1659298025.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Elevated front view in the pit lane",
+      "caption_zh": "维修区高位前侧视图"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-127-1659298031.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Red cockpit and steering wheel viewed through the open door",
+      "caption_zh": "从打开的车门查看红色座舱与方向盘"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-126-1659298031.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Front bodywork and visible GJ 563 FL plate",
+      "caption_zh": "前部车身与清晰可见的 GJ 563 FL 车牌"
+    },
+    {
+      "record_id": "SP3-RUBINO-GREENWICH",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Ferrari_Daytona_SP3_%282025%29_%2854559855846%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854559855846%29.jpg",
+      "caption": "Greenwich Concours: front three-quarter view with doors raised",
+      "caption_zh": "格林尼治车展：双门升起的前侧视图"
+    },
+    {
+      "record_id": "SP3-RUBINO-GREENWICH",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Ferrari_Daytona_SP3_%282025%29_%2854560091008%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560091008%29.jpg",
+      "caption": "Greenwich Concours: straight rear view with doors raised",
+      "caption_zh": "格林尼治车展：双门升起的正后方视图"
+    },
+    {
+      "record_id": "SP3-RUBINO-GREENWICH",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Ferrari_Daytona_SP3_%282025%29_%2854560185470%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560185470%29.jpg",
+      "caption": "Greenwich Concours: blue Alcantara cockpit",
+      "caption_zh": "格林尼治车展：蓝色 Alcantara 座舱"
+    },
+    {
+      "record_id": "SP3-RUBINO-GREENWICH",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ferrari_Daytona_SP3_%282025%29_%2854560185490%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560185490%29.jpg",
+      "caption": "Greenwich Concours: head-on view of the No. 23 livery",
+      "caption_zh": "格林尼治车展：23 号涂装的正面视图"
+    }
+  ]
+}
