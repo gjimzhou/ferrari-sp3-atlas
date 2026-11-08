@@ -1,0 +1,232 @@
+{
+  "date": "2026-11-07",
+  "objective": "At least 30 new real photographs across at least ten existing cars, prioritizing 0–3-photo galleries; no new VIN research.",
+  "baseline_commit": "eca1c732e9f9fc59d723f6c767d0892e71165273",
+  "baseline_photo_references": 1384,
+  "photos": [
+    {
+      "record_id": "SP3-ECR-82743",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/full/612159",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82743",
+      "caption": "Public gallery: front three-quarter portrait outside the showroom",
+      "caption_zh": "公开图库：展厅外的前侧全车视图"
+    },
+    {
+      "record_id": "SP3-ECR-82743",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/612160",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82743",
+      "caption": "Public preview: rear quarter and wheel",
+      "caption_zh": "公开预览：后侧车身与轮圈"
+    },
+    {
+      "record_id": "SP3-ECR-82743",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/615270",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82743",
+      "caption": "Public preview: elevated front view at an outdoor gathering",
+      "caption_zh": "公开预览：户外聚会中的高位前侧视图"
+    },
+    {
+      "record_id": "SP3-ECR-82743",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/615271",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82743",
+      "caption": "Public preview: straight front view",
+      "caption_zh": "公开预览：正面视图"
+    },
+    {
+      "record_id": "SP3-ECR-82743",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/615272",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/82743",
+      "caption": "Public preview: colour-shifting bonnet detail",
+      "caption_zh": "公开预览：变色车漆的前盖细节"
+    },
+    {
+      "record_id": "SP3-291935-VIN-LEAD",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9_uN9i8IfoVQENyexDAgt6OAZHlLL7jV3s5cYc8Jw-i0abPk_cxWhAoSmiy16EnoZG5L1I1-tvC_oGYGeROxqbkdJSFFO49DD7C77EXQLVJr-q-wOzY83oEk5fE5_A-HfsWSaRj1HUxuEudKtPFQsZXqnpbxyl8eYo__2YjbOVW375RuggaK54evl9WJw/s1065/nieuwe%20op%20kenteken.jpeg",
+      "source_url": "https://www.rapidrides.nl/2025/11/nieuwe-ferrari-daytona-sp3-op-nederlands-kenteken.html",
+      "caption": "Yellow SP3 with black twin stripes in the showroom",
+      "caption_zh": "展厅中的黄色 SP3 与黑色双条纹"
+    },
+    {
+      "record_id": "SP3-291935-VIN-LEAD",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfQOvSIjqhr2Sti3ABN1Cimk6tMxT3FK7dkLs6WsHacKLZQCmGCnLPCSiILjHro5p8OOiQnXfK2_P6H-TkaFoP4khyphenhyphenOH8cEg-SSEfHG3ExgJ85O1fWWm4Zp0AzJlCENw0gzM9_UjEcfavKaqgykiuIZPJI-PlHj9SoCP1ktF6RL2sKMtLqJXKTFLyZNvGs/s1066/nieuwe%20op%20kenteken%202.jpeg",
+      "source_url": "https://www.rapidrides.nl/2025/11/nieuwe-ferrari-daytona-sp3-op-nederlands-kenteken.html",
+      "caption": "Straight rear showroom portrait",
+      "caption_zh": "展厅中的正后方视图"
+    },
+    {
+      "record_id": "SP3-291935-VIN-LEAD",
+      "url": "https://webp.ab.cdn.pxr.nl/news-content/2023/07/01/ab-SP3-ear.jpg",
+      "source_url": "https://www.autoblog.nl/nieuws/nederlander-scoort-ferrari-daytona-sp3-3522012",
+      "caption": "Overhead rear view of the black twin stripes",
+      "caption_zh": "黑色双条纹的高位后方视图"
+    },
+    {
+      "record_id": "SP3-291935-VIN-LEAD",
+      "url": "https://webp.ab.cdn.pxr.nl/news-content/2023/07/01/ab-Fezza.jpg",
+      "source_url": "https://www.autoblog.nl/nieuws/nederlander-scoort-ferrari-daytona-sp3-3522012",
+      "caption": "Front wheel, painted shield and black mirror detail",
+      "caption_zh": "前轮、喷绘盾徽与黑色后视镜细节"
+    },
+    {
+      "record_id": "SP3-SWIZZ-BEATZ",
+      "url": "https://supercars.agent4stars.com/wp-content/uploads/2024/01/FerrariSp3DaytonaNero2024-07-10-at-13.28.48-709x639.jpg",
+      "source_url": "https://supercars.agent4stars.com/property/the-real-swizzz-ferrari-collection-usa/",
+      "caption": "High rear three-quarter view showing the red accents",
+      "caption_zh": "高位后侧视图，展示红色点缀"
+    },
+    {
+      "record_id": "SP3-296011-CAVALCADE",
+      "url": "https://novedadmotor.es/wp-content/uploads/2025/06/Ferrari-Daytona-SP3-Cavalcade.jpg",
+      "source_url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "caption": "Cavalcade No. 5 at the front of the parked line, with red-white centre stripes",
+      "caption_zh": "Cavalcade 5 号车位于停车队列前侧，展示红白中央条纹"
+    },
+    {
+      "record_id": "SP3-305029-CAVALCADE",
+      "url": "https://novedadmotor.es/wp-content/uploads/2025/06/Ferrari-Daytona-SP3-Cavalcade-sevilla.jpg",
+      "source_url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "caption": "Black-and-yellow Cavalcade No. 3 at the front left of the display",
+      "caption_zh": "黑黄配色 Cavalcade 3 号车位于展车队列左前方"
+    },
+    {
+      "record_id": "SP3-319368-CAVALCADE",
+      "url": "https://novedadmotor.es/wp-content/uploads/2025/06/Ferrari-cavalcade-dyatona-sp3.jpg",
+      "source_url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "caption": "Rear three-quarter view of Cavalcade No. 9 in the parked line",
+      "caption_zh": "停车队列中的 Cavalcade 9 号车后侧视图"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://novedadmotor.es/wp-content/uploads/2025/06/Ferrari-cavalcade-sevilla-dyatona-sp3.jpg",
+      "source_url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "caption": "Side profile of Cavalcade No. 8 with bronze wheels",
+      "caption_zh": "Cavalcade 8 号车的侧面与铜色轮圈"
+    },
+    {
+      "record_id": "SP3-304375-CAVALCADE",
+      "url": "https://novedadmotor.es/wp-content/uploads/2025/06/Ferrari-cavalcade-sevilla-SP3-daytona.jpg",
+      "source_url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "caption": "Light-blue Cavalcade No. 4 at the left of the display",
+      "caption_zh": "浅蓝色 Cavalcade 4 号车位于展车队列左侧"
+    },
+    {
+      "record_id": "SP3-320749-MILLE-MIGLIA",
+      "url": "https://novedadmotor.es/wp-content/uploads/2025/06/Ferrari-cavalcade-sevilla-osuna-daytona-sp3.jpg",
+      "source_url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "caption": "Cavalcade No. 14 parked at the Osuna stop",
+      "caption_zh": "Cavalcade 14 号车停在 Osuna 活动站点"
+    },
+    {
+      "record_id": "SP3-311579-CAVALCADE",
+      "url": "https://www.automotivpress.fr/wp-content/uploads/2025/07/0P1A6372.jpg",
+      "source_url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/",
+      "caption": "Cavalcade No. 19 beneath the event arch; purple body and white stripe",
+      "caption_zh": "活动拱门前的 Cavalcade 19 号车，紫色车身与白色条纹"
+    },
+    {
+      "record_id": "SP3-319368-CAVALCADE",
+      "url": "https://www.automotivpress.fr/wp-content/uploads/2025/07/0P1A0648.jpg",
+      "source_url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/",
+      "caption": "Side portrait of Cavalcade No. 9 outside a historic building",
+      "caption_zh": "历史建筑前的 Cavalcade 9 号车侧面特写"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://www.automotivpress.fr/wp-content/uploads/2025/07/0P1A5759b.jpg",
+      "source_url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/",
+      "caption": "Overhead panning photograph of Cavalcade No. 8 beside the lake",
+      "caption_zh": "湖畔行驶的 Cavalcade 8 号车，高位追随拍摄"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://www.automotivpress.fr/wp-content/uploads/2025/07/0P1A7566.jpg",
+      "source_url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/",
+      "caption": "Rear three-quarter driving view of No. 8 on a mountain road",
+      "caption_zh": "山路上行驶的 8 号车后侧视图"
+    },
+    {
+      "record_id": "SP3-281882-CAVALCADE",
+      "url": "https://www.automotivpress.fr/wp-content/uploads/2025/07/0P1A7642.jpg",
+      "source_url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/",
+      "caption": "Low front-quarter portrait of the yellow and red-striped Cavalcade SP3",
+      "caption_zh": "黄车红条纹 Cavalcade SP3 的低位前侧特写"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://www.automotivpress.fr/wp-content/uploads/2025/07/0P1A6789.jpg",
+      "source_url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/",
+      "caption": "Panning side view of green Cavalcade No. 10",
+      "caption_zh": "绿色 Cavalcade 10 号车的侧面追随拍摄"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-103-1659298022.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Rear rolling view into the sunset",
+      "caption_zh": "夕阳下行驶的后方视图"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-110-1659298021.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Closed-door side profile beside the pit garages",
+      "caption_zh": "维修车库旁的闭门侧面视图"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-131-1659298033.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Direct overhead view of the yellow body and red cockpit",
+      "caption_zh": "黄色车身与红色座舱的垂直俯视图"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-121-1659298029.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Instrument binnacle with Daytona SP3 lettering",
+      "caption_zh": "仪表罩上的 Daytona SP3 字样"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-122-1659298029.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Central transmission controls and red trim",
+      "caption_zh": "中央换挡控制区与红色饰面"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-123-1659298030.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Ferrari badge between the red seats",
+      "caption_zh": "红色座椅之间的法拉利徽章"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-120-1659298028.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Aluminium pedal box close-up",
+      "caption_zh": "铝制踏板区特写"
+    },
+    {
+      "record_id": "SP3-277499-DEMO-LEAD",
+      "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-106-1659298017.jpg",
+      "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+      "caption": "Front wheel, sculpted fender and door intake",
+      "caption_zh": "前轮、雕塑感翼子板与车门进气口"
+    }
+  ],
+  "verification": [
+    "ECR 82743 previously had only a source-only placeholder. Added five publicly rendered preview images using the exact public full/thumbnail URLs; no restricted gallery accessed. Existing identity fields retained.",
+    "Bernhard ten Brinke images matched through existing source articles and distinct yellow/black-twin-stripe specification. Two old Autoblog frames excluded as duplicates; two new showroom frames and two detail views selected.",
+    "Marianetti listing currently exposes only a generic coming-soon placeholder, excluded. Classic Driver archived listings expose only their existing cover images.",
+    "Swizz Beatz rear photograph is distinct from the existing nose close-up; the public source explicitly identifies the owner and black/red specification.",
+    "Cavalcade photos matched to existing event-list records using visible event numbers and exterior configuration: 3=305029, 4=304375, 5=296011, 6=281882, 8=304679, 9=319368, 10=287825, 14=320749, 19=311579. No new VIN or ownership claims added.",
+    "No. 6 close-up matched to the same yellow/red-striped car in the numbered NovedadMotor display photo. No. 19 uses the orange event number on the rear, not its separate decorative door roundel 44.",
+    "Group photographs each counted once and assigned to their prominent subject; watermark and original image composition retained. Photographer public sources only, no restricted Barchetta gallery images accessed.",
+    "Hong Kong Green Jewel Weibo candidates excluded: direct image requests without the source Referer return HTTP 403. No restricted or unstable external images retained.",
+    "Eight additional yellow-demonstrator photographs from the existing Car and Driver source matched through its GJ 563 FL plate and yellow/red specification. All differ from the five previously retained source frames. Twelve of the thirteen target records had at most three baseline photo references; this additional gallery supplies stable replacement images for excluded hotlink-protected candidates.",
+    "Baseline comparison passed: all old photographs preserved; 30 new distinct URLs absent from baseline; all non-photo/non-source record fields unchanged. Twelve of thirteen target records previously had at most three photo references.",
+    "Final 30 image URLs all returned HTTP 200 image/jpeg with ordinary requests and no source Referer header."
+  ],
+  "status": "Verified: 30 distinct new photographs across 13 existing cars; publication tracked by the accompanying pull request."
+}

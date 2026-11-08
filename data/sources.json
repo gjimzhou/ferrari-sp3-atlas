@@ -2002,5 +2002,26 @@
     "publisher": "Wikimedia Commons",
     "description": "Charles photographed the distinctive No. 23 Rubino car at Greenwich on 31 May 2025; licensed CC BY 2.0.",
     "url": "https://commons.wikimedia.org/wiki/File:Ferrari_Daytona_SP3_%282025%29_%2854560185490%29.jpg"
+  },
+  {
+    "id": "SRC-38D041C7",
+    "label": "Agent4Stars — Swizz Beatz Ferrari collection",
+    "publisher": "Agent4Stars",
+    "description": "Collection article explicitly identifying Swizz Beatz’s black SP3 with red accents and crediting Ferrari of Fort Lauderdale.",
+    "url": "https://supercars.agent4stars.com/property/the-real-swizzz-ferrari-collection-usa/"
+  },
+  {
+    "id": "SRC-3C25C92B",
+    "label": "NovedadMotor — Ferrari Cavalcade Sevilla 2025",
+    "publisher": "NovedadMotor",
+    "description": "Public event photo report showing numbered SP3 participants in Sevilla and Osuna.",
+    "url": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/"
+  },
+  {
+    "id": "SRC-3C809C42",
+    "label": "Automotiv Press — Cavalcade 2025 by Quentin Martinez",
+    "publisher": "Automotiv Press",
+    "description": "Public photographic event report by Quentin Martinez, showing SP3 cars at the 2025 Andalusian Cavalcade.",
+    "url": "https://www.automotivpress.fr/ferrari-cavalcade-2025-sous-la-chaleur-andalouse/"
   }
 ]

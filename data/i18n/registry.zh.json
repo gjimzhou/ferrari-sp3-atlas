@@ -983,7 +983,8 @@
     ],
     "timeline": [
       "2026 年 7 月 — 在湾仔一家咖啡店展示时被拍摄。"
-    ]
+    ],
+    "photo_captions": []
   },
   "SP3-BLU-TORRICE-LEAD": {
     "title": "Blu Torrice Tailor Made — 公开目击线索",
@@ -1727,6 +1728,10 @@
     "notes": "公开交付报道确认车主关系。原文对内饰使用推测措辞，因此本站不把黑色皮革／Alcantara 写成已确认配置；也不沿用文中错误的 6.2L 排量。",
     "timeline": [
       "2024 年 4 月 5 日 — 公开报道车辆交付给 Swizz Beatz。"
+    ],
+    "photo_captions": [
+      "公开来源图集 · 1",
+      "高位后侧视图，展示红色点缀"
     ]
   },
   "SP3-SELECTED-CAR-PORTOFINO": {
@@ -2159,7 +2164,15 @@
       "维修区双门升起的侧面视图",
       "维修区高位前侧视图",
       "从打开的车门查看红色座舱与方向盘",
-      "前部车身与清晰可见的 GJ 563 FL 车牌"
+      "前部车身与清晰可见的 GJ 563 FL 车牌",
+      "夕阳下行驶的后方视图",
+      "维修车库旁的闭门侧面视图",
+      "黄色车身与红色座舱的垂直俯视图",
+      "仪表罩上的 Daytona SP3 字样",
+      "中央换挡控制区与红色饰面",
+      "红色座椅之间的法拉利徽章",
+      "铝制踏板区特写",
+      "前轮、雕塑感翼子板与车门进气口"
     ],
     "interior": "Rosso Ferrari 红色皮革，搭配 Alcantara 饰面"
   },
@@ -2237,7 +2250,11 @@
     ],
     "photo_captions": [
       "2023 Hengelo · 后 3/4 · Giallo Modena / 黑顶",
-      "2023 Hengelo · 前 3/4 · 黑色双中央条纹"
+      "2023 Hengelo · 前 3/4 · 黑色双中央条纹",
+      "展厅中的黄色 SP3 与黑色双条纹",
+      "展厅中的正后方视图",
+      "黑色双条纹的高位后方视图",
+      "前轮、喷绘盾徽与黑色后视镜细节"
     ]
   },
   "SP3-308288-VIN-LEAD": {
@@ -2749,7 +2766,8 @@
       "2025 年 6 月 17 日 — Olivier Bidaud 在活动路线拍摄底盘 320749；Barchetta 发布 chassis-specific 图片元数据。"
     ],
     "photo_captions": [
-      "Ferrari Tribute 1000 Miglia 2025 · 628 号 · 底盘 320749"
+      "Ferrari Tribute 1000 Miglia 2025 · 628 号 · 底盘 320749",
+      "Cavalcade 14 号车停在 Osuna 活动站点"
     ]
   },
   "SP3-305029-CAVALCADE": {
@@ -2771,6 +2789,9 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 305029，黑色车身，黄色中央条纹，国家元数据为斯洛伐克。"
+    ],
+    "photo_captions": [
+      "黑黄配色 Cavalcade 3 号车位于展车队列左前方"
     ]
   },
   "SP3-304375-CAVALCADE": {
@@ -2792,6 +2813,9 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 304375，浅蓝色车身，国家元数据为比利时。"
+    ],
+    "photo_captions": [
+      "浅蓝色 Cavalcade 4 号车位于展车队列左侧"
     ]
   },
   "SP3-296011-CAVALCADE": {
@@ -2813,6 +2837,9 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 296011，深绿色车身，白红条纹，国家元数据为比利时。"
+    ],
+    "photo_captions": [
+      "Cavalcade 5 号车位于停车队列前侧，展示红白中央条纹"
     ]
   },
   "SP3-281882-CAVALCADE": {
@@ -2834,6 +2861,9 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 281882，黄色车身，红色条纹，国家元数据为比利时。"
+    ],
+    "photo_captions": [
+      "黄车红条纹 Cavalcade SP3 的低位前侧特写"
     ]
   },
   "SP3-304679-CAVALCADE": {
@@ -2855,6 +2885,11 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 304679，绿色车身，白色条纹，国家元数据为德国。"
+    ],
+    "photo_captions": [
+      "Cavalcade 8 号车的侧面与铜色轮圈",
+      "湖畔行驶的 Cavalcade 8 号车，高位追随拍摄",
+      "山路上行驶的 8 号车后侧视图"
     ]
   },
   "SP3-319368-CAVALCADE": {
@@ -2876,6 +2911,10 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 319368，深红色车身，国家元数据为德国。"
+    ],
+    "photo_captions": [
+      "停车队列中的 Cavalcade 9 号车后侧视图",
+      "历史建筑前的 Cavalcade 9 号车侧面特写"
     ]
   },
   "SP3-287825-CAVALCADE": {
@@ -2897,6 +2936,9 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 287825，绿色车身，黑色条纹，国家元数据为丹麦。"
+    ],
+    "photo_captions": [
+      "绿色 Cavalcade 10 号车的侧面追随拍摄"
     ]
   },
   "SP3-314849-CAVALCADE": {
@@ -3025,6 +3067,9 @@
     "review_status": "2026-09-21 — 已核对公开 Cavalcade Siviglia 参赛车辆名单中的底盘与外观配置；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2025 年 — Ferrari Cavalcade Siviglia 参赛车辆名单记录 Daytona SP3 底盘 311579，紫色车身，白色条纹，国家元数据为日本。"
+    ],
+    "photo_captions": [
+      "活动拱门前的 Cavalcade 19 号车，紫色车身与白色条纹"
     ]
   },
   "SP3-302913-CAVALCADE": {
@@ -4106,7 +4151,15 @@
     "review_status": "2026-10-02 — 已审阅来源；身份与配置证据的限制见下方备注。",
     "city": "安纳西",
     "exterior": "Azzurro Iridescente（公开 Registry 文字）",
-    "program": "Tailor Made（公开 Registry 文字）"
+    "program": "Tailor Made（公开 Registry 文字）",
+    "photo_captions": [
+      "ECR source gallery",
+      "公开图库：展厅外的前侧全车视图",
+      "公开预览：后侧车身与轮圈",
+      "公开预览：户外聚会中的高位前侧视图",
+      "公开预览：正面视图",
+      "公开预览：变色车漆的前盖细节"
+    ]
   },
   "SP3-ARANCIO-3-STRATI-GALLERY": {
     "title": "Arancio 3 Strati／蓝碳纤维 — Tailor Made",
