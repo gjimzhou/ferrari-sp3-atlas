@@ -3529,59 +3529,9 @@
       "July 2026 — Photographed on display at a Wan Chai café."
     ],
     "notes": "Recent community sighting. Kept below dealer/official confidence until a VIN, owner or delivery source is published.",
-    "photos": [
-      {
-        "url": "https://wx4.sinaimg.cn/cmw960/4e309388gy1igf3yawen0j20zk1hbtvs.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Front three-quarter view inside Macchina cafe",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx4.sinaimg.cn/cmw960/4e309388gy1igf3ydozy3j20zk1hbk4j.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Rear view framed by the cafe wall opening",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx3.sinaimg.cn/cmw960/4e309388gy1igf3yjr7xxj20zk1hb7od.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Rear three-quarter view from the raised seating area",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx1.sinaimg.cn/cmw960/4e309388gy1igf3ys2jrcj20zk1hb4jk.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Elevated rear detail showing the number 16 roundel",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx3.sinaimg.cn/cmw960/4e309388gy1igf3zbjysoj21z41hb4qp.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Photographer diptych: red seats and dashboard",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx3.sinaimg.cn/cmw960/4e309388gy1igf41bqtlwj21z41hbe81.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Photographer diptych: front and rear views",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx3.sinaimg.cn/cmw960/4e309388gy1igf3zmjsp7j21z41hb7v5.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Photographer diptych: carbon pillar and door roundel",
-        "credit": "Qiuyangphoto"
-      },
-      {
-        "url": "https://wx4.sinaimg.cn/cmw960/4e309388gy1igf3xyh5f9j21z41hbe81.jpg",
-        "source_url": "https://weibo.com/2/detail/5335510673525499",
-        "caption": "Photographer diptych: side view and bronze wheel detail",
-        "credit": "Qiuyangphoto"
-      }
-    ],
+    "photos": [],
     "sources": [
-      "SRC-F40E95C6",
-      "SRC-B140DE88"
+      "SRC-F40E95C6"
     ],
     "review_status": "2026-09-21 — July 2026 Hong Kong sighting rechecked; exact identity remains unlinked to VIN or delivery documentation.",
     "record_kind": "lead",
@@ -7620,6 +7570,54 @@
         "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-126-1659298031.jpg",
         "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
         "caption": "Front bodywork and visible GJ 563 FL plate",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-103-1659298022.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Rear rolling view into the sunset",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-110-1659298021.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Closed-door side profile beside the pit garages",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-131-1659298033.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Direct overhead view of the yellow body and red cockpit",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-121-1659298029.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Instrument binnacle with Daytona SP3 lettering",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-122-1659298029.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Central transmission controls and red trim",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-123-1659298030.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Ferrari badge between the red seats",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-120-1659298028.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Aluminium pedal box close-up",
+        "credit": "Ferrari / Car and Driver"
+      },
+      {
+        "url": "https://hips.hearstapps.com/hmg-prod/images/2022-ferrari-daytona-sp3-106-1659298017.jpg",
+        "source_url": "https://www.caranddriver.com/photos/g40756417/2022-ferrari-daytona-sp3-drive-gallery/",
+        "caption": "Front wheel, sculpted fender and door intake",
         "credit": "Ferrari / Car and Driver"
       }
     ],
