@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-17",
+  "baseline_commit": "a74d45f21f5aa9828bc94b0eb016f8468aa5a0af",
+  "baseline_photo_references": 1435,
+  "photos": [
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://live.staticflickr.com/65535/53912284791_10bcb09966_b.jpg",
+      "source_url": "https://www.flickr.com/photos/140574827@N07/53912284791",
+      "caption": "Monaco GP 2024 — low front-quarter detail beneath the trees",
+      "caption_zh": "2024 摩纳哥大奖赛期间——树下低角度前翼子板与车头细节"
+    },
+    {
+      "record_id": "SP3-DAVID-LEE",
+      "url": "https://live.staticflickr.com/65535/54777861512_39d2ec4278_b.jpg",
+      "source_url": "https://www.flickr.com/photos/hunterfrimphotography/54777861512",
+      "caption": "High front-quarter view beside the collection; gold SP3 stripe and wheels",
+      "caption_zh": "车队旁高角度前侧视角；金色 SP3 条纹与轮毂"
+    },
+    {
+      "record_id": "SP3-DAVID-LEE",
+      "url": "https://live.staticflickr.com/65535/54778945189_ab91ef063f_b.jpg",
+      "source_url": "https://www.flickr.com/photos/hunterfrimphotography/54778945189",
+      "caption": "Opposite front-quarter view; green carbon, gold cabin and wheels",
+      "caption_zh": "另一侧前侧视角；绿色碳纤维、金色座舱与轮毂"
+    },
+    {
+      "record_id": "SP3-314849-CAVALCADE",
+      "url": "https://static.grupojoly.com/clip/7510c7d8-26ec-403c-99b3-1add930aee29_source-aspect-ratio_default_0.jpg",
+      "source_url": "https://www.diariodesevilla.es/sevilla/mejores-fotos-ferrari-cavalcade-2025_3_2004010738.html",
+      "caption": "Cavalcade No. 11 — front quarter, gold wheel and British flag in the public display",
+      "caption_zh": "Cavalcade 11 号——公开展区内的前侧、金色轮毂与英国旗"
+    },
+    {
+      "record_id": "SP3-314849-CAVALCADE",
+      "url": "https://static.grupojoly.com/clip/87a39126-8284-4d26-a61c-8dfcfd793b10_source-aspect-ratio_default_0.jpg",
+      "source_url": "https://www.diariodesevilla.es/sevilla/mejores-fotos-ferrari-cavalcade-2025_3_2004010738.html",
+      "caption": "Cavalcade No. 11 — front view in the Seville lineup",
+      "caption_zh": "Cavalcade 11 号——塞维利亚车队中的正面"
+    },
+    {
+      "record_id": "SP3-285951-CAVALCADE",
+      "url": "https://static.grupojoly.com/clip/75c0b3bc-2584-444f-b33e-990515f6dfee_source-aspect-ratio_default_0.jpg",
+      "source_url": "https://www.diariodesevilla.es/sevilla/mejores-fotos-ferrari-cavalcade-2025_3_2004010738.html",
+      "caption": "Cavalcade No. 12 — red body and black roof at Plaza de América",
+      "caption_zh": "Cavalcade 12 号——美洲广场上的红色车身与黑色车顶"
+    },
+    {
+      "record_id": "SP3-311579-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-11-684e936fc38ee.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 19 driving past the olive groves, decorative 44 roundel visible",
+      "caption_zh": "2025 Cavalcade——19 号驶过橄榄林，可见装饰性 44 号圆标"
+    },
+    {
+      "record_id": "SP3-305029-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-07-684e937a46c30.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 3 leading a group on a country road",
+      "caption_zh": "2025 Cavalcade——3 号领队行驶在乡间道路"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-06-684e937cd9a18.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 10 approaching on a country road",
+      "caption_zh": "2025 Cavalcade——10 号沿乡间道路驶来"
+    },
+    {
+      "record_id": "SP3-281882-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-05-684e93819bbdf.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 6 — Belgian 2-FLP-691 plate and red centre stripe on the road",
+      "caption_zh": "2025 Cavalcade——6 号——行驶中的比利时 2-FLP-691 车牌与红色中线"
+    },
+    {
+      "record_id": "SP3-299827",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-03-684e938416286.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 2 — ZG 120395 on an Andalusian country road",
+      "caption_zh": "2025 Cavalcade——2 号——安达卢西亚乡间道路上的 ZG 120395"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-01-684e93891585b.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 8 — green body, white stripe and M OO 845 plate on the road",
+      "caption_zh": "2025 Cavalcade——8 号——行驶中的绿色车身、白色条纹与 M OO 845 车牌"
+    },
+    {
+      "record_id": "SP3-311579-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-43-684e931c2e66a.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 19 passing the Alcázar walls in the final parade",
+      "caption_zh": "2025 Cavalcade——19 号在闭幕巡游中驶过王宫城墙"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-44-684e931969d82.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 10 passing the Alcázar walls",
+      "caption_zh": "2025 Cavalcade——10 号驶过王宫城墙"
+    },
+    {
+      "record_id": "SP3-305029-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-55-684e92f7d8477-scaled.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 3 in front of Seville Cathedral",
+      "caption_zh": "2025 Cavalcade——3 号驶过塞维利亚主教座堂"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-56-684e92f1d4960-scaled.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 10 in front of Seville Cathedral",
+      "caption_zh": "2025 Cavalcade——10 号驶过塞维利亚主教座堂"
+    },
+    {
+      "record_id": "SP3-314849-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-88-684e927e3d8f9.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade 2025 — No. 11 from above on the country-road convoy",
+      "caption_zh": "2025 Cavalcade——高处拍摄乡间车队中的 11 号"
+    },
+    {
+      "record_id": "SP3-GORDON-RAMSAY",
+      "url": "https://www.clubalfa.it/en/assets/media/2025/02/Ferrari-Daytona-SP3-Gordon-Ramsay-1.jpg",
+      "source_url": "https://www.clubalfa.it/en/gordon-ramsay-drives-his-brand-new-ferrari-daytona-sp3-in-london-video-16722",
+      "caption": "London night — close head-on view with illuminated headlights, published video still",
+      "caption_zh": "伦敦夜间——亮灯车头近景，媒体公开刊载的视频截图"
+    },
+    {
+      "record_id": "SP3-312255-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54582075163_2062a6a457_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54582075163",
+      "caption": "Cavalcade No. 15 — Rear three-quarter at the head of the parked line; GX 777 FD visible",
+      "caption_zh": "Cavalcade 15 号——停放队列首端的后侧视角，可见 GX 777 FD 车牌"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54908685530_f4e4188eb9_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54908685530",
+      "caption": "Cavalcade No. 10 — Open-roof front quarter with the driver aboard",
+      "caption_zh": "Cavalcade 10 号——敞篷前侧视角，驾驶员在车内"
+    },
+    {
+      "record_id": "SP3-319368-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54907504572_3bfa548ae5_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54907504572",
+      "caption": "Cavalcade No. 9 — Front and side with the driver-side event roundel",
+      "caption_zh": "Cavalcade 9 号——前侧与车门活动圆标"
+    },
+    {
+      "record_id": "SP3-296011-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54752080323_c98bd4827c_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54752080323",
+      "caption": "Cavalcade No. 5 — Open-roof side profile on the departure lane",
+      "caption_zh": "Cavalcade 5 号——驶出通道上的敞篷侧面"
+    },
+    {
+      "record_id": "SP3-319368-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54908369476_6c5f334330_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54908369476",
+      "caption": "Cavalcade No. 9 — Low front view showing M SP 660",
+      "caption_zh": "Cavalcade 9 号——低角度车头，可见 M SP 660"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54908372096_d7cabd3ab3_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54908372096",
+      "caption": "Cavalcade No. 10 — Elevated front quarter and black bonnet stripes",
+      "caption_zh": "Cavalcade 10 号——高角度前侧与黑色车头条纹"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54582075168_a032375f78_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54582075168",
+      "caption": "Cavalcade No. 8 — Front view with both doors raised in the lineup",
+      "caption_zh": "Cavalcade 8 号——车队内双门升起的正面"
+    },
+    {
+      "record_id": "SP3-305029-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54671273803_b76138df3e_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54671273803",
+      "caption": "Cavalcade No. 3 — Head-on departure view with the doors closed",
+      "caption_zh": "Cavalcade 3 号——双门关闭驶出时的正面"
+    },
+    {
+      "record_id": "SP3-296011-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54752086319_8ca3254183_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54752086319",
+      "caption": "Cavalcade No. 5 — Elevated front quarter with the red-white roundel and LJ73 YDM",
+      "caption_zh": "Cavalcade 5 号——高角度前侧，可见红白圆标与 LJ73 YDM"
+    },
+    {
+      "record_id": "SP3-281882-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54760352856_aa9125297b_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54760352856",
+      "caption": "Cavalcade No. 6 — Open-roof front quarter in the departure lane",
+      "caption_zh": "Cavalcade 6 号——驶出通道上的敞篷前侧"
+    },
+    {
+      "record_id": "SP3-281882-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54760352846_0224eabcf0_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54760352846",
+      "caption": "Cavalcade No. 6 — Front quarter parked beside green No. 8",
+      "caption_zh": "Cavalcade 6 号——停在绿色 8 号旁的前侧"
+    },
+    {
+      "record_id": "SP3-319368-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54908682755_defa79899f_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54908682755",
+      "caption": "Cavalcade No. 9 — Straight rear view, twin exhausts and M SP 660",
+      "caption_zh": "Cavalcade 9 号——正后方、双排气与 M SP 660"
+    },
+    {
+      "record_id": "SP3-281882-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54760352831_0dc62aa886_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54760352831",
+      "caption": "Cavalcade No. 6 — Head-on portrait with the roof removed and 2-FLP-691 visible",
+      "caption_zh": "Cavalcade 6 号——拆下车顶的正面，可见 2-FLP-691"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54778660507_e32b8b127b_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54778660507",
+      "caption": "Cavalcade No. 8 — Rear quarter with bronze wheels and M OO 845",
+      "caption_zh": "Cavalcade 8 号——后侧、铜色轮毂与 M OO 845"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54778660502_d1c5a1dacf_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54778660502",
+      "caption": "Cavalcade No. 8 — Open-roof side profile with the driver aboard",
+      "caption_zh": "Cavalcade 8 号——驾驶员在车内的敞篷侧面"
+    },
+    {
+      "record_id": "SP3-281882-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54759493882_d5f3df4b9d_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54759493882",
+      "caption": "Cavalcade No. 6 — Closed-roof front quarter showing the Belgian flag and event number",
+      "caption_zh": "Cavalcade 6 号——车顶闭合的前侧，可见比利时旗及活动编号"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54779513106_4a53d94e19_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54779513106",
+      "caption": "Cavalcade No. 8 — High front view of the white double stripe",
+      "caption_zh": "Cavalcade 8 号——白色双条纹的高角度前视图"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54778660522_c4cc91ae24_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54778660522",
+      "caption": "Cavalcade No. 8 — Closed-roof side quarter in the parked lineup",
+      "caption_zh": "Cavalcade 8 号——停放车队内车顶闭合的侧前方"
+    },
+    {
+      "record_id": "SP3-287825-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54908685545_c292bf5078_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54908685545",
+      "caption": "Cavalcade No. 10 — Rear-side view and green sculpted bodywork",
+      "caption_zh": "Cavalcade 10 号——后侧视角与绿色车身曲面"
+    },
+    {
+      "record_id": "SP3-319368-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54908594463_8808098cbb_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54908594463",
+      "caption": "Cavalcade No. 9 — Rear-side view of the red body and black roof",
+      "caption_zh": "Cavalcade 9 号——红色车身与黑色车顶的后侧视角"
+    },
+    {
+      "record_id": "SP3-304375-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54752073933_f06a2f95f2_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54752073933",
+      "caption": "Cavalcade No. 4 — Side profile with the Belgian flag and No. 4 roundel",
+      "caption_zh": "Cavalcade 4 号——侧面、比利时旗与 4 号圆标"
+    },
+    {
+      "record_id": "SP3-304375-CAVALCADE",
+      "url": "https://live.staticflickr.com/65535/54751013567_f89361e7de_b.jpg",
+      "source_url": "https://www.flickr.com/photos/dagm4/54751013567",
+      "caption": "Cavalcade No. 4 — Rear-side view showing the blue rear deck and horizontal slats",
+      "caption_zh": "Cavalcade 4 号——后侧视角，可见蓝色后甲板与横向格栅"
+    },
+    {
+      "record_id": "SP3-311579-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-12-684e936d49dfe.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade No. 19 — rear view on the country road, rear registration visible",
+      "caption_zh": "Cavalcade 19 号——乡间道路后视角，可见后车牌"
+    },
+    {
+      "record_id": "SP3-304679-CAVALCADE",
+      "url": "https://www.diariomotor.com/imagenes/2025/06/FERRARI-CAVALCADE-2025-SEVILLA-87-684e9283bfd63.jpg?class=OG",
+      "source_url": "https://www.diariomotor.com/noticia/experiencia-participar-ferrari-cavalcade-2025/",
+      "caption": "Cavalcade No. 8 — wide elevated view of the convoy between olive groves",
+      "caption_zh": "Cavalcade 8 号——橄榄林间车队的高处广角视图"
+    }
+  ],
+  "verification": [
+    "All 42 direct image URLs returned HTTP 200 without a Referer header and decoded as images.",
+    "All 42 image byte hashes are distinct; visual review excluded resized copies, model cars, renderings and uncertain matches.",
+    "All original photos preserved; all non-photo/source registry fields unchanged from baseline.",
+    "New photo captions supplied in English and Chinese with source links and credits.",
+    "191 records, 50 confirmed VINs and 38/599 customer allocations unchanged; no VIN research performed."
+  ],
+  "status": "Validated: 42 distinct additions across 15 existing records; prepared for publication.",
+  "record_changes": [
+    {
+      "id": "SP3-299827",
+      "before": 41,
+      "after": 42
+    },
+    {
+      "id": "SP3-CHARLES-LECLERC",
+      "before": 51,
+      "after": 52
+    },
+    {
+      "id": "SP3-DAVID-LEE",
+      "before": 6,
+      "after": 8
+    },
+    {
+      "id": "SP3-GORDON-RAMSAY",
+      "before": 19,
+      "after": 20
+    },
+    {
+      "id": "SP3-305029-CAVALCADE",
+      "before": 6,
+      "after": 9
+    },
+    {
+      "id": "SP3-304375-CAVALCADE",
+      "before": 2,
+      "after": 4
+    },
+    {
+      "id": "SP3-296011-CAVALCADE",
+      "before": 1,
+      "after": 3
+    },
+    {
+      "id": "SP3-281882-CAVALCADE",
+      "before": 1,
+      "after": 6
+    },
+    {
+      "id": "SP3-304679-CAVALCADE",
+      "before": 3,
+      "after": 10
+    },
+    {
+      "id": "SP3-319368-CAVALCADE",
+      "before": 3,
+      "after": 7
+    },
+    {
+      "id": "SP3-287825-CAVALCADE",
+      "before": 2,
+      "after": 8
+    },
+    {
+      "id": "SP3-314849-CAVALCADE",
+      "before": 0,
+      "after": 3
+    },
+    {
+      "id": "SP3-285951-CAVALCADE",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "id": "SP3-312255-CAVALCADE",
+      "before": 0,
+      "after": 1
+    },
+    {
+      "id": "SP3-311579-CAVALCADE",
+      "before": 2,
+      "after": 5
+    }
+  ]
+}
