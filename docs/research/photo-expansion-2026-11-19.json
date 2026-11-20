@@ -6,7 +6,7 @@
     "new_photos": 40,
     "existing_records": 12
   },
-  "status": "in_progress",
+  "status": "validated",
   "photos": [
     {
       "record_id": "SP3-276831-GOODWOOD",
@@ -397,6 +397,46 @@
       "caption_zh": "2026 Palm Beach Cavallino——草坪上的 599+1 前侧视角",
       "sha256": "f6700145e1bc775080304853c0aaf26b97931c951c9a480643f6319c21ab4c68",
       "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://live.staticflickr.com/65535/54236560519_7eb12a48f5_b.jpg",
+      "source_url": "https://www.flickr.com/photos/justinkane/54236560519",
+      "caption": "Enzo Ferrari Museum — side and front quarter on display",
+      "credit": "Justin Kane / Flickr",
+      "caption_zh": "Enzo Ferrari 博物馆——展台上的侧面与前侧视角",
+      "sha256": "74d75f71be4594027b05b0259af46a76b43643e681c8706ac1d9796e5d476b88",
+      "verification": "Justin Kane public photo descriptions identify Enzo Ferrari Museum, Modena, with November 28, 2024 capture dates; Alexandre Prevot rear street image has May 8, 2025 capture date. Matching matte-black finish, Monaco red-white centre stripe, red lower-body outlines and No. 16 details. Museum views are distinct photographer compositions; existing Flickr photo 53912284791 is a different outdoor front close-up. Direct images fetched and visually checked. No owner, VIN or classification changes."
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://live.staticflickr.com/65535/54236867140_72032f399f_b.jpg",
+      "source_url": "https://www.flickr.com/photos/justinkane/54236867140",
+      "caption": "Enzo Ferrari Museum — No. 16 bodywork detail",
+      "credit": "Justin Kane / Flickr",
+      "caption_zh": "Enzo Ferrari 博物馆——车身 16 号标识细节",
+      "sha256": "44b9382cd2dfbd04bb631fed94919046c8404726a6d31df507701c10bd2984f8",
+      "verification": "Justin Kane public photo descriptions identify Enzo Ferrari Museum, Modena, with November 28, 2024 capture dates; Alexandre Prevot rear street image has May 8, 2025 capture date. Matching matte-black finish, Monaco red-white centre stripe, red lower-body outlines and No. 16 details. Museum views are distinct photographer compositions; existing Flickr photo 53912284791 is a different outdoor front close-up. Direct images fetched and visually checked. No owner, VIN or classification changes."
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://live.staticflickr.com/65535/54236692189_0f3d336846_b.jpg",
+      "source_url": "https://www.flickr.com/photos/justinkane/54236692189",
+      "caption": "Enzo Ferrari Museum — head-on view of the Monaco stripe",
+      "credit": "Justin Kane / Flickr",
+      "caption_zh": "Enzo Ferrari 博物馆——正面视角与摩纳哥红白条纹",
+      "sha256": "d9c62d68ecec85076e169861f4dab6556f9060e1e3f87a1cb5b4d80066fc4692",
+      "verification": "Justin Kane public photo descriptions identify Enzo Ferrari Museum, Modena, with November 28, 2024 capture dates; Alexandre Prevot rear street image has May 8, 2025 capture date. Matching matte-black finish, Monaco red-white centre stripe, red lower-body outlines and No. 16 details. Museum views are distinct photographer compositions; existing Flickr photo 53912284791 is a different outdoor front close-up. Direct images fetched and visually checked. No owner, VIN or classification changes."
+    },
+    {
+      "record_id": "SP3-CHARLES-LECLERC",
+      "url": "https://live.staticflickr.com/65535/54722675821_45b2ee4dbd_b.jpg",
+      "source_url": "https://www.flickr.com/photos/alexprevot/54722675821",
+      "caption": "Monaco street sighting — rear view and red diffuser outlines",
+      "credit": "Alexandre Prevot / Flickr",
+      "caption_zh": "摩纳哥街头——车尾与扩散器红色轮廓线",
+      "sha256": "d0fb2c16706cee7f6b3896839a65bf8ec531d022e6c7a70c916e780e0ff68dac",
+      "verification": "Justin Kane public photo descriptions identify Enzo Ferrari Museum, Modena, with November 28, 2024 capture dates; Alexandre Prevot rear street image has May 8, 2025 capture date. Matching matte-black finish, Monaco red-white centre stripe, red lower-body outlines and No. 16 details. Museum views are distinct photographer compositions; existing Flickr photo 53912284791 is a different outdoor front close-up. Direct images fetched and visually checked. No owner, VIN or classification changes."
     }
   ],
   "research_notes": [
@@ -471,11 +511,45 @@
     {
       "source": "https://rossoautomobili.com/pages/all-ferrari-blue-colours",
       "result": "Jacob Elliott Blu Laguna photo shows event No. 5; no sufficient identity link to Central New Jersey showroom record. Not added."
+    },
+    {
+      "source": "https://www.flickr.com/photos/136435491@N07/55235324453",
+      "result": "Beige/silver Cavallino car was not added: exhibition board QR could not be decoded, and colour/event alone was not used to assign chassis 303684."
     }
   ],
   "progress": {
-    "new_photos": 39,
-    "existing_records": 11,
-    "total_photo_references": 1516
+    "new_photos": 43,
+    "existing_records": 12,
+    "total_photo_references": 1520,
+    "records": {
+      "SP3-276831-GOODWOOD": 7,
+      "SP3-PIERO-NART": 1,
+      "SP3-ROMAN-PURPLE-OPACO": 3,
+      "ECR-127142": 5,
+      "SP3-JJ-LIN": 5,
+      "SP3-315825-GUNSTON": 6,
+      "SP3-314846": 3,
+      "SP3-286921": 2,
+      "SP3-316681-CAVALLINO-PB": 2,
+      "SP3-311303-CAVALLINO-PB": 3,
+      "SP3-319682": 2,
+      "SP3-CHARLES-LECLERC": 4
+    }
+  },
+  "validation": {
+    "direct_image_gets": 43,
+    "decodable_images": 43,
+    "sha256_matches": 43,
+    "identity_fields_unchanged": true,
+    "existing_photos_preserved": true,
+    "checks": [
+      "registry",
+      "bilingual content",
+      "photo rights",
+      "VIN evidence",
+      "market evidence",
+      "git diff --check"
+    ],
+    "publication_tracking": "https://github.com/gjimzhou/ferrari-sp3-atlas/pull/48"
   }
 }

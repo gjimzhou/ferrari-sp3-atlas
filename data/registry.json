@@ -2596,6 +2596,30 @@
         "source_url": "https://www.flickr.com/photos/140574827@N07/53912284791",
         "caption": "Monaco GP 2024 — low front-quarter detail beneath the trees",
         "credit": "Felipe Caramori / Flickr"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54236560519_7eb12a48f5_b.jpg",
+        "source_url": "https://www.flickr.com/photos/justinkane/54236560519",
+        "caption": "Enzo Ferrari Museum — side and front quarter on display",
+        "credit": "Justin Kane / Flickr"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54236867140_72032f399f_b.jpg",
+        "source_url": "https://www.flickr.com/photos/justinkane/54236867140",
+        "caption": "Enzo Ferrari Museum — No. 16 bodywork detail",
+        "credit": "Justin Kane / Flickr"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54236692189_0f3d336846_b.jpg",
+        "source_url": "https://www.flickr.com/photos/justinkane/54236692189",
+        "caption": "Enzo Ferrari Museum — head-on view of the Monaco stripe",
+        "credit": "Justin Kane / Flickr"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/54722675821_45b2ee4dbd_b.jpg",
+        "source_url": "https://www.flickr.com/photos/alexprevot/54722675821",
+        "caption": "Monaco street sighting — rear view and red diffuser outlines",
+        "credit": "Alexandre Prevot / Flickr"
       }
     ],
     "sources": [
@@ -2617,7 +2641,11 @@
       "SRC-474895D6",
       "SRC-361D6ED4",
       "SRC-F95CA3D5",
-      "SRC-6F75E51D"
+      "SRC-6F75E51D",
+      "SRC-92269E3F",
+      "SRC-2E44A49D",
+      "SRC-9FD3E30E",
+      "SRC-CFDC9D61"
     ],
     "review_status": "2026-11-01 — Added 14 distinct published delivery/configuration images; video stills are labelled and credited. VIN remains unavailable.",
     "record_kind": "profile",
