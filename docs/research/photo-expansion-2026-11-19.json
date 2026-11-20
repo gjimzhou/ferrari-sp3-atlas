@@ -1,0 +1,352 @@
+{
+  "date": "2026-11-19",
+  "baseline_commit": "3197030476b572a9058a3269aa1550bb366c21b0",
+  "baseline_photo_references": 1477,
+  "target": {
+    "new_photos": 40,
+    "existing_records": 12
+  },
+  "status": "in_progress",
+  "photos": [
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52237447288_017a9579e7_b.jpg",
+      "source_url": "https://www.flickr.com/photos/photocutout/52237447288",
+      "caption": "Goodwood 2022 — Approaching through the hay-bale corridor",
+      "credit": "Photocutout / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——沿草垛赛道驶来的正面视角",
+      "sha256": "97f11cbb231239491ce707548d263396aaa1d84cd6d76766518732581daf9566",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52275147615_85fc0667fb_b.jpg",
+      "source_url": "https://www.flickr.com/photos/marcinek55/52275147615",
+      "caption": "Goodwood 2022 — Paddock front quarter with event number 618",
+      "credit": "Marcin Wojciechowski / Marcinek_55 / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——围场内前侧视角，风挡可见活动编号 618",
+      "sha256": "65ed79d925dc4a09d5f6e0fd54d333a5704a9641e078f32e65c1b156611c321f",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52237447363_139680b6cc_b.jpg",
+      "source_url": "https://www.flickr.com/photos/photocutout/52237447363",
+      "caption": "Goodwood 2022 — Rear view leaving the start area",
+      "credit": "Photocutout / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——驶离起点区域的车尾视角",
+      "sha256": "3ad34b0984111538662ee8e621df16c3464c1f84b22127c0c279b628b6596905",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52237929860_f87e4b1ecd_b.jpg",
+      "source_url": "https://www.flickr.com/photos/photocutout/52237929860",
+      "caption": "Goodwood 2022 — Wide view at the smoky start line",
+      "credit": "Photocutout / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——带轮胎烟雾的起点广角视图",
+      "sha256": "3ea50e1df6f3a3aaabc69cb2c9d4370c1dd89562656afd426bbfeaca06e5cf3e",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52529023022_5cee1f156d_b.jpg",
+      "source_url": "https://www.flickr.com/photos/123281362@N02/52529023022",
+      "caption": "Goodwood 2022 — Front quarter accelerating from the start",
+      "credit": "Carlos Sanz / AnchoaPhoto / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——从起点加速时的前侧视角",
+      "sha256": "d88420d325492916a1d285e5234d7d0cd0359025f03f48c7225246ab8169ccd8",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52529968275_53e9bc7082_b.jpg",
+      "source_url": "https://www.flickr.com/photos/123281362@N02/52529968275",
+      "caption": "Goodwood 2022 — Rear quarter passing the spectators",
+      "credit": "Carlos Sanz / AnchoaPhoto / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——驶过观众区的后侧视角",
+      "sha256": "40d712db1ed471106ce692e505212ea8344028eba09cd348b2fc09974a0ff2da",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-276831-GOODWOOD",
+      "url": "https://live.staticflickr.com/65535/52529775339_e0f1a68103_b.jpg",
+      "source_url": "https://www.flickr.com/photos/123281362@N02/52529775339",
+      "caption": "Goodwood 2022 — Front quarter beside the Goodwood grandstand",
+      "credit": "Carlos Sanz / AnchoaPhoto / Flickr",
+      "caption_zh": "2022 Goodwood 速度节——Goodwood 看台旁的前侧视角",
+      "sha256": "3172c4993eb810675f2e79eece3f3a053b4f5de4491c058b6ff86a141268e1cc",
+      "verification": "Public source date in June 2022; matching yellow Goodwood event car, silver five-spoke wheels and dark roof. No. 618 visible in paddock view. Ordinary direct image GET succeeded; original watermark retained."
+    },
+    {
+      "record_id": "SP3-PIERO-NART",
+      "url": "https://cdn.shopify.com/s/files/1/0693/9957/6767/files/c4385fe1-3302-4954-8465-382d65ba_1536x.jpg?v=1766527424",
+      "source_url": "https://news.dupontregistry.com/blogs/ferrari-news/piero-ferrari-daytona-sp3-livery",
+      "caption": "Side sculpting and blue mirror — low rear-quarter detail",
+      "credit": "Ferrari Magazine / duPont REGISTRY",
+      "caption_zh": "低角度后侧细节——侧面雕塑线条与蓝色后视镜",
+      "sha256": "4c07e132cd298a76069cdd5207b17f6b0d974af951cba7ac048ed19893276e3c",
+      "verification": "Published in the existing Piero Ferrari source gallery. Compared visually against all four Znews car images and the existing office portrait; this side-body detail is distinct. Direct image GET succeeded."
+    },
+    {
+      "record_id": "SP3-ROMAN-PURPLE-OPACO",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1004802",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/123951",
+      "caption": "Showroom front view — matte-purple body and dark bonnet accents (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "展厅正面——哑光紫色车身与深色前盖细节（公开预览）",
+      "sha256": "8a5c3d8e145d61a0e279043bbd05901bc8e76a237ffd9911358d98535b5dc847",
+      "verification": "Exact public thumbnail src on the existing ECR record, not an inferred full-size URL. Real image verified visually; showroom views are distinct from existing outdoor Loud Pedal photographs. Original preview retained."
+    },
+    {
+      "record_id": "SP3-ROMAN-PURPLE-OPACO",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1004803",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/123951",
+      "caption": "Showroom front quarter — gold wheels and purple body (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "展厅前侧——金色轮毂与紫色车身（公开预览）",
+      "sha256": "4cf5d44e2f9dfd9e7dc970491ed6d9f6da383091c348457249a9e4bc10340247",
+      "verification": "Exact public thumbnail src on the existing ECR record, not an inferred full-size URL. Real image verified visually; showroom views are distinct from existing outdoor Loud Pedal photographs. Original preview retained."
+    },
+    {
+      "record_id": "SP3-ROMAN-PURPLE-OPACO",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1004805",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/123951",
+      "caption": "Showroom rear view — gold engine-cover surround (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "展厅车尾——金色发动机盖饰框（公开预览）",
+      "sha256": "b447cab8a0db5f04bb26c8adf198acf9ff7eef74c944cc215611a5cc65b73fc3",
+      "verification": "Exact public thumbnail src on the existing ECR record, not an inferred full-size URL. Real image verified visually; showroom views are distinct from existing outdoor Loud Pedal photographs. Original preview retained."
+    },
+    {
+      "record_id": "ECR-127142",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/full/1631924",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "caption": "Black-and-red SP3 on the lawn — side and front quarter",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "草坪上的黑红配色 SP3——侧面与前侧视角",
+      "sha256": "b92939daf9df28d0969e4635460319e59b4439747f7a4307b4792b175b9ded95",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "ECR-127142",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1631925",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "caption": "Rear quarter on the lawn — red wheel and sill accents (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "草坪后侧视角——红色轮毂与侧裙细节（公开预览）",
+      "sha256": "2d0246119fee733946cab40e0dad5ad22da9ee574d2a957756f5a7db4a1727b5",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "ECR-127142",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1625948",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "caption": "Head-on view on the lawn — red centre stripe (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "草坪正面——红色中央条纹（公开预览）",
+      "sha256": "31461fab0cbe74608c96f1d2591afb4fb14941f8039daa7ac71e14349df7bc28",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "ECR-127142",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1625949",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "caption": "Front quarter on the lawn — red splitter and wheel accents (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "草坪前侧——红色前唇与轮毂细节（公开预览）",
+      "sha256": "0ccfe76eb02bb69b1637465fa23fa8a2d5f4e2aefc53500badb491877d2e7358",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "ECR-127142",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/1625950",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "caption": "Red cabin — seats, centre console and steering-wheel detail (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "红色座舱——座椅、中控台与方向盘细节（公开预览）",
+      "sha256": "80e9868fc46880da39f99d2517cd64bdaa5a24c99fadadf59c65ca5b3fa33681",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "SP3-JJ-LIN",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/full/577065",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098",
+      "caption": "White-and-blue SP3 in urban traffic — front quarter",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "白蓝配色 SP3 在城市车流中——前侧视角",
+      "sha256": "b871ee6a2f9c8c309fc645cde53935408c1a4030f5aafd7da291cd85a2331f75",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "SP3-JJ-LIN",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/577066",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098",
+      "caption": "Urban rear quarter — white rear deck and blue centre stripes (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "城市后侧——白色后车身与蓝色中央条纹（公开预览）",
+      "sha256": "8564ffe02f6551dc6f98167ccd5636e668c1975ce904e3d8cc8bb99413a3a3eb",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "SP3-JJ-LIN",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/577067",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098",
+      "caption": "Street front-quarter detail — twin blue stripes and dark wheels (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "街头前侧细节——双蓝条纹与深色轮毂（公开预览）",
+      "sha256": "2af786cd4c866b633583265f71780c95a53ab31cb442c1c414aa11c34b977477",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "SP3-JJ-LIN",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/577068",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098",
+      "caption": "Street side detail — sculpted door and rear wheel (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "街头侧面细节——车门线条与后轮（公开预览）",
+      "sha256": "bd9f211c7c6b12acdd11fea8290b407936b908792fb6a400e17c048e0a4dda29",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "SP3-JJ-LIN",
+      "url": "https://exclusivecarregistry.com/images/gallery/car/thumb/577069",
+      "source_url": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/79098",
+      "caption": "Head-on view at an entrance — twin blue centre stripes (public preview)",
+      "credit": "Exclusive Car Registry / public gallery preview",
+      "caption_zh": "入口处的正面视角——双蓝中央条纹（公开预览）",
+      "sha256": "3fff4a7ee30a14c83fe311936c7f03336b3c726ebf3fd48a20d51a977c73e26c",
+      "verification": "Exact public image src on the existing source record; ordinary GET returned a real photograph. No full-size URL inferred. Visually distinct from existing photos: lawn/red interior series for ECR-127142; urban sighting/entrance series for JJ Lin."
+    },
+    {
+      "record_id": "SP3-315825-GUNSTON",
+      "url": "https://automotivemasterpieces.com/image/829cf65c09821ceda48782f9f3799490b64d1407",
+      "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+      "caption": "August 2025 studio set — Open-top side profile with No. 83 and gold wheels",
+      "credit": "Jacopo Pieretti / Automotive Masterpieces",
+      "caption_zh": "2025 年 8 月棚拍——敞篷侧面全景、83 号图案与金色轮毂",
+      "sha256": "fc0ad7acc0342c29be31802e270746560ac67edf3effb7d786ac28e0141a807d",
+      "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    },
+    {
+      "record_id": "SP3-315825-GUNSTON",
+      "url": "https://automotivemasterpieces.com/image/4caaefab303dd51dd611c847d48daf62a246bca2",
+      "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+      "caption": "August 2025 studio set — Open doorway framing the blue cockpit",
+      "credit": "Jacopo Pieretti / Automotive Masterpieces",
+      "caption_zh": "2025 年 8 月棚拍——从开启车门看蓝色座舱",
+      "sha256": "a3e8786a535a176c43702f61a4e2418514ee94e4dc40cd133ee6331f72fb9619",
+      "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    },
+    {
+      "record_id": "SP3-315825-GUNSTON",
+      "url": "https://automotivemasterpieces.com/image/69030f1c945953476f1d1ac4f43b29e2ab9ee975",
+      "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+      "caption": "August 2025 studio set — Front luggage compartment and fitted bags",
+      "credit": "Jacopo Pieretti / Automotive Masterpieces",
+      "caption_zh": "2025 年 8 月棚拍——前行李舱与随车收纳包",
+      "sha256": "45057fd5d9457789aaf413fc0bdd759df7ab6d1afca93b68c62cc4f586bfcbf5",
+      "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    },
+    {
+      "record_id": "SP3-315825-GUNSTON",
+      "url": "https://automotivemasterpieces.com/image/3955dbfac2294a26470b3e43dd677eddaae5aafd",
+      "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+      "caption": "August 2025 studio set — Side profile with both doors and engine cover raised",
+      "credit": "Jacopo Pieretti / Automotive Masterpieces",
+      "caption_zh": "2025 年 8 月棚拍——双门与发动机盖开启的侧面全景",
+      "sha256": "e308c0adbddca86ff453af70a1cca0826b8536c28993d827d38dbcd317daac81",
+      "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    },
+    {
+      "record_id": "SP3-315825-GUNSTON",
+      "url": "https://automotivemasterpieces.com/image/bc45f6aa2e45e7abc01f26272c8835e587343755",
+      "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+      "caption": "August 2025 studio set — Tailor Made dedication plaque in the carbon centre tunnel",
+      "credit": "Jacopo Pieretti / Automotive Masterpieces",
+      "caption_zh": "2025 年 8 月棚拍——碳纤维中控台上的 Tailor Made 致敬铭牌",
+      "sha256": "19662e9b8f577981ebc5e3b80915768edaa8b319c5cae0ef8b775e6c70908b9b",
+      "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    },
+    {
+      "record_id": "SP3-315825-GUNSTON",
+      "url": "https://automotivemasterpieces.com/image/ee2a11e45a0f8822f6f8e01bef0547eded7fb7ae",
+      "source_url": "https://automotivemasterpieces.com/cars/AU-34679/gallery",
+      "caption": "August 2025 studio set — Overhead view of the blue seats and cockpit layout",
+      "credit": "Jacopo Pieretti / Automotive Masterpieces",
+      "caption_zh": "2025 年 8 月棚拍——俯视蓝色座椅与座舱布局",
+      "sha256": "ceb23499392a7218f63ebf878007a8998251fc9d399ff253296a2d4d4d0f17da",
+      "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    }
+  ],
+  "research_notes": [
+    {
+      "source": "https://www.tylosand.se/pakker-og-underholdning/lovpakke/efterarsferie-program-v-42",
+      "result": "Rejected: SP3 image is a resized version of the existing Hotel Tylosand front-quarter photo."
+    },
+    {
+      "source": "https://www.davidsklee.com/",
+      "result": "Two SP3 previews found, but Instagram CDN URLs contain expiring signatures. Seek a stable public image source."
+    },
+    {
+      "source": "https://www.flickr.com/photos/199338152@N05/albums/72177720326444852/page2",
+      "result": "Public response contains the same first 23 photos, mostly other Ferrari models; page2 did not yield the remaining images. Do not assume pagination succeeded."
+    },
+    {
+      "source": "https://luxuryautonews.com/gordon-ramsay-delights-young-fan-by-letting-him-take-wheel-of-4m-ferrari/",
+      "result": "HTTP406 via ordinary page GET and web open; no images added."
+    },
+    {
+      "source": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/53520",
+      "result": "All five public image URLs return login-placeholder imagery. Rejected; no gated gallery accessed."
+    },
+    {
+      "source": "https://www.marianettimotors.com/used/vehicle/2023-ferrari-daytona-sp3-id14853362.htm",
+      "result": "Ordinary public page request returned HTTP 403 on 2026-11-19; no images added and no access controls bypassed."
+    },
+    {
+      "source": "https://www.classicdriver.com/en/car/ferrari/2023/991804",
+      "result": "Ordinary public page request returned HTTP 403 on 2026-11-19; no images added and no access controls bypassed."
+    },
+    {
+      "source": "https://www.classicdriver.com/en/car/ferrari/daytona-sp3/2024/1080987",
+      "result": "Ordinary public page request returned HTTP 403 on 2026-11-19; no images added and no access controls bypassed."
+    },
+    {
+      "source": "https://www.motor1.com/news/677809/ferrari-daytona-sp3-window-sticker/",
+      "result": "Ordinary public page request returned HTTP 403 on 2026-11-19; no images added and no access controls bypassed."
+    },
+    {
+      "source": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/127142",
+      "result": "New lawn/interior public preview series verified against old parking-lot series. Two old URLs now return placeholders (1605626 and 1384835); they were not counted as new photos or altered in this batch."
+    },
+    {
+      "source": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/70568",
+      "result": "Five public image URLs return login placeholders; rejected."
+    },
+    {
+      "source": "https://exclusivecarregistry.com/collection/nessim-classics",
+      "result": "Public collection description confirms SP3, but the Cars section requires login; no publicly linked car photograph available."
+    },
+    {
+      "source": "https://exclusivecarregistry.com/details/ferrari/daytona-sp3/113128",
+      "result": "Followed from public Cavalcade 2025 event list. Main photo 1255732 is a login placeholder; no image added."
+    },
+    {
+      "source": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
+      "result": "Followed all 17 public attachment links, which redirect directly to JPEGs. All five identifiable SP3 compositions already occur in registry: Ferrari-Daytona-SP3-Cavalcade.jpg (296011), Ferrari-Daytona-SP3-Cavalcade-sevilla.jpg (305029), Ferrari-cavalcade-dyatona-sp3.jpg (319368), Ferrari-cavalcade-sevilla-dyatona-sp3.jpg (304679), Ferrari-cavalcade-sevilla-SP3-daytona.jpg (304375). Remaining images show other Ferrari models. No duplicates added."
+    }
+  ],
+  "progress": {
+    "added_photos": 27,
+    "records": {
+      "SP3-276831-GOODWOOD": 7,
+      "SP3-PIERO-NART": 1,
+      "SP3-ROMAN-PURPLE-OPACO": 3,
+      "ECR-127142": 5,
+      "SP3-JJ-LIN": 5,
+      "SP3-315825-GUNSTON": 6
+    },
+    "published": false
+  }
+}

@@ -2359,5 +2359,54 @@
     "publisher": "Flickr / david (DAGM4)",
     "description": "Public photographer image matched to the existing Cavalcade record by its visible event number and configuration; original watermark retained.",
     "url": "https://www.flickr.com/photos/dagm4/54751013567"
+  },
+  {
+    "id": "SRC-8E76753E",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52237447288",
+    "publisher": "Flickr / Photocutout",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/photocutout/52237447288"
+  },
+  {
+    "id": "SRC-5B50023B",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52275147615",
+    "publisher": "Flickr / Marcin Wojciechowski / Marcinek_55",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/marcinek55/52275147615"
+  },
+  {
+    "id": "SRC-BAE92918",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52237447363",
+    "publisher": "Flickr / Photocutout",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/photocutout/52237447363"
+  },
+  {
+    "id": "SRC-98363E6E",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52237929860",
+    "publisher": "Flickr / Photocutout",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/photocutout/52237929860"
+  },
+  {
+    "id": "SRC-39394C8F",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52529023022",
+    "publisher": "Flickr / Carlos Sanz / AnchoaPhoto",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/123281362@N02/52529023022"
+  },
+  {
+    "id": "SRC-B56DBD32",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52529968275",
+    "publisher": "Flickr / Carlos Sanz / AnchoaPhoto",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/123281362@N02/52529968275"
+  },
+  {
+    "id": "SRC-BF77E3E9",
+    "label": "Flickr — Goodwood 2022 SP3 photograph 52529775339",
+    "publisher": "Flickr / Carlos Sanz / AnchoaPhoto",
+    "description": "Public photograph of the yellow Goodwood 2022 event car",
+    "url": "https://www.flickr.com/photos/123281362@N02/52529775339"
   }
 ]
