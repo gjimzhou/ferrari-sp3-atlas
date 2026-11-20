@@ -47,7 +47,9 @@
       "拍卖原始图集 · 19",
       "拍卖原始图集 · 20",
       "拍卖原始图集 · 21",
-      "Miller Motorcars 14 车聚会 · 599+1 前景"
+      "Miller Motorcars 14 车聚会 · 599+1 前景",
+      "2026 Palm Beach Cavallino——599+1 正面与非对称涂装",
+      "2026 Palm Beach Cavallino——草坪上的 599+1 前侧视角"
     ]
   },
   "SP3-299827": {
@@ -270,7 +272,9 @@
       "Ferrari 服务标签",
       "风挡 VIN 铭牌 — 286921",
       "制造商识别铭牌",
-      "驾驶装备套装与 Yellow Book"
+      "驾驶装备套装与 Yellow Book",
+      "2026 Villa d’Este 拍卖展示——前侧视角",
+      "2026 Villa d’Este 拍卖展示——车尾与碳纤维扩散器"
     ]
   },
   "SP3-PIERO-NART": {
@@ -3534,6 +3538,11 @@
     "review_status": "2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 311303 与外观展示；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 311303，深红／黑色；88 号。"
+    ],
+    "photo_captions": [
+      "2026 Palm Beach Cavallino——红黑 88 号正面视角",
+      "2026 Palm Beach Cavallino——88 号前侧视角与双色车身",
+      "2026 Palm Beach Cavallino——88 号黑色后车身"
     ]
   },
   "SP3-311304-CAVALLINO-PB": {
@@ -3597,6 +3606,10 @@
     "review_status": "2026-09-22 — 已核对 Palm Beach Cavallino Classic Concours 清单中的底盘 316681 与外观展示；在取得独立逐车来源前保留为 event-backed lead。",
     "timeline": [
       "2026 年 2 月 13–15 日 — Palm Beach Cavallino Classic Concours 清单记录 Daytona SP3 底盘 316681，绿色；23 号。"
+    ],
+    "photo_captions": [
+      "2026 Palm Beach Cavallino——绿色 23 号侧面全景",
+      "2026 Palm Beach Cavallino——23 号车开启车门与后盖"
     ]
   },
   "SP3-322132-CAVALLINO-MODENA": {
@@ -4787,7 +4800,10 @@
       "底座上的配套比例模型",
       "模型展示盒",
       "模型盒标签",
-      "模型文件"
+      "模型文件",
+      "Broad Arrow 拉斯维加斯展示——拍卖厅内车尾视角",
+      "Broad Arrow 拉斯维加斯展示——前侧视角与芥末黄座舱",
+      "拉斯维加斯展示——落地窗旁的侧面全景"
     ]
   },
   "SP3-302914": {

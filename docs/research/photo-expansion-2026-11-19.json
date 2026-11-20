@@ -277,6 +277,126 @@
       "caption_zh": "2025 年 8 月棚拍——俯视蓝色座椅与座舱布局",
       "sha256": "ceb23499392a7218f63ebf878007a8998251fc9d399ff253296a2d4d4d0f17da",
       "verification": "Exact full-image anchor from the existing vehicle gallery. Ordinary GET and image decoding succeeded. Distinct studio configurations/details missing from existing gallery; all photographer and publisher watermarks preserved. Blurred unlicensed placeholders in other gallery sections excluded."
+    },
+    {
+      "record_id": "SP3-314846",
+      "url": "https://live.staticflickr.com/65535/55631057141_f7138569b4_b.jpg",
+      "source_url": "https://www.flickr.com/photos/hunterfrimphotography/55631057141",
+      "caption": "Broad Arrow Las Vegas display — rear view in the auction room",
+      "credit": "Hunter J. G. Frim Photography / Flickr",
+      "caption_zh": "Broad Arrow 拉斯维加斯展示——拍卖厅内车尾视角",
+      "sha256": "9ce9c2687137a1b79d9ff37013387defc0b8832c56b5cdd25921967c19d8c60a",
+      "verification": "Public Flickr dates 2026-10-31 (auction room) and 2026-10-24 (window-side display). Broad Arrow branding visible in front view; matching Verde Francesca body, Mustard seats, silver five-spoke wheels, US side markers and black lower body. ECOLEJ8 caption explicitly identifies Verde Francesca. Distinct public event compositions compared with the existing dealer gallery. Direct image GET succeeded. No identity fields changed."
+    },
+    {
+      "record_id": "SP3-314846",
+      "url": "https://live.staticflickr.com/65535/55631190118_c4c8eef546_b.jpg",
+      "source_url": "https://www.flickr.com/photos/hunterfrimphotography/55631190118",
+      "caption": "Broad Arrow Las Vegas display — front quarter and Mustard cabin",
+      "credit": "Hunter J. G. Frim Photography / Flickr",
+      "caption_zh": "Broad Arrow 拉斯维加斯展示——前侧视角与芥末黄座舱",
+      "sha256": "69acb8ae4bbea16c6ce7857ab472b083df17865ee6d3b81fbba5d8d3841f1c8e",
+      "verification": "Public Flickr dates 2026-10-31 (auction room) and 2026-10-24 (window-side display). Broad Arrow branding visible in front view; matching Verde Francesca body, Mustard seats, silver five-spoke wheels, US side markers and black lower body. ECOLEJ8 caption explicitly identifies Verde Francesca. Distinct public event compositions compared with the existing dealer gallery. Direct image GET succeeded. No identity fields changed."
+    },
+    {
+      "record_id": "SP3-314846",
+      "url": "https://live.staticflickr.com/65535/55609645710_b1b1ed5a36_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136533511@N06/55609645710",
+      "caption": "Las Vegas display — side profile beside the conservatory windows",
+      "credit": "J.C. / ECOLEJ8 / Flickr",
+      "caption_zh": "拉斯维加斯展示——落地窗旁的侧面全景",
+      "sha256": "a6c03f394e81b92466c67b934edd5b8c66449d4b140eb27cc3edf0f133c38141",
+      "verification": "Public Flickr dates 2026-10-31 (auction room) and 2026-10-24 (window-side display). Broad Arrow branding visible in front view; matching Verde Francesca body, Mustard seats, silver five-spoke wheels, US side markers and black lower body. ECOLEJ8 caption explicitly identifies Verde Francesca. Distinct public event compositions compared with the existing dealer gallery. Direct image GET succeeded. No identity fields changed."
+    },
+    {
+      "record_id": "SP3-286921",
+      "url": "https://live.staticflickr.com/65535/55270525617_324c659ae5_b.jpg",
+      "source_url": "https://www.flickr.com/photos/baggys_world/55270525617",
+      "caption": "Villa d’Este 2026 auction display — front quarter",
+      "credit": "Mr Baggy / baggys_world / Flickr",
+      "caption_zh": "2026 Villa d’Este 拍卖展示——前侧视角",
+      "sha256": "025877fbb0fbeee06b0efd38c0ef542a1868ad2f267e7a97c111438189e013c4",
+      "verification": "Photographer caption gives 2023 SP3, EUR6.5m–8.5m estimate and EUR6.25m sale, matching existing Broad Arrow lot 253 record. May 15, 2026 timestamp and Villa d’Este 2026 auction signage visible. Silver wheels, dark calipers and Rosso Magma body match existing gallery. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-286921",
+      "url": "https://live.staticflickr.com/65535/55271439641_067668061e_b.jpg",
+      "source_url": "https://www.flickr.com/photos/baggys_world/55271439641",
+      "caption": "Villa d’Este 2026 auction display — rear and carbon diffuser",
+      "credit": "Mr Baggy / baggys_world / Flickr",
+      "caption_zh": "2026 Villa d’Este 拍卖展示——车尾与碳纤维扩散器",
+      "sha256": "c6f9b62f602540c924f76390f1f1d1f368dfbca243d9e7661b9a31397bc58ab6",
+      "verification": "Photographer caption gives 2023 SP3, EUR6.5m–8.5m estimate and EUR6.25m sale, matching existing Broad Arrow lot 253 record. May 15, 2026 timestamp and Villa d’Este 2026 auction signage visible. Silver wheels, dark calipers and Rosso Magma body match existing gallery. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-316681-CAVALLINO-PB",
+      "url": "https://live.staticflickr.com/65535/55235532959_149f9bd8c1_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55235532959",
+      "caption": "Palm Beach Cavallino 2026 — green No. 23 side profile",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——绿色 23 号侧面全景",
+      "sha256": "fade46c7fdb1f6da7a595c2ebfa99b2dc534c9aab55c56ac40d79b7abe0f7d53",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-316681-CAVALLINO-PB",
+      "url": "https://live.staticflickr.com/65535/55234257817_cc2785ded1_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55234257817",
+      "caption": "Palm Beach Cavallino 2026 — No. 23 with door and rear cover raised",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——23 号车开启车门与后盖",
+      "sha256": "ebdc2e231dd74a222a312936830f2b183ca09b39f5d0bd1eed3cc5137886a18e",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-311303-CAVALLINO-PB",
+      "url": "https://live.staticflickr.com/65535/55235286556_d826234725_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55235286556",
+      "caption": "Palm Beach Cavallino 2026 — red and black No. 88 front view",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——红黑 88 号正面视角",
+      "sha256": "c558bf5e07183be367f044a68d068e1f7e92e6c4e045ea1a1d1aeb53117b3cb3",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-311303-CAVALLINO-PB",
+      "url": "https://live.staticflickr.com/65535/55235567230_03793c3450_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55235567230",
+      "caption": "Palm Beach Cavallino 2026 — No. 88 front quarter and two-tone body",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——88 号前侧视角与双色车身",
+      "sha256": "605db45edf3f417d1e5e0a0ea58aa76d4f2029f84dd61d5e96e497a345120a3a",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-311303-CAVALLINO-PB",
+      "url": "https://live.staticflickr.com/65535/55235406704_ff83a6d077_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55235406704",
+      "caption": "Palm Beach Cavallino 2026 — No. 88 black rear bodywork",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——88 号黑色后车身",
+      "sha256": "cf652b07d9bee26640e0f4cb1bceadfe21f834cc43522f790aedbc245afd1d35",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-319682",
+      "url": "https://live.staticflickr.com/65535/55235279203_b042161c8e_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55235279203",
+      "caption": "Palm Beach Cavallino 2026 — 599+1 head-on with asymmetric livery",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——599+1 正面与非对称涂装",
+      "sha256": "d83d1102e3fd6a10e2e4ac4ed6679f12d25ffbb2bac4f002a9917aa41c8b1ece",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
+    },
+    {
+      "record_id": "SP3-319682",
+      "url": "https://live.staticflickr.com/65535/55235279098_48ec0214e3_b.jpg",
+      "source_url": "https://www.flickr.com/photos/136435491@N07/55235279098",
+      "caption": "Palm Beach Cavallino 2026 — 599+1 front quarter on the concours lawn",
+      "credit": "Bryan S / Bschatz2 / Flickr",
+      "caption_zh": "2026 Palm Beach Cavallino——草坪上的 599+1 前侧视角",
+      "sha256": "f6700145e1bc775080304853c0aaf26b97931c951c9a480643f6319c21ab4c68",
+      "verification": "Photographed February 14, 2026 at Palm Beach Cavallino Classic. Existing Anamera event list rechecked in indexed public text; matching event date and distinctive No. 23 green / No. 88 red-black / asymmetric yellow-carbon 599+1 livery identify the applicable existing record. No chassis, VIN or owner fields added or changed. Direct image GET succeeded; distinct compositions visually checked; credits retained."
     }
   ],
   "research_notes": [
@@ -335,18 +455,27 @@
     {
       "source": "https://novedadmotor.es/ferrari-cavalcade-en-sevilla/",
       "result": "Followed all 17 public attachment links, which redirect directly to JPEGs. All five identifiable SP3 compositions already occur in registry: Ferrari-Daytona-SP3-Cavalcade.jpg (296011), Ferrari-Daytona-SP3-Cavalcade-sevilla.jpg (305029), Ferrari-cavalcade-dyatona-sp3.jpg (319368), Ferrari-cavalcade-sevilla-dyatona-sp3.jpg (304679), Ferrari-cavalcade-sevilla-SP3-daytona.jpg (304375). Remaining images show other Ferrari models. No duplicates added."
+    },
+    {
+      "source": "https://www.dkeng.co.uk/ferrari-sales/2400/blue_chip_competition_cars/ferrari_daytona_sp3.html",
+      "result": "Current public gallery URLs normalized and compared with existing photos; all already present."
+    },
+    {
+      "source": "https://www.joemacari.com/stock/ferrari-daytona-sp3/10005173",
+      "result": "Current public gallery URLs normalized and compared; all already present."
+    },
+    {
+      "source": "https://www.diariodejerez.es/jerez/jerez-recibe-participantes-ferrari-cavalcade-2025_0_2004018347.html",
+      "result": "Article hero shows another Ferrari model; remaining extracted images are unrelated recommendations. No SP3 image added."
+    },
+    {
+      "source": "https://rossoautomobili.com/pages/all-ferrari-blue-colours",
+      "result": "Jacob Elliott Blu Laguna photo shows event No. 5; no sufficient identity link to Central New Jersey showroom record. Not added."
     }
   ],
   "progress": {
-    "added_photos": 27,
-    "records": {
-      "SP3-276831-GOODWOOD": 7,
-      "SP3-PIERO-NART": 1,
-      "SP3-ROMAN-PURPLE-OPACO": 3,
-      "ECR-127142": 5,
-      "SP3-JJ-LIN": 5,
-      "SP3-315825-GUNSTON": 6
-    },
-    "published": false
+    "new_photos": 39,
+    "existing_records": 11,
+    "total_photo_references": 1516
   }
 }
